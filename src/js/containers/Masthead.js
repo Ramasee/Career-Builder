@@ -79,8 +79,8 @@ class Masthead extends Component {
     return (
       <div className={mastheadClass}>
         <div className={css.mastheadOverlay}>
-          <div className={mastheadTitleClass}>RoR Career Builder</div>
-          <div className={css.mastheadSubtitle}>Online Career Builder for Return of Reckoning</div>
+          <div className={mastheadTitleClass}>Interbellum Career Builder</div>
+          <div className={css.mastheadSubtitle}>Online Career Builder for Warhammer Online: Interbellum</div>
           <div className={mastheadCtaClass}>
             <button className={css.mastheadCtaButton} type="button" onClick={this.clickMasthead}>
               Select career
