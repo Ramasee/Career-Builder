@@ -1,0 +1,55 @@
+@value color-base-1, color-text-secondary from "../values/colours.css";
+@value spacing from "../values/spacing.css";
+@value mq-mobile, mq-sm-min, mq-md-min from "../values/mediaQueries.css";
+@value font-size-2 from "../values/fontSizes.css";
+
+.wrapper {
+  height: 100vh;
+  transition: all 500ms ease;
+}
+.container {
+  width: 100%;
+  min-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: color-base-1;
+  box-shadow: 0px 0px 0.5rem 0.2rem rgba(0,0,0,0.3);
+}
+@media mq-sm-min {
+  .container {
+    width: 75rem;
+  }
+}
+@media mq-md-min {
+  .container {
+    width: 95rem;
+  }
+}
+.copy {
+  position: relative;
+  z-index: 20;
+}
+@media mq-mobile {
+  .copy {
+    z-index: auto;
+  }
+}
+.copyText {
+  font-size: font-size-2;
+  color: color-text-secondary;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: spacing;
+}
+.copyLink {
+  &:link,
+  &:visited,
+  &:hover,
+  &:active {
+    color: color-text-secondary;
+    text-decoration: underline;
+  }
+  &:hover {
+    text-decoration: none;
+  }
+}

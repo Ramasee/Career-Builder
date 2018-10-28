@@ -1,0 +1,26 @@
+@value color-text-primary, color-text-secondary from "../values/colours.css";
+@value font-size-1 from "../values/fontSizes.css";
+
+.Breadcrumb {
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: font-size-1;
+  color: color-text-primary;
+}
+.BreadcrumbDivider {
+  composes: Breadcrumb;
+  padding: 0 0.3rem;
+}
+.BreadcrumbActive {
+  composes: Breadcrumb;
+  font-weight: bold;
+}
+.BreadcrumbLink {
+  color: color-text-secondary;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.matt {
+  font-size: 2px;
+}

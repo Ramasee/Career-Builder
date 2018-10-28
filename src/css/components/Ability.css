@@ -1,0 +1,24 @@
+@value color-base-1, color-ability-active from "../values/colours.css";
+
+@value ability-border-radius: 0.3rem;
+
+.ability {
+  composes: ability from "../shared/ability.css";
+  border-radius: ability-border-radius;
+  border: 0.1rem solid color-base-1;
+}
+.abilityMasteryActive {
+  composes: ability;
+  background-color: color-ability-active;
+}
+.abilityMasterySelected {
+  composes: ability;
+  background: transparent;
+  background-color: transparent;
+}
+.image {
+  composes: image from "../shared/ability.css";
+}
+.imageInactive {
+  composes: imageInactive from "../shared/ability.css";
+}

@@ -1,0 +1,86 @@
+@value spacing, spacing-extra-small, spacing-small, spacing-medium, spacing-large, spacing-extra-large from "./values/spacing.css";
+@value mq-mobile, mq-xs, mq-sm, mq-sm-min, mq-md, mq-md-min, mq-lg from "./values/mediaQueries.css";
+
+:global {
+  .marginRight {
+    margin-right: spacing;
+    &--extra-small {
+      margin-right: spacing-extra-small;
+    }
+    &--small {
+      margin-right: spacing-small;
+      &\@mobile {
+        @media mq-mobile {
+          margin-right: spacing-small;
+        }
+      }
+    }
+    &--medium {
+      margin-right: spacing-medium;
+    }
+    &--large {
+      margin-right: spacing-large;
+      &\@mobile {
+        @media mq-mobile {
+          margin-right: spacing-large;
+        }
+      }
+    }
+    &--extra-large {
+      margin-right: spacing-extra-large;
+    }
+    &\@mobile {
+      @media mq-mobile {
+        margin-right: spacing;
+      }
+    }
+    &\@sm-min {
+      @media mq-sm-min {
+        margin-right: spacing;
+      }
+    }
+    &\@md-min {
+      @media mq-md-min {
+        margin-right: spacing;
+      }
+    }
+    &--none {
+      margin-right: 0;
+      &\@mobile {
+        @media mq-mobile {
+          margin-right: 0;
+        }
+      }
+      &\@xs {
+        @media mq-xs {
+          margin-right: 0;
+        }
+      }
+      &\@sm {
+        @media mq-sm {
+          margin-right: 0;
+        }
+      }
+      &\@sm-min {
+        @media mq-sm-min {
+          margin-right: 0;
+        }
+      }
+      &\@md {
+        @media mq-md {
+          margin-right: 0;
+        }
+      }
+      &\@md-min {
+        @media mq-md-min {
+          margin-right: 0;
+        }
+      }
+      &\@lg {
+        @media mq-lg {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

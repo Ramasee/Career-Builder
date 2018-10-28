@@ -1,0 +1,70 @@
+{
+  "name": "ror-career-builder",
+  "version": "1.0.0",
+  "description": "Web app for users of computer game Return of Reckoning to build and save career specs",
+  "main": "",
+  "engines": {
+    "node": "8.5.0",
+    "npm": "5.5.1"
+  },
+  "scripts": {
+    "prod": "webpack --config webpack.prod.js",
+    "dev": "webpack-dev-server --config webpack.dev.js --progress --colors",
+    "postinstall": "./node_modules/.bin/webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattyrichards/ror-career-builder.git"
+  },
+  "keywords": [
+    "webpack",
+    "React",
+    "es6",
+    "babel",
+    "warhammer",
+    "Return of Reckoning",
+    "Games Workshop",
+    "CSS Modules",
+    "Redux",
+    "React Router"
+  ],
+  "author": "Matt Richards",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "7.2.1",
+    "autotrack": "0.6.5",
+    "axios": "0.17.1",
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.24.1",
+    "classnames": "2.2.5",
+    "css-loader": "0.28.7",
+    "cssnano": "3.10.0",
+    "express": "4.16.2",
+    "extract-text-webpack-plugin": "3.0.2",
+    "handlebars": "4.0.11",
+    "handlebars-loader": "1.6.0",
+    "html-webpack-plugin": "2.30.1",
+    "lodash": "4.17.4",
+    "postcss-calc": "5.3.0",
+    "postcss-import": "11.0.0",
+    "postcss-loader": "2.0.9",
+    "postcss-modules-values": "1.3.0",
+    "postcss-nested": "2.1.2",
+    "query-string": "^5.1.0",
+    "react": "16.1.1",
+    "react-dom": "16.1.1",
+    "react-hot-loader": "^3.1.3",
+    "react-redux": "5.0.6",
+    "react-router-dom": "4.2.2",
+    "redux": "3.7.2",
+    "redux-devtools-extension": "2.13.2",
+    "redux-promise": "0.5.3",
+    "style-loader": "0.19.0",
+    "uglifyjs-webpack-plugin": "1.1.1",
+    "webpack": "3.8.1",
+    "webpack-dev-server": "2.9.5"
+  }
+}
