@@ -4,24 +4,24 @@
       "name": "Path of The Hunter",
       "popover": {
         "primary": "A mastery path focused on hindering your enemies.",
-        "secondary": "Points in Path of the Hunter grants grants Wounds, Toughness, Weaponskill, Strength and Initiative to you Lion."
+        "secondary": "Points in Path of the Hunter grants 8 initiative, 10 toughness and  17 wounds to your lion."
       },
       "optionalAbilities": {
         "lvl1": 4283,
         "lvl2": 4277,
-        "lvl3": 4285,
+        "lvl3": 4280,
         "lvl4": 4279,
-        "lvl5": 4280,
+        "lvl5": 4285,
         "lvl6": 4288,
         "lvl7": 4289
       },
-      "coreAbilities": [4244,4333,4233,4243,4248,4245]
+      "coreAbilities": [4244,4333,4233,4243,4248,4245,7800]
     },
     "b": {
       "name": "Path of The Axeman",
       "popover": {
         "primary": "A mastery path focused on dealing damage to one enemy with the help of your lion.",
-        "secondary": "Points in Path of the Axeman grants Strength and Weapon Skill to your lion.."
+        "secondary": "Points in Path of the Axeman grants 12 strength, 18 weapon skill, and 5 toughness to your lion."
       },
       "optionalAbilities": {
         "lvl1": 4276,
@@ -32,24 +32,24 @@
         "lvl6": 4295,
         "lvl7": 4296
       },
-      "coreAbilities": [4235,4237,4239,4250,4240]
+      "coreAbilities": [4235,4237,4239,4250,4240,7801]
     },
     "c": {
-      "name": "Path of The Woodsman",
+      "name": "Path of The Guardsman",
       "popover": {
         "primary": "A mastery path focused on dealing damage to multiple enemies.",
-        "secondary": "Points in the Woodsman Tree grant lonliness to your Lion."
+        "secondary": "Points in Path of the Axeman grants 20 strength, 8 initiative, 12 toughness, and 20 wounds to your lion."
       },
       "optionalAbilities": {
         "lvl1": 4292,
         "lvl2": 7520,
-        "lvl3": 4294,
+        "lvl3": 4290,
         "lvl4": 4293,
-        "lvl5": 4290,
+        "lvl5": 4294,
         "lvl6": 4281,
         "lvl7": 4282
       },
-      "coreAbilities": [4249,4238,4247,4291,4234]
+      "coreAbilities": [4249,4238,4247,4291,4234,7802]
     }
   },
   "data": [
@@ -65,16 +65,16 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You fling a throwing axe at your target, dealing 97 damage.",
+      "description": "You fling a throwing axe at your target, dealing X physical damage.",
       "category": "Ability"
     },
     
     {
-      "image": "22694",
+      "image": "22701",
       "id": 4294,
       "name": "Spirit Stike",
       "type": "Buff",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
@@ -90,7 +90,7 @@
       "id": 4238,
       "name": "Baiting Strike",
       "type": "Blessing",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "7",
       "cost": "Costs 30 AP",
       "range": "5ft range",
@@ -113,7 +113,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Elemental resistance by 252.",
+      "description": "You gain a 252 unique bonus to Elemental Resistance.",
       "category": "CareerTactic"
     },
   
@@ -122,14 +122,14 @@
       "id": 4282,
       "name": "Blade And Claw",
       "type": "Damaging",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 1800 damage to all enemies within 30 feet of both you and your War Lion.",
+      "description": "Deals 1800 damage to all enemies within 30 feet of you",
       "category": "Morale"
     },
   
@@ -182,17 +182,17 @@
     },
   
     {
-      "image": "13446",
+      "image": "13443",
       "id": 4293,
       "name": "Echoing Challenge",
       "type": "Damaging",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires Trained to Stay",
+      "note": "Requires Trained Traditionally",
       "description": "Deals X damage to all enemies with 25ft knocking them down for 2 seconds.",
       "category": "Ability"
     },
@@ -209,7 +209,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Strength by 160.",
+      "description": "You gain a 160 unique bonus to Strength.",
       "category": "CareerTactic"
     },
   
@@ -410,7 +410,7 @@
       "id": 4291,
       "name": "Echoing Roar",
       "type": "Curse",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "No range",
@@ -598,34 +598,18 @@
     },
   
     {
-      "image": "22702",
-      "id": 4287,
-      "name": "Full-Grown",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your Strength by 50, and increases your War Lion's Wounds by 100.",
-      "category": "CareerTactic"
-    },
-  
-    {
-      "image": "22706",
+      "image": "22701",
       "id": 4292,
-      "name": "Defeaning Roar",
-      "type": "Healing",
-      "spec": "Path of The Woodsman",
+      "name": "Deafening Roar",
+      "type": "Curse",
+      "spec": "Path of The Guardsman",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Echoing Roar will now deal X spirit damage to all targets over 15s.",
+      "description": "Echoing Roar will now deal X spirit damage to all targets over Ys.",
       "category": "CareerTactic"
     },
   
@@ -646,10 +630,10 @@
     },
   
     {
-      "image": "22708",
+      "image": "22702",
       "id": 4280,
       "name": "Merciless Blows",
-      "type": "Buff",
+      "type": "Enchantment",
       "spec": "Path of The Hunter",
       "minrank": "1",
       "cost": "Tactic",
@@ -657,7 +641,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Shattering Blows now increases the target's cast times by 0.5 seconds.",
+      "description": "Shattering Blows will now cause you to gain a (rank * 4) unique bonus to toughness for 10s.",
       "category": "CareerTactic"
     },
   
@@ -721,7 +705,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Lion's Fury no longer requires that the target be Cursed, costs 15 fewer action points, and deals (49 + 25/3 * rank) + (0.3 * STR) + (1.5 DPS) Spirit damage.",
+      "description": "Lion's Fury no longer requires that the target be Cursed, costs 15 fewer action points, and deals (49 + 25/3 * rank) + (0.3 * STR) + (1.5 DPS) spirit damage.",
       "category": "CareerTactic"
     },
   
@@ -778,7 +762,7 @@
       "id": 4247,
       "name": "Pack Assault",
       "type": "Blessing",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "20",
       "cost": "Costs 30 AP",
       "range": "5ft range",
@@ -816,7 +800,7 @@
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
-      "note": "Requires an active pet or Trained to Stay",
+      "note": "Requires an active pet or Trained Traditionally",
       "description": "Increases the additional damage dealt when either you or your pet critically hits by 50%.",
       "category": "CareerTactic"
     },
@@ -832,7 +816,7 @@
       "range": "65ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "You cannot use this ability while airborne<br>You cannot perform this action while rooted<br>You cannot perform this action while stunned<br>You cannot perform this action while Trained to Stay is Active",
+      "note": "You cannot use this ability while airborne<br>You cannot perform this action while rooted<br>You cannot perform this action while stunned<br>You refuse to perform this action while Trained Traditionally",
       "description": "You pounce forwards, leaping towards your target. When you land, you will inflict (20 + 10/3 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage, and your movement speed will be increased by 35% for 3 seconds.",
       "category": "Ability"
     },
@@ -945,7 +929,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals (25 + 6 * rank) + (0.6 * STR) physical damage over 5 seconds. If you attack an enemy from the sides or back, then the target will take a (3 * rank) ability penalty to strength for 5s.",
+      "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals (25 + 6 * rank) + (0.6 * STR) physical damage over 9 seconds. Your target will take a (3 * rank) ability penalty to strength for 9s.",
       "category": "Ability"
     },
   
@@ -954,7 +938,7 @@
       "id": 4249,
       "name": "Slashing Blade",
       "type": "Damaging",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "30",
       "cost": "Costs 35 AP",
       "range": "No range",
@@ -968,7 +952,7 @@
     {
       "image": "22703",
       "id": 4253,
-      "name": "Speed Training",
+      "name": "Full-Fledged Lion",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "21",
@@ -977,23 +961,23 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your War Lion's movement speed by 50%.",
+      "description": "Increases your War Lion's movement speed by 50% and its damage by 10%. Debilitative Command and Kill Command cooldowns are reduced to 30s.",
       "category": "CareerTactic"
     },
   
     {
-      "image": "22709",
+      "image": "22708",
       "id": 4290,
       "name": "Hack Them Down",
-      "type": "Buff",
-      "spec": "Path of The Woodsman",
+      "type": "Curse",
+      "spec": "Path of The Guardsman",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your Path of Woodsman abilities have a 25% chance to reduce the target's morale by 225.",
+      "description": "Any time you critically hit an enemy, you will cause all of their abilities to cost 25% more AP for 5s.",
       "category": "CareerTactic"
     },
   
@@ -1062,7 +1046,7 @@
     },
   
     {
-      "image": "22709",
+      "image": "22708",
       "id": 4285,
       "name": "Kurnous's Chosen",
       "type": "Buff",
@@ -1073,7 +1057,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Fey Illusion will now also cause your target to take a (rank * 2.5 rounded down) ability penalty to wounds.",
+      "description": "Fey Illusion will now cause your target to take a (3 * rank) ability penalty to willpower and intelligence.",
       "category": "CareerTactic"
     },
   
@@ -1105,7 +1089,7 @@
       "incant": "5.0s cast",
       "cooldown": "No cooldown",
       "note": "Can only have one training active",
-      "description": "You train your pet to hunt with you, increasing its Strength, Toughness, Wounds, and Weapon Skill by 50% of your bonus gained from items. Any time either you or your War Lion strikes an enemy, there is a 10% chance that you will deal an additional 78 damage over 3 seconds.<br><br>Your War Lion will gain the ability to reduce enemy movement speed, reduce enemy toughness, and the ability to reduce several enemies' autoattack speeds.",
+      "description": "You train your pet to hunt with you, increasing its Strength, Toughness, Wounds, and Weapon Skill by 50% of your bonus gained from items. 50% of the threat you generate goes to your war lion. Any time you strike an enemy, there is a 10% chance that you and your War Lion will be healed for 100% of the damage dealt over 5 seconds. This effect will stack on a new application refreshing to 5 second duration and is capped at 3% of your maximum health per tick.<br><br>Your War Lion will gain the ability to reduce enemy movement speed, reduce enemy toughness, and the ability to reduce several enemies' autoattack speeds.",
       "category": "Ability"
     },
   
@@ -1121,23 +1105,23 @@
       "incant": "5.0s cast",
       "cooldown": "No cooldown",
       "note": "Can only have one training active.",
-      "description": "You train your pet to fight ferociously, increasing its Strength and  Weapon Skill from your Strength and Weapon Skill gained from items and increasing your Critical Chance by 5%.<br><br>Your War Lion will gain the ability to strike its enemies with a powerful mauling attack, the ability to attack its target repeatedly, and the ability to deal damage over time.",
+      "description": "You train your pet to fight ferociously, increasing its Strength and  Weapon Skill from your Strength and Weapon Skill gained from items and increasing your Critical Chance by 5%. Your War Lion generates 25% less hatred.<br><br>Your War Lion will gain the ability to strike its enemies with a powerful mauling attack, the ability to attack its target repeatedly, and the ability to deal damage over time.",
       "category": "Ability"
     },
   
     {
-      "image": "13427",
+      "image": "13444",
       "id": 4234,
-      "name": "Trained To Stay",
+      "name": "Trained Traditionally",
       "type": "Buff",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "3",
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "5.0s cast",
       "cooldown": "No cooldown",
-      "note": "Can only have one training active.",
-      "description": "You train your pet to stay and protect Chrace while you do battle. You deal 25% more damage since your War Lion cannot be called forth and all of your Woodsman abilities are converted to Spirit damage. You cannot Pounce with Trained to Stay active and its effects do not stack with Loner.<br><br>Your pet gains the ability to be lonely.",
+      "note": "Can only have one training active.<br>Does not stack with loner.",
+      "description": "You are trained in the traditional arts of protection for the Pheonix King. You do not have a white lion, your superior training improves your damage by 25%, your connection to the Pheonix King causes all of your Path of Woodsman abilites to deal spirit damage, and you simply refuse to pounce. It is beneath one of your dignity.",
       "category": "Ability"
     },
   
@@ -1146,7 +1130,7 @@
       "id": 4281,
       "name": "Whirling Axe",
       "type": "Damaging",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "1",
       "cost": "Costs 35 AP/sec",
       "range": "No range",
@@ -1158,11 +1142,59 @@
     },
 
     {
-      "image": "13441",
+      "image": "13446",
+      "id": 7800,
+      "name": "Debilitative Command",
+      "type": "Damaging",
+      "spec": "Path of The Hunter",
+      "minrank": "1",
+      "cost": "Costs 40 AP",
+      "range": "No range",
+      "incant": "Instant Cost",
+      "cooldown": "5min cooldown",
+      "note": "Requires active pet",
+      "description": "You command your War Lion to perform a mauling attack deal X physical damage. If your lion is trained to hunt, it will knock the target down for 3s. If your lion is trained to kill, it will disarm your opponent for 4s.",
+      "category": "Ability"
+    },
+
+    {
+      "image": "13462",
+      "id": 7801,
+      "name": "Kill Command",
+      "type": "Damaging",
+      "spec": "Path of The Axeman",
+      "minrank": "1",
+      "cost": "Costs 40 AP",
+      "range": "No range",
+      "incant": "Instant Cost",
+      "cooldown": "5min cooldown",
+      "note": "Requires active pet",
+      "description": "You command your War Lion to attack the opponents weakest area. Your War Lion will deal X physical damage to the target. This effect will ignore all armor and always critically strikes.",
+      "category": "Ability"
+    },
+    
+        {
+      "image": "13366",
+      "id": 7802,
+      "name": "Slash Command",
+      "type": "Damaging",
+      "spec": "Path of The Guardsman",
+      "minrank": "1",
+      "cost": "Costs 40 AP",
+      "range": "No range",
+      "incant": "Instant Cost",
+      "cooldown": "5.0s cooldown",
+      "note": "Requires active pet",
+      "description": "You command your War Lion to swipe in front of it deal x physical damage to all enemies within 25ft in front of your lion.",
+      "category": "Ability"
+    },
+
+    {
+      "image": "13460",
       "id": 7520,
       "name": "Ethereal Cleave",
       "type": "Curse",
-      "spec": "Path of The Woodsman",
+      "spec": "Path of The Guardsman",
       "minrank": "1",
       "cost": "Costs 45 AP",
       "range": "No range",
