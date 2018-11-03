@@ -1,62 +1,62 @@
 {
   "bright-wizard": {
-    "name": "Bright Wizard",
+    "name": "Bright Wizard (Phase 1)",
     "slug": "bright-wizard",
     "faction": "Order",
     "race": "Empire",
     "class": "Ranged DPS"
   },
   "knight-of-the-blazing-sun": {
-    "name": "Knight of the Blazing Sun",
+    "name": "Knight of the Blazing Sun (Phase 2)",
     "slug": "knight-of-the-blazing-sun",
     "faction": "Order",
     "race": "Empire",
     "class": "Tank"
   },
   "warrior-priest": {
-    "name": "Warrior Priest",
+    "name": "Warrior Priest (Phase 1)",
     "slug": "warrior-priest",
     "faction": "Order",
     "race": "Empire",
     "class": "Healer"
   },
   "witch-hunter": {
-    "name": "Witch Hunter",
+    "name": "Witch Hunter (Phase 1)",
     "slug": "witch-hunter",
     "faction": "Order",
     "race": "Empire",
     "class": "Melee DPS"
   },
   "engineer": {
-    "name": "Engineer",
+    "name": "Engineer (Phase 1)",
     "slug": "engineer",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Ranged DPS"
   },
   "ironbreaker": {
-    "name": "Ironbreaker",
+    "name": "Ironbreaker (Phase 1)",
     "slug": "ironbreaker",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Tank"
   },
   "rune-priest": {
-    "name": "Runepriest",
+    "name": "Runepriest (Phase 1)",
     "slug": "rune-priest",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Healer"
   },
   "slayer": {
-    "name": "Slayer",
+    "name": "Slayer (Phase 1)",
     "slug": "slayer",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Melee DPS"
   },
   "archmage": {
-    "name": "Archmage",
+    "name": "Archmage (Phase 1)",
     "slug": "archmage",
     "faction": "Order",
     "race": "High Elf",
@@ -70,7 +70,7 @@
     "class": "Ranged DPS"
   },
   "sword-master": {
-    "name": "Sword Master",
+    "name": "Sword Master (Phase 1)",
     "slug": "sword-master",
     "faction": "Order",
     "race": "High Elf",
@@ -84,84 +84,84 @@
     "class": "Melee DPS"
   },
   "chosen": {
-    "name": "Chosen",
+    "name": "Chosen (Phase 0)",
     "slug": "chosen",
     "faction": "Destruction",
     "race": "Chaos",
     "class": "Tank"
   },
   "magus": {
-    "name": "Magus",
+    "name": "Magus (Phase 2)",
     "slug": "magus",
     "faction": "Destruction",
     "race": "Chaos",
     "class": "Ranged DPS"
   },
   "marauder": {
-    "name": "Marauder",
+    "name": "Marauder (Phase 2)",
     "slug": "marauder",
     "faction": "Destruction",
     "race": "Chaos",
     "class": "Melee DPS"
   },
   "zealot": {
-    "name": "Zealot",
+    "name": "Zealot (Phase 2)",
     "slug": "zealot",
     "faction": "Destruction",
     "race": "Chaos",
     "class": "Healer"
   },
   "black-orc": {
-    "name": "Black Orc",
+    "name": "Black Orc (Phase 2)",
     "slug": "black-orc",
     "faction": "Destruction",
     "race": "Greenskin",
     "class": "Tank"
   },
   "choppa": {
-    "name": "Choppa",
+    "name": "Choppa (Phase 2)",
     "slug": "choppa",
     "faction": "Destruction",
     "race": "Greenskin",
     "class": "Melee DPS"
   },
   "shaman": {
-    "name": "Shaman",
+    "name": "Shaman (Phase 2)",
     "slug": "shaman",
     "faction": "Destruction",
     "race": "Greenskin",
     "class": "Healer"
   },
   "squig-herder": {
-    "name": "Squig Herder",
+    "name": "Squig Herder (Phase 1)",
     "slug": "squig-herder",
     "faction": "Destruction",
     "race": "Greenskin",
     "class": "Ranged DPS"
   },
   "black-guard": {
-    "name": "Black Guard",
+    "name": "Black Guard (Phase 1)",
     "slug": "black-guard",
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Tank"
   },
   "disciple-of-khaine": {
-    "name": "Disciple of Khaine",
+    "name": "Disciple of Khaine (Phase 1)",
     "slug": "disciple-of-khaine",
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Healer"
   },
   "sorcerer": {
-    "name": "Sorcerer",
+    "name": "Sorcerer (Phase 1)",
     "slug": "sorcerer",
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Ranged DPS"
   },
   "witch-elf": {
-    "name": "Witch Elf",
+    "name": "Witch Elf (Phase 1)",
     "slug": "witch-elf",
     "faction": "Destruction",
     "race": "Dark Elf",
