@@ -1,13 +1,13 @@
 {
   "bright-wizard": {
-    "name": "Bright Wizard (Phase 1)",
+    "name": "Bright Wizard (Phase 2)",
     "slug": "bright-wizard",
     "faction": "Order",
     "race": "Empire",
     "class": "Ranged DPS"
   },
   "knight-of-the-blazing-sun": {
-    "name": "Knight of the Blazing Sun (Phase 2)",
+    "name": "Knight of the Blazing Sun (Phase 1)",
     "slug": "knight-of-the-blazing-sun",
     "faction": "Order",
     "race": "Empire",
@@ -28,7 +28,7 @@
     "class": "Melee DPS"
   },
   "engineer": {
-    "name": "Engineer (Phase 1)",
+    "name": "Engineer (Phase 2)",
     "slug": "engineer",
     "faction": "Order",
     "race": "Dwarf",
@@ -56,7 +56,7 @@
     "class": "Melee DPS"
   },
   "archmage": {
-    "name": "Archmage (Phase 1)",
+    "name": "Archmage (Phase 2)",
     "slug": "archmage",
     "faction": "Order",
     "race": "High Elf",
@@ -84,28 +84,28 @@
     "class": "Melee DPS"
   },
   "chosen": {
-    "name": "Chosen (Phase 0)",
+    "name": "Chosen (Phase 1)",
     "slug": "chosen",
     "faction": "Destruction",
     "race": "Chaos",
     "class": "Tank"
   },
   "magus": {
-    "name": "Magus (Phase 2)",
+    "name": "Magus (Phase 1)",
     "slug": "magus",
     "faction": "Destruction",
     "race": "Chaos",
     "class": "Ranged DPS"
   },
   "marauder": {
-    "name": "Marauder (Phase 2)",
+    "name": "Marauder (Phase 1)",
     "slug": "marauder",
     "faction": "Destruction",
     "race": "Chaos",
     "class": "Melee DPS"
   },
   "zealot": {
-    "name": "Zealot (Phase 2)",
+    "name": "Zealot (Phase 1)",
     "slug": "zealot",
     "faction": "Destruction",
     "race": "Chaos",
@@ -126,7 +126,7 @@
     "class": "Melee DPS"
   },
   "shaman": {
-    "name": "Shaman (Phase 2)",
+    "name": "Shaman (Phase 1)",
     "slug": "shaman",
     "faction": "Destruction",
     "race": "Greenskin",
@@ -140,14 +140,14 @@
     "class": "Ranged DPS"
   },
   "black-guard": {
-    "name": "Black Guard (Phase 1)",
+    "name": "Black Guard (Phase 2)",
     "slug": "black-guard",
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Tank"
   },
   "disciple-of-khaine": {
-    "name": "Disciple of Khaine (Phase 1)",
+    "name": "Disciple of Khaine (Phase 2)",
     "slug": "disciple-of-khaine",
     "faction": "Destruction",
     "race": "Dark Elf",
@@ -166,19 +166,5 @@
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Melee DPS"
-  },
-    "proposal-class": {
-    "name": "White Lion (Proposal)",
-    "slug": "proposal-class",
-    "faction": "Order",
-    "race": "High Elf",
-    "class": "Melee DPS"
-  },
-      "hidden": {
-    "name": "",
-    "slug": "hidden",
-    "faction": "",
-    "race": "",
-    "class": ""
   }
 }
