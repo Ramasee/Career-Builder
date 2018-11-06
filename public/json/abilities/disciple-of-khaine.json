@@ -42,54 +42,6 @@
   },
   "data": [
     {
-      "image": "22736",
-      "id": 5028,
-      "name": "Aethyric Insight",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22736",
-      "id": 5026,
-      "name": "Aethyric Pandemonium",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22736",
-      "id": 5027,
-      "name": "Aethyric Ward",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
       "image": "22712",
       "id": 4996,
       "name": "Alignment of Naggaroth",
@@ -101,7 +53,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Spiritual resistance increased by 252.",
+      "description": "Gain a 252 unique bonus to spirit resistance.",
       "category": "CareerTactic"
     },
   
@@ -114,61 +66,13 @@
       "minrank": "40",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 424 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
       "category": "Morale"
     },
-  
-    {
-      "image": "22725",
-      "id": 5041,
-      "name": "Apotheosis of Flesh",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 5043,
-      "name": "Apotheosis of Mind",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 5042,
-      "name": "Apotheosis of Spirit",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
+
     {
       "image": "22712",
       "id": 4997,
@@ -183,54 +87,6 @@
       "note": "",
       "description": "Any time you kill an enemy, you will regain 471 health over 9 seconds.",
       "category": "CareerTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 5050,
-      "name": "Benediction of Morr",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 5052,
-      "name": "Benediction of the Dead",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 5051,
-      "name": "Benediction of Winters",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
     },
   
     {
@@ -277,56 +133,8 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Covenant Of Celerity will now deal 225 Spirit damage.",
+      "description": "Covenant Of Celerity will now deal X spirit damage.",
       "category": "CareerTactic"
-    },
-  
-    {
-      "image": "22731",
-      "id": 5046,
-      "name": "Boon of Persistence",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22731",
-      "id": 5045,
-      "name": "Boon of Tenacity",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22731",
-      "id": 5044,
-      "name": "Boon of the Impalpable",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you.",
-      "category": "TomeTactic"
     },
   
     {
@@ -354,27 +162,11 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You call upon the Word of Pain, dealing 300 damage every second to all enemies in a 30 feet area around you for the next 4 seconds. Reveling in their agony, you are healed for all damage inflicted by the Word of Pain.",
+      "description": "You call upon the Word of Pain, dealing 300 damage every second to all enemies in a 30 feet area around you for the next 4 seconds. Reveling in their agony, you are healed for all damage inflicted by the Chant of Pain.",
       "category": "Morale"
-    },
-  
-    {
-      "image": "23404",
-      "id": 5020,
-      "name": "Cleanse War Engine",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "30",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "20.0s cooldown",
-      "note": "Only usable on Siege Engines",
-      "description": "Siege Targetted cleanse. Removes two siege specific debuffs from a friendly siege engine.",
-      "category": "Ability"
     },
   
     {
@@ -386,10 +178,10 @@
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Builds 30 Soul Essence",
-      "description": "A potent attack which deals 152 damage to your enemy.",
+      "description": "A potent attack which deals X physical damage to your enemy.",
       "category": "Ability"
     },
   
@@ -402,10 +194,10 @@
       "minrank": "25",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Builds 30 Soul Essence<br>Target must have an Enchantment",
-      "description": "A shattering attack that removes one Enchantment from your enemy and does 127 damage.",
+      "description": "A shattering attack that removes one enchantment from your enemy and does X physical damage.",
       "category": "Ability"
     },
   
@@ -418,10 +210,10 @@
       "minrank": "2",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Builds 25 Soul Essence",
-      "description": "A Crippling attack which deals 127 damage and reduces your enemy's Strength by 50 for 20 seconds. Your defensive target's Strength is increased by 50.",
+      "description": "A Crippling attack which deals X physical damage and causes your enemy to take a (3 * rank) ability penalty to strength for 20 seconds. Your defensive target gains a (3 * rank) ability bonus to strength.",
       "category": "Ability"
     },
   
@@ -434,10 +226,10 @@
       "minrank": "35",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "Builds 25 Soul Essence",
-      "description": "An overwhelming attack which deals 177 damage to your enemy and silences them for 4 seconds, making them unable to use magic.",
+      "description": "An overwhelming attack which deals X physical damage to your enemy and silences them for 4 seconds, making them unable to use magic.",
       "category": "Ability"
     },
   
@@ -450,10 +242,10 @@
       "minrank": "18",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1s cooldown",
       "note": "Only one Covenant may be active at a time.",
-      "description": "All group mates within 100 feet of you gain a 20% chance to Cripple anyone that they damage, dealing 125 Spirit damage and reducing the victim's run speed by 20% for 9 seconds.",
+      "description": "All group mates within 100 feet of you gain a 20% chance to cripple anyone that they damage, dealing X spirit damage and reducing the victim's run speed by 20% for 9 seconds.",
       "category": "Ability"
     },
   
@@ -466,10 +258,10 @@
       "minrank": "14",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Only one Covenant may be active at a time.",
-      "description": "A pact with Khaine that increases the armor of all groupmates within 100 feet of you by 412.",
+      "description": "A pact with Khaine that causes all groupmates within 100 feet to gain a X ability bonus to armor.",
       "category": "Ability"
     },
   
@@ -482,59 +274,11 @@
       "minrank": "4",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1s cooldown",
       "note": "Only one Covenant may be active at a time.",
-      "description": "Any time a groupmate within 100 feet of you damages an enemy, they have a 20% chance to deal an additional 125 Spirit damage to their victim, and heal themselves for an equal amount.",
+      "description": "Any time a groupmate within 100 feet of you damages an enemy, they have a 20% chance to deal an additional X spirit damage to their victim, and heal themselves for an equal amount.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22716",
-      "id": 5048,
-      "name": "Cunning Assault",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22716",
-      "id": 5047,
-      "name": "Cunning Evasion ",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22716",
-      "id": 5049,
-      "name": "Cunning Stratagem",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
     },
   
     {
@@ -578,10 +322,10 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "150ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires 25 Soul Essence per second<br>Requires 9 points in Path of Sacrifice",
-      "description": "You surround yourself or an ally with a devouring aura for up to 5 seconds. Each second, your ally will deal 101 damage to up to 4 enemies within 30 feet of them, and become healed for 50% of all the damage done. You will lose 25 Soul Essence each second, and this effect will end if you run out of Soul Essence to power it with.",
+      "note": "Requires 25 Soul Essence per second",
+      "description": "You surround yourself or an ally with a devouring aura for up to 5 seconds. Each second, your ally will deal X physical damage to up to 4 enemies within 30 feet of them, and become healed for 50% of all the damage done. You will lose 25 Soul Essence each second, and this effect will end if you run out of Soul Essence to power it with.",
       "category": "Ability"
     },
   
@@ -597,7 +341,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Willpower by 160.",
+      "description": "Gaina  160 unique bonus to willpower.",
       "category": "CareerTactic"
     },
   
@@ -610,7 +354,7 @@
       "minrank": "8",
       "cost": "Rank 1 morale",
       "range": "150ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "A strong heal that will restore 1800 health to your target.",
@@ -642,7 +386,7 @@
       "minrank": "24",
       "cost": "Rank 3 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage from melee abilities.",
@@ -690,59 +434,11 @@
       "minrank": "12",
       "cost": "Costs 45 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Builds 45 Soul Essence",
-      "description": "You lash out at all opponents in front of you up to 50 feet away, dealing 103 damage and regaining 15 Soul Essence for each enemy hit.",
+      "note": "",
+      "description": "You lash out at all opponents in front of you up to 50 feet away, dealing X physical damage and regaining 15 Soul Essence for each enemy hit.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22725",
-      "id": 5039,
-      "name": "Favour of the Gods",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 5040,
-      "name": "Favour of the Mad",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 5038,
-      "name": "Favour the Daemonic",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%.",
-      "category": "TomeTactic"
     },
   
     {
@@ -756,8 +452,8 @@
       "range": "No range",
       "incant": "1.0s cast",
       "cooldown": "2.0s cooldown",
-      "note": "Builds 30 Soul Essence<br>Requires 9 points in Path of Torture",
-      "description": "Cripples all targets within 30 feet of you for 584 damage over 24 seconds.",
+      "note": "Builds 30 Soul Essence",
+      "description": "Cripples all targets within 30 feet of you for X physical damage over 24 seconds.",
       "category": "Ability"
     },
   
@@ -773,7 +469,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "Builds 15 Soul Essence",
-      "description": "You call forth the wrath of Khaine, dealing 102 Spirit damage to your target.",
+      "description": "You call forth the wrath of Khaine, dealing X spirit damage to your target.",
       "category": "Ability"
     },
   
@@ -786,10 +482,10 @@
       "minrank": "9",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Builds 30 Soul Essence",
-      "description": "You flay your target for 177 damage. If target is Crippled, they are further Crippled as they become snared, reducing their run speed by 40% for 6 seconds.",
+      "description": "You flay your target for X physical damage. If target is crippled, they are further crippled as they become snared, reducing their run speed by 40% for 6 seconds.",
       "category": "Ability"
     },
   
@@ -802,10 +498,10 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
   
@@ -818,7 +514,7 @@
       "minrank": "20",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
@@ -853,56 +549,8 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit an enemy with an ability from the Path Of Sacrifice, your defensive target will regain 60 Action Points. You may not grant action points to yourself with this effect. Tactic can not trigger more than once every 3 seconds.",
+      "description": "Any time you critically hit an enemy with an ability from the Path Of Sacrifice, your defensive target will regain 60 action points. You may not grant action points to yourself with this effect. Tactic can not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
-    },
-  
-    {
-      "image": "22730",
-      "id": 5031,
-      "name": "Harrier's Ken",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22730",
-      "id": 5030,
-      "name": "Harrier's Pelt",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22730",
-      "id": 5029,
-      "name": "Harrier's Savagery",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you.",
-      "category": "TomeTactic"
     },
   
     {
@@ -917,7 +565,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Consume Strength will now also cause the victim to lose 50 Action Points.",
+      "description": "Consume Strength will now also cause the victim to lose 50 action points.",
       "category": "CareerTactic"
     },
   
@@ -949,7 +597,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time your direct heal critically heals an ally, you will become surrounded by a protective barrier for up to 30 seconds which will absorb up to 475 damage.",
+      "description": "Any time your direct heal critically heals an ally, you will become surrounded by a protective barrier for up to 30 seconds which will absorb up to X damage.",
       "category": "CareerTactic"
     },
   
@@ -965,7 +613,7 @@
       "incant": "1.0s cast",
       "cooldown": "1.5s cooldown",
       "note": "Requires 60 Soul Essence",
-      "description": "All of your groupmates within 100 feet of you regain 643 health.",
+      "description": "All of your groupmates within 100 feet of you regain X health.",
       "category": "Ability"
     },
   
@@ -981,7 +629,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you hit an enemy, there is a 25% chance that they will suffer an additional 453 Spirit damage over 9 seconds.",
+      "description": "Any time you hit an enemy, there is a 25% chance that they will suffer an additional X spirit damage over 9 seconds.",
       "category": "CareerTactic"
     },
   
@@ -997,7 +645,7 @@
       "incant": "0.5s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "A quick heal that restores 468 health.Not affected by cooldown modification abilities.",
+      "description": "A quick heal that restores X health. Not affected by cooldown modification abilities.",
       "category": "Ability"
     },
   
@@ -1012,8 +660,8 @@
       "range": "No range",
       "incant": "3.0s cast",
       "cooldown": "13.0s cooldown",
-      "note": "Requires 20 Soul Essence per second<br>Requires 13 points in Path of Dark Rites",
-      "description": "You throw yourself open to Khaine's influence as power rushes through you for up to 3 seconds. Each second, all allies within 30 feet of you will regain 179 health, and you will lose 20 Soul Essence. This effect will end if you lose your concentration, or run out of Soul Essence to power it with.",
+      "note": "Requires 20 Soul Essence per second",
+      "description": "You throw yourself open to Khaine's influence as power rushes through you for up to 3 seconds. Each second, all allies within 30 feet of you will regain X health, and you will lose 20 Soul Essence. This effect will end if you lose your concentration, or run out of Soul Essence to power it with.",
       "category": "Ability"
     },
   
@@ -1026,10 +674,10 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires 40 Soul Essence<br>Requires 9 points in Path of Dark Rites",
-      "description": "All group mates within 100 feet of you gradually regains 465 health over 15 seconds.",
+      "note": "Requires 40 Soul Essence",
+      "description": "All group mates within 100 feet of you gradually regains X health over 15 seconds.",
       "category": "Ability"
     },
   
@@ -1042,7 +690,7 @@
       "minrank": "32",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Removes all Ailments and Hexes from your group.",
@@ -1058,10 +706,10 @@
       "minrank": "5",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Builds 20 Soul Essence",
-      "description": "A gory strike that Cripples your enemy, dealing 76 damage initially and another 115 damage over 10 seconds and reducing their Toughness by 75.",
+      "description": "A gory strike that Cripples your enemy, dealing X physical damage initially and another Y physical damage over 10 seconds and causing the enemy to take a (3 * rank) ability penalty to toughness.",
       "category": "Ability"
     },
   
@@ -1074,7 +722,7 @@
       "minrank": "28",
       "cost": "Rank 1 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "For 10 seconds, you allow your group mates within 100 feet (instead of yourself) to feast on the life essence of your victims, healing everyone for 50% of the melee damage you deal.",
@@ -1098,54 +746,6 @@
     },
   
     {
-      "image": "22729",
-      "id": 5037,
-      "name": "Outmaneuver the Clever",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22729",
-      "id": 5036,
-      "name": "Outmaneuver the Cunning",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22729",
-      "id": 5035,
-      "name": "Outmaneuver the Dim",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-  
-    {
       "image": "10944",
       "id": 4967,
       "name": "Patch Wounds",
@@ -1154,7 +754,7 @@
       "minrank": "16",
       "cost": "No AP Cost",
       "range": "150ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Requires 25 Soul Essence<br>Target must be Hexed or Ailing",
       "description": "You patch an ally's wound and remove one Ailment or Hex.",
@@ -1170,10 +770,10 @@
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Builds 45 Soul Essence<br>Requires 13 points in Path of Sacrifice",
-      "description": "A strike into your target's soul which deals 202 damage and causes them to lose 50 Action Points. You will gain additional Soul Essence for most of the action points that the enemy lost.",
+      "note": "Builds 45 Soul Essence",
+      "description": "A strike into your target's soul which deals X physical damage and causes them to lose 50 Action Points.",
       "category": "Ability"
     },
   
@@ -1202,27 +802,11 @@
       "minrank": "12",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
       "category": "Morale"
-    },
-  
-    {
-      "image": "23414",
-      "id": 5019,
-      "name": "Reinforce War Engine",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "10",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "You heal the ram for 750 health over the next 5 seconds.",
-      "category": "Ability"
     },
   
     {
@@ -1237,7 +821,7 @@
       "incant": "3.0s cast",
       "cooldown": "8.0s cooldown",
       "note": "Requires 25 Soul Essence per second",
-      "description": "You repeatedly assault an enemy, shredding their soul energy and twisting it to your own purposes. You strike the target up to four times over 3 seconds, dealing 84 Spirit damage per hit. Each hit heals your defensive target for 350% of the damage that was dealt.<br>This effect will end if you break your concentration, or run out of Soul Essence.",
+      "description": "You repeatedly assault an enemy, shredding their soul energy and twisting it to your own purposes. You strike the target up to four times over 3 seconds, dealing X spirit damage per hit. Each hit heals your defensive target for 350% of the damage that was dealt.<br>This effect will end if you break your concentration, or run out of Soul Essence.",
       "category": "Ability"
     },
   
@@ -1269,7 +853,7 @@
       "incant": "0.5s cast",
       "cooldown": "No cooldown",
       "note": "Requires 55 Soul Essence",
-      "description": "Dark forces restore 258 health to an ally immediately, and another 315 over 5 seconds.",
+      "description": "Dark forces restore X health to an ally immediately, and another Y over 5 seconds.",
       "category": "Ability"
     },
   
@@ -1298,75 +882,11 @@
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Builds 30 Soul Essence<br>Requires 5 points in Path of Torture",
-      "description": "A slice aimed at fresh wounds which deals 177 damage. If the enemy was Crippled, then they are further Crippled and take an additional 185 damage over 15 seconds.",
+      "note": "Builds 30 Soul Essence",
+      "description": "A slice aimed at fresh wounds which deals X physical damage. If the enemy was crippled, then they are further crippled and take an additional Y physical damage over 15 seconds.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "23415",
-      "id": 5021,
-      "name": "Shield the Skies",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "40",
-      "cost": "No AP Cost",
-      "range": "No range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "",
-      "description": "Ranged siege engines will deal 90% of the normal damage to you. You will also protect two other group mates within 40 feet. Only one effect of this type may be on a player at a time.",
-      "category": "Ability"
-    },
-  
-    {
-      "image": "22721",
-      "id": 5032,
-      "name": "Sky Titan's Bulwark",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22721",
-      "id": 5033,
-      "name": "Sky Titan's Favor",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22721",
-      "id": 5034,
-      "name": "Sky Titan's Strength",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
     },
   
     {
@@ -1378,10 +898,10 @@
       "minrank": "3",
       "cost": "No AP Cost",
       "range": "150ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires 30 Soul Essence",
-      "description": "Your target is gradually infused with 1700 health over 15 seconds.",
+      "description": "Your target is gradually infused with X health over 15 seconds.",
       "category": "Ability"
     },
   
@@ -1394,10 +914,10 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
-      "note": "Requires 40 Soul Essence<br>Requires 5 points in Path of Dark Rites",
-      "description": "All group mates within 100 feet becomes surrounded by a magical barrier for 10 seconds, which will absorb up to 775 damage for each person.",
+      "note": "Requires 40 Soul Essence",
+      "description": "All group mates within 100 feet becomes surrounded by a magical barrier for 10 seconds, which will absorb up to X damage for each person.",
       "category": "Ability"
     },
   
@@ -1426,7 +946,7 @@
       "minrank": "16",
       "cost": "Rank 1 morale",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Your target suffers 900 damage over 9 seconds, and you are healed for a half of the damage dealt.",
@@ -1474,7 +994,7 @@
       "minrank": "7",
       "cost": "Costs 20 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "15.0s cooldown",
       "note": "Builds 20 Soul Essence",
       "description": "Your enemy is distracted by malevolent spirits, making them hate you less and causing them to deal only 50% damage against you for 15 seconds. You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted.",
@@ -1490,10 +1010,10 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "All of your group mates within 100 feet have their armor increased by 825, Block, Parry, Dodge and Disrupt by 25, and all Resists by 315 for the next 10 seconds.",
+      "description": "All of your group mates within 100 feet gain a X morale bonus to armor, a Y morale bonus to resistances, and have their block/parry/dodge/disrupt increased by 25% for the next 10 seconds.",
       "category": "Morale"
     },
   
@@ -1506,10 +1026,10 @@
       "minrank": "30",
       "cost": "Costs 35 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Builds 35 Soul Essence",
-      "description": "An unholy attack which deals 155 damage to your target and spills out a portion of their soul, healing any of your groupmates within 100 feet for 232 health plus 50% of the damage that you dealt.",
+      "description": "An unholy attack which deals X physical damage to your target and spills out a portion of their soul, healing any of your groupmates within 100 feet for Y health plus 50% of the damage that you dealt.",
       "category": "Ability"
     },
   
@@ -1538,7 +1058,7 @@
       "minrank": "40",
       "cost": "Costs 40 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "Builds 40 Soul Essence",
       "description": "A great energy washes over all targets in front of you, blowing back all enemy players within 30 feet and knocking down monsters.",
@@ -1554,10 +1074,10 @@
       "minrank": "36",
       "cost": "Rank 3 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Raw power erupts in a 30 feet area around you, inflicting 1200 damage and Staggering all enemies around you for 6 seconds, preventing all actions unless they're damaged.",
+      "description": "Raw power erupts in a 30 feet area around you, inflicting 1200 damage and staggering all enemies around you for 6 seconds, preventing all actions unless they're damaged.",
       "category": "Morale"
     },
   
@@ -1570,7 +1090,7 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Victim is overcome with seemingly endless visions of their own grisly death. So real are the visions, that the victim suffers 1596 damage over 7 seconds and will not generate any morale for every second of agony.",
@@ -1586,10 +1106,10 @@
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Builds 30 Soul Essence<br>Requires 5 points in Path of Sacrifice",
-      "description": "A cunning strike which deals 152 damage to your enemy and reduces their chance to parry by 10% for 15 seconds.",
+      "note": "Builds 30 Soul Essence",
+      "description": "A cunning strike which deals X physical damage to your enemy and reduces their chance to parry by 10% for 15 seconds.",
       "category": "Ability"
     },
   
@@ -1602,10 +1122,10 @@
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Builds 30 Soul Essence<br>Requires 13 points in Path of Torture",
-      "description": "A merciless attack which deals 127 damage to the target. If the target is below 50% hit points, instead inflicts 277 damage and will always critically hit.",
+      "note": "Builds 30 Soul Essence",
+      "description": "A merciless attack which deals X physical damage to the target. If the target is below 50% hit points, instead inflicts Y physical damage and will always critically hit.",
       "category": "Ability"
     },
 	
@@ -1618,9 +1138,9 @@
       "minrank": "1",
       "cost": "no cost",
       "range": "self",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5min cooldown",
-      "note": "Requires 15 points in Path of Torture<br>Requires Dual wield",
+      "note": "Requires Dual wield",
       "description": "Removes snares, roots, disarms and silencing effects, makes you immune to snares for 5s, and increases your movement speed by 50%.",
       "category": "Ability"
     }

@@ -917,56 +917,8 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Steals up to 200 action points from your target and gives it to you, and reduces your target's Intelligence by 160 for 30 seconds.",
+      "description": "Steals up to 200 action points from your target and gives it to you, and causes your target to take a 160 unique penalty to intelligence for 30 seconds.",
       "category": "Morale"
-    },
-  
-    {
-      "image": "22721",
-      "id": 3588,
-      "name": "Sky Titan's Bulwark",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22721",
-      "id": 3589,
-      "name": "Sky Titan's Favor",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22721",
-      "id": 3590,
-      "name": "Sky Titan's Strength",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
     },
   
     {
@@ -997,7 +949,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Builds 10 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "For the next 5 seconds, the target is inflicted with a Hex which raises their temperature to a delirious fever, causing them to lose 6 Action Points every 1 seconds. When this effect ends, they will suffer 232 Corporeal damage as the fever peaks.",
+      "description": "For the next 5 seconds, the target is inflicted with a hex which raises their temperature to a delirious fever, causing them to lose 6 action points every 1 seconds. When this effect ends, they will suffer X corporeal damage as the fever peaks.",
       "category": "Ability"
     },
   
@@ -1044,8 +996,8 @@
       "range": "80ft range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Target must be Hexed<br>Builds 10 Combustion<br>Has a chance to cause an Explosion!<br>Requires 9 points in Path of Conflagration",
-      "description": "Deals 435 Elemental damage to your target over 15 seconds. Each time that this effect damages them, the flames will spread, causing 102 Elemental damage over 3 seconds to all other enemies within 20 feet of them.",
+      "note": "Target must be Hexed<br>Builds 10 Combustion<br>Has a chance to cause an Explosion!",
+      "description": "Deals X elemental damage to your target over 15 seconds. Each time that this effect damages them, the flames will spread, causing Y elemental damage over 3 seconds to all other enemies within 20 feet of them.",
       "category": "Ability"
     },
   
@@ -1060,8 +1012,8 @@
       "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Target must be Ignited<br>Builds 10 Combustion<br>Has a chance to cause an Explosion!<br>Requires 13 points in Path of Immolation",
-      "description": "You grasp the power of your Ignite hex and cause it to explode with concussive force, dealing 241 Elemental damage to your target and knocking them down for 3 seconds, but extinguishing your Ignite.",
+      "note": "Target must be Ignited<br>Builds 10 Combustion<br>Has a chance to cause an Explosion!",
+      "description": "You grasp the power of your Ignite hex and cause it to explode with concussive force, dealing X elemental damage to your target and knocking them down for 3 seconds, but extinguishing your Ignite.",
       "category": "Ability"
     },
   
@@ -1109,7 +1061,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Spirit resistance by 252.",
+      "description": "Gain a 252 unique bonus to spirit resistance.",
       "category": "CareerTactic"
     },
   
@@ -1141,7 +1093,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When an enemy is hit by any Conflagration ability, there is a 25% chance that they will become covered in flames, receiving 300 Elemental damage over 5 seconds.",
+      "description": "When an enemy is hit by any Conflagration ability, there is a 25% chance that they will become covered in flames, receiving X elemental damage over 5 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1154,10 +1106,10 @@
       "minrank": "1",
       "cost": "Costs 13 AP/sec",
       "range": "100ft range",
-      "incant": "6.0s cast",
+      "incant": "6.0s channel",
       "cooldown": "11.0s cooldown",
-      "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!<br>Requires 9 points in Path of Immolation",
-      "description": "You turn the air around your enemy into a grasping storm of burning flames for up to 6 seconds, dealing up to 1240 Corporeal damage and snaring them, reducing their run speed by 40%. This effect will end if you break your concentration, or run out of action points.",
+      "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!",
+      "description": "You turn the air around your enemy into a grasping storm of burning flames for up to 6 seconds, dealing up to X corporeal damage and snaring them, reducing their run speed by 40%. This effect will end if you break your concentration, or run out of action points.",
       "category": "Ability"
     }
   ]

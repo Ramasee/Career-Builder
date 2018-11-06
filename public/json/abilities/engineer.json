@@ -50,10 +50,10 @@
       "minrank": "5",
       "cost": "Costs 25 AP",
       "range": "65ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You toss a grenade which splatters a corrosive acid everywhere. Your target and all other enemies within 20 feet of them have Corporeal resistance reduced by 378 and suffer X Corporeal damage over 21 seconds.",
+      "description": "You toss a grenade which splatters a corrosive acid everywhere. Your target and all other enemies within 20 feet of them take a Y ability penalty to corporeal resistance and suffer X corporeal damage over 21 seconds.",
       "category": "Ability"
     },
   
@@ -66,60 +66,14 @@
       "minrank": "7",
       "cost": "Costs 20 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "15.0s cooldown",
       "note": "",
-      "description": "You Detaunt your target, making them hate you less and causing them to deal 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
+      "description": "You detaunt your target, making them hate you less and causing them to deal 50% damage to you for 15 seconds. If you attack anyone that you have detaunted, the effect will immediately end.",
       "category": "Ability"
     },
   
-    {
-      "image": "22736",
-      "id": 3690,
-      "name": "Aethyric Insight",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22736",
-      "id": 3688,
-      "name": "Aethyric Pandemonium",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22736",
-      "id": 3689,
-      "name": "Aethyric Ward",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
+
   
     {
       "image": "22711",
@@ -133,58 +87,10 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Armor by 660.",
+      "description": "Gain a 660 unique bonus to armor.",
       "category": "CareerTactic"
     },
-  
-    {
-      "image": "22725",
-      "id": 3703,
-      "name": "Apotheosis of Flesh",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 3705,
-      "name": "Apotheosis of Mind",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 3704,
-      "name": "Apotheosis of Spirit",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
+
     {
       "image": "04620",
       "id": 3645,
@@ -194,7 +100,7 @@
       "minrank": "32",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Everyone in your group within 100 feet takes only 80% damage for 20 seconds.",
@@ -226,7 +132,7 @@
       "minrank": "28",
       "cost": "Rank 1 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "You regain action points 30% faster for 10 seconds.",
@@ -258,59 +164,11 @@
       "minrank": "12",
       "cost": "Costs 25 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
       "description": "You fling coils of barbed wire all around you, rooting all enemies within 30 feet in place for 5 seconds. There is a 50% chance of the root breaking with every hit.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22718",
-      "id": 3712,
-      "name": "Benediction of Morr",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 3714,
-      "name": "Benediction of the Dead",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 3713,
-      "name": "Benediction of Winters",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
     },
   
     {
@@ -322,26 +180,10 @@
       "minrank": "6",
       "cost": "Costs 35 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You fire a blast of short-range pellets which deal X damage to all enemies in front of you, up to 40 feet away.",
-      "category": "Ability"
-    },
-  
-    {
-      "image": "23411",
-      "id": 3681,
-      "name": "Bolster War Engine",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "10",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "Siege Targetted buff. Increases damage done by that siege engine by 2% for 10 seconds.",
+      "description": "You fire a blast of short-range pellets which deal X physical damage to all enemies in front of you, up to 40 feet away.",
       "category": "Ability"
     },
   
@@ -360,55 +202,7 @@
       "description": "You construct a mid-range grenade turret. You will generate 1 stack of Improvised Upgrades every 2s while within 40ft of your turret, max 8 stacks. Each stack gives you +4% damage, +5% turret range, and +4% increased faster grendier/tinkerer DoTs. With one stack, you may cast grenadier abilities while moving. You will begin to lose stacks at 81ft from your turret, will lose 4 if the turret is destroyed, and all if you summon a different turret.",
       "category": "Ability"
     },
-  
-    {
-      "image": "22731",
-      "id": 3708,
-      "name": "Boon of Persistence",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22731",
-      "id": 3707,
-      "name": "Boon of Tenacity",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22731",
-      "id": 3706,
-      "name": "Boon of the Impalpable",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-  
+
     {
       "image": "04568",
       "id": 3677,
@@ -434,10 +228,10 @@
       "minrank": "28",
       "cost": "Costs 55 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You distribute burn salve to groupmember's within 100 feet, increasing everyone's Elemental resistance by 252 for 60 minutes.",
+      "description": "You distribute burn salve to groupmember's within 100 feet, they gain a X ability bonus to elemental resistance for 60 minutes.",
       "category": "Ability"
     },
   
@@ -450,10 +244,10 @@
       "minrank": "36",
       "cost": "Rank 3 morale",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "A massive cannonball smashes into your target, dealing 2400 damage and reducing their armor by 1400 for 30 seconds.",
+      "description": "A massive cannonball smashes into your target, dealing 2400 damage and causing them to take a 1400 morale penalty to armor for 30 seconds.",
       "category": "Morale"
     },
   
@@ -482,10 +276,10 @@
       "minrank": "16",
       "cost": "Rank 1 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "With luck and experience you are able to Dodge all ranged attacks and Disrupt all magic attacks against you for 7 seconds.",
+      "description": "With luck and experience you are able to dodge all ranged attacks and disrupt all magic attacks against you for 7 seconds.",
       "category": "Morale"
     },
   
@@ -501,7 +295,7 @@
       "incant": "1.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You lob a grenade that releases a powerful shockwave on impact, dealing X Corporeal damage to your target and knocking them back a short distance. Monsters will be knocked down instead.",
+      "description": "You lob a grenade that releases a powerful shockwave on impact, dealing X corporeal damage to your target and knocking them back a short distance. Monsters will be knocked down instead.",
       "category": "Ability"
     },
   
@@ -549,56 +343,8 @@
       "incant": "2.0s cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "A well-aimed shot which deals 586 damage and disarms your target for 3 seconds, making them unable to use their weapons.",
+      "description": "A well-aimed shot which deals X physical damage and disarms your target for 3 seconds, making them unable to use their weapons.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22716",
-      "id": 3710,
-      "name": "Cunning Assault",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22716",
-      "id": 3709,
-      "name": "Cunning Evasion ",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22716",
-      "id": 3711,
-      "name": "Cunning Stratagem",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
     },
   
     {
@@ -610,7 +356,7 @@
       "minrank": "40",
       "cost": "No AP Cost",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "Not usable on Siege Rams or Oil",
       "description": "Siege Targetted debuff. Decreases damage done by that siege engine to 98% for 10 seconds.",
@@ -658,7 +404,7 @@
       "minrank": "24",
       "cost": "Rank 3 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "All of your ranged attacks will explode for the next 10 seconds, dealing 300 damage to all enemies within 20 feet of your target.<br>This effect will not trigger more than once every second.",
@@ -677,7 +423,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When you construct a turret, it will restore 20 Action Points to everyone within 30 feet every 2 seconds.",
+      "description": "When you construct a turret, it will restore 20 action points to everyone within 30 feet every 2 seconds.",
       "category": "CareerTactic"
     },
   
@@ -698,54 +444,6 @@
     },
   
     {
-      "image": "22725",
-      "id": 3701,
-      "name": "Favour of the Gods",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 3702,
-      "name": "Favour of the Mad",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 3700,
-      "name": "Favour the Daemonic",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
       "image": "22704",
       "id": 3640,
       "name": "Fightin' Chance",
@@ -757,7 +455,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Strength, Ballistic Skill, and Weapon Skill by 120, but reduces your Toughness by 120.",
+      "description": "Gain a 120 unique bonus to ballistic skill, weapon skill, and strength. Take a 120 unique penalty to toughness.",
       "category": "CareerTactic"
     },
   
@@ -773,7 +471,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You toss a grenade filled with flaming pitch which deals X Corporeal damage to your target.",
+      "description": "You toss a grenade filled with flaming pitch which deals X corporeal damage to your target.",
       "category": "Ability"
     },
   
@@ -786,10 +484,10 @@
       "minrank": "11",
       "cost": "Costs 35 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You don an experimental suit of protective gear, increasing your Armor by 560 for up to 1 hours.",
+      "description": "You don an experimental suit of protective gear, gain a 560 ability bonus to armor for up to 1 hours.",
       "category": "Ability"
     },
   
@@ -821,7 +519,7 @@
       "incant": "1.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You toss a grenade which explodes with a burst of force, dealing X Corporeal damage to the target. The blinding flash interrupts the victim and all enemies within 20 feet of them.",
+      "description": "You toss a grenade which explodes with a burst of force, dealing X corporeal damage to the target. The blinding flash interrupts the victim and all enemies within 20 feet of them.",
       "category": "Ability"
     },
   
@@ -834,10 +532,10 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
   
@@ -850,7 +548,7 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "4.0s cast",
+      "incant": "4.0s channel",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "You fling packets of explosives all around you for up to 4 seconds, dealing 600 damage each second to all enemies within 30 feet.",
@@ -866,10 +564,10 @@
       "minrank": "40",
       "cost": "Costs 25 AP/sec",
       "range": "100ft range",
-      "incant": "3.0s cast",
+      "incant": "3.0s channel",
       "cooldown": "8.0s cooldown",
       "note": "",
-      "description": "You focus all of your shots on your enemy for up to 3 seconds, dealing 219 damage to them every second. This effect will end if you lose your concentration or run out of action points.",
+      "description": "You focus all of your shots on your enemy for up to 3 seconds, dealing X physical damage to them every second. This effect will end if you lose your concentration or run out of action points.",
       "category": "Ability"
     },
   
@@ -882,7 +580,7 @@
       "minrank": "20",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
@@ -892,7 +590,7 @@
     {
       "image": "04477",
       "id": 3627,
-      "name": "Fulminate Grenade",
+      "name": "Fulmination Grenade",
       "type": "Hex",
       "spec": "Path of The Grenadier",
       "minrank": "16",
@@ -914,10 +612,10 @@
       "minrank": "4",
       "cost": "Costs 40 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A powerful swipe with your spanner which smacks all enemies in front of you up to 40 feet away, dealing X Corporeal damage over 9 seconds.<br>The attack uses the Ranged statistic.",
+      "description": "A powerful swipe with your spanner which smacks all enemies in front of you up to 40 feet away, dealing X corporeal damage over 9 seconds.<br>The attack uses the Ranged statistic.",
       "category": "Ability"
     },
   
@@ -933,7 +631,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A gun attack which deals X damage to your enemy.",
+      "description": "A gun attack which deals X physical damage to your enemy.",
       "category": "Ability"
     },
   
@@ -962,27 +660,11 @@
       "minrank": "40",
       "cost": "Rank 4 morale",
       "range": "100ft range",
-      "incant": "5.0s cast",
+      "incant": "5.0s channel",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "You focus on a spot on the ground, shooting arrows at that spot every 0.5 seconds for 5 seconds, hitting all enemies within 20 feet of that area for 300 damage as long as you maintain your concentration.",
       "category": "Morale"
-    },
-  
-    {
-      "image": "23409",
-      "id": 3682,
-      "name": "Hamper War Engine",
-      "type": "Debuff",
-      "spec": "Core Ability",
-      "minrank": "30",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "Siege Targetted debuff. Increases the cooldown times of that siege engine by 50% for 10 seconds",
-      "category": "Ability"
     },
   
     {
@@ -1002,54 +684,6 @@
     },
   
     {
-      "image": "22730",
-      "id": 3693,
-      "name": "Harrier's Ken",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22730",
-      "id": 3692,
-      "name": "Harrier's Pelt",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22730",
-      "id": 3691,
-      "name": "Harrier's Savagery",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-  
-    {
       "image": "04608",
       "id": 3623,
       "name": "Hip Shot",
@@ -1058,10 +692,10 @@
       "minrank": "10",
       "cost": "Costs 35 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A quick shot from the hip which deals X damage. This attack may be used at close range.",
+      "description": "A quick shot from the hip which deals X physical damage. This attack may be used at close range.",
       "category": "Ability"
     },
   
@@ -1077,7 +711,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Snipe and Gun Blast will now deal an additional 505 damage over 5 seconds.",
+      "description": "Snipe and Gun Blast will now deal an additional X physical damage over 5 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1090,10 +724,10 @@
       "minrank": "9",
       "cost": "Costs 45 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You fire bullets that burst into flame when they strike the enemy, dealing X Corporeal damage over 15 seconds.",
+      "description": "You fire bullets that burst into flame when they strike the enemy, dealing X corporeal damage over 15 seconds.",
       "category": "Ability"
     },
   
@@ -1106,10 +740,10 @@
       "minrank": "18",
       "cost": "Costs 50 AP",
       "range": "65ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "15.0s cooldown",
       "note": "",
-      "description": "You fling out a land mine which arms itself immediately and persists for up to 1 minute. The mine will detonate when an enemy gets too close, dealing X damage to all enemies within 30 feet and staggering them for up to 5 seconds, preventing all actions unless they are damaged.",
+      "description": "You fling out a land mine which arms itself immediately and persists for up to 1 minute. The mine will detonate when an enemy gets too close, dealing X physical damage to all enemies within 30 feet and staggering them for up to 5 seconds, preventing all actions unless they are damaged.",
       "category": "Ability"
     },
   
@@ -1125,7 +759,7 @@
       "incant": "1.0s cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "You deploy a shock rod at your feet which will remain for up to 9 seconds and periodically blast out with waves of power, dealing X Corporeal damage every 3 seconds to all enemies within 30 feet of it.",
+      "description": "You deploy a shock rod at your feet which will remain for up to 9 seconds and periodically blast out with waves of power, dealing X corporeal damage every 3 seconds to all enemies within 30 feet of it.",
       "category": "Ability"
     },
   
@@ -1141,7 +775,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Ballistic Skill by 160",
+      "description": "Gain a 160 unique bonus to ballistic skill.",
       "category": "CareerTactic"
     },
   
@@ -1154,61 +788,13 @@
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "65ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You toss a grenade packed full of dangerous napalm gel on to the ground, where it will burst open and burn for 30 seconds, causing damaging every 2 seconds to any enemies who come within 20 feet of that spot. The fires increase in intensity over time, causing X Corporeal damage during the first 10 seconds, Y Corporeal damage for the next 10 seconds, and Z Corporeal damage for the final 10 seconds. <br> If there are multiple Napalm Grenades in the same area only the highest level one will deal damage.",
+      "description": "You toss a grenade packed full of dangerous napalm gel on to the ground, where it will burst open and burn for 30 seconds, causing damaging every 2 seconds to any enemies who come within 20 feet of that spot. The fires increase in intensity over time, causing X corporeal damage during the first 10 seconds, Y corporeal damage for the next 10 seconds, and Z corporeal damage for the final 10 seconds. <br> If there are multiple Napalm Grenades in the same area only the highest level one will deal damage.",
       "category": "Ability"
     },
-  
-    {
-      "image": "22729",
-      "id": 3699,
-      "name": "Outmaneuver the Clever",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22729",
-      "id": 3698,
-      "name": "Outmaneuver the Cunning",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22729",
-      "id": 3697,
-      "name": "Outmaneuver the Dim",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-  
+
     {
       "image": "04657",
       "id": 3665,
@@ -1220,8 +806,8 @@
       "range": "80ft range",
       "incant": "1.0s cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires 9 points in Path of The Grenadier",
-      "description": "You blast your enemy with powerful and unstable phosphorous ammo, dealing X Corporeal damage to them. The victim and all enemies within 20 feet of them will also suffer Y Corporeal damage over 10 seconds as the shells burst into flame.",
+      "note": "",
+      "description": "You blast your enemy with powerful and unstable phosphorous ammo, dealing X corporeal damage to them. The victim and all enemies within 20 feet of them will also suffer Y corporeal damage over 10 seconds as the shells burst into flame.",
       "category": "Ability"
     },
   
@@ -1250,7 +836,7 @@
       "minrank": "8",
       "cost": "Rank 1 morale",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "A mid-range attack that deals 600 damage and knocks targeted player away. Monsters will be knocked down.",
@@ -1298,10 +884,10 @@
       "minrank": "3",
       "cost": "Costs 60 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires a Turret",
-      "description": "You activate your Turret's automatic redeployment mechanism, instantly moving it to your current location.",
+      "description": "You activate your turret's automatic redeployment mechanism, instantly moving it to your current location.",
       "category": "Ability"
     },
   
@@ -1317,7 +903,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Adds 160 Wounds to your turrets.",
+      "description": "Adds 160 wounds to your turrets.",
       "category": "CareerTactic"
     },
   
@@ -1346,10 +932,10 @@
       "minrank": "25",
       "cost": "No AP Cost",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "Requires a Turret",
-      "description": "You activate the self-destruct mechanism built into your turret, destroying the turret and dealing X Corporeal damage to all enemies within 30 feet of it, knocking them down for 2 seconds.",
+      "description": "You activate the self-destruct mechanism built into your turret, destroying the turret and dealing X corporeal damage to all enemies within 30 feet of it, knocking them down for 2 seconds.",
       "category": "Ability"
     },
   
@@ -1362,7 +948,7 @@
       "minrank": "22",
       "cost": "No AP Cost",
       "range": "65ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires a Turret",
       "description": "You toss a grenade at an ally which removes stagger effects from them and five others within 25 feet.",
@@ -1378,59 +964,11 @@
       "minrank": "30",
       "cost": "Costs 40 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "You mark the enemy with a bright signal flare, dealing X damage over 21 seconds and reducing their chances to dodge or block attacks by 5%.",
+      "description": "You mark the enemy with a bright signal flare, dealing X physical damage over 21 seconds and reducing their chances to dodge or block attacks by 5%.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22721",
-      "id": 3694,
-      "name": "Sky Titan's Bulwark",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22721",
-      "id": 3695,
-      "name": "Sky Titan's Favor",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22721",
-      "id": 3696,
-      "name": "Sky Titan's Strength",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
     },
   
     {
@@ -1444,8 +982,8 @@
       "range": "150ft range",
       "incant": "3.0s cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires 9 points in Path of The Rifleman",
-      "description": "A slow but powerful gun shot which deals X damage to your enemy and can not be defended against.",
+      "note": "",
+      "description": "A slow but powerful gun shot which deals X physical damage to your enemy and can not be defended against.",
       "category": "Ability"
     },
   
@@ -1458,10 +996,10 @@
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You clobber your enemy with your spanner, dealing X damage and reducing their run speed by 40% for 10 seconds.<br>The attack uses the Ranged statistic.",
+      "description": "You clobber your enemy with your spanner, dealing X physical damage and reducing their run speed by 40% for 10 seconds.<br>The attack uses the Ranged statistic.",
       "category": "Ability"
     },
   
@@ -1474,10 +1012,10 @@
       "minrank": "35",
       "cost": "Costs 35 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "You quickly trigger one of your many gadgets and release a sudden shockwave, dealing X Corporeal damage to all enemies within 30 feet.",
+      "description": "You quickly trigger one of your many gadgets and release a sudden shockwave, dealing X corporeal damage to all enemies within 30 feet.",
       "category": "Ability"
     },
   
@@ -1490,10 +1028,10 @@
       "minrank": "1",
       "cost": "Costs 40 AP",
       "range": "65ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A packet of explosives which sticks to your target and slowly burns, dealing X Corporeal damage over 15 seconds. If the effect runs for its full course or the target is killed, then a concealed inner package of explosives will suddenly detonate, dealing Y Corporeal damage to the victim and all enemies within 20 feet of them.",
+      "description": "A packet of explosives which sticks to your target and slowly burns, dealing X corporeal damage over 15 seconds. If the effect runs for its full course or the target is killed, then a concealed inner package of explosives will suddenly detonate, dealing Y corporeal damage to the victim and all enemies within 20 feet of them.",
       "category": "Ability"
     },
   
@@ -1525,7 +1063,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You recover from Stuns and Knockdowns 50% quicker. You will still gain immunity based on the original duration.",
+      "description": "You recover from stuns and knockdowns 50% quicker. You will still gain immunity based on the original duration.",
       "category": "CareerTactic"
     },
   
@@ -1538,10 +1076,10 @@
       "minrank": "1",
       "cost": "Costs 55 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You call for air support, signaling for a strafing run which deals X damage to all enemies in a line in front of you, up to 65 feet away. Any enemy players hit by the powerful shells will be sent flying away from you, while monsters will be knocked down.",
+      "description": "You call for air support, signaling for a strafing run which deals X physical damage to all enemies in a line in front of you, up to 65 feet away. Any enemy players hit by the powerful shells will be sent flying away from you, while monsters will be knocked down.",
       "category": "Ability"
     },
   
@@ -1557,7 +1095,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Corporeal resistance by 252.",
+      "description": "Gain a 252 unique bonus to corporeal resistance.",
       "category": "CareerTactic"
     },
   
@@ -1573,7 +1111,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "After ending or being removed, Barbed Wire will now Snare targets by 40% and deal 246 damage over 5 seconds.",
+      "description": "After ending or being removed, Barbed Wire will now snare targets by 40% and deal X physical damage over 5 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1650,7 +1188,7 @@
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "Self",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "60.0s cooldown",
       "note": "",
       "description": "You load your rifle with the finest of rounds. Your attacks will ignore 25% of the victim's armor for 12seconds.",
