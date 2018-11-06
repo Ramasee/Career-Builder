@@ -85,7 +85,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Big Swing now Snares for 20% for 5 seconds and Disorients, increasing build times by 20%.",
+      "description": "Big Swing now Snares for 20% for 5 seconds and disorients, increasing build times by 20%.",
       "category": "CareerTactic"
     },
   
@@ -117,7 +117,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
-      "description": "Deals X physical damage to targets within 30 feet. Enemies take a Y ability penalty to Strength for 20 seconds.",
+      "description": "Deals X physical damage to targets within 30 feet. Enemies take a Y ability penalty to strength for 20 seconds.",
       "category": "Ability"
     },
   
@@ -133,7 +133,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you Parry, you immediately put your \"Best Plan\" in motion.",
+      "description": "Whenever you parry, you immediately put your \"Best Plan\" in motion.",
       "category": "CareerTactic"
     },
   
@@ -165,7 +165,7 @@
       "incant": "20.0s channel",
       "cooldown": "No cooldown",
       "note": "Requires Shield",
-      "description": "Increase Block Chance by 50%. While you are channeling, you can move at 60% movement speed. After you block, the attacker takes X physical damage.",
+      "description": "Increase block chance by 50%. While you are channeling, you can move at 60% movement speed. After you block, the attacker takes X physical damage.",
       "category": "Ability"
     },
   
@@ -325,7 +325,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the duration of \"Wot Armor?\" by 10 seconds, and target will take a 75 morale penalty to toughness.",
+      "description": "Increases the duration of \"Wot Armor?\" by 10 seconds, and target will take a X morale penalty to toughness.",
       "category": "CareerTactic"
     },
   
@@ -341,7 +341,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "All targets within 30 feet of you take 1200 damage and are Silenced, unable to use Magic for 5 seconds.",
+      "description": "All targets within 30 feet of you take 1200 damage and are silenced, unable to use magic for 5 seconds.",
       "category": "Morale"
     },
   
@@ -357,7 +357,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "A powerful melee attack deals 900 damage over 15 seconds and cause the target to take a 1056 morale penalty to Armor.",
+      "description": "A powerful melee attack deals 900 damage over 15 seconds and cause the target to take a 1056 morale penalty to armor.",
       "category": "Morale"
     },
   
@@ -469,7 +469,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "An encouraging bellow that causes group members within 100 feet to regenerate Action Points 20% faster for 15 seconds.",
+      "description": "An encouraging bellow that causes group members within 100 feet to regenerate action points 20% faster for 15 seconds.",
       "category": "Ability"
     },
   
@@ -485,7 +485,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases Block Chance by 10% when using a shield.",
+      "description": "Increases block chance by 10% when using a shield.",
       "category": "CareerTactic"
     },
   
@@ -501,7 +501,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases Critical Hit Chance by 10% when you have a Gud' Plan, and 20% while you have Da' Best Plan.",
+      "description": "Increases critical hit chance by 10% when you have a Gud' Plan, and 20% while you have Da' Best Plan.",
       "category": "CareerTactic"
     },
   
@@ -517,7 +517,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When you are wielding a Greatweapon, your chance to parry is increased by 5% and all damage you deal is increased by 10%.",
+      "description": "When you are wielding a greatweapon, your chance to parry is increased by 5% and all damage you deal is increased by 10%.",
       "category": "CareerTactic"
     },
 
@@ -613,7 +613,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases Block and Parry by 5% when you have a Gud' Plan, and 10% while you have Da' Best Plan.",
+      "description": "Increases block and parry by 5% when you have a Gud' Plan, and 10% while you have Da' Best Plan.",
       "category": "CareerTactic"
     },
   
@@ -629,7 +629,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A basic throwing attack that inflicts X physical damage. Has a chance to deal X physical damage to a severely wounded target if you are behind them.",
+      "description": "A basic throwing attack that inflicts X physical damage. Has a chance to deal Y physical damage to a severely wounded target if you are behind them.",
       "category": "Ability"
     },
   
@@ -773,7 +773,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Every member of your group within 100 feet gains an additional 10% chance to Parry and Dodge for 30 seconds.",
+      "description": "Every member of your group within 100 feet gains an additional 10% chance to parry and dodge for 30 seconds.",
       "category": "Morale"
     },
   
@@ -933,7 +933,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "A pounding blow to your opponent's skull that deals X physical damage and for the next 10 seconds their head will ring for Y corporeal damage whenever they are Critically hit.",
+      "description": "A pounding blow to your opponent's skull that deals X physical damage and for the next 10 seconds their head will ring for Y corporeal damage whenever they are critically hit.",
       "category": "Ability"
     },
   
@@ -965,7 +965,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You gain 40 Action Points whenever one of your War Bellows trigger.",
+      "description": "You gain 40 Action Points whenever one of your war bellows trigger.",
       "category": "CareerTactic"
     },
   
@@ -1029,7 +1029,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield<br>Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
-      "description": "Deals X physical damage. Gain a Y ability bonus to armor for 20 seconds..",
+      "description": "Deals X physical damage. Gain a Y ability bonus to armor for 20 seconds.",
       "category": "Ability"
     },
   
@@ -1060,8 +1060,8 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Needs da' Best Plan!!<br>No Plan after dis!<br>Requires 13 points in Path of Da Boss",
-      "description": "Deals X Corporeal damage to all targets within 30 feet. Causes enemies to take a X ability penalty to Corporeal Resistance for 20 seconds. Groupmates within 100 feet of you will have their auto attack damage increased by 25% for 10 seconds.",
+      "note": "Needs da' Best Plan!!<br>No Plan after dis!",
+      "description": "Deals X Corporeal damage to all targets within 30 feet. Causes enemies to take a X ability penalty to corporeal resistance for 20 seconds. Groupmates within 100 feet of you will have their auto attack damage increased by 25% for 10 seconds.",
       "category": "Ability"
     },
   
@@ -1077,7 +1077,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Each group member within 100 feet gains 160 Toughness for 30 seconds.",
+      "description": "Each group member within 100 feet gains a 160 morale bonus to toughness for 30 seconds.",
       "category": "Morale"
     },
   

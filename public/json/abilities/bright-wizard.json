@@ -42,70 +42,6 @@
   },
   "data": [
     {
-      "image": "23400",
-      "id": 3577,
-      "name": "Abate War Engine",
-      "type": "Debuff",
-      "spec": "Core Ability",
-      "minrank": "40",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "Siege Targetted debuff. Decreases damage done by that siege engine to 98% for 10 seconds.",
-      "category": "Ability"
-    },
-  
-    {
-      "image": "22736",
-      "id": 3584,
-      "name": "Aethyric Insight",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22736",
-      "id": 3582,
-      "name": "Aethyric Pandemonium",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22736",
-      "id": 3583,
-      "name": "Aethyric Ward",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
       "image": "07958",
       "id": 3569,
       "name": "Annihilate",
@@ -114,59 +50,11 @@
       "minrank": "1",
       "cost": "Costs 15 AP/sec",
       "range": "No range",
-      "incant": "3.0s cast",
+      "incant": "3.0s channel",
       "cooldown": "8.0s cooldown",
-      "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!<br>Requires 5 points in Path of Conflagration",
-      "description": "You concentrate on your magical powers for up to 3 seconds, opening your body to serve as a vessel for the raw power of the Red Wind. The unleashed power will deal 155 Corporeal damage each second to all enemies within 30 feet. This effect will end if you break your concentration, or run out of action points.",
+      "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!",
+      "description": "You concentrate on your magical powers for up to 3 seconds, opening your body to serve as a vessel for the raw power of the Red Wind. The unleashed power will deal X corporeal damage each second to all enemies within 30 feet. This effect will end if you break your concentration, or run out of action points.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22725",
-      "id": 3597,
-      "name": "Apotheosis of Flesh",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 3599,
-      "name": "Apotheosis of Mind",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 3598,
-      "name": "Apotheosis of Spirit",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
     },
   
     {
@@ -178,59 +66,11 @@
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Builds 10 Combustion<br>Has a chance to cause an Explosion!<br>Requires 13 points in Path of Conflagration",
-      "description": "Aqshy, the Wind of Fire, bursts forth explosively around you, dealing 710 Corporeal damage over 15 seconds to all enemies within 30 feet. The force of the blast will send enemy players flying away from you, while monsters will be knocked down.",
+      "note": "Builds 10 Combustion<br>Has a chance to cause an Explosion!",
+      "description": "Aqshy, the Wind of Fire, bursts forth explosively around you, dealing X corporeal damage over 15 seconds to all enemies within 30 feet. The force of the blast will send enemy players flying away from you, while monsters will be knocked down.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22718",
-      "id": 3606,
-      "name": "Benediction of Morr",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 3608,
-      "name": "Benediction of the Dead",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 3607,
-      "name": "Benediction of Winters",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
     },
   
     {
@@ -242,59 +82,11 @@
       "minrank": "7",
       "cost": "Costs 25 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Builds 5 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "Reduces your target's Willpower by 75 for 10 seconds. When the effect ends, the victim will suffer 365 Corporeal damage.",
+      "description": "Your target takes a X ability penalty to willpower for 10 seconds. When the effect ends, the victim will suffer X corporeal damage.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22731",
-      "id": 3602,
-      "name": "Boon of Persistence",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22731",
-      "id": 3601,
-      "name": "Boon of Tenacity",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22731",
-      "id": 3600,
-      "name": "Boon of the Impalpable",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you.",
-      "category": "TomeTactic"
     },
   
     {
@@ -325,7 +117,7 @@
       "incant": "1.0s cast",
       "cooldown": "20.0s cooldown",
       "note": "Builds 10 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "Your target's weapons become red hot, dealing 191 Corporeal damage to them and causing them to lose 50 Action Points.",
+      "description": "Your target's weapons become red hot, dealing X corporeal damage to them and causing them to lose 50 Action Points.",
       "category": "Ability"
     },
   
@@ -338,7 +130,7 @@
       "minrank": "30",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Costs 40 Combustion",
       "description": "You call upon the Winds Of Magic to grant you power, instantly regaining 160 Action Points.",
@@ -354,7 +146,7 @@
       "minrank": "9",
       "cost": "Costs 25 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "You must be Cursed, Hexed, or Ailing",
       "description": "You cause an open wound to sear itself shut, removing one Hex, Curse, or Ailment from yourself.",
@@ -370,10 +162,10 @@
       "minrank": "40",
       "cost": "Costs 25 AP",
       "range": "80ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "Builds 20 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "A Hex which turns the air into unbreathable smoke and ash, dealing 232 Corporeal damage to your target. The target and all other enemies within 20 feet become silenced for 3 seconds, making them unable to use magic.",
+      "description": "A Hex which turns the air into unbreathable smoke and ash, dealing X corporeal damage to your target. The target and all other enemies within 20 feet become silenced for 3 seconds, making them unable to use magic.",
       "category": "Ability"
     },
   
@@ -402,7 +194,7 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "A spot that you select bursts into flames for 8 seconds, dealing 200 damage each second to all enemies within 20 feet.",
@@ -426,54 +218,6 @@
     },
   
     {
-      "image": "22716",
-      "id": 3604,
-      "name": "Cunning Assault",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22716",
-      "id": 3603,
-      "name": "Cunning Evasion ",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22716",
-      "id": 3605,
-      "name": "Cunning Stratagem",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
       "image": "07902",
       "id": 3522,
       "name": "Detonate",
@@ -482,10 +226,10 @@
       "minrank": "14",
       "cost": "Costs 40 AP",
       "range": "80ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Target must be Hexed<br>Builds 25 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "You reach through the power of a Hex on the target to instantly deal 158 Elemental damage to them, and an additional 234 Elemental damage over 9 seconds to them and all other enemies within 20 feet.",
+      "description": "You reach through the power of a hex on the target to instantly deal X elemental damage to them, and an additional Y elemental damage over 9 seconds to them and all other enemies within 20 feet.",
       "category": "Ability"
     },
   
@@ -533,7 +277,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Burning Iron will now deal 291 damage, and you will regain 50 action points when it hits.",
+      "description": "Burning Iron will now deal X elemental damage, and you will regain 50 action points when it hits.",
       "category": "CareerTactic"
     },
   
@@ -549,7 +293,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit an enemy with a direct damage ability, you will gain 200 points of Morale. This effect will not trigger more than once every 3 seconds.",
+      "description": "Any time you critically hit an enemy with a direct damage ability, you will gain 200 points of morale. This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
   
@@ -581,24 +325,8 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Intelligence by 160.",
+      "description": "Grants a 160 unique bonus to intelligence.",
       "category": "CareerTactic"
-    },
-  
-    {
-      "image": "23407",
-      "id": 3575,
-      "name": "Enhance War Engine",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "10",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "Siege Targetted buff. Increases damage done by that siege engine by 2% for 10 seconds.",
-      "category": "Ability"
     },
   
     {
@@ -613,7 +341,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time that your Combustion causes an Explosion, the blast will also deal 50% of the damage to all enemies within 30 feet of you.",
+      "description": "Any time that your combustion causes an explosion, the blast will also deal 50% of the damage to all enemies within 30 feet of you.",
       "category": "CareerTactic"
     },
   
@@ -634,54 +362,6 @@
     },
   
     {
-      "image": "22725",
-      "id": 3595,
-      "name": "Favour of the Gods",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 3596,
-      "name": "Favour of the Mad",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 3594,
-      "name": "Favour the Daemonic",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
       "image": "07934",
       "id": 3518,
       "name": "Fiery Blast",
@@ -693,7 +373,7 @@
       "incant": "3.0s cast",
       "cooldown": "No cooldown",
       "note": "Builds 20 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "You fling a massive ball of fire, dealing 366 Elemental damage to your target and all other enemies within 20 feet of them.",
+      "description": "You fling a massive ball of fire, dealing X elemental damage to your target and all other enemies within 20 feet of them.",
       "category": "Ability"
     },
   
@@ -722,10 +402,10 @@
       "minrank": "12",
       "cost": "Costs 25 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "All enemies within 30 feet are Rooted as they become trapped within a cage of searing flames, making them unable to move for 5 seconds. Rooted targets have a 50% chance to break free when they suffer damage.",
+      "description": "All enemies within 30 feet are rooted as they become trapped within a cage of searing flames, making them unable to move for 5 seconds. Rooted targets have a 50% chance to break free when they suffer damage.",
       "category": "Ability"
     },
   
@@ -741,7 +421,7 @@
       "incant": "3.0s cast",
       "cooldown": "No cooldown",
       "note": "Builds 10 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "You conjure up a fiery missile which slams into your target, dealing 533 Elemental damage.",
+      "description": "You conjure up a fiery missile which slams into your target, dealing X elemental damage.",
       "category": "Ability"
     },
   
@@ -756,8 +436,8 @@
       "range": "80ft range",
       "incant": "3.0s cast",
       "cooldown": "13.0s cooldown",
-      "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!<br>Requires 13 points in Path of Incineration",
-      "description": "You assault your target with a constant stream of fireballs, striking them up to 3 times over 3 seconds. Each blast deals 333 Elemental damage to your target, and 167 Elemental damage to all other enemies within 20 feet of them. This effect will end if you break your concentration or run out of action points.",
+      "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!",
+      "description": "You assault your target with a constant stream of fireballs, striking them up to 3 times over 3 seconds. Each blast deals X elemental damage to your target, and Y elemental damage to all other enemies within 20 feet of them. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
   
@@ -770,10 +450,10 @@
       "minrank": "16",
       "cost": "Costs 35 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Builds 20 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "You momentarily turn your very breath into a rolling burst of flames, dealing 508 Elemental damage over 9 seconds to all enemies in a cone in front of you, up to 40 feet away.",
+      "description": "You momentarily turn your very breath into a rolling burst of flames, dealing X elemental damage over 9 seconds to all enemies in a cone in front of you, up to 40 feet away.",
       "category": "Ability"
     },
   
@@ -786,10 +466,10 @@
       "minrank": "18",
       "cost": "Costs 30 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "45.0s cooldown",
       "note": "",
-      "description": "All groupmates within 100 feet are Enchanted with a protective shield of flickering flames for 1 hour, giving them a 25% chance to deal 125 Elemental damage back against the attacker when they are struck by a melee attack.",
+      "description": "All groupmates within 100 feet are enchanted with a protective shield of flickering flames for 1 hour, giving them a 25% chance to deal X elemental damage back against the attacker when they are struck by a melee attack.",
       "category": "Ability"
     },
   
@@ -802,10 +482,10 @@
       "minrank": "6",
       "cost": "Costs 30 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "45.0s cooldown",
       "note": "",
-      "description": "An Enchantment which infuses your groupmates within 100 feet of you with the spirit of fire for 1 hour, giving them a 25% chance to deal an additional 150 Elemental damage any time they attack a target.",
+      "description": "An enchantment which infuses your groupmates within 100 feet of you with the spirit of fire for 1 hour, giving them a 25% chance to deal an additional X elemental damage any time they attack a target.",
       "category": "Ability"
     },
   
@@ -834,10 +514,10 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
   
@@ -850,7 +530,7 @@
       "minrank": "20",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
@@ -869,7 +549,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Boiling Blood's Willpower debuff is increased to 225 for 5 seconds and will deal 533 Corporeal damage at the end of the debuff duration.",
+      "description": "Boiling Blood's willpower debuff is increased to Y for 5 seconds and will deal X corporeal damage at the end of the debuff duration.",
       "category": "CareerTactic"
     },
   
@@ -885,7 +565,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Flames Of Rhuin will now deal 225 damage, and Flame Shield will now deal 200 damage.",
+      "description": "Flames Of Rhuin will now deal X elemental damage, and Flame Shield will now deal Y elemental damage.",
       "category": "CareerTactic"
     },
   
@@ -898,59 +578,11 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You become a living conduit for the power of the Red Wind of Magic, causing all of your directly damaging magical attacks to deal an additional 100 Corporeal damage to your target, but you will also suffer 50 damage for each one. Use this ability again to turn it off.",
+      "description": "You become a living conduit for the power of the Red Wind of Magic, causing all of your directly damaging magical attacks to deal an additional X corporeal damage to your target, but you will also suffer X/2 damage for each one. Use this ability again to turn it off.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22730",
-      "id": 3587,
-      "name": "Harrier's Ken",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22730",
-      "id": 3586,
-      "name": "Harrier's Pelt",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22730",
-      "id": 3585,
-      "name": "Harrier's Savagery",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you.",
-      "category": "TomeTactic"
     },
   
     {
@@ -962,27 +594,11 @@
       "minrank": "36",
       "cost": "Rank 3 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Removes all Hexes and Curses from you. You regain 485 health over 15 seconds.",
       "category": "Morale"
-    },
-  
-    {
-      "image": "23410",
-      "id": 3576,
-      "name": "Hex War Engine",
-      "type": "Debuff",
-      "spec": "Core Ability",
-      "minrank": "30",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "Siege Targetted debuff. Increases the cooldown times of that siege engine by 50% for 10 seconds",
-      "category": "Ability"
     },
   
     {
@@ -994,10 +610,10 @@
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Builds 5 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "A Hex which causes your target to burst into flames, dealing 426 Elemental damage to them over 9 seconds.",
+      "description": "A hex which causes your target to burst into flames, dealing X elemental damage to them over 9 seconds.",
       "category": "Ability"
     },
   
@@ -1013,7 +629,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "The cost of Ignite is reduced by 20 and it will reduce the enemy's Corporeal resistance by 236 for 9 seconds.",
+      "description": "The ap cost of Ignite is reduced by 20 and it causes enemies to take a X unique penalty to corporeal resistance for 9 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1029,7 +645,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Pyroclastic Surge and Scorched Earth gain a 25% chance to cause an additional 350 Elemental damage over 5 seconds to each target hit.",
+      "description": "Pyroclastic Surge and Scorched Earth gain a 25% chance to cause an additional X elemental damage over 5 seconds to each target hit.",
       "category": "CareerTactic"
     },
   
@@ -1042,7 +658,7 @@
       "minrank": "8",
       "cost": "Rank 1 morale",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "A focused blast that deals 600 damage and knocks the targeted player away. Monsters will be knocked down.",
@@ -1058,7 +674,7 @@
       "minrank": "28",
       "cost": "Rank 1 morale",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 600 damage to your target immediately, and another 1206 damage over 9 seconds.",
@@ -1077,7 +693,7 @@
       "incant": "1.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "Consumes all Combustion",
-      "description": "You expel all of your build-up Combustion in a fiery blast, dealing damage to your target based on the amount of Combustion that was consumed.<br>  1 - 10 Combustion: 75 damage.<br>  11 - 30 Combustion: 150 damage.<br>  31 - 70 Combustion: 300 damage.<br>  71 - 90 Combustion: 600 damage.<br>  91 - 100 Combustion: 750 damage.",
+      "description": "You expel all of your build-up Combustion in a fiery blast, dealing damage to your target based on the amount of Combustion that was consumed.<br>  1 - 10 Combustion: 75 morale damage.<br>  11 - 30 Combustion: 150 morale damage.<br>  31 - 70 Combustion: 300 morale damage.<br>  71 - 90 Combustion: 600 morale damage.<br>  91 - 100 Combustion: 750 morale damage.",
       "category": "Ability"
     },
   
@@ -1090,7 +706,7 @@
       "minrank": "16",
       "cost": "Rank 1 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "You gain a strong counter aura for the next 10 seconds that will reduce half of any incoming Magic damage and redirect half of any direct damage back to the caster.",
@@ -1106,59 +722,11 @@
       "minrank": "1",
       "cost": "Costs 40 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Builds 40 Combustion<br>Has a chance to cause an Explosion!<br>Requires 9 points in Path of Incineration",
-      "description": "A powerful spell which makes your target spontaneously combust, dealing 341 Elemental damage to them.",
+      "note": "Builds 40 Combustion<br>Has a chance to cause an Explosion!",
+      "description": "A powerful spell which makes your target spontaneously combust, dealing X elemental damage to them.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22729",
-      "id": 3593,
-      "name": "Outmaneuver the Clever",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22729",
-      "id": 3592,
-      "name": "Outmaneuver the Cunning",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22729",
-      "id": 3591,
-      "name": "Outmaneuver the Dim",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you.",
-      "category": "TomeTactic"
     },
   
     {
@@ -1170,10 +738,10 @@
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "A Hex which surrounds the target with hungry flames, causing all healing used on them for the next 10 seconds to become 50% less effective. Each time someone attempts to use a direct heal on them, the flames will lash out, and healer will suffer 250 Elemental damage.",
+      "description": "A hex which surrounds the target with hungry flames, causing all healing used on them for the next 10 seconds to become 50% less effective. Each time someone attempts to use a direct heal on them, the flames will lash out, and healer will suffer X elemental damage.",
       "category": "Ability"
     },
   
@@ -1189,7 +757,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Meltdown will now restore your action points, returning an amount equal to the Combustion which was expended.",
+      "description": "Meltdown will now restore your action points, returning an amount equal to the combustion which was expended.",
       "category": "CareerTactic"
     },
   
@@ -1205,7 +773,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "Builds 10 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "A fountain of molten lava envelops your target, dealing 320 Corporeal damage. If they are Hexed, then they will also be inflicted with a disorienting Hex for 3 seconds, causing all of their actions to take an additional 50% longer to build up.",
+      "description": "A fountain of molten lava envelops your target, dealing X corporeal damage. If they are hexed, then they will also be inflicted with a disorienting hex for 3 seconds, causing all of their actions to take an additional 50% longer to build up.",
       "category": "Ability"
     },
   
@@ -1218,10 +786,10 @@
       "minrank": "25",
       "cost": "Costs 10 AP/sec",
       "range": "80ft range",
-      "incant": "10.0s cast",
+      "incant": "10.0s channel",
       "cooldown": "20.0s cooldown",
       "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "You call down a shower of flames from the Winds Of Magic that rains down for the next 9 seconds, falling upon a spot you select and repeatedly dealing 183 damage to all enemies within 20 feet of that spot.",
+      "description": "You call down a shower of flames from the Winds Of Magic that rains down for the next 9 seconds, falling upon a spot you select and repeatedly dealing X elemental damage to all enemies within 20 feet of that spot.",
       "category": "Ability"
     },
   
@@ -1234,7 +802,7 @@
       "minrank": "32",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 448 damage to all enemies within 30 feet and reduce their Wounds by 180 for 10 seconds.",
@@ -1250,7 +818,7 @@
       "minrank": "24",
       "cost": "Rank 3 morale",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 1200 damage to your target, and staggers them for 9 seconds, preventing all actions until they take damage.",
@@ -1266,10 +834,10 @@
       "minrank": "5",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Costs 20 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "You send a blast of heat into the ground around you, dealing 169 Corporeal damage to all enemies within 30 feet.",
+      "description": "You send a blast of heat into the ground around you, dealing X corporeal damage to all enemies within 30 feet.",
       "category": "Ability"
     },
   
@@ -1285,7 +853,7 @@
       "incant": "1.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "Builds 25 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "Causes a pillar of scalding gas to erupt from the ground, dealing 291 Elemental damage to your target.",
+      "description": "Causes a pillar of scalding gas to erupt from the ground, dealing X elemental damage to your target.",
       "category": "Ability"
     },
   
@@ -1314,10 +882,10 @@
       "minrank": "3",
       "cost": "Costs 20 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "An Enchantment which calls upon the power of the Red Wind to increase your armor by 990 for 10 seconds, and makes it 50% less likely that you will be set back while building up abilities.",
+      "description": "An enchantment which calls upon the power of the Red Wind to give you a X ability bonus to armor for 10 seconds., and makes it 50% less likely that you will be set back while building up abilities.",
       "category": "Ability"
     },
   
@@ -1346,7 +914,7 @@
       "minrank": "12",
       "cost": "Rank 2 morale",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Steals up to 200 action points from your target and gives it to you, and reduces your target's Intelligence by 160 for 30 seconds.",
@@ -1426,7 +994,7 @@
       "minrank": "35",
       "cost": "Costs 35 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Builds 10 Combustion<br>Has a chance to cause an Explosion!",
       "description": "For the next 5 seconds, the target is inflicted with a Hex which raises their temperature to a delirious fever, causing them to lose 6 Action Points every 1 seconds. When this effect ends, they will suffer 232 Corporeal damage as the fever peaks.",
@@ -1442,7 +1010,7 @@
       "minrank": "4",
       "cost": "Costs 20 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "15.0s cooldown",
       "note": "",
       "description": "You Detaunt your target by surrounding them with thick smoke, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
@@ -1474,7 +1042,7 @@
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "80ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Target must be Hexed<br>Builds 10 Combustion<br>Has a chance to cause an Explosion!<br>Requires 9 points in Path of Conflagration",
       "description": "Deals 435 Elemental damage to your target over 15 seconds. Each time that this effect damages them, the flames will spread, causing 102 Elemental damage over 3 seconds to all other enemies within 20 feet of them.",
@@ -1490,7 +1058,7 @@
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Target must be Ignited<br>Builds 10 Combustion<br>Has a chance to cause an Explosion!<br>Requires 13 points in Path of Immolation",
       "description": "You grasp the power of your Ignite hex and cause it to explode with concussive force, dealing 241 Elemental damage to your target and knocking them down for 3 seconds, but extinguishing your Ignite.",
@@ -1506,7 +1074,7 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 1600 damage to your target, and 1200 to all other enemies within 20 feet of them. All enemies hit by this effect will lose 600 points of Morale.",
@@ -1522,7 +1090,7 @@
       "minrank": "40",
       "cost": "Rank 4 morale",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 1800 damage to all enemies within 30 feet, and knocks them away from you.",
@@ -1554,7 +1122,7 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "A wall of fire shoots outwards from you and remains on the ground for 8 seconds, dealing 200 damage each second to all enemies in a line in front of you up to 65 feet away from you.",

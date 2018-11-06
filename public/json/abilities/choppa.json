@@ -69,7 +69,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All your Exhaustive Blows have a 25% chance to restore 225 hit points.",
+      "description": "All your exhaustive blows have a 25% chance to restore 225 hit points.",
       "category": "CareerTactic"
     },
   
@@ -261,7 +261,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for 7 seconds.",
+      "description": "Concentrating on your perceived movements, you will be able to dodge and parry all attacks against you for 7 seconds.",
       "category": "Morale"
     },
   
@@ -356,7 +356,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
-      "note": "Requires Target to have Parried or Blocked",
+      "note": "Requires target to have parried or blocked",
       "description": "Your attacks become more precise, your target's chance to block or parry is reduced by 50% for 10 seconds.",
       "category": "Ability"
     },
@@ -373,7 +373,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduces the Action Point costs by 5 points in Furious state and 10 points in Berserk state.",
+      "description": "Reduces the action point costs by 5 points in furious state and 10 points in berserk state.",
       "category": "CareerTactic"
     },
   
@@ -405,7 +405,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Cooldowns on your Exhaustive Blows are reduced by 25%.",
+      "description": "Cooldowns on your exhaustive blows are reduced by 25%.",
       "category": "CareerTactic"
     },
   
@@ -437,7 +437,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
   
@@ -469,7 +469,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You stare down your opponent, draining 200 of their Action Points into yourself, and reducing their Strength by 160 for 30 seconds.",
+      "description": "You stare down your opponent, draining 200 of their action points into yourself, and causing them to take a 160 morale penalty to strength for 30 seconds.",
       "category": "Morale"
     },
   
@@ -492,7 +492,7 @@
     {
       "image": "02651",
       "id": 4695,
-      "name": "Furious Choppin'",
+      "name": "furious Choppin'",
       "type": "Damaging",
       "spec": "Path of Da' Savage",
       "minrank": "1",
@@ -613,7 +613,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 Corporeal damage over 9 seconds.",
+      "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 corporeal damage over 9 seconds.",
       "category": "CareerTactic"
     },
   
@@ -644,8 +644,8 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "You chop deeply into your enemy, dealing X physical damage. Your love of battle fills you with energy, restoring 100 Action Points.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "note": "Must be furious or berserk<br>Exhausts your Rage",
+      "description": "You chop deeply into your enemy, dealing X physical damage. Your love of battle fills you with energy, restoring 100 Action Points.<br><br>If you are furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
   
@@ -677,7 +677,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "While you are Furious, you regain X health every 4 seconds. While you are Berserk, you regain Y health every 4 seconds.",
+      "description": "While you are furious, you regain X health every 4 seconds. While you are ferserk, you regain Y health every 4 seconds.",
       "category": "CareerTactic"
     },
   
@@ -708,8 +708,8 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
-      "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon",
-      "description": "A brutal attack which deals X physical damage to the target. For the next 10 seconds, any healing abilities that they use will be 50% as effective.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "note": "Must be furious or berserk<br>Exhausts your Rage<br>Requires Great Weapon",
+      "description": "A brutal attack which deals X physical damage to the target. For the next 10 seconds, any healing abilities that they use will be 50% as effective.<br><br>If you are furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
   
@@ -740,8 +740,8 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "Deals X physical damage and for 10 seconds, your chance to be critically hit will be increased by 1%. This negative effect stacks up to 5 times.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "note": "Must be furious or berserk<br>Exhausts your Rage",
+      "description": "Deals X physical damage and for 10 seconds, your chance to be critically hit will be increased by 1%. This negative effect stacks up to 5 times.<br><br>If you are furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
   
@@ -757,7 +757,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "While Berserk, all cooldowns are reduced by 5 seconds.",
+      "description": "While berserk, all cooldowns are reduced by 5 seconds.",
       "category": "CareerTactic"
     },
   
@@ -789,7 +789,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each time you parry an enemy's attack, you will strike them back for 253 damage which they can not prevent.",
+      "description": "Each time you parry an enemy's attack, you will strike them back for X physical damage which they can not prevent.",
       "category": "CareerTactic"
     },
   
@@ -836,7 +836,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Must be Berserk<br>Exhausts your Rage",
+      "note": "Must be berserk<br>Exhausts your Rage",
       "description": "Deals X physical damage and knocks down the target for 3 seconds. The attack is undefendable.",
       "category": "Ability"
     },
@@ -964,8 +964,8 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires Great Weapon<br>Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "You chop your target in a vital organ, dealing X physical damage. For the next 10 seconds, any abilities that they use will take an additional 5 seconds to cooldown.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "note": "Requires Great Weapon<br>Must be furious or berserk<br>Exhausts your Rage",
+      "description": "You chop your target in a vital organ, dealing X physical damage. For the next 10 seconds, any abilities that they use will take an additional 5 seconds to cooldown.<br><br>If you are furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
   
@@ -980,8 +980,8 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
-      "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "An exhaustive blow that deals X physical damage and reduces your target's chance to critically hit by 100% for 10 seconds.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "note": "Must be furious or berserk<br>Exhausts your Rage",
+      "description": "An exhaustive blow that deals X physical damage and reduces your target's chance to critically hit by 100% for 10 seconds.<br><br>If you are furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
   
@@ -1012,8 +1012,8 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
-      "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon",
-      "description": "You unleash a powerful blow, dealing X physical damage.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "note": "Must be furious or berserk<br>Exhausts your Rage<br>Requires Great Weapon",
+      "description": "You unleash a powerful blow, dealing X physical damage.<br><br>If you are furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
   
@@ -1060,8 +1060,8 @@
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "You strike enemies within 30 feet, dealing anywhere from X physical damage to Y physical damage. <br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "note": "Must be furious or berserk<br>Exhausts your Rage",
+      "description": "You strike enemies within 30 feet, dealing anywhere from X physical damage to Y physical damage. <br><br>If you are furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
   
@@ -1077,7 +1077,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Exhaustive Blows will no longer remove your Rage.",
+      "description": "Exhaustive blows will no longer remove your Rage.",
       "category": "CareerTactic"
     },
   
@@ -1092,8 +1092,8 @@
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
-      "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Dual Wield",
-      "description": "You lash out at all enemies within 30 feet, inflicting X physical damage. All of the victims will also become snared, reducing their run speed anywhere from 10% to 40% for up to 9 seconds.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "note": "Must be furious or berserk<br>Exhausts your Rage<br>Requires Dual Wield",
+      "description": "You lash out at all enemies within 30 feet, inflicting X physical damage. All of the victims will also become snared, reducing their run speed anywhere from 10% to 40% for up to 9 seconds.<br><br>If you are furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
   

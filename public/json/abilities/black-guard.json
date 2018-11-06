@@ -40,55 +40,7 @@
       "coreAbilities": [868,864,884,878,871]
     }
   },
-  "data": [
-    {
-      "image": "22736",
-      "id": 959,
-      "name": "Aethyric Insight",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22736",
-      "id": 957,
-      "name": "Aethyric Pandemonium",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22736",
-      "id": 958,
-      "name": "Aethyric Ward",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
+  "data": [ 
     {
       "image": "22712",
       "id": 907,
@@ -101,7 +53,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Spiritual resistance increased by 252.",
+      "description": "Grants a 252 unique bonus to spirit resistance.",
       "category": "CareerTactic"
     },
   
@@ -122,54 +74,6 @@
     },
   
     {
-      "image": "22725",
-      "id": 972,
-      "name": "Apotheosis of Flesh",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 974,
-      "name": "Apotheosis of Mind",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 973,
-      "name": "Apotheosis of Spirit",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
-    {
       "image": "11042",
       "id": 895,
       "name": "Armor of Eternal Servitude",
@@ -178,10 +82,10 @@
       "minrank": "36",
       "cost": "Rank 3 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "The magic infusing your armor springs to life, further increasing your armor by 990 and restoring 2400 health over 20 seconds.",
+      "description": "The magic infusing your armor springs to life, granting a 990 morale bonus to armor and restoring 2400 health over 20 seconds.",
       "category": "Morale"
     },
   
@@ -194,7 +98,7 @@
       "minrank": "32",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "No longer able to bear looking upon your opponents, you knockback everyone within 30 feet of you for 600 damage. Monsters will be knocked down.",
@@ -210,7 +114,7 @@
       "minrank": "28",
       "cost": "Rank 1 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "A cry of rage removes all Hexes, Curses, and Ailments from you. You will regain 50 AP and 300 health for each effect removed.",
@@ -234,54 +138,6 @@
     },
   
     {
-      "image": "22718",
-      "id": 981,
-      "name": "Benediction of Morr",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 983,
-      "name": "Benediction of the Dead",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 982,
-      "name": "Benediction of Winters",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
       "image": "99999",
       "id": 910,
       "name": "Malignant Strike!",
@@ -290,10 +146,10 @@
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "5 ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20s cooldown",
-      "note": "Requires Great Weapon<br>Requires 9 points in Path of Malice",
-      "description": "An overwhelming attack which deals 194 damage and knocks the victim down for 3 seconds.",
+      "note": "Requires Great Weapon",
+      "description": "An overwhelming attack which deals X physical damage and knocks the victim down for 3 seconds.",
       "category": "Ability"
     },
   
@@ -306,7 +162,7 @@
       "minrank": "40",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "You spread a wave of malicious loathing towards all the peons 40 feet in front of you. So searing is this hate that those in your path move 40% slower and suffer 1600 damage over 15 seconds.",
@@ -322,59 +178,11 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
-      "note": "Costs 10 Hatred every 3 seconds.<br>Requires 13 points in Path of Anguish",
-      "description": "You focus your Hatred inward, cursing yourself for your weakness, and force yourself to march on by recovering 290 health every 3 seconds for up to 30 seconds. This effect will end if you run out of Hate.",
+      "note": "Costs 10 Hatred every 3 seconds.",
+      "description": "You focus your Hatred inward, cursing yourself for your weakness, and force yourself to march on by recovering X health every 3 seconds for up to 30 seconds. This effect will end if you run out of Hate.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22731",
-      "id": 977,
-      "name": "Boon of Persistence",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22731",
-      "id": 976,
-      "name": "Boon of Tenacity",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22731",
-      "id": 975,
-      "name": "Boon of the Impalpable",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you.",
-      "category": "TomeTactic"
     },
   
     {
@@ -386,29 +194,13 @@
       "minrank": "9",
       "cost": "Costs 35 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Improves with Hatred",
-      "description": "A vicious blow to the head that deals 373 damage and increases the Strength by 75 and also increasing Willpower based on Hatred for the next 20 seconds.<br>Your Dark Protector will receive increased Strength and Willpower if they are within 50 feet. <br> With 25 Hate: Willpower increased by 75. <br> With 50 Hate: Willpower increased by 150.<br> With 75 Hate: Willpower increased by 225.<br> With 100 Hate: Willpower increased by 300.",
+      "description": "A vicious blow to the head that deals X physical damage and grants a (3 * rank) ability bonus to strength and an ability bonus to willpower based on current hatred for 20s.<br>Your Dark Protector will receive increased Strength and Willpower if they are within 50 feet. <br> With 25 Hate: Willpower increased by 75. <br> With 50 Hate: Willpower increased by 150.<br> With 75 Hate: Willpower increased by 225.<br> With 100 Hate: Willpower increased by 300.",
       "category": "Ability"
     },
-  
-    {
-      "image": "23402",
-      "id": 932,
-      "name": "Bulwark",
-      "type": "Healing",
-      "spec": "Core Ability",
-      "minrank": "40",
-      "cost": "No AP Cost",
-      "range": "5ft range",
-      "incant": "15.0s cast",
-      "cooldown": "5m cooldown",
-      "note": "Only usable on Doors",
-      "description": "Repairs a friendly keep door for 5% of it's total health over 15 seconds.",
-      "category": "Ability"
-    },
-  
+
     {
       "image": "11027",
       "id": 882,
@@ -418,7 +210,7 @@
       "minrank": "30",
       "cost": "Costs 30 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Taken aback by your seething contempt, up to 4 enemies within 30 feet are rooted in place, making them unable to move for 10 seconds. Rooted targets have a 50% chance to break free when they suffer damage.",
@@ -434,7 +226,7 @@
       "minrank": "20",
       "cost": "Costs 30 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
       "description": "You challenge all opponents in front of you, forcing monsters to attack you. While challenged, your opponents will deal only 70% damage to everyone other than you. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
@@ -450,27 +242,11 @@
       "minrank": "16",
       "cost": "Rank 1 morale",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Both you and your target are held tightly in place for 10 seconds, and neither one of you can move.<br>This effect can not be dispelled or broken.",
       "category": "Morale"
-    },
-  
-    {
-      "image": "22670",
-      "id": 946,
-      "name": "Chaotic Allegiance",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You receive an additional 5% morale gain for every Chaos in your group.",
-      "category": "RvRTactic"
     },
   
     {
@@ -482,27 +258,11 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Costs 20 Hatred<br>Requires 5 points in Path of Anguish",
       "description": "A particularly insulting strike that deals 423 damage and causes your target to spend an additional 20 Action Points whenever they activate an ability for the next 10 seconds.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22657",
-      "id": 952,
-      "name": "Combat Awareness",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "5% Increased EXP in Realm vs. Realm combat",
-      "category": "RvRTactic"
     },
   
     {
@@ -514,10 +274,10 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Costs 30 Hatred<br>Requires Great Weapon<br>Requires 13 points in Path of Malice",
-      "description": "A great cleave that strikes all targets 40 feet in front of you for 523 damage and making them 10% more likely to be critically hit by others for 5 seconds.",
+      "note": "Costs 30 Hatred<br>Requires Great Weapon",
+      "description": "A great cleave that strikes all targets 40 feet in front of you for X physical damage and making them 10% more likely to be critically hit by others for 5 seconds.",
       "category": "Ability"
     },
   
@@ -530,10 +290,10 @@
       "minrank": "4",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "A maiming strike that allows you to further toy with your opponent by reducing their movement speed by 40% and dealing 265 damage over 10 seconds.",
+      "description": "A maiming strike that allows you to further toy with your opponent by reducing their movement speed by 40% and dealing X physical damage over 10 seconds.",
       "category": "Ability"
     },
   
@@ -546,10 +306,10 @@
       "minrank": "35",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Improves with Hatred",
-      "description": "A heartless attack that inflicts 348 damage and target's Critical hit chance will be reduced based on your Hate.<br> With 25 Hate: Critical chance reduced 5%. <br> With 50 Hate: Critical chance reduced 10%.<br> With 75 Hate: Critical chance reduced 15%.<br> With 100 Hate: Critical chance reduced 20%.",
+      "description": "A heartless attack that inflicts X physical damage and target's Critical hit chance will be reduced based on your Hate.<br> With 25 Hate: Critical chance reduced 5%. <br> With 50 Hate: Critical chance reduced 10%.<br> With 75 Hate: Critical chance reduced 15%.<br> With 100 Hate: Critical chance reduced 20%.",
       "category": "Ability"
     },
   
@@ -578,59 +338,11 @@
       "minrank": "18",
       "cost": "Costs 35 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A surge of malevolence slams into your foe dealing 398 damage and interrupting them. Will also reduce your opponent's Action Points based on your Hate.<br> With 30 Hate: Reduce AP by 10. <br> With 60 Hate: Reduce AP by 20.<br> With 90 Hate: Reduce AP by 30.",
+      "description": "A surge of malevolence slams into your foe dealing X physical damage and interrupting them. Will also reduce your opponent's Action Points based on your Hate.<br> With 30 Hate: Reduce AP by 10. <br> With 60 Hate: Reduce AP by 20.<br> With 90 Hate: Reduce AP by 30.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22716",
-      "id": 979,
-      "name": "Cunning Assault",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22716",
-      "id": 978,
-      "name": "Cunning Evasion ",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22716",
-      "id": 980,
-      "name": "Cunning Stratagem",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
     },
   
     {
@@ -650,22 +362,6 @@
     },
   
     {
-      "image": "22668",
-      "id": 947,
-      "name": "Dark Elf Lineage",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You receive an additional 5% morale gain for every Dark Elf in your group.",
-      "category": "RvRTactic"
-    },
-  
-    {
       "image": "11501",
       "id": 987,
       "name": "Dark Protector",
@@ -674,26 +370,10 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "160ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1.5s cooldown",
       "note": "",
       "description": "The Witch King has tasked you with watching over one of your pitiful allies. You gain 5 Hatred whenever an enemy dares to attack your protected ally. <br>This effect can not occur more than once per second.",
-      "category": "Ability"
-    },
-  
-    {
-      "image": "23405",
-      "id": 930,
-      "name": "Deflect Oil",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "10",
-      "cost": "No AP Cost",
-      "range": "No range",
-      "incant": "15.0s cast",
-      "cooldown": "5m cooldown",
-      "note": "",
-      "description": "10% reduction in damage taken by Oil siege engines. You will also protect two other group mates within 30 feet. Only one effect of this type may be on a player at a time.",
       "category": "Ability"
     },
   
@@ -706,10 +386,10 @@
       "minrank": "8",
       "cost": "Rank 1 morale",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "A powerful melee attack that reduces armor by 1056 and deals 900 damage over 15 seconds",
+      "description": "A powerful melee attack that causes the target to take a 1056 morale penalty to armor and deals 900 damage over 15 seconds",
       "category": "Morale"
     },
   
@@ -722,7 +402,7 @@
       "minrank": "24",
       "cost": "Rank 3 morale",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "A loud shout that startles your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
@@ -738,43 +418,11 @@
       "minrank": "5",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Costs 40 Hatred",
       "description": "Fueled by your hatred, you push yourself ever onward and regain 160 Action Points.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22667",
-      "id": 933,
-      "name": "Dwarf Bane",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You inflict 2% more damage against Dwarfs in PvP",
-      "category": "RvRTactic"
-    },
-  
-    {
-      "image": "22667",
-      "id": 939,
-      "name": "Dwarfs Fear Me",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Killing Dwarfs will reduce the morale of any opponents nearby at death.",
-      "category": "RvRTactic"
     },
   
     {
@@ -802,27 +450,11 @@
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
       "description": "For up to 10 seconds your superior training allows you to easily Parry the next 4 attacks made against you. Any defense made in this time will restore Action Points to everyone in your group within 100 feet of you based on your Hatred. <br> With 30 Hate: Restores 5 AP. <br> With 60 Hate: Restores 10 AP.<br> With 90 Hate: Restores 15 AP",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22666",
-      "id": 934,
-      "name": "Empire Bane",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You inflict 2% more damage against Empire in PvP",
-      "category": "RvRTactic"
     },
   
     {
@@ -850,10 +482,10 @@
       "minrank": "1",
       "cost": "Costs 25 AP/sec",
       "range": "5ft range",
-      "incant": "3.0s cast",
+      "incant": "3.0s channel",
       "cooldown": "8.0s cooldown",
-      "note": "Requires 5 points in Path of Malice",
-      "description": "A flurry of blows that inflicts 110 damage every half second for 3 seconds. Any of these hits that critical will restore 10 Hate.",
+      "note": "",
+      "description": "A flurry of blows that inflicts X physical damage every half second for 3 seconds. Any of these hits that critical will restore 10 Hate.",
       "category": "Ability"
     },
   
@@ -866,59 +498,11 @@
       "minrank": "25",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "An overwhelming blow that deals 423 damage and will knockback your target based on your Hate.<br> With 30 Hate: Medium Knockback. <br> With 60 Hate: Long Knockback.<br> With 90 Hate: Very Long Knockback.",
+      "description": "An overwhelming blow that deals X physical damage and will knockback your target based on your Hate.<br> With 30 Hate: Medium Knockback. <br> With 60 Hate: Long Knockback.<br> With 90 Hate: Very Long Knockback.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22725",
-      "id": 970,
-      "name": "Favour of the Gods",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 971,
-      "name": "Favour of the Mad",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 969,
-      "name": "Favour the Daemonic",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%.",
-      "category": "TomeTactic"
     },
   
     {
@@ -946,10 +530,10 @@
       "minrank": "5",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "The pathetic display of fighting skill shown by your opponent instills an even greater urge to destroy them. You lash out for 348 damage and increase your Toughness by 75 for 20 seconds and will recover health based on your Hate and damage inflicted.<br>Your Dark Protector will regain health and receive increased Toughness if they are within 50 feet. <br> With 30 Hate: Recovers 25% of damage inflicted.<br> With 60 Hate: Recovers 50% of damage inflicted. <br> With 90 Hate: Recovers 75% of damage inflicted.",
+      "description": "The pathetic display of fighting skill shown by your opponent instills an even greater urge to destroy them. You lash out for X physical damage and grants you a (3 * rank) ability bonus to toughness for 20 seconds and will recover health based on your Hate and damage inflicted.<br>Your Dark Protector will regain health and receive increased toughness if they are within 50 feet. <br> With 30 Hate: Recovers 25% of damage inflicted.<br> With 60 Hate: Recovers 50% of damage inflicted. <br> With 90 Hate: Recovers 75% of damage inflicted.",
       "category": "Ability"
     },
   
@@ -978,7 +562,7 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
@@ -1002,22 +586,6 @@
     },
   
     {
-      "image": "22671",
-      "id": 948,
-      "name": "For Glory!",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "5% Increased Renown earned when fighting players in Scenarios",
-      "category": "RvRTactic"
-    },
-  
-    {
       "image": "11035",
       "id": 919,
       "name": "Force of Fury",
@@ -1026,10 +594,10 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires 9 points in Path of Fury",
-      "description": "Your intense fury allows you to shrug off the greatest of hits. For 10 seconds your Armor is increased by 618 and you will become less likely to be Critically hit depending on your Hatred. <br> With 30 Hate: 15% less likely to be Critically hit. <br> With 60 Hate: 30% less likely to be Critically hit.<br> With 90 Hate: 45% less likely to be Critically hit.",
+      "note": "",
+      "description": "Your intense fury allows you to shrug off the greatest of hits. For 10 seconds you gain a X ability bonus to armor and you will become less likely to be critically hit depending on your Hatred. <br> With 30 Hate: 15% less likely to be critically hit. <br> With 60 Hate: 30% less likely to be critically hit.<br> With 90 Hate: 45% less likely to be critically hit.",
       "category": "Ability"
     },
   
@@ -1042,10 +610,10 @@
       "minrank": "40",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Costs 30 Hatred",
-      "description": "A bone chilling howl that strikes fear in all opponents 30 feet from you. Those affected suffer 150 damage and their chance to Block and Parry is reduced by 10% for 15 seconds.",
+      "description": "A bone chilling howl that strikes fear in all opponents 30 feet from you. Those affected suffer X physical damage and their chance to Block and Parry is reduced by 10% for 15 seconds.",
       "category": "Ability"
     },
   
@@ -1058,59 +626,11 @@
       "minrank": "10",
       "cost": "No AP Cost",
       "range": "150ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Only usable on other players",
       "description": "You defend one of your groupmates and try to take attacks meant for them. As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you, and 35% of all hate that they cause will be redirected to you.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22730",
-      "id": 962,
-      "name": "Harrier's Ken",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22730",
-      "id": 961,
-      "name": "Harrier's Pelt",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22730",
-      "id": 960,
-      "name": "Harrier's Savagery",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you.",
-      "category": "TomeTactic"
     },
   
     {
@@ -1138,43 +658,11 @@
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A vindictive blow that deals 348 damage and builds double threat.",
+      "description": "A vindictive blow that deals X physical damage and builds double threat.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22661",
-      "id": 935,
-      "name": "High Elf Bane ",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You inflict 2% more damage against High Elves in PvP",
-      "category": "RvRTactic"
-    },
-  
-    {
-      "image": "22661",
-      "id": 941,
-      "name": "High Elves Fear Me",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Killing High Elves will reduce the morale of any opponents nearby at death.",
-      "category": "RvRTactic"
     },
   
     {
@@ -1202,10 +690,10 @@
       "minrank": "12",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Improves with Hatred",
-      "description": "Cuts open a vicious wound, dealing 373 damage and weakens the victim's armor based on Hatred.<br> With 25 Hate: Armor reduced by 200. <br> With 50 Hate: Armor reduced by 400.<br> With 75 Hate: Armor reduced by 600.<br> With 100 Hate: Armor reduced by 800.",
+      "description": "Cuts open a vicious wound, dealing X physical damage and causes the target to take an ability penalty to armor based on Hatred.<br> With 25 Hate: armor reduced by 200. <br> With 50 Hate: armor reduced by 400.<br> With 75 Hate: armor reduced by 600.<br> With 100 Hate: armor reduced by 800.",
       "category": "Ability"
     },
   
@@ -1218,7 +706,7 @@
       "minrank": "40",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "An impressive display of defense which reduces incoming damage by 75% for both you and all group members within 100 feet of you for 10 seconds.",
@@ -1234,59 +722,11 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "A fierce curse in the Witch Kings name brings overwhelming pain to those who hear it. Opponents within 30 feet of you receive 1200 damage and are Silenced for 5 seconds.",
       "category": "Morale"
-    },
-  
-    {
-      "image": "22667",
-      "id": 942,
-      "name": "Invigorating Victory - Dwarf",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Killing Dwarfs will double your AP regen rate 10% of the time.",
-      "category": "RvRTactic"
-    },
-  
-    {
-      "image": "22666",
-      "id": 943,
-      "name": "Invigorating Victory - Empire",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Killing Empire will double your AP regen rate 10% of the time.",
-      "category": "RvRTactic"
-    },
-  
-    {
-      "image": "22661",
-      "id": 944,
-      "name": "Invigorating Victory - High Elf",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Killing High Elves will double your AP regen rate 10% of the time.",
-      "category": "RvRTactic"
     },
   
     {
@@ -1298,7 +738,7 @@
       "minrank": "12",
       "cost": "Costs 45 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "You become filled with unstoppable power, removing all snaring, rooting, silencing, and disarming effects.",
@@ -1314,61 +754,13 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Khaine's favor shines on those with strength and skill, so for the next 10 seconds anytime anyone in your group blocks an attack, each group member within 100 feet regains 800 health.",
       "category": "Morale"
     },
-  
-    {
-      "image": "22665",
-      "id": 949,
-      "name": "King of the Hill",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "5% Increased Renown earned when fighting players in Skirmish",
-      "category": "RvRTactic"
-    },
-  
-    {
-      "image": "22669",
-      "id": 954,
-      "name": "King Slayer",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "5% Increased Damage vs. Kings",
-      "category": "RvRTactic"
-    },
-  
-    {
-      "image": "22656",
-      "id": 953,
-      "name": "Looter",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "5% Increased Gold in Realm vs. Realm combat",
-      "category": "RvRTactic"
-    },
-  
+
     {
       "image": "22702",
       "id": 889,
@@ -1410,42 +802,10 @@
       "minrank": "3",
       "cost": "Costs 35 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A vile attack that crushes your target's will to live, inflicting 127 damage and lowering their Intelligence and Willpower by 25 for 20 seconds. This effect can be stacked up to 3 times.",
-      "category": "Ability"
-    },
-  
-    {
-      "image": "22651",
-      "id": 950,
-      "name": "Mission Focused",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "5% Increased Renown earned when fighting players in Objectives",
-      "category": "RvRTactic"
-    },
-  
-    {
-      "image": "23413",
-      "id": 931,
-      "name": "Modify War Engine",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "30",
-      "cost": "No AP Cost",
-      "range": "5ft range",
-      "incant": "3.0s cast",
-      "cooldown": "5m cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "You shield the Ram absorbing 1500 damage over the next 30 seconds.",
+      "description": "A vile attack that crushes your target's will to live, inflicting X physical damage and causing them to take a (1 * rank) ability penalty to intelligence and willpower for 20 seconds. This effect can be stacked up to 3 times.",
       "category": "Ability"
     },
   
@@ -1458,10 +818,10 @@
       "minrank": "14",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Costs 30 Hatred",
-      "description": "A sweeping strike that rakes across targets up to 25 feet in front of you for 183 damage",
+      "description": "A sweeping strike that rakes across targets up to 25 feet in front of you for X physical damage",
       "category": "Ability"
     },
   
@@ -1490,10 +850,10 @@
       "minrank": "8",
       "cost": "Costs 40 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A piercing blow that deals 373 damage and ignores 25% of your target's armor.",
+      "description": "A piercing blow that deals X physical damage and ignores 25% of your target's armor.",
       "category": "Ability"
     },
   
@@ -1524,73 +884,9 @@
       "range": "No range",
       "incant": "10.0s cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires Shield<br>Requires 5 points in Path of Loathing",
-      "description": "You ready your blade and defiantly raise your shield to increase your Block rate by 50% for up to 10 seconds. Any time you block during this time you will lash out at your attacker for 126 damage and gain 5 Hatred.",
+      "note": "Requires Shield<",
+      "description": "You ready your blade and defiantly raise your shield to increase your Block rate by 50% for up to 10 seconds. Any time you block during this time you will lash out at your attacker for X physical damage and gain 5 Hatred.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22663",
-      "id": 945,
-      "name": "Orcish Camaraderie",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You receive an additional 5% morale gain for every Greenskin in your group.",
-      "category": "RvRTactic"
-    },
-  
-    {
-      "image": "22729",
-      "id": 968,
-      "name": "Outmaneuver the Clever",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22729",
-      "id": 967,
-      "name": "Outmaneuver the Cunning",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22729",
-      "id": 966,
-      "name": "Outmaneuver the Dim",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you.",
-      "category": "TomeTactic"
     },
   
     {
@@ -1618,10 +914,10 @@
       "minrank": "2",
       "cost": "No AP Cost",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Costs 20 Hatred",
-      "description": "A merciless attack that weakens your target, dealing 271 damage and reducing their Toughness by 75 for 20 seconds.",
+      "description": "A merciless attack that weakens your target, dealing X physical damage and causing them to take a (3 * rank) ability penalty to toughness for 20 seconds.",
       "category": "Ability"
     },
   
@@ -1634,59 +930,11 @@
       "minrank": "20",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "3.0s cast",
+      "incant": "3.0s channel",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away.",
       "category": "Morale"
-    },
-  
-    {
-      "image": "22667",
-      "id": 936,
-      "name": "Refreshing Dominance - Dwarf",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Killing Dwarfs will restore a small amount of health.",
-      "category": "RvRTactic"
-    },
-  
-    {
-      "image": "22666",
-      "id": 937,
-      "name": "Refreshing Dominance - Empire",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Killing Empire will restore a small amount of health.",
-      "category": "RvRTactic"
-    },
-  
-    {
-      "image": "22661",
-      "id": 938,
-      "name": "Refreshing Dominance - High Elf",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Killing High Elves will restore a small amount of health.",
-      "category": "RvRTactic"
     },
   
     {
@@ -1701,7 +949,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases Toughness by 160.",
+      "description": "Grants a 160 unique bonus to toughness.",
       "category": "CareerTactic"
     },
   
@@ -1714,10 +962,10 @@
       "minrank": "22",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Target must have an Enchantment",
-      "description": "You shatter one Enchantment from your enemy and deal 151 damage.",
+      "description": "You shatter one Enchantment from your enemy and deal X physical damage.",
       "category": "Ability"
     },
   
@@ -1730,10 +978,10 @@
       "minrank": "6",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Costs 15 Hatred",
-      "description": "Your overwhelming hate shields you from up to 625 damage over 10 seconds.",
+      "description": "Your overwhelming hate shields you from up to X damage over 10 seconds.",
       "category": "Ability"
     },
   
@@ -1746,7 +994,7 @@
       "minrank": "12",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "Requires Shield",
       "description": "For the next 10 seconds, your chance to block is almost guaranteed.",
@@ -1765,7 +1013,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your chance to Disrupt is increased by 3% per 10 Hatred.",
+      "description": "Your chance to disrupt is increased by 3% per 10 Hatred.",
       "category": "CareerTactic"
     },
   
@@ -1783,54 +1031,6 @@
       "note": "",
       "description": "Gain 10 Hate each time an enemy critically hits you.<br> This effect can only trigger once every second.",
       "category": "CareerTactic"
-    },
-  
-    {
-      "image": "22721",
-      "id": 963,
-      "name": "Sky Titan's Bulwark",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22721",
-      "id": 964,
-      "name": "Sky Titan's Favor",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22721",
-      "id": 965,
-      "name": "Sky Titan's Strength",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
     },
   
     {
@@ -1858,10 +1058,10 @@
       "minrank": "16",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Block",
-      "description": "A fierce strike that slams your opponent to the ground, dealing 262 damage and knocking them down for 2 seconds or more based on Hate. <br> With 30 Hate: Knocks down for 3 seconds. <br> With 60 Hate: Knocks down for 4 seconds.<br> With 90 Hate: Knocks down for 5 seconds.",
+      "description": "A fierce strike that slams your opponent to the ground, dealing X physical damage and knocking them down for 2 seconds or more based on Hate. <br> With 30 Hate: Knocks down for 3 seconds. <br> With 60 Hate: Knocks down for 4 seconds.<br> With 90 Hate: Knocks down for 5 seconds.",
       "category": "Ability"
     },
   
@@ -1890,7 +1090,7 @@
       "minrank": "7",
       "cost": "Costs 20 AP",
       "range": "65ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "15.0s cooldown",
       "note": "",
       "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
@@ -1909,24 +1109,8 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Hateful Strike will now increase your Toughness for 20 seconds based on your Hate.<br> With 30 Hate: Increase Toughness by 15%. <br> With 60 Hate: Increase Toughness by 30%. <br> With 90 Hate: Increase Toughness by 45%.",
+      "description": "Hateful Strike will now grant an unique bonus to toughness for 20 seconds based on your Hate.<br> With 30 Hate: Increase toughness by 15%. <br> With 60 Hate: Increase toughness by 30%. <br> With 90 Hate: Increase toughness by 45%.",
       "category": "CareerTactic"
-    },
-  
-    {
-      "image": "22666",
-      "id": 940,
-      "name": "The \"Empire\" Fears Me",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Killing Empire will reduce the morale of any opponents nearby at death.",
-      "category": "RvRTactic"
     },
   
     {
@@ -1957,24 +1141,8 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A basic throwing attack that inflicts 104 damage. Has a chance to deal 703 damage to a severely wounded target if you are behind them.",
+      "description": "A basic throwing attack that inflicts X physical damage. Has a chance to deal Y physical damage to a severely wounded target if you are behind them.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22654",
-      "id": 951,
-      "name": "Town Raider",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "5% Increased Renown earned when fighting players in Cities",
-      "category": "RvRTactic"
     },
   
     {
@@ -2018,10 +1186,10 @@
       "minrank": "1",
       "cost": "Costs 55 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "A great wave spreads 40 feet in front of you, inflicting 284 damage and reducing movement by 40% for 10 seconds.",
+      "description": "A great wave spreads 40 feet in front of you, inflicting X physical damage and reducing movement by 40% for 10 seconds.",
       "category": "Ability"
     },
 	
@@ -2037,7 +1205,7 @@
       "incant": "20s Cast",
       "cooldown": "No cooldown",
       "note": "Requires Great Weapon",
-      "description": "You focus on your Glaive with great vitriol, forming a veil of Hatred between you and your opponent. Your chance to Dodge, Disrupt and Parry attacks are increased by 50%, and whenever you defend against an attack, you will reflect back 130 damage.",
+      "description": "You focus on your glaive with great vitriol, forming a veil of Hatred between you and your opponent. Your chance to dodge, disrupt and parry attacks are increased by 50%, and whenever you defend against an attack, you will reflect back X physical damage.",
       "category": "Ability"
     }
   ]
