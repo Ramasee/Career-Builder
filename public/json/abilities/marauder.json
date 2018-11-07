@@ -53,7 +53,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are attacked, there is a 25% chance that you will lash out for 250 Elemental damage over 5 seconds to anyone who hits you.",
+      "description": "Any time you are attacked, there is a 25% chance that you will lash out for 250 elemental damage over 5 seconds to anyone who hits you.",
       "category": "CareerTactic"
     },
   
@@ -85,7 +85,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to Disrupt enemy magic by 10%.",
+      "description": "Increases your chance to disrupt enemy magic by 10%.",
       "category": "CareerTactic"
     },
   
@@ -101,7 +101,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Grants a 160 unique bonu to Strength",
+      "description": "Grants a 160 unique bonus to strength",
       "category": "CareerTactic"
     },
   
@@ -182,7 +182,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for 7 seconds.",
+      "description": "Concentrating on your perceived movements, you will be able to dodge and parry all attacks against you for 7 seconds.",
       "category": "Morale"
     },
   
@@ -214,7 +214,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gift of Brutality causes you to gain a 160 unique bonus to Strength and Initiative.",
+      "description": "Gift of Brutality causes you to gain a 160 unique bonus to strength and initiative.",
       "category": "CareerTactic"
     },
   
@@ -246,7 +246,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "While you are using the Gift Of Monstrosity, all of your hits have a 25% chance to remove 225 points of Morale from the enemy.",
+      "description": "While you are using the Gift Of Monstrosity, all of your hits have a 25% chance to remove 225 points of morale from the enemy.",
       "category": "CareerTactic"
     },
    
@@ -310,7 +310,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A deliberate attack that inflicts X phyical damage and Cripples your target, reducing their movement speed by 40% for 5 seconds.",
+      "description": "A deliberate attack that inflicts X phyical damage and cripples your target, reducing their movement speed by 40% for 5 seconds.",
       "category": "Ability"
     },
   
@@ -390,7 +390,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit an enemy while Mutated, they will lose 40 Action Points over the next 3 seconds.",
+      "description": "Any time you critically hit an enemy while mutated, they will lose 40 action points over the next 3 seconds.",
       "category": "CareerTactic"
     },
 
@@ -438,7 +438,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Swipes opponent for X physical damage. If Mutated, will hit an additional time for Y phyical damage.",
+      "description": "Swipes opponent for X physical damage. If mutated, will hit an additional time for Y phyical damage.",
       "category": "Ability"
     },
   
@@ -486,7 +486,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
   
@@ -502,7 +502,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You stare down your opponent, draining 200 of their Action Points into yourself, and reducing their Strength by 160 for 30 seconds.",
+      "description": "You stare down your opponent, draining 200 of their action aoints into yourself, and causing them to take a 160 morale penalty to strength for 30 seconds.",
       "category": "Morale"
     },
   
@@ -678,7 +678,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gift of Monstrosity grants a 160 unique bonus to Toughness and Initiative.",
+      "description": "Gift of Monstrosity grants a 160 unique bonus to toughness and initiative.",
       "category": "CareerTactic"
     },
   
@@ -726,7 +726,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 Corporeal damage over 9 seconds.",
+      "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 corporeal damage over 9 seconds.",
       "category": "CareerTactic"
     },
   
@@ -822,7 +822,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your abilities which require a Mutation will now bypass 50% of your enemy's armor.",
+      "description": "All of your abilities which require a mutation will now bypass 50% of your enemy's armor.",
       "category": "CareerTactic"
     },
   
@@ -854,7 +854,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "A prolonged fervor that grants 10 Action Points a second to everyone in your group within 100 feet of you for 10 seconds.",
+      "description": "A prolonged fervor that grants 10 action points a second to everyone in your group within 100 feet of you for 10 seconds.",
       "category": "Morale"
     },
   
@@ -870,7 +870,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Gift of Savagery or Brutality",
-      "description": "You tear into your target, dealing X  physical damage immediately and an additional Y physical damage over 9 seconds. The damage over time will stack with itself up to three times.",
+      "description": "You tear into your target, dealing X physical damage immediately and an additional Y physical damage over 9 seconds. The damage over time will stack with itself up to three times.",
       "category": "Ability"
     },
   
@@ -918,7 +918,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gift of Savagery grants a 160 unique bonus to Weapon Skill and Initiative.",
+      "description": "Gift of Savagery grants a 160 unique bonus to weapon skill and initiative.",
       "category": "CareerTactic"
     },
   
@@ -950,7 +950,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit an enemy, you will regain 40 Action Points. Tactic can not trigger more than once every 3 seconds.",
+      "description": "Any time you critically hit an enemy, you will regain 40 action points. Tactic can not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
   
@@ -966,7 +966,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Requires Gift of Savagery",
-      "description": "An Ailing attack inflicting X physical damage and makes the victim resist 25% of incoming heals for 5 seconds. If target is Ailing, they suffer the effects for 10 seconds.",
+      "description": "An ailing attack inflicting X physical damage and makes the victim resist 25% of incoming heals for 5 seconds. If target is ailing, they suffer the effects for 10 seconds.",
       "category": "Ability"
     },
   
@@ -1110,7 +1110,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Convulsive Slashing now gains a 50% chance to remove an Enchantment from the victim each time that it hits them. Each time an Enchantment is successfully removed, they will suffer X physical damage .",
+      "description": "Convulsive Slashing now gains a 50% chance to remove an enchantment from the victim each time that it hits them. Each time an enchantment is successfully removed, they will suffer X physical damage .",
       "category": "CareerTactic"
     },
   
@@ -1158,7 +1158,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "A wave of horror spreads forth from you, dealing X physical damage over 21 seconds to all enemies within 30 feet and causing them to take a (2 * rank) ability penalty to Weapon Skill and Initiative.",
+      "description": "A wave of horror spreads forth from you, dealing X physical damage over 21 seconds to all enemies within 30 feet and causing them to take a (2 * rank) ability penalty to weapon Skill and initiative.",
       "category": "Ability"
     },
   
@@ -1174,7 +1174,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Gift of Brutality",
-      "description": "Wildly lashes out at all targets directly in front of you up to 40 feet away, dealing X physical damage and preventing all who are hit from generating Morale for 5 seconds.",
+      "description": "Wildly lashes out at all targets directly in front of you up to 40 feet away, dealing X physical damage and preventing all who are hit from generating morale for 5 seconds.",
       "category": "Ability"
     },
   

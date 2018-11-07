@@ -103,7 +103,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "Mork's Waaagh! reduces cast time. ",
-      "description": "Heals your target for X health.This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.",
+      "description": "Heals your target for X health. This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.",
       "category": "Ability"
     },
   
@@ -295,7 +295,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your target gains a X unique bonus to Toughness and restore X health over 10 seconds.",
+      "description": "Your target gains a X unique bonus to toughness and restore X health over 10 seconds.",
       "category": "Ability"
     },
   
@@ -359,7 +359,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Ere We Go will now deal 150 damage, and it will now affect your allies' next 2 attacks.",
+      "description": "Ere We Go will now deal X elemental damage, and it will now affect your allies' next 2 attacks.",
       "category": "CareerTactic"
     },
   
@@ -439,7 +439,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
   
@@ -535,7 +535,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time one of your groupmates damages an enemy with 'Ere We Go, they will gain 150 points of Morale.",
+      "description": "Any time one of your groupmates damages an enemy with 'Ere We Go, they will gain 150 points of morale.",
       "category": "CareerTactic"
     },
   
@@ -567,7 +567,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you use Greener 'N Cleaner on an ally, you will additionally remove one curse or Ailment from all groupmates within 50 feet of them.",
+      "description": "Any time you use Greener 'N Cleaner on an ally, you will additionally remove one curse or ailment from all groupmates within 50 feet of them.",
       "category": "CareerTactic"
     },
   
@@ -647,7 +647,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Target must be Cursed or Ailing",
-      "description": "You cleanse an ally, removing one Curse or Ailment. If an effect is removed, your ally will absorb up to X damage over 10 seconds.",
+      "description": "You cleanse an ally, removing one curse or ailment. If an effect is removed, your ally will absorb up to X damage over 10 seconds.",
       "category": "Ability"
     },
       
@@ -711,7 +711,7 @@
       "incant": "Instant Cast",
       "cooldown": "15.0s cooldown",
       "note": "",
-      "description": "You Detaunt your target, making them hate you less and causing them to deal 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
+      "description": "You detaunt your target, making them hate you less and causing them to deal 50% damage to you for 15 seconds. If you attack anyone that you have detaunted, the effect will immediately end.",
       "category": "Ability"
     },
   
@@ -727,7 +727,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gork'll Fix It will now also restore 40 Action Points to the target.",
+      "description": "Gork'll Fix It will now also restore 40 action points to the target.",
       "category": "CareerTactic"
     },
   
@@ -759,7 +759,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All groupmates within 100 feet gain a X ability bonus to all resiatnces for 1 hour.",
+      "description": "All groupmates within 100 feet gain a X ability bonus to all resistances for 1 hour.",
       "category": "Ability"
     },
   
@@ -775,7 +775,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your offensive spells gain a 25% chance to remove a Blessing from the victim. Any time that this successfully occurs, the enemy will suffer an additional X elemental damage as well.",
+      "description": "All of your offensive spells gain a 25% chance to remove a blessing from the victim. Any time that this successfully occurs, the enemy will suffer an additional X elemental damage as well.",
       "category": "CareerTactic"
     },
   
@@ -839,7 +839,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time one of your direct healing effects critically heals an ally, you will regain 40 Action Points over 3 seconds.",
+      "description": "Any time one of your direct healing effects critically heals an ally, you will regain 40 action points over 3 seconds.",
       "category": "CareerTactic"
     },
   
@@ -871,7 +871,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "Gork's Waaagh! increases effectiveness.",
-      "description": "A cone of energy strikes enemies in front of you, up to 40 feet away, dealing X elemental damage and causing them to take a Y ability penalty to Elemental Resistance for 20 seconds.",
+      "description": "A cone of energy strikes enemies in front of you, up to 40 feet away, dealing X elemental damage and causing them to take a Y ability penalty to elemental resistance for 20 seconds.",
       "category": "Ability"
     },
   
@@ -919,7 +919,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Reduces the stats of all enemies within 30 feet of your target by 40 (except wounds), and increases all your groupmember's stats by 40 (except wounds) for 15 seconds",
+      "description": "Causes enemies within 30 feet of your target to take a 40 morale penalty to all stats except wounds, and all groupmates within 30 feet to gain a 40 morale bonus to all stats except wounds for 15 seconds.",
       "category": "Morale"
     },
   
@@ -951,7 +951,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "Your chance to disrupt attacks is increased by 5%, and you Detaunt all enemies within 30 feet for 10 seconds, making them hate you less and causing them to deal 50% damage to you. If you attack anyone that you have Detaunted, the effect will immediately end.",
+      "description": "Your chance to disrupt attacks is increased by 5%, and you detaunt all enemies within 30 feet for 10 seconds, making them hate you less and causing them to deal 50% damage to you. If you attack anyone that you have detaunted, the effect will immediately end.",
       "category": "Ability"
     },
   
@@ -1015,7 +1015,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are hit, there is a 25% chance that you will Detaunt the enemy, making them hate you less and causing them to deal 75% damage to you for 5 seconds.<br>If you hit anyone that you have Detaunted, the effect will end.",
+      "description": "Any time you are hit, there is a 25% chance that you will detaunt the enemy, making them hate you less and causing them to deal 75% damage to you for 5 seconds.<br>If you hit anyone that you have detaunted, the effect will end.",
       "category": "CareerTactic"
     },
   
@@ -1031,7 +1031,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Steals X ability bonus to Intelligence from your target while dealing Y elemental damage over 15 seconds.",
+      "description": "Steals X ability bonus to intelligence from your target while dealing Y elemental damage over 15 seconds.",
       "category": "Ability"
     },
   
@@ -1047,7 +1047,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You cast an Ailment on your enemy and gain 60 ability points. You will additionally steal another 120 Action Points from your target over 9 seconds.",
+      "description": "You cast an ailment on your enemy and gain 60 action points. You will additionally steal another 120 action points from your target over 9 seconds.",
       "category": "Ability"
     },
   
@@ -1111,7 +1111,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your target and all other enemies within 20 feet of them have thake a (rank * 3) ability penalty to Toughness for 20 seconds.",
+      "description": "Your target and all other enemies within 20 feet of them have take a (rank * 3) ability penalty to toughness for 20 seconds.",
       "category": "Ability"
     }
   ]

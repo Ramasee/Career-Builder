@@ -101,7 +101,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Action Point regeneration by 15",
+      "description": "Increases your action point regeneration by 15",
       "category": "CareerTactic"
     },
         
@@ -629,7 +629,7 @@
       "incant": "Instant Cast",
       "cooldown": "4.5s cooldown",
       "note": "You can have three commands active.",
-      "description": "You order your group to ready their defenses, causing 225 physical damage back against any attacker who strikes a groupmate within 100 feet with a melee attack. Targets can only be damaged once every two seconds.",
+      "description": "You order your group to ready their defenses, causing X physical damage back against any attacker who strikes a groupmate within 100 feet with a melee attack. Targets can only be damaged once every two seconds.",
       "category": "Ability"
     },
   
@@ -691,7 +691,7 @@
       "minrank": "20",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "3.0s cast",
+      "incant": "3.0s channel",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away.",
@@ -742,7 +742,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you parry an attack, you gain 1 240 unique bonus to strength, weapon skill, and initiative for 10 seconds. This effect will not refresh itself.",
+      "description": "Whenever you parry an attack, you gain a 240 unique bonus to strength, weapon skill, and initiative for 10 seconds. This effect will not refresh itself.",
       "category": "CareerTactic"
     },
   
@@ -790,7 +790,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "The heat of the very sun itself surrounds you for 10 seconds, dealing X Elemental damage back to anyone that attacks you.",
+      "description": "The heat of the very sun itself surrounds you for 10 seconds, dealing X elemental damage back to anyone that attacks you.",
       "category": "Ability"
     },
   
@@ -838,7 +838,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Your Shining Blade slices into your opponent for X physical damage. For the next 5 seconds, Shining Blade will cause an additional Y Elemental damage on the next damaging attack made by everyone in your group within 100 feet of you.",
+      "description": "Your Shining Blade slices into your opponent for X physical damage. For the next 5 seconds, Shining Blade will cause an additional Y elemental damage on the next damaging attack made by everyone in your group within 100 feet of you.",
       "category": "Ability"
     },
   
@@ -950,7 +950,7 @@
       "incant": "Instant Cast",
       "cooldown": "4.5s cooldown",
       "note": "You can have three commands active.",
-      "description": "You order your group to prepare for combat, causing all of your groupmates within 100 feet to regain 24 Action Points and X health over 3 seconds any time they defend themselves against an attack.",
+      "description": "You order your group to prepare for combat, causing all of your groupmates within 100 feet to regain 24 action points and X health over 3 seconds any time they defend themselves against an attack.",
       "category": "Ability"
     },
   

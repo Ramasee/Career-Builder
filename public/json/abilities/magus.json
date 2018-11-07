@@ -165,7 +165,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Daemons can now be summoned instantly and the cost of Resummon is reduced to 0 Action Points.",
+      "description": "Daemons can now be summoned instantly and the cost of Resummon is reduced to 0 action points.",
       "category": "CareerTactic"
     },
   
@@ -215,22 +215,6 @@
       "note": "",
       "description": "Focusing the great powers of Chaos for 10 seconds, you may tirelessly use all your abilities for no AP cost.",
       "category": "Morale"
-    },
-  
-    {
-      "image": "22716",
-      "id": 5156,
-      "name": "Cunning Stratagem",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
     },
   
     {
@@ -325,7 +309,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Forms a pact with newly summoned daemons that gives both you and your daemon a X unique bonus to Toughness while your daemon remains in this realm.",
+      "description": "Forms a pact with newly summoned daemons that gives both you and your daemon a X unique bonus to toughness while your daemon remains in this realm.",
       "category": "CareerTactic"
     },
   
@@ -405,7 +389,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever one of your spells hits an enemy, you have a 25% chance to regain 30 Action Points. This effect can not occur more than once every 2 seconds.",
+      "description": "Whenever one of your spells hits an enemy, you have a 25% chance to regain 30 action points. This effect can not occur more than once every 2 seconds.",
       "category": "CareerTactic"
     },
   
@@ -437,7 +421,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You gain a 160 unique bonus to Intelligence.",
+      "description": "You gain a 160 unique bonus to intelligence.",
       "category": "CareerTactic"
     },
   
@@ -581,7 +565,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 798 damage over 6 seconds and Snares by 60% for 6 seconds",
+      "description": "Deals 798 damage over 6 seconds and snares by 60% for 6 seconds",
       "category": "Morale"
     },
   
@@ -610,10 +594,10 @@
       "minrank": "1",
       "cost": "Costs 15 AP/sec",
       "range": "100ft range",
-      "incant": "6.0s cast",
+      "incant": "6.0s channel",
       "cooldown": "16.0s cooldown",
       "note": "",
-      "description": "A horrible torrent of energy that deals X elemental damage every 2 seconds for 6 seconds. Victims killed while bathed in this flame will return 120 Action Points over 6 seconds to you.",
+      "description": "A horrible torrent of energy that deals X elemental damage every 2 seconds for 6 seconds. Victims killed while bathed in this flame will return 120 action points over 6 seconds to you.",
       "category": "Ability"
     },
   
@@ -645,7 +629,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Daemons will be summoned with 160 more Wounds.",
+      "description": "Daemons will be summoned with 160 more wounds.",
       "category": "CareerTactic"
     },
   
@@ -693,7 +677,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When you construct a Daemon, it will restore 20 Action Points to everyone within 30 feet every 2 seconds.",
+      "description": "When you summon a Daemon, it will restore 20 action points to everyone within 30 feet every 2 seconds.",
       "category": "CareerTactic"
     },
   
@@ -725,7 +709,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You gain a strong counter aura for the next 10 seconds that will reduce half of any incoming Magic damage and redirect half of any direct damage back to the caster.",
+      "description": "You gain a strong counter aura for the next 10 seconds that will reduce half of any incoming magic damage and redirect half of any direct damage back to the caster.",
       "category": "Morale"
     },
   
@@ -757,7 +741,7 @@
       "incant": "1.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Chaotic swirls of power inflict X Spirit damage over 15 seconds to your target and those within 20 feet of them.",
+      "description": "Chaotic swirls of power inflict X spirit damage over 15 seconds to your target and those within 20 feet of them.",
       "category": "Ability"
     },
   
@@ -885,7 +869,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Steals up to 200 action points from your target and gives it to you, and reduces your target's Intelligence by 160 for 30 seconds.",
+      "description": "Steals up to 200 action points from your target and gives it to you, and causes your target to take a 160 morale penalty to intelligence for 30 seconds.",
       "category": "Morale"
     },
   
@@ -917,7 +901,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 2394 damage over 10 seconds and removes 50 Action Points every 2 seconds.",
+      "description": "Deals 2394 damage over 10 seconds and removes 50 action points every 2 seconds.",
       "category": "Morale"
     },
   
@@ -1189,7 +1173,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "Your malice is forced directly into your target's soul, inflicting X elemental damage over 20 seconds while reducing their Disrupt chance by 5%.",
+      "description": "Your malice is forced directly into your target's soul, inflicting X elemental damage over 20 seconds while reducing their disrupt chance by 5%.",
       "category": "Ability"
     }
   ]
