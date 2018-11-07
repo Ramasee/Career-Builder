@@ -724,7 +724,7 @@
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "10.0s shared cooldown",
-      "note": "You may have one Blade Enchantment active.",",
+      "note": "You may have one Blade Enchantment active.",
       "description": "You enchant your blade with the spirits of the dead. All your melee attacks have a 25% chance to cause group members to gain a X ability bonus to wounds for 10 seconds. Anyone affected will be healed for the amount increased.",
       "category": "Ability"
     },
