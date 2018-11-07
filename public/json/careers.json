@@ -7,7 +7,7 @@
     "class": "Ranged DPS"
   },
   "knight-of-the-blazing-sun": {
-    "name": "Knight of the Blazing Sun (Phase 1)",
+    "name": "Knight of the Blazing Sun (Phase 2)",
     "slug": "knight-of-the-blazing-sun",
     "faction": "Order",
     "race": "Empire",
@@ -35,21 +35,21 @@
     "class": "Ranged DPS"
   },
   "ironbreaker": {
-    "name": "Ironbreaker (Phase 1)",
+    "name": "Ironbreaker (Phase 2)",
     "slug": "ironbreaker",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Tank"
   },
   "rune-priest": {
-    "name": "Runepriest (Phase 1)",
+    "name": "Runepriest (Phase 2)",
     "slug": "rune-priest",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Healer"
   },
   "slayer": {
-    "name": "Slayer (Phase 1)",
+    "name": "Slayer (Phase 2)",
     "slug": "slayer",
     "faction": "Order",
     "race": "Dwarf",
@@ -70,7 +70,7 @@
     "class": "Ranged DPS"
   },
   "sword-master": {
-    "name": "Sword Master (Phase 1)",
+    "name": "Sword Master (Phase 2)",
     "slug": "sword-master",
     "faction": "Order",
     "race": "High Elf",
@@ -84,21 +84,21 @@
     "class": "Melee DPS"
   },
   "chosen": {
-    "name": "Chosen (Phase 1)",
+    "name": "Chosen (Phase 2)",
     "slug": "chosen",
     "faction": "Destruction",
     "race": "Chaos",
     "class": "Tank"
   },
   "magus": {
-    "name": "Magus (Phase 1)",
+    "name": "Magus (Phase 2)",
     "slug": "magus",
     "faction": "Destruction",
     "race": "Chaos",
     "class": "Ranged DPS"
   },
   "marauder": {
-    "name": "Marauder (Phase 1)",
+    "name": "Marauder (Phase 2)",
     "slug": "marauder",
     "faction": "Destruction",
     "race": "Chaos",
@@ -126,14 +126,14 @@
     "class": "Melee DPS"
   },
   "shaman": {
-    "name": "Shaman (Phase 1)",
+    "name": "Shaman (Phase 2)",
     "slug": "shaman",
     "faction": "Destruction",
     "race": "Greenskin",
     "class": "Healer"
   },
   "squig-herder": {
-    "name": "Squig Herder (Phase 1)",
+    "name": "Squig Herder (Phase 2)",
     "slug": "squig-herder",
     "faction": "Destruction",
     "race": "Greenskin",
@@ -154,7 +154,7 @@
     "class": "Healer"
   },
   "sorcerer": {
-    "name": "Sorcerer (Phase 1)",
+    "name": "Sorcerer (Phase 2)",
     "slug": "sorcerer",
     "faction": "Destruction",
     "race": "Dark Elf",
