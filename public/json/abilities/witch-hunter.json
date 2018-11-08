@@ -50,109 +50,13 @@
       "minrank": "2",
       "cost": "Costs 35 AP",
       "range": "30ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A precision shot to the enemy's vital organs which deals damage based on combo points.<br>  1 Accusation: 227 damage. <br>  2 Accusations: 284 damage.<br>  3 Accusations: 344 damage.<br>  4 Accusations: 402 damage.<br>  5 Accusations: 459 damage.",
+      "description": "A precision shot to the enemy's vital organs which deals damage based on combo points.<br>  1 Accusation: V physical damage. <br>  2 Accusations: W physical damage.<br>  3 Accusations: X physical damage.<br>  4 Accusations: Y physical damage.<br>  5 Accusations: Z phyiscal damage.",
       "category": "Ability"
     },
-  
-    {
-      "image": "22736",
-      "id": 4409,
-      "name": "Aethyric Insight",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22736",
-      "id": 4407,
-      "name": "Aethyric Pandemonium",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22736",
-      "id": 4408,
-      "name": "Aethyric Ward",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Daemon monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 4422,
-      "name": "Apotheosis of Flesh",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 4424,
-      "name": "Apotheosis of Mind",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 4423,
-      "name": "Apotheosis of Spirit",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Magical Beast, Dragonoid, and Forest Spirit monsters, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
+
     {
       "image": "22708",
       "id": 4393,
@@ -170,54 +74,6 @@
     },
   
     {
-      "image": "22718",
-      "id": 4431,
-      "name": "Benediction of Morr",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 4433,
-      "name": "Benediction of the Dead",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22718",
-      "id": 4432,
-      "name": "Benediction of Winters",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 5% more damage to all enemy Undead monsters, and take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
       "image": "07974",
       "id": 4353,
       "name": "Blessed Bullets of Cleansing",
@@ -226,10 +82,10 @@
       "minrank": "35",
       "cost": "Costs 20 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "",
-      "description": "You load your pistol with bullets designed to fragment on impact, causing your Executions to deal an additional 45 Spirit damage to the target. The victim will lose 20 Action Points, and you will gain 20 Action Points.",
+      "note": "You can only have one set of Blessed Bullets active.",
+      "description": "You load your pistol with bullets designed to fragment on impact, causing your executions to deal an additional X spirit damage to the target. The victim will lose 20 action points, and you will gain 20 action points.",
       "category": "Ability"
     },
   
@@ -242,10 +98,10 @@
       "minrank": "9",
       "cost": "Costs 20 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "",
-      "description": "You load your pistol with bullets doused in holy water, causing your Executions to deal an additional 225 Spirit damage. Any healing abilities that the victim uses over the next 5 seconds will become 50% as effective.",
+      "note": "You can only have one set of Blessed Bullets active.",
+      "description": "You load your pistol with bullets doused in holy water, causing your executions to deal an additional X spirit damage. Any healing abilities that the victim uses over the next 5 seconds will become 50% as effective.",
       "category": "Ability"
     },
   
@@ -258,10 +114,10 @@
       "minrank": "4",
       "cost": "Costs 20 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "",
-      "description": "You load your pistol with bullets of purest silver, causing your Executions to deal an additional 45 Spirit damage.  The victim's Initiative will be reduced by 2 for 10 seconds, and your Initiative will be increased by 2.",
+      "note": "You can only have one set of Blessed Bullets active.",
+      "description": "You load your pistol with bullets of purest silver, causing your Executions to deal an additional X spirit damage.  The victims take a (2 * rank) ability penalty to initiative for 10 seconds. You gain the same amount of initiative during this time.",
       "category": "Ability"
     },
   
@@ -277,74 +133,10 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you land a killing blow on your enemy, all of your groupmates within 30 feet will regain 75 Action Points.",
+      "description": "Any time you land a killing blow on your enemy, all of your groupmates within 30 feet will regain 75 action points.",
       "category": "CareerTactic"
     },
-  
-    {
-      "image": "23401",
-      "id": 4401,
-      "name": "Booby Trap",
-      "type": "Debuff",
-      "spec": "Core Ability",
-      "minrank": "30",
-      "cost": "No AP Cost",
-      "range": "65ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "You booby trap a siege ram, causing the ram to deal 98% of the original damage for the next 10 seconds.",
-      "category": "Ability"
-    },
-  
-    {
-      "image": "22731",
-      "id": 4427,
-      "name": "Boon of Persistence",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22731",
-      "id": 4426,
-      "name": "Boon of Tenacity",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22731",
-      "id": 4425,
-      "name": "Boon of the Impalpable",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Dwarf, Elf, or Human monster before it will attack you.",
-      "category": "TomeTactic"
-    },
-  
+
     {
       "image": "23156",
       "id": 4374,
@@ -354,7 +146,7 @@
       "minrank": "24",
       "cost": "Rank 3 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
@@ -373,7 +165,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Strength by 160.",
+      "description": "Gain a 160 unique bonus to strength.",
       "category": "CareerTactic"
     },
   
@@ -386,10 +178,10 @@
       "minrank": "10",
       "cost": "No AP Cost",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Incognito<br>Builds 2 Accusations",
-      "description": "A surprise attack that burns your target, causing them to take 125 Spirit damage each time they use a melee attack for the next 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Accusations.",
+      "description": "A surprise attack that burns your target, causing them to take X spirit damage each time they use a melee attack for the next 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Accusations.",
       "category": "Ability"
     },
   
@@ -402,10 +194,10 @@
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Execution - Requires Accusations<br>Target must be facing away from you<br>Costs 20% fewer action points per Accusation spent<br>Requires 13 points in Path of Judgment",
-      "description": "A pistol shot that fires bullets filled with fire oil, first dealing damage over 9 seconds and then igniting into a raging inferno which deals additional damage.<br>  1 Accusation: 672 damage over time; 333 ending damage.<br>  2 Accusations: 858 damage over time; 432 ending damage.<br>  3 Accusations: 1047 damage over time; 524 ending damage.<br>  4 Accusations: 1233 damage over time; 619 ending damage.<br>  5 Accusations: 1422 damage over time; 715 ending damage.",
+      "note": "Execution - Requires Accusations<br>Target must be facing away from you<br>Costs 20% fewer action points per Accusation spent",
+      "description": "A pistol shot that fires bullets filled with fire oil, first dealing damage over 9 seconds and then igniting into a raging inferno which deals additional damage.<br>  1 Accusation: A physical damage over time; B ending damage.<br>  2 Accusations: C physical damage over time; D ending damage.<br>  3 Accusations: E physical damage over time; F ending damage.<br>  4 Accusations: G physical damage over time; H physical ending damage.<br>  5 Accusations: I physical damage over time; J ending damage.",
       "category": "Ability"
     },
   
@@ -418,10 +210,10 @@
       "minrank": "6",
       "cost": "Costs 35 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A cleansing shot of flame which deals damage to your target over 10 seconds.<br>  1 Accusation: 534 damage<br>  2 Accusations: 672 damage<br>  3 Accusations: 822 damage<br>  4 Accusations: 954 damage<br>  5 Accusations: 1104 damage",
+      "description": "A cleansing shot of flame which deals damage to your target over 10 seconds.<br>  1 Accusation: V physical damage<br>  2 Accusations: W physical damage<br>  3 Accusations: X physical damage<br>  4 Accusations: Y physical damage<br>  5 Accusations: Z physical damage",
       "category": "Ability"
     },
   
@@ -434,10 +226,10 @@
       "minrank": "14",
       "cost": "Costs 35 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Parry",
-      "description": "A savage counterattack that deals 227 damage and disarms your target for 4 seconds, making them unable to use their weapons.",
+      "description": "A savage counterattack that deals X physical damage and disarms your target for 4 seconds, making them unable to use their weapons.",
       "category": "Ability"
     },
   
@@ -450,61 +242,13 @@
       "minrank": "16",
       "cost": "Rank 1 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for 7 seconds.",
+      "description": "Concentrating on your perceived movements, you will be able to dodge and parry all attacks against you for 7 seconds.",
       "category": "Morale"
     },
-  
-    {
-      "image": "22716",
-      "id": 4429,
-      "name": "Cunning Assault",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22716",
-      "id": 4428,
-      "name": "Cunning Evasion ",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22716",
-      "id": 4430,
-      "name": "Cunning Stratagem",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Skaven monsters by 5%, and increases your chance to critically hit them by 5%. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
+ 
     {
       "image": "07981",
       "id": 4354,
@@ -514,10 +258,10 @@
       "minrank": "40",
       "cost": "No AP Cost",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "You cannot perform this action while rooted",
-      "description": "You leap backwards from your target, causing your target to be Staggered for up to 3 seconds, preventing all actions unless they're damaged.",
+      "description": "You leap backwards from your target, causing your target to be staggered for up to 3 seconds, preventing all actions unless they're damaged.",
       "category": "Ability"
     },
   
@@ -530,7 +274,7 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 1600 damage to all enemies in front of you, up to 65 feet away.",
@@ -546,10 +290,10 @@
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "30ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent<br>Requires 13 points in Path of Confession",
-      "description": "A pistol shot that deals damage to your target and all other enemies near them, reducing their Morale based on Accusations, and knocks down the initial target for 3 seconds.<br>  1 Accusation: 186 damage, 30 feet radius, 50 Morale lost.<br>  2 Accusations: 206 damage, 35 feet radius, 100 Morale lost.<br>  3 Accusations: 226 damage, 40 feet radius, 150 Morale lost.<br>  4 Accusations: 248 damage, 43.3 feet radius, 200 Morale lost.<br>  5 Accusations: 268 damage, 48.3 feet radius, 250 Morale lost.",
+      "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
+      "description": "A pistol shot that deals damage to your target and all other enemies near them, reducing their morale based on accusations, and knocks down the initial target for 3 seconds.<br>  1 Accusation: V physical damage, 30 feet radius, 50 Morale lost.<br>  2 Accusations: W physical damage, 35 feet radius, 100 Morale lost.<br>  3 Accusations: X physical damage, 40 feet radius, 150 Morale lost.<br>  4 Accusations: Y physical damage, 43.3 feet radius, 200 Morale lost.<br>  5 Accusations: Z physical damage, 48.3 feet radius, 250 Morale lost.",
       "category": "Ability"
     },
   
@@ -594,7 +338,7 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "100ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "For the next 15 seconds, heals will have no effects on your target. The target and all other enemies within 20 feet of them will suffer 1200 damage over 15 seconds.",
@@ -610,10 +354,10 @@
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "30ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent<br>Requires 13 points in Path of Inquisition",
-      "description": "You fire a hollow point shell, dealing damage immediately and reducing the target's Toughness, Strength, and Weapon Skill for 10 seconds.<br>  1 Accusation: 252 damage; stats reduced by 50.<br>  2 Accusations: 318 damage; stats reduced by 75.<br>  3 Accusations: 386 damage; stats reduced by 100.<br>  4 Accusations: 452 damage; stats reduced by 125.<br>  5 Accusations: 518 damage; stats reduced by 150.",
+      "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
+      "description": "You fire a hollow point shell, dealing damage immediately and causing the target to take an ability pnealty to toughness, strength, and weapon skill for 10 seconds.<br>  1 Accusation: V physical damage; stats reduced by 50.<br>  2 Accusations: W physical damage; stats reduced by 75.<br>  3 Accusations: X physical damage; stats reduced by 100.<br>  4 Accusations: Y physical damage; stats reduced by 125.<br>  5 Accusations: Z physical damage; stats reduced by 150.",
       "category": "Ability"
     },
   
@@ -626,10 +370,10 @@
       "minrank": "28",
       "cost": "Rank 1 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You regain 1197 health and 180 Action Points over 9 seconds.",
+      "description": "You regain 1197 health and 180 action points over 9 seconds.",
       "category": "Morale"
     },
   
@@ -642,7 +386,7 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 1600 damage over 10 seconds to all enemies within 30 feet and snares them, reducing their run speed by 60%.",
@@ -674,75 +418,11 @@
       "minrank": "30",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Incognito<br>Builds 2 Accusations",
-      "description": "You leap from the shadows, fueled with righteous anger. Your target will take 175 Spirit damage every time they use a magical ability for the next 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Accusations.",
+      "description": "You leap from the shadows, fueled with righteous anger. Your target will take X spirit damage every time they use a magical ability for the next 15 seconds. Your abilities will cost 50% fewer action points for 10 seconds. Builds 2 Accusations.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "23408",
-      "id": 4402,
-      "name": "Faultfinder",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "40",
-      "cost": "No AP Cost",
-      "range": "65ft range",
-      "incant": "Insta-Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "",
-      "description": "Increases friendly ram damage by 2% for the next 10 seconds.",
-      "category": "Ability"
-    },
-  
-    {
-      "image": "22725",
-      "id": 4420,
-      "name": "Favour of the Gods",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 4421,
-      "name": "Favour of the Mad",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%, and you take 5% less damage from them. As long as you are attacking a monster of this type, your abilities will cool down 2 seconds faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22725",
-      "id": 4419,
-      "name": "Favour the Daemonic",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Beastmen monsters by 5%.",
-      "category": "TomeTactic"
     },
   
     {
@@ -754,7 +434,7 @@
       "minrank": "7",
       "cost": "Costs 25 AP",
       "range": "65ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Your positional attacks can be used without the positional requirement for 10 seconds. Does not affect morale abilities.",
@@ -770,10 +450,10 @@
       "minrank": "3",
       "cost": "Costs 35 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A precise incision that deals 76 damage, and an additional 216 damage over 9 seconds. This effect can be stacked up to 3 times.",
+      "description": "A precise incision that deals X physical damage, and an additional Y physical damage over 9 seconds. This effect can be stacked up to 3 times.",
       "category": "Ability"
     },
   
@@ -802,10 +482,10 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
   
@@ -821,7 +501,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your Executions gain a 50% chance to restore 2 Accusations.",
+      "description": "All of your executions gain a 50% chance to restore 2 Accusations.",
       "category": "CareerTactic"
     },
   
@@ -834,10 +514,10 @@
       "minrank": "12",
       "cost": "Rank 2 morale",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You stare down your opponent, draining 200 of their Action Points into yourself, and reducing their Strength by 160 for 30 seconds.",
+      "description": "You stare down your opponent, draining 200 of their action points into yourself, and target takes a 160 morale penalty to strength for 30 seconds.",
       "category": "Morale"
     },
   
@@ -850,7 +530,7 @@
       "minrank": "40",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds.",
@@ -882,60 +562,13 @@
       "minrank": "8",
       "cost": "Costs 20 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "Detaunts all enemies within 30 feet, making them hate you less and causing them to deal only 50% damage to you for 15 seconds.<br>If you hit anyone that you have Detaunted, the effect will end.",
+      "description": "Detaunts all enemies within 30 feet, making them hate you less and causing them to deal only 50% damage to you for 15 seconds.<br>If you hit anyone that you have detaunted, the effect will end.",
       "category": "Ability"
     },
-  
-    {
-      "image": "22730",
-      "id": 4412,
-      "name": "Harrier's Ken",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them. You will gain 50% more experience from these enemies.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22730",
-      "id": 4411,
-      "name": "Harrier's Pelt",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you, and you take 5% less damage from them.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22730",
-      "id": 4410,
-      "name": "Harrier's Savagery",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Animal monster before it will attack you.",
-      "category": "TomeTactic"
-    },
+ 
   
     {
       "image": "07985",
@@ -981,7 +614,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 Corporeal damage over 9 seconds.",
+      "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 corporeal damage over 9 seconds.",
       "category": "CareerTactic"
     },
   
@@ -999,54 +632,6 @@
       "note": "",
       "description": "Any time you land a killing blow on an enemy, you will regain 576 health over 9 seconds.",
       "category": "CareerTactic"
-    },
-  
-    {
-      "image": "22729",
-      "id": 4418,
-      "name": "Outmaneuver the Clever",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22729",
-      "id": 4417,
-      "name": "Outmaneuver the Cunning",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you, and any abilities used against them will cost 10% less action points.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22729",
-      "id": 4416,
-      "name": "Outmaneuver the Dim",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You can approach 50% closer to an enemy Greenskin monster before it will attack you.",
-      "category": "TomeTactic"
     },
   
     {
@@ -1074,7 +659,7 @@
       "minrank": "10",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "2m cooldown",
       "note": "",
       "description": "You bolster yourself for 10 seconds, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside.",
@@ -1090,10 +675,10 @@
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires Pistol<br>Builds 1 Accusation<br>Target must be facing away from you<br>Requires 9 points in Path of Judgment",
-      "description": "A quick backhand blow with the butt of your pistol that deals 277 damage and knocks your target down for 3 seconds.",
+      "note": "Requires Pistol<br>Builds 1 Accusation<br>Target must be facing away from you",
+      "description": "A quick backhand blow with the butt of your pistol that deals X physical damage and knocks your target down for 3 seconds.",
       "category": "Ability"
     },
   
@@ -1109,7 +694,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All attacks that build Accusations have a 50% chance to build an additional Accusation.",
+      "description": "All attacks that build accusations have a 50% chance to build an additional accusation.",
       "category": "CareerTactic"
     },
   
@@ -1125,7 +710,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When leaving Incognito, you will become protected by a barrier that will absorb up to 475 damage",
+      "description": "When leaving Incognito, you will become protected by a barrier that will absorb up to X damage",
       "category": "CareerTactic"
     },
   
@@ -1138,10 +723,10 @@
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Builds 1 Accusation<br>Requires 9 points in Path of Inquisition",
-      "description": "A precision blow that deals 202 damage, and causes a lingering wound which reduces the effectiveness of all healing by 50% for 10 seconds.",
+      "note": "Builds 1 Accusation",
+      "description": "A precision blow that deals X physical damage, and causes a lingering wound which reduces the effectiveness of all healing by 50% for 10 seconds.",
       "category": "Ability"
     },
   
@@ -1154,10 +739,10 @@
       "minrank": "1",
       "cost": "Costs 40 AP",
       "range": "Self",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A quick precision strike that deals 431 damage to up to 3 enemies in front of you, up to 15 feet away.",
+      "description": "A quick precision strike that deals X physical damage to up to 3 enemies in front of you, up to 15 feet away.",
       "category": "Ability"
     },
   
@@ -1170,10 +755,10 @@
       "minrank": "20",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "A prolonged fervor that grants 10 Action Points a second to everyone in your group within 100 feet of you for 10 seconds.",
+      "description": "A prolonged fervor that grants 10 action points a second to everyone in your group within 100 feet of you for 10 seconds.",
       "category": "Morale"
     },
   
@@ -1186,10 +771,10 @@
       "minrank": "1",
       "cost": "Costs 40 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
-      "note": "Builds 1 Accusation<br>Requires 9 points in Path of Confession",
-      "description": "A melee attack that deals 277 damage. Your chance to parry attacks is increased by 100% for the next 5 seconds.",
+      "note": "Builds 1 Accusation",
+      "description": "A melee attack that deals X physical damage. Your chance to parry attacks is increased by 100% for the next 5 seconds.",
       "category": "Ability"
     },
   
@@ -1202,7 +787,7 @@
       "minrank": "32",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "You turn your enemy's luck against them, dealing 1200 damage to all targets in line in front of you, up to 65 feet away from you.",
@@ -1237,7 +822,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each time you parry an enemy's attack, you will strike them back for 239 damage which they can not prevent.",
+      "description": "Each time you parry an enemy's attack, you will strike them back for X physical damage which they can not prevent.",
       "category": "CareerTactic"
     },
   
@@ -1266,7 +851,7 @@
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "A holy relic created under the tutelage of Elven mages, the Seal allows your attacks to ignore 50% the victim's armor for the next 7 seconds.",
@@ -1282,10 +867,10 @@
       "minrank": "25",
       "cost": "Costs 45 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A melee attack that can not be defended against, and deals 227 damage. If the target is Ailing, then they will also become Cursed for 15 seconds, reducing their chances to block, parry, dodge, and disrupt attacks by 5%.",
+      "description": "A melee attack that can not be defended against, and deals X physical damage. If the target is ailing, then they will also become cursed for 15 seconds, reducing their chances to block, parry, dodge, and disrupt attacks by 5%.",
       "category": "Ability"
     },
   
@@ -1314,10 +899,10 @@
       "minrank": "22",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Target must have a Blessing",
-      "description": "You sever one Blessing from your enemy and do 127 damage",
+      "description": "You sever one blessing from your enemy and do X physical damage",
       "category": "Ability"
     },
   
@@ -1330,7 +915,7 @@
       "minrank": "8",
       "cost": "Rank 1 morale",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "A directed strike that inflicts 1200 damage to your target.",
@@ -1346,10 +931,10 @@
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Rumored to be the death shroud of Magnus the Pious, this holy relic increases your chance to Disrupt enemy magic by 100% for 7 seconds.<br>You may only use a single relic at a time.",
+      "description": "Rumored to be the death shroud of Magnus the Pious, this holy relic increases your chance to disrupt enemy magic by 100% for 7 seconds.<br>You may only use a single relic at a time.",
       "category": "Ability"
     },
   
@@ -1362,7 +947,7 @@
       "minrank": "18",
       "cost": "Costs 45 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "An artifact of the Temple of Sigmar which removes all roots and snares from you. For the next 10 seconds, roots and snares will have no effect on you.",
@@ -1394,59 +979,11 @@
       "minrank": "16",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A punishing blow that silences your target, making them unable to use magic for 3 seconds. If you are behind your target, then you will also deal 202 damage.",
+      "description": "A punishing blow that silences your target, making them unable to use magic for 3 seconds. If you are behind your target, then you will also deal X physical damage.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22721",
-      "id": 4413,
-      "name": "Sky Titan's Bulwark",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22721",
-      "id": 4414,
-      "name": "Sky Titan's Favor",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%.",
-      "category": "TomeTactic"
-    },
-  
-    {
-      "image": "22721",
-      "id": 4415,
-      "name": "Sky Titan's Strength",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chances to defend against attacks made by enemy Ogre, Troll, and Giant monsters by 5%, and increases your chance to critically hit them by 5%. As long as you are attacking an enemy of this type, you gain Morale 25% faster.",
-      "category": "TomeTactic"
     },
   
     {
@@ -1461,7 +998,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "Requires Pistol",
-      "description": "A quick pistol shot that deals 112 damage, and can be used on the run.<br>Your attack will snare the enemy if used behind your target, reducing their run speed by 40% for 5 seconds.",
+      "description": "A quick pistol shot that deals X physical damage, and can be used on the run.<br>Your attack will snare the enemy if used behind your target, reducing their run speed by 40% for 5 seconds.",
       "category": "Ability"
     },
   
@@ -1474,10 +1011,10 @@
       "minrank": "20",
       "cost": "No AP Cost",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Incognito<br>Builds 2 Accusations",
-      "description": "You leap from the shadows and accuse your target of heresy. Your target will take 75 Spirit damage every time they move for 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Accusations.",
+      "description": "You leap from the shadows and accuse your target of heresy. Your target will take X spirit damage every time they move for 15 seconds. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 accusations.",
       "category": "Ability"
     },
   
@@ -1506,10 +1043,10 @@
       "minrank": "5",
       "cost": "Costs 35 AP",
       "range": "5ft range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A destructive thrust that deals 177 damage to your enemy. If you are behind your target, this attack will ignore armor.",
+      "description": "A destructive thrust that deals X physical damage to your enemy. If you are behind your target, this attack will ignore armor.",
       "category": "Ability"
     },
   
@@ -1522,10 +1059,10 @@
       "minrank": "12",
       "cost": "Costs 15 AP/sec",
       "range": "30ft range",
-      "incant": "3.0s cast",
+      "incant": "3.0s channel",
       "cooldown": "8s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A barrage of withering fire that damages your target for up to 3 seconds, as long as you maintain your concentration.<br>  1 Accusation: 172 damage per shot<br>  2 Accusations: 183 damage per shot.<br>  3 Accusations: 194 damage per shot<br>  4 Accusations: 205 damage per shot<br>  5 Accusations: 216 damage per shot",
+      "description": "A barrage of withering fire that damages your target for up to 3 seconds, as long as you maintain your concentration.<br>  1 Accusation: V physical damage per shot<br>  2 Accusations: W physical damage per shot.<br>  3 Accusations: X physical damage per shot<br>  4 Accusations: Y physical damage per shot<br>  5 Accusations: Z physical damage per shot",
       "category": "Ability"
     },
   
@@ -1541,7 +1078,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your Spirit resistance by 252.",
+      "description": "Gain a 252 unique bonus to spirit resistance.",
       "category": "CareerTactic"
     },
   
@@ -1554,10 +1091,10 @@
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "A tiny enchanted mirror hung around your neck, this holy relic deals 100 damage to anyone that strikes you with a melee attack over the next 7 seconds.",
+      "description": "A tiny enchanted mirror hung around your neck, this holy relic deals X physical damage to anyone that strikes you with a melee attack over the next 7 seconds.",
       "category": "Ability"
     },
   
@@ -1602,7 +1139,7 @@
       "minrank": "36",
       "cost": "Rank 3 morale",
       "range": "No range",
-      "incant": "Insta-Cast",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Everyone in your group within 100 feet of you has a 50% increased chance to parry attacks for 10 seconds.",
