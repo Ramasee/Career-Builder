@@ -14,14 +14,14 @@
     "class": "Tank"
   },
   "warrior-priest": {
-    "name": "Warrior Priest (Phase 1)",
+    "name": "Warrior Priest (Phase 2)",
     "slug": "warrior-priest",
     "faction": "Order",
     "race": "Empire",
     "class": "Healer"
   },
   "witch-hunter": {
-    "name": "Witch Hunter (Phase 1)",
+    "name": "Witch Hunter (Phase 2)",
     "slug": "witch-hunter",
     "faction": "Order",
     "race": "Empire",
@@ -105,7 +105,7 @@
     "class": "Melee DPS"
   },
   "zealot": {
-    "name": "Zealot (Phase 1)",
+    "name": "Zealot (Phase 2)",
     "slug": "zealot",
     "faction": "Destruction",
     "race": "Chaos",
@@ -161,7 +161,7 @@
     "class": "Ranged DPS"
   },
   "witch-elf": {
-    "name": "Witch Elf (Phase 1)",
+    "name": "Witch Elf (Phase 2)",
     "slug": "witch-elf",
     "faction": "Destruction",
     "race": "Dark Elf",
