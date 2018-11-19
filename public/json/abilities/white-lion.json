@@ -4,7 +4,7 @@
       "name": "Path of The Hunter",
       "popover": {
         "primary": "A mastery path focused on hindering your enemies.",
-        "secondary": "Points in Path of the Hunter grants 8 initiative, 10 toughness and  17 wounds to your lion."
+        "secondary": "Each point in Path of The Hunter grants 10 Toughness, 17 Wounds, and 8 Initiative to your lion."
       },
       "optionalAbilities": {
         "lvl1": 4283,
@@ -21,7 +21,7 @@
       "name": "Path of The Axeman",
       "popover": {
         "primary": "A mastery path focused on dealing damage to one enemy with the help of your lion.",
-        "secondary": "Points in Path of the Axeman grants 12 strength, 18 weapon skill, and 5 toughness to your lion."
+        "secondary": "Each point in Path of The Axeman grants 12 Strength, 5 Toughness, and 18 Weapon Skill to your lion."
       },
       "optionalAbilities": {
         "lvl1": 4276,
@@ -38,7 +38,7 @@
       "name": "Path of The Guardsman",
       "popover": {
         "primary": "A mastery path focused on dealing damage to multiple enemies.",
-        "secondary": "Points in Path of the Axeman grants 20 strength, 8 initiative, 12 toughness, and 20 wounds to your lion."
+        "secondary": "Each point in Path of The Guardsman grants 20 Strength, 12 toughness, 20 wounds, and 8 initiative to your lion."
       },
       "optionalAbilities": {
         "lvl1": 4292,
@@ -81,7 +81,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your path of woodsman abilities bypass 50% spirit resistance.",
+      "description": "All of your Path of Guardsman abilities bypass 50% spirit resistance.",
       "category": "CareerTactic"
     },
   
@@ -97,7 +97,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "An attack which momentarily distracts your enemy, dealing (38 + 5/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage to them. Your targeted groupmate, or your War Lion if you do not have one, will cause 25% less hatred in all enemy monsters for 5 seconds.",
+      "description": "An attack which momentarily distracts your enemy, dealing (38 + 5/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage to them. Your selected groupmate, or War Lion if you do not have one, will cause 25% less hatred in all enemy monsters for 5 seconds.",
       "category": "Ability"
     },
   
@@ -240,7 +240,7 @@
       "range": "No range",
       "incant": "1.0s cast",
       "cooldown": "15.0s cooldown",
-      "note": "",
+      "note": "You cannot use this ability while Trained Traditionally",
       "description": "You call your tamed War Lion to come forth and fight with you.<br>You may only have a single War Lion at a time.",
       "category": "Ability"
     },
@@ -289,7 +289,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You and your War Lion charge into the thick of battle, increasing your movement speed by 50 for 7 seconds. If you or your War Lion use any abilities, this effect will immediately end.",
+      "description": "You and your War Lion charge into the thick of battle, increasing your movement speed by 50% for 7 seconds. If you or your War Lion use any abilities, this effect will immediately end.",
       "category": "Ability"
     },
   
@@ -417,7 +417,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You each unleash a blasting shout, interrupting any enemies 40 feet in front of you.",
+      "description": "You unleash a blasting shout, interrupting any enemies 40 feet in front of you.",
       "category": "Ability"
     },
   
@@ -481,7 +481,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You invoke a minor bit of Elven power and attack your target with a befuddling strike, dealing (30 + 5 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage. The enemies attack speed is reduced by 20% for the next 10 seconds. Enemy monsters will become confused and will believe that your selected groupmate, or your War Lion if you do not have one, struck the blow.",
+      "description": "You invoke a minor bit of Elven power and attack your target with a befuddling strike, dealing (30 + 5 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage. The enemies attack speed is reduced by 20% for the next 10 seconds. Enemy monsters will become confused and will believe that your War Lion, or targeted groupmate if you do not have one, struck the blow.",
       "category": "Ability"
     },
   
@@ -529,7 +529,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
   
@@ -577,7 +577,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You strike at your enemy with a brutal attack which causes (28 + 4 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage and can not be defended against. The victim takes a (40 * rank) ability penalty to armor for 10s.",
+      "description": "You strike at your enemy with a brutal attack which causes (28 + 4 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage and can not be defended against. The victim's armor is reduced by (40 * rank) for the next 10s.",
       "category": "Ability"
     },
   
@@ -609,7 +609,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Echoing Roar will now deal X spirit damage to all targets over Ys.",
+      "description": "Echoing Roar will now deal X Spirit damage to all targets over Ys.",
       "category": "CareerTactic"
     },
   
@@ -705,7 +705,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Lion's Fury no longer requires that the target be Cursed, costs 15 fewer action points, and deals (49 + 25/3 * rank) + (0.3 * STR) + (1.5 DPS) spirit damage.",
+      "description": "Lion's Fury no longer requires that the target be Cursed, costs 15 fewer action points, and deals (49 + 25/3 * rank) + (0.3 * STR) + (1.5 DPS) Spirit damage.",
       "category": "CareerTactic"
     },
   
@@ -816,7 +816,7 @@
       "range": "65ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "You cannot use this ability while airborne<br>You cannot perform this action while rooted<br>You cannot perform this action while stunned<br>You refuse to perform this action while Trained Traditionally",
+      "note": "You cannot use this ability while airborne<br>You cannot perform this action while rooted<br>You cannot perform this action while stunned<br>Requires Trained to Hunt or Kill",
       "description": "You pounce forwards, leaping towards your target. When you land, you will inflict (20 + 10/3 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage, and your movement speed will be increased by 35% for 3 seconds.",
       "category": "Ability"
     },
@@ -929,7 +929,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals (25 + 6 * rank) + (0.6 * STR) physical damage over 9 seconds. Your target will take a (3 * rank) ability penalty to strength for 9s.",
+      "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals (25 + 6 * rank) + (0.6 * STR) physical damage over 9 seconds. Your target will also lose (3 * rank) Strength for 9s.",
       "category": "Ability"
     },
   
@@ -1089,7 +1089,7 @@
       "incant": "5.0s cast",
       "cooldown": "No cooldown",
       "note": "Can only have one training active",
-      "description": "You train your pet to hunt with you, increasing its Strength, Toughness, Wounds, and Weapon Skill by 50% of your bonus gained from items. 50% of the threat you generate goes to your war lion. Any time you strike an enemy, there is a 10% chance that you and your War Lion will be healed for 100% of the damage dealt over 5 seconds. This effect will stack on a new application refreshing to 5 second duration and is capped at 3% of your maximum health per tick.<br><br>Your War Lion will gain the ability to reduce enemy movement speed, reduce enemy toughness, and the ability to reduce several enemies' autoattack speeds.",
+      "description": "You train your pet to hunt with you, increasing its Strength, Toughness, Wounds, and Weapon Skill by 50% of your bonus gained from items. 50% of the threat you generate goes to your war lion. Any time you strike an enemy, there is a 10% chance that you and your War Lion will be healed for 100% of the damage dealt over 5 seconds. This effect will stack on a new application, but will never heal more than 3% of your maximum health per tick.<br><br>Your War Lion will gain the ability to reduce enemy movement speed, reduce enemy Toughness, and the ability to reduce several enemies' autoattack speeds.",
       "category": "Ability"
     },
   
@@ -1121,7 +1121,7 @@
       "incant": "5.0s cast",
       "cooldown": "No cooldown",
       "note": "Can only have one training active.<br>Does not stack with loner.",
-      "description": "You are trained in the traditional arts of protection for the Pheonix King. You do not have a white lion, your superior training improves your damage by 25%, your connection to the Pheonix King causes all of your Path of Woodsman abilites to deal spirit damage, and you simply refuse to pounce. It is beneath one of your dignity.",
+      "description": "You are trained in the traditional arts of protecting the Phoenix King. You may not summon a War Lion, your superior training improves your damage by 25%, and your connection to the Phoenix King causes all of your Path of The Guardsman abilites to deal Spirit damage.",
       "category": "Ability"
     },
   
@@ -1153,7 +1153,7 @@
       "incant": "Instant Cost",
       "cooldown": "5min cooldown",
       "note": "Requires active pet",
-      "description": "You command your War Lion to perform a mauling attack deal X physical damage. If your lion is trained to hunt, it will knock the target down for 3s. If your lion is trained to kill, it will disarm your opponent for 4s.",
+      "description": "You command your War Lion to perform a mauling attack deal X physical damage. If your lion is Trained to Hunt, it will knock the target down for 3s. If your lion is Trained to Kill, it will disarm your opponent for 4s.",
       "category": "Ability"
     },
 
@@ -1201,7 +1201,7 @@
       "incant": "Instant Cost",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You cleave your enemies within 30 feet dealing (60 + 9 * rank) + (0.4 * STR) physical damage over 9s. Your targets take a (rank * 2) ability penalty to Initiative and Weaponskill.",
+      "description": "You cleave your enemies within 30 feet dealing (60 + 9 * rank) + (0.4 * STR) physical damage over 9s. Your targets take a (rank * 2) ability penalty to Initiative and Weapon Skill.",
       "category": "Ability"
     }
   ]
