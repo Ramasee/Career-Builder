@@ -116,7 +116,7 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "100ft range",
-      "incant": "4.0s cast",
+      "incant": "4.0s channel",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "You select a spot on the ground and call in an artillery strike for up to 4 seconds, dealing 600 damage per second to all enemies within 30 feet of that spot.",
@@ -263,7 +263,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "If an enemy dodges any of your attacks, you will regain 75 Action Points.<br>This effect will not trigger more than once every 3 seconds.",
+      "description": "If an enemy dodges any of your attacks, you will regain 75 action points.<br>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
   
@@ -348,22 +348,6 @@
     },
   
     {
-      "image": "23406",
-      "id": 3683,
-      "name": "Diminish War Engine",
-      "type": "Debuff",
-      "spec": "Core Ability",
-      "minrank": "40",
-      "cost": "No AP Cost",
-      "range": "100ft range",
-      "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Not usable on Siege Rams or Oil",
-      "description": "Siege Targetted debuff. Decreases damage done by that siege engine to 98% for 10 seconds.",
-      "category": "Ability"
-    },
-  
-    {
       "image": "04654",
       "id": 3679,
       "name": "Electromagnet",
@@ -375,7 +359,7 @@
       "incant": "1.0s cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You set up a device which unleashes a powerful wave of force, pulling up to six enemy players within 75 feet inwards towards it and knocking down monsters. 1 second later, the device blasts outwards and snares all enemies within 30 feet, reducing their movement speed by 40% for 4 seconds.<br>The attack uses the Ranged statistic.",
+      "description": "You set up a device which unleashes a powerful wave of force, pulling up to six enemy players within 75 feet inwards towards it and knocking down monsters. 1 second later, the device blasts outwards and snares all enemies within 30 feet, reducing their movement speed by 40% for 4 seconds.<br>The attack uses the ranged statistic.",
       "category": "Ability"
     },
   
@@ -535,7 +519,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
   
@@ -615,7 +599,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A powerful swipe with your spanner which smacks all enemies in front of you up to 40 feet away, dealing X corporeal damage over 9 seconds.<br>The attack uses the Ranged statistic.",
+      "description": "A powerful swipe with your spanner which smacks all enemies in front of you up to 40 feet away, dealing X corporeal damage over 9 seconds.<br>The attack uses the ranged statistic.",
       "category": "Ability"
     },
   
@@ -916,7 +900,7 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "4.0s cast",
+      "incant": "4.0s channel",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "You release a string of several gun blasts in a row for up to 4 seconds, dealing 600 damage each second to all enemies in front of you, up to 40 feet away.",
@@ -1175,7 +1159,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You can now construct your turrets instantly and the cost of Redeploy is reduced to 0 Action Points.",
+      "description": "You can now construct your turrets instantly and the cost of Redeploy is reduced to 0 action points.",
       "category": "CareerTactic"
     },
 
