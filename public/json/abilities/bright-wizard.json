@@ -117,7 +117,7 @@
       "incant": "1.0s cast",
       "cooldown": "20.0s cooldown",
       "note": "Builds 10 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "Your target's weapons become red hot, dealing X corporeal damage to them and causing them to lose 50 Action Points.",
+      "description": "Your target's weapons become red hot, dealing X corporeal damage to them and causing them to lose 50 action points.",
       "category": "Ability"
     },
   
@@ -133,7 +133,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Costs 40 Combustion",
-      "description": "You call upon the Winds Of Magic to grant you power, instantly regaining 160 Action Points.",
+      "description": "You call upon the Winds Of Magic to grant you power, instantly regaining 160 action points.",
       "category": "Ability"
     },
   
@@ -149,7 +149,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "You must be Cursed, Hexed, or Ailing",
-      "description": "You cause an open wound to sear itself shut, removing one Hex, Curse, or Ailment from yourself.",
+      "description": "You cause an open wound to sear itself shut, removing one hex, curse, or ailment from yourself.",
       "category": "Ability"
     },
   
@@ -245,7 +245,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever one of your spells hits an enemy, you have a 25% chance to regain 30 Action Points. This effect can not occur more than once every 2 seconds.",
+      "description": "Whenever one of your spells hits an enemy, you have a 25% chance to regain 30 action points. This effect can not occur more than once every 2 seconds.",
       "category": "CareerTactic"
     },
   
@@ -434,7 +434,7 @@
       "minrank": "1",
       "cost": "Costs 20 AP/sec",
       "range": "80ft range",
-      "incant": "3.0s cast",
+      "incant": "3.0s channel",
       "cooldown": "13.0s cooldown",
       "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!",
       "description": "You assault your target with a constant stream of fireballs, striking them up to 3 times over 3 seconds. Each blast deals X elemental damage to your target, and Y elemental damage to all other enemies within 20 feet of them. This effect will end if you break your concentration or run out of action points.",
@@ -517,7 +517,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
   
@@ -597,7 +597,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Removes all Hexes and Curses from you. You regain 485 health over 15 seconds.",
+      "description": "Removes all hexes and curses from you. You regain 485 health over 15 seconds.",
       "category": "Morale"
     },
   
@@ -709,7 +709,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You gain a strong counter aura for the next 10 seconds that will reduce half of any incoming Magic damage and redirect half of any direct damage back to the caster.",
+      "description": "You gain a strong counter aura for the next 10 seconds that will reduce half of any incoming magic damage and redirect half of any direct damage back to the caster.",
       "category": "Morale"
     },
   
@@ -805,7 +805,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 448 damage to all enemies within 30 feet and reduce their Wounds by 180 for 10 seconds.",
+      "description": "Deals 448 damage to all enemies within 30 feet and causes them to take a 180 morale penalty to wounds for 10 seconds.",
       "category": "Morale"
     },
   
@@ -965,7 +965,7 @@
       "incant": "Instant Cast",
       "cooldown": "15.0s cooldown",
       "note": "",
-      "description": "You Detaunt your target by surrounding them with thick smoke, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have Detaunted, the effect will immediately end.",
+      "description": "You detaunt your target by surrounding them with thick smoke, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have detaunted, the effect will immediately end.",
       "category": "Ability"
     },
   
@@ -1029,7 +1029,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 1600 damage to your target, and 1200 to all other enemies within 20 feet of them. All enemies hit by this effect will lose 600 points of Morale.",
+      "description": "Deals 1600 damage to your target, and 1200 to all other enemies within 20 feet of them. All enemies hit by this effect will lose 600 points of morale.",
       "category": "Morale"
     },
   
