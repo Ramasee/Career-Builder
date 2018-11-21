@@ -1,83 +1,83 @@
 {
   "bright-wizard": {
-    "name": "Bright Wizard (Phase 2)",
+    "name": "Bright Wizard (Phase 3)",
     "slug": "bright-wizard",
     "faction": "Order",
     "race": "Empire",
     "class": "Ranged DPS"
   },
   "knight-of-the-blazing-sun": {
-    "name": "Knight of the Blazing Sun (Phase 2)",
+    "name": "Knight of the Blazing Sun (Phase 3)",
     "slug": "knight-of-the-blazing-sun",
     "faction": "Order",
     "race": "Empire",
     "class": "Tank"
   },
   "warrior-priest": {
-    "name": "Warrior Priest (Phase 2)",
+    "name": "Warrior Priest (Phase 3)",
     "slug": "warrior-priest",
     "faction": "Order",
     "race": "Empire",
     "class": "Healer"
   },
   "witch-hunter": {
-    "name": "Witch Hunter (Phase 2)",
+    "name": "Witch Hunter (Phase 3)",
     "slug": "witch-hunter",
     "faction": "Order",
     "race": "Empire",
     "class": "Melee DPS"
   },
   "engineer": {
-    "name": "Engineer (Phase 2)",
+    "name": "Engineer (Phase 3)",
     "slug": "engineer",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Ranged DPS"
   },
   "ironbreaker": {
-    "name": "Ironbreaker (Phase 2)",
+    "name": "Ironbreaker (Phase 3)",
     "slug": "ironbreaker",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Tank"
   },
   "rune-priest": {
-    "name": "Runepriest (Phase 2)",
+    "name": "Runepriest (Phase 3)",
     "slug": "rune-priest",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Healer"
   },
   "slayer": {
-    "name": "Slayer (Phase 2)",
+    "name": "Slayer (Phase 3)",
     "slug": "slayer",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Melee DPS"
   },
   "archmage": {
-    "name": "Archmage (Phase 2)",
+    "name": "Archmage (Phase 3)",
     "slug": "archmage",
     "faction": "Order",
     "race": "High Elf",
     "class": "Healer"
   },
   "shadow-warrior": {
-    "name": "Shadow Warrior",
+    "name": "Shadow Warrior (Phase 3)",
     "slug": "shadow-warrior",
     "faction": "Order",
     "race": "High Elf",
     "class": "Ranged DPS"
   },
   "sword-master": {
-    "name": "Sword Master (Phase 2)",
+    "name": "Sword Master (Phase 3)",
     "slug": "sword-master",
     "faction": "Order",
     "race": "High Elf",
     "class": "Tank"
   },
   "white-lion": {
-    "name": "White Lion",
+    "name": "White Lion (Phase 3)",
     "slug": "white-lion",
     "faction": "Order",
     "race": "High Elf",
