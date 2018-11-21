@@ -341,7 +341,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
   
@@ -562,7 +562,7 @@
       "minrank": "1",
       "cost": "Costs 25 AP/sec",
       "range": "5ft range",
-      "incant": "3.0s cast",
+      "incant": "3.0s channel",
       "cooldown": "8.0s cooldown",
       "note": "",
       "description": "You slam into your target without remorse, dealing up to X physical damage over 3 seconds. This effect will end if you break your concentration or run out of action points.",
@@ -1046,7 +1046,7 @@
       "incant": "Instant Cast",
       "cooldown": "4.5s cooldown",
       "note": "You can have three commands active.",
-      "description": "You fill your group with purpose, causing all of your groupmates within 100 feet to regain 20 Action Points every 5 seconds. All enemies within 30 feet will lose 20 Action Points every 5 seconds.",
+      "description": "You fill your group with purpose, causing all of your groupmates within 100 feet to regain 20 action points every 5 seconds. All enemies within 30 feet will lose 20 action points every 5 seconds.",
       "category": "Ability"
     },
   
@@ -1110,7 +1110,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You gain a 252 unique bonus to spirit resistance",
+      "description": "Gain a 252 unique bonus to spirit resistance.",
       "category": "CareerTactic"
     },
   
