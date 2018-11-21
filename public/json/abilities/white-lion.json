@@ -113,7 +113,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You gain a 252 unique bonus to Elemental Resistance.",
+      "description": "Gain a 252 unique bonus to elemental resistance.",
       "category": "CareerTactic"
     },
   
@@ -145,7 +145,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Must be at your target's side or rear",
-      "description": "You attack your enemy at a vulnerable spot, dealing (38 + 5/3 * rank) + (0.15 * STR) + (1.5 * DPS) physical damage immediately and inflicting them with an Ailment which deals an additional (40 + 5 * rank) + (0.3 * STR) physical damage over 9 seconds.",
+      "description": "You attack your enemy at a vulnerable spot, dealing (38 + 5/3 * rank) + (0.15 * STR) + (1.5 * DPS) physical damage immediately and inflicting them with an ailment which deals an additional (40 + 5 * rank) + (0.3 * STR) physical damage over 9 seconds.",
       "category": "Ability"
     },
   
@@ -193,7 +193,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Trained Traditionally",
-      "description": "Deals X damage to all enemies with 25ft knocking them down for 2 seconds.",
+      "description": "Deals X physical damage to all enemies with 25ft knocking them down for 2 seconds.",
       "category": "Ability"
     },
   
@@ -209,7 +209,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You gain a 160 unique bonus to Strength.",
+      "description": "Gain a 160 unique bonus to strength.",
       "category": "CareerTactic"
     },
   
@@ -241,7 +241,7 @@
       "incant": "1.0s cast",
       "cooldown": "15.0s cooldown",
       "note": "You cannot use this ability while Trained Traditionally",
-      "description": "You call your tamed War Lion to come forth and fight with you.<br>You may only have a single War Lion at a time.",
+      "description": "You call your tamed War Lion to come forth and fight with you.<br>You may only have a single War Lion at a time. Your War Lion's strength and wounds are increased by 50% of your strength and wounds from items. ",
       "category": "Ability"
     },
   
@@ -273,7 +273,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional 252 Spirit damage over 3 seconds.",
+      "description": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional 252 spirit damage over 3 seconds.",
       "category": "CareerTactic"
     },
   
@@ -305,7 +305,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A sundering blow which deals (38 + 5/3 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage and inflicts your victim with an Ailment which reduces their movement speed by 40% for 5 seconds.",
+      "description": "A sundering blow which deals (38 + 5/3 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage and inflicts your victim with an ailment which reduces their movement speed by 40% for 5 seconds.",
       "category": "Ability"
     },
   
@@ -321,7 +321,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You gain an additional 50 Morale every 5 seconds as long as you have an active War Lion. If your War Lion ever dies, however, you will lose 600 Morale.",
+      "description": "You gain an additional 50 morale every 5 seconds as long as you have an active War Lion. If your War Lion ever dies, however, you will lose 600 morale.",
       "category": "CareerTactic"
     },
   
@@ -337,7 +337,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for 7 seconds.",
+      "description": "Concentrating on your perceived movements, you will be able to dodge and parry all attacks against you for 7 seconds.",
       "category": "Morale"
     },
   
@@ -561,7 +561,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You stare down your opponent, draining 200 of their Action Points into yourself, and reducing their Strength by 160 for 30 seconds.",
+      "description": "You stare down your opponent, draining 200 of their action points into yourself, and causing them to take a 160 morale penalty to strength for 30 seconds.",
       "category": "Morale"
     },
   
@@ -609,7 +609,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Echoing Roar will now deal X Spirit damage to all targets over Ys.",
+      "description": "Echoing Roar will now deal X spirit damage to all targets over Ys.",
       "category": "CareerTactic"
     },
   
@@ -657,7 +657,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 Corporeal damage over 9 seconds.",
+      "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 corporeal damage over 9 seconds.",
       "category": "CareerTactic"
     },
   
@@ -673,7 +673,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Your War Lion is fully healed, and all group members within 100 feet instantly gain 250 Action Points.",
+      "description": "Your War Lion is fully healed, and all group members within 100 feet instantly gain 250 action points.",
       "category": "Morale"
     },
   
@@ -705,7 +705,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Lion's Fury no longer requires that the target be Cursed, costs 15 fewer action points, and deals (49 + 25/3 * rank) + (0.3 * STR) + (1.5 DPS) Spirit damage.",
+      "description": "Lion's Fury no longer requires that the target be cursed, costs 15 fewer action points, and deals (49 + 25/3 * rank) + (0.3 * STR) + (1.5 DPS) spirit damage.",
       "category": "CareerTactic"
     },
   
@@ -721,7 +721,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Target must be Cursed",
-      "description": "You draw upon your mystical Elven heritage and furiously attack your target, dealing (28 + 4 * rank) + (0.3 * STR) + (1.5 DPS) Spirit damage.",
+      "description": "You draw upon your mystical Elven heritage and furiously attack your target, dealing (28 + 4 * rank) + (0.3 * STR) + (1.5 DPS) spirit damage.",
       "category": "Ability"
     },
   
@@ -865,7 +865,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "A prolonged fervor that grants 10 Action Points a second to everyone in your group within 100 feet of you for 10 seconds.",
+      "description": "A prolonged fervor that grants 10 action points a second to everyone in your group within 100 feet of you for 10 seconds.",
       "category": "Morale"
     },
   
@@ -897,7 +897,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each time you parry an enemy's attack, you will strike them back for 246 damage which they can not prevent.",
+      "description": "Each time you parry an enemy's attack, you will strike them back for X physical damage which they can not prevent.",
       "category": "CareerTactic"
     },
   
@@ -929,7 +929,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals (25 + 6 * rank) + (0.6 * STR) physical damage over 9 seconds. Your target will also lose (3 * rank) Strength for 9s.",
+      "description": "A powerful attack which shatters your enemy's bones, inflicting a curse which deals (25 + 6 * rank) + (0.6 * STR) physical damage over 9 seconds. Your target will also lose (3 * rank) strength for 9s.",
       "category": "Ability"
     },
   
@@ -993,7 +993,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You cower submissively, causing all enemies within 30 feet to hate you less and deal only 50% damage to you for 5 seconds. For the next 5 seconds, you will cause 25% less hate in all enemy monsters.<br>If you attack anyone that you've Detaunted, the effect will immediately fade from them.",
+      "description": "You cower submissively, causing all enemies within 30 feet to hate you less and deal only 50% damage to you for 5 seconds. For the next 5 seconds, you will cause 25% less hate in all enemy monsters.<br>If you attack anyone that you've detaunted, the effect will immediately fade from them.",
       "category": "Ability"
     },
   
@@ -1025,7 +1025,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Slashing Blade and Sundering Chop will now cause an additional 258 damage over 3 seconds.",
+      "description": "Slashing Blade and Sundering Chop will now cause an additional X physical damage over 3 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1073,7 +1073,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires an active pet",
-      "description": "You command your pet to go for the throat! Your War Lion's next attack within 20 seconds will deal an additional (20 + 10/3 * rank) + (0.3 * STR) physical damage and will Silence its victim, making them unable to use magic for 4 seconds.",
+      "description": "You command your pet to go for the throat! Your War Lion's next attack within 20 seconds will deal an additional (20 + 10/3 * rank) + (0.3 * STR) physical damage and will silence its victim, making them unable to use magic for 4 seconds.",
       "category": "Ability"
     },
   
@@ -1089,7 +1089,7 @@
       "incant": "5.0s cast",
       "cooldown": "No cooldown",
       "note": "Can only have one training active",
-      "description": "You train your pet to hunt with you, increasing its Strength, Toughness, Wounds, and Weapon Skill by 50% of your bonus gained from items. 50% of the threat you generate goes to your war lion. Any time you strike an enemy, there is a 10% chance that you and your War Lion will be healed for 100% of the damage dealt over 5 seconds. This effect will stack on a new application, but will never heal more than 3% of your maximum health per tick.<br><br>Your War Lion will gain the ability to reduce enemy movement speed, reduce enemy Toughness, and the ability to reduce several enemies' autoattack speeds.",
+      "description": "You train your pet to hunt with you, increasing its toughness and wounds by 50% of your bonus gained from items. 50% of the threat you generate goes to your war lion. Any time you strike an enemy, there is a 10% chance that you and your War Lion will be healed for 100% of the damage dealt over 5 seconds. This effect will stack on a new application, but will never heal more than 3% of your maximum health per tick.<br><br>Your War Lion will gain the ability to reduce enemy movement speed, reduce enemy toughness, and the ability to reduce several enemies' autoattack speeds.",
       "category": "Ability"
     },
   
@@ -1105,7 +1105,7 @@
       "incant": "5.0s cast",
       "cooldown": "No cooldown",
       "note": "Can only have one training active.",
-      "description": "You train your pet to fight ferociously, increasing its Strength and  Weapon Skill from your Strength and Weapon Skill gained from items and increasing your Critical Chance by 5%. Your War Lion generates 25% less hatred.<br><br>Your War Lion will gain the ability to strike its enemies with a powerful mauling attack, the ability to attack its target repeatedly, and the ability to deal damage over time.",
+      "description": "You train your pet to fight ferociously, increasing its weapon skill by 100% of your bonus gained from items and increasing your Critical Chance by 5%. Your War Lion generates 25% less hatred.<br><br>Your War Lion will gain the ability to strike its enemies with a powerful mauling attack, the ability to attack its target repeatedly, and the ability to deal damage over time.",
       "category": "Ability"
     },
   
@@ -1121,7 +1121,7 @@
       "incant": "5.0s cast",
       "cooldown": "No cooldown",
       "note": "Can only have one training active.<br>Does not stack with loner.",
-      "description": "You are trained in the traditional arts of protecting the Phoenix King. You may not summon a War Lion, your superior training improves your damage by 25%, and your connection to the Phoenix King causes all of your Path of The Guardsman abilites to deal Spirit damage.",
+      "description": "You are trained in the traditional arts of protecting the Phoenix King. You may not summon a War Lion, your superior training improves your damage by 25%, and your connection to the Phoenix King causes all of your Path of The Guardsman abilites to deal spirit damage.",
       "category": "Ability"
     },
   
@@ -1201,7 +1201,7 @@
       "incant": "Instant Cost",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You cleave your enemies within 30 feet dealing (60 + 9 * rank) + (0.4 * STR) physical damage over 9s. Your targets take a (rank * 2) ability penalty to Initiative and Weapon Skill.",
+      "description": "You cleave your enemies within 30 feet dealing (60 + 9 * rank) + (0.4 * STR) physical damage over 9s. Your targets take a (rank * 2) ability penalty to initiative and weapon skill.",
       "category": "Ability"
     }
   ]
