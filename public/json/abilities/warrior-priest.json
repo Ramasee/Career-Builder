@@ -242,7 +242,7 @@
       "minrank": "8",
       "cost": "No AP Cost",
       "range": "5ft range",
-      "incant": "3.0s cast",
+      "incant": "3.0s channel",
       "cooldown": "8.0s cooldown",
       "note": "Requires 25 Righteous Fury per second",
       "description": "You repeatedly assault an enemy, attacking their very spirit and offering it up to Sigmar's will. You strike the target up to four times over 3 seconds, dealing X spirit damage per hit. Each hit heals your defensive target for 350% of the damage that was dealt.<br>This effect will end if you break your concentration, or run out of Righteous Fury.",
@@ -501,7 +501,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
   
@@ -741,7 +741,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires 40 Righteous Fury",
-      "description": "You call upon Sigmar to Bless everyone in your group within 100 feet, restoring X health over 15 seconds.",
+      "description": "You call upon Sigmar to bless everyone in your group within 100 feet, restoring X health over 15 seconds.",
       "category": "Ability"
     },
   
@@ -1074,7 +1074,7 @@
       "minrank": "1",
       "cost": "Costs 30 AP/sec",
       "range": "No range",
-      "incant": "5.0s cast",
+      "incant": "5.0s channel",
       "cooldown": "10.0s cooldown",
       "note": "",
       "description": "For the next 5 seconds, you will convert 30 action points into 30 righteous fury every second. If you run out of action points or break your concentration, this effect will end.",
