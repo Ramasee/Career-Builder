@@ -278,7 +278,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Group members within 100 feet regain 798 health and 240 Action Points over 9 seconds.",
+      "description": "Group members within 100 feet regain 798 health and 240 action points over 9 seconds.",
       "category": "Morale"
     },
   
@@ -918,7 +918,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Target must have a Blessing",
-      "description": "You sever one Blessing from your enemy and do X physical damage.",
+      "description": "You sever one blessing from your enemy and do X physical damage.",
       "category": "Ability"
     },
   
@@ -1126,7 +1126,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit an enemy, each group member within 100 feet will gain 25 Action Points. This effect will not trigger more than once every 3 seconds.",
+      "description": "Any time you critically hit an enemy, each group member within 100 feet will gain 25 action points. This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1158,7 +1158,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Costs 10 Grudge",
-      "description": "You strike your enemy for X physical damage and stubbornly push yourself to keep fighting, gaining a (3 * rank) ability bonus to toughness for 20 seconds.<br>Your Oath Friend's Toughness will also be increased if they are within 50 feet.",
+      "description": "You strike your enemy for X physical damage and stubbornly push yourself to keep fighting, gaining a (3 * rank) ability bonus to toughness for 20 seconds.<br>Your Oath Friend's toughness will also be increased if they are within 50 feet.",
       "category": "Ability"
     },
   
