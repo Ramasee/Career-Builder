@@ -357,7 +357,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "You fire a hollow point shell, dealing damage immediately and causing the target to take an ability pnealty to toughness, strength, and weapon skill for 10 seconds.<br>  1 Accusation: V physical damage; stats reduced by 50.<br>  2 Accusations: W physical damage; stats reduced by 75.<br>  3 Accusations: X physical damage; stats reduced by 100.<br>  4 Accusations: Y physical damage; stats reduced by 125.<br>  5 Accusations: Z physical damage; stats reduced by 150.",
+      "description": "You fire a hollow point shell, dealing damage immediately and causing the target to take an ability penalty to toughness, strength, and weapon skill for 10 seconds.<br>  1 Accusation: V physical damage; stats reduced by 50.<br>  2 Accusations: W physical damage; stats reduced by 75.<br>  3 Accusations: X physical damage; stats reduced by 100.<br>  4 Accusations: Y physical damage; stats reduced by 125.<br>  5 Accusations: Z physical damage; stats reduced by 150.",
       "category": "Ability"
     },
   
@@ -485,7 +485,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
   
@@ -1126,7 +1126,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you strike an enemy in the back, there is a 25% chance that they will lose 225 points of Morale.",
+      "description": "Any time you strike an enemy in the back, there is a 25% chance that they will lose 225 points of morale.",
       "category": "CareerTactic"
     },
   
