@@ -4,7 +4,7 @@
       "name": "Path of The Hunter",
       "popover": {
         "primary": "A mastery path focused on hindering your enemies.",
-        "secondary": "Each point in Path of The Hunter grants 10 Toughness, 17 Wounds, and 8 Initiative to your lion."
+        "secondary": "Each point in Path of The Hunter grants 10 initiative, 8 strength, 7 toughness, and 10 wounds to your War Lion."
       },
       "optionalAbilities": {
         "lvl1": 4283,
@@ -21,7 +21,7 @@
       "name": "Path of The Axeman",
       "popover": {
         "primary": "A mastery path focused on dealing damage to one enemy with the help of your lion.",
-        "secondary": "Each point in Path of The Axeman grants 12 Strength, 5 Toughness, and 18 Weapon Skill to your lion."
+        "secondary": "Each point in Path of The Axeman grants 12 strength, 5 toughness, and 18 weapon skill to your War lion."
       },
       "optionalAbilities": {
         "lvl1": 4276,
@@ -38,7 +38,7 @@
       "name": "Path of The Guardsman",
       "popover": {
         "primary": "A mastery path focused on dealing damage to multiple enemies.",
-        "secondary": "Each point in Path of The Guardsman grants 20 Strength, 12 toughness, 20 wounds, and 8 initiative to your lion."
+        "secondary": "Each point in Path of The Guardsman grants 8 initiative, 12 toughness, and 20 wounds to your War lion."
       },
       "optionalAbilities": {
         "lvl1": 4292,
