@@ -100,7 +100,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Builds 30 Righteous Fury",
+      "note": "Requires Greatweapon.<br>Builds 30 Righteous Fury",
       "description": "A powerful attack which deals X physical damage to your enemy.",
       "category": "Ability"
     },
@@ -324,7 +324,7 @@
       "range": "150ft range",
       "incant": "0.5s cast",
       "cooldown": "5.0s cooldown",
-      "note": "",
+      "note": "Requires Tome",
       "description": "A quick heal that restores X health. Not affected by cooldown modification abilities.",
       "category": "Ability"
     },
@@ -708,7 +708,7 @@
       "range": "No range",
       "incant": "3.0s channel",
       "cooldown": "13.0s cooldown",
-      "note": "Requires 20 Righteous Fury per second",
+      "note": "Requires Shield.<br>Requires 20 Righteous Fury per second",
       "description": "You open your soul to Sigmar and become a living force of holy power for up to 3 seconds, as long as you maintain your concentration. Each second, all allies within 30 feet of you will regain X health, and you will consume 20 Righteous Fury.<br>This effect will end if you lose your concentration or if you run out of Righteous Fury.",
       "category": "Ability"
     },
@@ -740,7 +740,7 @@
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires 40 Righteous Fury",
+      "note": "Requires Tome.<br>Requires 40 Righteous Fury",
       "description": "You call upon Sigmar to bless everyone in your group within 100 feet, restoring X health over 15 seconds.",
       "category": "Ability"
     },
@@ -964,7 +964,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Builds 40 Righteous Fury",
+      "note": "Requires Shield.<br>Builds 40 Righteous Fury",
       "description": "You smash into your enemy, dealing X physical damage to them. The power of Sigmar erupts from your weapon, healing any of your groupmates within 100 feet for Y health plus 50% of the damage that you dealt.",
       "category": "Ability"
     },
@@ -1216,18 +1216,34 @@
       "type": "Curse",
       "spec": "Path of Wrath",
       "minrank": "7",
-      "cost": "No Cost",
+      "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "15.0s cooldown",
-      "note": "",
+      "note": "Builds 30 Righteous Fury",
       "description": "Deals X physical damage over 9s. If the target is already cursed, deal X spirit damage to them",
+      "category": "Ability"
+    },
+
+    {
+      "image": "",
+      "id":7511,
+      "name": "Sanctified Theft (PH)",
+      "type": "Damaging",
+      "spec": "Path of Grace",
+      "minrank": "7",
+      "cost": "Costs 40 AP",
+      "range": "5ft range",
+      "incant": "Instant Cast",
+      "cooldown": "15.0s cooldown",
+      "note": "Builds 20 Righteous Fury",
+      "description": "Deals X physical damage. You are healed for Y% of the damage dealt.",
       "category": "Ability"
     },
     
     {
       "image": "",
-      "id": 7508,
+      "id": 7509,
       "name": "Bathe in Holy Glow (PH)",
       "type": "Debuff",
       "spec": "Path of Grace",
