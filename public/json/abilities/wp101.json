@@ -11,7 +11,7 @@
         "lvl6": 4178,
         "lvl7": 4179
       },
-      "coreAbilities": [4144,4141,4229,4135,4231]
+      "coreAbilities": [4144,4141,4135,4231,4132]
     },
     "b": {
       "name": "Path of Grace",
@@ -414,14 +414,14 @@
       "id": 4177,
       "name": "Divine Warding",
       "type": "Buff",
-      "spec": "Path of Salvation",
+      "spec": "Path of Grace",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time your direct heal critically heals an ally, you will become surrounded by a protective barrier for up to 30 seconds which will absorb up to X damage.",
+      "description": "There is a 25% chance each time you cast Touch of the Divine, Sigmar's Radiance, or Divine Strike, you will become surrounded by a protective barrier for up to 30 seconds which will absorb up to X damage.",
       "category": "CareerTactic"
     },
   
@@ -478,14 +478,14 @@
       "id": 4189,
       "name": "Fanaticism",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Wrath",
       "minrank": "31",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to critically hit by 10% and your chance to parry by 10%, but reduces the effectiveness of your healing abilities by 20%.",
+      "description": "Increases your chance to critically hit by 10% and your chance to parry by 10%, but you can no longer cast Touch of the Divine, Purify, or Breath of Sigmar.",
       "category": "CareerTactic"
     },
  
@@ -574,7 +574,7 @@
       "id": 4180,
       "name": "Greave of Sigmar",
       "type": "Buff",
-      "spec": "Path of Grace",
+      "spec": "Path of Wrath",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
@@ -638,7 +638,7 @@
       "id": 4132,
       "name": "Healing Hand",
       "type": "Blessing",
-      "spec": "Core Ability",
+      "spec": "Path of Salvation",
       "minrank": "3",
       "cost": "No AP Cost",
       "range": "150ft range",
@@ -670,7 +670,7 @@
       "id": 4229,
       "name": "Judgement",
       "type": "Damaging",
-      "spec": "Path of Salvation",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Costs 15 AP",
       "range": "65ft range",
@@ -702,7 +702,7 @@
       "id": 4178,
       "name": "Martyr's Blessing",
       "type": "Healing",
-      "spec": "Path of Salvation",
+      "spec": "Path of Grace",
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
@@ -814,7 +814,7 @@
       "id": 4142,
       "name": "Purify",
       "type": "Healing",
-      "spec": "Core Ability",
+      "spec": "Path of Salvation",
       "minrank": "16",
       "cost": "No AP Cost",
       "range": "150ft range",
@@ -868,7 +868,7 @@
       "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "15.0s cooldown",
-      "note": "",
+      "note": "Requires a Tome",
       "description": "You detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have detaunted, the effect will immediately end.",
       "category": "Ability"
     },
@@ -926,7 +926,7 @@
       "id": 4131,
       "name": "Sigmar's Fist",
       "type": "Damaging",
-      "spec": "Path of Grace",
+      "spec": "Path of Wrath",
       "minrank": "2",
       "cost": "Costs 25 AP",
       "range": "5ft range",
@@ -942,7 +942,7 @@
       "id": 4185,
       "name": "Sigmar's Grace",
       "type": "Blessing",
-      "spec": "Path of Grace",
+      "spec": "Path of Salvation",
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "No range",
@@ -979,9 +979,9 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "Builds 25 Righteous Fury",
-      "description": "You smash your weapon into your enemy, dealing X physical damage to them. Your defensive target becomes blessed for up to 20 seconds, and will regain Y health each time they're attacked. You will lose 15 righteous fury every second, and the effect will end if you run out of righteous fury to power it with.",
+      "description": "You smash your weapon into your enemy, dealing X physical damage to them. Your defensive target becomes blessed for up to 10 seconds, and will regain Y health each time they're attacked. You will lose 15 righteous fury every second, and the effect will end if you run out of righteous fury to power it with.",
       "category": "Ability"
     },
   
@@ -1024,12 +1024,12 @@
       "type": "Curse",
       "spec": "Path of Wrath",
       "minrank": "1",
-      "cost": "Costs 35 AP",
+      "cost": "No cost",
       "range": "No range",
-      "incant": "1.0s cast",
-      "cooldown": "4.0s cooldown",
-      "note": "Builds 35 Righteous Fury",
-      "description": "Deals X spirit damage over 9 seconds to all enemies within 30 feet.",
+      "incant": "Instant cast",
+      "cooldown": "5.0s cooldown",
+      "note": "Costs 40 Righteous Fury per second.",
+      "description": "When deal X spirit damage to enemies within 30ft of you every 3 seconds. Dring this time all Path of Wrath abilities will deal 25% more damage. This ability will end if used again or if you run of Righteous Fury with which to power it.",
       "category": "Ability"
     },
   
@@ -1159,6 +1159,70 @@
       "note": "Requires Great Weapon",
       "description": "Grants 50% movement speed and immunity to snare and roots for 5s.",
       "category": "Ability"
+    },
+
+    {
+      "image": "",
+      "id": 7506,
+      "name": "Beyond Approach (PH)",
+      "type": "Debuff",
+      "spec": "Core Ability",
+      "minrank": "7",
+      "cost": "Costs 40 AP",
+      "range": "No range",
+      "incant": "Instant Cast",
+      "cooldown": "30.0s cooldown",
+      "note": "Requires a Shield or Greatweapon",
+      "description": "You detaunt all enemies within 30 feet of you, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have detaunted, the effect will immediately end.",
+      "category": "Ability"
+    },
+
+    {
+      "image": "",
+      "id": 7507,
+      "name": "Sigmar's Sacrifice (PH)",
+      "type": "Debuff",
+      "spec": "Path of Grace",
+      "minrank": "7",
+      "cost": "No Cost",
+      "range": "150ft range",
+      "incant": "Instant Cast",
+      "cooldown": "15.0s cooldown",
+      "note": "",
+      "description": "You heal your target for X every second for 5s. You take X morale damage every second, gain 30% movement speed, and you cannot be healed for the duration.",
+      "category": "Ability"
+    },
+
+    {
+      "image": "",
+      "id": 7508,
+      "name": "Efficient Handing (PH)",
+      "type": "Debuff",
+      "spec": "Path of Salvation",
+      "minrank": "7",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Healing Hand now only costs 15 Righteous Fury.",
+      "category": "CareerTactic"
+    },
+
+    {
+      "image": "",
+      "id": 7508,
+      "name": "Bathe in Holy Glow (PH)",
+      "type": "Debuff",
+      "spec": "Path of Grace",
+      "minrank": "7",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Sigmar's Radiance now heals you and allies within 20ft of you rather than healing groupmates within 100 ft.",
+      "category": "CareerTactic"
     }
   ]
 }
