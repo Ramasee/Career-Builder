@@ -266,38 +266,6 @@
     },
   
     {
-      "image": "22703",
-      "id": 4160,
-      "name": "Divine Fury",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "13",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 25% more damage, but all of your healing becomes 20% less effective.",
-      "category": "CareerTactic"
-    },
-  
-    {
-      "image": "22706",
-      "id": 5890,
-      "name": "Divine Justice",
-      "type": "Buff",
-      "spec": "Path of Wrath",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Prayer of Righteousness will now deal X spirit damage.",
-      "category": "CareerTactic"
-    },
-  
-    {
       "image": "07904",
       "id": 4174,
       "name": "Divine Light",
@@ -555,22 +523,6 @@
   
     {
       "image": "22703",
-      "id": 4184,
-      "name": "Grace of Sigmar",
-      "type": "Buff",
-      "spec": "Path of Grace",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "The base heal on Sigmar's Radiance and Divine Strike is increased by 25% and the healing from damage dealt increased to 75%.",
-      "category": "CareerTactic"
-    },
-  
-    {
-      "image": "22703",
       "id": 4180,
       "name": "Greave of Sigmar",
       "type": "Buff",
@@ -582,22 +534,6 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Sigmar's Fist will now also apply (3 * rank) ability bonus to toughness, and will cause the target enemy to take a (3 * rank) ability penalty to strength and toughness.",
-      "category": "CareerTactic"
-    },
-  
-    {
-      "image": "22709",
-      "id": 4191,
-      "name": "Guilty Soul",
-      "type": "Buff",
-      "spec": "Path of Wrath",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Any time you critically hit with a direct damage ability in the Path Of Wrath, your target will suffer an additional X spirit damage over 9 seconds. Your defensive target will also be healed for any damage dealt.",
       "category": "CareerTactic"
     },
   
@@ -647,22 +583,6 @@
       "note": "Requires 30 Righteous Fury",
       "description": "Heals your target for X points over 15 seconds.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22694",
-      "id": 4154,
-      "name": "Intimidating Repent",
-      "type": "Buff",
-      "spec": "Path of Wrath",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Repent will now affect all enemies within 30 feet of your target.",
-      "category": "CareerTactic"
     },
   
     {
@@ -1142,22 +1062,6 @@
       "cooldown": "10.0s cooldown",
       "note": "Builds 30 Righteous Fury",
       "description": "Deals X physical damage to your target. If they are cursed, then they will also become snared, reducing their run speed by 40% for 6 seconds.",
-      "category": "Ability"
-    },
-
-    {
-      "image": "07927",
-      "id": 7505,
-      "name": "In Pursuit",
-      "type": "Buff",
-      "spec": "Path of Wrath",
-      "minrank": "1",
-      "cost": "No Cost",
-      "range": "Self",
-      "incant": "Instant Cast",
-      "cooldown": "5min cooldown",
-      "note": "Requires Great Weapon",
-      "description": "Grants 50% movement speed and immunity to snare and roots for 5s.",
       "category": "Ability"
     },
 
