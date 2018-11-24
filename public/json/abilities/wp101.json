@@ -42,7 +42,7 @@
   },
   "data": [
     {
-      "image": "08040",
+      "image": "22710",
       "id": 4190,
       "name": "Absence of Faith",
       "type": "Curse",
@@ -54,7 +54,7 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You call on Sigmar to cripple your enemy whenever you critically hit them, causing all healing effects used on them to become 50% less effective for 5 seconds.",
-      "category": "Ability"
+      "category": "CareerTactic"
     },
   
     {
@@ -1066,7 +1066,7 @@
     },
 
     {
-      "image": "",
+      "image": "07927",
       "id": 7506,
       "name": "Beyond Approach (PH)",
       "type": "Debuff",
@@ -1082,7 +1082,7 @@
     },
 
     {
-      "image": "",
+      "image": "07927",
       "id": 7507,
       "name": "Sigmar's Sacrifice (PH)",
       "type": "Debuff",
@@ -1098,7 +1098,7 @@
     },
 
     {
-      "image": "",
+      "image": "22710",
       "id": 7508,
       "name": "Efficient Handing (PH)",
       "type": "Debuff",
@@ -1130,7 +1130,7 @@
     },
 
     {
-      "image": "",
+      "image": "07927",
       "id":7511,
       "name": "Sanctified Theft (PH)",
       "type": "Damaging",
@@ -1146,7 +1146,7 @@
     },
     
     {
-      "image": "",
+      "image": "22710",
       "id": 7509,
       "name": "Bathe in Holy Glow (PH)",
       "type": "Debuff",
