@@ -3,41 +3,41 @@
     "a": {
       "name": "Path of Salvation",
       "optionalAbilities": {
-        "lvl1": 4177,
+        "lvl1": 7508,
         "lvl2": 4174,
         "lvl3": 4175,
-        "lvl4": 4176,
+        "lvl4": 4185,
         "lvl5": 4173,
-        "lvl6": 4178,
+        "lvl6": 4176,
         "lvl7": 4179
       },
-      "coreAbilities": [4144,4141,4135,4231,4132]
+      "coreAbilities": [4144,4231,4135,4132,4142,4141]
     },
     "b": {
       "name": "Path of Grace",
       "optionalAbilities": {
-        "lvl1": 4180,
-        "lvl2": 4181,
+        "lvl1": 7509,
+        "lvl2": 4183,
         "lvl3": 4182,
-        "lvl4": 4183,
-        "lvl5": 4184,
-        "lvl6": 4185,
+        "lvl4": 7507,
+        "lvl5": 4177,
+        "lvl6": 4178,
         "lvl7": 4186
       },
-      "coreAbilities": [4147,4146,4131,4133,4137]
+      "coreAbilities": [4146,4181,4147,4137,7511,4133]
     },
     "c": {
       "name": "Path of Wrath",
       "optionalAbilities": {
-        "lvl1": 5890,
+        "lvl1": 4180,
         "lvl2": 4188,
-        "lvl3": 4154,
-        "lvl4": 4190,
-        "lvl5": 4191,
+        "lvl3": 4189,
+        "lvl4": 7510,
+        "lvl5": 4190,
         "lvl6": 4192,
         "lvl7": 7505
       },
-      "coreAbilities": [4138,4140,4143,4134,4232]
+      "coreAbilities": [4232,4134,4138,4140,4131,4143]
     }
   },
   "data": [
