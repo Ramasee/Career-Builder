@@ -166,5 +166,12 @@
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Melee DPS"
-  }
+  },
+  "wp101": {
+    "name": "",
+    "slug": "wp101",
+    "faction": "",
+    "race": "",
+    "class": ""
+  },
 }
