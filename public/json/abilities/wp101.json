@@ -35,7 +35,7 @@
         "lvl4": 7510,
         "lvl5": 4190,
         "lvl6": 4192,
-        "lvl7": 7505
+        "lvl7": 4193
       },
       "coreAbilities": [4232,4134,4138,4140,4131,4143]
     }
@@ -78,7 +78,7 @@
       "id": 4193,
       "name": "Avatar of Sigmar",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Wrath",
       "minrank": "40",
       "cost": "Rank 4 morale",
       "range": "No range",
