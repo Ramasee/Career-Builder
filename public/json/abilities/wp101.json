@@ -389,7 +389,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "There is a 25% chance each time you cast Touch of the Divine, Sigmar's Radiance, or Divine Strike, you will become surrounded by a protective barrier for up to 30 seconds which will absorb up to X damage.",
+      "description": "There is a 25% chance each time you cast Touch of the Divine, Sigmar's Radiance, Martyr's Blessing, or Twin-Tailed Blow, you will become surrounded by a protective barrier for up to 30 seconds which will absorb up to X damage.",
       "category": "CareerTactic"
     },
   
