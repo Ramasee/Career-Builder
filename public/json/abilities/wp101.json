@@ -42,9 +42,9 @@
   },
   "data": [
     {
-      "image": "22710",
+      "image": "22703",
       "id": 4190,
-      "name": "Absence of Faith",
+      "name": "Heldenhammer's Fury",
       "type": "Curse",
       "spec": "Path of Wrath",
       "minrank": "1",
@@ -284,7 +284,7 @@
     {
       "image": "07945",
       "id": 4135,
-      "name": "Divine Mend",
+      "name": "Mend",
       "type": "Healing",
       "spec": "Path of Salvation",
       "minrank": "8",
@@ -858,7 +858,7 @@
     },
   
     {
-      "image": "08039",
+      "image": "07949",
       "id": 4185,
       "name": "Sigmar's Grace",
       "type": "Blessing",
@@ -1068,7 +1068,7 @@
     {
       "image": "07927",
       "id": 7506,
-      "name": "Beyond Approach (PH)",
+      "name": "Beyond Reproach (PH)",
       "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "7",
@@ -1082,9 +1082,9 @@
     },
 
     {
-      "image": "07927",
+      "image": "08048",
       "id": 7507,
-      "name": "Sigmar's Sacrifice (PH)",
+      "name": "Spirit of the Heldenhammer (PH)",
       "type": "Debuff",
       "spec": "Path of Grace",
       "minrank": "7",
@@ -1093,14 +1093,14 @@
       "incant": "Instant Cast",
       "cooldown": "15.0s cooldown",
       "note": "",
-      "description": "You heal your target for X every second for 5s. You take X morale damage every second, gain 30% movement speed, and you cannot be healed for the duration.",
+      "description": "You channel Sigmar's spirit through your body in order to heal your target for X every second for 5s. You take X morale damage every second, gain 30% movement speed, and you cannot be healed for the duration.",
       "category": "Ability"
     },
 
     {
-      "image": "22710",
+      "image": "22706",
       "id": 7508,
-      "name": "Efficient Handing (PH)",
+      "name": "Lay on Hands (PH)",
       "type": "Debuff",
       "spec": "Path of Salvation",
       "minrank": "7",
@@ -1114,9 +1114,9 @@
     },
 
     {
-      "image": "",
+      "image": "07945",
       "id": 7510,
-      "name": "Destroy the Infidel (PH)",
+      "name": "Absence of Faith",
       "type": "Curse",
       "spec": "Path of Wrath",
       "minrank": "7",
@@ -1130,9 +1130,9 @@
     },
 
     {
-      "image": "07927",
+      "image": "08039",
       "id":7511,
-      "name": "Sanctified Theft (PH)",
+      "name": "Twin-Tailed Blow (PH)",
       "type": "Damaging",
       "spec": "Path of Grace",
       "minrank": "7",
@@ -1146,9 +1146,9 @@
     },
     
     {
-      "image": "22710",
+      "image": "22704",
       "id": 7509,
-      "name": "Bathe in Holy Glow (PH)",
+      "name": "Unberogen Creed (PH)",
       "type": "Debuff",
       "spec": "Path of Grace",
       "minrank": "7",
