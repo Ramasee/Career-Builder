@@ -948,8 +948,8 @@
       "range": "No range",
       "incant": "Instant cast",
       "cooldown": "5.0s cooldown",
-      "note": "Costs 40 Righteous Fury per second.",
-      "description": "When deal X spirit damage to enemies within 30ft of you every 3 seconds. Dring this time all Path of Wrath abilities will deal 25% more damage. This ability will end if used again or if you run of Righteous Fury with which to power it.",
+      "note": "Requires 40 Righteous Fury per second.",
+      "description": "When deal X spirit damage to enemies within 30ft of you every 3 seconds. During this time you deal 25% more damage. This ability will end if used again or if you run of Righteous Fury with which to power it.",
       "category": "Ability"
     },
   
