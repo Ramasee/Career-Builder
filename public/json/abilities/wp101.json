@@ -629,7 +629,7 @@
       "incant": "3.0s channel",
       "cooldown": "13.0s cooldown",
       "note": "Requires Shield.<br>Requires 20 Righteous Fury per second",
-      "description": "You open your soul to Sigmar and become a living force of holy power for up to 3 seconds, as long as you maintain your concentration. Each second, all allies within 30 feet of you will regain X health, and you will consume 20 Righteous Fury.<br>This effect will end if you lose your concentration or if you run out of Righteous Fury.",
+      "description": "You open your soul to Sigmar and become a living force of holy power for up to 3 seconds, as long as you maintain your concentration. Each second, all allies within 30 feet of you will regain X health, and you will consume 20 Righteous Fury. All snares are removed on cast and you are immune to them for the duration.<br>This effect will end if you lose your concentration or if you run out of Righteous Fury.",
       "category": "Ability"
     },
   
@@ -773,7 +773,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you heal an ally, there is a 25% chance that they will regain 50 action points, but this effect will not work on you.",
+      "description": "There is a 25% chance any time that an ally is healed by a Path of Salvation ability that they will regain 50 action points, but this effect will not work on you.",
       "category": "CareerTactic"
     },
   
