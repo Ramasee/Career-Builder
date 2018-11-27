@@ -29,11 +29,11 @@
     "c": {
       "name": "Path of Wrath",
       "optionalAbilities": {
-        "lvl1": 4180,
+        "lvl1": 4190,
         "lvl2": 4188,
         "lvl3": 4189,
         "lvl4": 7510,
-        "lvl5": 4190,
+        "lvl5": 7512,
         "lvl6": 4192,
         "lvl7": 4193
       },
@@ -53,7 +53,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You call on Sigmar to cripple your enemy whenever you critically hit them, causing all healing effects used on them to become 50% less effective for 5 seconds.",
+      "description": "Prayer of Righteousness now deals X spirit damage.",
       "category": "CareerTactic"
     },
   
@@ -309,7 +309,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduces Supplication's cost by 15 action points.",
+      "description": "Beyond Reproach (PH) no longer requires a shield to be used. In addition, its cooldown is reduced to 15s if you are wearing a shield.",
       "category": "CareerTactic"
     },
   
@@ -526,7 +526,7 @@
       "id": 4180,
       "name": "Greave of Sigmar",
       "type": "Buff",
-      "spec": "Path of Wrath",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
@@ -1076,7 +1076,7 @@
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
-      "note": "Requires a Shield or Greatweapon",
+      "note": "Requires a Shield",
       "description": "You detaunt all enemies within 30 feet of you, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have detaunted, the effect will immediately end.",
       "category": "Ability"
     },
@@ -1093,7 +1093,7 @@
       "incant": "Instant Cast",
       "cooldown": "15.0s cooldown",
       "note": "",
-      "description": "You channel Sigmar's spirit through your body in order to heal your target for X every second for 5s. You take X morale damage every second, gain 30% movement speed, and you cannot be healed for the duration.",
+      "description": "You channel Sigmar's spirit through your body in order to heal your target for X every second for 5s. You take X morale damage every second, and you cannot be healed for the duration.<br><br>You will also gain 30% movement speed for the duration if you have a shield equipped.",
       "category": "Ability"
     },
 
@@ -1120,12 +1120,12 @@
       "type": "Curse",
       "spec": "Path of Wrath",
       "minrank": "7",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "15.0s cooldown",
-      "note": "Builds 30 Righteous Fury",
-      "description": "Deals X physical damage over 9s. If the target is already cursed, deal X spirit damage to them",
+      "cooldown": "10.0s cooldown",
+      "note": "Builds 25 Righteous Fury",
+      "description": "You call upon Sigmar to curse your enemy dealing X spirit damage. For the next ten seconds, all healing the target received will be 50% less effective.",
       "category": "Ability"
     },
 
@@ -1139,10 +1139,26 @@
       "cost": "Costs 40 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "15.0s cooldown",
+      "cooldown": "No cooldown",
       "note": "Builds 20 Righteous Fury",
       "description": "Deals X physical damage. You are healed for Y% of the damage dealt.",
       "category": "Ability"
+    },
+    
+    {
+      "image": "22706",
+      "id": 7512,
+      "name": "Guilty Soul",
+      "type": "Debuff",
+      "spec": "Path of Wrath",
+      "minrank": "7",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Anytime you critically hit an enemy with a direct damage ability from the Path of Wrath, you will deal X additional spirit damage. The target will take another Y spirit damage over 9s.",
+      "category": "CareerTactic"
     },
     
     {
@@ -1157,7 +1173,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Sigmar's Radiance now heals you and allies within 20ft of you rather than healing groupmates within 100 ft.",
+      "description": "Sigmar's Radiance can now strike a target from 30 feet away.",
       "category": "CareerTactic"
     }
   ]
