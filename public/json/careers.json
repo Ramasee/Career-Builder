@@ -173,5 +173,12 @@
     "faction": "",
     "race": "",
     "class": ""
+  },
+    "dokshield": {
+    "name": "",
+    "slug": "dokshield",
+    "faction": "",
+    "race": "",
+    "class": ""
   }
 }
