@@ -712,22 +712,6 @@
       "description": "Increases the chance for your Covenants to trigger by an additional 15%.",
       "category": "CareerTactic"
     },
-    
-    {
-      "image": "23154",
-      "id": 4990,
-      "name": "Rampaging Siphon",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "12",
-      "cost": "Rank 2 morale",
-      "range": "No range",
-      "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
-      "note": "",
-      "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
-      "category": "Morale"
-    },
   
     {
       "image": "10941",
@@ -743,6 +727,22 @@
       "note": "Requires 25 Soul Essence per second",
       "description": "You repeatedly assault an enemy, shredding their soul energy and twisting it to your own purposes. You strike the target up to four times over 3 seconds, dealing X spirit damage per hit. Each hit heals your defensive target for 350% of the damage that was dealt.<br>This effect will end if you break your concentration, or run out of Soul Essence.",
       "category": "Ability"
+    },
+    
+    {
+      "image": "23154",
+      "id": 4990,
+      "name": "Rampaging Siphon",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "12",
+      "cost": "Rank 2 morale",
+      "range": "No range",
+      "incant": "Instant Cast",
+      "cooldown": "1m cooldown",
+      "note": "",
+      "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
+      "category": "Morale"
     },
   
     {
