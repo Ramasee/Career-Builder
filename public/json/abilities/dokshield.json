@@ -696,6 +696,7 @@
       "note": "Requires Shield. Requires 20 Soul Essence per second",
       "description": "You throw yourself open to Khaine's influence as power rushes through you for up to 3 seconds. Each second, all allies within 30 feet of you will regain X health, and you will lose 20 Soul Essence. This effect will end if you lose your concentration, or run out of Soul Essence to power it with.<br><br>You break all snares upon casting this ability and will be immune to them for the duration.",
       "category": "Ability"
+    },
   
     {
       "image": "22694",
