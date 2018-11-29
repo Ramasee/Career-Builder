@@ -149,7 +149,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you heal an ally with Khaine's Embrace, Transfer Essence, What is Essence (PH), or Khaine's Fountain (PH), there is a 25% chance that you will also be healed for 25% of the same amount.",
+      "description": "Whenever you heal an ally with Khaine's Embrace, Transfer Essence, Unholy Reclamation, or Khaine's Fountain, there is a 25% chance that you will also be healed for 25% of the same amount.",
       "category": "CareerTactic"
     },
   
@@ -517,7 +517,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time an ally triggers the Covenant of Vitality, you will gain a X absorb for 15 seconds.",
+      "description": "Warding Strike now causes your victim to lose 50 action points.",
       "category": "CareerTactic"
     },
   
@@ -902,7 +902,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "My Shields Bring All Da Elves to the Yard(PH) can now be used without a shield. If you have a shield equipped, the cooldown is reduced by 15 seconds.",
+      "description": "Horrifying Offer can now be used without a shield. If you have a shield equipped, the cooldown is reduced by 15 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1030,7 +1030,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Builds 30 Soul Essence",
-      "description": "A cunning strike which deals X physical damage to your enemy and blesses your defensive target for 15 seconds, increasing their parry by 10%",
+      "description": "A cunning strike which deals X physical damage to your enemy and curses them for 15 seconds, reducing their chance to parry by 10%",
       "category": "Ability"
     },
   
@@ -1045,7 +1045,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Builds 30 Soul Essence",
+      "note": "Requires Dual Wield.<br>Builds 30 Soul Essence",
       "description": "A merciless attack which deals X physical damage to the target. If the target is below 50% hit points, instead inflicts Y physical damage and will always critically hit.",
       "category": "Ability"
     },
@@ -1053,7 +1053,7 @@
     {
       "image": "22706",
       "id": 7501,
-      "name": "Cheap Infusion (PH)",
+      "name": "Cheap Essence",
       "type": "Buff",
       "spec": "Path of Dark Rites",
       "minrank": "39",
@@ -1062,7 +1062,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Soul Infusion now costs 15 Soul Essence.",
+      "description": "Restore Essence now costs 30 Soul Essence.",
       "category": "CareerTactic"
     },
 
@@ -1078,14 +1078,14 @@
       "incant": "2.0s Cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Khaine invigorates all of your groupmates within 30 feest, granting them a (2 * rank) ability bonus to wounds for 1 hour.",
+      "description": "Khaine invigorates all of your groupmates within 30 feet, granting them a (2 * rank) ability bonus to wounds for 1 hour.",
       "category": "Ability"
     },
 
     {
       "image": "99999",
       "id": 7503,
-      "name": "What is Essence? (PH)",
+      "name": "Unholy Reclamation",
       "type": "Blessing",
       "spec": "Path of Sacrifice",
       "minrank": "1",
@@ -1094,7 +1094,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Baby don't hurt me, don't hurt me, no more! Deals X physical damage and heals the caster for Y% of damage dealt.",
+      "description": "Deals X physical damage and heals the caster for Y% of damage dealt.",
       "category": "Ability"
     },
 
@@ -1110,7 +1110,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Transfer Essence can now be used on targets within 30feet.",
+      "description": "Transfer Essence and Unholy Reclamation can now be used on targets within 30 feet.",
       "category": "CareerTactic"
     },
 
@@ -1133,7 +1133,7 @@
     {
       "image": "99999",
       "id": 7506,
-      "name": "My Shields Bring All Da Elves to the Yard(PH)",
+      "name": "Horrifying Offer",
       "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "7",
