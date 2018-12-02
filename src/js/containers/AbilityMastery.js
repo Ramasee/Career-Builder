@@ -49,9 +49,6 @@ class AbilityMastery extends Component {
       case 'morale':
         abilities = props.masteryMorales;
         break;
-      case 'morale':
-        abilities = props.masteryMorales;
-        break;
       case 'morale1':
         abilities = props.masteryMorales1;
         break;
