@@ -80,12 +80,12 @@
       "type": "Buff",
       "spec": "Path of Wrath",
       "minrank": "40",
-      "cost": "Rank 4 morale",
+      "cost": "Rank 1 morale",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "All group mates within 100 feet gain a X morale bonus to strength, willpower, toughness, initiative, weapon skill, ballistic skill, and intelligence for 30 seconds.",
+      "description": "All snares, roots, and detaunts on you are broken and you are immune to them for the next ten seconds.",
       "category": "Morale"
     },
   
@@ -96,7 +96,7 @@
       "type": "Damaging",
       "spec": "Path of Wrath",
       "minrank": "1",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
@@ -275,7 +275,7 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "30.0s cooldown",
       "note": "Requires 40 Righteous Fury",
       "description": "Your group mates within 100 feet become surrounded by a magical barrier for 10 seconds, which will absorb up to X damage for each person.",
       "category": "Ability"
@@ -549,7 +549,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Builds 30 Righteous Fury<br>Requires a Greatweapon",
-      "description": "Deals X physical damage to the target, If the target is below 50% hit points, instead inflicts Y physical damage and will always critically hit.",
+      "description": "Deals X physical damage to the target, If the target is below 50% hit points, instead inflicts Y physical damage.",
       "category": "Ability"
     },
   
@@ -848,11 +848,11 @@
       "type": "Damaging",
       "spec": "Path of Wrath",
       "minrank": "2",
-      "cost": "Costs 25 AP",
+      "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Builds 25 Righteous Fury",
+      "note": "Builds 40 Righteous Fury",
       "description": "A blessed attack which deals X physical damage to your target, your defensive target gains a (3 * rank) ability bonus to strength for 20 seconds.",
       "category": "Ability"
     },
@@ -864,12 +864,12 @@
       "type": "Blessing",
       "spec": "Path of Salvation",
       "minrank": "1",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 50 AP",
       "range": "No range",
       "incant": "2.0s cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "The might of Sigmar infuses everyone in your group within 30 feet, granting a (2 * rank) ability bonus to wounds for 1 hour.",
+      "description": "The might of Sigmar infuses everyone in your group within 100 feet, granting a (2 * rank) ability bonus to wounds for 1 hour.",
       "category": "Ability"
     },
   
@@ -880,11 +880,11 @@
       "type": "Damaging",
       "spec": "Path of Grace",
       "minrank": "30",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 45 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Requires Shield.<br>Builds 40 Righteous Fury",
+      "note": "Requires Shield.<br>Builds 50 Righteous Fury",
       "description": "You smash into your enemy, dealing X physical damage to them. The power of Sigmar erupts from your weapon, healing any of your groupmates within 100 feet for Y health plus 50% of the damage that you dealt.",
       "category": "Ability"
     },
@@ -1114,7 +1114,7 @@
     },
 
     {
-      "image": "07945",
+      "image": "08040",
       "id": 7510,
       "name": "Absence of Faith",
       "type": "Curse",
@@ -1136,7 +1136,7 @@
       "type": "Damaging",
       "spec": "Path of Grace",
       "minrank": "7",
-      "cost": "Costs 40 AP",
+      "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
