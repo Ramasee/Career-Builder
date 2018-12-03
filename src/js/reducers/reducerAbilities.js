@@ -49,20 +49,18 @@ function structureAbilities(abilities) {
     } else {
             switch (ability.abilityType) {
               case 'morale1':
-                switch (ability.cost) {
-                 case 'Rank 1 morale':
-              obj.coreMorales1.push(ability.id);
-              break;
-            case 'Rank 2 morale':
-              obj.coreMorales2.push(ability.id);
-              break;
-            case 'Rank 3 morale':
-              obj.coreMorales3.push(ability.id);
-              break;
-            case 'Rank 4 morale':
-              obj.coreMorales4.push(ability.id);
-              break;
-            default :
+                obj.coreMorales1.push(ability.id);
+                break;
+              case 'morale2':
+                obj.coreMorales2.push(ability.id);
+                break;
+              case 'morale3':
+                obj.coreMorales3.push(ability.id);
+                break;
+              case 'morale4':
+                obj.coreMorales4.push(ability.id);
+                break;
+              default :
               break;
           }
             }
