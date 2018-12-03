@@ -16,6 +16,9 @@ import { setPathMeterB } from '../actions/actionPathMeterB';
 import { setPathMeterC } from '../actions/actionPathMeterC';
 import { setCurrentPoints } from '../actions/actionCurrentPoints';
 import { deselectTactic } from '../actions/actionSelectedTactics';
+import { resetSelectedMorale1 } from '../actions/actionSelectedMorale1';
+import { resetSelectedMorale2 } from '../actions/actionSelectedMorale2';
+import { resetSelectedMorale3 } from '../actions/actionSelectedMorale3';
 import { resetSelectedMorale4 } from '../actions/actionSelectedMorale4';
 
 class AbilityMastery extends Component {
@@ -47,6 +50,18 @@ class AbilityMastery extends Component {
         abilities = props.masteryAbilities;
         break;
       case 'morale':
+        abilities = props.masteryMorales;
+        break;
+              case 'morale1':
+        abilities = props.masteryMorales;
+        break;
+              case 'morale2':
+        abilities = props.masteryMorales;
+        break;
+              case 'morale3':
+        abilities = props.masteryMorales;
+        break;
+              case 'morale4':
         abilities = props.masteryMorales;
         break;
       case 'tactic':
@@ -111,6 +126,18 @@ class AbilityMastery extends Component {
             case 'morale':
               this.props.addMasteryMorale(this.props.masteryMorales, this.props.data.id);
               break;
+                          case 'morale1':
+              this.props.addMasteryMorale(this.props.masteryMorales, this.props.data.id);
+              break;
+                          case 'morale2':
+              this.props.addMasteryMorale(this.props.masteryMorales, this.props.data.id);
+              break;
+                          case 'morale3':
+              this.props.addMasteryMorale(this.props.masteryMorales, this.props.data.id);
+              break;
+                          case 'morale4':
+              this.props.addMasteryMorale(this.props.masteryMorales, this.props.data.id);
+              break;
             case 'tactic':
               this.props.addMasteryTactic(this.props.masteryTactics, this.props.data.id);
               break;
@@ -152,6 +179,34 @@ class AbilityMastery extends Component {
           this.props.removeMasteryAbility(this.props.masteryAbilities, this.props.data.id);
           break;
         case 'morale':
+          this.props.removeMasteryMorale(this.props.masteryMorales, this.props.data.id);
+          // remove from selected morale 4
+          if (this.props.selectedMorale4 == this.props.data.id) {
+            this.props.resetSelectedMorale4();
+          }
+          break;
+                  case 'morale1':
+          this.props.removeMasteryMorale(this.props.masteryMorales, this.props.data.id);
+          // remove from selected morale 1
+          if (this.props.selectedMorale1 == this.props.data.id) {
+            this.props.resetSelectedMorale1();
+          }
+          break;
+                  case 'morale2':
+          this.props.removeMasteryMorale(this.props.masteryMorales, this.props.data.id);
+          // remove from selected morale 2
+          if (this.props.selectedMorale2 == this.props.data.id) {
+            this.props.resetSelectedMorale2();
+          }
+          break;
+                  case 'morale3':
+          this.props.removeMasteryMorale(this.props.masteryMorales, this.props.data.id);
+          // remove from selected morale 3
+          if (this.props.selectedMorale3 == this.props.data.id) {
+            this.props.resetSelectedMorale3();
+          }
+          break;
+                  case 'morale4':
           this.props.removeMasteryMorale(this.props.masteryMorales, this.props.data.id);
           // remove from selected morale 4
           if (this.props.selectedMorale4 == this.props.data.id) {
