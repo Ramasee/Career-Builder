@@ -61,10 +61,11 @@ function structureAbilities(abilities) {
                 obj.coreMorales4.push(ability.id);
                 break;
               default :
-              break;
-          }
+                break;
             }
-    }
+            default :
+            break;
+            }
   }
 
   return obj;
