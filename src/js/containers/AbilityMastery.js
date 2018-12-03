@@ -49,6 +49,18 @@ class AbilityMastery extends Component {
       case 'morale':
         abilities = props.masteryMorales;
         break;
+      case 'morale1':
+        abilities = props.masteryMorales1;
+        break;
+      case 'morale2':
+        abilities = props.masteryMorales2;
+        break;
+      case 'morale3':
+        abilities = props.masteryMorales3;
+        break;
+      case 'morale4':
+        abilities = props.masteryMorales4;
+        break;
       case 'tactic':
         abilities = props.masteryTactics;
         break;
@@ -111,6 +123,18 @@ class AbilityMastery extends Component {
             case 'morale':
               this.props.addMasteryMorale(this.props.masteryMorales, this.props.data.id);
               break;
+                          case 'morale1':
+              this.props.addMasteryMorale(this.props.masteryMorales1, this.props.data.id);
+              break;
+                          case 'morale2':
+              this.props.addMasteryMorale(this.props.masteryMorales2, this.props.data.id);
+              break;
+                          case 'morale3':
+              this.props.addMasteryMorale(this.props.masteryMorales3, this.props.data.id);
+              break;
+                          case 'morale4':
+              this.props.addMasteryMorale(this.props.masteryMorales4, this.props.data.id);
+              break;
             case 'tactic':
               this.props.addMasteryTactic(this.props.masteryTactics, this.props.data.id);
               break;
@@ -156,6 +180,64 @@ class AbilityMastery extends Component {
           // remove from selected morale 4
           if (this.props.selectedMorale4 == this.props.data.id) {
             this.props.resetSelectedMorale4();
+          if (this.props.selectedMorale3 == this.props.data.id) {
+            this.props.resetSelectedMorale3();
+          if (this.props.selectedMorale2 == this.props.data.id) {
+            this.props.resetSelectedMorale2();
+          if (this.props.selectedMorale1 == this.props.data.id) {
+            this.props.resetSelectedMorale1();
+          }
+          break;
+        case 'morale1':
+          this.props.removeMasteryMorale(this.props.masteryMorales1, this.props.data.id);
+          // remove from selected morale 4
+          if (this.props.selectedMorale4 == this.props.data.id) {
+            this.props.resetSelectedMorale4();
+          if (this.props.selectedMorale3 == this.props.data.id) {
+            this.props.resetSelectedMorale3();
+          if (this.props.selectedMorale2 == this.props.data.id) {
+            this.props.resetSelectedMorale2();
+          if (this.props.selectedMorale1 == this.props.data.id) {
+            this.props.resetSelectedMorale1();
+          }
+          break;
+        case 'morale2':
+          this.props.removeMasteryMorale(this.props.masteryMorales2, this.props.data.id);
+          // remove from selected morale 4
+          if (this.props.selectedMorale4 == this.props.data.id) {
+            this.props.resetSelectedMorale4();
+          if (this.props.selectedMorale3 == this.props.data.id) {
+            this.props.resetSelectedMorale3();
+          if (this.props.selectedMorale2 == this.props.data.id) {
+            this.props.resetSelectedMorale2();
+          if (this.props.selectedMorale1 == this.props.data.id) {
+            this.props.resetSelectedMorale1();
+          }
+          break;
+        case 'morale3':
+          this.props.removeMasteryMorale(this.props.masteryMorales3, this.props.data.id);
+          // remove from selected morale 4
+          if (this.props.selectedMorale4 == this.props.data.id) {
+            this.props.resetSelectedMorale4();
+          if (this.props.selectedMorale3 == this.props.data.id) {
+            this.props.resetSelectedMorale3();
+          if (this.props.selectedMorale2 == this.props.data.id) {
+            this.props.resetSelectedMorale2();
+          if (this.props.selectedMorale1 == this.props.data.id) {
+            this.props.resetSelectedMorale1();
+          }
+          break;
+        case 'morale4':
+          this.props.removeMasteryMorale(this.props.masteryMorales4, this.props.data.id);
+          // remove from selected morale 4
+          if (this.props.selectedMorale4 == this.props.data.id) {
+            this.props.resetSelectedMorale4();
+          if (this.props.selectedMorale3 == this.props.data.id) {
+            this.props.resetSelectedMorale3();
+          if (this.props.selectedMorale2 == this.props.data.id) {
+            this.props.resetSelectedMorale2();
+          if (this.props.selectedMorale1 == this.props.data.id) {
+            this.props.resetSelectedMorale1();
           }
           break;
         case 'tactic':
@@ -202,6 +284,79 @@ class AbilityMastery extends Component {
             // remove from selected morales if it's there
             if (nextProps.selectedMorale4 == nextProps.data.id) {
               nextProps.resetSelectedMorale4(nextProps.selectedMorales, nextProps.data.id);
+            }
+            if (nextProps.selectedMorale3 == nextProps.data.id) {
+              nextProps.resetSelectedMorale3(nextProps.selectedMorales, nextProps.data.id);
+            }
+            if (nextProps.selectedMorale2 == nextProps.data.id) {
+              nextProps.resetSelectedMorale2(nextProps.selectedMorales, nextProps.data.id);
+            }
+            if (nextProps.selectedMorale1 == nextProps.data.id) {
+              nextProps.resetSelectedMorale1(nextProps.selectedMorales, nextProps.data.id);
+            }
+            break;
+                      case 'morale1':
+            nextProps.removeMasteryMorale(nextProps.masteryMorales1, nextProps.data.id);
+            // remove from selected morales if it's there
+            if (nextProps.selectedMorale4 == nextProps.data.id) {
+              nextProps.resetSelectedMorale4(nextProps.selectedMorales, nextProps.data.id);
+            }
+            if (nextProps.selectedMorale3 == nextProps.data.id) {
+              nextProps.resetSelectedMorale3(nextProps.selectedMorales, nextProps.data.id);
+            }
+            if (nextProps.selectedMorale2 == nextProps.data.id) {
+              nextProps.resetSelectedMorale2(nextProps.selectedMorales, nextProps.data.id);
+            }
+            if (nextProps.selectedMorale1 == nextProps.data.id) {
+              nextProps.resetSelectedMorale1(nextProps.selectedMorales, nextProps.data.id);
+            }
+            break;
+                      case 'morale2':
+            nextProps.removeMasteryMorale(nextProps.masteryMorales2, nextProps.data.id);
+            // remove from selected morales if it's there
+            if (nextProps.selectedMorale4 == nextProps.data.id) {
+              nextProps.resetSelectedMorale4(nextProps.selectedMorales, nextProps.data.id);
+            }
+            if (nextProps.selectedMorale3 == nextProps.data.id) {
+              nextProps.resetSelectedMorale3(nextProps.selectedMorales, nextProps.data.id);
+            }
+            if (nextProps.selectedMorale2 == nextProps.data.id) {
+              nextProps.resetSelectedMorale2(nextProps.selectedMorales, nextProps.data.id);
+            }
+            if (nextProps.selectedMorale1 == nextProps.data.id) {
+              nextProps.resetSelectedMorale1(nextProps.selectedMorales, nextProps.data.id);
+            }
+            break;
+                      case 'morale3':
+            nextProps.removeMasteryMorale(nextProps.masteryMorales3, nextProps.data.id);
+            // remove from selected morales if it's there
+            if (nextProps.selectedMorale4 == nextProps.data.id) {
+              nextProps.resetSelectedMorale4(nextProps.selectedMorales, nextProps.data.id);
+            }
+            if (nextProps.selectedMorale3 == nextProps.data.id) {
+              nextProps.resetSelectedMorale3(nextProps.selectedMorales, nextProps.data.id);
+            }
+            if (nextProps.selectedMorale2 == nextProps.data.id) {
+              nextProps.resetSelectedMorale2(nextProps.selectedMorales, nextProps.data.id);
+            }
+            if (nextProps.selectedMorale1 == nextProps.data.id) {
+              nextProps.resetSelectedMorale1(nextProps.selectedMorales, nextProps.data.id);
+            }
+            break;
+                      case 'morale4':
+            nextProps.removeMasteryMorale(nextProps.masteryMorales4, nextProps.data.id);
+            // remove from selected morales if it's there
+            if (nextProps.selectedMorale4 == nextProps.data.id) {
+              nextProps.resetSelectedMorale4(nextProps.selectedMorales, nextProps.data.id);
+            }
+            if (nextProps.selectedMorale3 == nextProps.data.id) {
+              nextProps.resetSelectedMorale3(nextProps.selectedMorales, nextProps.data.id);
+            }
+            if (nextProps.selectedMorale2 == nextProps.data.id) {
+              nextProps.resetSelectedMorale2(nextProps.selectedMorales, nextProps.data.id);
+            }
+            if (nextProps.selectedMorale1 == nextProps.data.id) {
+              nextProps.resetSelectedMorale1(nextProps.selectedMorales, nextProps.data.id);
             }
             break;
           case 'tactic':
