@@ -12,24 +12,6 @@ class CoreMorales extends Component {
     this.renderMorales = this.renderMorales.bind(this);
     this.renderMorale = this.renderMorale.bind(this);
   }
-  
-  
-     // Revert mastery properties for placement
-    let abilities = [];
-    switch (props.data.abilityType) {
-      case 'morale1':
-        abilities = obj.coreMorales1.push(ability.id);
-        break;
-              case 'morale2':
-        abilities = obj.coreMorales2.push(ability.id);
-        break;
-              case 'morale3':
-        abilities = obj.coreMorales3.push(ability.id);
-        break;
-              case 'morale4':
-        abilities = obj.coreMorales4.push(ability.id);
-        break;
-}
 
   renderMorale(abilityId) {
     return (
