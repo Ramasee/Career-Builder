@@ -259,6 +259,34 @@ class AbilityMastery extends Component {
               nextProps.resetSelectedMorale4(nextProps.selectedMorales, nextProps.data.id);
             }
             break;
+                      case 'morale1':
+            nextProps.removeMasteryMorale(nextProps.masteryMorales, nextProps.data.id);
+            // remove from selected morales if it's there
+            if (nextProps.selectedMorale1 == nextProps.data.id) {
+              nextProps.resetSelectedMorale1(nextProps.selectedMorales, nextProps.data.id);
+            }
+            break;
+                      case 'morale2':
+            nextProps.removeMasteryMorale(nextProps.masteryMorales, nextProps.data.id);
+            // remove from selected morales if it's there
+            if (nextProps.selectedMorale2 == nextProps.data.id) {
+              nextProps.resetSelectedMorale3(nextProps.selectedMorales, nextProps.data.id);
+            }
+            break;
+                      case 'morale3':
+            nextProps.removeMasteryMorale(nextProps.masteryMorales, nextProps.data.id);
+            // remove from selected morales if it's there
+            if (nextProps.selectedMorale3 == nextProps.data.id) {
+              nextProps.resetSelectedMorale3(nextProps.selectedMorales, nextProps.data.id);
+            }
+            break;
+                      case 'morale4':
+            nextProps.removeMasteryMorale(nextProps.masteryMorales, nextProps.data.id);
+            // remove from selected morales if it's there
+            if (nextProps.selectedMorale4 == nextProps.data.id) {
+              nextProps.resetSelectedMorale4(nextProps.selectedMorales, nextProps.data.id);
+            }
+            break;
           case 'tactic':
             nextProps.removeMasteryTactic(nextProps.masteryTactics, nextProps.data.id);
             // remove from selected tactics if it's there
