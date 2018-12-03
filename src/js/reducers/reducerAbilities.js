@@ -66,7 +66,7 @@ function structureAbilities(abilities) {
               break;
           }
             }
-                
+    }
   }
 
   return obj;
