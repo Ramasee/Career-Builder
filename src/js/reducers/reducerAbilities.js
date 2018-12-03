@@ -48,7 +48,7 @@ function structureAbilities(abilities) {
       }
     } else {
             switch (ability.abilityType) {
-              case 'morale1':
+              case 'morale':
                 switch (ability.cost) {
                   case 'Rank 1 morale':
                     obj.coreMorales1.push(ability.id);
