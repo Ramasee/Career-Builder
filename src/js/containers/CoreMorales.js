@@ -12,24 +12,7 @@ class CoreMorales extends Component {
     this.renderMorales = this.renderMorales.bind(this);
     this.renderMorale = this.renderMorale.bind(this);
   }
-
-  renderMorale(abilityId) {
-    return (
-      <AbilityMorale key={abilityId} rank="4" data={this.props.abilities.indexed[abilityId]} />
-    )
-  }
-
-  renderMorale4() {
-    // Combine core and mastery tactics
-    let combinedMorales = [];
-    if (this.props.masteryMorales.length > 0) {
-      combinedMorales = [...this.props.abilities.structured.coreMorales4, ...this.props.masteryMorales];
-    } else {
-      combinedMorales = this.props.abilities.structured.coreMorales4;
-    }
-    return combinedMorales.map(this.renderMorale);
-  }
-
+  
   renderMorales() {
     return (
       <div className={css.moraleContainer}>
