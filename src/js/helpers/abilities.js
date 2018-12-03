@@ -14,18 +14,6 @@ export function getAbilityType(category) {
     case 'Morale':
       abilityType = 'morale';
       break;
-    case 'Morale1':
-      abilityType = 'morale1';
-      break;
-    case 'Morale2':
-      abilityType = 'morale2';
-      break;
-    case 'Morale3':
-      abilityType = 'morale3';
-      break;
-    case 'Morale4':
-      abilityType = 'morale4';
-      break;
     case 'CareerTactic':
       abilityType = 'tactic';
       break;

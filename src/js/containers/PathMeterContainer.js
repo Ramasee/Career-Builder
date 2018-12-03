@@ -26,15 +26,15 @@ class PathButtonsContainer extends Component {
     switch (this.props.path) {
       case 'a':
         this.props.setPathMeterA(pathPoints);
-        this.props.setCurrentPoints(this.props.points - (pathPoints + this.props.pathMeterB + this.props.pathMeterC + this.props.masteryAbilities.length + this.props.masteryMorales.length + this.props.masteryMorales1.length + this.props.masteryMorales2.length + this.props.masteryMorales3.length + this.props.masteryMorales4.length + this.props.masteryTactics.length));
+        this.props.setCurrentPoints(this.props.points - (pathPoints + this.props.pathMeterB + this.props.pathMeterC + this.props.masteryAbilities.length + this.props.masteryMorales.length + this.props.masteryTactics.length));
         break;
       case 'b':
         this.props.setPathMeterB(pathPoints);
-        this.props.setCurrentPoints(this.props.points - (pathPoints + this.props.pathMeterA + this.props.pathMeterC  + this.props.masteryAbilities.length + this.props.masteryMorales.length + this.props.masteryMorales1.length + this.props.masteryMorales2.length + this.props.masteryMorales3.length + this.props.masteryMorales4.length + this.props.masteryTactics.length));
+        this.props.setCurrentPoints(this.props.points - (pathPoints + this.props.pathMeterA + this.props.pathMeterC  + this.props.masteryAbilities.length + this.props.masteryMorales.length + this.props.masteryTactics.length));
         break;
       case 'c':
         this.props.setPathMeterC(pathPoints);
-        this.props.setCurrentPoints(this.props.points - (pathPoints + this.props.pathMeterA + this.props.pathMeterB  + this.props.masteryAbilities.length + this.props.masteryMorales.length + this.props.masteryMorales1.length + this.props.masteryMorales2.length + this.props.masteryMorales3.length + this.props.masteryMorales4.length + this.props.masteryTactics.length));
+        this.props.setCurrentPoints(this.props.points - (pathPoints + this.props.pathMeterA + this.props.pathMeterB  + this.props.masteryAbilities.length + this.props.masteryMorales.length + this.props.masteryTactics.length));
         break;
     }
   }
