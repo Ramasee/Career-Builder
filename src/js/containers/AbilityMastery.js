@@ -332,6 +332,9 @@ function mapStateToProps(
     pathMeterB,
     pathMeterC,
     selectedTactics,
+    selectedMorale1,
+    selectedMorale2,
+    selectedMorale3,
     selectedMorale4
   }
 ) 
@@ -345,6 +348,9 @@ function mapStateToProps(
     pathMeterB,
     pathMeterC,
     selectedTactics,
+    selectedMorale1,
+    selectedMorale2,
+    selectedMorale3,
     selectedMorale4
   };
 }
@@ -361,5 +367,8 @@ export default connect(mapStateToProps, {
   setPathMeterC,
   setCurrentPoints,
   deselectTactic,
+  resetSelectedMorale1,
+  resetSelectedMorale2,
+  resetSelectedMorale3,
   resetSelectedMorale4
 })(AbilityMastery);
