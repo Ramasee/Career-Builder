@@ -10,7 +10,6 @@ class CoreMorales extends Component {
   constructor(props) {
     super(props);
     this.renderMorales = this.renderMorales.bind(this);
-    this.renderMorale = this.renderMorale.bind(this);
   }
   
   renderMorales() {
