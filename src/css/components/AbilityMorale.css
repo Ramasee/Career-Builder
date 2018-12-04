@@ -17,6 +17,51 @@
   background: transparent;
   background-color: transparent;
 }
+.ability1 {
+  composes: ability from "../shared/ability.css";
+  border-radius: border-radius;
+  border: 0.1rem solid color-base-1;
+  cursor: pointer;
+}
+.abilityMasteryActive1 {
+  composes: ability;
+  background-color: color-ability-active;
+}
+.abilityMasterySelected1 {
+  composes: ability;
+  background: transparent;
+  background-color: transparent;
+}
+.ability2 {
+  composes: ability from "../shared/ability.css";
+  border-radius: border-radius;
+  border: 0.1rem solid color-base-1;
+  cursor: pointer;
+}
+.abilityMasteryActive2 {
+  composes: ability;
+  background-color: color-ability-active;
+}
+.abilityMasterySelected2 {
+  composes: ability;
+  background: transparent;
+  background-color: transparent;
+}
+.ability3 {
+  composes: ability from "../shared/ability.css";
+  border-radius: border-radius;
+  border: 0.1rem solid color-base-1;
+  cursor: pointer;
+}
+.abilityMasteryActive3 {
+  composes: ability;
+  background-color: color-ability-active;
+}
+.abilityMasterySelected3 {
+  composes: ability;
+  background: transparent;
+  background-color: transparent;
+}
 .abilitySelected {
   composes: ability;
   border: 0.2rem solid color-ability-border-selected;
