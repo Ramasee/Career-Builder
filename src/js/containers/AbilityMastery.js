@@ -309,6 +309,9 @@ class AbilityMastery extends Component {
       [cssMorale.ability]: !this.state.status && !this.state.selected && (this.props.data.abilityType === 'morale'),
       [cssMorale.abilityMasteryActive]: this.state.status && !this.state.selected && (this.props.data.abilityType === 'morale'),
       [cssMorale.abilityMasterySelected]: this.state.selected && (this.props.data.abilityType === 'morale'),
+      [cssMorale.ability]: !this.state.status && !this.state.selected && (this.props.data.abilityType === 'morale1'),
+      [cssMorale.abilityMasteryActive]: this.state.status && !this.state.selected && (this.props.data.abilityType === 'morale1'),
+      [cssMorale.abilityMasterySelected]: this.state.selected && (this.props.data.abilityType === 'morale1'),
       [cssTactic.ability]: !this.state.status && !this.state.selected && (this.props.data.abilityType === 'tactic'),
       [cssTactic.abilityMasteryActive]: this.state.status && !this.state.selected && (this.props.data.abilityType === 'tactic'),
       [cssTactic.abilityMasterySelected]: this.state.selected && (this.props.data.abilityType === 'tactic'),
@@ -320,6 +323,8 @@ class AbilityMastery extends Component {
       [css.imageStandardSelected]: this.state.selected && (this.props.data.abilityType === 'standard'),
       [cssMorale.imageInactive]: !this.state.selected && (this.props.data.abilityType === 'morale'),
       [cssMorale.image]: this.state.selected && (this.props.data.abilityType === 'morale'),
+      [cssMorale.imageInactive]: !this.state.selected && (this.props.data.abilityType === 'morale1'),
+      [cssMorale.image]: this.state.selected && (this.props.data.abilityType === 'morale1'),
       [cssTactic.imageInactive]: !this.state.selected && (this.props.data.abilityType === 'tactic'),
       [cssTactic.image]: this.state.selected && (this.props.data.abilityType === 'tactic'),
     });
