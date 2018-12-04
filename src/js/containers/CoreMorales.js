@@ -12,46 +12,8 @@ class CoreMorales extends Component {
     this.renderMorales = this.renderMorales.bind(this);
     this.renderMorale = this.renderMorale.bind(this);
   }
-  
-    processAbility(props) {
 
-    // Create single variable for current ability's group
-    let abilities = [];
-    switch (props.data.abilityType) {
-              case 'morale1':
-        abilities = props.masteryMorales1;
-        break;
-              case 'morale2':
-        abilities = props.masteryMorales2;
-        break;
-              case 'morale3':
-        abilities = props.masteryMorales3;
-        break;
-              case 'morale4':
-        abilities = props.masteryMorales4;
-        break;
-}
-    }
-  
-    renderMoralea(abilityId) {
-    return (
-      <AbilityMorale key={abilityId} rank="1" data={this.props.abilities.indexed[abilityId]} />
-    )
-  }
-  
-      renderMoraleb(abilityId) {
-    return (
-      <AbilityMorale key={abilityId} rank="2" data={this.props.abilities.indexed[abilityId]} />
-    )
-  }
-  
-      renderMoralec(abilityId) {
-    return (
-      <AbilityMorale key={abilityId} rank="3" data={this.props.abilities.indexed[abilityId]} />
-    )
-  }
-  
-      renderMoraled(abilityId) {
+  renderMorale(abilityId) {
     return (
       <AbilityMorale key={abilityId} rank="4" data={this.props.abilities.indexed[abilityId]} />
     )
@@ -65,40 +27,7 @@ class CoreMorales extends Component {
     } else {
       combinedMorales = this.props.abilities.structured.coreMorales4;
     }
-    return combinedMorales.map(this.renderMoraled);
-  }
-  
-    renderMorale3() {
-    // Combine core and mastery tactics
-    let combinedMorales = [];
-    if (this.props.masteryMorales3.length > 0) {
-      combinedMorales = [...this.props.abilities.structured.coreMorales3, ...this.props.masteryMorales3];
-    } else {
-      combinedMorales = this.props.abilities.structured.coreMorales3;
-    }
-    return combinedMorales1.map(this.renderMoralec);
-  }
-  
-    renderMorale2() {
-    // Combine core and mastery tactics
-    let combinedMorales = [];
-    if (this.props.masteryMorales2.length > 0) {
-      combinedMorales = [...this.props.abilities.structured.coreMorales2, ...this.props.masteryMorales2];
-    } else {
-      combinedMorales = this.props.abilities.structured.coreMorales2;
-    }
-    return combinedMorales2.map(this.renderMoraleb);
-  }
-  
-    renderMorale4() {
-    // Combine core and mastery tactics
-    let combinedMorales = [];
-    if (this.props.masteryMorales1.length > 0) {
-      combinedMorales = [...this.props.abilities.structured.coreMorales1, ...this.props.masteryMorales1];
-    } else {
-      combinedMorales = this.props.abilities.structured.coreMorales1;
-    }
-    return combinedMorales3.map(this.renderMoralea);
+    return combinedMorales.map(this.renderMorale);
   }
 
   renderMorales() {
@@ -107,19 +36,25 @@ class CoreMorales extends Component {
         <div className={css.moraleFirst}>
           <h3 className={css.moraleHeading}>Rank 1</h3>
           <div className="row">
-            {this.renderMorale1()}
+            {this.props.abilities.structured.coreMorales1.map(
+              (key) => <AbilityMorale key={key} rank="1" data={this.props.abilities.indexed[key]} />
+            )}
           </div>
         </div>
         <div className={css.morale}>
           <h3 className={css.moraleHeading}>Rank 2</h3>
           <div className="row">
-            {this.renderMorale2()}
+            {this.props.abilities.structured.coreMorales2.map(
+              (key) => <AbilityMorale key={key} rank="2" data={this.props.abilities.indexed[key]} />
+            )}
           </div>
         </div>
         <div className={css.morale}>
           <h3 className={css.moraleHeading}>Rank 3</h3>
           <div className="row">
-            {this.renderMorale3()}
+            {this.props.abilities.structured.coreMorales3.map(
+              (key) => <AbilityMorale key={key} rank="3" data={this.props.abilities.indexed[key]} />
+            )}
           </div>
         </div>
         <div className={css.moraleLast}>
