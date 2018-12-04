@@ -53,16 +53,16 @@ class AbilityMastery extends Component {
         abilities = props.masteryMorales;
         break;
               case 'morale1':
-        abilities = props.masteryMorales1;
+        abilities = props.masteryMorales;
         break;
               case 'morale2':
-        abilities = props.masteryMorales2;
+        abilities = props.masteryMorales;
         break;
               case 'morale3':
-        abilities = props.masteryMorales3;
+        abilities = props.masteryMorales;
         break;
               case 'morale4':
-        abilities = props.masteryMorales4;
+        abilities = props.masteryMorales;
         break;
       case 'tactic':
         abilities = props.masteryTactics;
@@ -127,16 +127,16 @@ class AbilityMastery extends Component {
               this.props.addMasteryMorale(this.props.masteryMorales, this.props.data.id);
               break;
                           case 'morale1':
-              this.props.addMasteryMorale(this.props.masteryMorales1, this.props.data.id);
+              this.props.addMasteryMorale(this.props.masteryMorales, this.props.data.id);
               break;
                           case 'morale2':
-              this.props.addMasteryMorale(this.props.masteryMorales2, this.props.data.id);
+              this.props.addMasteryMorale(this.props.masteryMorales, this.props.data.id);
               break;
                           case 'morale3':
-              this.props.addMasteryMorale(this.props.masteryMorales3, this.props.data.id);
+              this.props.addMasteryMorale(this.props.masteryMorales, this.props.data.id);
               break;
                           case 'morale4':
-              this.props.addMasteryMorale(this.props.masteryMorales4, this.props.data.id);
+              this.props.addMasteryMorale(this.props.masteryMorales, this.props.data.id);
               break;
             case 'tactic':
               this.props.addMasteryTactic(this.props.masteryTactics, this.props.data.id);
@@ -186,28 +186,28 @@ class AbilityMastery extends Component {
           }
           break;
                   case 'morale1':
-          this.props.removeMasteryMorale(this.props.masteryMorales1, this.props.data.id);
+          this.props.removeMasteryMorale(this.props.masteryMorales, this.props.data.id);
           // remove from selected morale 1
           if (this.props.selectedMorale1 == this.props.data.id) {
             this.props.resetSelectedMorale1();
           }
           break;
                   case 'morale2':
-          this.props.removeMasteryMorale(this.props.masteryMorales2, this.props.data.id);
+          this.props.removeMasteryMorale(this.props.masteryMorales, this.props.data.id);
           // remove from selected morale 2
           if (this.props.selectedMorale2 == this.props.data.id) {
             this.props.resetSelectedMorale2();
           }
           break;
                   case 'morale3':
-          this.props.removeMasteryMorale(this.props.masteryMorales3, this.props.data.id);
+          this.props.removeMasteryMorale(this.props.masteryMorales, this.props.data.id);
           // remove from selected morale 3
           if (this.props.selectedMorale3 == this.props.data.id) {
             this.props.resetSelectedMorale3();
           }
           break;
                   case 'morale4':
-          this.props.removeMasteryMorale(this.props.masteryMorales4, this.props.data.id);
+          this.props.removeMasteryMorale(this.props.masteryMorales, this.props.data.id);
           // remove from selected morale 4
           if (this.props.selectedMorale4 == this.props.data.id) {
             this.props.resetSelectedMorale4();
@@ -260,28 +260,28 @@ class AbilityMastery extends Component {
             }
             break;
                       case 'morale1':
-            nextProps.removeMasteryMorale(nextProps.masteryMorales1, nextProps.data.id);
+            nextProps.removeMasteryMorale(nextProps.masteryMorales, nextProps.data.id);
             // remove from selected morales if it's there
             if (nextProps.selectedMorale1 == nextProps.data.id) {
               nextProps.resetSelectedMorale1(nextProps.selectedMorales, nextProps.data.id);
             }
             break;
                       case 'morale2':
-            nextProps.removeMasteryMorale(nextProps.masteryMorales2, nextProps.data.id);
+            nextProps.removeMasteryMorale(nextProps.masteryMorales, nextProps.data.id);
             // remove from selected morales if it's there
             if (nextProps.selectedMorale2 == nextProps.data.id) {
               nextProps.resetSelectedMorale3(nextProps.selectedMorales, nextProps.data.id);
             }
             break;
                       case 'morale3':
-            nextProps.removeMasteryMorale(nextProps.masteryMorales3, nextProps.data.id);
+            nextProps.removeMasteryMorale(nextProps.masteryMorales, nextProps.data.id);
             // remove from selected morales if it's there
             if (nextProps.selectedMorale3 == nextProps.data.id) {
               nextProps.resetSelectedMorale3(nextProps.selectedMorales, nextProps.data.id);
             }
             break;
                       case 'morale4':
-            nextProps.removeMasteryMorale(nextProps.masteryMorales4, nextProps.data.id);
+            nextProps.removeMasteryMorale(nextProps.masteryMorales, nextProps.data.id);
             // remove from selected morales if it's there
             if (nextProps.selectedMorale4 == nextProps.data.id) {
               nextProps.resetSelectedMorale4(nextProps.selectedMorales, nextProps.data.id);
