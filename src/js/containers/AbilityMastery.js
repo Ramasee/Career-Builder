@@ -323,8 +323,8 @@ class AbilityMastery extends Component {
       [css.imageStandardSelected]: this.state.selected && (this.props.data.abilityType === 'standard'),
       [cssMorale.imageInactive]: !this.state.selected && (this.props.data.abilityType === 'morale'),
       [cssMorale.image]: this.state.selected && (this.props.data.abilityType === 'morale'),
-      [cssMorale.imageInactive]: !this.state.selected && (this.props.data.abilityType === 'morale1'),
-      [cssMorale.image]: this.state.selected && (this.props.data.abilityType === 'morale1'),
+      [cssMorale.imageInactive1]: !this.state.selected && (this.props.data.abilityType === 'morale1'),
+      [cssMorale.image1]: this.state.selected && (this.props.data.abilityType === 'morale1'),
       [cssTactic.imageInactive]: !this.state.selected && (this.props.data.abilityType === 'tactic'),
       [cssTactic.image]: this.state.selected && (this.props.data.abilityType === 'tactic'),
     });
