@@ -61,7 +61,7 @@ class CoreMorales extends Component {
           <h3 className={css.moraleHeading}>Rank 4</h3>
           <div className="row">
             {this.props.abilities.structured.coreMorales3.map(
-              (key) => <AbilityMorale key={key} rank="3" data={this.props.abilities.indexed[key]} />
+              (key) => <AbilityMorale key={key} rank="4" data={this.props.abilities.indexed[key]} />
             )}
           </div>
         </div>
