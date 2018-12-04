@@ -12,6 +12,26 @@ class CoreMorales extends Component {
     this.renderMorales = this.renderMorales.bind(this);
     this.renderMorale = this.renderMorale.bind(this);
   }
+  
+    processAbility(props) {
+
+    // Create single variable for current ability's group
+    let abilities = [];
+    switch (props.data.abilityType) {
+              case 'morale1':
+        abilities = props.masteryMorales1;
+        break;
+              case 'morale2':
+        abilities = props.masteryMorales2;
+        break;
+              case 'morale3':
+        abilities = props.masteryMorales3;
+        break;
+              case 'morale4':
+        abilities = props.masteryMorales4;
+        break;
+}
+    }
 
   renderMorale(abilityId) {
     return (
