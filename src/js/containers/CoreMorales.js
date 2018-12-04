@@ -33,7 +33,25 @@ class CoreMorales extends Component {
 }
     }
   
-    renderMorale(abilityId) {
+    renderMoralea(abilityId) {
+    return (
+      <AbilityMorale key={abilityId} rank="1" data={this.props.abilities.indexed[abilityId]} />
+    )
+  }
+  
+      renderMoraleb(abilityId) {
+    return (
+      <AbilityMorale key={abilityId} rank="2" data={this.props.abilities.indexed[abilityId]} />
+    )
+  }
+  
+      renderMoralec(abilityId) {
+    return (
+      <AbilityMorale key={abilityId} rank="3" data={this.props.abilities.indexed[abilityId]} />
+    )
+  }
+  
+      renderMoraled(abilityId) {
     return (
       <AbilityMorale key={abilityId} rank="4" data={this.props.abilities.indexed[abilityId]} />
     )
