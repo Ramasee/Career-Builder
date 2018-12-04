@@ -75,3 +75,27 @@
   composes: imageInactive from "../shared/ability.css";
   border-radius: border-radius;
 }
+.image1 {
+  composes: image from "../shared/ability.css";
+  border-radius: border-radius;
+}
+.imageInactive1 {
+  composes: imageInactive from "../shared/ability.css";
+  border-radius: border-radius;
+}
+.image2 {
+  composes: image from "../shared/ability.css";
+  border-radius: border-radius;
+}
+.imageInactive2 {
+  composes: imageInactive from "../shared/ability.css";
+  border-radius: border-radius;
+}
+.image3 {
+  composes: image from "../shared/ability.css";
+  border-radius: border-radius;
+}
+.imageInactive3 {
+  composes: imageInactive from "../shared/ability.css";
+  border-radius: border-radius;
+}
