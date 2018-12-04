@@ -32,6 +32,12 @@ class CoreMorales extends Component {
         break;
 }
     }
+  
+    renderMorale(abilityId) {
+    return (
+      <AbilityMorale key={abilityId} rank="4" data={this.props.abilities.indexed[abilityId]} />
+    )
+  }
 
   renderMorale4() {
     // Combine core and mastery tactics
@@ -52,7 +58,7 @@ class CoreMorales extends Component {
     } else {
       combinedMorales = this.props.abilities.structured.coreMorales3;
     }
-    return combinedMorales.map(this.renderMorale);
+    return combinedMorales1.map(this.renderMorale);
   }
   
     renderMorale2() {
@@ -63,7 +69,7 @@ class CoreMorales extends Component {
     } else {
       combinedMorales = this.props.abilities.structured.coreMorales2;
     }
-    return combinedMorales.map(this.renderMorale);
+    return combinedMorales2.map(this.renderMorale);
   }
   
     renderMorale4() {
@@ -74,7 +80,7 @@ class CoreMorales extends Component {
     } else {
       combinedMorales = this.props.abilities.structured.coreMorales1;
     }
-    return combinedMorales.map(this.renderMorale);
+    return combinedMorales3.map(this.renderMorale);
   }
 
   renderMorales() {
