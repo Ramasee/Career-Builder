@@ -33,12 +33,6 @@ class CoreMorales extends Component {
 }
     }
 
-  renderMorale(abilityId) {
-    return (
-      <AbilityMorale key={abilityId} rank="4" data={this.props.abilities.indexed[abilityId]} />
-    )
-  }
-
   renderMorale4() {
     // Combine core and mastery tactics
     let combinedMorales = [];
