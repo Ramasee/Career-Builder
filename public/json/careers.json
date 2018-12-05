@@ -168,17 +168,17 @@
     "class": "Melee DPS"
   },
   "wp101": {
-    "name": "",
+    "name": "Warrior Priest (Proposal)",
     "slug": "wp101",
-    "faction": "",
-    "race": "",
-    "class": ""
+    "faction": "Order",
+    "race": "Empire",
+    "class": "Healer"
   },
     "dokshield": {
-    "name": "",
+    "name": "Disciple of Khaine (Proposal)",
     "slug": "dokshield",
-    "faction": "",
-    "race": "",
-    "class": ""
+    "faction": "Destruction",
+    "race": "Dark Elf",
+    "class": "Healer"
   }
 }
