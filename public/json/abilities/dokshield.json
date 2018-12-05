@@ -683,7 +683,7 @@
     },
   
     {
-      "image": "11004",
+      "image": "11002",
       "id": 5017,
       "name": "Khaine's Fountain",
       "type": "Damaging",
@@ -1013,7 +1013,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
-      "note": "",
+      "note": "Requires 15 points in the Path of Torture",
       "description": "Victim is overcome with seemingly endless visions of their own grisly death. So real are the visions, that the victim suffers 1200 damage over ten seconds. During this time you cannot be snared or rooted.",
       "category": "Morale"
     },
@@ -1067,7 +1067,7 @@
     },
 
     {
-      "image": "99999",
+      "image": "11033",
       "id": 7502,
       "name": "Khaine's Vigor",
       "type": "Blessing",
@@ -1083,7 +1083,7 @@
     },
 
     {
-      "image": "99999",
+      "image": "11004",
       "id": 7503,
       "name": "Unholy Reclamation",
       "type": "Blessing",
@@ -1115,7 +1115,7 @@
     },
 
     {
-      "image": "99999",
+      "image": "10987",
       "id": 7505,
       "name": "Khaine's Bounty",
       "type": "Buff",
@@ -1131,7 +1131,7 @@
     },
 
     {
-      "image": "99999",
+      "image": "10977",
       "id": 7506,
       "name": "Horrifying Offer",
       "type": "Debuff",
