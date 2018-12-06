@@ -7,9 +7,9 @@
         "secondary": "Bow counts 100% of its dps to abilities, sword counts 45%."
       },
       "optionalAbilities": {
-        "lvl1": 3971,
+        "lvl1": 3975,
         "lvl2": 3972,
-        "lvl3": 3975,
+        "lvl3": 3971,
         "lvl4": 3974,
         "lvl5": 3973,
         "lvl6": 3976,
@@ -431,9 +431,9 @@
       "cost": "Costs 30 AP",
       "range": "100ft range",
       "incant": "3.0s cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "Requires Scout Stance",
-      "description": "Deals (38 + 19.5 * rank) + (0.7875 bal) corporeal damage to your target.",
+      "description": "Deals (30 + 14 * rank) + (0.5 bal) corporeal damage to your target and applies an ailment which inflicts an additional (10 + 8 * rank) + (0.4 bal) corporeal damage for 3 seconds.",
       "category": "Ability"
     },
   
@@ -448,8 +448,8 @@
       "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires Scout Stance or Skirmish Stance",
-      "description": "An Ailment which deals (25 + 4 * rank) + (0.2 bal) elemental damage to your target and then explodes, dealing an additional (309 + 5.5 * rank) + (0.3 bal) elemental damage over 9 seconds to the target and all other enemies within 20 feet of them.",
+      "note": "Requires Scout Stance",
+      "description": "Your target is caught on fire for 6s taking 53 + (1.4 * rank) + (0.1 Bal) elemental damage every 2s. As the fires consume them, they will take 50% more damage every dot tick",
       "category": "Ability"
     },
   
@@ -721,7 +721,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Eagle's Eye now builds up 1 seconds faster, but the cost is increased by 13 action points.",
+      "description": "Eagle's Eye and Festering Arrow now builds up 1 seconds faster. Acid arrow is now instant cast.",
       "category": "CareerTactic"
     },
   
@@ -832,7 +832,7 @@
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
-      "note": "",
+      "note": "Does not stack with Scout Stance.",
       "description": "Increases the maximum range of all Path Of The Skirmisher attacks by 50%.",
       "category": "CareerTactic"
     },
@@ -897,7 +897,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s shared cooldown",
       "note": "Can only have one stance active.",
-      "description": "A long-distance bow stance that gives a 80 unique bonus to ballistic Skill and initiative and the range of your bow attacks by 10%.",
+      "description": "A long-distance bow stance that gives a 80 unique bonus to ballistic Skill and initiative and the range of your bow attacks by 10%. Path of Skirmisher abilities gain 60% range.",
       "category": "Ability"
     },
   
