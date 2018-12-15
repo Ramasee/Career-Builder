@@ -222,7 +222,7 @@
       "id": 3882,
       "name": "Extended Battle",
       "type": "Buff",
-      "spec": "Path of Grimnir",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
