@@ -85,7 +85,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "Requires 15 points in Path of Wrath",
-      "description": "All snares, roots, and detaunts on you are broken and you are immune to them for the next ten seconds.",
+      "description": "All snares, roots, and detaunts on you are broken. You will be immune to snares and roots and generate 250 righteous fury over the next 10 seconds.",
       "category": "Morale"
     },
   
@@ -410,22 +410,6 @@
     },
   
     {
-      "image": "22696",
-      "id": 4187,
-      "name": "Endless Guilt",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "35",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "The snare from Weight Of Guilt will now last for 10 seconds, and affects all enemies within 20 feet of your target.",
-      "category": "CareerTactic"
-    },
-  
-    {
       "image": "22702",
       "id": 4153,
       "name": "Exalted Defenses",
@@ -549,7 +533,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Builds 30 Righteous Fury<br>Requires a Greatweapon",
-      "description": "Deals X physical damage to the target, If the target is below 50% hit points, instead inflicts Y physical damage.",
+      "description": "Deals X physical damage to the target. This ability can only be on targets below 35% health.",
       "category": "Ability"
     },
   
@@ -917,7 +901,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Builds 30 Righteous Fury",
-      "description": "Deals X physical damage to your enemy and blesses your defensive target for 15 seconds, increasing their chance to parry attacks by 10%.",
+      "description": "Deals X physical damage to your enemy increasing your block chance by 5%. Your defensive target(but not you) is blessed for 15 seconds, increasing their chance to parry attacks by 10%.",
       "category": "Ability"
     },
 
@@ -948,8 +932,8 @@
       "range": "No range",
       "incant": "Instant cast",
       "cooldown": "5.0s cooldown",
-      "note": "Requires 40 Righteous Fury per second.",
-      "description": "When activated: deal X spirit damage to enemies within 30ft of you every 3 seconds. During this time you deal 25% more damage. This ability will end if used again or if you run of Righteous Fury with which to power it.",
+      "note": "Requires 45 Righteous Fury per second.<br>This ability does not trigger the GCD.",
+      "description": "When activated: deal X spirit damage to enemies within 30ft of you every 2 seconds. During this time you deal 25% more damage. This ability will end if used again or if you run of Righteous Fury with which to power it.",
       "category": "Ability"
     },
   
