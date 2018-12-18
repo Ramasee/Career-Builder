@@ -581,7 +581,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Target must be Cursed or Ailing",
-      "description": "Your rune cleanses an ally, removing one curse or ailment.",
+      "description": "Your rune cleanses an ally, removing one curse or ailment. If the target has the Rune of Warding, they will be cleansed fo two effects.",
       "category": "Ability"
     },
   
