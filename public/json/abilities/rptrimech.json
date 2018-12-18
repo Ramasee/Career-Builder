@@ -3,22 +3,22 @@
     "a": {
       "name": "Path of Grungni",
       "optionalAbilities": {
-        "lvl1": 7001,
-        "lvl2": 3835,
+        "lvl1": 3845,
+        "lvl2": 3827,
         "lvl3": 3868,
         "lvl4": 7000,
         "lvl5": 3872,
         "lvl6": 3873,
         "lvl7": 3874
       },
-      "coreAbilities": [3825,3834,3831,3841,3833,3837]
+      "coreAbilities": [3825,3834,3831,3841,3833,3836]
     },
     "b": {
       "name": "Path of Valaya",
       "optionalAbilities": {
-        "lvl1": 3875,
+        "lvl1": 3846,
         "lvl2": 3878,
-        "lvl3": 3846,
+        "lvl3": 7005,
         "lvl4": 7003,
         "lvl5": 3886,
         "lvl6": 7004,
@@ -29,15 +29,15 @@
     "c": {
       "name": "Path of Grimnir",
       "optionalAbilities": {
-        "lvl1": 3845,
-        "lvl2": 3827,
+        "lvl1": 7001,
+        "lvl2": 3835,
         "lvl3": 3870,
         "lvl4": 3885,
         "lvl5": 3879,
         "lvl6": 3887,
         "lvl7": 3888
       },
-      "coreAbilities": [3925,3826,3924,3838,3836,3926]
+      "coreAbilities": [3925,3826,3924,3838,3837,3926]
     }
   },
   "data": [
@@ -126,7 +126,7 @@
       "id": 3845,
       "name": "Cleansing Vitality",
       "type": "Buff",
-      "spec": "Path of Grimnir",
+      "spec": "Path of Grungni",
       "minrank": "21",
       "cost": "Tactic",
       "range": "No range",
@@ -213,7 +213,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "While under the effects of your Rune of Breaking; each time you deal direct damage, your defensive target is healed for 50% of the damage dealt. You gain 10% disrupt strikethrough.",
+      "description": "While under the effects of your Rune of Breaking; each time you deal direct damage, your defensive target is healed for 50% of the damage dealt. The cooldown on Rune of Breaking is now 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -273,11 +273,11 @@
       "spec": "Path of Grimnir",
       "minrank": "1",
       "cost": "Costs 35 AP",
-      "range": "150 range",
-      "incant": "1.5ast",
-      "cooldown": "1 cooldown",
-      "note": "Can only be cast upon a group mate.",
-      "description": "Resurrect a fallen group members and does not cause resurrection sickness. Anyone resurrected by this effect will regain 50% of their hit points.",
+      "range": "80ft range",
+      "incant": "2.0s cast",
+      "cooldown": "15s cooldown",
+      "note": "",
+      "description": "Deals X damage to your target. All enemies within 30ft of the target take X damage, and all allies within 30ft are healed for Y.",
       "category": "Ability"
     },
   
@@ -318,7 +318,7 @@
       "id": 3875,
       "name": "Immolating Grasp",
       "type": "Buff",
-      "spec": "Path of Valaya",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
@@ -560,12 +560,12 @@
       "type": "Damaging",
       "spec": "Path of Valaya",
       "minrank": "1",
-      "cost": "Costs 20 AP/sec",
-      "range": "100ft range",
-      "incant": "6.0s cast",
+      "cost": "Costs 30 AP/sec",
+      "range": "No range",
+      "incant": "6.0s channel",
       "cooldown": "11.0s cooldown",
       "note": "",
-      "description": "You channel a powerful series of runes around your target which project searing flame into them. Dealing X elemental damage over 6 seconds for as long as you maintain yout concentration.",
+      "description": "You channel powerful energy into your Master Rune with projects searing flames. Dealing X elemental damage over 6 seconds to all enemies within 30ft of your Master Rune for as long as you maintain yout concentration.",
       "category": "Ability"
     },
   
@@ -574,7 +574,7 @@
       "id": 3836,
       "name": "Rune of Cleansing",
       "type": "Damaging",
-      "spec": "Path of Grimnir",
+      "spec": "Path of Grungni",
       "minrank": "16",
       "cost": "Costs 25 AP",
       "range": "150ft range",
@@ -590,7 +590,7 @@
       "id": 3837,
       "name": "Rune of Cleaving",
       "type": "Ailment",
-      "spec": "Path of Grungni",
+      "spec": "Path of Grimnir",
       "minrank": "18",
       "cost": "Costs 30 AP",
       "range": "No range",
@@ -707,7 +707,7 @@
       "cost": "Costs 40 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "No cooldown",
       "note": "",
       "description": "Your Master Rune transmits a surge of power through the ground dealing X elemental damage to all targets within 30 feet of it.",
       "category": "Ability"
@@ -725,7 +725,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Critical attacks place a debuff on your target that reduces all incoming healing by 50% for 10 seconds.",
+      "description": "All attacks against targets with Rune of Power and critical attacks against any target place a debuff on your target that reduces all incoming healing by 50% for 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -798,7 +798,7 @@
       "id": 3835,
       "name": "Rune of Serenity",
       "type": "Blessing",
-      "spec": "Path of Grungni",
+      "spec": "Path of Grimnir",
       "minrank": "14",
       "cost": "Costs 40 AP",
       "range": "150ft range",
@@ -814,14 +814,14 @@
       "id": 3827,
       "name": "Rune of Shielding",
       "type": "Blessing",
-      "spec": "Path of Grimnir",
+      "spec": "Path of Grungni",
       "minrank": "6",
       "cost": "Costs 35 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "Target absorbs up to X damage over 10 seconds. When the effect fades, the target recovers Y health.",
+      "description": "Target absorbs up to X damage over 10 seconds. When the effect fades, the target recovers Y health. If the target has Rune of Iron, the target recovers Z health instead.",
       "category": "Ability"
     },
   
@@ -1054,7 +1054,7 @@
       "id": 7001,
       "name": "Cleave My Runes (PH)",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Grimnir",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
@@ -1111,6 +1111,22 @@
       "note": "",
       "description": "Group mates within 100ft of your Master Rune are healed for X. For the next 10s, the power of any heals used on them is increased by 25%.",
       "category": "Ability"
+    },
+    
+        {
+      "image": "22696",
+      "id": 7005,
+      "name": "Mighty Immolation (PH)",
+      "type": "Buff",
+      "spec": "Path of Valaya",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Rune of Might will now apply immolation to all targets hit. The cooldown of Rune of Might and Rune of Immolation is increased to 10 seconds.",
+      "category": "CareerTactic"
     }
   ]
 }
