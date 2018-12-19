@@ -620,12 +620,12 @@
       "type": "Damaging",
       "spec": "Path of Grungni",
       "minrank": "1",
-      "cost": "Rank 4 morale",
+      "cost": "Rank 3 morale",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
-      "note": "",
-      "description": "Deals 800 damage to all enemies within 30 feet and then heals all group members within 100 feet for all damage dealt.",
+      "note": "Requires 15 points in the Path of Grungni",
+      "description": "Target enemy and all enemies within 30ft of him take 400 morale damage and are affected with Rune of Impact. All groupmates within 100ft of you gain the Rune of Fortitude.",
       "category": "Morale"
     },
   
