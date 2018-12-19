@@ -284,12 +284,12 @@
       "type": "Blessing",
       "spec": "Path of Grimnir",
       "minrank": "1",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 35 AP/Sec",
       "range": "80ft range",
-      "incant": "2.0s cast",
+      "incant": "3.0s channel",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "Deals X damage to your target. All enemies within 30ft of the target take X damage, and all allies within 30ft are healed for Y.",
+      "description": "Deals X damage to your target every second. All enemies within 30ft of the target take Xthin 30ft a damage, and all allies wire healed for Y.",
       "category": "Ability"
     },
   
