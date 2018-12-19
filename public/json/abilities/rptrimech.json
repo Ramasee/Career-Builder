@@ -357,7 +357,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Targeted group member gains a (2 * rank) ability bonus to initiative and willpower for 1 hour. The rune holder may activate it to restore X health over 10 seconds.<br>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
+      "description": "Targeted group member gains a (2 * rank) ability bonus to initiative and willpower for 1 hour. The rune holder is granted Rune of Fortitude.<br>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
       "category": "Ability"
     },
   
@@ -373,7 +373,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Targeted group member gains a (3 * rank) ability bonus to strength, ballistic skill, and intelligence for 1 hour. The rune holder may activate to inflict a (3 * rank) ability penalty to toughness to a target for 10s.<br>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
+      "description": "Targeted group member gains a (3 * rank) ability bonus to strength, ballistic skill, and intelligence for 1 hour. The rune holder is granted Rune of Impact.<br>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
       "category": "Ability"
     },
   
@@ -405,7 +405,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Targeted group member gains a X ability bonus to all resistances for 1 hour. The rune holder may activate it to gain a Y unique bonus to resistance for 10 seconds.<br>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
+      "description": "Targeted group member gains a X ability bonus to all resistances for 1 hour. The rune holder is granted Rune of Fortitude.<br>You may only give a player one Oath Rune, but players may bear multiple Oath Runes of different types at the same time.",
       "category": "Ability"
     },
   
@@ -453,7 +453,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Target group member gains a X unique bonus to wounds for 60 seconds. Heals target for value of HP increase.<br>If cast on a target with Rune of Warding active, they gain a X absorb for 10s.",
+      "description": "Target group member gains a X unique bonus to wounds for 60 seconds. Heals target for value of HP increase.",
       "category": "Ability"
     },
   
@@ -533,7 +533,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "Wounds your target for X elemental damage. If the target is afflicted with a Rune of Power the target is stagged for 6 seconds, preventing all actions unless they're damaged.",
+      "description": "Wounds your target for X elemental damage. If the target is afflicted with a Rune of Impact the target is stagged for 6 seconds, preventing all actions unless they're damaged.",
       "category": "Ability"
     },
   
@@ -581,7 +581,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Target must be Cursed or Ailing",
-      "description": "Your rune cleanses an ally, removing one curse or ailment. If the target has the Rune of Warding, they will be cleansed fo two effects.",
+      "description": "Your rune cleanses an ally, removing one curse or ailment. If the target has the Rune of Fortitude, they will be cleansed fo two effects.",
       "category": "Ability"
     },
   
@@ -693,7 +693,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Restores X health, then continues to restore Y health over 5 seconds. This ability will continue to build up even if you move.<br><br> Restores Z and then continues to restore A health over 5 seconds if the target is affected by a Rune of Iron.",
+      "description": "Restores X health, then continues to restore Y health over 5 seconds. This ability will continue to build up even if you move.<br><br> Restores Z and then continues to restore A health over 5 seconds if the target is affected by a Rune of Fortitude.",
       "category": "Ability"
     },
   
@@ -725,7 +725,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All attacks against targets with Rune of Power and critical attacks against any target place a debuff on your target that reduces all incoming healing by 50% for 10 seconds.",
+      "description": "All attacks against targets with Rune of Impact and critical attacks against any target place a debuff on your target that reduces all incoming healing by 50% for 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -821,7 +821,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "Target absorbs up to X damage over 10 seconds. When the effect fades, the target recovers Y health. If the target has Rune of Iron, the target recovers Z health instead.",
+      "description": "Target absorbs up to X damage over 10 seconds. When the effect fades, the target recovers Y health. If the target has Rune of Fortitude, the target recovers Z health instead.",
       "category": "Ability"
     },
   
@@ -885,7 +885,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your magical critical chance by 20% against targets afflicted with Rune of Power. Increases your healing critical chance by 20% against targets afflicted with Rune of Iron.",
+      "description": "Increases your magical critical chance by 20% against targets afflicted with Rune of Impact. Increases your healing critical chance by 20% against targets imbued with Rune of Fortitude.",
       "category": "CareerTactic"
     },
   
@@ -1045,7 +1045,7 @@
       "incant": "1.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "You cannot target yourself with this ability.",
-      "description": "Restore X health to target. If target is affected by Rune of Iron, the target's abilities build up 0.5s faster for 10 seconds. If target is affected by Rune of Warding, the target gains 20% movement speed for 5 seconds.",
+      "description": "Restore X health to target. If target is affected by Rune of Fortitude, the target gains 20% movement speed for 5 seconds.",
       "category": "Ability"
     },
 
@@ -1127,6 +1127,38 @@
       "note": "",
       "description": "Rune of Might will now apply immolation to all targets hit. The cooldown of Rune of Might and Rune of Immolation is increased to 10 seconds.",
       "category": "CareerTactic"
+    },
+    
+        {
+      "image": "00000",
+      "id": 7006,
+      "name": "Rune of Impact",
+      "type": "Damaging",
+      "spec": "Path of Grimnir",
+      "minrank": "1",
+      "cost": "Costs 40 AP",
+      "range": "100ft range",
+      "incant": "Instant cast",
+      "cooldown": "45.0s shared cooldown",
+      "note": "This is a granted ability.",
+      "description": "The target takes (10 * rank) morale damage, For the next ten seconds, your runepriest will have its abilities enhanced against the target.",
+      "category": "Ability"
+    },
+    
+            {
+      "image": "00000",
+      "id": 7007,
+      "name": "Rune of Fortitude",
+      "type": "Damaging",
+      "spec": "Path of Grimnir",
+      "minrank": "1",
+      "cost": "Costs 40 AP",
+      "range": "100ft range",
+      "incant": "Instant cast",
+      "cooldown": "45.0s shared cooldown",
+      "note": "This is a granted ability.",
+      "description": "You are healed for (50 * rank) over 15 seconds. During this time, your runepriest will have its healing abilities enhanced when targetting you.",
+      "category": "Ability"
     }
   ]
 }
