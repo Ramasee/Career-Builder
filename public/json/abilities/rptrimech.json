@@ -2,6 +2,10 @@
   "mastery": {
     "a": {
       "name": "Path of Grungni",
+       "popover": {
+        "primary": "A mastery path focused on allies using Oath Runes to enhance your abilities.",
+        "secondary": ""
+},
       "optionalAbilities": {
         "lvl1": 3845,
         "lvl2": 3827,
@@ -15,6 +19,10 @@
     },
     "b": {
       "name": "Path of Valaya",
+       "popover": {
+        "primary": "A mastery path focused on powerful effects centered around your Master Rune.",
+        "secondary": ""
+},
       "optionalAbilities": {
         "lvl1": 3846,
         "lvl2": 3878,
@@ -28,6 +36,10 @@
     },
     "c": {
       "name": "Path of Grimnir",
+      "popover": {
+        "primary": "A mastery path focused on dealind directly with your problems via healing or damage.",
+        "secondary": ""
+},
       "optionalAbilities": {
         "lvl1": 7001,
         "lvl2": 3835,
