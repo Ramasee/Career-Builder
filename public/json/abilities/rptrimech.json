@@ -11,7 +11,7 @@
         "lvl6": 3873,
         "lvl7": 3874
       },
-      "coreAbilities": [3825,3834,3831,3841,3833,3836]
+      "coreAbilities": [3825,3834,3831,3841,3833,3836,7006,7007]
     },
     "b": {
       "name": "Path of Valaya",
@@ -1134,7 +1134,7 @@
       "id": 7006,
       "name": "Rune of Impact",
       "type": "Damaging",
-      "spec": "Path of Grimnir",
+      "spec": "Path of Grungni",
       "minrank": "1",
       "cost": "Costs 40 AP",
       "range": "100ft range",
@@ -1150,7 +1150,7 @@
       "id": 7007,
       "name": "Rune of Fortitude",
       "type": "Damaging",
-      "spec": "Path of Grimnir",
+      "spec": "Path of Grungni",
       "minrank": "1",
       "cost": "Costs 40 AP",
       "range": "100ft range",
