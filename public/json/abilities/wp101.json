@@ -528,11 +528,11 @@
       "type": "Damaging",
       "spec": "Path of Wrath",
       "minrank": "1",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Builds 30 Righteous Fury<br>Requires a Greatweapon",
+      "note": "Builds 50 Righteous Fury<br>Requires a Greatweapon",
       "description": "Deals X physical damage to the target. This ability can only be on targets below 35% health.",
       "category": "Ability"
     },
@@ -932,7 +932,7 @@
       "range": "No range",
       "incant": "Instant cast",
       "cooldown": "5.0s cooldown",
-      "note": "Requires 45 Righteous Fury per second.<br>This ability does not trigger the GCD.",
+      "note": "Requires 40 Righteous Fury per second.<br>This ability does not trigger the GCD.",
       "description": "When activated: deal X spirit damage to enemies within 30ft of you every 2 seconds. During this time you deal 25% more damage. This ability will end if used again or if you run of Righteous Fury with which to power it.",
       "category": "Ability"
     },
@@ -1108,7 +1108,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Builds 25 Righteous Fury",
+      "note": "Builds 40 Righteous Fury",
       "description": "You call upon Sigmar to curse your enemy dealing X spirit damage. For the next ten seconds, all healing the target received will be 50% less effective.",
       "category": "Ability"
     },
