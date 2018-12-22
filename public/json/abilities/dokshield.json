@@ -420,8 +420,8 @@
       "range": "No range",
       "incant": "Instant cast",
       "cooldown": "5.0s cooldown",
-      "note": "Requires 40 Soul Essence per second.",
-      "description": "When activated: deal X spirit damage every 3 seconds to enemies within 30 feet of you. During this time you deal 25% more damage. This ability will end if used again ot you run out of Soul Essence to power it with.",
+      "note": "Requires 40 Soul Essence per second.<br>This ability is not on the GCD.",
+      "description": "When activated: deal X spirit damage every 2 seconds to enemies within 30 feet of you. During this time you deal 25% more damage. This ability will end if used again ot you run out of Soul Essence to power it with.",
       "category": "Ability"
     },
   
@@ -1014,7 +1014,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "Requires 15 points in the Path of Torture",
-      "description": "Victim is overcome with seemingly endless visions of their own grisly death. So real are the visions, that the victim suffers 1200 damage over ten seconds. During this time you cannot be snared or rooted.",
+      "description": "You are overcome with seemingly endless visions of you own grisly death if you should fail. So real are the visions, that you break all snares, roots, and detaunts. For the next 10 seconds you will generate 250 and be immune to snares and roots.",
       "category": "Morale"
     },
   
@@ -1030,7 +1030,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Builds 30 Soul Essence",
-      "description": "A cunning strike which deals X physical damage to your enemy and curses them for 15 seconds, reducing their chance to parry by 10%",
+      "description": "A cunning strike which deals X physical damage to your enemy and curses them for 15 seconds, reducing their chance to parry by 10%. You will gain 5% block for 15 seconds.",
       "category": "Ability"
     },
   
@@ -1041,12 +1041,12 @@
       "type": "Damaging",
       "spec": "Path of Torture",
       "minrank": "1",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires Dual Wield.<br>Builds 30 Soul Essence",
-      "description": "A merciless attack which deals X physical damage to the target. If the target is below 50% hit points, instead inflicts Y physical damage.",
+      "note": "Requires Dual Wield.<br>Builds 50 Soul Essence",
+      "description": "A merciless attack which deals X physical damage to the target. This ability can only be used on targets below 35% hit points.",
       "category": "Ability"
     },
 
