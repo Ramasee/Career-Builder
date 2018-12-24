@@ -289,7 +289,7 @@
       "incant": "3.0s channel",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "Deals X damage to your target every second. All enemies within 30ft of the target take Xthin 30ft a damage, and all allies wire healed for Y.",
+      "description": "Deals X damage to your target every second. All enemies within 30ft of the target take X damage, and all allies within 30 ft are healed for Y.",
       "category": "Ability"
     },
   
