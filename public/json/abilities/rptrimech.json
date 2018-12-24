@@ -81,7 +81,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Healing abilities have a 25% chance to also increase your target's AP by 50. This effect will not work on yourself.",
+      "description": "While under the effects of your Rune of Breaking; each time you deal direct damage there is a 15% chance to reduce the action point costs of all of your abilities by 25% for 15 seconds. While under the effects of your Rune of Balance; healing abilities have a 25% chance to also increase your target's AP by 50; this effect will not work on yourself.",
       "category": "CareerTactic"
     },
   
@@ -225,7 +225,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "While under the effects of your Rune of Breaking; each time you deal direct damage, your defensive target is healed for 50% of the damage dealt. The cooldown on Rune of Breaking is now 10 seconds.",
+      "description": "Rune of Breaking's cooldown is reduced to 10 seconds. While under the effects of your Rune of Breaking; each time you deal direct damage, your defensive target is healed for 50% of the damage dealt. While under the effect of the Rune of Balance; the cast times of all Path of Grimnir abilities is reduced by 25%.",
       "category": "CareerTactic"
     },
   
@@ -529,7 +529,7 @@
       "incant": "2.0s cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "Buffs you or a friendly player with a pulsing area of effect that deals X elemental damage every 3 seconds to all enemies within to 30 feet for 15 seconds. Not effected by cooldown reduction abilities.",
+      "description": "Buffs you or a friendly player with a pulsing area of effect that deals X elemental damage to all enemies and heals allies for Y every 3 seconds within 30 feet for 15 seconds. Not effected by cooldown reduction abilities.",
       "category": "Ability"
     },
   
@@ -1089,7 +1089,7 @@
       "incant": "Instant cast",
       "cooldown": "20.0s cooldown",
       "note": "You can only have 1 master rune active at a time.<br>This ability does not trigger the GCD.",
-      "description": "You inscribe a Master Rune into the ground for 20 seconds. Group mates within 100ft are healed for X every 3 seconds. Enemies within 30ft are dealt Y elemental damage every 3 seconds.",
+      "description": "You inscribe a Master Rune into the ground for 20 seconds. Group mates within 100ft are healed for X every 3 seconds. Enemies within 30ft are dealt Y elemental damage every 3 seconds. These effects are doubled on targets with Rune of Regeneration or Rune of Immolation.",
       "category": "Ability"
     },
 
