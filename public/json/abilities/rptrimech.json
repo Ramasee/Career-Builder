@@ -844,12 +844,12 @@
       "type": "Damaging",
       "spec": "Path of Grimnir",
       "minrank": "1",
-      "cost": "Rank 4 morale",
+      "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
-      "note": "",
-      "description": "Deals 1600 damage to all targets 40 feet in front of you.",
+      "note": "Requires 15 points in path of grimnir.",
+      "description": "For the next 15 seconds, you will be under the effects of Rune of Breaking and Rune of Balance. (This might lead to weird effects and thus be changed)",
       "category": "Morale"
     },
   
@@ -1040,8 +1040,8 @@
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
-      "note": "",
-      "description": "Heals your groupmates within 100 feet 1596 health over 15 seconds and gives 375 action points over 15 seconds",
+      "note": "Requires 15 points in the path of valaya.",
+      "description": "Your groupmates within 100 feet are given a Rune of Regeneration and restore 375 action points over 15 seconds",
       "category": "Morale"
     },
 
