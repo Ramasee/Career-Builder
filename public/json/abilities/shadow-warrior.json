@@ -897,7 +897,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s shared cooldown",
       "note": "Can only have one stance active.",
-      "description": "A long-distance bow stance that gives a 80 unique bonus to ballistic Skill and initiative and the range of your bow attacks by 10%. Path of Skirmisher abilities gain 60% range.",
+      "description": "A long-distance bow stance that gives a 80 unique bonus to ballistic Skill and initiative and the range of your bow attacks by 10%.",
       "category": "Ability"
     },
   
