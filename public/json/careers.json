@@ -168,24 +168,24 @@
     "class": "Melee DPS"
   },
   "wp101": {
-    "name": "Warrior Priest (Proposal)",
+    "name": "Warrior Priest (Direction)",
     "slug": "wp101",
     "faction": "Order",
     "race": "Empire",
     "class": "Healer"
   },
     "dokshield": {
-    "name": "Disciple of Khaine (Proposal)",
+    "name": "Disciple of Khaine (Direction)",
     "slug": "dokshield",
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Healer"
   },
     "rptrimech": {
-    "name": "",
+    "name": "Rune Priest (Proposal)",
     "slug": "rptrimech",
-    "faction": "",
-    "race": "",
-    "class": ""
+    "faction": "Order",
+    "race": "Dwarf",
+    "class": "Healer"
   }
 }
