@@ -187,5 +187,12 @@
     "faction": "Order",
     "race": "Dwarf",
     "class": "Healer"
-  }
+  },
+    "bgprop": {
+    "name": "",
+    "slug": "bgprop",
+    "faction": "",
+    "race": "",
+    "class": ""
+  },
 }
