@@ -14,7 +14,7 @@
     "class": "Tank"
   },
   "warrior-priest": {
-    "name": "Warrior Priest",
+    "name": "Warrior Priest (Not Live)",
     "slug": "warrior-priest",
     "faction": "Order",
     "race": "Empire",
@@ -42,7 +42,7 @@
     "class": "Tank"
   },
   "rune-priest": {
-    "name": "Runepriest",
+    "name": "Runepriest (Not Live)",
     "slug": "rune-priest",
     "faction": "Order",
     "race": "Dwarf",
@@ -63,7 +63,7 @@
     "class": "Healer"
   },
   "shadow-warrior": {
-    "name": "Shadow Warrior (Need Pass)",
+    "name": "Shadow Warrior (Champ: Lefze)",
     "slug": "shadow-warrior",
     "faction": "Order",
     "race": "High Elf",
@@ -77,7 +77,7 @@
     "class": "Tank"
   },
   "white-lion": {
-    "name": "White Lion (Need builder update)",
+    "name": "White Lion (Live: But needs builder)",
     "slug": "white-lion",
     "faction": "Order",
     "race": "High Elf",
@@ -133,21 +133,21 @@
     "class": "Healer"
   },
   "squig-herder": {
-    "name": "Squig Herder (Need Pass)",
+    "name": "Squig Herder (Champ:Lefze)",
     "slug": "squig-herder",
     "faction": "Destruction",
     "race": "Greenskin",
     "class": "Ranged DPS"
   },
   "black-guard": {
-    "name": "Black Guard (Need Pass)",
+    "name": "Black Guard (Champ: Jon)",
     "slug": "black-guard",
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Tank"
   },
   "disciple-of-khaine": {
-    "name": "Disciple of Khaine",
+    "name": "Disciple of Khaine (Not Live)",
     "slug": "disciple-of-khaine",
     "faction": "Destruction",
     "race": "Dark Elf",
@@ -182,7 +182,7 @@
     "class": "Healer"
   },
     "rptrimech": {
-    "name": "Rune Priest (Proposal)",
+    "name": "Rune Priest (Direction)",
     "slug": "rptrimech",
     "faction": "Order",
     "race": "Dwarf",
