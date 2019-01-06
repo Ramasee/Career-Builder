@@ -1,167 +1,167 @@
 {
   "bright-wizard": {
-    "name": "Bright Wizard (Phase 3)",
+    "name": "Bright Wizard (Need Pass)",
     "slug": "bright-wizard",
     "faction": "Order",
     "race": "Empire",
     "class": "Ranged DPS"
   },
   "knight-of-the-blazing-sun": {
-    "name": "Knight of the Blazing Sun (Phase 3)",
+    "name": "Knight of the Blazing Sun (Need Pass)",
     "slug": "knight-of-the-blazing-sun",
     "faction": "Order",
     "race": "Empire",
     "class": "Tank"
   },
   "warrior-priest": {
-    "name": "Warrior Priest (Phase 3)",
+    "name": "Warrior Priest",
     "slug": "warrior-priest",
     "faction": "Order",
     "race": "Empire",
     "class": "Healer"
   },
   "witch-hunter": {
-    "name": "Witch Hunter (Phase 3)",
+    "name": "Witch Hunter (Need Pass)",
     "slug": "witch-hunter",
     "faction": "Order",
     "race": "Empire",
     "class": "Melee DPS"
   },
   "engineer": {
-    "name": "Engineer (Phase 3)",
+    "name": "Engineer (Need Pass)",
     "slug": "engineer",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Ranged DPS"
   },
   "ironbreaker": {
-    "name": "Ironbreaker (Phase 3)",
+    "name": "Ironbreaker (Need Pass)",
     "slug": "ironbreaker",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Tank"
   },
   "rune-priest": {
-    "name": "Runepriest (Phase 3)",
+    "name": "Runepriest",
     "slug": "rune-priest",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Healer"
   },
   "slayer": {
-    "name": "Slayer (Phase 3)",
+    "name": "Slayer (Need Pass)",
     "slug": "slayer",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Melee DPS"
   },
   "archmage": {
-    "name": "Archmage (Phase 3)",
+    "name": "Archmage (Need Pass)",
     "slug": "archmage",
     "faction": "Order",
     "race": "High Elf",
     "class": "Healer"
   },
   "shadow-warrior": {
-    "name": "Shadow Warrior (Phase 3)",
+    "name": "Shadow Warrior (Need Pass)",
     "slug": "shadow-warrior",
     "faction": "Order",
     "race": "High Elf",
     "class": "Ranged DPS"
   },
   "sword-master": {
-    "name": "Sword Master (Phase 3)",
+    "name": "Sword Master (Need Pass)",
     "slug": "sword-master",
     "faction": "Order",
     "race": "High Elf",
     "class": "Tank"
   },
   "white-lion": {
-    "name": "White Lion (Phase 3)",
+    "name": "White Lion (Need builder update)",
     "slug": "white-lion",
     "faction": "Order",
     "race": "High Elf",
     "class": "Melee DPS"
   },
   "chosen": {
-    "name": "Chosen (Phase 2)",
+    "name": "Chosen (Need Pass)",
     "slug": "chosen",
     "faction": "Destruction",
     "race": "Chaos",
     "class": "Tank"
   },
   "magus": {
-    "name": "Magus (Phase 2)",
+    "name": "Magus (Need Pass)",
     "slug": "magus",
     "faction": "Destruction",
     "race": "Chaos",
     "class": "Ranged DPS"
   },
   "marauder": {
-    "name": "Marauder (Phase 2)",
+    "name": "Marauder (Need Pass)",
     "slug": "marauder",
     "faction": "Destruction",
     "race": "Chaos",
     "class": "Melee DPS"
   },
   "zealot": {
-    "name": "Zealot (Phase 2)",
+    "name": "Zealot (Need Pass)",
     "slug": "zealot",
     "faction": "Destruction",
     "race": "Chaos",
     "class": "Healer"
   },
   "black-orc": {
-    "name": "Black Orc (Phase 2)",
+    "name": "Black Orc (Need Pass)",
     "slug": "black-orc",
     "faction": "Destruction",
     "race": "Greenskin",
     "class": "Tank"
   },
   "choppa": {
-    "name": "Choppa (Phase 2)",
+    "name": "Choppa (Need Pass)",
     "slug": "choppa",
     "faction": "Destruction",
     "race": "Greenskin",
     "class": "Melee DPS"
   },
   "shaman": {
-    "name": "Shaman (Phase 2)",
+    "name": "Shaman (Need Pass)",
     "slug": "shaman",
     "faction": "Destruction",
     "race": "Greenskin",
     "class": "Healer"
   },
   "squig-herder": {
-    "name": "Squig Herder (Phase 2)",
+    "name": "Squig Herder (Need Pass)",
     "slug": "squig-herder",
     "faction": "Destruction",
     "race": "Greenskin",
     "class": "Ranged DPS"
   },
   "black-guard": {
-    "name": "Black Guard (Phase 2)",
+    "name": "Black Guard (Need Pass)",
     "slug": "black-guard",
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Tank"
   },
   "disciple-of-khaine": {
-    "name": "Disciple of Khaine (Phase 2)",
+    "name": "Disciple of Khaine",
     "slug": "disciple-of-khaine",
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Healer"
   },
   "sorcerer": {
-    "name": "Sorcerer (Phase 2)",
+    "name": "Sorcerer (Need Pass)",
     "slug": "sorcerer",
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Ranged DPS"
   },
   "witch-elf": {
-    "name": "Witch Elf (Phase 2)",
+    "name": "Witch Elf (Need Pass)",
     "slug": "witch-elf",
     "faction": "Destruction",
     "race": "Dark Elf",
