@@ -430,14 +430,14 @@
       "id": 888,
       "name": "Efficient Slaughter",
       "type": "Defensive",
-      "spec": "Core Ability",
+      "spec": "Path of Torture",
       "minrank": "31",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Hate spending abilities cost 5 less Hate to use. Monstrous Ruin will cost 15 less Hate.",
+      "description": "Hate spending abilities cost 5 less Hate to use. Monstrous Rending will cost 15 less Hate.",
       "category": "CareerTactic"
     },
   
