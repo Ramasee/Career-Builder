@@ -1029,7 +1029,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Mind Killer will now deal X physical damage every 2 seconds reduce all healing cast by the target to 50% for the duration",
+      "description": "Mind Killer will now reduce all healing cast by the target to 50% for the duration. In addition, each stack of Mind Killer will add X physical damage every 2 seconds for the 20 second duration.",
       "category": "CareerTactic"
     },
   
