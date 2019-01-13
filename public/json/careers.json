@@ -189,11 +189,11 @@
     "class": "Healer"
   },
     "bgprop": {
-    "name": "",
+    "name": "Black Guard (Proposal)",
     "slug": "bgprop",
-    "faction": "",
-    "race": "",
-    "class": ""
+    "faction": "Destruction",
+    "race": "Dark Elf",
+    "class": "Tank"
   },
     "webtb": {
     "name": "",
