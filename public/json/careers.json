@@ -201,5 +201,13 @@
     "faction": "",
     "race": "",
     "class": ""
+  },
+  
+    "hatman": {
+    "name": "",
+    "slug": "hatman",
+    "faction": "",
+    "race": "",
+    "class": ""
   }
 }
