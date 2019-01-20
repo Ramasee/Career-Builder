@@ -32,9 +32,9 @@
         "lvl1": 923,
         "lvl2": 924,
         "lvl3": 927,
-        "lvl4": 926,
+        "lvl4": 928,
         "lvl5": 925,
-        "lvl6": 928,
+        "lvl6": 926,
         "lvl7": 929
       },
       "coreAbilities": [868,864,884,878,871]
@@ -1029,7 +1029,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Mind Killer will now reduce all healing cast by the target to 50% for the duration. In addition, each stack of Mind Killer will add X physical damage every 2 seconds for the 20 second duration.",
+      "description": "Mind Killer will now reduce all healing cast by the target to 50% for the duration.",
       "category": "CareerTactic"
     },
   
