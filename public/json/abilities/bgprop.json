@@ -31,10 +31,10 @@
       "optionalAbilities": {
         "lvl1": 923,
         "lvl2": 924,
-        "lvl3": 927,
-        "lvl4": 928,
-        "lvl5": 925,
-        "lvl6": 926,
+        "lvl3": 925,
+        "lvl4": 926,
+        "lvl5": 927,
+        "lvl6": 928,
         "lvl7": 929
       },
       "coreAbilities": [868,864,884,878,871]
