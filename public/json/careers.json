@@ -140,7 +140,7 @@
     "class": "Ranged DPS"
   },
   "black-guard": {
-    "name": "Black Guard (Champ: Jon)",
+    "name": "Black Guard (Not Live)",
     "slug": "black-guard",
     "faction": "Destruction",
     "race": "Dark Elf",
@@ -189,7 +189,7 @@
     "class": "Healer"
   },
     "bgprop": {
-    "name": "Black Guard (Proposal)",
+    "name": "Black Guard (Direction)",
     "slug": "bgprop",
     "faction": "Destruction",
     "race": "Dark Elf",
