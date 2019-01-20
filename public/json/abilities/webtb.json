@@ -609,11 +609,11 @@
     "spec": "Path of Carnage",
     "minrank": "4",
     "cost": "Costs 20 AP",
-    "range": "No range",
+    "range": "5ft range",
     "incant": "Instant Cast",
-    "cooldown": "30.0s cooldown",
-    "note": "Builds 2 Blood Lust",
-    "description": "You cover your blades with a toxic concoction and slash it towards enemies 30 feet in front of you dealing X corporeal damage. For the next minute, anytime you damage these enemies there is a 25% chance that your target will take an extra Y corporeal causing them to take a (2 * rank) initiative penalty for the next 10 seconds.<br><br>Your target can only be affected by one of your kisses at a time, but can be affected by kisses from multiple Witch Elves.",
+    "cooldown": "10.0s cooldown",
+    "note": "You may only have one Kiss active.",
+    "description": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra X corporeal damage. The concoction seeps into your enemy, causing them to take a (2 * rank) initiative penalty for the next 10 seconds. You capitalize on their momentary weakness, granting you a ability bonus to initiative for the same amount during this time.",
     "category": "Ability"
   },
 
@@ -627,9 +627,9 @@
     "cost": "Costs 20 AP",
     "range": "5ft range",
     "incant": "Instant Cast",
-    "cooldown": "30.0s cooldown",
-    "note": "Builds 2 Blood Lust",
-    "description": "You cover your blades with a toxic concoction as you strike your target for X corporeal damage. For the next minute, anytime you damage this enemy there is a 25% chance that your target will take an extra Y corporeal damage and lose 20 action points. You will gain 20 action points each time this effect happens.<br><br>Your target can only be affected by one of your kisses at a time, but can be affected by kisses from multiple Witch Elves.",
+    "cooldown": "10.0s cooldown",
+    "note": "You may only have one Kiss active.",
+    "description": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra X corporeal damage. The concoction seeps into your enemy, causing them to lose 20 action points. Seeing your enemy suffer causes you to gain as many action points as they have lost.",
     "category": "Ability"
   },
 
@@ -643,11 +643,11 @@
     "cost": "Costs 20 AP",
     "range": "5ft range",
     "incant": "Instant Cast",
-    "cooldown": "30.0s cooldown",
-    "note": "Builds 2 Blood Lust",
-    "description": "You cover your blades with a toxic concoction as you strike your target for X corporeal damage. For the next minute, anytime you damage this enemy there is a 25% chance that your target will take an extra Y corporeal damage causing all healing done by them to be reduced to 50% for the next 5 seconds.",
+    "cooldown": "10.0s cooldown",
+    "note": "You may only have one Kiss active.",
+    "description": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra X corporeal damage. The concoction seeps into your enemy, causing all healing done by them to be reduced to 50% for the next 5 seconds.",
     "category": "Ability"
-  },
+},
 
   {
     "image": "22694",
