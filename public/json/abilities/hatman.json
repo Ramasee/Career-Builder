@@ -982,7 +982,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Incognito<br>Builds 2 Accusations",
-      "description": "You leap from the shadows and accuse your target of heresy. Your target will take X physical damage over 15 seconds that builds over time. Your abilities will cost 50% fewer Action Points for 10 seconds.",
+      "description": "You leap from the shadows and accuse your target of heresy. Your target will take X elemental damage over 15 seconds that builds over time. Your abilities will cost 50% fewer Action Points for 10 seconds.",
       "category": "Ability"
     },
   
