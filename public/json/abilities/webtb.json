@@ -277,7 +277,7 @@
     "incant": "Instant Cast",
     "cooldown": "1m cooldown",
     "note": "",
-    "description": "A powerful witch's brew which hastens your reactions for the next 7 seconds. Any time an enemy strikes you, you will deal X physical damage back to them.<br>You may only use a single elixir at a time.",
+    "description": "A powerful witch's brew which hastens your reactions for the next 7 seconds. Any time an enemy strikes you, you will deal X physical damage back to them and enemies within 20ft of them. This effect can only happen once every 2 seconds per target hitting you.<br>You may only use a single elixir at a time.",
     "category": "Ability"
   },
 
