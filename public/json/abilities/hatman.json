@@ -653,7 +653,7 @@
     {
       "image": "22694",
       "id": 4388,
-      "name": "Prolonged Confession",
+      "name": "No One Expects The Inquisition",
       "type": "Buff",
       "spec": "Path of Inquisition",
       "minrank": "1",
@@ -1062,7 +1062,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "A tiny enchanted mirror hung around your neck, this holy relic deals X physical damage to anyone that strikes you with a melee attack over the next 7 seconds.",
+      "description": "A tiny enchanted mirror hung around your neck, this holy relic deals X physical damage to anyone that strikes you with a melee attack over the next 7 seconds. This effect will hit enemies within 20ft of the attacking enemy and has a 2s cooldown per target attacking you.",
       "category": "Ability"
     },
   
