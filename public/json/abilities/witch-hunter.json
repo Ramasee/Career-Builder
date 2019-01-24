@@ -384,12 +384,12 @@
       "type": "Damaging",
       "spec": "Path of Judgment",
       "minrank": "1",
-      "cost": "Rank 4 morale",
+      "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 1600 damage over 10 seconds to all enemies within 30 feet and snares them, reducing their run speed by 60%.",
+      "description": "All enemies within 30 feet and snares them for 10 seconds, reducing their run speed by 40%. The cooldown on Incognito is reset.",
       "category": "Morale"
     },
   
