@@ -20,9 +20,23 @@
     "race": "Empire",
     "class": "Healer"
   },
-  "witch-hunter": {
+    "wp101": {
+    "name": "Warrior Priest (Direction)",
+    "slug": "wp101",
+    "faction": "Order",
+    "race": "Empire",
+    "class": "Healer"
+  },
+    "witch-hunter": {
     "name": "Witch Hunter (Need Pass)",
     "slug": "witch-hunter",
+    "faction": "Order",
+    "race": "Empire",
+    "class": "Melee DPS"
+  },
+    "hatman": {
+    "name": "Witch Hunter (Proposal)",
+    "slug": "hatman",
     "faction": "Order",
     "race": "Empire",
     "class": "Melee DPS"
@@ -44,6 +58,13 @@
   "rune-priest": {
     "name": "Runepriest (Not Live)",
     "slug": "rune-priest",
+    "faction": "Order",
+    "race": "Dwarf",
+    "class": "Healer"
+  },
+    "rptrimech": {
+    "name": "Rune Priest (Direction)",
+    "slug": "rptrimech",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Healer"
@@ -146,9 +167,23 @@
     "race": "Dark Elf",
     "class": "Tank"
   },
+    "bgprop": {
+    "name": "Black Guard (Direction)",
+    "slug": "bgprop",
+    "faction": "Destruction",
+    "race": "Dark Elf",
+    "class": "Tank"
+  },
   "disciple-of-khaine": {
     "name": "Disciple of Khaine (Not Live)",
     "slug": "disciple-of-khaine",
+    "faction": "Destruction",
+    "race": "Dark Elf",
+    "class": "Healer"
+  },
+    "dokshield": {
+    "name": "Disciple of Khaine (Direction)",
+    "slug": "dokshield",
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Healer"
@@ -167,47 +202,12 @@
     "race": "Dark Elf",
     "class": "Melee DPS"
   },
-  "wp101": {
-    "name": "Warrior Priest (Direction)",
-    "slug": "wp101",
-    "faction": "Order",
-    "race": "Empire",
-    "class": "Healer"
-  },
-    "dokshield": {
-    "name": "Disciple of Khaine (Direction)",
-    "slug": "dokshield",
-    "faction": "Destruction",
-    "race": "Dark Elf",
-    "class": "Healer"
-  },
-    "rptrimech": {
-    "name": "Rune Priest (Direction)",
-    "slug": "rptrimech",
-    "faction": "Order",
-    "race": "Dwarf",
-    "class": "Healer"
-  },
-    "bgprop": {
-    "name": "Black Guard (Direction)",
-    "slug": "bgprop",
-    "faction": "Destruction",
-    "race": "Dark Elf",
-    "class": "Tank"
-  },
+ 
     "webtb": {
-    "name": "",
+    "name": "Witch Elf (Proposal)",
     "slug": "webtb",
-    "faction": "",
-    "race": "",
-    "class": ""
-  },
-  
-    "hatman": {
-    "name": "",
-    "slug": "hatman",
-    "faction": "",
-    "race": "",
-    "class": ""
+    "faction": "Destruction",
+    "race": "Dark Elf",
+    "class": "Melee DPS"
   }
 }
