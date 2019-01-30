@@ -485,7 +485,7 @@
     "incant": "Passive",
     "cooldown": "No cooldown",
     "note": "",
-    "description": "Whenever you kill an enemy, you will gain 720 morale and move 30% faster for 5s. This effect cannot happen more than once every minute.",
+    "description": "Whenever you kill an enemy, the cooldown on shadow prowler will be reset. This effect cannot happen more than once every 30 seconds.",
     "category": "CareerTactic"
   },
 
@@ -704,14 +704,14 @@
     "type": "Debuff",
     "spec": "Path of Treachery",
     "minrank": "1",
-    "cost": "Rank 2 morale",
+    "cost": "Rank 4 morale",
     "range": "No range",
     "incant": "Instant Cast",
     "cooldown": "1m cooldown",
-    "note": "Requires 15 points in the Path of Treachery",
-    "description": "All enemies within 30 feet instantly lose 125 action points, and the cooldown on Shadow Prowler is reset.",
+    "note": "",
+    "description": "All enemies within 30 feet instantly lose 125 action points, and will regain action points 50% more slowly for the next 10 seconds.",
     "category": "Morale"
-  },
+},
 
   {
     "image": "23412",
