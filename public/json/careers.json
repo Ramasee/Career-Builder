@@ -209,5 +209,12 @@
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Melee DPS"
+  },
+    "shouldvebeenadps": {
+    "name": "",
+    "slug": "shouldvebeenadps",
+    "faction": "",
+    "race": "",
+    "class": ""
   }
 }
