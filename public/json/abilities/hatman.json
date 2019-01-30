@@ -1094,7 +1094,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you kill an enemy, you will gain 720 morale and have 30% increased movement speed for 5 seconds. This effect can only happen once every minute.",
+      "description": "Whenever you kill an enemy, the cooldown on incognito is reset. This effect can only happen once every 30 seconds",
       "category": "CareerTactic"
     },
   
