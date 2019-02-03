@@ -837,7 +837,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "A pounding blow to your opponent's skull that deals X physical damage. If the target is afflicted with Da Greenest, the target will be ailed and take additional Y elemental damage when Heaven's Blade procs scaling with weapon skill.",
+      "description": "A pounding blow to your opponent's skull that deals X physical damage. If the target is afflicted with Da Greenest, the target will be ailed and take additional Y elemental damage when Da Greenest procs scaling with weapon skill.",
       "category": "Ability"
     },
   
