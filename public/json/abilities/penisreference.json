@@ -980,7 +980,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Needs da' Best Plan!!<br>No Plan after dis!",
+      "note": "Requires Shield<br>Needs da' Best Plan!!<br>No Plan after dis!",
       "description": "You proclaim your size to Mork, granting a X ability bonus to wounds and +5% block to groupmates within 100 feet for 20 seconds.",
       "category": "Ability"
     },
