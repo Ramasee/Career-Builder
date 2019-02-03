@@ -19,7 +19,7 @@
         "lvl1": 2897,
         "lvl2": 2903,
         "lvl3": 2893,
-        "lvl4": 2894,
+        "lvl4": 2898,
         "lvl5": 7500,
         "lvl6": 2896,
         "lvl7": 2899
@@ -32,7 +32,7 @@
         "lvl1": 2862,
         "lvl2": 7501,
         "lvl3": 2902,
-        "lvl4": 2898,
+        "lvl4": 2894,
         "lvl5": 7503,
         "lvl6": 2905,
         "lvl7": 2906
@@ -830,7 +830,7 @@
       "id": 2894,
       "name": "Redirected Force",
       "type": "Hex",
-      "spec": "Path of Vaul",
+      "spec": "Path of Hoeth",
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "5ft range",
