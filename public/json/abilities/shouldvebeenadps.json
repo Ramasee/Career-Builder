@@ -245,7 +245,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance<br>Requires Shield",
-      "description": "A calculated shield maneuver that inflicts X physical damage to all enemies within 15ft in front of you and interrupts any spells they are casting. Additionally, for the next 20 seconds, your block rate is increased by 5% and you gain a X unique bonus to armor.",
+      "description": "A calculated shield maneuver that inflicts X physical damage to all enemies within 25ft in front of you. Additionally, for the next 20 seconds, your block rate is increased by 5% and you gain a X unique bonus to armor.",
       "category": "Ability"
     },
 
