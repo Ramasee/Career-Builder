@@ -37,7 +37,7 @@
         "lvl6": 3783,
         "lvl7": 3784
       },
-      "coreAbilities": [3739,3726,3739,3774,3733]
+      "coreAbilities": [3736,3726,3739,3774,3733]
     }
   },
   "data": [
@@ -1124,9 +1124,9 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "8.0s cooldown",
       "note": "Costs 15 Grudge",
-      "description": "Gain a (3 * rank) ability bonus to weapon skill for 10 seconds. Each time you hit an enemy, your Oath Friend will gain 25 action points as long as they're within 50 feet of you.",
+      "description": "Gain a (3 * rank) ability bonus to weapon skill for 10 seconds. Your Oath Friend will gain weapon skill as long as they're within 50 feet of you.",
       "category": "Ability"
     }
   ]
