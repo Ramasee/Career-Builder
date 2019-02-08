@@ -53,7 +53,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Improved Stance abilities now cost 35% less AP.",
+      "description": "Graceful strike will cause the target to have 25% slower auto attack speed. You will gain 25% auto attack speed for the duration.",
       "category": "CareerTactic"
     },
   
@@ -133,7 +133,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance",
-      "description": "A powerful slash that deals X spirit damage. If the target is afflicted with Heaven's Blade, the target will be hexed and take additional Y spirit damage when Heaven's Blade procs scaling with weapon skill.",
+      "description": "A powerful slash that deals X spirit damage. For the next 10 seconds, each time the target is critically hit, they take an additional Y spirit damage.",
       "category": "Ability"
     },
   
@@ -549,7 +549,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "You may have one Blade Enchantment active.",
-      "description": "You enchant your blade with the spirit of the heavens. All your melee attacks gain a 25% chance that your target will be hexed for 10s. Whenever they take critical damage, they will also be hit for X spirit damage.",
+      "description": "You enchant your blade with the spirit of the heavens. All your melee attacks gain a 25% chance that your target takes X spirit damage. The next attack against the target will automatically critically hit.",
       "category": "Ability"
     },
   
