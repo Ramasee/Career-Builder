@@ -261,7 +261,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s shared cooldown",
       "note": "Can only have 1 war bellow active.",
-      "description": "A Waaaghy bellow. All your melee attacks gain a 25% chance that your target will be ailed for 10s. Whenever they take critical damage, they will also be hit for X elemental damage.",
+      "description": "A Waaaghy bellow. All your melee attacks gain a 25% chance that your target will take X elemental damage. The next hit the target takes will automatically critically hit.",
       "category": "Ability"
     },
   
@@ -837,7 +837,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Needs da' Best Plan!!<br>No Plan after dis!",
-      "description": "A pounding blow to your opponent's skull that deals X physical damage. If the target is afflicted with Da Greenest, the target will be ailed and take additional Y elemental damage when Da Greenest procs scaling with weapon skill.",
+      "description": "A pounding blow to your opponent's skull that deals X physical damage and for the next 10 seconds their head will ring for Y corporeal damage whenever they are critically hit.",
       "category": "Ability"
     },
   
@@ -884,7 +884,7 @@
       "range": "5ft range",
       "incant": "3.0s cast",
       "cooldown": "8.0s cooldown",
-      "note": "Needs da' Best Plan!!<br>No Plan after dis!",
+      "note": "Requires Great Weapon<br>Needs da' Best Plan!!<br>No Plan after dis!",
       "description": "You swing your weapon lots, dealing X physical damage every 0.8 seconds for 3 seconds. As Da' Big Boss would say, \"Countin' is for Stuntiez.\"",
       "category": "Ability"
     },
@@ -1077,7 +1077,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "Needs da' Gud Plan!<br>Leads to da' Best Plan!!",
-      "description": "You fly into a rage for 10 seconds gaining 100% increase auto attack speed, -100% ap cost, and will be under the effect of all 3 war bellows for 10 seconds. At the end of this, you will lose your war bellow , have -50% auto attack speed, and only move at 80% movement speed for 5 seconds.",
+      "description": "You cower behind your weapon while looking for someone to pick on for 10 seconds. Your armor and resistances increase by 30% and your avoidance increases by 15%. You begin to bully targetted enemy dealing 10% more damage to them. After your cowering is over, you will only move at 80% movement speed for 5 seconds",
       "category": "Ability"
     },
   
@@ -1100,7 +1100,7 @@
     {
       "image": "22702",
       "id": 7580,
-      "name": "Youz see me blok' dat'?!",
+      "name": "Triple Trip",
       "type": "Buff",
       "spec": "Path of Da Brawler",
       "minrank": "33",
@@ -1109,7 +1109,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Right in Da Jibblies will now hit enemies within 25 feet in front of you, cost 10 more action points, and is no longer undefendable.",
+      "description": "Trip 'Em Up will now affect 2 other targets within 15ft of the primary target.",
       "category": "CareerTactic"
     }
   ]
