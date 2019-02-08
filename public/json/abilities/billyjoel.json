@@ -1124,7 +1124,7 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "8.0s cooldown",
+      "cooldown": "5.0s cooldown",
       "note": "Costs 15 Grudge",
       "description": "Gain a (3 * rank) ability bonus to weapon skill for 10 seconds. Your Oath Friend will gain weapon skill as long as they're within 50 feet of you.",
       "category": "Ability"
