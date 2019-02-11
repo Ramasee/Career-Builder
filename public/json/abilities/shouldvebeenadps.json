@@ -549,7 +549,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "You may have one Blade Enchantment active.",
-      "description": "You enchant your blade with the spirit of the heavens. All your melee attacks gain a 25% chance that your target takes X spirit damage. The next attack against the target will automatically critically hit.",
+      "description": "You enchant your blade with the spirit of the heavens. All your melee attacks gain a 25% chance that your target takes X spirit damage. For the next 5 seconds, the next hit the target receives from any source will automatically be a critical hit.",
       "category": "Ability"
     },
   
