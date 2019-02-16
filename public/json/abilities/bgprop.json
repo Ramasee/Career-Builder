@@ -181,7 +181,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "Costs 10 Hatred every 3 seconds.",
-      "description": "You focus your Hatred inward, cursing yourself for your weakness, and force yourself to march on by recovering X health every 3 seconds for up to 30 seconds. This effect will end if you run out of Hate.",
+      "description": "You focus your Hatred inward, cursing yourself for your weakness, and force your group to march on by recovering X health every 3 seconds for up to 30 seconds to all groupmates within 100 feet. This effect will end if you run out of Hate. (Value has been reduced, solo value re-added via feeding on weakness.)",
       "category": "Ability"
     },
   
