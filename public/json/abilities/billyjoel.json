@@ -3,7 +3,7 @@
     "a": {
       "name": "Path of Vengeance",
       "optionalAbilities": {
-        "lvl1": 3740,
+        "lvl1": 8001,
         "lvl2": 3765,
         "lvl3": 3742,
         "lvl4": 3767,
@@ -101,7 +101,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Costs 25 Grudge",
+      "note": "Costs 15 Grudge",
       "description": "A decisive final strike that deals X physical damage to your enemy. You will regain Y health, and your Oath Friend will be affected as well if they're within 50 feet of you.",
       "category": "Ability"
     },
@@ -751,7 +751,7 @@
       "id": 3740,
       "name": "Rising Anger",
       "type": "Buff",
-      "spec": "Path of Vengeance",
+      "spec": "Core Ability",
       "minrank": "15",
       "cost": "Tactic",
       "range": "No range",
@@ -1078,7 +1078,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each time you use Watch An' Learn, each group member within 100 feet will gain 25 action points.",
+      "description": "Each time you use Avenging the Debt, each group member within 100 feet will gain 25 action points. You will not receive these action points.",
       "category": "CareerTactic"
     },
   
@@ -1108,7 +1108,7 @@
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "Costs 20 Grudge",
       "description": "You strike your enemy for X physical damage and your target has 5 second increased cooldowns for 5 seconds.",
       "category": "Ability"
@@ -1128,6 +1128,22 @@
       "note": "Costs 15 Grudge",
       "description": "Gain a (3 * rank) ability bonus to weapon skill for 10 seconds. Your Oath Friend will gain weapon skill as long as they're within 50 feet of you.",
       "category": "Ability"
+    },
+    
+        {
+      "image": "22694",
+      "id": 8001,
+      "name": "THE BEARD OF VENGEANCE! (ph)",
+      "type": "Buff",
+      "spec": "Path of Vengeance",
+      "minrank": "29",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Each time you hit an enemy with Rune-Etched Axe, Vengeful Strike, or Grudge Born Fury they will take an additional X physical damage over 5 seconds. This effect can stack 5x.",
+      "category": "CareerTactic"
     }
   ]
 }
