@@ -35,7 +35,7 @@
     "class": "Melee DPS"
   },
     "hatman": {
-    "name": "Witch Hunter (Proposal)",
+    "name": "Witch Hunter (Direction)",
     "slug": "hatman",
     "faction": "Order",
     "race": "Empire",
@@ -204,21 +204,21 @@
   },
  
     "webtb": {
-    "name": "Witch Elf (Proposal)",
+    "name": "Witch Elf (Direction)",
     "slug": "webtb",
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Melee DPS"
   },
     "shouldvebeenadps": {
-    "name": "",
+    "name": "Swordmaster (Direction)",
     "slug": "shouldvebeenadps",
     "faction": "",
     "race": "",
     "class": ""
   },
    "penisreference": {
-    "name": "",
+    "name": "Black Orc (Direction)",
     "slug": "penisreference",
     "faction": "",
     "race": "",
