@@ -33,7 +33,7 @@
         "lvl2": 924,
         "lvl3": 925,
         "lvl4": 926,
-        "lvl5": 927,
+        "lvl5": 889,
         "lvl6": 928,
         "lvl7": 929
       },
@@ -532,8 +532,8 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
-      "note": "",
-      "description": "The pathetic display of fighting skill shown by your opponent instills an even greater urge to destroy them. You lash out for X physical damage and grants you a (3 * rank) ability bonus to toughness for 20 seconds and will recover health based on your Hate and damage inflicted.<br>Your Dark Protector will regain health and receive increased toughness if they are within 50 feet. <br> With 30 Hate: Recovers 25% of damage inflicted.<br> With 60 Hate: Recovers 50% of damage inflicted. <br> With 90 Hate: Recovers 75% of damage inflicted.",
+      "note": "Costs 15 Hate",
+      "description": "The pathetic display of fighting skill shown by your opponent instills an even greater urge to destroy them. You lash out for X physical damage and and will recover X health.<br>Your Dark Protector will regain health and if they are within 50 feet.",
       "category": "Ability"
     },
   
@@ -766,14 +766,14 @@
       "id": 889,
       "name": "Malekith's Bulwark",
       "type": "Defensive",
-      "spec": "Core Ability",
+      "spec": "Path of Anguish",
       "minrank": "33",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduces all magical damage that you take to 75%, but also reduces all healing used on you by 15%.",
+      "description": "Whenever you use Furious Howl, groupmates within 100 feet will have magical damage they rake reduced to 90% for 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -983,22 +983,6 @@
       "note": "Requires Shield",
       "description": "For the next 10 seconds, your chance to block is almost guaranteed.",
       "category": "Morale"
-    },
-  
-    {
-      "image": "22694",
-      "id": 927,
-      "name": "Shielding Anger",
-      "type": "Defensive",
-      "spec": "Path of Anguish",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Your chance to disrupt is increased by 3% per 10 Hatred.",
-      "category": "CareerTactic"
     },
   
     {
