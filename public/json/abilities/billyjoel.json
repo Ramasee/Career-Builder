@@ -237,7 +237,7 @@
     {
       "image": "23173",
       "id": 3759,
-      "name": "Distracting Bellow",
+      "name": "Piano Man",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "24",
@@ -246,7 +246,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "A loud shout that startles your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
+      "description": "The sounds of your piano playing distract your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
       "category": "Morale"
     },
   
