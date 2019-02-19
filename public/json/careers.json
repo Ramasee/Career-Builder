@@ -213,22 +213,22 @@
     "shouldvebeenadps": {
     "name": "Swordmaster (Direction)",
     "slug": "shouldvebeenadps",
-    "faction": "",
-    "race": "",
-    "class": ""
+    "faction": "Order",
+    "race": "High Elf",
+    "class": "Tank"
   },
    "penisreference": {
     "name": "Black Orc (Direction)",
     "slug": "penisreference",
-    "faction": "",
-    "race": "",
-    "class": ""
+    "faction": "Destruction",
+    "race": "Greenskin",
+    "class": "Tank"
   },
    "billyjoel": {
     "name": "Ironbreaker (Proposal)",
     "slug": "billyjoel",
-    "faction": "",
-    "race": "",
-    "class": ""
+    "faction": "Order",
+    "race": "Dwarf",
+    "class": "Tank"
   }
 }
