@@ -1121,7 +1121,7 @@
       "spec": "Path of Hoeth",
       "minrank": "1",
       "cost": "Costs 35 AP",
-      "range": "5ft range",
+      "range": "50ft range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Leads to Improved Balance",
