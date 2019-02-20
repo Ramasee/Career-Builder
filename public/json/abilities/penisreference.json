@@ -817,7 +817,7 @@
       "spec": "Path of Da Boss",
       "minrank": "40",
       "cost": "No AP Cost",
-      "range": "5ft range",
+      "range": "50ft range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Leads to da' Gud Plan!",
