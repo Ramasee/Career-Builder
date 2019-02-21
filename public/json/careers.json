@@ -98,7 +98,7 @@
     "class": "Tank"
   },
   "white-lion": {
-    "name": "White Lion (Live: But needs builder)",
+    "name": "White Lion",
     "slug": "white-lion",
     "faction": "Order",
     "race": "High Elf",
