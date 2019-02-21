@@ -4,7 +4,7 @@
       "name": "Path of The Hunter",
       "popover": {
         "primary": "A mastery path focused on hindering your enemies.",
-        "secondary": "Each point in Path of The Hunter grants 10 initiative, 8 strength, 7 toughness, and 10 wounds to your War Lion."
+        "secondary": "Points in Path of the Hunter grants 8 initiative, 10 toughness and  17 wounds to your lion."
       },
       "optionalAbilities": {
         "lvl1": 4283,
@@ -21,7 +21,7 @@
       "name": "Path of The Axeman",
       "popover": {
         "primary": "A mastery path focused on dealing damage to one enemy with the help of your lion.",
-        "secondary": "Each point in Path of The Axeman grants 12 strength, 5 toughness, and 18 weapon skill to your War lion."
+        "secondary": "Points in Path of the Axeman grants 12 strength, 18 weapon skill, and 5 toughness to your lion."
       },
       "optionalAbilities": {
         "lvl1": 4276,
@@ -38,7 +38,7 @@
       "name": "Path of The Guardsman",
       "popover": {
         "primary": "A mastery path focused on dealing damage to multiple enemies.",
-        "secondary": "Each point in Path of The Guardsman grants 8 initiative, 12 toughness, and 20 wounds to your War lion."
+        "secondary": "Points in Path of the Axeman grants 20 strength, 8 initiative, 12 toughness, and 20 wounds to your lion."
       },
       "optionalAbilities": {
         "lvl1": 4292,
@@ -72,8 +72,8 @@
     {
       "image": "22701",
       "id": 4294,
-      "name": "Spirit Stike",
-      "type": "Buff",
+      "name": "Spirit Strike",
+      "type": "Damaging",
       "spec": "Path of The Guardsman",
       "minrank": "1",
       "cost": "Tactic",
@@ -81,7 +81,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your Path of Guardsman abilities bypass 50% spirit resistance.",
+      "description": "All of your abilities in the Path of the Guardsman bypass 50% armor or spirit resistance.",
       "category": "CareerTactic"
     },
   
@@ -92,12 +92,12 @@
       "type": "Blessing",
       "spec": "Path of The Guardsman",
       "minrank": "7",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "An attack which momentarily distracts your enemy, dealing (38 + 5/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage to them. Your selected groupmate, or War Lion if you do not have one, will cause 25% less hatred in all enemy monsters for 5 seconds.",
+      "description": "An attack which momentarily distracts your enemy, dealing (38 + 5/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage to them. Your targeted groupmate, or your War Lion if you do not have one, will cause 25% less hatred in all enemy monsters for 5 seconds.",
       "category": "Ability"
     },
   
@@ -113,7 +113,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gain a 252 unique bonus to elemental resistance.",
+      "description": "You gain a 252 unique bonus to Elemental Resistance.",
       "category": "CareerTactic"
     },
   
@@ -126,7 +126,7 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 1800 damage to all enemies within 30 feet of you",
@@ -140,12 +140,12 @@
       "type": "Curse",
       "spec": "Path of The Hunter",
       "minrank": "2",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 40 AP",
       "range": "5ft range",
-      "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
-      "note": "Must be at your target's side or rear",
-      "description": "You attack your enemy at a vulnerable spot, dealing (38 + 5/3 * rank) + (0.15 * STR) + (1.5 * DPS) physical damage immediately and inflicting them with an ailment which deals an additional (40 + 5 * rank) + (0.3 * STR) physical damage over 9 seconds.",
+      "incant": "Instant cast",
+      "cooldown": "10s cooldown",
+      "note": "",
+      "description": "You attack your enemy at a vulnerable spot, dealing (38 + 5/3 * rank) + (0.15 * STR) + (1.5 * DPS) physical damage immediately and inflicting them with a curse which deals an additional (40 + 5 * rank) + (0.3 * STR) physical damage over 9 seconds.",
       "category": "Ability"
     },
   
@@ -174,7 +174,7 @@
       "minrank": "24",
       "cost": "Rank 3 morale",
       "range": "No range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
@@ -182,18 +182,18 @@
     },
   
     {
-      "image": "13443",
+      "image": "13458",
       "id": 4293,
-      "name": "Echoing Challenge",
+      "name": "Greataxe Slam",
       "type": "Damaging",
       "spec": "Path of The Guardsman",
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "No range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Trained Traditionally",
-      "description": "Deals X physical damage to all enemies with 25ft knocking them down for 2 seconds.",
+      "description": "You slam your axe into the ground, generating a wave of force which knocks down all enemies 25 feet in front of you for 2 seconds, and inflicts x physical damage",
       "category": "Ability"
     },
   
@@ -209,7 +209,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gain a 160 unique bonus to strength.",
+      "description": "You gain a 160 unique bonus to Strength.",
       "category": "CareerTactic"
     },
   
@@ -222,7 +222,7 @@
       "minrank": "10",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "2m cooldown",
       "note": "",
       "description": "You bolster yourself for 10 seconds, allowing you to bypass the defenses of an enemy keep's postern door, porting you inside.",
@@ -240,8 +240,8 @@
       "range": "No range",
       "incant": "1.0s cast",
       "cooldown": "15.0s cooldown",
-      "note": "You cannot use this ability while Trained Traditionally",
-      "description": "You call your tamed War Lion to come forth and fight with you.<br>You may only have a single War Lion at a time. Your War Lion's strength and wounds are increased by 50% of your strength and wounds from items. ",
+      "note": "",
+      "description": "You call your tamed War Lion to come forth and fight with you.<br>You may only have a single War Lion at a time.",
       "category": "Ability"
     },
   
@@ -273,7 +273,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional 252 spirit damage over 3 seconds.",
+      "description": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional 252 Spirit damage over 3 seconds.",
       "category": "CareerTactic"
     },
   
@@ -286,10 +286,10 @@
       "minrank": "10",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You and your War Lion charge into the thick of battle, increasing your movement speed by 50% for 7 seconds. If you or your War Lion use any abilities, this effect will immediately end.",
+      "description": "You and your War Lion charge into the thick of battle, increasing your movement speed by 50 for 7 seconds. If you or your War Lion use any abilities, this effect will immediately end.",
       "category": "Ability"
     },
   
@@ -300,12 +300,12 @@
       "type": "Curse",
       "spec": "Path of The Hunter",
       "minrank": "12",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A sundering blow which deals (38 + 5/3 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage and inflicts your victim with an ailment which reduces their movement speed by 40% for 5 seconds.",
+      "description": "A sundering blow which deals (38 + 5/3 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage and inflicts your victim with a curse which reduces their movement speed by 40% for 5 seconds.",
       "category": "Ability"
     },
   
@@ -321,7 +321,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You gain an additional 50 morale every 5 seconds as long as you have an active War Lion. If your War Lion ever dies, however, you will lose 600 morale.",
+      "description": "You gain an additional 50 Morale every 5 seconds as long as you have an active War Lion. If your War Lion ever dies, however, you will lose 600 Morale.",
       "category": "CareerTactic"
     },
   
@@ -334,10 +334,10 @@
       "minrank": "16",
       "cost": "Rank 1 morale",
       "range": "No range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Concentrating on your perceived movements, you will be able to dodge and parry all attacks against you for 7 seconds.",
+      "description": "Concentrating on your perceived movements, you will be able to Dodge and Parry all attacks against you for 7 seconds.",
       "category": "Morale"
     },
   
@@ -350,10 +350,10 @@
       "minrank": "4",
       "cost": "Costs 45 AP",
       "range": "5ft range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You and your War Lion attack as a pack, ravaging your enemies. You strike your target for (10 + 5/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage, and your pet strikes its target for (10 + 5/3 * rank) + (0.3 * STR) physical damage. If you are within 35 feet of your pet's target, you will also strike that enemy, and likewise, if your pet is within 35 feet of your target, it will also strike your enemy as well.",
+      "description": "You and your War Lion attack as a pack, ravaging your enemies. You strike your target for (10 + 5/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage, and your pet strikes its target for increased physical damage. If you are within 35 feet of your pet's target, you will also strike that enemy for x physical damage, and likewise, if your pet is within 35 feet of your target, it will also strike your enemy for increased physical damage as well.",
       "category": "Ability"
     },
   
@@ -366,10 +366,10 @@
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "10.0s cooldown",
       "note": "Target must be below 50% health<br>",
-      "description": "A ruthless attack which deals (49 + 25/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage and will almost always deal critical damage to a wounded foe.",
+      "description": "A ruthless attack which deals (49 + 25/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage and will almost always deal critical damage.",
       "category": "Ability"
     },
   
@@ -398,7 +398,7 @@
       "minrank": "36",
       "cost": "Rank 3 morale",
       "range": "5ft range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 1800 damage to your target, and heals you for 50% of the damage done.",
@@ -414,10 +414,10 @@
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "No range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You unleash a blasting shout, interrupting any enemies 40 feet in front of you.",
+      "description": "You unleash a blasting shout, interrupting any enemies 30 feet of you and inflict a curse which causes x spirit damage over 10 seconds to all affected enemies.",
       "category": "Ability"
     },
   
@@ -430,7 +430,7 @@
       "minrank": "28",
       "cost": "Rank 1 morale",
       "range": "65ft range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 900 damage to your target, and roots them in place for 10 seconds.",
@@ -446,7 +446,7 @@
       "minrank": "18",
       "cost": "Costs 45 AP",
       "range": "No range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Your training and Elven grace allows you to remove all roots and snares from yourself and your War Lion. For the next 10 seconds, roots and snares will have no effect on you or your War Lion.",
@@ -462,7 +462,7 @@
       "minrank": "40",
       "cost": "Costs 35 AP",
       "range": "65ft range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "30.0s cooldown",
       "note": "Requires an active pet",
       "description": "You command your War Lion to toss its target through the air, knocking them closer to you.",
@@ -478,10 +478,10 @@
       "minrank": "25",
       "cost": "Costs 40 AP",
       "range": "5ft range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You invoke a minor bit of Elven power and attack your target with a befuddling strike, dealing (30 + 5 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage. The enemies attack speed is reduced by 20% for the next 10 seconds. Enemy monsters will become confused and will believe that your War Lion, or targeted groupmate if you do not have one, struck the blow.",
+      "description": "You invoke a minor bit of Elven power and attack your target with a befuddling strike, dealing (30 + 5 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage. The enemies attack speed is reduced by 20% for the next 10 seconds. Enemy monsters will become confused and will believe that your selected groupmate, or your War Lion if you do not have one, struck the blow.",
       "category": "Ability"
     },
   
@@ -526,10 +526,10 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
   
@@ -542,7 +542,7 @@
       "minrank": "32",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 1200 damage over 9s to all enemies in front of you, up to 65 feet away.",
@@ -558,10 +558,10 @@
       "minrank": "12",
       "cost": "Rank 2 morale",
       "range": "5ft range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You stare down your opponent, draining 200 of their action points into yourself, and causing them to take a 160 morale penalty to strength for 30 seconds.",
+      "description": "You stare down your opponent, draining 200 of their Action Points into yourself, and reducing their Strength by 160 for 30 seconds.",
       "category": "Morale"
     },
   
@@ -574,10 +574,10 @@
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You strike at your enemy with a brutal attack which causes (28 + 4 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage and can not be defended against. The victim's armor is reduced by (40 * rank) for the next 10s.",
+      "description": "You strike at your enemy with a brutal attack which causes (28 + 4 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage and can not be defended against. The victim takes a (40 * rank) ability penalty to armor for 10s.",
       "category": "Ability"
     },
   
@@ -590,7 +590,7 @@
       "minrank": "40",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds.",
@@ -598,10 +598,10 @@
     },
   
     {
-      "image": "22701",
+      "image": "22694",
       "id": 4292,
       "name": "Deafening Roar",
-      "type": "Curse",
+      "type": "Buff",
       "spec": "Path of The Guardsman",
       "minrank": "1",
       "cost": "Tactic",
@@ -609,7 +609,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Echoing Roar will now deal X spirit damage to all targets over Ys.",
+      "description": "Echoing Roar will now deal X spirit damage to all targets over 10seconds.",
       "category": "CareerTactic"
     },
   
@@ -622,10 +622,10 @@
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A brutal chop at your enemy which deals (38 + 5/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage.",
+      "description": "A brutal chop at your enemy which deals (38 + 5/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage and an additional x physical damage over 10 seconds This effect stacks up to 3 times.",
       "category": "Ability"
     },
   
@@ -633,7 +633,7 @@
       "image": "22702",
       "id": 4280,
       "name": "Merciless Blows",
-      "type": "Enchantment",
+      "type": "Damaging",
       "spec": "Path of The Hunter",
       "minrank": "1",
       "cost": "Tactic",
@@ -641,7 +641,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Shattering Blows will now cause you to gain a (rank * 4) unique bonus to toughness for 10s.",
+      "description": "Shattering Blows will now cause you to gain a (rank * 4) tactic bonus to toughness for 10s.",
       "category": "CareerTactic"
     },
   
@@ -657,7 +657,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 corporeal damage over 9 seconds.",
+      "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 Corporeal damage over 9 seconds.",
       "category": "CareerTactic"
     },
   
@@ -670,10 +670,10 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Your War Lion is fully healed, and all group members within 100 feet instantly gain 250 action points.",
+      "description": "Your War Lion is fully healed, and all group members within 100 feet instantly gain 250 Action Points.",
       "category": "Morale"
     },
   
@@ -686,15 +686,15 @@
       "minrank": "1",
       "cost": "Costs 40 AP",
       "range": "100ft range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "30.0s cooldown",
       "note": "Requires an active pet.",
-      "description": "At your command, your War Lion goes berserk with a killing frenzy! All root, snare, and stun effects are removed from your pet, and it becomes immune to them for the next 10 seconds. During this time, your pet will deal an additional (20 + 10/3 * rank) + (0.3 * STR) physical damage every time it strikes an enemy.<br>Damage can only trigger once every second.",
+      "description": "At your command, your War Lion goes berserk with a killing frenzy! All root, snare, and stun effects are removed from your pet, and it becomes immune to them for the next 10 seconds. During this time, your pet will deal an additional physical damage every time it strikes an enemy.<br>Damage can only trigger once every 2 second.",
       "category": "Ability"
     },
   
     {
-      "image": "22694",
+      "image": "22713",
       "id": 4276,
       "name": "Lionheart",
       "type": "Buff",
@@ -718,10 +718,10 @@
       "minrank": "8",
       "cost": "Costs 35 AP",
       "range": "5ft range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "5.0s cooldown",
       "note": "Target must be Cursed",
-      "description": "You draw upon your mystical Elven heritage and furiously attack your target, dealing (28 + 4 * rank) + (0.3 * STR) + (1.5 DPS) spirit damage.",
+      "description": "You draw upon your mystical Elven heritage and furiously attack your target, dealing (28 + 4 * rank) + (0.3 * STR) + (1.5 DPS) Spirit damage.",
       "category": "Ability"
     },
   
@@ -750,7 +750,7 @@
       "minrank": "5",
       "cost": "Costs 30 AP",
       "range": "150ft range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your War Lion regains 785 health over 15 seconds.",
@@ -766,7 +766,7 @@
       "minrank": "20",
       "cost": "Costs 30 AP",
       "range": "5ft range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "10.0s cooldown",
       "note": "",
       "description": "A feral attack which deals (20 + 10/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage and inspires your groupmates to hunt as a pack. Within the next 5 seconds, each group member within 100 feet will deal an additional (17 + 10/3 * rank) physical damage with their next attack.",
@@ -776,7 +776,7 @@
     {
       "image": "22701",
       "id": 4278,
-      "name": "Pack Hunting",
+      "name": "Practised Swing",
       "type": "Buff",
       "spec": "Path of The Axeman",
       "minrank": "1",
@@ -800,8 +800,8 @@
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
-      "note": "Requires an active pet or Trained Traditionally",
-      "description": "Increases the additional damage dealt when either you or your pet critically hits by 50%.",
+      "note": "",
+      "description": "You hone the edge of your axe to a keen sharpness, causing all of your critical hits to deal an additional 50% bonus damage",
       "category": "CareerTactic"
     },
   
@@ -814,23 +814,23 @@
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "65ft range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "10.0s cooldown",
-      "note": "You cannot use this ability while airborne<br>You cannot perform this action while rooted<br>You cannot perform this action while stunned<br>Requires Trained to Hunt or Kill",
-      "description": "You pounce forwards, leaping towards your target. When you land, you will inflict (20 + 10/3 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage, and your movement speed will be increased by 35% for 3 seconds.",
+      "note": "You cannot perform this action while rooted<br>You cannot perform this action while stunned",
+      "description": "You pounce forwards, leaping towards your target and causing (20 + 10/3 * rank) + (0.3 * STR) + (1.5 * DPS) physical damage when you land. Your movement speed will be subsequently increased by 35% for 3 seconds. This speed increase will be dismissed if you use any ability. This ability cannot be used while you are in the air or Trained Traditionally",
       "category": "Ability"
     },
   
     {
-      "image": "13442",
+      "image": "abi_he_dominance",
       "id": 4284,
-      "name": "Primal Fury",
+      "name": "Intense Focus",
       "type": "Blessing",
       "spec": "Path of The Axeman",
       "minrank": "1",
-      "cost": "Costs 45 AP",
+      "cost": "Costs 40 AP",
       "range": "No range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "For the next 10 seconds, you will deal 25% more damage.",
@@ -846,7 +846,7 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "For the next 10 seconds, all of your abilities will cool down immediately and not cost any action points. This will also affect your War Lion as well.",
@@ -862,10 +862,10 @@
       "minrank": "20",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "A prolonged fervor that grants 10 action points a second to everyone in your group within 100 feet of you for 10 seconds.",
+      "description": "A prolonged fervor that grants 10 Action Points a second to everyone in your group within 100 feet of you for 10 seconds.",
       "category": "Morale"
     },
   
@@ -897,7 +897,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each time you parry an enemy's attack, you will strike them back for X physical damage which they can not prevent.",
+      "description": "Each time you parry an enemy's attack, you will strike them back for 246 damage which they can not prevent.",
       "category": "CareerTactic"
     },
   
@@ -910,7 +910,7 @@
       "minrank": "8",
       "cost": "Rank 1 morale",
       "range": "5ft range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "1m cooldown",
       "note": "",
       "description": "A directed strike that inflicts 1200 damage to your target.",
@@ -926,10 +926,10 @@
       "minrank": "14",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
       "note": "",
-      "description": "A powerful attack which shatters your enemy's bones, inflicting a curse which deals (25 + 6 * rank) + (0.6 * STR) physical damage over 9 seconds. Your target will also lose (3 * rank) strength for 9s.",
+      "description": "A powerful attack which shatters your enemy's bones, inflicting a Curse which deals (25 + 6 * rank) + (0.6 * STR) physical damage over 10 seconds and reducing their strength by (3 * rank)",
       "category": "Ability"
     },
   
@@ -942,7 +942,7 @@
       "minrank": "30",
       "cost": "Costs 35 AP",
       "range": "No range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "A broad sweep of your axe which deals (20 + 10/3 * rank) + (0.17 * STR) + (1.5 DPS) physical damage to all enemies in front of you, up to 25 feet away.",
@@ -966,10 +966,10 @@
     },
   
     {
-      "image": "22708",
+      "image": "22703",
       "id": 4290,
       "name": "Hack Them Down",
-      "type": "Curse",
+      "type": "Damaging",
       "spec": "Path of The Guardsman",
       "minrank": "1",
       "cost": "Tactic",
@@ -990,10 +990,10 @@
       "minrank": "10",
       "cost": "Costs 50 AP",
       "range": "No range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You cower submissively, causing all enemies within 30 feet to hate you less and deal only 50% damage to you for 5 seconds. For the next 5 seconds, you will cause 25% less hate in all enemy monsters.<br>If you attack anyone that you've detaunted, the effect will immediately fade from them.",
+      "description": "You cower submissively, causing all enemies within 30 feet to hate you less and deal only 50% damage to you for 5 seconds. For the next 5 seconds, you will cause 25% less hate in all enemy monsters.<br>If you attack anyone that you've Detaunted, the effect will immediately fade from them.",
       "category": "Ability"
     },
   
@@ -1006,10 +1006,10 @@
       "minrank": "6",
       "cost": "Costs 35 AP",
       "range": "5ft range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A powerful axe chop which deals (20 + 10/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage. If you are behind the enemy, then this attack will ignore (-7 + 25* rank) armor.",
+      "description": "A powerful axe chop which deals (20 + 10/3 * rank) + (0.3 * STR) + (1.5 DPS) physical damage.<br><br>If you are behind the enemy, then this attack will ignore (-7 + 25* rank) armor.",
       "category": "Ability"
     },
   
@@ -1025,7 +1025,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Slashing Blade and Sundering Chop will now cause an additional X physical damage over 3 seconds.",
+      "description": "Slashing Blade and Sundering Chop will now cause an additional 258 damage over 3 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1038,15 +1038,15 @@
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "10.0s cooldown",
-      "note": "Must be at your target's side or rear",
-      "description": "You call forth a small bit of power as you attack your enemy, dealing (28 + 4 * rank) + (0.3 * STR) + (1.5 DPS) physical damage and causing all healing that they use within the next 10 seconds to become 50% as effective.",
+      "note": "",
+      "description": "You call forth a surge of power as you attack your enemy, dealing (28 + 4 * rank) + (0.3 * STR) + (1.5 DPS) physical damage and causing all healing that they use within the next 10 seconds to become 50% as effective.",
       "category": "Ability"
     },
   
     {
-      "image": "22708",
+      "image": "22703",
       "id": 4285,
       "name": "Kurnous's Chosen",
       "type": "Buff",
@@ -1057,7 +1057,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Fey Illusion will now cause your target to take a (3 * rank) ability penalty to willpower and intelligence.",
+      "description": "Fey Illusion will now cause your target to take a (3 * rank) tactic penalty to intelligence and willpower for 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1070,10 +1070,10 @@
       "minrank": "35",
       "cost": "Costs 20 AP",
       "range": "150ft range",
-      "incant": "Instant Cast",
+      "incant": "Instant cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires an active pet",
-      "description": "You command your pet to go for the throat! Your War Lion's next attack within 20 seconds will deal an additional (20 + 10/3 * rank) + (0.3 * STR) physical damage and will silence its victim, making them unable to use magic for 4 seconds.",
+      "description": "You command your pet to go for the throat! Your War Lion's next attack within 20 seconds will deal an additional physical damage and will silence its victim, making them unable to use magic for 4 seconds.",
       "category": "Ability"
     },
   
@@ -1084,12 +1084,12 @@
       "type": "Buff",
       "spec": "Path of The Hunter",
       "minrank": "16",
-      "cost": "No AP Cost",
+      "cost": "No Cost",
       "range": "No range",
       "incant": "5.0s cast",
-      "cooldown": "No cooldown",
-      "note": "Can only have one training active",
-      "description": "You train your pet to hunt with you, increasing its toughness and wounds by 50% of your bonus gained from items. 50% of the threat you generate goes to your war lion. Any time you strike an enemy, there is a 10% chance that you and your War Lion will be healed for 100% of the damage dealt over 5 seconds. This effect will stack on a new application, but will never heal more than 3% of your maximum health per tick.<br><br>Your War Lion will gain the ability to reduce enemy movement speed, reduce enemy toughness, and the ability to reduce several enemies' autoattack speeds.",
+      "cooldown": "5.0s cooldown",
+      "note": "Grants Trained to Hunt",
+      "description": "You train your pet to hunt with you, increasing its toughness and wounds by 50% of your bonus gained from items. You generate 50% less hatred in monsters. Any time you deal damage to an enemy, there is a 10% chance that you will be healed over 10 seconds. This effect can stack up to 10 times.<br><br>Your War Lion will gain the ability to reduce enemy movement speed, reduce enemy toughness, and the ability to reduce several enemies' autoattack speeds.",
       "category": "Ability"
     },
   
@@ -1103,14 +1103,14 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "5.0s cast",
-      "cooldown": "No cooldown",
-      "note": "Can only have one training active.",
-      "description": "You train your pet to fight ferociously, increasing its weapon skill by 100% of your bonus gained from items and increasing your Critical Chance by 5%. Your War Lion generates 25% less hatred.<br><br>Your War Lion will gain the ability to strike its enemies with a powerful mauling attack, the ability to attack its target repeatedly, and the ability to deal damage over time.",
+      "cooldown": "5.0s cooldown",
+      "note": "Grants Trained to Kill.",
+      "description": "You train your pet to fight ferociously, increasing its Weapon Skill by 100% of your bonus gained from items. Your critical chance is increased by 5% and your War Lion generates 25% less hatred in monsters.<br><br>Your War Lion will gain the ability to strike its enemies with a powerful mauling attack, the ability to attack its target repeatedly, and the ability to deal damage over time.",
       "category": "Ability"
     },
   
     {
-      "image": "13444",
+      "image": "abi_he_embodimentofminaith",
       "id": 4234,
       "name": "Trained Traditionally",
       "type": "Buff",
@@ -1119,9 +1119,9 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "5.0s cast",
-      "cooldown": "No cooldown",
-      "note": "Can only have one training active.<br>Does not stack with loner.",
-      "description": "You are trained in the traditional arts of protecting the Phoenix King. You may not summon a War Lion, your superior training improves your damage by 25%, and your connection to the Phoenix King causes all of your Path of The Guardsman abilites to deal spirit damage.",
+      "cooldown": "5.0s cooldown",
+      "note": "Grants Trained Traditionally.",
+      "description": "You are trained in the traditional arts of protecting the Pheonix King. You may not summon a white lion, you may not pounce, your superior training increases all damage you deal by 25%, and your connection to the Pheonix King causes all of your Path of Guardsman abilities to deal spirit damage.",
       "category": "Ability"
     },
   
@@ -1144,48 +1144,48 @@
     {
       "image": "13446",
       "id": 7800,
-      "name": "Debilitative Command",
+      "name": "Brutal Pounce",
       "type": "Damaging",
       "spec": "Path of The Hunter",
       "minrank": "1",
-      "cost": "Costs 40 AP",
-      "range": "No range",
-      "incant": "Instant Cost",
+      "cost": "Costs 30 AP",
+      "range": "150 ft range",
+      "incant": "Instant cast",
       "cooldown": "5min cooldown",
-      "note": "Requires active pet",
-      "description": "You command your War Lion to perform a mauling attack deal X physical damage. If your lion is Trained to Hunt, it will knock the target down for 3s. If your lion is Trained to Kill, it will disarm your opponent for 4s.",
+      "note": "Requires an active pet",
+      "description": "You command your pet to attack without mercy! Your War Lion's next attack within 20 seconds will deal an additional X physical damage and will knock down its victim for 3 seconds.",
       "category": "Ability"
     },
 
     {
-      "image": "13462",
+      "image": "abi_he_bite",
       "id": 7801,
       "name": "Kill Command",
       "type": "Damaging",
       "spec": "Path of The Axeman",
       "minrank": "1",
       "cost": "Costs 40 AP",
-      "range": "No range",
-      "incant": "Instant Cost",
+      "range": "150 ft range",
+      "incant": "Instant cast",
       "cooldown": "5min cooldown",
-      "note": "Requires active pet",
+      "note": "Requires an active pet",
       "description": "You command your War Lion to attack the opponents weakest area. Your War Lion will deal X physical damage to the target. This effect will ignore all armor and always critically strikes.",
       "category": "Ability"
     },
     
         {
-      "image": "13366",
+      "image": "abi_he_clawsweep",
       "id": 7802,
       "name": "Slash Command",
       "type": "Damaging",
       "spec": "Path of The Guardsman",
       "minrank": "1",
-      "cost": "Costs 40 AP",
-      "range": "No range",
-      "incant": "Instant Cost",
-      "cooldown": "5.0s cooldown",
-      "note": "Requires active pet",
-      "description": "You command your War Lion to swipe in front of it deal x physical damage to all enemies within 25ft in front of your lion.",
+      "cost": "Costs 20 AP",
+      "range": "150 ft range",
+      "incant": "Instant cast",
+      "cooldown": "10.0s cooldown",
+      "note": "Requires an active pet",
+      "description": "You command your War Lion to swipe in front of it dealing physical damage to all targets within 25ft.",
       "category": "Ability"
     },
 
@@ -1198,10 +1198,10 @@
       "minrank": "1",
       "cost": "Costs 45 AP",
       "range": "No range",
-      "incant": "Instant Cost",
+      "incant": "Instant cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You cleave your enemies within 30 feet dealing (60 + 9 * rank) + (0.4 * STR) physical damage over 9s. Your targets take a (rank * 2) ability penalty to initiative and weapon skill.",
+      "description": "With a swing of your axe, you project a wave of ethereal energy forward, inflicting all enemies 40 feet in front of you with a curse which inflicts (60 + 9 * rank) + (0.4 * STR) spirit damage over 10s and reduces their initiative by (rank * 2) and weapon skill by (rank * 3).",
       "category": "Ability"
     }
   ]
