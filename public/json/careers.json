@@ -230,5 +230,12 @@
     "faction": "Order",
     "race": "Dwarf",
     "class": "Tank"
+  },
+   "woodchuck": {
+    "name": "",
+    "slug": "woodchuck",
+    "faction": "",
+    "race": "",
+    "class": ""
   }
 }
