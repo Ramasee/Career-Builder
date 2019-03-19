@@ -726,7 +726,7 @@
       "incant": "Instant Cast",
       "cooldown": "25.0s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "For the next 10 seconds, you gain 20% parry strikethrough and you gain a unique bonus to wounds equal to 300% of your bonus from items. You will not gain health equal to the wounds increased.",
+      "description": "Deals X physical damage. For the next 10 seconds, you gain 20% parry strikethrough and you gain a unique bonus to wounds equal to 300% of your bonus from items. You will not gain health equal to the wounds increased.",
       "category": "Ability"
     },
 
