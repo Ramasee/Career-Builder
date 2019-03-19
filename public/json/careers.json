@@ -237,5 +237,12 @@
     "faction": "",
     "race": "",
     "class": ""
+  },
+   "lostmyclothes": {
+    "name": "",
+    "slug": "lostmyclothes",
+    "faction": "",
+    "race": "",
+    "class": ""
   }
 }
