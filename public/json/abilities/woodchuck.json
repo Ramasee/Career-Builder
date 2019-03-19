@@ -981,7 +981,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When you do critical damage, your target takes a (4 * rank) unique penalty to weapon skill and you gain a (4 * rank) unique bonus to weapon skill for 10 seconds.",
+      "description": "When you do critical damage, your target takes a (4 * rank) tactic penalty to weapon skill and you gain a (4 * rank) tactic bonus to weapon skill for 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1109,7 +1109,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you deal critical damage, you will gain 10% critical chance for 5 seconds, but you will gain 1 stack of Reckless Blows.",
+      "description": "Whenever you deal critical damage, you will gain 15% critical chance for 6 seconds, but you will gain 1 stack of Reckless Blows.",
       "category": "CareerTactic"
     },
   
