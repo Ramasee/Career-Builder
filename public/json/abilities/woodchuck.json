@@ -85,7 +85,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "Toggle: Hitting an enemy will cause group members within 100 feet will gain a X ability bonus to weaponskill, but take you will take a X ability penalty to initiative for the next 6 seconds. This effect can be stacked up to three times.",
+      "description": "While activated, every 4 seconds group members within 100 feet will gain a X ability bonus to weaponskill, but take you will take a X ability penalty to initiative. This effect can be stacked up to three times. When deactivated, you will lose one stack every 6 seconds.",
       "category": "Ability"
     },
   
@@ -628,8 +628,8 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Must be furious or berserk<br>Exhausts your Rage",
-      "description": "You chop deeply into your enemy, dealing X physical damage. Your love of battle fills you with energy, over the next ten seconds, you will gain 15 action points and 15 rage every second.<br><br>If you are furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "note": "",
+      "description": "You chop deeply into your enemy, dealing X physical damage. Your love of battle fills you with energy, over the next ten seconds, you will gain 15 action points and 15 rage every second.",
       "category": "Ability"
     },
   
@@ -1024,12 +1024,12 @@
       "type": "Buff",
       "spec": "Path of Da' Savage",
       "minrank": "1",
-      "cost": "Rank 4 morale",
+      "cost": "Rank 3 morale",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Your rage inspires all around, causing groupmates' attacks to deal an additional 300 damage for 10 seconds while within 100 feet of you.",
+      "description": "Your rage inspires all groupmates within 100 feet of you. Each person will gain 50% increased movement speed for 7 seconds and have 50% reduced build up times. This effect will end on each groupmate when they use an ability.",
       "category": "Morale"
     },
   
@@ -1120,12 +1120,12 @@
       "type": "Buff",
       "spec": "Path of Da' Hitta",
       "minrank": "1",
-      "cost": "Rank 4 morale",
-      "range": "No range",
+      "cost": "Rank 2 morale",
+      "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You chop all enemies within 30 feet for 1200 damage and all heals are reduced by 50% for 10 seconds.",
+      "description": "You chop the target in a vital region. Target takes 600 morale damage and has 100% reduced incoming healing for 5 seconds.",
       "category": "Morale"
     }
   ]
