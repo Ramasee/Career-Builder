@@ -80,12 +80,12 @@
       "type": "Enchantment",
       "spec": "Path of Da Savage",
       "minrank": "8",
-      "cost": "Costs 40 AP",
-      "range": "5ft range",
+      "cost": "No Cost",
+      "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "While activated, every 4 seconds group members within 100 feet will gain a X ability bonus to weaponskill, but take you will take a X ability penalty to initiative. This effect can be stacked up to three times. When deactivated, you will lose one stack every 6 seconds.",
+      "description": "While activated, every 4 seconds you will lose 10 action points and group members within 100 feet will gain a X ability bonus to weaponskill, but take you will take a X ability penalty to initiative. This effect can be stacked up to three times. When deactivated, you will lose one stack every 6 seconds.",
       "category": "Ability"
     },
   
