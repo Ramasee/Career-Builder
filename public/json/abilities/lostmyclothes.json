@@ -385,12 +385,12 @@
       "type": "Enchantment",
       "spec": "Path of The Trollslayer",
       "minrank": "8",
-      "cost": "Costs 25 AP",
+      "cost": "No cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Toggle: Hitting an enemy causes group member's within 100 feet will gain a X ability bonus to weapon skill, and you will take a X ability penalty to initiative for 6 seconds. This effect can be stacked up to three times.",
+      "description": "While activated, every 4 seconds you will lose 10 action points and group members within 100 feet will gain a X ability bonus to weaponskill, but take you will take a X ability penalty to initiative. This effect can be stacked up to three times. When deactivated, you will lose one stack every 6 seconds.",
       "category": "Ability"
     },
 
@@ -609,12 +609,12 @@
       "type": "Defensive",
       "spec": "Path of The Giantslayer",
       "minrank": "1",
-      "cost": "Rank 4 morale",
-      "range": "No range",
+      "cost": "Rank 2 morale",
+      "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You deal 1200 damage to targets within 30 feet and debuff incoming healing by 50% for 10 seconds.",
+      "description": "You deal 600 morale damage to target and they have 100% reduced incoming healing for 5 seconds.",
       "category": "Morale"
     },
 
@@ -726,7 +726,7 @@
       "incant": "Instant Cast",
       "cooldown": "25.0s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "Deals X physical damage. For the next 10 seconds, you gain 20% parry strikethrough and you gain a unique bonus to wounds equal to 300% of your bonus from items. You will not gain health equal to the wounds increased.",
+      "description": "Deals X physical damage. For the next 10 seconds, you gain 20% parry strikethrough and you gain a unique bonus to wounds equal to 400% of your bonus from items. You will not gain health equal to the wounds increased.",
       "category": "Ability"
     },
 
@@ -1041,12 +1041,12 @@
       "type": "Defensive",
       "spec": "Path of The Trollslayer",
       "minrank": "1",
-      "cost": "Rank 4 morale",
+      "cost": "Rank 3 morale",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You unleash a wave of power, causing groupmates' attacks to deal an additional 300 damage for 10 seconds while within 100 feet of you.",
+      "description": "You unleash a wave of power, causing groupmates' to move at 50% increased movement speed and have 50% reduced build up times on abilities for 7 seconds. This effect ends on each groupmate whenever they use an ability.",
       "category": "Morale"
     },
 
