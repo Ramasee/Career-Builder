@@ -5,9 +5,9 @@
       "optionalAbilities": {
         "lvl1": 4690,
         "lvl2": 4698,
-        "lvl3": 4673,
+        "lvl3": 4694,
         "lvl4": 4693,
-        "lvl5": 4694,
+        "lvl5": 4673,
         "lvl6": 4695,
         "lvl7": 4696
       },
@@ -708,7 +708,7 @@
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
-      "note": "",
+      "note": "Exhausts Your Rage",
       "description": "All enemies within 30 feet are detaunted, making them hate you less and reducing the damage they deal against you to 50% for 5 seconds. During this time, all of your attacks will cause enemies to hate you 25% less than normal. If you attack anyone you have detaunted, the effect will immediately end.",
       "category": "Ability"
     },
@@ -981,7 +981,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When you do critical damage, your target takes a (4 * rank) tactic penalty to weapon skill and you gain a (4 * rank) tactic bonus to weapon skill for 10 seconds.",
+      "description": "Brind Da Pain will now cost 20 action points per tick rather than 10. In addition, you will gain a (1.325 * rank) unique bonus to weapon skill and +10% auto-attack damage for each stack of Brind Da Pain.",
       "category": "CareerTactic"
     },
   
@@ -1061,7 +1061,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Exhaustive blows will no longer remove your Rage.",
+      "description": "Exhaustive blows will no longer remove your Rage. This tactic will not effect Outta My Face!",
       "category": "CareerTactic"
     },
   
