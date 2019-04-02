@@ -48,7 +48,7 @@
       "type": "Curse",
       "spec": "Path of Da Savage",
       "minrank": "1",
-      "cost": "Costs 45 AP",
+      "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
@@ -981,7 +981,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Brind Da Pain will now cost 20 action points per tick rather than 10. In addition, you will gain a (1.325 * rank) unique bonus to weapon skill and +10% auto-attack damage for each stack of Brind Da Pain.",
+      "description": "Brind Da Pain will now cost 20 action points per tick rather than 10. In addition, you will gain a (1.325 * rank) tactic bonus to weapon skill and +10% auto-attack damage for each stack of Brind Da Pain.",
       "category": "CareerTactic"
     },
   
