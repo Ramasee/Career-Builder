@@ -4,11 +4,11 @@
       "name": "Path of The Trollslayer",
       "optionalAbilities": {
         "lvl1": 4073,
-        "lvl2": 4081,
-        "lvl3": 4075,
+        "lvl2": 4074,
+        "lvl3": 4077,
         "lvl4": 4076,
-        "lvl5": 4077,
-        "lvl6": 4074,
+        "lvl5": 4075,
+        "lvl6": 4081,
         "lvl7": 4079
       },
       "coreAbilities": [4030,4031,4033,4036,4047]
@@ -180,9 +180,9 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "No cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You attack your target with a devastating blow, dealing X physical damage. Your target will bleed out taking an additional Y over 5 seconds.",
+      "description": "You attack your target with a devastating blow, dealing X physical damage. Your target will bleed out taking an additional Y every 2 seconds for 8 seconds.",
       "category": "Ability"
     },
 
@@ -293,7 +293,7 @@
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
-      "note": "",
+      "note": "Exhausts Your Rage",
       "description": "All enemies within 30 feet are detaunted, making them hate you less and reducing the damage they deal against you to 50% for 5 seconds. During this time, all of your attacks will cause enemies to hate you 25% less than normal. If you attack anyone you have detaunted, the effect will immediately end.",
       "category": "Ability"
     },
@@ -374,7 +374,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "As you get closer to death and redemption, your rage fills you with power. Your critical bonus damage is increased by 10% for every 10% of hit points that you have lost.",
+      "description": "Fierceness will deal (5 * rank) + (1 * wounds) morale damage to you each time it ticks. In addition, you will gain 13% critical damage per stack of fierceness active.",
       "category": "CareerTactic"
     },
 
@@ -662,7 +662,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Exhaustive blows will no longer remove your Rage.",
+      "description": "Exhaustive blows will no longer remove your Rage. This tactic will not effect Distracting Roar.",
       "category": "CareerTactic"
     },
 
@@ -726,7 +726,7 @@
       "incant": "Instant Cast",
       "cooldown": "25.0s cooldown",
       "note": "",
-      "description": "Deals X physical damage. For the next 10 seconds, you glth eqain 20% parry strikethrough and you gain a unique bonus to wounds equal to 400% of your bonus from items. You will not gain heaual to the wounds increased.",
+      "description": "Deals X physical damage. For the next 10 seconds, you gain 20% parry strikethrough.",
       "category": "Ability"
     },
 
