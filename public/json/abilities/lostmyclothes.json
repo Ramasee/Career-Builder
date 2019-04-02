@@ -177,7 +177,7 @@
       "type": "Ailment",
       "spec": "Path of The Trollslayer",
       "minrank": "1",
-      "cost": "Costs 25 AP",
+      "cost": "Costs 40 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
