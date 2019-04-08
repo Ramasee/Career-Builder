@@ -374,7 +374,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Fierceness will deal (5 * rank) + (1 * wounds) morale damage to you each time it ticks. In addition, you will gain 13% critical damage per stack of fierceness active.",
+      "description": "You will gain 13% critical damage per stack of fierceness active.",
       "category": "CareerTactic"
     },
 
@@ -390,7 +390,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "While activated, every 4 seconds you will lose 10 action points and group members within 100 feet will gain a X ability bonus to weaponskill, but take you will take a X ability penalty to initiative. This effect can be stacked up to three times. When deactivated, you will lose one stack every 6 seconds.",
+      "description": "While activated, every 4 seconds you will lose 10 action points and group members within 100 feet will gain a (Rank * 1) ability bonus to weaponskill, but take you will take a (Rank * 1) ability penalty to initiative. This effect can be stacked up to three times. When deactivated, your groupmates will lose all stacks and the cooldown will begin.",
       "category": "Ability"
     },
 
@@ -609,12 +609,12 @@
       "type": "Defensive",
       "spec": "Path of The Giantslayer",
       "minrank": "1",
-      "cost": "Rank 2 morale",
+      "cost": "Rank 3 morale",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You deal 600 morale damage to target and they have 100% reduced incoming healing for 5 seconds.",
+      "description": "You unleash a wave of power, causing groupmates' to move at 50% increased movement speed and have 50% reduced build up times on abilities for 7 seconds. This effect ends on each groupmate whenever they use an ability.",
       "category": "Morale"
     },
 
@@ -1041,12 +1041,12 @@
       "type": "Defensive",
       "spec": "Path of The Trollslayer",
       "minrank": "1",
-      "cost": "Rank 3 morale",
+      "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You unleash a wave of power, causing groupmates' to move at 50% increased movement speed and have 50% reduced build up times on abilities for 7 seconds. This effect ends on each groupmate whenever they use an ability.",
+      "description": "All stacks of Precarious Assault are removed from you, and you become berserk. For the next 10 seconds, you will gain a (Rank * 3) morale bonus to initiative, the negative side effects of berserk are nullified, you will not be able to drop your rage, and your chance to critically hit is increased by 10%.",
       "category": "Morale"
     },
 
