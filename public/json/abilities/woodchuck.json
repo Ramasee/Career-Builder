@@ -85,7 +85,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "While activated, every 4 seconds you will lose 10 action points and group members within 100 feet will gain a X ability bonus to weaponskill, but take you will take a X ability penalty to initiative. This effect can be stacked up to three times. When deactivated, you will lose one stack every 6 seconds.",
+      "description": "While activated, every 4 seconds you will lose 10 action points and group members within 100 feet will gain a (Rank * 1) ability bonus to weaponskill, but take you will take a (Rank * 1) ability penalty to initiative. This effect can be stacked up to three times. When deactivated, groupmates will lose all stacks and the cooldown will begin.",
       "category": "Ability"
     },
   
@@ -981,7 +981,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Brind Da Pain will now cost 20 action points per tick rather than 10. In addition, you will gain a (1.325 * rank) tactic bonus to weapon skill and +10% auto-attack damage for each stack of Brind Da Pain.",
+      "description": "You will gain a (1.325 * rank) tactic bonus to weapon skill and +10% auto-attack damage for each stack of Brind Da Pain.",
       "category": "CareerTactic"
     },
   
@@ -1020,16 +1020,16 @@
     {
       "image": "02663",
       "id": 4696,
-      "name": "We'z Fightin' Betta",
+      "name": "I'z Fightin' Betta",
       "type": "Buff",
       "spec": "Path of Da' Savage",
       "minrank": "1",
-      "cost": "Rank 3 morale",
+      "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Your rage inspires all groupmates within 100 feet of you. Each person will gain 50% increased movement speed for 7 seconds and have 50% reduced build up times. This effect will end on each groupmate when they use an ability.",
+      "description": "You lose all stacks of Reckless blow and go berserk. For the next 10 seconds, you gain a (Rank * 3) morale bonus to initiative, the negative effects of berserk are nullified, you cannot dump your rage, and your offhand weapon will always strike on auto attacks.<br><br>If you are wielding a great weapon, your will gain +50% auto attack damage.",
       "category": "Morale"
     },
   
@@ -1120,12 +1120,12 @@
       "type": "Buff",
       "spec": "Path of Da' Hitta",
       "minrank": "1",
-      "cost": "Rank 2 morale",
+      "cost": "Rank 3 morale",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You chop the target in a vital region. Target takes 600 morale damage and has 100% reduced incoming healing for 5 seconds.",
+      "description": "Your rage inspires all groupmates within 100 feet of you. Each person will gain 50% increased movement speed for 7 seconds and have 50% reduced build up times. This effect will end on each groupmate when they use an ability.",
       "category": "Morale"
     }
   ]
