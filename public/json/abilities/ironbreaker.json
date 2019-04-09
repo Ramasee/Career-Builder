@@ -3,28 +3,28 @@
     "a": {
       "name": "Path of Vengeance",
       "optionalAbilities": {
-        "lvl1": 3764,
+        "lvl1": 8001,
         "lvl2": 3765,
-        "lvl3": 3766,
+        "lvl3": 3742,
         "lvl4": 3767,
         "lvl5": 3768,
         "lvl6": 3769,
         "lvl7": 3770
       },
-      "coreAbilities": [3729,3732,3738,3721,3720]
+      "coreAbilities": [3721,3720,3732,3729,3718]
     },
     "b": {
       "name": "Path of Stone",
       "optionalAbilities": {
-        "lvl1": 3771,
+        "lvl1": 3744,
         "lvl2": 3772,
-        "lvl3": 3773,
-        "lvl4": 3774,
+        "lvl3": 3743,
+        "lvl4": 3719,
         "lvl5": 3775,
         "lvl6": 3776,
         "lvl7": 3777
       },
-      "coreAbilities": [3718,3725,3723,3822,3731]
+      "coreAbilities": [3822,3725,3738,3723,3731]
     },
     "c": {
       "name": "Path of Brotherhood",
@@ -37,7 +37,7 @@
         "lvl6": 3783,
         "lvl7": 3784
       },
-      "coreAbilities": [3736,3733,3739,3726,3719]
+      "coreAbilities": [3736,3726,3739,3774,3733]
     }
   },
   "data": [
@@ -95,14 +95,14 @@
       "id": 3774,
       "name": "Avenging the Debt",
       "type": "Damaging",
-      "spec": "Path of Stone",
+      "spec": "Path of Brotherhood",
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "No cooldown",
+      "cooldown": "5.0s cooldown",
       "note": "Costs 20 Grudge",
-      "description": "A decisive final strike that deals X physical damage to your enemy. If the target dies immediately after being hit by this attack, then you will regain Y health, and your Oath Friend will be affected as well if they're within 50 feet of you.",
+      "description": "A decisive final strike that deals X physical damage to your enemy. You will regain Y health, and your Oath Friend will be affected as well if they're within 50 feet of you.",
       "category": "Ability"
     },
   
@@ -237,7 +237,7 @@
     {
       "image": "23173",
       "id": 3759,
-      "name": "Distracting Bellow",
+      "name": "Piano Man",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "24",
@@ -246,7 +246,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "A loud shout that startles your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
+      "description": "The sounds of your piano playing distract your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
       "category": "Morale"
     },
   
@@ -327,22 +327,6 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You deal 15% more damage and all enemy monsters will hate you 15% less than normal, but your armor is reduced by 33%.",
-      "category": "CareerTactic"
-    },
-  
-    {
-      "image": "22694",
-      "id": 3771,
-      "name": "Furious Reprisal",
-      "type": "Debuff",
-      "spec": "Path of Stone",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Shield Of Reprisal will also increase the cooldown times of the enemy's abilities by an additional 5 seconds for the next 5 seconds.",
       "category": "CareerTactic"
     },
   
@@ -454,7 +438,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You begin to constantly complain about everything that's wrong today, telling everyone how much better things were back in the old days. You feel much better for the chance to grumble, and regain X health every 3 seconds for up to 30 seconds. You lose 10 Grudge each time this happens, and the effect will end if you run out of Grudges.",
+      "description": "You begin to constantly complain about everything that's wrong today, telling everyone how much better things were back in the old days. You feel much better for the chance to grumble, and your groupmates within 100 feet restore X health every 3 seconds for up to 30 seconds. You lose 10 Grudge each time this happens, and the effect will end if you run out of Grudges.",
       "category": "Ability"
     },
   
@@ -479,14 +463,14 @@
       "id": 3719,
       "name": "Guarded Attack",
       "type": "Damaging",
-      "spec": "Path of Brotherhood",
+      "spec": "Path of Stone",
       "minrank": "3",
       "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal X physical damage to your target and prepare yourself for their attacks, gaining a X ability bonus to armor for 20 seconds.<br>Your Oath Friend's armor will also be increased if they are within 50 feet.",
+      "description": "You deal X physical damage to your target and prepare yourself for their attacks, gaining a X ability bonus to armor and a (Rank * 3) ability bonus to toughness for 20 seconds.<br>Your Oath Friend's stats will also be increased if they are within 50 feet.",
       "category": "Ability"
     },
  
@@ -575,7 +559,7 @@
       "id": 3738,
       "name": "Kneecapper",
       "type": "Curse",
-      "spec": "Path of Vengeance",
+      "spec": "Path of Stone",
       "minrank": "35",
       "cost": "Costs 30 AP",
       "range": "5ft range",
@@ -614,7 +598,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your damaging attacks will cause additional hate based on Grudge.<br> At 25 Grudges: Adds an additional 15 threat.<br> At 50 Grudges: Adds an additional 20 threat.<br> At 75 Grudges: Adds an additional 25 threat.<br> At 100 Grudges: Adds an additional 30 threat.",
+      "description": "(Disabled)All of your damaging attacks will cause additional hate based on Grudge.<br> At 25 Grudges: Adds an additional 15 threat.<br> At 50 Grudges: Adds an additional 20 threat.<br> At 75 Grudges: Adds an additional 25 threat.<br> At 100 Grudges: Adds an additional 30 threat. (Disabled)",
       "category": "CareerTactic"
     },
   
@@ -649,23 +633,7 @@
       "description": "You select a single ally to be your sworn Oath Friend. Each time they are attacked, you will gain Grudges based on your current Grudge level, and some of your abilities will affect them as well.<br>You are at 0-29 Grudge: You will gain 10 Grudges.<br>You are at 30-59 Grudge: You will gain 5 Grudges.<br>You are at 60-100 Grudge: You will gain 3 Grudge.",
       "category": "Ability"
     },
-  
-    {
-      "image": "22702",
-      "id": 3773,
-      "name": "Oath of Vengeance",
-      "type": "Buff",
-      "spec": "Path of Stone",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Vengeful Strike will now also affect all other allies within 20 feet of your Oath Friend.",
-      "category": "CareerTactic"
-    },
-  
+
     {
       "image": "04590",
       "id": 3772,
@@ -692,9 +660,9 @@
       "cost": "Costs 45 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "20.0s cooldown",
       "note": "Improves with Grudge<br>Requires Shield",
-      "description": "You declare that this is where you're making your stand, and nothing will make you change your mind. You are almost guaranteed to block up to the next 4 attacks made against you within 10 seconds, and you will deal X physical damage damage back to the attacker each time you block.<br><br> With 25 Grudges: Deals A physical damage back to the attacker.<br> With 50 Grudges: Deals B physical damage back to the attacker.<br> With 75 Grudges: Deals C physical damage back to the attacker.<br> With 100 Grudges: Deals D physical damage back to the attacker.",
+      "description": "You declare that this is where you're making your stand, and nothing will make you change your mind. You are almost guaranteed to block up to the next 4 attacks made against you within 10 seconds, and you will deal X physical damage damage back to the attacker each time you block. The next Stonebreaker cast within 5 seconds will hit all enemies within 30 feet.<br><br> With 25 Grudges: Deals A physical damage back to the attacker.<br> With 50 Grudges: Deals B physical damage back to the attacker.<br> With 75 Grudges: Deals C physical damage back to the attacker.<br> With 100 Grudges: Deals D physical damage back to the attacker.",
       "category": "Ability"
     },
 
@@ -703,7 +671,7 @@
       "id": 3764,
       "name": "Overprotective",
       "type": "Damaging",
-      "spec": "Path of Vengeance",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
@@ -711,22 +679,6 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Whenever your Oath Friend is attacked there is a 25% chance that you toss the assailant a glare so fierce they take X physical damage.",
-      "category": "CareerTactic"
-    },
-  
-    {
-      "image": "22704",
-      "id": 3766,
-      "name": "Powered Etchings",
-      "type": "Buff",
-      "spec": "Path of Vengeance",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Rune Etched Axe will now knockback other players and knockdown monsters and decrease their movement speed by 40% for 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -879,7 +831,7 @@
       "id": 3743,
       "name": "Seasoned Veteran",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Stone",
       "minrank": "31",
       "cost": "Tactic",
       "range": "No range",
@@ -895,7 +847,7 @@
       "id": 3744,
       "name": "Seen It All Before",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Stone",
       "minrank": "33",
       "cost": "Tactic",
       "range": "No range",
@@ -964,9 +916,9 @@
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
-      "note": "Costs 25 Grudge<br>Requires Shield",
-      "description": "You bring your shield around in a smashing hit, dealing X physical damage to up to three enemies within 25 feet of them.<br>When hitting targets you regain 10 Grudges for each target that you hit.",
+      "cooldown": "No cooldown",
+      "note": "Costs 20 Grudge<br>Requires Shield",
+      "description": "You bring your shield around in a smashing hit, dealing X physical damage to up to enemies within 25 feet of them.",
       "category": "Ability"
     },
   
@@ -1087,7 +1039,7 @@
       "id": 3742,
       "name": "Sweet Revenge",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Vengeance",
       "minrank": "27",
       "cost": "Tactic",
       "range": "No range",
@@ -1126,7 +1078,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit an enemy, each group member within 100 feet will gain 25 action points. This effect will not trigger more than once every 3 seconds.",
+      "description": "Each time you use Avenging the Debt, each group member within 100 feet will gain 25 action points. Watch An' Learn will grant 25 action points instead of 10 now.",
       "category": "CareerTactic"
     },
   
@@ -1151,14 +1103,14 @@
       "id": 3718,
       "name": "Vengeful Strike",
       "type": "Damaging",
-      "spec": "Path of Stone",
+      "spec": "Path of Vengeance",
       "minrank": "2",
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "No cooldown",
-      "note": "Costs 10 Grudge",
-      "description": "You strike your enemy for X physical damage and stubbornly push yourself to keep fighting, gaining a (3 * rank) ability bonus to toughness for 20 seconds.<br>Your Oath Friend's toughness will also be increased if they are within 50 feet.",
+      "cooldown": "10.0s cooldown",
+      "note": "Costs 20 Grudge",
+      "description": "You strike your enemy for X physical damage and your target has 5 second increased cooldowns for 5 seconds.",
       "category": "Ability"
     },
   
@@ -1172,10 +1124,26 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "5.0s cooldown",
       "note": "Costs 15 Grudge",
-      "description": "Gain a (3 * rank) ability bonus to weapon skill for 10 seconds. Each time you hit an enemy, your Oath Friend will gain 25 action points as long as they're within 50 feet of you.",
+      "description": "Gain a (3 * rank) ability bonus to weapon skill for 10 seconds. Each time you strike an enemy, your Oath Friend will gain 10 action points if they are within 50 feet of you.",
       "category": "Ability"
+    },
+    
+        {
+      "image": "22694",
+      "id": 8001,
+      "name": "Lingering Grudge",
+      "type": "Buff",
+      "spec": "Path of Vengeance",
+      "minrank": "29",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Each time you hit an enemy with Rune-Etched Axe, Vengeful Strike, or Grudge Born Fury they will take an additional X physical damage over 5 seconds. This effect can stack 5 times.",
+      "category": "CareerTactic"
     }
   ]
 }
