@@ -14,21 +14,14 @@
     "class": "Tank"
   },
   "warrior-priest": {
-    "name": "Warrior Priest (Not Live)",
+    "name": "Warrior Priest",
     "slug": "warrior-priest",
     "faction": "Order",
     "race": "Empire",
     "class": "Healer"
   },
-    "wp101": {
-    "name": "Warrior Priest (Direction)",
-    "slug": "wp101",
-    "faction": "Order",
-    "race": "Empire",
-    "class": "Healer"
-  },
     "witch-hunter": {
-    "name": "Witch Hunter (Need Pass)",
+    "name": "Witch Hunter (Not Live)",
     "slug": "witch-hunter",
     "faction": "Order",
     "race": "Empire",
@@ -49,7 +42,7 @@
     "class": "Ranged DPS"
   },
   "ironbreaker": {
-    "name": "Ironbreaker (Need Pass)",
+    "name": "Ironbreaker (Not Live)",
     "slug": "ironbreaker",
     "faction": "Order",
     "race": "Dwarf",
@@ -70,7 +63,7 @@
     "class": "Healer"
   },
   "slayer": {
-    "name": "Slayer (Need Pass)",
+    "name": "Slayer (Not Live)",
     "slug": "slayer",
     "faction": "Order",
     "race": "Dwarf",
@@ -84,14 +77,14 @@
     "class": "Healer"
   },
   "shadow-warrior": {
-    "name": "Shadow Warrior (Champ: Lefze)",
+    "name": "Shadow Warrior (Need Pass)",
     "slug": "shadow-warrior",
     "faction": "Order",
     "race": "High Elf",
     "class": "Ranged DPS"
   },
   "sword-master": {
-    "name": "Sword Master (Need Pass)",
+    "name": "Sword Master (Not Live)",
     "slug": "sword-master",
     "faction": "Order",
     "race": "High Elf",
@@ -133,14 +126,14 @@
     "class": "Healer"
   },
   "black-orc": {
-    "name": "Black Orc (Need Pass)",
+    "name": "Black Orc (Not Live)",
     "slug": "black-orc",
     "faction": "Destruction",
     "race": "Greenskin",
     "class": "Tank"
   },
   "choppa": {
-    "name": "Choppa (Need Pass)",
+    "name": "Choppa (Not Live)",
     "slug": "choppa",
     "faction": "Destruction",
     "race": "Greenskin",
@@ -154,7 +147,7 @@
     "class": "Healer"
   },
   "squig-herder": {
-    "name": "Squig Herder (Champ:Lefze)",
+    "name": "Squig Herder (Need Pass)",
     "slug": "squig-herder",
     "faction": "Destruction",
     "race": "Greenskin",
@@ -196,13 +189,12 @@
     "class": "Ranged DPS"
   },
   "witch-elf": {
-    "name": "Witch Elf (Need Pass)",
+    "name": "Witch Elf (Not Live)",
     "slug": "witch-elf",
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Melee DPS"
   },
- 
     "webtb": {
     "name": "Witch Elf (Direction)",
     "slug": "webtb",
@@ -225,24 +217,24 @@
     "class": "Tank"
   },
    "billyjoel": {
-    "name": "Ironbreaker (Proposal)",
+    "name": "Ironbreaker (Direction)",
     "slug": "billyjoel",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Tank"
   },
    "woodchuck": {
-    "name": "",
+    "name": "Choppa (Proposal)",
     "slug": "woodchuck",
-    "faction": "",
-    "race": "",
-    "class": ""
+    "faction": "Destruction",
+    "race": "Greenskin",
+    "class": "Melee DPS"
   },
    "lostmyclothes": {
-    "name": "",
+    "name": "Slayer (Proposal)",
     "slug": "lostmyclothes",
-    "faction": "",
-    "race": "",
-    "class": ""
+    "faction": "Order",
+    "race": "Dwarf",
+    "class": "Melee DPS"
   }
 }
