@@ -80,10 +80,8 @@ class Home extends React.Component {
               </div>
               <div className="grid-col-2-3 grid-col-1@mobile">
                 <div className={copyClass}>
-                  <p className={css.copyText}>Warhammer Online: Age of Reckoning has returned.
-                  Resurrected by volunteers on a private server, we now have <a className={css.copyLink} href="http://www.returnofreckoning.com" target="blank">The sexy penguin!</a>.
-                  Inspired by the work of these developers comes Penguin Career Builder.</p>
-                  <p className={css.copyText}>Stat buffs/debuffs will have attributes. Ability bonus/penalty do not stack with other ability bonuses/penalties. Morale bonus/penalty do not stack with other morale bonuses/penalties. Unique bonus/penalty stack with everything.</p>
+                  <p className={css.copyText}>This is the career builder for the Interbellum Server, a warhammer online private server currently in true alpha stage.</p>
+                  <p className={css.copyText}>There are 4 types of stat buffs/debuffs. Ability, Tactic, Morale, and Unique. You will gain the benefit of the highest ability bonus, tactic bonus, and morale bonus applied as well as ALL unique bonuses.</p>
                   <p className={css.copyText}>This web app aims to replace and improve upon the great work done by <a className={css.copyLink} href="http://waronlinebuilder.org" target="blank">Warhammer Online Career Builder</a> back in 2013.</p>
                   <p className={css.copyText}>Details of updates will appear on this page.</p>
                   <p className={css.copyText}>All code is available on <a href={githubUrl} className={css.copyLink} target="blank">Github</a>
