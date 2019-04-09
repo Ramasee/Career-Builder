@@ -300,7 +300,7 @@
     {
       "image": "22704",
       "id": 4156,
-      "name": "Divine Petitioning",
+      "name": "Intimidating Repent",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "39",
@@ -309,7 +309,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Beyond Reproach (PH) no longer requires a shield to be used. In addition, its cooldown is reduced to 15s if you are wearing a shield.",
+      "description": "Repent will now effect all enemies within 30 feet of the target.",
       "category": "CareerTactic"
     },
   
@@ -1046,22 +1046,6 @@
       "cooldown": "10.0s cooldown",
       "note": "Builds 30 Righteous Fury",
       "description": "Deals X physical damage to your target. If they are cursed, then they will also become snared, reducing their run speed by 40% for 6 seconds.",
-      "category": "Ability"
-    },
-
-    {
-      "image": "07945",
-      "id": 7506,
-      "name": "Beyond Reproach (PH)",
-      "type": "Debuff",
-      "spec": "Core Ability",
-      "minrank": "7",
-      "cost": "Costs 40 AP",
-      "range": "No range",
-      "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Requires a Shield",
-      "description": "You detaunt all enemies within 30 feet of you, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have detaunted, the effect will immediately end.",
       "category": "Ability"
     },
 
