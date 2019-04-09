@@ -182,15 +182,8 @@
     "class": "Ranged DPS"
   },
   "witch-elf": {
-    "name": "Witch Elf (Not Live)",
+    "name": "Witch Elf",
     "slug": "witch-elf",
-    "faction": "Destruction",
-    "race": "Dark Elf",
-    "class": "Melee DPS"
-  },
-    "webtb": {
-    "name": "Witch Elf (Direction)",
-    "slug": "webtb",
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Melee DPS"
