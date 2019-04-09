@@ -15,5 +15,5 @@ const News = () =>
       <div className={css.itemDate}>April 9, 2019</div>
       <span className={css.itemText}>Stage 2 Alpha</span>
     </div>
-
+</div>;
 export default News;
