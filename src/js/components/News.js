@@ -7,44 +7,13 @@ const News = () =>
     <div className={css.heading}>Latest updates</div>
       <div className={css.item}>
       <span className={css.itemIcon}><IconChevronRight classes="icon--small" name="right chevron icon" nameSlug="right-chevron-icon" /></span>
-      <div className={css.itemDate}>10/19/2018</div>
-      <span className={css.itemText}>Fixed SH, Updated BO, Updated Magus, Updated WL to proposed changes. Ate a chaos bagel, it was delicious.</span>
+      <div className={css.itemDate}>April 9th, 2019</div>
+      <span className={css.itemText}>Removed all the code name stuff.</span>
     </div>
       <div className={css.item}>
       <span className={css.itemIcon}><IconChevronRight classes="icon--small" name="right chevron icon" nameSlug="right-chevron-icon" /></span>
-      <div className={css.itemDate}>10/08/2018</div>
-      <span className={css.itemText}>Updated SW. Changed the home page to reference new nomenclature for buffs/debuffs.</span>
+      <div className={css.itemDate}>April 9th, 2019</div>
+      <span className={css.itemText}>Stage 2 Alpha</span>
     </div>
-      <div className={css.item}>
-      <span className={css.itemIcon}><IconChevronRight classes="icon--small" name="right chevron icon" nameSlug="right-chevron-icon" /></span>
-      <div className={css.itemDate}>10/08/2018</div>
-      <span className={css.itemText}>Updated WH, and Engi. A few attempts at addressing moblie user issues.</span>
-    </div>
-      <div className={css.item}>
-      <span className={css.itemIcon}><IconChevronRight classes="icon--small" name="right chevron icon" nameSlug="right-chevron-icon" /></span>
-      <div className={css.itemDate}>10/04/2018</div>
-      <span className={css.itemText}>Updated KotBS, SH, SM, and WP</span>
-    </div>
-      <div className={css.item}>
-      <span className={css.itemIcon}><IconChevronRight classes="icon--small" name="right chevron icon" nameSlug="right-chevron-icon" /></span>
-      <div className={css.itemDate}>10/01/2018</div>
-      <span className={css.itemText}>All careers now start at r40/rr40+.</span>
-    </div>
-    <div className={css.item}>
-      <span className={css.itemIcon}><IconChevronRight classes="icon--small" name="right chevron icon" nameSlug="right-chevron-icon" /></span>
-      <div className={css.itemDate}>9/27/2018</div>
-      <span className={css.itemText}>Updated AM, BG, BW, DoK, IB, RP, SL, and WE careers.</span>
-    </div>
-    <div className={css.item}>
-      <span className={css.itemIcon}><IconChevronRight classes="icon--small" name="right chevron icon" nameSlug="right-chevron-icon" /></span>
-      <div className={css.itemDate}>9/26/2018</div>
-      <span className={css.itemText}>Created new app off of old one.</span>
-    </div>
-    <div className={css.item}>
-      <span className={css.itemIcon}><IconChevronRight classes="icon--small" name="right chevron icon" nameSlug="right-chevron-icon" /></span>
-      <div className={css.itemDate}>1/6/2016</div>
-      <span className={css.itemText}>We are live :)</span>
-    </div>
-  </div>;
 
 export default News;
