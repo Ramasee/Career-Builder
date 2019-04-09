@@ -154,15 +154,8 @@
     "class": "Ranged DPS"
   },
   "black-guard": {
-    "name": "Black Guard (Not Live)",
+    "name": "Black Guard",
     "slug": "black-guard",
-    "faction": "Destruction",
-    "race": "Dark Elf",
-    "class": "Tank"
-  },
-    "bgprop": {
-    "name": "Black Guard (Direction)",
-    "slug": "bgprop",
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Tank"
