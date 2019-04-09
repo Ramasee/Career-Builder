@@ -42,7 +42,7 @@
     "class": "Ranged DPS"
   },
   "ironbreaker": {
-    "name": "Ironbreaker (Not Live)",
+    "name": "Ironbreaker",
     "slug": "ironbreaker",
     "faction": "Order",
     "race": "Dwarf",
@@ -207,13 +207,6 @@
     "slug": "penisreference",
     "faction": "Destruction",
     "race": "Greenskin",
-    "class": "Tank"
-  },
-   "billyjoel": {
-    "name": "Ironbreaker (Direction)",
-    "slug": "billyjoel",
-    "faction": "Order",
-    "race": "Dwarf",
     "class": "Tank"
   },
    "woodchuck": {
