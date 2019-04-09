@@ -902,7 +902,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Horrifying Offer can now be used without a shield. If you have a shield equipped, the cooldown is reduced by 15 seconds.",
+      "description": "Terrifying Vision will now affect enemies within 30 feet of the target.",
       "category": "CareerTactic"
     },
   
@@ -1127,22 +1127,6 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "You channel the power of Khaine through your body and into an ally healing them for X every second. You take X morale damage every second and cannot be healer for the duration.<br><br>If you have a shield equipped, you will gain 30% movement speed for the duration.",
-      "category": "Ability"
-    },
-
-    {
-      "image": "10977",
-      "id": 7506,
-      "name": "Horrifying Offer",
-      "type": "Debuff",
-      "spec": "Core Ability",
-      "minrank": "7",
-      "cost": "Costs 40 AP",
-      "range": "No range",
-      "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Requires Shield.",
-      "description": "You detaunt all enemies within 30 feet of you, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have detaunted, the effect will immediately end.",
       "category": "Ability"
     }
   ]
