@@ -168,15 +168,8 @@
     "class": "Tank"
   },
   "disciple-of-khaine": {
-    "name": "Disciple of Khaine (Not Live)",
+    "name": "Disciple of Khaine",
     "slug": "disciple-of-khaine",
-    "faction": "Destruction",
-    "race": "Dark Elf",
-    "class": "Healer"
-  },
-    "dokshield": {
-    "name": "Disciple of Khaine (Direction)",
-    "slug": "dokshield",
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Healer"
