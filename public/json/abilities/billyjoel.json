@@ -101,7 +101,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Costs 15 Grudge",
+      "note": "Costs 20 Grudge",
       "description": "A decisive final strike that deals X physical damage to your enemy. You will regain Y health, and your Oath Friend will be affected as well if they're within 50 feet of you.",
       "category": "Ability"
     },
@@ -438,7 +438,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You begin to constantly complain about everything that's wrong today, telling everyone how much better things were back in the old days. You feel much better for the chance to grumble, and your groupmates within 100 feet restore X health every 3 seconds for up to 30 seconds. You lose 10 Grudge each time this happens, and the effect will end if you run out of Grudges. (Halving the base value, keep the willpower modifier the same)",
+      "description": "You begin to constantly complain about everything that's wrong today, telling everyone how much better things were back in the old days. You feel much better for the chance to grumble, and your groupmates within 100 feet restore X health every 3 seconds for up to 30 seconds. You lose 10 Grudge each time this happens, and the effect will end if you run out of Grudges.",
       "category": "Ability"
     },
   
@@ -470,7 +470,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal X physical damage to your target and prepare yourself for their attacks, gaining a X ability bonus to armor for 20 seconds.<br>Your Oath Friend's armor will also be increased if they are within 50 feet.",
+      "description": "You deal X physical damage to your target and prepare yourself for their attacks, gaining a X ability bonus to armor and a (Rank * 3) ability bonus to toughness for 20 seconds.<br>Your Oath Friend's stats will also be increased if they are within 50 feet.",
       "category": "Ability"
     },
  
@@ -1078,7 +1078,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each time you use Avenging the Debt, each group member within 100 feet will gain 25 action points. You will not receive these action points.",
+      "description": "Each time you use Avenging the Debt, each group member within 100 feet will gain 25 action points. Watch An' Learn will grant 25 action points instead of 10 now.",
       "category": "CareerTactic"
     },
   
@@ -1126,14 +1126,14 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Costs 15 Grudge",
-      "description": "Gain a (3 * rank) ability bonus to weapon skill for 10 seconds. Your Oath Friend will gain weapon skill as long as they're within 50 feet of you.",
+      "description": "Gain a (3 * rank) ability bonus to weapon skill for 10 seconds. Each time you strike an enemy, your Oath Friend will gain 10 action points if they are within 50 feet of you.",
       "category": "Ability"
     },
     
         {
       "image": "22694",
       "id": 8001,
-      "name": "THE BEARD OF VENGEANCE! (ph)",
+      "name": "Lingering Grudge",
       "type": "Buff",
       "spec": "Path of Vengeance",
       "minrank": "29",
@@ -1142,7 +1142,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each time you hit an enemy with Rune-Etched Axe, Vengeful Strike, or Grudge Born Fury they will take an additional X physical damage over 5 seconds. This effect can stack 5x.",
+      "description": "Each time you hit an enemy with Rune-Etched Axe, Vengeful Strike, or Grudge Born Fury they will take an additional X physical damage over 5 seconds. This effect can stack 5 times.",
       "category": "CareerTactic"
     }
   ]
