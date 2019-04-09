@@ -7,12 +7,12 @@ const News = () =>
     <div className={css.heading}>Latest updates</div>
       <div className={css.item}>
       <span className={css.itemIcon}><IconChevronRight classes="icon--small" name="right chevron icon" nameSlug="right-chevron-icon" /></span>
-      <div className={css.itemDate}>April 9th, 2019</div>
+      <div className={css.itemDate}>April 9, 2019</div>
       <span className={css.itemText}>Removed all the code name stuff.</span>
     </div>
       <div className={css.item}>
       <span className={css.itemIcon}><IconChevronRight classes="icon--small" name="right chevron icon" nameSlug="right-chevron-icon" /></span>
-      <div className={css.itemDate}>April 9th, 2019</div>
+      <div className={css.itemDate}>April 9, 2019</div>
       <span className={css.itemText}>Stage 2 Alpha</span>
     </div>
 
