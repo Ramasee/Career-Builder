@@ -3,25 +3,25 @@
     "a": {
       "name": "Path of Malice",
       "optionalAbilities": {
-        "lvl1": 909,
+        "lvl1": 888,
         "lvl2": 912,
         "lvl3": 911,
         "lvl4": 910,
         "lvl5": 913,
         "lvl6": 914,
-        "lvl7": 6101
+        "lvl7": 915
       },
-      "coreAbilities": [863,870,876,874,865,915]
+      "coreAbilities": [863,870,876,874,865]
     },
     "b": {
       "name": "Path of Loathing",
       "optionalAbilities": {
         "lvl1": 916,
         "lvl2": 917,
-        "lvl3": 918,
-        "lvl4": 919,
-        "lvl5": 920,
-        "lvl6": 921,
+        "lvl3": 920,
+        "lvl4": 921,
+        "lvl5": 918,
+        "lvl6": 919,
         "lvl7": 922
       },
       "coreAbilities": [877,986,866,881,883]
@@ -33,7 +33,7 @@
         "lvl2": 924,
         "lvl3": 925,
         "lvl4": 926,
-        "lvl5": 927,
+        "lvl5": 889,
         "lvl6": 928,
         "lvl7": 929
       },
@@ -69,7 +69,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your chance to Parry is increased by 3% per 10 Hatred.",
+      "description": "Your chance to parry is increased by 3% per 10 Hatred.",
       "category": "CareerTactic"
     },
   
@@ -117,7 +117,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "A cry of rage removes all Hexes, Curses, and Ailments from you. You will regain 50 AP and 300 health for each effect removed.",
+      "description": "A cry of rage removes all hexes, curses, and ailments from you. You will regain 50 AP and 300 health for each effect removed.",
       "category": "Morale"
     },
   
@@ -140,7 +140,7 @@
     {
       "image": "99999",
       "id": 910,
-      "name": "Malignant Strike!",
+      "name": "Halt, Fool!",
       "type": "Hex",
       "spec": "Path of Malice",
       "minrank": "1",
@@ -181,7 +181,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "Costs 10 Hatred every 3 seconds.",
-      "description": "You focus your Hatred inward, cursing yourself for your weakness, and force yourself to march on by recovering X health every 3 seconds for up to 30 seconds. This effect will end if you run out of Hate.",
+      "description": "You focus your Hatred inward, cursing yourself for your weakness, and force your group to march on by recovering X health every 3 seconds for up to 30 seconds to all groupmates within 100 feet. This effect will end if you run out of Hate.",
       "category": "Ability"
     },
   
@@ -260,7 +260,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Costs 20 Hatred<br>Requires 5 points in Path of Anguish",
+      "note": "Costs 20 Hatred",
       "description": "A particularly insulting strike that deals 423 damage and causes your target to spend an additional 20 Action Points whenever they activate an ability for the next 10 seconds.",
       "category": "Ability"
     },
@@ -277,7 +277,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Costs 30 Hatred<br>Requires Great Weapon",
-      "description": "A great cleave that strikes all targets 40 feet in front of you for X physical damage and making them 10% more likely to be critically hit by others for 5 seconds.",
+      "description": "A great cleave that strikes all targets 40 feet in front of you for X physical damage and making them 10% more likely to be critically hit by others for 10 seconds.",
       "category": "Ability"
     },
   
@@ -430,14 +430,14 @@
       "id": 888,
       "name": "Efficient Slaughter",
       "type": "Defensive",
-      "spec": "Core Ability",
+      "spec": "Path of Torture",
       "minrank": "31",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Hate spending abilities cost 5 less Hate to use.",
+      "description": "Hate spending abilities cost 5 less Hate to use. Monstrous Rending will cost 15 less Hate.",
       "category": "CareerTactic"
     },
   
@@ -451,9 +451,9 @@
       "cost": "Costs 25 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "For up to 10 seconds your superior training allows you to easily Parry the next 4 attacks made against you. Any defense made in this time will restore Action Points to everyone in your group within 100 feet of you based on your Hatred. <br> With 30 Hate: Restores 5 AP. <br> With 60 Hate: Restores 10 AP.<br> With 90 Hate: Restores 15 AP",
+      "description": "For up to 10 seconds your superior training allows you and your dark protector to easily parry the next 4 attacks made against you. Any defense made in this time will restore Action Points to everyone in your group within 100 feet of you based on your Hatred. <br> With 30 Hate: Restores 5 AP. <br> With 60 Hate: Restores 10 AP.<br> With 90 Hate: Restores 15 AP",
       "category": "Ability"
     },
   
@@ -517,7 +517,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduce AP cost of Loathing abilities based on your current Health level.<br> With 75-51% Health: Reduce cost by 25%. <br> With 50-26% Health: Reduce cost by 50%.<br> With 25-0% Health: Reduce cost by 75%.",
+      "description": "Whenever you are hit by direct damage, you will lose 2 Hate and your group will gain 8 action points. This effect cannot happen more than once per second.",
       "category": "CareerTactic"
     },
   
@@ -532,8 +532,8 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
-      "note": "",
-      "description": "The pathetic display of fighting skill shown by your opponent instills an even greater urge to destroy them. You lash out for X physical damage and grants you a (3 * rank) ability bonus to toughness for 20 seconds and will recover health based on your Hate and damage inflicted.<br>Your Dark Protector will regain health and receive increased toughness if they are within 50 feet. <br> With 30 Hate: Recovers 25% of damage inflicted.<br> With 60 Hate: Recovers 50% of damage inflicted. <br> With 90 Hate: Recovers 75% of damage inflicted.",
+      "note": "Costs 15 Hate",
+      "description": "The pathetic display of fighting skill shown by your opponent instills an even greater urge to destroy them. You lash out for X physical damage and and will recover X health.<br>Your Dark Protector will regain health and if they are within 50 feet.",
       "category": "Ability"
     },
   
@@ -549,7 +549,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increase chance to critically hit by 15% for 5 seconds whenever you expend Hate to attack.",
+      "description": "Increase chance to critically hit by 15% for 6 seconds whenever you expend Hate to attack.",
       "category": "CareerTactic"
     },
   
@@ -565,7 +565,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
   
@@ -596,8 +596,8 @@
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "",
-      "description": "Your intense fury allows you to shrug off the greatest of hits. For 10 seconds you gain a X ability bonus to armor and you will become less likely to be critically hit depending on your Hatred. <br> With 30 Hate: 15% less likely to be critically hit. <br> With 60 Hate: 30% less likely to be critically hit.<br> With 90 Hate: 45% less likely to be critically hit.",
+      "note": "Requires Shield (Maybe)",
+      "description": "Your intense fury allows you to shrug off the greatest of hits. For 10 seconds you gain a X ability bonus to armor. You and your groupmates if they are within 100 feet will also receive a unique bonus to initiative. <br> With 30 Hate: X initiative. <br> With 60 Hate: Y initiative. <br> With 90 Hate: Z initiative.",
       "category": "Ability"
     },
   
@@ -645,7 +645,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you critically hit a target their Wounds are reduced by 120 for 10 seconds. In addition, whenever you strike a target with Murderous Wrath or Pitiless Strike your auto attack speed is increased by 50% for 10 seconds.",
+      "description": "Whenever you critically hit a target, they take a (3 * rank) ability penalty to wounds for 10 seconds. In addition, whenever you strike a target with Murderous Wrath or Pitiless Strike your auto attack speed is increased by 50% for 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -766,14 +766,14 @@
       "id": 889,
       "name": "Malekith's Bulwark",
       "type": "Defensive",
-      "spec": "Core Ability",
+      "spec": "Path of Anguish",
       "minrank": "33",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduces all magical damage that you take to 75%, but also reduces all healing used on you by 15%.",
+      "description": "Whenever you use Furious Howl, groupmates within 100 feet will have magical damage they rake reduced to 90% for 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -826,22 +826,6 @@
     },
   
     {
-      "image": "22694",
-      "id": 909,
-      "name": "Monstrous Ruin",
-      "type": "Defensive",
-      "spec": "Path of Malice",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Monstrous Rending cost 10 less Hate to use.",
-      "category": "CareerTactic"
-    },
-  
-    {
       "image": "11013",
       "id": 870,
       "name": "Murderous Wrath",
@@ -884,8 +868,8 @@
       "range": "No range",
       "incant": "10.0s cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires Shield<",
-      "description": "You ready your blade and defiantly raise your shield to increase your Block rate by 50% for up to 10 seconds. Any time you block during this time you will lash out at your attacker for X physical damage and gain 5 Hatred.",
+      "note": "",
+      "description": "You ready your weapon in anticipation of enemy attacks. Every time defend an attack, you will generate 5 hate and your group will absorb X damage over the next ten seconds. This absorb effect can stack 5 times. With a shield equipped, you will gain 50% block for the duration.",
       "category": "Ability"
     },
   
@@ -981,7 +965,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Costs 15 Hatred",
-      "description": "Your overwhelming hate shields you from up to X damage over 10 seconds.",
+      "description": "Your overwhelming hate shields you from up to X damage over 10 seconds. Your dark protected ally will receive this effect of they are within 50 feet.",
       "category": "Ability"
     },
   
@@ -999,22 +983,6 @@
       "note": "Requires Shield",
       "description": "For the next 10 seconds, your chance to block is almost guaranteed.",
       "category": "Morale"
-    },
-  
-    {
-      "image": "22694",
-      "id": 927,
-      "name": "Shielding Anger",
-      "type": "Defensive",
-      "spec": "Path of Anguish",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Your chance to disrupt is increased by 3% per 10 Hatred.",
-      "category": "CareerTactic"
     },
   
     {
@@ -1045,7 +1013,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Mind Killer will now reduce all healing cast by the target to 50%",
+      "description": "Mind Killer will now reduce all healing cast by the target to 50% for the duration.",
       "category": "CareerTactic"
     },
   
@@ -1109,7 +1077,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Hateful Strike will now grant an unique bonus to toughness for 20 seconds based on your Hate.<br> With 30 Hate: Increase toughness by 15%. <br> With 60 Hate: Increase toughness by 30%. <br> With 90 Hate: Increase toughness by 45%.",
+      "description": "Hateful Strike will now grant a tactic bonus to toughness for 10 seconds for you and your dark protected ally if they are within 50 feet based on your Hate.<br> With 30 Hate: Increase toughness by (1 * rank). <br> With 60 Hate: Increase toughness by (2 * rank). <br> With 90 Hate: Increase toughness by (3 * rank).",
       "category": "CareerTactic"
     },
   
@@ -1190,22 +1158,6 @@
       "cooldown": "20.0s cooldown",
       "note": "",
       "description": "A great wave spreads 40 feet in front of you, inflicting X physical damage and reducing movement by 40% for 10 seconds.",
-      "category": "Ability"
-    },
-	
-	 {
-      "image": "99999",
-      "id": 6101,
-      "name": "Rebounding Hatred",
-      "type": "Buff",
-      "spec": "Path of Malice",
-      "minrank": "1",
-      "cost": "Costs 20 AP/Sec",
-      "range": "No range",
-      "incant": "20s Cast",
-      "cooldown": "No cooldown",
-      "note": "Requires Great Weapon",
-      "description": "You focus on your glaive with great vitriol, forming a veil of Hatred between you and your opponent. Your chance to dodge, disrupt and parry attacks are increased by 50%, and whenever you defend against an attack, you will reflect back X physical damage.",
       "category": "Ability"
     }
   ]
