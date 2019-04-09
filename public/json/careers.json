@@ -126,7 +126,7 @@
     "class": "Healer"
   },
   "black-orc": {
-    "name": "Black Orc (Not Live)",
+    "name": "Black Orc",
     "slug": "black-orc",
     "faction": "Destruction",
     "race": "Greenskin",
@@ -200,13 +200,6 @@
     "slug": "shouldvebeenadps",
     "faction": "Order",
     "race": "High Elf",
-    "class": "Tank"
-  },
-   "penisreference": {
-    "name": "Black Orc (Direction)",
-    "slug": "penisreference",
-    "faction": "Destruction",
-    "race": "Greenskin",
     "class": "Tank"
   },
    "woodchuck": {
