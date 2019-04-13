@@ -201,5 +201,12 @@
     "faction": "Order",
     "race": "Dwarf",
     "class": "Melee DPS"
+  },
+     "crabpeople": {
+    "name": "",
+    "slug": "crabpeople",
+    "faction": "",
+    "race": "",
+    "class": ""
   }
 }
