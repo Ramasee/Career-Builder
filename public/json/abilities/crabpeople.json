@@ -3,7 +3,7 @@
     "a": {
       "name": "Path of Savagery",
       "optionalAbilities": {
-        "lvl1": 8000,
+        "lvl1": 5186,
         "lvl2": 5209,
         "lvl3": 5210,
         "lvl4": 5211,
@@ -16,28 +16,28 @@
     "b": {
       "name": "Path of Brutality",
       "optionalAbilities": {
-        "lvl1": 8000,
+        "lvl1": 5187,
         "lvl2": 5216,
-        "lvl3": 8000,
+        "lvl3": 5191,
         "lvl4": 5218,
-        "lvl5": 8000,
-        "lvl6": 8000,
+        "lvl5": 5222,
+        "lvl6": 5181,
         "lvl7": 5221
       },
-      "coreAbilities": [5176,5180,5167,5164,5181]
+      "coreAbilities": [5176,5180,5167,5164,5182]
     },
     "c": {
       "name": "Path of Monstrosity",
       "optionalAbilities": {
-        "lvl1": 8000,
+        "lvl1": 5224,
         "lvl2": 5223,
-        "lvl3": 5224,
+        "lvl3": 8000,
         "lvl4": 5225,
         "lvl5": 5226,
         "lvl6": 5227,
         "lvl7": 5228
       },
-      "coreAbilities": [5182,5171,5264,5179,5170,5220]
+      "coreAbilities": [5171,5264,5179,5170,5220]
     }
   },
   "data": [  
@@ -319,7 +319,7 @@
       "id": 5187,
       "name": "Deeply Impaled",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Brutality",
       "minrank": "31",
       "cost": "Tactic",
       "range": "No range",
@@ -358,7 +358,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Gift of Savagery",
-      "description": "You quickly rake your target twice, dealing X physical damage with each hit. The victim will regain action points 50% more slowly for 10 seconds.",
+      "description": "You quickly rake your target twice, dealing X physical damage with each hit. The victim will regain action points 50% more slowly for 9 seconds.",
       "category": "Ability"
     },
   
@@ -660,9 +660,9 @@
       "cost": "Costs 40 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
-      "note": "Requires Parry<br>Requires Gift of Brutality",
-      "description": "A savage attack that guts your opponent for X physical damage, and makes your next damaging ability within 5 seconds automatically critical.",
+      "cooldown": "15.0s cooldown",
+      "note": "Requires Gift of Brutality",
+      "description": "A savage attack that guts your opponent for X physical damage, and grants you +50% melee critical for 5 seconds.",
       "category": "Ability"
     },
     
@@ -671,14 +671,14 @@
       "id": 5222,
       "name": "Hulking Brute",
       "type": "Buff",
-      "spec": "Path of Monstrosity",
+      "spec": "Path of Brutality",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gift of Monstrosity grants a 160 unique bonus to toughness and initiative.",
+      "description": "Your autoattack damage is increased by 50%.",
       "category": "CareerTactic"
     },
   
@@ -815,7 +815,7 @@
       "id": 5191,
       "name": "Piercing Bite",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Brutality",
       "minrank": "39",
       "cost": "Tactic",
       "range": "No range",
@@ -879,14 +879,14 @@
       "id": 5186,
       "name": "Rend Asunder",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Savagery",
       "minrank": "27",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases Rend's duration by an additional 6 seconds.",
+      "description": "Increase the duration of Redn, Draining Swipe, and Thunderous Blow by 6 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1014,7 +1014,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "A particularly nasty blow that inflicts X physical damage to your target and causes the target to take a X ability penalty to wounds for 20 seconds.",
+      "description": "A particularly nasty blow that deals X physical damage every 3 seconds and causes the target to take a (Rank * 3) ability penalty to wounds for 9 seconds.",
       "category": "Ability"
     },
   
@@ -1173,7 +1173,7 @@
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires Gift of Brutality",
+      "note": "Requires Gift of Monstrosity",
       "description": "Wildly lashes out at all targets directly in front of you up to 40 feet away, dealing X physical damage and preventing all who are hit from generating morale for 5 seconds.",
       "category": "Ability"
     },
