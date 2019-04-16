@@ -31,7 +31,7 @@
       "optionalAbilities": {
         "lvl1": 5224,
         "lvl2": 5223,
-        "lvl3": 8000,
+        "lvl3": 5215,
         "lvl4": 5225,
         "lvl5": 5226,
         "lvl6": 5227,
@@ -205,16 +205,16 @@
     {
       "image": "22701",
       "id": 5215,
-      "name": "Corrupted Edge",
+      "name": "Regenerative Mutations",
       "type": "Buff",
-      "spec": "Path of Brutality",
+      "spec": "Path of Monstrosity",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gift of Brutality causes you to gain a 160 unique bonus to strength and initiative.",
+    "description": "Whenever you trigger the effects of any of your Mutations, you will be healed for X every second for 5 seconds.",
       "category": "CareerTactic"
     },
   
@@ -566,7 +566,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Grants Gift of Monstrosity",
-      "description": "You are imbued with the Gift of Monstrosity, warping and twisting the flesh of your arm into a vicious club.<br><br>While mutated, your attacks have a 25% chance to empower you for 5 seconds, gradually restoring 1032 health and letting you shrug off your enemy's armor penetration.",
+      "description": "You are imbued with the Gift of Monstrosity, warping and twisting the flesh of your arm into a vicious club.<br><br>While mutated, your attacks have a 25% chance to empower you for 5 seconds, granting you 50% reduced armor penetration and a (Rank *3) unique bonus to toughness.",
       "category": "Ability"
     },
   
