@@ -228,7 +228,7 @@
       "cost": "Costs 40 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon",
       "description": "You unleash a powerful blow, dealing X physical damage.<br><br>If you are furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
@@ -789,7 +789,7 @@
       "range": "5ft range",
       "incant": "Instant cast",
       "cooldown": "25.0s cooldown",
-      "note": "",
+      "note": "Exhausts your Rage",
       "description": "For the next 10 seconds, all of your Path of the Skavenslayer abilities have a 25% chance to deal additional X physical damage.",
       "category": "Ability"
     },
@@ -819,7 +819,7 @@
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "5ft range",
-      "incant": "5.0s channel",
+      "incant": "Instant Cast",
       "cooldown": "25.0s cooldown",
       "note": "",
       "description": "A merciless attack that deals X physical damage. Over the next 10 seconds, you will gain 15 action points and 15 rage every second.",
@@ -949,8 +949,8 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Target must be facing away from you",
-      "description": "You deal X physical damage to your enemy.",
+      "note": "",
+      "description": "You deal 0.7X physical damage to your enemy. Deals X physical damage if the enemy is facing away from you.",
       "category": "Ability"
     },
 
@@ -1105,7 +1105,7 @@
       "type": "Damaging",
       "spec": "Path of The Skavenslayer",
       "minrank": "6",
-      "cost": "Costs 55 AP",
+      "cost": "Costs 35 AP",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
