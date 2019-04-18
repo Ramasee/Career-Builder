@@ -100,7 +100,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "25.0s cooldown",
-      "note": "",
+      "note": "Exhausts your Rage",
       "description": "For the next 5 seconds, for each enemy you successful strike with a direct damage ability, you will gain a stack of Green With Fury. After the 5 seconds is over, you will deal X physical damage to all enemies within 30 feet every 2 seconds consuming 10 stacks of Green With Fury.<br><br>This pulse effect will end when you run out of stacks.",
       "category": "Ability"
     },
@@ -532,8 +532,8 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Target must be facing away from you",
-      "description": "You deal X physical damage to your enemy.",
+      "note": "",
+      "description": "You deal 0.7X physical damage to your enemy. You will deal X physical damage if behind your target.",
       "category": "Ability"
     },
   
@@ -677,7 +677,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You wildly swing at enemies in front of you within 25 feet, dealing anywhere from X physical damage to Y physical damage.",
+      "description": "You wildly swing at up to 3 enemies in front of you within 25 feet, dealing anywhere from X physical damage to Y physical damage.",
       "category": "Ability"
     },
   
@@ -995,7 +995,7 @@
       "cost": "Costs 40 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "Must be furious or berserk<br>Exhausts your Rage<br>Requires Great Weapon",
       "description": "You unleash a powerful blow, dealing X physical damage.<br><br>If you are furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
@@ -1040,7 +1040,7 @@
       "type": "Damaging",
       "spec": "Path of Da' Wrecka",
       "minrank": "6",
-      "cost": "Costs 55 AP",
+      "cost": "Costs 35 AP",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
