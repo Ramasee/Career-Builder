@@ -236,20 +236,20 @@
     },
   
     {
-      "image": "22703",
-      "id": 5298,
-      "name": "Divine Fury",
-      "type": "Buff",
+      "image": "23151",
+      "id": 3445,
+      "name": "Divine Favor",
+      "type": "Healing",
       "spec": "Core Ability",
-      "minrank": "13",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
+      "minrank": "8",
+      "cost": "Rank 1 morale",
+      "range": "150ft range",
+      "incant": "Instant Cast",
+      "cooldown": "1m cooldown",
       "note": "",
-      "description": "You deal 25% more damage, but all of your healing becomes 20% less effective.",
-      "category": "CareerTactic"
-    },
+      "description": "A strong heal that will restore 1800 health to your target.",
+      "category": "Morale"
+},
   
     {
       "image": "23152",
@@ -624,7 +624,7 @@
       "id": 5280,
       "name": "Greener 'n Cleaner",
       "type": "Healing",
-      "spec": "Core Ability-",
+      "spec": "Core Ability",
       "minrank": "16",
       "cost": "Costs 35 AP",
       "range": "150ft range",
@@ -1087,7 +1087,7 @@
     {
       "image": "02585",
       "id": 5286,
-      "name": "You'z Squishy",
+      "name": "Sneaky and Clever",
       "type": "Buff",
       "spec": "Path of Da Green",
       "minrank": "40",
