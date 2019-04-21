@@ -69,6 +69,13 @@
     "race": "Dwarf",
     "class": "Melee DPS"
   },
+     "lostmyclothes": {
+    "name": "Slayer (Direction)",
+    "slug": "lostmyclothes",
+    "faction": "Order",
+    "race": "Dwarf",
+    "class": "Melee DPS"
+  },
   "archmage": {
     "name": "Archmage (Need Pass)",
     "slug": "archmage",
@@ -86,6 +93,13 @@
   "sword-master": {
     "name": "Sword Master (Not Live)",
     "slug": "sword-master",
+    "faction": "Order",
+    "race": "High Elf",
+    "class": "Tank"
+  },
+      "shouldvebeenadps": {
+    "name": "Swordmaster (Direction)",
+    "slug": "shouldvebeenadps",
     "faction": "Order",
     "race": "High Elf",
     "class": "Tank"
@@ -112,7 +126,7 @@
     "class": "Ranged DPS"
   },
   "marauder": {
-    "name": "Marauder (Need Pass)",
+    "name": "Marauder (Not Live)",
     "slug": "marauder",
     "faction": "Destruction",
     "race": "Chaos",
@@ -135,6 +149,13 @@
   "choppa": {
     "name": "Choppa (Not Live)",
     "slug": "choppa",
+    "faction": "Destruction",
+    "race": "Greenskin",
+    "class": "Melee DPS"
+  },
+     "woodchuck": {
+    "name": "Choppa (Direction)",
+    "slug": "woodchuck",
     "faction": "Destruction",
     "race": "Greenskin",
     "class": "Melee DPS"
@@ -181,33 +202,12 @@
     "race": "Dark Elf",
     "class": "Melee DPS"
   },
-    "shouldvebeenadps": {
-    "name": "Swordmaster (Direction)",
-    "slug": "shouldvebeenadps",
-    "faction": "Order",
-    "race": "High Elf",
-    "class": "Tank"
-  },
-   "woodchuck": {
-    "name": "Choppa (Proposal)",
-    "slug": "woodchuck",
-    "faction": "Destruction",
-    "race": "Greenskin",
-    "class": "Melee DPS"
-  },
-   "lostmyclothes": {
-    "name": "Slayer (Proposal)",
-    "slug": "lostmyclothes",
-    "faction": "Order",
-    "race": "Dwarf",
-    "class": "Melee DPS"
-  },
      "crabpeople": {
-    "name": "",
+    "name": "Marauder (Proposal)",
     "slug": "crabpeople",
-    "faction": "",
-    "race": "",
-    "class": ""
+    "faction": "Destruction",
+    "race": "Chaos",
+    "class": "Melee DPS"
   },
        "littlegreenmen": {
     "name": "",
