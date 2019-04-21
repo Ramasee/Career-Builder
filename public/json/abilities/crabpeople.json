@@ -149,7 +149,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you strike an enemy in melee with a direct attack, you will receive 25% less damage from ranged and magical attacks for 2 second. This effect will not stack with other damage reductions.",
+      "description": "Gain a 160 unique bonus to strength.",
       "category": "CareerTactic"
     },
 
