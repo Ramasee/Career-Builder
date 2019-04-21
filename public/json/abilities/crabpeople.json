@@ -1045,7 +1045,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires Gift of Monstrosity or Savagery",
+      "note": "Requires Gift of Brutality or Savagery",
       "description": "With Gift of Savagery, spreads an agonizing rot to your opponent for 10 seconds, inflicting X corporeal damage whenever they use a melee ability.<br><br>With Gift of Brutality, Target loses control over their magic, and for 10 seconds will inflict X corporeal damage to themselves whenever they use magic.",
       "category": "Ability"
     },
