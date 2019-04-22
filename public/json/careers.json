@@ -21,15 +21,8 @@
     "class": "Healer"
   },
     "witch-hunter": {
-    "name": "Witch Hunter (Not Live)",
+    "name": "Witch Hunter",
     "slug": "witch-hunter",
-    "faction": "Order",
-    "race": "Empire",
-    "class": "Melee DPS"
-  },
-    "hatman": {
-    "name": "Witch Hunter (Direction)",
-    "slug": "hatman",
     "faction": "Order",
     "race": "Empire",
     "class": "Melee DPS"
