@@ -83,7 +83,7 @@
       "spec": "Path of Gork",
       "minrank": "35",
       "cost": "Costs 35 AP",
-      "range": "65ft range",
+      "range": "100ft range",
       "incant": "1.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "Gork's Waaagh! reduces cast time. ",
@@ -775,7 +775,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you heal an ally with a Path of Mork ability, another ally within 30 feet of them will also gain X health as well.",
+      "description": "Any time you heal an ally with a Path of Mork ability, a groupmate within 50 feet of them will also gain X health as well.",
       "category": "CareerTactic"
     },
   
