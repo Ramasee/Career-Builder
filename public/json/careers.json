@@ -118,6 +118,13 @@
     "race": "Chaos",
     "class": "Melee DPS"
   },
+       "crabpeople": {
+    "name": "Marauder (Proposal)",
+    "slug": "crabpeople",
+    "faction": "Destruction",
+    "race": "Chaos",
+    "class": "Melee DPS"
+  },
   "zealot": {
     "name": "Zealot (Need Pass)",
     "slug": "zealot",
@@ -186,13 +193,6 @@
     "slug": "witch-elf",
     "faction": "Destruction",
     "race": "Dark Elf",
-    "class": "Melee DPS"
-  },
-     "crabpeople": {
-    "name": "Marauder (Proposal)",
-    "slug": "crabpeople",
-    "faction": "Destruction",
-    "race": "Chaos",
     "class": "Melee DPS"
   },
        "littlegreenmen": {
