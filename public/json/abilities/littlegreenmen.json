@@ -1047,7 +1047,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Life Leaka and Get N' Smarter will now effect all enemies within 30 feet of your target. The cooldowns on these abilities is increased to 15 seconds.",
+      "description": "Life Leaka and Get N' Smarter will now effect all enemies within 30 feet of your target. The cooldowns on these abilities are increased by 5 seconds.",
       "category": "CareerTactic"
     },
   
