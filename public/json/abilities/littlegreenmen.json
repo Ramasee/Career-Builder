@@ -83,7 +83,7 @@
       "spec": "Path of Gork",
       "minrank": "35",
       "cost": "Costs 35 AP",
-      "range": "100ft range",
+      "range": "80ft range",
       "incant": "1.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "Gork's Waaagh! reduces cast time. ",
@@ -163,7 +163,7 @@
       "spec": "Path of Gork",
       "minrank": "6",
       "cost": "Costs 13 AP/sec",
-      "range": "100ft range",
+      "range": "80ft range",
       "incant": "6.0s channel",
       "cooldown": "11.0s cooldown",
       "note": "Gork's Waaagh! increases effectiveness. ",
@@ -839,7 +839,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "Gork's Waaagh! increases effectiveness.",
-      "description": "A cone of energy strikes enemies in front of you, up to 40 feet away, dealing X elemental damage and causing them to take a Y ability penalty to elemental resistance for 20 seconds.",
+      "description": "A cone of energy strikes enemies in front of you, up to 65 feet away, dealing X elemental damage and causing them to take a Y ability penalty to elemental resistance for 20 seconds.",
       "category": "Ability"
     },
   
