@@ -90,13 +90,6 @@
     "race": "High Elf",
     "class": "Tank"
   },
-      "shouldvebeenadps": {
-    "name": "Swordmaster (Direction)",
-    "slug": "shouldvebeenadps",
-    "faction": "Order",
-    "race": "High Elf",
-    "class": "Tank"
-  },
   "white-lion": {
     "name": "White Lion",
     "slug": "white-lion",
