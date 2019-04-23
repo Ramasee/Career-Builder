@@ -631,7 +631,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Target must be cursed or ailing",
-      "description": "You cleanse an ally, removing one curse or ailment. If an effect is removed, your ally will absorb up to X damage over 10 seconds.",
+      "description": "You cleanse an ally, removing one curse or ailment. If an effect is removed, your ally will absorb up to X damage over 10 seconds. <br><br>At 5 stacks of (dps stack), this ability will also target all groupmates and reset your Waaagh! to zero.",
       "category": "Ability"
     },
       
