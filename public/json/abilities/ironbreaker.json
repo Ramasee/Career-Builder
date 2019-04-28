@@ -662,7 +662,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Improves with Grudge<br>Requires Shield",
-      "description": "You declare that this is where you're making your stand, and nothing will make you change your mind. You are almost guaranteed to block up to the next 4 attacks made against you within 10 seconds, and you will deal X physical damage damage back to the attacker each time you block. The next Stonebreaker cast within 5 seconds will hit all enemies within 30 feet.<br><br> With 25 Grudges: Deals A physical damage back to the attacker.<br> With 50 Grudges: Deals B physical damage back to the attacker.<br> With 75 Grudges: Deals C physical damage back to the attacker.<br> With 100 Grudges: Deals D physical damage back to the attacker.",
+      "description": "You declare that this is where you're making your stand, and nothing will make you change your mind. All enemies within 30 feet are affected by Stonebreaker. You are almost guaranteed to block up to the next 4 attacks made against you within 10 seconds, and you will deal X physical damage damage back to the attacker each time you block.<br><br> With 25 Grudges: Deals A physical damage back to the attacker.<br> With 50 Grudges: Deals B physical damage back to the attacker.<br> With 75 Grudges: Deals C physical damage back to the attacker.<br> With 100 Grudges: Deals D physical damage back to the attacker.",
       "category": "Ability"
     },
 
@@ -1110,7 +1110,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Costs 20 Grudge",
-      "description": "You strike your enemy for X physical damage and your target has 5 second increased cooldowns for 5 seconds.",
+      "description": "You strike your enemy for X physical damage. The next direct damage attack your oathfriend does will deal an additional Y damage. If they are within 30 feet of you, you will deal an additional Y damage to the target as well.",
       "category": "Ability"
     },
   
