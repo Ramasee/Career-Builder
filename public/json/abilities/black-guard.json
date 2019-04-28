@@ -597,7 +597,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Shield (Maybe)",
-      "description": "Your intense fury allows you to shrug off the greatest of hits. For 10 seconds you gain a X ability bonus to armor. You and your groupmates if they are within 100 feet will also receive a unique bonus to initiative. <br> With 30 Hate: X initiative. <br> With 60 Hate: Y initiative. <br> With 90 Hate: Z initiative.",
+      "description": "Your intense fury allows you to shrug off the greatest of hits. All enemies within 30 feet are affected by Horrific Wound. For 10 seconds you gain a X ability bonus to armor. You and your groupmates if they are within 100 feet will also receive a unique bonus to initiative. <br> With 30 Hate: X initiative. <br> With 60 Hate: Y initiative. <br> With 90 Hate: Z initiative.",
       "category": "Ability"
     },
   
