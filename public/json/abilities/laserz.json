@@ -11,7 +11,7 @@
         "lvl6": 3462,
         "lvl7": 3460
       },
-      "coreAbilities": [3509,3418,3425,3412,(new buff)]
+      "coreAbilities": [3509,3418,3425,3412,6106]
     },
     "b": {
       "name": "Path of Asuryan",
@@ -741,7 +741,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Grants a X ability bonus to resistance to all groupmates within 100ft for 1 hour.",
+      "description": "Grants a X ability bonus to resistance to all groupmates within 100ft for 1 hour.<br><br>Groupmates can only be affected by either Prismatic Shield or Isha's Denial from one archmage.",
       "category": "Ability"
     },
   
@@ -1079,6 +1079,22 @@
       "note": "",
       "description": "Reduces the duration and tick interval of Searing Touch by 50%. Radiant Lance will deal X additional spiritual damage to enemies effected by Law of Conductivity.<br><br>You cannot use Cleansing Light, Walk Between Worlds, or Gift of Life",
       "category": "CareerTactic"
-    }	
+     },
+	  
+     {
+      "image": "22706",
+      "id": 6106,
+      "name": "Isha's Denial",
+      "type": "Enchantment",
+      "spec": "Path of Isha",
+      "minrank": "1",
+      "cost": "Costs 55 AP",
+      "range": "No range",
+      "incant": "Instant Cast",
+      "cooldown": "10.0s cooldown",
+      "note": "",
+      "description": "All groupmates within 100 feet gain Isha's Denial. All healing over time effects you can on groupmates will grant them 2% reduced chance to be critically hit.",
+      "category": "CareerTactic"
+    },
   ]
 }
