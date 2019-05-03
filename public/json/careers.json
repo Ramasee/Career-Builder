@@ -201,5 +201,12 @@
     "faction": "",
     "race": "",
     "class": ""
+  },
+    "laserz": {
+    "name": "",
+    "slug": "laserz",
+    "faction": "",
+    "race": "",
+    "class": ""
   }
 }
