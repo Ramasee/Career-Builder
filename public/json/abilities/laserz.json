@@ -300,16 +300,16 @@
     {
       "image": "13412",
       "id": 3466,
-      "name": "Dissipating Energies",
+      "name": "Dissipating Inergies (Jon <3)",
       "type": "Enchantment",
       "spec": "Path of Asuryan",
       "minrank": "1",
       "cost": "Costs 50 AP",
       "range": "100ft range",
       "incant": "2.0s cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "20.0s cooldown",
       "note": "Tranquility reduces cast time. <br>Builds Force",
-      "description": "A groupmate becomes surrounded by dangerous energies for 8 seconds. Every 2 seconds, all enemies within 30 feet of them will suffer X spirit damage.",
+      "description": "A groupmate becomes surrounded by dangerous energies for 5 seconds. Every second, all enemies within 30 feet of them will suffer X spiritual damage.",
       "category": "Ability"
     },
   
