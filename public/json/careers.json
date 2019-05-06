@@ -196,17 +196,17 @@
     "class": "Melee DPS"
   },
        "littlegreenmen": {
-    "name": "",
+    "name": "Shaman (Proposal)",
     "slug": "littlegreenmen",
-    "faction": "",
-    "race": "",
-    "class": ""
+    "faction": "Destruction",
+    "race": "Greenskin",
+    "class": "Healer"
   },
     "laserz": {
-    "name": "",
+    "name": "Archmage (Proposal)",
     "slug": "laserz",
-    "faction": "",
-    "race": "",
-    "class": ""
+    "faction": "Order",
+    "race": "High Elf",
+    "class": "Healer"
   }
 }
