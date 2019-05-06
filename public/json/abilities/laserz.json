@@ -643,7 +643,7 @@
       "cost": "Costs 20 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "No cooldown",
+      "cooldown": "1m cooldown",
       "note": "",
       "description": "If you have 5 stacks of Force, you generate to 5 stacks of Tranquility. If you have 5 stacks of Tranquility, you generate to 5 stacks of Force. This ability cannot be used if you do not have 5 stacks of either.",
       "category": "Ability"
