@@ -6,38 +6,38 @@
         "lvl1": 5623,
         "lvl2": 5631,
         "lvl3": 5625,
-        "lvl4": 5626,
+        "lvl4": 6100,
         "lvl5": 5627,
         "lvl6": 5628,
         "lvl7": 5629
       },
-      "coreAbilities": [5588,5679,5590,5589,5581]
+      "coreAbilities": [5588,5581,5589,5679,5590]
     },
     "b": {
       "name": "Path of Suffering",
       "optionalAbilities": {
         "lvl1": 5630,
-        "lvl2": 5624,
-        "lvl3": 5632,
-        "lvl4": 5635,
-        "lvl5": 5634,
-        "lvl6": 5633,
+        "lvl2": 5638,
+        "lvl3": 5639,
+        "lvl4": 5642,
+        "lvl5": 5599,
+        "lvl6": 5635,
         "lvl7": 5636
       },
-      "coreAbilities": [5595,5586,5583,5580,5593]
+      "coreAbilities": [5593,5586,5626,5580,5595]
     },
     "c": {
       "name": "Path of Treachery",
       "optionalAbilities": {
-        "lvl1": 5637,
-        "lvl2": 5638,
-        "lvl3": 5639,
-        "lvl4": 5640,
-        "lvl5": 5641,
-        "lvl6": 5642,
+        "lvl1": 5601,
+        "lvl2": 5624,
+        "lvl3": 5641,
+        "lvl4": 5633,
+        "lvl5": 5603,
+        "lvl6": 5579,
         "lvl7": 5643
       },
-      "coreAbilities": [5596,5591,5579,5597,5582]
+      "coreAbilities": [5596,5597,5583,5582,5591]
     }
   },
   "data": [
@@ -165,7 +165,7 @@
     "incant": "Passive",
     "cooldown": "No cooldown",
     "note": "",
-    "description": "Slice, Blood Bomb, and Sharpened Blades will now deal corporeal damage.",
+    "description": "Slice, Blood Bomb (PH), and Sharpened Blades will now deal corporeal damage.",
     "category": "CareerTactic"
   },
 
@@ -277,7 +277,7 @@
     "incant": "Instant Cast",
     "cooldown": "1m cooldown",
     "note": "",
-    "description": "A powerful witch's brew which hastens your reactions for the next 7 seconds. Any time an enemy strikes you, you will deal X physical damage back to them and enemies within 20 feet of them.<br>You may only use a single elixir at a time.",
+    "description": "A powerful witch's brew which hastens your reactions for the next 7 seconds. Any time an enemy strikes you, you will deal X physical damage back to them and enemies within 20ft of them. This effect can only happen once every 2 seconds per target hitting you.<br>You may only use a single elixir at a time.",
     "category": "Ability"
   },
 
@@ -300,7 +300,7 @@
   {
     "image": "10987",
     "id": 5638,
-    "name": "Elixir of the Cauldron",
+    "name": "Elixir of the Suffering",
     "type": "Buff",
     "spec": "Path of Treachery",
     "minrank": "1",
@@ -485,7 +485,7 @@
     "incant": "Passive",
     "cooldown": "No cooldown",
     "note": "",
-    "description": "Whenever you kill an enemy, you will gain 720 morale and move 30% faster for 5s. This effect cannot happen more than once every minute.",
+    "description": "Whenever you kill an enemy, the cooldown on shadow prowler will be reset. This effect cannot happen more than once every 30 seconds.",
     "category": "CareerTactic"
   },
 
@@ -609,11 +609,11 @@
     "spec": "Path of Carnage",
     "minrank": "4",
     "cost": "Costs 20 AP",
-    "range": "No range",
+    "range": "5ft range",
     "incant": "Instant Cast",
-    "cooldown": "30.0s cooldown",
-    "note": "Builds 2 Blood Lust",
-    "description": "You cover your blades with a toxic concoction and slash it towards enemies 30 feet in front of you dealing X corporeal damage. For the next minute, anytime you damage these enemies there is a 25% chance that your target will take an extra Y corporeal causing them to take a (2 * rank) initiative penalty for the next 10 seconds.<br><br>Your target can only be affected by one of your kisses at a time, but can be affected by kisses from multiple Witch Elves.",
+    "cooldown": "10.0s cooldown",
+    "note": "You may only have one Kiss active.",
+    "description": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra X corporeal damage. The concoction seeps into your enemy, causing them to take a (2 * rank) initiative penalty for the next 10 seconds. You capitalize on their momentary weakness, granting you a ability bonus to initiative for the same amount during this time.",
     "category": "Ability"
   },
 
@@ -627,9 +627,9 @@
     "cost": "Costs 20 AP",
     "range": "5ft range",
     "incant": "Instant Cast",
-    "cooldown": "30.0s cooldown",
-    "note": "Builds 2 Blood Lust",
-    "description": "You cover your blades with a toxic concoction as you strike your target for X corporeal damage. For the next minute, anytime you damage this enemy there is a 25% chance that your target will take an extra Y corporeal damage and lose 20 action points. You will gain 20 action points each time this effect happens.<br><br>Your target can only be affected by one of your kisses at a time, but can be affected by kisses from multiple Witch Elves.",
+    "cooldown": "10.0s cooldown",
+    "note": "You may only have one Kiss active.",
+    "description": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra X corporeal damage. The concoction seeps into your enemy, causing them to lose 20 action points. Seeing your enemy suffer causes you to gain as many action points as they have lost.",
     "category": "Ability"
   },
 
@@ -643,11 +643,11 @@
     "cost": "Costs 20 AP",
     "range": "5ft range",
     "incant": "Instant Cast",
-    "cooldown": "30.0s cooldown",
-    "note": "Builds 2 Blood Lust",
-    "description": "You cover your blades with a toxic concoction as you strike your target for X corporeal damage. For the next minute, anytime you damage this enemy there is a 25% chance that your target will take an extra Y corporeal damage causing all healing done by them to be reduced to 50% for the next 5 seconds.",
+    "cooldown": "10.0s cooldown",
+    "note": "You may only have one Kiss active.",
+    "description": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra X corporeal damage. The concoction seeps into your enemy, causing all healing done by them to be reduced to 50% for the next 5 seconds.",
     "category": "Ability"
-  },
+},
 
   {
     "image": "22694",
@@ -704,14 +704,14 @@
     "type": "Debuff",
     "spec": "Path of Treachery",
     "minrank": "1",
-    "cost": "Rank 2 morale",
+    "cost": "Rank 4 morale",
     "range": "No range",
     "incant": "Instant Cast",
     "cooldown": "1m cooldown",
-    "note": "Requires 15 points in the Path of Treachery",
-    "description": "All enemies within 30 feet instantly lose 125 action points, and the cooldown on Shadow Prowler is reset.",
+    "note": "",
+    "description": "All enemies within 30 feet instantly lose 125 action points, and will regain action points 50% more slowly for the next 10 seconds.",
     "category": "Morale"
-  },
+},
 
   {
     "image": "23412",
@@ -1109,7 +1109,7 @@
     "incant": "Passive",
     "cooldown": "No cooldown",
     "note": "",
-    "description": "Your attacks which build blood lust will now have a 50% chance to build one additional blood lust. Treacherous Assault, Enfeebling Strike, and Vehement Blades will now generate 3 blood lust.",
+    "description": "Your attacks which build blood lust will now have a 50% chance to build one additional blood lust. Treacherous Assault, Enfeebling Strike, and Vehement Blades will now generate 1 additional blood lust.",
     "category": "CareerTactic"
   },
 
@@ -1148,7 +1148,7 @@
   {
     "image": "99999",
     "id": 6100,
-    "name": "Blood Bomb",
+    "name": "Blood Bomb (PH)",
     "type": "Damaging",
     "spec": "Path of Carnage",
     "minrank": "10",
@@ -1157,7 +1157,7 @@
     "incant": "Instant cast",
     "cooldown": "30.0s cooldown",
     "note": "",
-    "description": "Throw a potion on the ground interupting all enemies within 30 feet. They will take X physical damage over 6 seconds.",
+    "description": "You throw a potion on the ground dealing X physical damage and interupting all enemies within 20 feet. For the next 6 seconds, this effect will happen again every 2 seconds.",
     "category": "Ability"
   },
   
@@ -1176,5 +1176,5 @@
     "description": "Any time you strike an enemy in melee with a direct attack, you will recieve 25% less damage from ranged or magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
     "category": "CareerTactic"
   }
-]
+
 }
