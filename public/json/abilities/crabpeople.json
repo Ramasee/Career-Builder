@@ -11,7 +11,7 @@
         "lvl6": 5168,
         "lvl7": 5214
       },
-      "coreAbilities": [5172,5175,5163,5166,5213]
+      "coreAbilities": [5175,5163,5166,5213,5181]
     },
     "b": {
       "name": "Path of Brutality",
@@ -21,10 +21,10 @@
         "lvl3": 5191,
         "lvl4": 5218,
         "lvl5": 5222,
-        "lvl6": 5181,
+        "lvl6": 5176,
         "lvl7": 5221
       },
-      "coreAbilities": [5176,5180,5167,5164,5182]
+      "coreAbilities": [5180,5167,5164,5182,5172]
     },
     "c": {
       "name": "Path of Monstrosity",
@@ -230,7 +230,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Corruption spreads to your target, dealing X physical damage and your target takes a (rank * 3) ability penalty to toughness for 20 seconds.",
+      "description": "Deals X physical damage to the target. Corruption spreads into the target for 10 seconds based on your Gift.<br>Savagery: Target takes a (3 * rank) ability penalty to toughness.<br>Brutality: Target takes Y damage at the end of the duration.<br>Monstrosity: Target takes a (3 * rank) ability penalty to weaponskill.",
       "category": "Ability"
     },
   
@@ -571,22 +571,6 @@
     },
   
     {
-      "image": "05215",
-      "id": 5267,
-      "name": "Gift of Release",
-      "type": "Debuff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "No AP Cost",
-      "range": "No range",
-      "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
-      "note": "Requires a Mutation",
-      "description": "Releases your current mutation.",
-      "category": "Ability"
-    },
-  
-    {
       "image": "05189",
       "id": 5266,
       "name": "Gift of Savagery",
@@ -655,14 +639,14 @@
       "id": 5181,
       "name": "Gut Ripper",
       "type": "Damaging",
-      "spec": "Path of Brutality",
+      "spec": "Path of Savagery",
       "minrank": "30",
       "cost": "Costs 40 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "15.0s cooldown",
-      "note": "Requires Gift of Brutality",
-      "description": "A savage attack that guts your opponent for X physical damage, and grants you +50% melee critical for 5 seconds.",
+      "note": "Requires Parry<br>Requires Gift of Savagery",
+      "description": "A savage attack that guts your opponent for X physical damage, your next attack within 5s will be a critical hit.",
       "category": "Ability"
     },
     
@@ -886,7 +870,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increase the duration of Redn, Draining Swipe, and Thunderous Blow by 6 seconds.",
+      "description": "Rend and Corruption will now spread their secondary effects to other enemies within 30 feet of the target.",
       "category": "CareerTactic"
     },
   
@@ -1025,12 +1009,12 @@
       "type": "Ailment",
       "spec": "Path of Brutality",
       "minrank": "14",
-      "cost": "Costs 25 AP",
+      "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "15.0s cooldown",
+      "cooldown": "20.0s cooldown",
       "note": "Requires Gift of Brutality",
-      "description": "Deals X physical damage to the target. If you critically hit, you will be healed for Y. This ability has +95% critical damage.",
+      "description": "Deals X physical damage to the target. You steal 10% critical damage from your target for the next 10 seconds.",
       "category": "Ability"
     },
   
@@ -1039,14 +1023,14 @@
       "id": 5172,
       "name": "Touch of Chaos",
       "type": "Ailment",
-      "spec": "Path of Savagery",
+      "spec": "Path of Brutality",
       "minrank": "9",
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Gift of Brutality or Savagery",
-      "description": "With Gift of Savagery, spreads an agonizing rot to your opponent for 10 seconds, inflicting X corporeal damage whenever they use a melee ability.<br><br>With Gift of Brutality, Target loses control over their magic, and for 10 seconds will inflict X corporeal damage to themselves whenever they use magic.",
+      "description": "With Gift of Brutality, spreads an agonizing rot to your opponent for 10 seconds, inflicting X corporeal damage whenever they use a melee ability.<br><br>With Gift of Savagery, Target loses control over their magic, and for 10 seconds will inflict X corporeal damage to themselves whenever they use magic.",
       "category": "Ability"
     },
   
