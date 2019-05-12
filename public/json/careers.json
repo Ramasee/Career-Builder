@@ -208,5 +208,12 @@
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Melee DPS"
+  },
+  "DwarvenNRA": {
+    "name": "",
+    "slug": "DwarvenNRA",
+    "faction": "",
+    "race": "",
+    "class": ""
   }
 }
