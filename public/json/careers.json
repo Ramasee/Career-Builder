@@ -76,6 +76,13 @@
     "race": "High Elf",
     "class": "Healer"
   },
+      "laserz": {
+    "name": "Archmage (Direction)",
+    "slug": "laserz",
+    "faction": "Order",
+    "race": "High Elf",
+    "class": "Healer"
+  },
   "shadow-warrior": {
     "name": "Shadow Warrior (Need Pass)",
     "slug": "shadow-warrior",
@@ -160,6 +167,13 @@
     "race": "Greenskin",
     "class": "Healer"
   },
+         "littlegreenmen": {
+    "name": "Shaman (Direction)",
+    "slug": "littlegreenmen",
+    "faction": "Destruction",
+    "race": "Greenskin",
+    "class": "Healer"
+  },
   "squig-herder": {
     "name": "Squig Herder (Need Pass)",
     "slug": "squig-herder",
@@ -194,19 +208,5 @@
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Melee DPS"
-  },
-       "littlegreenmen": {
-    "name": "Shaman (Proposal)",
-    "slug": "littlegreenmen",
-    "faction": "Destruction",
-    "race": "Greenskin",
-    "class": "Healer"
-  },
-    "laserz": {
-    "name": "Archmage (Proposal)",
-    "slug": "laserz",
-    "faction": "Order",
-    "race": "High Elf",
-    "class": "Healer"
   }
 }
