@@ -138,23 +138,6 @@
     },
 
     {
-      "image": "22701",
-      "id": 5196,
-      "name": "Brute Force",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "19",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Gain a 160 unique bonus to strength.",
-      "category": "CareerTactic"
-    },
-
-  
-    {
       "image": "05204",
       "id": 5225,
       "name": "Concussive Jolt",
@@ -454,7 +437,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Your target is engulfed in the chaotic flames of fate, dealing 900 damage and roots them in place for 5 seconds.",
+      "description": "Your target is engulfed in the chaotic flames of fate, dealing 900 damage and roots them in place for 10 seconds.",
       "category": "Morale"
     },
   
@@ -854,7 +837,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Gift of Savagery or Brutality",
-      "description": "You tear into your target, dealing X physical damage immediately and an additional Y physical damage over 10 seconds. The damage over time will stack with itself up to three times.<br><br>With Gift of Savagery, the damage over time will deal Z% more damage. With Gift of Brutality, you will apply 3 stacks of rend on cast.",
+      "description": "You tear into your target, dealing X physical damage immediately and an additional Y physical damage over 10 seconds. The damage over time will stack with itself up to three times.<br><br>With Gift of Brutality, the damage over time will deal Z% more damage. With Gift of Savagery, you will apply 3 stacks of rend on cast.",
       "category": "Ability"
     },
   
