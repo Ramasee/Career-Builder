@@ -135,7 +135,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Generates 5 stacks of Improvised Upgrades.",
+      "description": "Generates 8 stacks of Improvised Upgrades and returns 5 stacks of structure to your turret.",
       "category": "Morale"
     },
   
@@ -197,9 +197,9 @@
       "cost": "Costs 55 AP",
       "range": "No range",
       "incant": "2.0s cast",
-      "cooldown": "15.0s cooldown",
+      "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "You construct a mid-range grenade turret. You generate Improvised Upgrades if you are within 40 feet. You will lose IU starting at 81ft or if another turret is contructed. Cooldown begins when the turret is summoned or destroyed.",
+      "description": "You construct a mid-range grenade turret. You generate Improvised Upgrades if you are within 40 feet. You will lose IU starting at 81ft or if another turret is contructed.",
       "category": "Ability"
     },
 
@@ -485,9 +485,9 @@
       "cost": "Costs 55 AP",
       "range": "No range",
       "incant": "2.0s cast",
-      "cooldown": "15.0s cooldown",
+      "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "You construct a short-range, flamethrower turret. You generate Improvised Upgrades if you are within 30 feet. You will lose IU starting at 31ft or if another turret is contructed. Cooldown begins when the turret is summoned or destroyed.",
+      "description": "You construct a short-range, flamethrower turret. You generate Improvised Upgrades if you are within 30 feet. You will lose IU starting at 31ft or if another turret is contructed.",
       "category": "Ability"
     },
   
@@ -629,9 +629,9 @@
       "cost": "Costs 55 AP",
       "range": "No range",
       "incant": "2.0s cast",
-      "cooldown": "15.0s cooldown",
+      "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "You construct a long-range, machine-gun turret. You generate Improvised Upgrades if you are within 30 feet. You will lose IU starting at 31ft or if another turret is contructed. Cooldown begins when the turret is summoned or destroyed.",
+      "description": "You construct a long-range, machine-gun turret. You generate Improvised Upgrades if you are within 30 feet. You will lose IU starting at 31ft or if another turret is contructed.",
       "category": "Ability"
     },
     
@@ -834,7 +834,7 @@
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "3",
-      "cost": "No cost",
+      "cost": "Costs 40 AP",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
@@ -855,7 +855,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Adds 160 wounds to your turrets.",
+      "description": "Your turrets are summoned with 25 stacks of Structure rather than 10.",
       "category": "CareerTactic"
     },
   
@@ -1127,7 +1127,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You can now construct your turrets instantly and their action point cost is reduced to 20.",
+      "description": "You can now construct your turrets instantly and redeploy's action point cost is reduced to 0.",
       "category": "CareerTactic"
     },
 
@@ -1143,10 +1143,25 @@
       "incant": "2.0s interval",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You generate 1 stack of Improvised Upgrades every 2 seconds, maximum of 5 stacks. Improvised Upgrades grants you +4% outgoing damage pus additional benefits based on active turret per stack.<br>Gun Turret: +5% range for you and your turret.<br>Bombardment Turret: Reduces the duration and tick interval of Path of Grenadier/Tinkerer DoTs by 7%. +5% turret range.<br>Flame Turret: +2 to AoE target limit, +6% AoE radius, +4% dodge/disrupt for you and turret, -5% range.",
+      "description": "You generate 1 stack of Improvised Upgrades every 2 seconds, maximum of 8 stacks.<BR><BR>Gun Turret: Each stack gives you +5% damage and +5% range (max of 25% range).<BR>BR>Bombardment Turret: If you have at least one stack, you can use Path of Grenadier abilities while moving and they have 35% faster tick intervals and durations. Each time you use an ability, lose one stack.<BR><BR>Flame Turret: Each time you use an ability lose one stack. Your Path of Tinkerer abilites grant you 30% dodge/disrupt for 3 seconds, have a 6 increased target cap, and 50% increased radius.",
       "category": "Ability"
     },
 
+        {
+      "image": "00000",
+      "id": 8001,
+      "name": "Structure",
+      "type": "Buff",
+      "spec": "Path of the Tinkerer",
+      "minrank": "1",
+      "cost": "No cost",
+      "range": "No range",
+      "incant": "No cast",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "All of your turrets are summoned with 10 stacks of this buff. Your turret gains (Rank * 2) wounds, toughness, initiative, and all resistances. Your turret gains (Rank * 5) armor. Each time your turret takes direct damage, it will lose one stack of structure.",
+      "category": "Ability"
+    },
 
     {
       "image": "04531",
