@@ -1143,7 +1143,7 @@
       "incant": "2.0s interval",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You generate 1 stack of Improvised Upgrades every 2 seconds, maximum of 8 stacks.<BR><BR>Gun Turret: Each stack gives you +5% damage and +5% range (max of 25% range).<BR>BR>Bombardment Turret: If you have at least one stack, you can use Path of Grenadier abilities while moving and they have 35% faster tick intervals and durations. Each time you use an ability, lose one stack.<BR><BR>Flame Turret: Each time you use an ability lose one stack. Your Path of Tinkerer abilites grant you 30% dodge/disrupt for 3 seconds, have a 6 increased target cap, and 50% increased radius.",
+      "description": "You generate 1 stack of Improvised Upgrades every 2 seconds, maximum of 8 stacks.<BR><BR>Gun Turret: Each stack gives you +5% damage and +5% range (max of 25% range).<BR><BR>Bombardment Turret: If you have at least one stack, you can use Path of Grenadier abilities while moving and they have 35% faster tick intervals and durations. Each time you use an ability, lose one stack.<BR><BR>Flame Turret: Each time you use an ability lose one stack. Your Path of Tinkerer abilites grant you 30% dodge/disrupt for 3 seconds, have a 6 increased target cap, and 50% increased radius.",
       "category": "Ability"
     },
 
