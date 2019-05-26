@@ -29,15 +29,15 @@
     "c": {
       "name": "Path of The Tinkerer",
       "optionalAbilities": {
-        "lvl1": 3639,
+        "lvl1": 3636,
         "lvl2": 3675,
         "lvl3": 3676,
         "lvl4": 3677,
         "lvl5": 3678,
         "lvl6": 3679,
-        "lvl7": 8000
+        "lvl7": 3670
       },
-      "coreAbilities": [3634,3616,3624,3618,3670,8001]
+      "coreAbilities": [3634,3616,3624,3618,3615,8001]
     }
   },
   "data": [
@@ -400,7 +400,7 @@
       "id": 3639,
       "name": "Extra Ammo",
       "type": "Buff",
-      "spec": "Path of The Tinkerer",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
@@ -848,7 +848,7 @@
       "id": 3636,
       "name": "Reinforced Casing",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of the Tinkerer",
       "minrank": "15",
       "cost": "Tactic",
       "range": "No range",
@@ -892,18 +892,18 @@
     },
   
     {
-      "image": "04603",
+      "image": "abi_dw_melee07",
       "id": 3615,
-      "name": "Shock Grenade",
+      "name": "Repairing a Sentry",
       "type": "Healing",
-      "spec": "Core Ability",
+      "spec": "Path of the Tinkerer",
       "minrank": "22",
-      "cost": "No AP Cost",
-      "range": "65ft range",
-      "incant": "Instant Cast",
+      "cost": "Costs 10 AP/sec",
+      "range": "30ft range",
+      "incant": "4.5s channel",
       "cooldown": "20.0s cooldown",
       "note": "Requires a Turret",
-      "description": "You toss a grenade at an ally which removes stagger effects from them and five others within 25 feet.",
+      "description": "Every half second restores 1 structure to your turret and heals it for (Rank * 30).",
       "category": "Ability"
     },
   
@@ -1026,13 +1026,13 @@
       "type": "Damaging",
       "spec": "Path of The Tinkerer",
       "minrank": "1",
-      "cost": "Costs 55 AP",
+      "cost": "Rank 3 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "1m cooldown",
       "note": "",
-      "description": "You call for air support, signaling for a strafing run which deals X physical damage to all enemies in a line in front of you, up to 65 feet away. Any enemy players hit by the powerful shells will be sent flying away from you, while monsters will be knocked down.",
-      "category": "Ability"
+      "description": "You call for air support, signaling for a strafing run which deals 1200 damage to up to 18 enemies in a line in front of you, up to 65 feet away. Any enemy players hit by the powerful shells will be sent flying away from you, while monsters will be knocked down.",
+      "category": "Morale"
     },
   
     {
@@ -1148,7 +1148,7 @@
     },
 
         {
-      "image": "00000",
+      "image": "abi_dw_range15",
       "id": 8001,
       "name": "Structure",
       "type": "Buff",
@@ -1159,12 +1159,12 @@
       "incant": "No cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your turrets are summoned with 10 stacks of this buff. Your turret gains (Rank * 2) wounds, toughness, initiative, and all resistances. Your turret gains (Rank * 5) armor. Each time your turret takes direct damage, it will lose one stack of structure.",
+      "description": "All of your turrets are summoned with 5 stacks of this buff. Your turret gains (Rank * 2) wounds, toughness, initiative, and all resistances. Your turret gains (Rank * 5) armor. Each time your turret takes direct damage, it will lose one stack of structure.",
       "category": "Ability"
     },
 
     {
-      "image": "04531",
+      "image": "abi_dw_range05",
       "id": 7510,
       "name": "Armor-Piercing Rounds",
       "type": "Damaging",
