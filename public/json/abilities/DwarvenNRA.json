@@ -263,7 +263,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "If an enemy dodges any of your attacks, you will regain 75 action points.<br>This effect will not trigger more than once every 3 seconds.",
+      "description": "If an enemy dodges any of your attacks, you will regain 40 action points.<br>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
   
