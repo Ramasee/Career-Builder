@@ -135,7 +135,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Generates 8 stacks of Improvised Upgrades and returns 5 stacks of structure to your turret.",
+      "description": "Generates 4 stacks of Improvised Upgrades and 10 stacks of structure.",
       "category": "Morale"
     },
   
@@ -855,7 +855,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your turrets are summoned with 25 stacks of Structure rather than 10.",
+      "description": "Your turrets are summoned with 25 stacks of Structure rather than 5.",
       "category": "CareerTactic"
     },
   
@@ -1047,7 +1047,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gain a 252 unique bonus to corporeal resistance.",
+      "description": "Gain a 300 unique bonus to corporeal resistance and a 169 unique bonus to elemental and spiritual resistance.",
       "category": "CareerTactic"
     },
   
@@ -1159,14 +1159,14 @@
       "incant": "No cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your turrets are summoned with 5 stacks of this buff. Your turret gains (Rank * 2) wounds, toughness, initiative, and all resistances. Your turret gains (Rank * 5) armor. Each time your turret takes direct damage, it will lose one stack of structure.",
+      "description": "All of your turrets are summoned with 5 stacks of this buff. Your turret gains (Rank * 2) wounds, toughness, initiative, and all resistances. Your turret gains (Rank * 5) armor. Your turret gains 10% of your bonus ballistic skill and weapon skill from items. Each time your turret takes direct damage, it will lose one stack of structure.",
       "category": "Ability"
     },
 
     {
       "image": "abi_dw_range05",
       "id": 7510,
-      "name": "Armor-Piercing Rounds",
+      "name": "Depleted Runic Rounds",
       "type": "Damaging",
       "spec": "Path of The Rifleman",
       "minrank": "1",
