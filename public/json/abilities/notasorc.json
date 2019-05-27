@@ -37,7 +37,7 @@
         "lvl6": 5124,
         "lvl7": 5125
       },
-      "coreAbilities": [5080,5061,5069,5063,5,8001]
+      "coreAbilities": [5080,5061,5069,5063,5059,8001]
     }
   },
   "data": [
@@ -830,7 +830,7 @@
       "id": 5059,
       "name": "Shocking Jolt",
       "type": "Healing",
-      "spec": "Core Ability",
+      "spec": "Path of Daemonology",
       "minrank": "22",
       "cost": "Costs 10 AP/sec",
       "range": "30ft range",
