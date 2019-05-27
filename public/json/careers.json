@@ -215,5 +215,12 @@
     "faction": "",
     "race": "",
     "class": ""
+  },
+    "notasorc": {
+    "name": "",
+    "slug": "notasorc",
+    "faction": "",
+    "race": "",
+    "class": ""
   }
 }
