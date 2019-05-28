@@ -901,7 +901,7 @@
       "incant": "2.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Summons a daemonic minion who specializes in short range area of effect attacks. This minion is confined to its summoning circle and cannot move. You will generate 1 stack of unholy empowerment every 2s as long as you are within 30ft of your daemon, max 8 stacks. Each stack gives you +5% damage, +8% dodge and disrupt for daemon, +4% dodge and disrupt for you, +6.25% AoE radius, increases AoE cap by 2, and reduces your range by 5% (cap -30%). With one stack you can use path of changing abilities while on the move. You will begin to lose stacks at 31 ft from your daemon; you will lose 4 if your daemon is destroy, and all stacks if another daemon is summoned.",
+      "description": "Summons a daemonic minion who specializes in short range area of effect attacks. You will generate Unholy Empowerment as long as you are within 30ft of your daemon. You will begin to lose stacks at 31 feet from your daemon; you will lose 4 if your daemon is destroyed, and all stacks if another daemon is summoned.",
       "category": "Ability"
     },
   
@@ -917,7 +917,7 @@
       "incant": "2.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Summons a daemonic minion who specializes in powerful moderate range Spiritual attacks. This minion is confined to its summoning circle and cannot move. You will generate 1 stack of unholy empowerment every 2s as long as you are within 40ft of your daemon, max 8 stacks. Each stack gives you +5% damage, +5% turret range, and +4% faster changing/daemonology DoT ticks. With one stack you can use path of changing abilities while on the move. You will begin to lose stacks at 81 ft from your daemon; you will lose 4 if your daemon is destroy, and all stacks if another daemon is summoned.",
+      "description": "Summons a daemonic minion who specializes in powerful moderate range spiritual attacks. You will generate Unholy Empowerment as long as you are within 40ft of your daemon. You will begin to lose stacks at 81 feet from your daemon; you will lose 4 if your daemon is destroyed, and all stacks if another daemon is summoned.",
       "category": "Ability"
     },
   
@@ -933,7 +933,7 @@
       "incant": "2.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Summons a daemonic minion who specializes in long range attacks. You will generate 1 stack of unholy empowerment every 2s as long as you are within 30ft of your daemon, max 8 stacks. Each stack gives you +5% damage, +5% daemon range and +5% range (cap 25% range). You will begin to lose stacks at 31 ft from your daemon; you will lose 4 if your daemon is destroy, and all stacks if another daemon is summoned.",
+      "description": "Summons a daemonic minion who specializes in long range attacks. You will generate Unholy Empowerment as long as you are within 30ft of your daemon. You will begin to lose stacks at 31 feet from your daemon; you will lose 4 if your daemon is destroyed, and all stacks if another daemon is summoned.",
       "category": "Ability"
     },
   
@@ -1125,7 +1125,7 @@
       "incant": "No cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your turrets are summoned with 5 stacks of this buff. Your turret gains (Rank * 2) wounds, toughness, initiative, and all resistances. Your turret gains (Rank * 5) armor. Your turret gains 10% of your bonus ballistic skill and weapon skill from items. Each time your turret takes direct damage, it will lose one stack of structure.",
+      "description": "All of your daemons are summoned with 5 stacks of this buff. Your daemon gains (Rank * 2) wounds, toughness, initiative, and all resistances. Your daemon gains (Rank * 5) armor. Your daemon gains 10% of your bonus intelligence from items. Each time your daemon takes direct damage, it will lose one stack of structure.",
       "category": "Ability"
 },
 
