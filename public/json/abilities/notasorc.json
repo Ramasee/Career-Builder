@@ -1093,7 +1093,7 @@
       "incant": "1.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Energy spirals towards your foe, dealing X spirit damage and knocking them back a short distance. Monsters will be knocked down.",
+      "description": "Energy spirals towards your foe, dealing X spirit damage to the enemy and enemies within 20 feet of them.",
       "category": "Ability"
     },
   
