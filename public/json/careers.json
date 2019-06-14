@@ -28,7 +28,7 @@
     "class": "Melee DPS"
   },
   "engineer": {
-    "name": "Engineer (Need Pass)",
+    "name": "Engineer (Old/Current)",
     "slug": "engineer",
     "faction": "Order",
     "race": "Dwarf",
@@ -42,7 +42,7 @@
     "class": "Tank"
   },
   "rune-priest": {
-    "name": "Runepriest (Not Live)",
+    "name": "Runepriest (Old/Current)",
     "slug": "rune-priest",
     "faction": "Order",
     "race": "Dwarf",
@@ -56,21 +56,21 @@
     "class": "Healer"
   },
   "slayer": {
-    "name": "Slayer (Not Live)",
+    "name": "Slayer (Old)",
     "slug": "slayer",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Melee DPS"
   },
      "lostmyclothes": {
-    "name": "Slayer (Direction)",
+    "name": "Slayer",
     "slug": "lostmyclothes",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Melee DPS"
   },
   "archmage": {
-    "name": "Archmage (Need Pass)",
+    "name": "Archmage (Old/Current)",
     "slug": "archmage",
     "faction": "Order",
     "race": "High Elf",
@@ -112,21 +112,21 @@
     "class": "Tank"
   },
   "magus": {
-    "name": "Magus (Need Pass)",
+    "name": "Magus (Old/Current)",
     "slug": "magus",
     "faction": "Destruction",
     "race": "Chaos",
     "class": "Ranged DPS"
   },
   "marauder": {
-    "name": "Marauder (Not Live)",
+    "name": "Marauder (Old)",
     "slug": "marauder",
     "faction": "Destruction",
     "race": "Chaos",
     "class": "Melee DPS"
   },
        "crabpeople": {
-    "name": "Marauder (Proposal)",
+    "name": "Marauder",
     "slug": "crabpeople",
     "faction": "Destruction",
     "race": "Chaos",
@@ -147,7 +147,7 @@
     "class": "Tank"
   },
   "choppa": {
-    "name": "Choppa (Not Live)",
+    "name": "Choppa (Old/Current)",
     "slug": "choppa",
     "faction": "Destruction",
     "race": "Greenskin",
@@ -161,14 +161,14 @@
     "class": "Melee DPS"
   },
   "shaman": {
-    "name": "Shaman (Need Pass)",
+    "name": "Shaman (Old)",
     "slug": "shaman",
     "faction": "Destruction",
     "race": "Greenskin",
     "class": "Healer"
   },
          "littlegreenmen": {
-    "name": "Shaman (Direction)",
+    "name": "Shaman",
     "slug": "littlegreenmen",
     "faction": "Destruction",
     "race": "Greenskin",
@@ -210,17 +210,17 @@
     "class": "Melee DPS"
   },
   "DwarvenNRA": {
-    "name": "",
+    "name": "Engineer (Direction)",
     "slug": "DwarvenNRA",
-    "faction": "",
-    "race": "",
-    "class": ""
+    "faction": "Order",
+    "race": "Dwarf",
+    "class": "Ranged DPS"
   },
     "notasorc": {
-    "name": "",
+    "name": "Magus (Direction)",
     "slug": "notasorc",
-    "faction": "",
-    "race": "",
-    "class": ""
+    "faction": "Destruction",
+    "race": "Chaos",
+    "class": "Ranged DPS"
   }
 }
