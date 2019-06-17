@@ -416,7 +416,7 @@
       "type": "Damaging",
       "spec": "Path of Incineration",
       "minrank": "1",
-      "cost": "Costs 20 AP/sec",
+      "cost": "No AP Cost",
       "range": "80ft range",
       "incant": "3.0s channel",
       "cooldown": "13.0s cooldown",
