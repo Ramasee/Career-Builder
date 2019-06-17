@@ -16,11 +16,11 @@
     "b": {
       "name": "Path of Immolation",
       "optionalAbilities": {
-        "lvl1": 3561,
-        "lvl2": 3565,
+        "lvl1": 3565,
+        "lvl2": 3562,
         "lvl3": 3563,
         "lvl4": 3520,
-        "lvl5": 3562,
+        "lvl5": 3561,
         "lvl6": 3566,
         "lvl7": 3567
       },
