@@ -421,7 +421,7 @@
       "incant": "3.0s channel",
       "cooldown": "13.0s cooldown",
       "note": "Costs 15 Combustion/Sec<br>Has a chance to cause an Explosion!",
-      "description": "You assault your target with a constant stream of fireballs, striking them up to 3 times over 3 seconds. Each blast deals X elemental damage to your target. This effect will end if you break your concentration or run out of action points.",
+      "description": "You assault your target with a constant stream of fireballs, striking them up to 3 times over 3 seconds. Each blast deals X elemental damage to your target and Y elemental damage to other enemies within 20 feet.. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
   
