@@ -8,7 +8,7 @@
         "lvl3": 3556,
         "lvl4": 3557,
         "lvl5": 3558,
-        "lvl6": 3559,
+        "lvl6": 3533,
         "lvl7": 3560
       },
       "coreAbilities": [3512,3520,3612,3611,3525]
@@ -21,10 +21,10 @@
         "lvl3": 3563,
         "lvl4": 3564,
         "lvl5": 3565,
-        "lvl6": 3516,
+        "lvl6": 3566,
         "lvl7": 3567
       },
-      "coreAbilities": [3528,3610,3522,3517,3566]
+      "coreAbilities": [3528,3610,3522,3517,3516]
     },
     "c": {
       "name": "Path of Conflagaration",
@@ -94,14 +94,14 @@
       "id": 3558,
       "name": "Burn Through",
       "type": "Buff",
-      "spec": "Path of Incineration",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Fireball and Fireball Barrage now ignore 33% of your target's elemental resistance.",
+      "description": "Delete Me!",
       "category": "CareerTactic"
     },
   
@@ -421,7 +421,7 @@
       "incant": "3.0s channel",
       "cooldown": "13.0s cooldown",
       "note": "Costs 15 Combustion/Sec<br>Has a chance to cause an Explosion!",
-      "description": "You assault your target with a constant stream of fireballs, striking them up to 3 times over 3 seconds and can be cast while moving. Each blast deals X elemental damage to your target. This effect will end if you break your concentration or run out of action points.",
+      "description": "You assault your target with a constant stream of fireballs, striking them up to 3 times over 3 seconds. Each blast deals X elemental damage to your target. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
   
@@ -485,7 +485,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time an enemy disrupts one of your spells, your next spell within the next 10 seconds has 50% reduced build-up time and can be cast on the move.<br>This effect will not trigger more than once every 3 seconds.",
+      "description": "Any time an enemy disrupts one of your spells, your next Path of Incineration ability within the next 10 seconds has 50% reduced build-up time and can be cast on the move.<br>This effect will not trigger more than once every 6 seconds.",
       "category": "CareerTactic"
     },
   
