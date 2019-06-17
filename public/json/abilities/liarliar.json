@@ -17,14 +17,14 @@
       "name": "Path of Immolation",
       "optionalAbilities": {
         "lvl1": 3561,
-        "lvl2": 3562,
+        "lvl2": 3565,
         "lvl3": 3563,
         "lvl4": 3564,
-        "lvl5": 3565,
+        "lvl5": 3562,
         "lvl6": 3566,
         "lvl7": 3567
       },
-      "coreAbilities": [3528,3610,3522,3517,3516]
+      "coreAbilities": [3528,3571,3522,3517,3516]
     },
     "c": {
       "name": "Path of Conflagaration",
@@ -32,7 +32,7 @@
         "lvl1": 3568,
         "lvl2": 3569,
         "lvl3": 3570,
-        "lvl4": 3571,
+        "lvl4": 3610,
         "lvl5": 3572,
         "lvl6": 3573,
         "lvl7": 3574
@@ -734,14 +734,14 @@
       "id": 3520,
       "name": "Pyroclastic Surge",
       "type": "Damaging",
-      "spec": "Path of Incineration",
+      "spec": "Path of Immolation",
       "minrank": "10",
       "cost": "Costs 30 AP",
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "Builds 10 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "A fountain of molten lava envelops your target, dealing X corporeal damage. If they are hexed, then they will also be inflicted with a disorienting hex for 3 seconds, causing all of their actions to take an additional 50% longer to build up.",
+      "description": "A fountain of molten lava envelops your target, dealing X corporeal damage. If they are hexed, then they will also be inflicted with a disorienting hex for 5 seconds, causing all of their actions to take an additional 50% longer to build up.",
       "category": "Ability"
     },
   
@@ -949,7 +949,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When Ignite, Boiling Blood, and Slow Boil end or are removed, there is a 25% chance that they will re-kindle, reapplying themselves to the target once again. Be cautious, though, for you will build Combustion and have a chance to cause an Explosion each time that they are reapplied!",
+      "description": "Detonate will now spread Boiling Blood and Slow Boil from the target to enemies within 20 feet of target.",
       "category": "CareerTactic"
     },
   
@@ -1070,14 +1070,14 @@
       "id": 3564,
       "name": "Withering Heat",
       "type": "Damaging",
-      "spec": "Path of Immolation",
+      "spec": "Path of Incineration",
       "minrank": "1",
       "cost": "Costs 13 AP/sec",
       "range": "100ft range",
       "incant": "6.0s channel",
       "cooldown": "11.0s cooldown",
       "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "You turn the air around your enemy into a grasping storm of burning flames for up to 6 seconds, dealing up to X corporeal damage and snaring them, reducing their run speed by 40%. This effect will end if you break your concentration, or run out of action points.",
+      "description": "You turn the air around your enemy into a grasping storm of burning flames.",
       "category": "Ability"
     }
   ]
