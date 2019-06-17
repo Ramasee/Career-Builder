@@ -101,7 +101,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Fireball and Pyroclastic Surge are now virtually undefendable.",
+      "description": "Fireball and Fireball Barrage now ignore 33% of your target's elemental resistance.",
       "category": "CareerTactic"
     },
   
@@ -261,7 +261,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Burning Iron will now deal X elemental damage, and you will regain 50 action points when it hits.",
+      "description": "Burning Iron will now deal X elemental damage, you will regain 50 action points when it hits, and its cooldown is reduced to 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -420,8 +420,8 @@
       "range": "80ft range",
       "incant": "3.0s channel",
       "cooldown": "13.0s cooldown",
-      "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "You assault your target with a constant stream of fireballs, striking them up to 3 times over 3 seconds. Each blast deals X elemental damage to your target. This effect will end if you break your concentration or run out of action points.",
+      "note": "Costs 15 Combustion/Sec<br>Has a chance to cause an Explosion!",
+      "description": "You assault your target with a constant stream of fireballs, striking them up to 3 times over 3 seconds and can be cast while moving. Each blast deals X elemental damage to your target. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
   
@@ -547,9 +547,9 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You become a living conduit for the power of the Red Wind of Magic, causing all of your directly damaging magical attacks to deal an additional X corporeal damage to your target, but you will also suffer X/2 damage for each one. Use this ability again to turn it off.",
+      "description": "You become a living conduit for the power of the Red Wind of Magic, causing the next Fireball you cast to have a 1 second cast time.",
       "category": "Ability"
     },
   
@@ -725,7 +725,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Meltdown will now restore your action points, returning an amount equal to the combustion which was expended.",
+      "description": "Meltdown will now cause you to deal 10% more damage for 5 seconds.",
       "category": "CareerTactic"
     },
   
