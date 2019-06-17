@@ -417,7 +417,7 @@
       "spec": "Path of Incineration",
       "minrank": "1",
       "cost": "No AP Cost",
-      "range": "80ft range",
+      "range": "100ft range",
       "incant": "3.0s channel",
       "cooldown": "13.0s cooldown",
       "note": "Costs 15 Combustion/Sec<br>Has a chance to cause an Explosion!",
@@ -547,9 +547,9 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "1m cooldown",
       "note": "",
-      "description": "You become a living conduit for the power of the Red Wind of Magic, causing the next Fireball you cast to have a 1 second cast time.",
+      "description": "You become a living conduit for the power of the Red Wind of Magic, causing all of your directly damaging magical attacks to deal an additional X corporeal damage to your target, but you will also suffer X/2 damage for each one. Use this ability again to turn it off.",
       "category": "Ability"
     },
   
