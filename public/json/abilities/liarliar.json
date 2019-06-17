@@ -725,7 +725,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Meltdown will now cause you to deal 10% more damage for 5 seconds.",
+      "description": "Meltdown and Pyroclastic Surge will now cause you to deal 10% more damage for 5 seconds.",
       "category": "CareerTactic"
     },
   
