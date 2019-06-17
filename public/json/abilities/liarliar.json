@@ -3,7 +3,7 @@
     "a": {
       "name": "Path of Incineration",
       "optionalAbilities": {
-        "lvl1": 3554,
+        "lvl1": 3532,
         "lvl2": 3555,
         "lvl3": 3556,
         "lvl4": 3557,
@@ -24,7 +24,7 @@
         "lvl6": 3516,
         "lvl7": 3567
       },
-      "coreAbilities": [3528,3610,3524,3522,3517,3566]
+      "coreAbilities": [3528,3610,3522,3517,3566]
     },
     "c": {
       "name": "Path of Conflagaration",
@@ -199,22 +199,6 @@
       "note": "",
       "description": "A spot that you select bursts into flames for 8 seconds, dealing 200 damage each second to all enemies within 20 feet.",
       "category": "Morale"
-    },
-  
-    {
-      "image": "22713",
-      "id": 3537,
-      "name": "Crown of Fire",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "39",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Flames of Rhuin now has a 75% chance to trigger.",
-      "category": "CareerTactic"
     },
   
     {
@@ -483,7 +467,7 @@
       "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "45.0s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "",
       "description": "An enchantment which infuses your groupmates within 100 feet of you with the spirit of fire for 1 hour, giving them a 25% chance to deal an additional X elemental damage any time they deal damage to a target.",
       "category": "Ability"
@@ -550,22 +534,6 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Boiling Blood's willpower debuff is increased to Y for 5 seconds and will deal X corporeal damage at the end of the debuff duration.",
-      "category": "CareerTactic"
-    },
-  
-    {
-      "image": "22704",
-      "id": 3531,
-      "name": "Fueled From Within",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "21",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Flames Of Rhuin will now deal X elemental damage, and Flame Shield will now deal Y elemental damage.",
       "category": "CareerTactic"
     },
   
@@ -690,10 +658,10 @@
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "100ft range",
-      "incant": "1.0s cast",
-      "cooldown": "5.0s cooldown",
-      "note": "Consumes all Combustion",
-      "description": "You expel all of your build-up Combustion in a fiery blast, dealing damage to your target based on the amount of Combustion that was consumed.<br>  1 - 10 Combustion: 75 morale damage.<br>  11 - 30 Combustion: 150 morale damage.<br>  31 - 70 Combustion: 300 morale damage.<br>  71 - 90 Combustion: 600 morale damage.<br>  91 - 100 Combustion: 750 morale damage.",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "Costs 20 Combustion",
+      "description": "You expel some of you Combustion in a fiery blast, dealing X elemental damage to your target.",
       "category": "Ability"
     },
   
@@ -750,7 +718,7 @@
       "id": 3532,
       "name": "Power From The Ashes",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Incineration",
       "minrank": "27",
       "cost": "Tactic",
       "range": "No range",
@@ -862,7 +830,7 @@
       "id": 3554,
       "name": "Searing Vitality",
       "type": "Buff",
-      "spec": "Path of Incineration",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
