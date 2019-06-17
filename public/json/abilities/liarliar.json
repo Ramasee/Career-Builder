@@ -485,7 +485,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time an enemy disrupts one of your spells, your next Path of Incineration ability within the next 10 seconds has 50% reduced build-up time and can be cast on the move.<br>This effect will not trigger more than once every 6 seconds.",
+      "description": "Any time an enemy disrupts one of your spells, your next Path of Incineration ability within the next 10 seconds will be instant cast.<br>This effect will not trigger more than once every 6 seconds.",
       "category": "CareerTactic"
     },
   
