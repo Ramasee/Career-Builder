@@ -478,14 +478,14 @@
       "id": 3533,
       "name": "Flashfire",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Incineration",
       "minrank": "31",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time an enemy disrupts one of your spells, your next Path of Incineration ability within the next 10 seconds will be instant cast.<br>This effect will not trigger more than once every 6 seconds.",
+      "description": "Whenever you cast Meltdown or Fireball Barrage, you will generate 1 stack of Flashfire, max 3 stacks. Each stack of Flashfire reduced the build-up time of your next Fireball or Pyroclastic Surge by 33%.",
       "category": "CareerTactic"
     },
   
