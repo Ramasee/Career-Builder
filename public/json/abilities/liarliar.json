@@ -117,7 +117,7 @@
       "incant": "1.0s cast",
       "cooldown": "20.0s cooldown",
       "note": "Builds 10 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "Your target's weapons become red hot, dealing X corporeal damage to them and causing them to lose 50 action points.",
+      "description": "Your target's armor become red hot, dealing X corporeal damage to them. For the next 10s, Fireball and Fireball Barrage will deal 10% more damage to the target.",
       "category": "Ability"
     },
   
@@ -252,7 +252,7 @@
     {
       "image": "22708",
       "id": 3556,
-      "name": "Draining Burn",
+      "name": "Fire Starter",
       "type": "Buff",
       "spec": "Path of Incineration",
       "minrank": "1",
@@ -261,7 +261,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Burning Iron will now deal X elemental damage, you will regain 50 action points when it hits, and its cooldown is reduced to 10 seconds.",
+      "description": "Fireball and Fireball Barrage cause enemies they strike to take X elemental damage over 5 seconds.",
       "category": "CareerTactic"
     },
   
