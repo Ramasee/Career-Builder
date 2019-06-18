@@ -17,14 +17,14 @@
       "name": "Path of Immolation",
       "optionalAbilities": {
         "lvl1": 3565,
-        "lvl2": 3516,
+        "lvl2": 3564,
         "lvl3": 3563,
         "lvl4": 3562,
         "lvl5": 3561,
         "lvl6": 3566,
         "lvl7": 3567
       },
-      "coreAbilities": [3528,3610,3522,3517,3564]
+      "coreAbilities": [3528,3610,3522,3517,3516]
     },
     "c": {
       "name": "Path of Conflagaration",
@@ -949,7 +949,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Detonate will now spread Withering Heat and Slow Boil from the target to enemies within 20 feet of target.",
+      "description": "Detonate will now spread Withering Heat and Boiling Blood from the target to enemies within 20 feet of target.",
       "category": "CareerTactic"
     },
   
