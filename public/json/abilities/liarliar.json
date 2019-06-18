@@ -976,12 +976,12 @@
       "type": "Damaging",
       "spec": "Path of Immolation",
       "minrank": "1",
-      "cost": "Costs 30 AP",
+      "cost": "No AP Cost",
       "range": "100ft range",
-      "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
-      "note": "Target must be Ignited<br>Builds 10 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "You grasp the power of your Ignite hex and cause it to explode with concussive force, dealing X elemental damage to your target and knocking them down for 3 seconds, but extinguishing your Ignite.",
+      "incant": "2.0s cast",
+      "cooldown": "30.0s cooldown",
+      "note": "Costs 50 Combustion",
+      "description": "You stop as you grasp the enemy with power of your hexes. The target will be inflicted with Ignite, Slow Boil, and Boiling Blood. 5 seconds later a new DoT will drop on the target that lasts for 5 seconds. The ticks will roll out each second dealing X elemental damage. This damage will be increased if you have Withering Heat and/or Detonate on the target. ",
       "category": "Ability"
     },
   
