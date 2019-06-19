@@ -3,20 +3,20 @@
     "a": {
       "name": "Path of Mork",
       "optionalAbilities": {
-        "lvl1": 5315,
-        "lvl2": 5319,
-        "lvl3": 5313,
-        "lvl4": 5314,
+        "lvl1": 5313,
+        "lvl2": 5314,
+        "lvl3": 5315,
+        "lvl4": 5316,
         "lvl5": 5311,
-        "lvl6": 5316,
+        "lvl6": 5319,
         "lvl7": 5317
       },
-      "coreAbilities": [5273,5280,5367,5282,5275]
+      "coreAbilities": [5273,5367,5282,5275,5269]
     },
     "b": {
       "name": "Path of Gork",
       "optionalAbilities": {
-        "lvl1": 5318,
+        "lvl1": 5327,
         "lvl2": 5326,
         "lvl3": 5320,
         "lvl4": 5321,
@@ -24,20 +24,20 @@
         "lvl6": 5323,
         "lvl7": 5324
       },
-      "coreAbilities": [5268,5278,5272,5368,5285]
+      "coreAbilities": [5268,5272,5368,5285,5284]
     },
     "c": {
       "name": "Path of Da Green",
       "optionalAbilities": {
-        "lvl1": 5327,
+        "lvl1": 5318,
         "lvl2": 5312,
-        "lvl3": 5329,
+        "lvl3": 5289,
         "lvl4": 5328,
         "lvl5": 5325,
         "lvl6": 5330,
         "lvl7": 5331
       },
-      "coreAbilities": [5286,5284,5270,5271,5276]
+      "coreAbilities": [5286,5270,5271,5276,7050,5278]
     }
   },
   "data": [
@@ -55,7 +55,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your healing abilities become 40% more effective when the target is below 25% hit points.",
+      "description": "Your healing abilities become 25% more effective when the target is below 40% hit points.",
       "category": "CareerTactic"
     },
   
@@ -83,7 +83,7 @@
       "spec": "Path of Gork",
       "minrank": "35",
       "cost": "Costs 35 AP",
-      "range": "65ft range",
+      "range": "80ft range",
       "incant": "1.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "Gork's Waaagh! reduces cast time. ",
@@ -98,12 +98,12 @@
       "type": "Healing",
       "spec": "Path of Mork",
       "minrank": "8",
-      "cost": "Costs 45 AP",
+      "cost": "Costs 60 AP",
       "range": "150ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "Mork's Waaagh! reduces cast time. ",
-      "description": "Heals your target for X health. This is a fragile spell, and will sometimes be set back by a small amount if you are damaged while casting it.",
+      "description": "Heals your target for X health. Heals your target for an additional Y for each healing over time you have on target.",
       "category": "Ability"
     },
   
@@ -111,7 +111,7 @@
       "image": "02582",
       "id": 5276,
       "name": "Bleed Fer' Me",
-      "type": "Ailment",
+      "type": "Hex",
       "spec": "Path of Da Green",
       "minrank": "9",
       "cost": "Costs 35 AP",
@@ -119,7 +119,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Gork's Waaagh! increases effectiveness.",
-      "description": "You deal X elemental damage to your target over 24 seconds and your defensive target is healed for 150% of the damage done.",
+      "description": "You deal X elemental damage to your target over 24 seconds and your groupmates are healed for 50% of the damage done.",
       "category": "Ability"
     },
         
@@ -163,7 +163,7 @@
       "spec": "Path of Gork",
       "minrank": "6",
       "cost": "Costs 13 AP/sec",
-      "range": "100ft range",
+      "range": "80ft range",
       "incant": "6.0s channel",
       "cooldown": "11.0s cooldown",
       "note": "Gork's Waaagh! increases effectiveness. ",
@@ -237,7 +237,7 @@
   
     {
       "image": "23151",
-      "id": 5302,
+      "id": 3445,
       "name": "Divine Favor",
       "type": "Healing",
       "spec": "Core Ability",
@@ -249,23 +249,7 @@
       "note": "",
       "description": "A strong heal that will restore 1800 health to your target.",
       "category": "Morale"
-    },
-  
-    {
-      "image": "22703",
-      "id": 5298,
-      "name": "Divine Fury",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "13",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You deal 25% more damage, but all of your healing becomes 20% less effective.",
-      "category": "CareerTactic"
-    },
+},
   
     {
       "image": "23152",
@@ -290,7 +274,7 @@
       "type": "Enchantment",
       "spec": "Path of Mork",
       "minrank": "1",
-      "cost": "Costs 40 AP",
+      "cost": "Costs 35 AP",
       "range": "150ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
@@ -309,7 +293,7 @@
       "cost": "Costs 35 AP",
       "range": "150ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "Mork's Waaagh! increases effectiveness.",
       "description": "Surrounds an ally with a magical barrier that absorbs up to X damage for up to 9 seconds.",
       "category": "Ability"
@@ -336,7 +320,7 @@
       "id": 5278,
       "name": "'Ere We Go!",
       "type": "Buff",
-      "spec": "Path of Gork",
+      "spec": "Path of Da Green",
       "minrank": "12",
       "cost": "Costs 25 AP",
       "range": "No range",
@@ -352,7 +336,7 @@
       "id": 5318,
       "name": "Ere We Goes Again",
       "type": "Damaging",
-      "spec": "Path of Gork",
+      "spec": "Path of Da Green",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
@@ -368,14 +352,14 @@
       "id": 5289,
       "name": "Extra Special Mushrooms",
       "type": "Healing",
-      "spec": "Core Ability",
+      "spec": "Path of Da Green",
       "minrank": "27",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to critically heal by 10%.",
+      "description": "Increases your chance to critically hit with all abilities by 10%.",
       "category": "CareerTactic"
     },
   
@@ -384,7 +368,7 @@
       "id": 5269,
       "name": "'Ey, Quit Bleedin'",
       "type": "Enchantment",
-      "spec": "Core Ability",
+      "spec": "Path of Mork",
       "minrank": "3",
       "cost": "Costs 30 AP",
       "range": "150ft range",
@@ -471,7 +455,7 @@
       "incant": "2.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "Gork's Waaagh! reduces cast time.",
-      "description": "A surge of Waaaagh explodes from your target and damages up to 4 enemies within 30 feet of them, dealing X elemental damage. Healing your defensive target and allies within 20 feet of them for Y health plus 50% of the total inflicted damage. This ability has innate 20% strikethrough.",
+      "description": "A surge of Waaaagh explodes from your target and damages up to 4 enemies within 30 feet of them, dealing X (int mod) elemental damage. Healing your groupmates within 100 feet for Y (wil mod) health plus 50% of the total inflicted damage.",
       "category": "Ability"
     },
   
@@ -482,28 +466,28 @@
       "type": "Healing",
       "spec": "Path of Mork",
       "minrank": "20",
-      "cost": "Costs 65 AP",
+      "cost": "Costs 40 AP",
       "range": "No range",
-      "incant": "2.5s cast",
+      "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "Mork's Waaagh! reduces cast time. ",
-      "description": "Heals group members within 100 feet for X health.",
+      "description": "Heals group members within 100 feet for X health over 6 seconds..",
       "category": "Ability"
     },
   
     {
       "image": "02456",
       "id": 5319,
-      "name": "Geddoff!",
+      "name": "All the Waaagh!",
       "type": "Damaging",
       "spec": "Path of Mork",
       "minrank": "1",
-      "cost": "Costs 25 AP",
+      "cost": "Costs 125 AP",
       "range": "100ft range",
       "incant": "2.0s cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "45.0s cooldown",
       "note": "Gork's Waaagh! reduces cast time.",
-      "description": "Deals X elemental damage to your target and all other enemies within 20 feet of them, and knocks them backwards.",
+      "description": "Applies Gather Round, Gork'll Fix It, and Ey' Quit Bleedin' to all groupmates within 100 feet.",
       "category": "Ability"
     },
   
@@ -567,7 +551,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you use Greener 'N Cleaner on an ally, you will additionally remove one curse or ailment from all groupmates within 50 feet of them.",
+      "description": "Each of your healing over time effects has a 25% chance to restore 5 action points to you whenever they tick.",
       "category": "CareerTactic"
     },
   
@@ -594,12 +578,12 @@
       "type": "Enchantment",
       "spec": "Path of Mork",
       "minrank": "1",
-      "cost": "Costs 55 AP",
+      "cost": "Costs 40 AP",
       "range": "150ft range",
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "Mork's Waaagh! reduces cast time. ",
-      "description": "Your target regains X health immediately then continues to gain another Y health over 5 seconds. This ability will continue to build up even if you move.",
+      "description": "Your target regains X health immediately then continues to gain another Y health over 10 seconds. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
   
@@ -607,7 +591,7 @@
       "image": "02578",
       "id": 5321,
       "name": "Gork's Barbs'",
-      "type": "Ailment",
+      "type": "Hex",
       "spec": "Path of Gork",
       "minrank": "1",
       "cost": "Costs 30 AP",
@@ -631,7 +615,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "If Greener 'N Cleaner successfully removes an effect from an ally, then they will also regain X health over 9 seconds.",
+      "description": "If Greener 'N Cleaner successfully removes an effect from an ally, then they will also regain X health over 5 seconds.",
       "category": "CareerTactic"
     },
   
@@ -640,14 +624,14 @@
       "id": 5280,
       "name": "Greener 'n Cleaner",
       "type": "Healing",
-      "spec": "Path of Mork",
+      "spec": "Core Ability",
       "minrank": "16",
       "cost": "Costs 35 AP",
       "range": "150ft range",
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Target must be Cursed or Ailing",
-      "description": "You cleanse an ally, removing one curse or ailment. If an effect is removed, your ally will absorb up to X damage over 10 seconds.",
+      "note": "Target must be cursed or ailing",
+      "description": "You cleanse an ally, removing one curse or ailment. If an effect is removed, your ally will absorb up to X damage over 10 seconds. <br><br>At 5 stacks of (dps stack), this ability will also target all groupmates and reset your Waaagh! to zero.",
       "category": "Ability"
     },
       
@@ -663,7 +647,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Brain Bursta will cause the target to take a X unique penalty to toughness for 20 seconds. Duration and tick interval of Bunch o Waagh is reduced by 50%.",
+      "description": "Brain Bursta will cause the target to take a X unique penalty to toughness for 20 seconds. Duration and tick interval of Bunch o Waagh is reduced by 50%.<br><br>You cannot use Greener N' Cleaner, Stop Hittin' Me, or Gedup!",
       "category": "CareerTactic"
     },
   
@@ -679,7 +663,7 @@
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "Gork's Waaagh! reduces cast time. ",
-      "description": "Deals X elemental damage to your target, and heals your defensive target for Y plus 150% of the damage done. This ability has innate 20% strikethrough.",
+      "description": "Deals X (int mod) elemental damage to your target and heals your defensive target for Y (wil mod) plus 150% of the damage dealt.",
       "category": "Ability"
     },
   
@@ -687,7 +671,7 @@
       "image": "02575",
       "id": 5268,
       "name": "Life Leaka",
-      "type": "Ailment",
+      "type": "Hex",
       "spec": "Path of Gork",
       "minrank": "2",
       "cost": "Costs 30 AP",
@@ -730,23 +714,7 @@
       "description": "Gork'll Fix It will now also restore 40 action points to the target.",
       "category": "CareerTactic"
     },
-  
-    {
-      "image": "22704",
-      "id": 5291,
-      "name": "Mork Is Watchin'",
-      "type": "Damaging",
-      "spec": "Core Ability",
-      "minrank": "33",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases your chance to critically hit enemies by 10%.",
-      "category": "CareerTactic"
-    },
-  
+    
     {
       "image": "02472",
       "id": 5273,
@@ -759,7 +727,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All groupmates within 100 feet gain a X ability bonus to all resistances for 1 hour.",
+      "description": "All groupmates within 100 feet gain Mork's Buffer for 1 hour. All healing over time effects you cast on groupmates will grant 2% reduced chance to be critically hit for the duration.",
       "category": "Ability"
     },
   
@@ -775,7 +743,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your offensive spells gain a 25% chance to remove a blessing from the victim. Any time that this successfully occurs, the enemy will suffer an additional X elemental damage as well.",
+      "description": "Big Waaagh will now deal X elemental damage and remove 1 blessing from the target.",
       "category": "CareerTactic"
     },
   
@@ -784,14 +752,14 @@
       "id": 5329,
       "name": "Nuthin' But Da WAAAGH!",
       "type": "Healing",
-      "spec": "Path of Da Green",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Don' Feel Nuthin will also cause your target to deal 15% more damage as long as the barrier is protecting them.",
+      "description": "Don' Feel Nuthin will also cause your target to deal 15% more damage as long as the barrier is protecting them, but its cooldown is increased to 20 seconds.",
       "category": "CareerTactic"
     },
       
@@ -807,7 +775,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you heal an ally with a Path of Mork ability, there is a 25% chance that another ally within 30 feet of them will also gain X health as well.",
+      "description": "Any time you heal an ally with a Path of Mork ability, a groupmate within 50 feet of them will also gain X health as well.",
       "category": "CareerTactic"
     },
   
@@ -863,15 +831,15 @@
       "image": "02500",
       "id": 5326,
       "name": "Scuse Me!",
-      "type": "Ailment",
+      "type": "Hex",
       "spec": "Path of Gork",
       "minrank": "1",
       "cost": "Costs 45 AP",
-      "range": "No range",
+      "range": "80ft Range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "20.0s cooldown",
       "note": "Gork's Waaagh! increases effectiveness.",
-      "description": "A cone of energy strikes enemies in front of you, up to 40 feet away, dealing X elemental damage and causing them to take a Y ability penalty to elemental resistance for 20 seconds.",
+      "description": "Target and all enemies within 20 feet take X elemental damage and take a Y ability penalty to elemental resistance for 20 seconds.",
       "category": "Ability"
     },
   
@@ -887,7 +855,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "An ally is charged with Waaagh for 30 seconds, allowing them to recover from near fatal wounds. Increases the value of healing effects on the target by 25% while active. If the allies health is reduced below 20%, this effect will immediately dispel itself to restore X health if they are still alive. A player may only be affected by a single Shrug it Off at a time.",
+      "description": "An ally is charged with Waaagh for 30 seconds, allowing them to recover from near fatal wounds. Increases the value of healing effects on the target by 25% while active. If the allies health is reduced below 30%, this effect will immediately dispel itself to restore X health if they are still alive. A player may only be affected by a single Shrug it Off at a time.",
       "category": "Ability"
     },
         
@@ -927,7 +895,7 @@
       "image": "04543",
       "id": 5312,
       "name": "Sticky Feetz",
-      "type": "Ailment",
+      "type": "Hex",
       "spec": "Path of Da Green",
       "minrank": "1",
       "cost": "Costs 20 AP",
@@ -935,7 +903,7 @@
       "incant": "Insta-Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "For 10 seconds, all enemies within 20 feet of a spot that you select take a X ability penalty for elemental resistance, and reducing their run speed by 60%.",
+      "description": "For 10 seconds, all enemies within 20 feet of a spot that you select take a X ability penalty to initiative, and reducing their run speed by 60%.",
       "category": "Ability"
     },
   
@@ -999,7 +967,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "I'll Take That and Fury of Da Green will now inflict 0 elemental damahe but neither will grant a fixed heal nor will they be castable on the move.",
+      "description": "Sneaky and Clever's cooldown is reduced to 20 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1023,8 +991,8 @@
       "image": "02504",
       "id": 5284,
       "name": "Get'n Smarter",
-      "type": "Ailment",
-      "spec": "Path of Da Green",
+      "type": "Buff",
+      "spec": "Path of Gork",
       "minrank": "30",
       "cost": "Costs 30 AP",
       "range": "100ft range",
@@ -1039,15 +1007,15 @@
       "image": "02581",
       "id": 5281,
       "name": "Yer Not So Bad",
-      "type": "Ailment",
+      "type": "Enchantment",
       "spec": "Core Ability",
       "minrank": "18",
-      "cost": "Costs 50 AP",
-      "range": "100ft range",
+      "cost": "No cost",
+      "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You cast an ailment on your enemy and gain 60 action points. You will additionally steal another 120 action points from your target over 9 seconds.",
+      "description": "You restore 180 action points over 10 seconds but cannot generate stacks of Gork or Mork. This ability requires you to have 5 stacks of Gork or Mork to use.",
       "category": "Ability"
     },
   
@@ -1055,7 +1023,7 @@
       "image": "02460",
       "id": 5328,
       "name": "You Got Nuthin!",
-      "type": "Ailment",
+      "type": "Hex",
       "spec": "Path of Da Green",
       "minrank": "1",
       "cost": "Costs 25 AP",
@@ -1072,14 +1040,14 @@
       "id": 5327,
       "name": "You Really Got Nuthin",
       "type": "Debuff",
-      "spec": "Path of Da Green",
+      "spec": "Path of Gork",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduces You Got Nuthin's cooldown time by 10 seconds.",
+      "description": "Life Leaka and Get N' Smarter will now effect all enemies within 30 feet of your target. The cooldowns on these abilities are increased by 5 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1098,20 +1066,37 @@
       "description": "Removes 100 AP from each enemy within 30 feet, and gives 50% of the stolen AP to you.",
       "category": "Morale"
     },
+
+    {
+      "image": "02506",
+      "id": 7050,
+      "name": "Da Green Boon",
+      "type": "Enchantment",
+      "spec": "Path of Da Green",
+      "minrank": "36",
+      "cost": "Costs 55 AP",
+      "range": "No range",
+      "incant": "Instant Cast",
+      "cooldown": "10.0s cooldown",
+      "note": "",
+      "description": "All groupmates within 100 feet gain a X ability bonus to all resistances for one hour.<br><br>Groupmates can only be affected by either Da Green Boon or Mork's Buffer from one shaman.",
+      "category": "Ability"
+    },
+
   
     {
       "image": "02585",
       "id": 5286,
-      "name": "You'z Squishy",
-      "type": "Ailment",
+      "name": "Sneaky and Clever",
+      "type": "Buff",
       "spec": "Path of Da Green",
       "minrank": "40",
-      "cost": "Costs 20 AP",
-      "range": "100ft range",
+      "cost": "No cost",
+      "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "No cooldown",
+      "cooldown": "1min cooldown",
       "note": "",
-      "description": "Your target and all other enemies within 20 feet of them have take a (rank * 3) ability penalty to toughness for 20 seconds.",
+      "description": "If you have 5 stacks of Gork, you gain 5 stacks of Mork. If you have 5 stacks of Mork, you gain 5 stacks of Gork. This ability cannot be cast if you do not have 5 stacks.",
       "category": "Ability"
     }
   ]
