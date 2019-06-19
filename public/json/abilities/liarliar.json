@@ -973,15 +973,15 @@
       "image": "08024",
       "id": 3566,
       "name": "Stop, Drop, And Roll",
-      "type": "Damaging",
+      "type": "Hex",
       "spec": "Path of Immolation",
       "minrank": "1",
-      "cost": "No AP Cost",
+      "cost": "Costs 40 AP",
       "range": "100ft range",
-      "incant": "2.0s cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Costs 50 Combustion",
-      "description": "You stop as you grasp the enemy with power of your hexes. The target will be inflicted with Ignite, Slow Boil, and Boiling Blood. 5 seconds later a new DoT will drop on the target that lasts for 5 seconds. The ticks will roll out each second dealing X elemental damage. This damage will be increased if you have Withering Heat and/or Detonate on the target. ",
+      "incant": "Instant cast",
+      "cooldown": "10.0s cooldown",
+      "note": "",
+      "description": "Fuck flavor text atm. Deals X corporeal damage. Deals Y corporeal damage over 3s.",
       "category": "Ability"
     },
   
@@ -1077,7 +1077,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Builds 20 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "You turn the air around your enemy into a grasping storm of burning flames dealing X corporeal damage over 21 seconds.",
+      "description": "You turn the air around your enemy into a grasping storm of burning flames dealing X corporeal damage over 21 seconds. Each time this deals damage, generate 5 combustion.",
       "category": "Ability"
     }
   ]
