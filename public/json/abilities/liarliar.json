@@ -29,10 +29,10 @@
     "c": {
       "name": "Path of Conflagaration",
       "optionalAbilities": {
-        "lvl1": 3568,
-        "lvl2": 3569,
-        "lvl3": 3570,
-        "lvl4": 3571,
+        "lvl1": 3570,
+        "lvl2": 3571,
+        "lvl3": 3568,
+        "lvl4": 3569,
         "lvl5": 3572,
         "lvl6": 3573,
         "lvl7": 3574
@@ -61,15 +61,15 @@
       "image": "07936",
       "id": 3573,
       "name": "Backdraft",
-      "type": "Hex",
+      "type": "Buff",
       "spec": "Path of Conflagration",
       "minrank": "1",
-      "cost": "Costs 25 AP",
+      "cost": "Costs 40 AP",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Builds 10 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "Aqshy, the Wind of Fire, bursts forth explosively around you, dealing X corporeal damage over 15 seconds to all enemies within 30 feet. The force of the blast will send enemy players flying away from you, while monsters will be knocked down.",
+      "description": "Aqshy, the Wind of Fire, bursts forth explosively around you, dealing X corporeal damage to all enemies within 30 feet. Your next Path of Conflagration ability used within 10 seconds is empowered.<br>Rain of Fire / Flame Breath will have their radii increased by 50%.<br>Annihilate will now deal Y corporeal damage per tick.<br>Scorched Earth will have a 100% increased chance to critically hit.<br>Spreading flames gets something.",
       "category": "Ability"
     },
   
@@ -752,12 +752,12 @@
       "type": "Damaging",
       "spec": "Path of Conflagration",
       "minrank": "25",
-      "cost": "Costs 10 AP/sec",
+      "cost": "Costs No AP",
       "range": "80ft range",
-      "incant": "10.0s channel",
+      "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "You call down a shower of flames from the Winds Of Magic that rains down for the next 9 seconds, falling upon a spot you select and repeatedly dealing X elemental damage to all enemies within 20 feet of that spot.",
+      "note": "Costs 10 Combustion/Sec",
+      "description": "You call down a shower of flames from the Winds Of Magic that rains down for the next 10 seconds, falling upon a spot you select and repeatedly dealing X elemental damage to all enemies within 20 feet of that spot. This effect will end if you run out of Combustion to power it with.",
       "category": "Ability"
     },
   
