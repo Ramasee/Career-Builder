@@ -34,6 +34,13 @@
     "race": "Dwarf",
     "class": "Ranged DPS"
   },
+    "DwarvenNRA": {
+    "name": "Engineer (Direction)",
+    "slug": "DwarvenNRA",
+    "faction": "Order",
+    "race": "Dwarf",
+    "class": "Ranged DPS"
+  },
   "ironbreaker": {
     "name": "Ironbreaker",
     "slug": "ironbreaker",
@@ -56,15 +63,8 @@
     "class": "Healer"
   },
   "slayer": {
-    "name": "Slayer (Old)",
-    "slug": "slayer",
-    "faction": "Order",
-    "race": "Dwarf",
-    "class": "Melee DPS"
-  },
-     "lostmyclothes": {
     "name": "Slayer",
-    "slug": "lostmyclothes",
+    "slug": "slayer",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Melee DPS"
@@ -118,16 +118,16 @@
     "race": "Chaos",
     "class": "Ranged DPS"
   },
-  "marauder": {
-    "name": "Marauder (Old)",
-    "slug": "marauder",
+      "notasorc": {
+    "name": "Magus (Direction)",
+    "slug": "notasorc",
     "faction": "Destruction",
     "race": "Chaos",
-    "class": "Melee DPS"
+    "class": "Ranged DPS"
   },
-       "crabpeople": {
+  "marauder": {
     "name": "Marauder",
-    "slug": "crabpeople",
+    "slug": "marauder",
     "faction": "Destruction",
     "race": "Chaos",
     "class": "Melee DPS"
@@ -161,15 +161,8 @@
     "class": "Melee DPS"
   },
   "shaman": {
-    "name": "Shaman (Old)",
-    "slug": "shaman",
-    "faction": "Destruction",
-    "race": "Greenskin",
-    "class": "Healer"
-  },
-         "littlegreenmen": {
     "name": "Shaman",
-    "slug": "littlegreenmen",
+    "slug": "shaman",
     "faction": "Destruction",
     "race": "Greenskin",
     "class": "Healer"
@@ -208,20 +201,6 @@
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Melee DPS"
-  },
-  "DwarvenNRA": {
-    "name": "Engineer (Direction)",
-    "slug": "DwarvenNRA",
-    "faction": "Order",
-    "race": "Dwarf",
-    "class": "Ranged DPS"
-  },
-    "notasorc": {
-    "name": "Magus (Direction)",
-    "slug": "notasorc",
-    "faction": "Destruction",
-    "race": "Chaos",
-    "class": "Ranged DPS"
   },
     "liarliar": {
     "name": "",
