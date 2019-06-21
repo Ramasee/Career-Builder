@@ -3,7 +3,7 @@
     "a": {
       "name": "Path of Incineration",
       "optionalAbilities": {
-        "lvl1": 3532,
+        "lvl1": ,
         "lvl2": 3555,
         "lvl3": 3556,
         "lvl4": 3557,
@@ -87,22 +87,6 @@
       "note": "Builds 5 Combustion<br>Has a chance to cause an Explosion!",
       "description": "Your target takes a X ability penalty to willpower for 10 seconds. When the effect ends, the victim will suffer X corporeal damage.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22703",
-      "id": 3558,
-      "name": "Burn Through",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Delete Me!",
-      "category": "CareerTactic"
     },
   
     {
@@ -1094,6 +1078,21 @@
       "cooldown": "10.0s cooldown",
       "note": "Builds 20 Combustion<br>Has a chance to cause an Explosion!",
       "description": "You turn the air around your enemy into a grasping storm of burning flames dealing X corporeal damage over 21 seconds. Each time this deals damage, generate 5 combustion.",
+      "category": "Ability"
+    },
+        {
+      "image": "00000",
+      "id": 8500,
+      "name": "Combustion",
+      "type": "Damaging",
+      "spec": "Core Ability",
+      "minrank": "1",
+      "cost": "No cost",
+      "range": "Self",
+      "incant": "Mechanic",
+      "cooldown": "No cooldown",
+      "note": "Builds up to 100. Rests at 0.",
+      "description": "1-10: +4% magic crit, +10% crit damage, 4% chance of explosion.<br>11-30: +8% magic crit, +20% crit damage, 8% chance of explosion.<br>31-70: +15% magic crit, +40% crit damage, 15% chance of explosion.<br>71-90: +25% magic crit, +80% crit damage, 25% chance of explosion.<br>1-10: +35% magic crit, +100% crit damage, 35% chance of explosion.<br><br>Explosions deal (40/300 + 0.5INT) elemental damage to the caster and can critically hit.",
       "category": "Ability"
     }
   ]
