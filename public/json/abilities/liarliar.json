@@ -9,7 +9,7 @@
         "lvl4": 3557,
         "lvl5": 3533,
         "lvl6": 3559,
-        "lvl7": 3560
+        "lvl7": 3573
       },
       "coreAbilities": [3512,3520,3612,3611,3525]
     },
@@ -34,7 +34,7 @@
         "lvl3": 3568,
         "lvl4": 3569,
         "lvl5": 3572,
-        "lvl6": 3573,
+        "lvl6": 3560,
         "lvl7": 3574
       },
       "coreAbilities": [3515,3526,3523,3518,3524]
@@ -62,14 +62,14 @@
       "id": 3573,
       "name": "Backdraft",
       "type": "Buff",
-      "spec": "Path of Conflagration",
+      "spec": "Path of Incineration",
       "minrank": "1",
-      "cost": "Costs 40 AP",
+      "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Builds 10 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "Aqshy, the Wind of Fire, bursts forth explosively around you, dealing X corporeal damage to all enemies within 30 feet. Your next Path of Conflagration ability used within 10 seconds is empowered.<br>Rain of Fire / Flame Breath will have their radii increased by 50%.<br>Annihilate will now deal Y corporeal damage per tick.<br>Scorched Earth will have a 100% increased chance to critically hit.<br>Spreading flames gets something.",
+      "description": "Aqshy, the Wind of Fire, bursts forth explosively around you, dealing X corporeal damage to all enemies within 30 feet knocking them back a far distance. (Placeholder)",
       "category": "Ability"
     },
   
@@ -536,6 +536,22 @@
       "description": "Boiling Blood's willpower debuff is increased to Y for 5 seconds and will deal X corporeal damage at the end of the debuff duration.",
       "category": "CareerTactic"
     },
+    
+        {
+      "image": "22704",
+      "id": 3531,
+      "name": "Fueled From Within",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "21",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Flames Of Rhuin will now deal X elemental damage, and Flame Shield will now deal Y elemental damage.",
+      "category": "CareerTactic"
+    },
   
     {
       "image": "07919",
@@ -752,12 +768,12 @@
       "type": "Damaging",
       "spec": "Path of Conflagration",
       "minrank": "25",
-      "cost": "Costs No AP",
+      "cost": "Costs 10 AP/sec",
       "range": "80ft range",
-      "incant": "Instant Cast",
+      "incant": "10.0s channel",
       "cooldown": "20.0s cooldown",
-      "note": "Costs 10 Combustion/Sec",
-      "description": "You call down a shower of flames from the Winds Of Magic that rains down for the next 10 seconds, falling upon a spot you select and repeatedly dealing X elemental damage to all enemies within 20 feet of that spot. This effect will end if you run out of Combustion to power it with.",
+      "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!",
+      "description": "You call down a shower of flames from the Winds Of Magic that rains down for the next 9 seconds, falling upon a spot you select and repeatedly dealing X elemental damage to all enemies within 20 feet of that spot.",
       "category": "Ability"
     },
   
@@ -963,9 +979,9 @@
       "cost": "Costs 30 AP",
       "range": "80ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
-      "note": "Target must be Hexed<br>Builds 10 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "Deals X elemental damage to your target over 15 seconds. Each time that this effect damages them, the flames will spread, causing Y elemental damage over 3 seconds to all other enemies within 20 feet of them.",
+      "cooldown": "15.0s cooldown",
+      "note": "<br>Builds 10 Combustion<br>Has a chance to cause an Explosion!",
+      "description": "Deals X elemental damage to your target over 3 seconds. At the end of this effect, it spreads to 4 enemies within 30 feet. This spread will happen up to 4 times, each time spreading to 1 more enemy, for a total of 15 second duration. Each target can only have a maximum of two of these effects from the same Bright Wizard at any time.",
       "category": "Ability"
     },
   
@@ -990,14 +1006,14 @@
       "id": 3560,
       "name": "The Burning Head",
       "type": "Damaging",
-      "spec": "Path of Incineration",
+      "spec": "Path of Conflagaration",
       "minrank": "1",
-      "cost": "Rank 4 morale",
+      "cost": "Costs 45 AP",
       "range": "100ft range",
-      "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
-      "note": "",
-      "description": "Deals 1600 damage to your target, and 1200 to all other enemies within 20 feet of them. All enemies hit by this effect will lose 600 points of morale.",
+      "incant": "2.0s cast",
+      "cooldown": "15.0s cooldown",
+      "note": "Builds 10 Combustion",
+      "description": "You ignite the fires of Aqshy swirling and molding them into a fiery skull that you fire at your target. The target and enemies within 30 take X elemental damage. Up to 9 allies within 30 feet of the target will gain 10% increased damage for 6 seconds.",
       "category": "Morale"
     },
   
