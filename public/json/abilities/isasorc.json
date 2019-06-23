@@ -5,9 +5,9 @@
       "optionalAbilities": {
         "lvl1": 5389,
         "lvl2": 5412,
-        "lvl3": 8500,
+        "lvl3": 5411,
         "lvl4": 5414,
-        "lvl5": 8500,
+        "lvl5": 5415,
         "lvl6": 5416,
         "lvl7": 5417
       },
@@ -796,16 +796,16 @@
     {
       "image": "22708",
       "id": 5411,
-      "name": "Recover Energy (Delete Me)",
+      "name": "Recover Energy",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Agony",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you damage an enemy with a Path Of Agony ability, you have a 25% chance to regain 50 action points.<br>This effect will not trigger more than once every 3 seconds.",
+      "description": "Abilities that spend Dark Magic will deal an additional X corporeal damage based on amount of Dark Magic you had when casting. (Higher Dark Magic = MOAR DOTS!)<br><br>(Old)Any time you damage an enemy with a Path Of Agony ability, you have a 25% chance to regain 50 action points.<br>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
   
@@ -990,14 +990,14 @@
       "id": 5415,
       "name": "Swell of Gloom",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Agony",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gloomburst will now deal an additional X Spirit damage each time it hits, but will also cause a backlash every time as well.",
+      "description": "Doombolt will have a 2.0 second cast time and generate 20 Dark Magic whenever you are at less than 90 Dark Magic.<br><br>(Old)Gloomburst will now deal an additional X Spirit damage each time it hits, but will also cause a backlash every time as well.(Old)",
       "category": "CareerTactic"
     },
   
