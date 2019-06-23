@@ -133,7 +133,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each time Chillwind or Ice Spikes damages an enemy, there is a 33% chance that the victim will suffer an additional X corporeal damage as well.",
+      "description": "Each time Ice Spikes damages an enemy, it will proc a Frozen Touch. It will have a 25% chance to proc twice.",
       "category": "CareerTactic"
     },
   
@@ -195,7 +195,7 @@
       "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "45.0s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "",
       "description": "Everyone in your group that is within 100 feet of you is surrounded by a demonic chill for 1 hour, giving them a 25% chance to deal X corporeal damage back against the attacker when they are struck by a melee attack.",
       "category": "Ability"
@@ -451,7 +451,7 @@
       "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "45.0s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "",
       "description": "Everyone in your group that is within 100 feet of you is filled with dark energy for 1 hour, giving them a 25% chance to deal an additional X corporeal damage any time they deal direct damage.",
       "category": "Ability"
@@ -469,7 +469,7 @@
       "incant": "2.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "Builds 20 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "A cloud of gloom clings to your target for 15 seconds, dealing X spirit damage every 3 seconds to them and all other enemies within 20 feet of them.",
+      "description": "A cloud of gloom clings to your target for 15 seconds, dealing X spirit damage every 3 seconds to them and all other enemies within 20 feet of them. You will gain 3 Dark Magic whenever this deals damage to an enemy.",
       "category": "Ability"
     },
   
