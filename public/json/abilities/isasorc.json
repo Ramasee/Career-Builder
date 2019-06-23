@@ -51,9 +51,9 @@
       "cost": "Costs 30 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "15.0s cooldown",
       "note": "Builds 5 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "A curse which siphons away your enemy's life, dealing X corporeal damage over 15 seconds and healing you for all of the damage dealt.",
+      "description": "A curse which siphons away your enemy's life, dealing X corporeal damage over 15 seconds and healing you for all of the damage dealt by this DoT. Hand of Rhuin, Artic Blast, and Gloomburst will deal an additional Y corporeal damage to the target.",
       "category": "Ability"
     },
   
@@ -133,7 +133,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each time Ice Spikes damages an enemy, it will proc a Frozen Touch. It will have a 25% chance to proc twice.",
+      "description": "Each time Ice Spikes damages an enemy, it has a 50% chance proc a Frozen Touch and a 12.5% chance to proc it twice. (And a 37.5% chance to not proc it at all)",
       "category": "CareerTactic"
     },
   
