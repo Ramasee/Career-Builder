@@ -340,7 +340,7 @@
       "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Only usable after an enemy disrupts one of your spells<br>Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
+      "note": "Requires Disrupt<br>Builds 20 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "An instant blast of magic that deals X corporeal damage to your target and can not be defended against.",
       "category": "Ability"
     },
@@ -988,7 +988,7 @@
     {
       "image": "22704",
       "id": 5415,
-      "name": "Swell of Gloom",
+      "name": "Swell of Doom",
       "type": "Buff",
       "spec": "Path of Agony",
       "minrank": "1",
@@ -997,7 +997,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Doombolt will have a 2.0 second cast time and generate 20 Dark Magic whenever you are at less than 90 Dark Magic.<br><br>(Old)Gloomburst will now deal an additional X Spirit damage each time it hits, but will also cause a backlash every time as well.(Old)",
+      "description": "Doombolt will have a 2.0 second cast time and generate 20 Dark Magic whenever you are at less than 90 Dark Magic. Echo of Power will cause the next Doombolt cast within 5 seconds to ignore 33% corporeal resistance.<br><br>(Old)Gloomburst will now deal an additional X Spirit damage each time it hits, but will also cause a backlash every time as well.(Old)",
       "category": "CareerTactic"
     },
   
