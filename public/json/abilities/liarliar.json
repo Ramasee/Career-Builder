@@ -435,7 +435,7 @@
       "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "45.0s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "",
       "description": "All groupmates within 100 feet are enchanted with a protective shield of flickering flames for 1 hour, giving them a 25% chance to deal X elemental damage back against the attacker when they are struck by a melee attack.",
       "category": "Ability"
@@ -1077,7 +1077,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Builds 20 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "You turn the air around your enemy into a grasping storm of burning flames dealing X corporeal damage over 21 seconds. Each time this deals damage, generate 5 combustion.",
+      "description": "You turn the air around your enemy into a grasping storm of burning flames dealing X corporeal damage over 21 seconds. Each time this deals damage, you will generate 3 Combustion.",
       "category": "Ability"
     },
         {
