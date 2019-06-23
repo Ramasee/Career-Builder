@@ -829,15 +829,15 @@
       "image": "10999",
       "id": 5416,
       "name": "Shades of Death",
-      "type": "Curse",
+      "type": "Enchantment",
       "spec": "Path of Agony",
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "Your target is haunted by spectres of death and doom for up to 10 seconds, causing an additional X spirit damage each time that they suffer direct damage. This effect will occur up to 5 times before fading.",
+      "description": "For the next 10 seconds, your Path of Agony abilities will hit the target again a short time later for less damage.<br><br>(Old with 5s cooldown)Your target is haunted by spectres of death and doom for up to 10 seconds, causing an additional X spirit damage each time that they suffer direct damage. This effect will occur up to 5 times before fading.",
       "category": "Ability"
     },
   
