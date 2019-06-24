@@ -69,7 +69,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gain a 300 unique bonus to spirit resistance and a 170 unique bonus to corporeal and elemental resistance.",
+      "description": "Gain a 300 unique bonus to spiritual resistance and a 170 unique bonus to corporeal and elemental resistance.",
       "category": "CareerTactic"
     },
   
@@ -85,7 +85,7 @@
       "incant": "2.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "You send a blast of dark energy slamming into your target, dealing X spirit damage. If the victim is cursed, then they will also become snared for 5 seconds, reducing their movement speed by 40%.",
+      "description": "You send a blast of dark energy slamming into your target, dealing X spiritual damage. If the victim is cursed, then they will also become snared for 5 seconds, reducing their movement speed by 40%.",
       "category": "Ability"
     },
   
@@ -293,7 +293,7 @@
       "incant": "3.0s cast",
       "cooldown": "8.0s cooldown",
       "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "You allow dark powers for flow freely through your body for up to 3 seconds, dealing X spirit damage every second to all enemies within 30 feet. This effect will end if you break your concentration or run out of action points.",
+      "description": "You allow dark powers for flow freely through your body for up to 3 seconds, dealing X spiritual damage every second to all enemies within 30 feet. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
   
@@ -426,22 +426,6 @@
     },
   
     {
-      "image": "22709",
-      "id": 5394,
-      "name": "Frozen Fury (Delete me!)",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "39",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Frozen Touch now has a 75% chance to trigger.",
-      "category": "CareerTactic"
-    },
-  
-    {
       "image": "10909",
       "id": 5373,
       "name": "Frozen Touch",
@@ -453,7 +437,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Everyone in your group that is within 100 feet of you is filled with dark energy for 1 hour, giving them a 25% chance to deal an additional X corporeal damage any time they deal direct damage.",
+      "description": "Everyone in your group that is within 100 feet of you is filled with dark energy for 1 hour, giving them a 25% chance to deal an additional X corporeal damage any time they deal damage.",
       "category": "Ability"
     },
   
@@ -469,7 +453,7 @@
       "incant": "2.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "Builds 20 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "A cloud of gloom clings to your target for 15 seconds, dealing X spirit damage every 3 seconds to them and all other enemies within 20 feet of them. You will gain 3 Dark Magic whenever this deals damage to an enemy.",
+      "description": "A cloud of gloom clings to your target for 15 seconds, dealing X spiritual damage every 3 seconds to them and all other enemies within 20 feet of them. You will gain 3 Dark Magic whenever this deals damage to an enemy.",
       "category": "Ability"
     },
   
@@ -485,7 +469,7 @@
       "incant": "1.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "Builds 25 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "A quick-casting spell that deals X spirit damage to your target.",
+      "description": "A quick-casting spell that deals X corporeal damage to your target.",
       "category": "Ability"
     },
   
@@ -549,7 +533,7 @@
       "incant": "6.0s cast",
       "cooldown": "11.0s cooldown",
       "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "Tendrils of dark energy burst forth from your hand and slice into your target for up to 6 seconds, dealing X spirit damage every 2 seconds. This effect will end if you break your concentration or run out of action points.",
+      "description": "Tendrils of dark energy burst forth from your hand and slice into your target for up to 6 seconds, dealing X spiritual damage every 2 seconds. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
 
@@ -597,7 +581,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Builds 40 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "You draw forth a huge amount of Dark Magic and slam your target with a powerful blast of force, dealing X spirit damage.",
+      "description": "You draw forth a huge amount of Dark Magic and slam your target with a powerful blast of force, dealing X corporeal damage.",
       "category": "Ability"
     },
   
@@ -629,7 +613,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Builds 20 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "A cone of dark energy bursts forth in front of you, dealing X spirit damage to enemies up to 65 feet away.",
+      "description": "A cone of dark energy bursts forth in front of you, dealing X spiritual damage to enemies up to 65 feet away.",
       "category": "Ability"
     },
   
@@ -773,7 +757,7 @@
       "incant": "10.0s cast",
       "cooldown": "20.0s cooldown",
       "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "A 20 feet pit of shadow covers the ground at a point that you select for 9 seconds. Your enemies will suffer X spirit damage every 1.5 seconds while they are within the area. This effect will end if you break your concentration or run out of action points.",
+      "description": "A 20 feet pit of shadow covers the ground at a point that you select for 9 seconds. Your enemies will suffer X spiritual damage every 1.5 seconds while they are within the area. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
   
@@ -869,7 +853,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "The ap cost of Chillwind is reduced by 20 and it will cause the target to take a X tactic penalty to spirit resistance for 9 seconds.",
+      "description": "The ap cost of Chillwind is reduced by 20 and it will cause the target to take a X tactic penalty to spiritual resistance for 9 seconds.",
       "category": "CareerTactic"
     },
   
@@ -885,7 +869,7 @@
       "incant": "3.0s cast",
       "cooldown": "No cooldown",
       "note": "Builds 20 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "You crush your foes underneath a blast of living shadow, dealing X spirit damage to your target and all other enemies within 20 feet of them.",
+      "description": "You crush your foes underneath a blast of living shadow, dealing X spiritual damage to your target and all other enemies within 20 feet of them.",
       "category": "Ability"
     },
   
@@ -1061,7 +1045,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Word of Pain's willpower debuff is increased to X for 5 seconds and will deal Y spirit damage at the end of the debuff duration.",
+      "description": "Word of Pain's willpower debuff is increased to X for 5 seconds and will deal Y spiritual damage at the end of the debuff duration.",
       "category": "CareerTactic"
     },
   
@@ -1077,7 +1061,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "A curse which causes the enemy to lose 30 action points over 5 seconds. When this effect ends, they will suffer X spirit damage.",
+      "description": "A curse which causes the enemy to lose 30 action points over 5 seconds. When this effect ends, they will suffer X spiritual damage.",
       "category": "Ability"
     },
   
@@ -1109,7 +1093,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Builds 5 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "Causes your target to take a (3 * rank) ability penalty to willpower for 10 seconds. When the effect ends, the victim will suffer X spirit damage.",
+      "description": "Causes your target to take a (3 * rank) ability penalty to willpower for 10 seconds. When the effect ends, the victim will suffer X spiritual damage.",
       "category": "Ability"
     },
 
