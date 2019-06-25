@@ -53,7 +53,7 @@
       "incant": "Instant Cast",
       "cooldown": "15.0s cooldown",
       "note": "Builds 5 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "A curse which siphons away your enemy's life, dealing X corporeal damage over 15 seconds and healing you for all of the damage dealt by this DoT. Hand of Rhuin, Artic Blast, and Gloomburst will deal an additional Y corporeal damage to the target.",
+      "description": "A curse which siphons away your enemy's life, dealing X corporeal damage over 15 seconds and healing you for all of the damage dealt by this DoT. Hand of Rhuin and Artic Blast will deal an additional Y corporeal damage to the target.",
       "category": "Ability"
     },
   
