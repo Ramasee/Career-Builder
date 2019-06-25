@@ -469,7 +469,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you cast Meltdown or Fireball Barrage, you will generate 1 stack of Flashfire, max 3 stacks. Each stack of Flashfire reduced the build-up time of your next Fireball or Pyroclastic Surge by 33%.",
+      "description": "Whenever you cast Meltdown or Fireball Barrage, you will generate 1 stack of Flashfire, max 3 stacks. Each stack of Flashfire reduced the build-up time of your next Fireball by 33%.<br><br> In addition, the cast time of your Pyroclastic Surge is reduced by 1.0s if you are under 90 Combustion.",
       "category": "CareerTactic"
     },
   
@@ -736,12 +736,12 @@
       "type": "Damaging",
       "spec": "Path of Incineration",
       "minrank": "10",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 45 AP",
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "Builds 10 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "A fountain of molten lava envelops your target, dealing X corporeal damage. If you have 80 or less combustion, the cast time will be reduced to 1.0 seconds.",
+      "description": "A fountain of molten lava envelops your target, dealing X corporeal damage.",
       "category": "Ability"
     },
   
