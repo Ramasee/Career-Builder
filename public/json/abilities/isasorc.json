@@ -789,7 +789,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Abilities that spend Dark Magic will deal an additional X corporeal damage based on amount of Dark Magic you had when casting. (Higher Dark Magic = MOAR DOTS!)<br><br>(Old)Any time you damage an enemy with a Path Of Agony ability, you have a 25% chance to regain 50 action points.<br>This effect will not trigger more than once every 3 seconds.",
+      "description": "Abilities that spend Dark Magic will deal an additional X corporeal damage based on amount of Dark Magic you had when casting.",
       "category": "CareerTactic"
     },
   
