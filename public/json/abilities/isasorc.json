@@ -80,12 +80,12 @@
       "type": "Damaging",
       "spec": "Path of Agony",
       "minrank": "10",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 45 AP",
       "range": "100ft range",
       "incant": "2.0s cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "No cooldown",
       "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "You send a blast of dark energy slamming into your target, dealing X spiritual damage. If the victim is cursed, then they will also become snared for 5 seconds, reducing their movement speed by 40%.",
+      "description": "You send a blast of dark energy slamming into your target, dealing X spiritual damage.",
       "category": "Ability"
     },
   
@@ -816,12 +816,12 @@
       "type": "Enchantment",
       "spec": "Path of Agony",
       "minrank": "1",
-      "cost": "Costs 30 AP",
+      "cost": "Costs No AP",
       "range": "100ft range",
-      "incant": "Instant Cast",
+      "incant": "2.0s Cast",
       "cooldown": "20.0s cooldown",
-      "note": "",
-      "description": "For the next 10 seconds, your Path of Agony abilities will hit the target again a short time later for less damage.<br><br>(Old with 5s cooldown)Your target is haunted by spectres of death and doom for up to 10 seconds, causing an additional X spirit damage each time that they suffer direct damage. This effect will occur up to 5 times before fading.",
+      "note": "Costs 40 Dark Magic",
+      "description": "Deals X corporeal damage to target. For the next 10 seconds, your Path of Agony abilities will hit the target again a short time later for less damage.",
       "category": "Ability"
     },
   
@@ -981,7 +981,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Doombolt will have a 2.0 second cast time and generate 20 Dark Magic whenever you are at less than 90 Dark Magic. Echo of Power will cause the next Doombolt cast within 5 seconds to ignore 33% corporeal resistance.<br><br>(Old)Gloomburst will now deal an additional X Spirit damage each time it hits, but will also cause a backlash every time as well.(Old)",
+      "description": "Doombolt and Artic Blast will have a 1.0s faster cast time whenever you are at less than 90 Dark Magic. Echo of Power will cause the next Doombolt cast within 5 seconds to ignore 33% corporeal resistance.",
       "category": "CareerTactic"
     },
   
