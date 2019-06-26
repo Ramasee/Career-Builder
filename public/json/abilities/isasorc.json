@@ -117,7 +117,7 @@
       "incant": "3.0s cast",
       "cooldown": "No cooldown",
       "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "You create a maelstrom of evil power which deals X corporeal damage to your target and all other enemies within 20 feet of them, and they take a X ability penalty to initiative for 20 seconds.",
+      "description": "Does something about backlashing self. Idk.",
       "category": "Ability"
     },
   
@@ -629,7 +629,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the radius of Surging Pain and the distance of Infernal Wave by 33%.",
+      "description": "Increases the radius of Surging Pain and Disastrous Cascade by 33%.",
       "category": "CareerTactic"
     },
   
@@ -834,8 +834,8 @@
       "minrank": "1",
       "cost": "Costs 20 AP/sec",
       "range": "80ft range",
-      "incant": "6.0s cast",
-      "cooldown": "16.0s cooldown",
+      "incant": "Instant cast",
+      "cooldown": "15.0s cooldown",
       "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "You create a cloud of dark energy for up to 6 seconds, dealing X corporeal damage to your target and all enemies within 20 feet of them every 2 seconds. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
