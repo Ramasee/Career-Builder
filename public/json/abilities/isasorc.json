@@ -780,7 +780,7 @@
     {
       "image": "22708",
       "id": 5411,
-      "name": "Expelled Energy",
+      "name": "Gloom and Doom",
       "type": "Buff",
       "spec": "Path of Agony",
       "minrank": "1",
@@ -789,7 +789,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Abilities that spend Dark Magic will deal an additional X corporeal damage based on amount of Dark Magic you had when casting.",
+      "description": "Gloomburst will not go on cooldown when cast. If another gloomburst is cast within 5 seconds, Gloomburst will go on cooldown for 10 seconds.",
       "category": "CareerTactic"
     },
   
