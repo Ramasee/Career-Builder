@@ -1061,7 +1061,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When an enemy is hit by any Conflagration ability, there is a 25% chance that they will become covered in flames, receiving X elemental damage over 5 seconds.",
+      "description": "When an enemy is hit by any ability that spends combustion, they will become covered in flames, receiving X elemental damage over 3 seconds.",
       "category": "CareerTactic"
     },
   
