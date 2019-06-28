@@ -948,7 +948,7 @@
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Costs 20 Dark Magic<br>Has a chance to cause a Backlash!",
+      "note": "Costs 20 Dark Magic",
       "description": "Waves of agony roll outwards from you, dealing X corporeal damage to all enemies within 30 feet.",
       "category": "Ability"
     },
