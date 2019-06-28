@@ -109,15 +109,15 @@
       "image": "11001",
       "id": 5426,
       "name": "Black Horror",
-      "type": "Curse",
+      "type": "Buff",
       "spec": "Path of Destruction",
       "minrank": "1",
-      "cost": "Costs 40 AP",
-      "range": "80ft range",
-      "incant": "3.0s cast",
-      "cooldown": "No cooldown",
-      "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "Does something about backlashing self. Idk.",
+      "cost": "Costs No AP",
+      "range": "No range",
+      "incant": "Instant cast",
+      "cooldown": "10.0s cooldown",
+      "note": "",
+      "description": "Toggle: You gain a X unique bonus to corporeal resistance and your chance to cause a backlash is tripled. Each time you backlash, your groupmates within 100 feet will deal 10% more damage for 10 seconds.",
       "category": "Ability"
     },
   
@@ -586,22 +586,6 @@
     },
   
     {
-      "image": "22708",
-      "id": 5388,
-      "name": "Infernal Gift",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "21",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Whenever one of your damaging spells hits an enemy, there is a 25% chance that your other groupmates within 100 feet of you will gain an Infernal Gift, increasing all damage that they deal by 10% for 10 seconds.",
-      "category": "CareerTactic"
-    },
-  
-    {
       "image": "10921",
       "id": 5380,
       "name": "Infernal Wave",
@@ -741,7 +725,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time that your Dark Magic causes a backlash, the blast will also deal 50% of the damage to all enemies within 30 feet of you.",
+      "description": "Any time that your Dark Magic causes a backlash, the blast will also deal X corporeal damage to all enemies within 30 feet of you.<br><br>In addition, Surging Pain can now cause a backlash.",
       "category": "CareerTactic"
     },
   
