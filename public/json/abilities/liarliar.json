@@ -309,7 +309,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time that your combustion causes an explosion, the blast will also deal 50% of the damage to all enemies within 30 feet of you.",
+      "description": "Any time that your combustion causes an explosion, the blast will also deal X elemental damage to all enemies within 30 feet of you.<br><br>In addition, Scorched Earth can now cause an explosion.",
       "category": "CareerTactic"
     },
   
@@ -602,22 +602,6 @@
     },
   
     {
-      "image": "22703",
-      "id": 3530,
-      "name": "Lingering Fires",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "15",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Pyroclastic Surge and Scorched Earth gain a 25% chance to cause an additional X elemental damage over 5 seconds to each target hit.",
-      "category": "CareerTactic"
-    },
-  
-    {
       "image": "23167",
       "id": 3545,
       "name": "Mage Bolt",
@@ -804,7 +788,7 @@
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Costs 20 Combustion<br>Has a chance to cause an Explosion!",
+      "note": "Costs 20 Combustion",
       "description": "You send a blast of heat into the ground around you, dealing X corporeal damage to all enemies within 30 feet.",
       "category": "Ability"
     },
@@ -992,12 +976,12 @@
       "type": "Damaging",
       "spec": "Path of Conflagaration",
       "minrank": "1",
-      "cost": "Costs 45 AP",
+      "cost": "Costs No AP",
       "range": "100ft range",
-      "incant": "2.0s cast",
+      "incant": "Instant cast",
       "cooldown": "15.0s cooldown",
-      "note": "Builds 10 Combustion",
-      "description": "You ignite the fires of Aqshy swirling and molding them into a fiery skull that you fire at your target. The target and enemies within 30 take X elemental damage. Up to 9 allies within 30 feet of the target will gain 10% increased damage for 6 seconds.",
+      "note": "Costs 25 Combustion.",
+      "description": "You ignite the fires of Aqshy swirling and molding them into a fiery skull that you fire foward. For the next X seconds, enemies 45 feet in front of you will take Y elemental damage every second. Your groupmates and up to 3 other allies within 30 feet of you will deal Z elemental damage to enemies within 20 feet of them the next time they use an ability.",
       "category": "Ability"
     },
   
