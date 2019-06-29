@@ -969,6 +969,22 @@
       "category": "Ability"
     },
   
+        {
+      "image": "22697",
+      "id": 3642,
+      "name": "Tentacles!",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "37",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "After ending or being removed, Tzeentch's Grasp will now snare targets by 40% and deal X physical damage over 5 seconds.",
+      "category": "CareerTactic"
+    },
+    
     {
       "image": "05296",
       "id": 5110,
