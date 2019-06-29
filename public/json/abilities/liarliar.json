@@ -968,6 +968,22 @@
       "description": "Fuck flavor text atm. Deals X corporeal damage. Deals Y corporeal damage over 3s.",
       "category": "Ability"
     },
+    
+        {
+      "image": "22697",
+      "id": 3642,
+      "name": "Tangling Cage",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "37",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "After ending or being removed, Fire Cage will now snare targets by 40% and deal X physical damage over 5 seconds.",
+      "category": "CareerTactic"
+    },
   
     {
       "image": "07937",
@@ -1076,7 +1092,7 @@
       "incant": "Mechanic",
       "cooldown": "No cooldown",
       "note": "Builds up to 100. Rests at 0.",
-      "description": "1-10: +4% magic crit, +10% crit damage, 4% chance of explosion.<br>11-30: +8% magic crit, +20% crit damage, 8% chance of explosion.<br>31-70: +15% magic crit, +40% crit damage, 15% chance of explosion.<br>71-90: +25% magic crit, +80% crit damage, 25% chance of explosion.<br>1-10: +35% magic crit, +100% crit damage, 35% chance of explosion.<br><br>Explosions deal (40/300 + 0.5INT) elemental damage to the caster and can critically hit.",
+      "description": "1-10: +4% magic crit, +10% crit damage, 4% chance of explosion.<br>11-30: +8% magic crit, +20% crit damage, 8% chance of explosion.<br>31-70: +15% magic crit, +40% crit damage, 15% chance of explosion.<br>71-90: +25% magic crit, +80% crit damage, 25% chance of explosion.<br>91-100: +35% magic crit, +100% crit damage, 35% chance of explosion.<br><br>Explosions deal (40/300 + 0.5INT) elemental damage to the caster and can critically hit.",
       "category": "Ability"
     }
   ]
