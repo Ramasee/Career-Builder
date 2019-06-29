@@ -490,18 +490,18 @@
     },
   
     {
-      "image": "22704",
-      "id": 5387,
+      "image": "22697",
+      "id": 3642,
       "name": "Grasping Darkness",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "15",
+      "minrank": "37",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Doombolt and Chillwind will now also cause the victim to lose 20 action points, and will cause the target to take a X penalty to strength, ballistic skill, and intelligence for 10 seconds.",
+      "description": "After ending or being removed, Grip of Fear will now snare targets by 40% and deal X physical damage over 5 seconds.",
       "category": "CareerTactic"
     },
   
