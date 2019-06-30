@@ -205,15 +205,15 @@
       "isasorc": {
     "name": "Sorceror (Proposal)",
     "slug": "isasorc",
-    "faction": "",
-    "race": "",
-    "class": ""
+    "faction": "Destruction",
+    "race": "Dark Elf",
+    "class": "Ranged DPS"
   },
     "liarliar": {
     "name": "Bright Wizard (Proposal)",
     "slug": "liarliar",
-    "faction": "",
-    "race": "",
-    "class": ""
+    "faction": "Order",
+    "race": "Empire",
+    "class": "Ranged DPS"
   }
 }
