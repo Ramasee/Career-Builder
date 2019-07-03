@@ -245,7 +245,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Fireball and Fireball Barrage cause enemies they strike to take X elemental damage over 5 seconds.",
+      "description": "Fireball and Fireball Barrage will now deal an additional X elemental damage over 5 seconds.",
       "category": "CareerTactic"
     },
   
