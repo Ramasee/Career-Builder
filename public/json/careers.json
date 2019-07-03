@@ -147,15 +147,8 @@
     "class": "Tank"
   },
   "choppa": {
-    "name": "Choppa (Old/Current)",
+    "name": "Choppa",
     "slug": "choppa",
-    "faction": "Destruction",
-    "race": "Greenskin",
-    "class": "Melee DPS"
-  },
-     "woodchuck": {
-    "name": "Choppa (Direction)",
-    "slug": "woodchuck",
     "faction": "Destruction",
     "race": "Greenskin",
     "class": "Melee DPS"
