@@ -4,20 +4,20 @@
       "name": "Path of Conquest",
       "optionalAbilities": {
         "lvl1": 3092,
-        "lvl2": 3093,
+        "lvl2": 3045,
         "lvl3": 3216,
         "lvl4": 3095,
         "lvl5": 3068,
         "lvl6": 3111,
         "lvl7": 3098
       },
-      "coreAbilities": [3063,3045,3046,3209,3201,3200]
+      "coreAbilities": [3063,3107,3046,3209,3201,3200]
     },
     "b": {
       "name": "Path of Vigilance",
       "optionalAbilities": {
         "lvl1": 3229,
-        "lvl2": 3100,
+        "lvl2": 3093,
         "lvl3": 3208,
         "lvl4": 3102,
         "lvl5": 3211,
@@ -30,7 +30,7 @@
       "name": "Path of Glory",
       "optionalAbilities": {
         "lvl1": 3106,
-        "lvl2": 3107,
+        "lvl2": 3100,
         "lvl3": 3219,
         "lvl4": 3225,
         "lvl5": 3110,
@@ -53,7 +53,7 @@
       "incant": "Instant Cast",
       "cooldown": "25s cooldown",
       "note": "You can have three commands active.",
-      "description": "Passive: You become filled with the endless power of Myrmidia, dealing X physical damage every 3 seconds to all enemies within 30 feet.<BR><BR>Activated: Deal X physical, direct damage to all enemies within 30 feet every 3 seconds for the next 9 seconds.",
+      "description": "Passive: You become filled with the endless power of Myrmidia, dealing X physical damage every 3 seconds to all enemies within 30 feet.<BR><BR>Activated: Deal Y physical, direct damage to all enemies within 30 feet every 3 seconds for the next 9 seconds.",
       "category": "Ability"
     },
   
@@ -69,7 +69,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Great Weapon",
-      "description": "You sweep your blade out in a wide arc hitting enemies with 25 in front of you, dealing X physical damage and causing them to take a X ability penalty to wounds for 10 seconds.",
+      "description": "You sweep your blade out in a wide arc hitting enemies with 25 in front of you, dealing X physical damage and causing them to take a Y ability penalty to wounds for 10 seconds.",
       "category": "Ability"
     },
   
