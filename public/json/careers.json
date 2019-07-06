@@ -6,6 +6,13 @@
     "race": "Empire",
     "class": "Ranged DPS"
   },
+      "liarliar": {
+    "name": "Bright Wizard (Proposal)",
+    "slug": "liarliar",
+    "faction": "Order",
+    "race": "Empire",
+    "class": "Ranged DPS"
+  },
   "knight-of-the-blazing-sun": {
     "name": "Knight of the Blazing Sun (Need Pass)",
     "slug": "knight-of-the-blazing-sun",
@@ -188,6 +195,13 @@
     "race": "Dark Elf",
     "class": "Ranged DPS"
   },
+        "isasorc": {
+    "name": "Sorceror (Proposal)",
+    "slug": "isasorc",
+    "faction": "Destruction",
+    "race": "Dark Elf",
+    "class": "Ranged DPS"
+  },
   "witch-elf": {
     "name": "Witch Elf",
     "slug": "witch-elf",
@@ -195,18 +209,11 @@
     "race": "Dark Elf",
     "class": "Melee DPS"
   },
-      "isasorc": {
-    "name": "Sorceror (Proposal)",
-    "slug": "isasorc",
-    "faction": "Destruction",
-    "race": "Dark Elf",
-    "class": "Ranged DPS"
-  },
-    "liarliar": {
-    "name": "Bright Wizard (Proposal)",
-    "slug": "liarliar",
-    "faction": "Order",
-    "race": "Empire",
-    "class": "Ranged DPS"
+      "featherseverywhere": {
+    "name": "",
+    "slug": "featherseverywhere",
+    "faction": "",
+    "race": "",
+    "class": ""
   }
 }
