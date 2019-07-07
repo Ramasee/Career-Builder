@@ -215,5 +215,12 @@
     "faction": "",
     "race": "",
     "class": ""
+  },
+        "pikachu": {
+    "name": "",
+    "slug": "pikachu",
+    "faction": "",
+    "race": "",
+    "class": ""
   }
 }
