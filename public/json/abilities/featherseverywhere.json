@@ -85,7 +85,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Repel Darkness will now cool down 50% faster, and will send the victim flying even further away from you.",
+      "description": "Repel Darkness will send the victim flying even further away from you. The cooldown will be reduced by 50% if you are wielding a great weapon.",
       "category": "CareerTactic"
     },
   
