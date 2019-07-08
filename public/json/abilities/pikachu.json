@@ -490,22 +490,6 @@
     },
   
     {
-      "image": "22702",
-      "id": 4773,
-      "name": "Flawless Armor",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "21",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Reduces the chance that an enemy will critically hit you by 10%.",
-      "category": "CareerTactic"
-    },
-  
-    {
       "image": "05004",
       "id": 4851,
       "name": "Flee",
@@ -677,7 +661,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you block an attack, your chance to parry is increased by 20% for 5 seconds.",
+      "description": "Any time you block an attack, your chance to parry is increased by 15% and your chance to be critically hit is reduced by 10% for 5 seconds.",
       "category": "CareerTactic"
     },
   
@@ -693,7 +677,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to critically hit by 15% when you are wielding a greatweapon.",
+      "description": "Increases your chance to critically hit by 15% and reduces your chance to be critically hit by 10% for 7 seconds after activating a chaotic aura.",
       "category": "CareerTactic"
     },
   
