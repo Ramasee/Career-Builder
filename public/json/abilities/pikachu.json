@@ -144,12 +144,12 @@
       "type": "Damaging",
       "spec": "Path of Dread",
       "minrank": "8",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 60 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A powerful overhand blow that inflicts X physical damage.",
+      "description": "A powerful overhand blow that inflicts X physical damage to enemies 30 feet in front of you..",
       "category": "Ability"
     },
   
@@ -405,7 +405,7 @@
       "incant": "Instant Cast",
       "cooldown": "25s cooldown",
       "note": "May have three Chaotic Auras active",
-      "description": "Passive: You call on the power of the Warp, channeling warped energy in to the hearts and minds of your opponents. All enemies within 30 feet will take X physical damage every 3 seconds.<BR><BR>Activated: Deal Y physical direct damage every 3 seconds for 9 seconds.",
+      "description": "Passive: You call on the power of the Warp, channeling warped energy in to the hearts and minds of your opponents. All enemies within 30 feet will take X physical damage every 3 seconds.<BR><BR>Activated: Deal Y physical direct damage every 3 seconds for 12 seconds.",
       "category": "Ability"
     },
   
@@ -485,7 +485,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Cleave and Dizzying Blow will cause the next Cleave used within 5 second to heal you for 100% of the damage dealt.",
+      "description": "Cleave and Dizzying Blow will cause the next Cleave used within 10s seconds to cost 15 less AP. This effect can stack up to 3x, and one stack is removed each time you cast cleave.",
       "category": "CareerTactic"
     },
   
@@ -549,7 +549,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduces Repel's cooldown time by 50% (when you are wielding a Greatweapon) and increases the length of the knockback.",
+      "description": "Increases the length of the knockback of the abilty Repel. If you are wielding a great weapon, the cooldown is reduced by 50%.",
       "category": "CareerTactic"
     },
   
@@ -816,12 +816,12 @@
       "type": "Damaging",
       "spec": "Path of Dread",
       "minrank": "1",
-      "cost": "Costs 25 AP/sec",
+      "cost": "Costs 20 AP/sec",
       "range": "5ft range",
       "incant": "3.0s channel",
       "cooldown": "8.0s cooldown",
       "note": "",
-      "description": "You hack at your enemy with brutal strikes for up to 3 seconds, striking them up to six times and dealing X physical damage with each hit. This effect will end if you break your concentration or run out of action points.",
+      "description": "You hack at your enemy with brutal strikes for up to 3 seconds, striking them up to six times and dealing X corporeal damage with each hit. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
   
@@ -1077,7 +1077,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "For 15 seconds, Tzeentch amplifies the effects of all heals cast on you by 300%.",
+      "description": "For 15 seconds, Tzeentch amplifies the effects of all heals cast on you by 300%. The effects of the tactic, Embrace the Winds, will be suppressed during this time.",
       "category": "Morale"
     },
   
