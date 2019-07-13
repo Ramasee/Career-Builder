@@ -53,7 +53,7 @@
       "incant": "Instant Cast",
       "cooldown": "25s cooldown",
       "note": "You can have three commands active.",
-      "description": "Passive: You become filled with the endless power of Myrmidia, dealing X physical damage every 3 seconds to all enemies within 30 feet.<BR><BR>Activated: Deal Y physical, direct damage to all enemies within 30 feet every 3 seconds for the next 9 seconds.",
+      "description": "Passive: You become filled with the endless power of Myrmidia, dealing X physical damage every 3 seconds to all enemies within 30 feet.<BR><BR>Activated: Deal Y physical, direct damage to all enemies within 30 feet every 3 seconds for the next 12 seconds.",
       "category": "Ability"
     },
   
@@ -293,7 +293,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Arcing Swing will now additionally cause enemies to deal 15% less critical damage.",
+      "description": "Arcing Swing will now additionally cause enemies to have 10% less parry, dodge, and disrupt.",
       "category": "CareerTactic"
     },
     
@@ -437,7 +437,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "A blazing aura of light surrounds your blade as you bring it around in a broad sweep, dealing X elemental damage to all enemies in front of you up to 40 feet away. Everyone hit by this attack will be staggered, and unable to move for 5 seconds, preventing all actions unless they are damaged.",
+      "description": "A blazing aura of light surrounds your blade as you bring it around in a broad sweep, dealing X elemental damage to all enemies in front of you up to 40 feet away. Everyone hit by this attack will be staggered, and unable to move for 4 seconds, preventing all actions unless they are damaged.",
       "category": "Ability"
     },
   
@@ -544,12 +544,12 @@
       "type": "Damaging",
       "spec": "Path of Conquest",
       "minrank": "1",
-      "cost": "Costs 25 AP/sec",
+      "cost": "Costs 20 AP/sec",
       "range": "5ft range",
       "incant": "3.0s channel",
       "cooldown": "8.0s cooldown",
       "note": "",
-      "description": "You slam into your target without remorse, dealing up to X physical damage over 3 seconds. This effect will end if you break your concentration or run out of action points.",
+      "description": "You slam into your target without remorse, dealing up to X elemental damage over 3 seconds. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
   
@@ -902,7 +902,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Myrmidia's power bursts forth from you, slamming into all enemies within 30 feet. All of the victims will suffer X elemental damage over 10 seconds and have their chance to defend attacks reduced by 10%.",
+      "description": "Myrmidia's power bursts forth from you, slamming into all enemies within 30 feet. All of the victims will suffer X elemental damage over 10 seconds and take a (5 * rank) ability penalty to toughness and weapon skill",
       "category": "Ability"
     },
   
@@ -966,7 +966,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Shield Of The Sun will now deal X elemental damage back against enemies, and Vicious Slash's cooldown is reduced by 1 second.",
+      "description": "Shield Of The Sun will now deal X elemental damage back against enemies, and Shining Blade's cooldown is reduced by 5 seconds.",
       "category": "CareerTactic"
     },
   
