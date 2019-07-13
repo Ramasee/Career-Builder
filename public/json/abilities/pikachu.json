@@ -837,7 +837,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
       "note": "Requires Great Weapon",
-      "description": "Your Demonic blade overpowers your enemy's defense causing X corporeal damage to all enemies within 25 feet in front of you.",
+      "description": "Your Demonic blade overpowers your enemy's defense causing X corporeal damage to all enemies within 25 feet in front of you. Enemies hit by this effect take 5% more damage from critical hits for 5 seconds.",
       "category": "Ability"
     },
   
