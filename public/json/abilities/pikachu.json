@@ -757,7 +757,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "You shake the very earth, dealing X corporeal damage to all opponents within 40 feet in front of you, staggering everyone for up to 3 seconds, preventing all actions unless they are damaged.",
+      "description": "You shake the very earth, dealing X corporeal damage to all opponents within 40 feet in front of you, staggering everyone for up to 4 seconds, preventing all actions unless they are damaged.",
       "category": "Ability"
     },
   
