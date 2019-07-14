@@ -373,7 +373,7 @@
       "incant": "Instant Cast",
       "cooldown": "25s cooldown",
       "note": "You can have three commands active.",
-      "description": "Passive: You order your group to steady their thoughts, granting a X ability bonus to all resistances for all groupmates within 100 feet.<BR><BR>All enemies within 30 feet will be frightened, and take a X ability penalty to elemental resistance.",
+      "description": "Passive: You order your group to steady their thoughts, granting a X ability bonus to all resistances for all groupmates within 100 feet.<BR><BR>Activated: All enemies within 30 feet will be frightened, and take a X ability penalty to elemental resistance.",
       "category": "Ability"
     },
   
