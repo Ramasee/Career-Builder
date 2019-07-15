@@ -53,7 +53,7 @@
       "incant": "Instant Cast",
       "cooldown": "25s cooldown",
       "note": "You can have three commands active.",
-      "description": "Passive: You become filled with the endless power of Myrmidia, dealing X physical damage every 3 seconds to all enemies within 30 feet.<BR><BR>Activated: Deal Y physical, direct damage to all enemies within 30 feet every 3 seconds for the next 12 seconds.",
+      "description": "Passive: You become filled with the endless power of Myrmidia, dealing X physical damage every 3 seconds to all enemies within 30 feet. Press the Attack's activated effect now provides 25% critical chance instead of 15%.<BR><BR>Activated: Deal Y physical, direct damage to all enemies within 30 feet every 3 seconds for the next 12 seconds.",
       "category": "Ability"
     },
   
@@ -293,7 +293,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Arcing Swing will now additionally cause enemies to have 10% less parry, dodge, and disrupt.",
+      "description": "Arcing Swing will now additionally make enemies 10% more likely to be critically hit.",
       "category": "CareerTactic"
     },
     
@@ -373,7 +373,7 @@
       "incant": "Instant Cast",
       "cooldown": "25s cooldown",
       "note": "You can have three commands active.",
-      "description": "Passive: You order your group to steady their thoughts, granting a X ability bonus to all resistances for all groupmates within 100 feet.<BR><BR>Activated: All enemies within 30 feet will be frightened, and take a X ability penalty to elemental resistance.",
+      "description": "Passive: You order your group to steady their thoughts, granting a X ability bonus to all resistances for all groupmates within 100 feet. To Victory!'s activated effect will now cause your groupmates to have a 100% reduced chance to be set back for the duration.<BR><BR>Activated: All enemies within 30 feet will be frightened, and take a X ability penalty to elemental resistance for 15 seconds.",
       "category": "Ability"
     },
   
@@ -597,7 +597,7 @@
       "incant": "Instant Cast",
       "cooldown": "25s cooldown",
       "note": "You can have three commands active.<BR>Requires Great Weapon",
-      "description": "Passive: You fill your enemies with fear and doubt, causing all healing abilities to become 10% less effective when on  any enemies within 30 feet of you.<BR><BR>Activated: Target enemy has 50% reduced healing received for 10 seconds.",
+      "description": "Passive: You fill your enemies with fear and doubt, any enemies within 30 feet of you will be healed for 10% less. The duration of Press the Attack's activated effect is increased by 5 seconds.<BR><BR>Activated: Target enemy has 50% reduced healing received for 15 seconds.",
       "category": "Ability"
     },
   
@@ -613,7 +613,7 @@
       "incant": "Instant Cast",
       "cooldown": "25s cooldown",
       "note": "You can have three commands active.<BR>Requires Shield.",
-      "description": "Passive: You order your group to ready their defenses, causing X physical damage back against any attacker who strikes a groupmate within 100 feet. Targets can only be damaged once every two seconds.<BR><BR>Activated: For the next 10 seconds, 10% of all damage your groupmates would have taken is directed to you instead.",
+      "description": "Passive: You order your group to ready their defenses, causing X physical damage back against any attacker who strikes a groupmate within 100 feet. Targets can only be damaged once every two seconds. Reduces the cooldown of To Glory! by 5 seconds.<BR><BR>Activated: For the next 10 seconds, 10% of all damage your groupmates would have taken is directed to you instead.",
       "category": "Ability"
     },
   
@@ -662,7 +662,7 @@
       "incant": "Instant Cast",
       "cooldown": "25s cooldown",
       "note": "You can have three commands active.",
-      "description": "Passive: You order your group to strike fiercely, granting a (rank * 1) unique bonus to strength for all groupmates within 100 feet.<BR><BR>Activated: All groupmates gain 10% critical chance for 10 seconds. This amount is improved by +5% for each additional Path of Conquest command active.",
+      "description": "Passive: You order your group to strike fiercely, granting a (rank * 1) unique bonus to strength for all groupmates within 100 feet.<BR><BR>Activated: All groupmates gain 15% critical chance for 7 seconds.",
       "category": "Ability"
     },
   
@@ -918,7 +918,7 @@
       "incant": "Instant Cast",
       "cooldown": "25s cooldown",
       "note": "You can have three commands active.",
-      "description": "Passive: You order your group to hold their positions, granting a (rank * 1) unique bonus to toughness for all groupmates within 100 feet.<BR><BR>Activated: Grant a (rank * 7.5) morale bonus to toughness to groupmates within 100 feet for 8 seconds.",
+      "description": "Passive: You order your group to hold their positions, granting a (rank * 1) unique bonus to toughness for all groupmates within 100 feet. To Glory!'s activated effect will provide 75 action points instead of 50.<BR><BR>Activated: Grant a (rank * 7.5) morale bonus to toughness to groupmates within 100 feet for 8 seconds.",
       "category": "Ability"
     },
   
@@ -934,7 +934,7 @@
       "incant": "Instant Cast",
       "cooldown": "25s cooldown",
       "note": "You can have three commands active.",
-      "description": "Passive: You order your group to prepare for combat, causing all of your groupmates within 100 feet to regain X health every 3 seconds.<BR><BR>Activated: For the next 10 seconds, all of your Path of Glory abilities will heal groupmates within 100 feet for 20% of the damage dealt.",
+      "description": "Passive: You order your group to prepare for combat, causing all of your groupmates within 100 feet to receive 5% increased healing. To Victory!'s activated effect duration is increased by 3 seconds.<BR><BR>Activated: For the next 10 seconds, your groupmates will gain a (7.5 * rank) morale bonus to willpower.",
       "category": "Ability"
     },
   
@@ -1030,7 +1030,7 @@
       "incant": "Instant Cast",
       "cooldown": "25s cooldown",
       "note": "You can have three commands active.",
-      "description": "Passive: You fill your group with purpose, causing all of your groupmates within 100 feet to regain 2 action points every second.<BR><BR>Activated: All groupmates gain 50 action points immediately. The cooldown of this command is reduced by 5 seconds for each Path of Vigilance command active.",
+      "description": "Passive: You fill your group with purpose, causing all of your groupmates within 100 feet to regain 2 action points every second.<BR><BR>Activated: All groupmates gain 50 action points immediately.",
       "category": "Ability"
     },
   
@@ -1046,7 +1046,7 @@
       "incant": "Instant Cast",
       "cooldown": "25s cooldown",
       "note": "You can have three commands active.",
-      "description": "Passive: You order your group to steady themselves, making it 25% less likely that your groupmates within 100 feet will become set back if they're hit while using an ability.<BR><BR>Activated: For the next 6 seconds, your groupmates cast times are reduced by 0.5 seconds. The duration is increased by 2 seconds for each Path of Glory command active.",
+      "description": "Passive: You order your group to steady themselves, making it 25% less likely that your groupmates within 100 feet will become set back if they're hit while using an ability.<BR><BR>Activated: For the next 5 seconds, your groupmates cast times are reduced by 0.5 seconds.",
       "category": "Ability"
     },
   
