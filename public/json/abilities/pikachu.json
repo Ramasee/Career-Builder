@@ -661,7 +661,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you block an attack, your groupmates within 100 feet have their chance to be critically hit reduced by 10% for 10 seconds.",
+      "description": "Any time you block an attack, your groupmates within 100 feet have their chance to be critically hit reduced by 5% for 10 seconds.",
       "category": "CareerTactic"
     },
   
