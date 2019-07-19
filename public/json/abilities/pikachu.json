@@ -293,7 +293,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Bane Shield will now also protect any of your allies within 30 feet and last 7 seconds longer. Suppression will increase your chance to parry by 30% if you have a shield equipped.",
+      "description": "Bane Shield will now also protect any of your allies within 30 feet and last 7 seconds longer. You will gain 10% block chance for the duration.",
       "category": "CareerTactic"
     },
   
