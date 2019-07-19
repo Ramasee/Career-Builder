@@ -485,7 +485,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Cleave and Dizzying Blow will cause the next Cleave used within 10s seconds to cost 15 less AP. This effect can stack up to 3x, and one stack is removed each time you cast cleave.",
+      "description": "Sever Blessing and Dizzying Blow will cause the next Cleave used within 10s seconds to cost 15 less AP. This effect can stack up to 3x, and one stack is removed each time you cast cleave.",
       "category": "CareerTactic"
     },
   
@@ -741,7 +741,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your action point regenration by 15.",
+      "description": "Reduces the action point cost of all your abilities by 35%.",
       "category": "CareerTactic"
     },
   
@@ -784,7 +784,7 @@
       "type": "Damaging",
       "spec": "Path of Discord",
       "minrank": "5",
-      "cost": "Costs 40 AP",
+      "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
@@ -816,7 +816,7 @@
       "type": "Damaging",
       "spec": "Path of Dread",
       "minrank": "1",
-      "cost": "Costs 20 AP/sec",
+      "cost": "Costs 18 AP/sec",
       "range": "5ft range",
       "incant": "3.0s channel",
       "cooldown": "8.0s cooldown",
@@ -835,9 +835,9 @@
       "cost": "Costs 35 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "Requires Great Weapon",
-      "description": "Your Demonic blade overpowers your enemy's defense causing X corporeal damage to all enemies within 25 feet in front of you. Enemies hit by this effect take 5% more damage from critical hits for 5 seconds.",
+      "description": "Your Demonic blade overpowers your enemy's defense causing X corporeal damage to all enemies within 25 feet in front of you. Enemies hit by this effect take 5% more damage from critical hits for 10 seconds.",
       "category": "Ability"
     },
   
@@ -880,7 +880,7 @@
       "type": "Curse",
       "spec": "Path of Discord",
       "minrank": "3",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 40 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
@@ -1088,10 +1088,10 @@
       "type": "Enchantment",
       "spec": "Path of Discord",
       "minrank": "1",
-      "cost": "Costs 20 AP",
+      "cost": "Costs 35 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "20.0s cooldown",
       "note": "",
       "description": "You are surrounded by magical barrier reducing all magical damage you take by 20% for 10 seconds. During this time, any time you are struck by magical damage, you will deal X corporeal damage to enemies within 30 feet. This effect can only happen once every 0.5 seconds.",
       "category": "Ability"
