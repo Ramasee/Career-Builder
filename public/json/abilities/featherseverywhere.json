@@ -101,7 +101,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your action point regeneration by 15",
+      "description": "Reduces the action point cost of all your abilities by 35%.",
       "category": "CareerTactic"
     },
         
