@@ -981,7 +981,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A quick blow that causes X physical damage and improves your defensive position, increasing your chance to parry by 20% for 15 seconds.",
+      "description": "A quick blow that causes X physical damage and improves your defensive position, increasing your chance to parry by 20% for 10 seconds.",
       "category": "Ability"
     },
   
