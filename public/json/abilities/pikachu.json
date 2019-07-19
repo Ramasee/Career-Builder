@@ -165,7 +165,7 @@
       "incant": "Instant Cast",
       "cooldown": "25s cooldown",
       "note": "May have three Chaotic Auras active",
-      "description": "Passive: The power of the Warp radiates out from you causing groupmates within 100 feet to have a 25% reduced chance to be setback.<BR><BR>Activated: For the next 6 seconds, groupmates will have 0.5 second faster build up times on abilities. This is increased by 2 seconds per Path of Discord chaotic aura active.",
+      "description": "Passive: The power of the Warp radiates out from you causing groupmates within 100 feet to have a 25% reduced chance to be setback.<BR><BR>Activated: For the next 5 seconds, groupmates will have 0.5 second faster build up times on abilities.",
       "category": "Ability"
     },
   
@@ -181,7 +181,7 @@
       "incant": "Instant Cast",
       "cooldown": "25s cooldown",
       "note": "May have three Chaotic Auras active.<BR>Requires Shield.",
-      "description": "Passive: You instill the power of the warp in your groupmates within 100 feet, causing enemies to take X physical damage whenever they attack your groupmates.<BR><BR>Activated: For the next 10 seconds, 10% of all damage your groupmates would have taken, is instead directed to you.",
+      "description": "Passive: You instill the power of the warp in your groupmates within 100 feet, causing enemies to take X physical damage whenever they attack your groupmates. Reduces the cooldown of Corrupting Terror by 5 seconds.<BR><BR>Activated: For the next 10 seconds, 10% of all damage your groupmates would have taken, is instead directed to you.",
       "category": "Ability"
     },
   
@@ -197,7 +197,7 @@
       "incant": "Instant Cast",
       "cooldown": "25s cooldown",
       "note": "May have three Chaotic Auras active",
-      "description": "You call upon the power of the warp to emolden your groupmates mind and muscles, causing all groupmates within 100 feet to gain a (1 * rank) unique bonus to toughness.<BR><BR>Activated: For the next 8 seconds, your groupmates will also gain a (7.5 * rank) morale bonus to toughness.",
+      "description": "You call upon the power of the warp to emolden your groupmates mind and muscles, causing all groupmates within 100 feet to gain a (1 * rank) unique bonus to toughness. Corrupting Terror's activated effect now provides 75 action points rather than 50.<BR><BR>Activated: For the next 8 seconds, your groupmates will also gain a (7.5 * rank) morale bonus to toughness.",
       "category": "Ability"
     },
   
@@ -309,7 +309,7 @@
       "incant": "Instant Cast",
       "cooldown": "4.5s cooldown",
       "note": "May have three Chaotic Auras active",
-      "description": "Passive: The power of the Warp fluctuates violently around you and your allies within 100 feet. Groupmates within 100 feet are healed for X every 3 seconds.<BR><BR>Activated: For the next 10 seconds, all your Path of Discord abilities heal your groupmates for 20% of the damage dealt.",
+      "description": "Passive: The power of the Warp fluctuates violently around you and your allies within 100 feet. Groupmates within 100 feet are healed for an additional 5%. Discordant Horror's activated effect lasts for 3 more seconds.<BR><BR>Activated: For the next 10 seconds, your groupmates gain a (7.5 * rank) morale bonus to willpower.",
       "category": "Ability"
     },
   
@@ -325,7 +325,7 @@
       "incant": "Instant Cast",
       "cooldown": "4.5s cooldown",
       "note": "May have three Chaotic Auras active",
-      "description": "Passive: You tear at the fabric of reality, warping the world around you. Groupmates within 100 feet gain a X ability bonus to all resistances.<BR><BR>Activated: Enemies within 30 feet take a X ability penalty to corporeal resistance for 10 seconds.",
+      "description": "Passive: You tear at the fabric of reality, warping the world around you. Groupmates within 100 feet gain a X ability bonus to all resistances. Discordant Horror's activated effect will cause your allies to have a 100% chance to not be set back for its duration.<BR><BR>Activated: Enemies within 30 feet take a X ability penalty to corporeal resistance for 15 seconds.",
       "category": "Ability"
     },
   
@@ -341,7 +341,7 @@
       "incant": "Instant Cast",
       "cooldown": "25s cooldown",
       "note": "May have three Chaotic Auras active.<BR>Requires Great Weapon.",
-      "description": "Passive: The power of the Warp melds with the mind of your enemies, causing healing used on any foes within 30 feet to be 10% less effective.<BR><BR>Activated: Target enemy received 50% less healing for the next 10 seconds.",
+      "description": "Passive: The power of the Warp melds with the mind of your enemies, causing healing used on any foes within 30 feet to be 10% less effective. Increases the duration of the activated effect of Dreadful Fear by 5 seconds.<BR><BR>Activated: Target enemy received 50% less healing for the next 10 seconds.",
       "category": "Ability"
     },
   
@@ -405,7 +405,7 @@
       "incant": "Instant Cast",
       "cooldown": "25s cooldown",
       "note": "May have three Chaotic Auras active",
-      "description": "Passive: You call on the power of the Warp, channeling warped energy in to the hearts and minds of your opponents. All enemies within 30 feet will take X physical damage every 3 seconds.<BR><BR>Activated: Deal Y physical direct damage every 3 seconds for 12 seconds.",
+      "description": "Passive: You call on the power of the Warp, channeling warped energy in to the hearts and minds of your opponents. All enemies within 30 feet will take X physical damage every 3 seconds. Dreadful Fear's activated effect now provides 25% critical chance instead of 15%.<BR><BR>Activated: Deal Y physical direct damage every 3 seconds for 12 seconds.",
       "category": "Ability"
     },
   
@@ -421,7 +421,7 @@
       "incant": "Instant Cast",
       "cooldown": "25s cooldown",
       "note": "May have three Chaotic Auras active",
-      "description": "Passive: You call upon the power of the warp to instill a bone chilling effect in your groupmates within 100 feet of you, causing them to gain a (1 * rank) unique bonus to strength.<BR><BR>Activated: Groupmates gain 10% critical chance for 10 seconds. This amount is increased by 5% for each Path of Dread chaotic aura active.",
+      "description": "Passive: You call upon the power of the warp to instill a bone chilling effect in your groupmates within 100 feet of you, causing them to gain a (1 * rank) unique bonus to strength.<BR><BR>Activated: Groupmates gain 15% critical chance for 7 seconds.",
       "category": "Ability"
     },
   
@@ -437,7 +437,7 @@
       "incant": "Instant Cast",
       "cooldown": "25s cooldown",
       "note": "May have three Chaotic Auras active",
-      "description": "Passive: The power of the Warp encases you in a terrifying visage. All groupmates within 100 feet will regain 2 action points every second.<BR><BR>Activated: Groupmates gain 50 action points immediately. The cooldown is reduced by 5 seconds per Path of Corruption chaotic aura active.",
+      "description": "Passive: The power of the Warp encases you in a terrifying visage. All groupmates within 100 feet will regain 2 action points every second.<BR><BR>Activated: Groupmates gain 50 action points immediately.",
       "category": "Ability"
     },
   
@@ -677,7 +677,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to critically hit by 15% and reduces your chance to be critically hit by 10% for 7 seconds after activating a chaotic aura.",
+      "description": "Increases your chance to critically hit by 15% and reduces your chance to be critically hit by 10% for 8 seconds after activating a chaotic aura.",
       "category": "CareerTactic"
     },
   
