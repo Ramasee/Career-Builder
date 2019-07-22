@@ -3,41 +3,41 @@
     "a": {
       "name": "Path of Agony",
       "optionalAbilities": {
-        "lvl1": 5411,
+        "lvl1": 5389,
         "lvl2": 5412,
-        "lvl3": 5413,
+        "lvl3": 5411,
         "lvl4": 5414,
         "lvl5": 5415,
         "lvl6": 5416,
         "lvl7": 5417
       },
-      "coreAbilities": [5369,5373,5382,5466,5377]
+      "coreAbilities": [5369,5469,5382,5466,5377]
     },
     "b": {
       "name": "Path of Calamity",
       "optionalAbilities": {
-        "lvl1": 5418,
+        "lvl1": 5422,
         "lvl2": 5419,
         "lvl3": 5420,
         "lvl4": 5421,
-        "lvl5": 5422,
+        "lvl5": 5418,
         "lvl6": 5423,
         "lvl7": 5424
       },
-      "coreAbilities": [5374,5385,5379,5381,5467]
+      "coreAbilities": [5374,5385,5379,5467,5373]
     },
     "c": {
       "name": "Path of Destruction",
       "optionalAbilities": {
-        "lvl1": 5425,
+        "lvl1": 5429,
         "lvl2": 5426,
-        "lvl3": 5427,
+        "lvl3": 5425,
         "lvl4": 5428,
-        "lvl5": 5429,
+        "lvl5": 5427,
         "lvl6": 5430,
         "lvl7": 5431
       },
-      "coreAbilities": [5372,5386,5375,5383,5380]
+      "coreAbilities": [5372,5375,5383,5380,5381]
     }
   },
   "data": [
@@ -51,9 +51,9 @@
       "cost": "Costs 30 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "15.0s cooldown",
       "note": "Builds 5 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "A Curse which siphons away your enemy's life, dealing X corporeal damage over 15 seconds and healing you for all of the damage dealt.",
+      "description": "A curse which siphons away your enemy's life, dealing X corporeal damage over 15 seconds and healing you for all of the damage dealt by this DoT. Hand of Rhuin and Artic Blast will deal an additional Y corporeal damage to the target.",
       "category": "Ability"
     },
   
@@ -69,7 +69,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gain a 252 unique bonus to spirit resistance.",
+      "description": "Gain a 300 unique bonus to spiritual resistance and a 170 unique bonus to corporeal and elemental resistance.",
       "category": "CareerTactic"
     },
   
@@ -80,12 +80,12 @@
       "type": "Damaging",
       "spec": "Path of Agony",
       "minrank": "10",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 45 AP",
       "range": "100ft range",
       "incant": "2.0s cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "No cooldown",
       "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "You send a blast of dark energy slamming into your target, dealing X spirit damage. If the victim is cursed, then they will also become snared for 5 seconds, reducing their movement speed by 40%.",
+      "description": "You send a blast of dark energy slamming into your target, dealing X spiritual damage.",
       "category": "Ability"
     },
   
@@ -101,7 +101,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you kill an enemy, you will regain 471 health over 9 seconds.",
+      "description": "Any time you kill an enemy, you will regain 20% health over 9 seconds.",
       "category": "CareerTactic"
     },
   
@@ -109,15 +109,15 @@
       "image": "11001",
       "id": 5426,
       "name": "Black Horror",
-      "type": "Curse",
+      "type": "Buff",
       "spec": "Path of Destruction",
       "minrank": "1",
-      "cost": "Costs 40 AP",
-      "range": "80ft range",
-      "incant": "3.0s cast",
-      "cooldown": "No cooldown",
-      "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "You create a maelstrom of evil power which deals X corporeal damage to your target and all other enemies within 20 feet of them, and they take a X ability penalty to initiative for 20 seconds.",
+      "cost": "Costs No AP",
+      "range": "No range",
+      "incant": "Instant cast",
+      "cooldown": "10.0s cooldown",
+      "note": "",
+      "description": "Toggle: You gain a X unique bonus to corporeal resistance and your chance to cause a backlash is tripled. Each time you backlash, your groupmates within 100 feet will deal 10% more damage for 10 seconds.",
       "category": "Ability"
     },
   
@@ -133,7 +133,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each time Chillwind or Ice Spikes damages an enemy, there is a 33% chance that the victim will suffer an additional X corporeal damage as well.",
+      "description": "Each time Ice Spikes damages an enemy, it has a 50% chance proc a Frozen Touch and a 12.5% chance to proc it twice. (And a 37.5% chance to not proc it at all)",
       "category": "CareerTactic"
     },
   
@@ -149,7 +149,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Builds 5 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "A curse which deals X Corporeal damage to your target over 9 seconds.",
+      "description": "A curse which deals X corporeal damage to your target over 9 seconds.",
       "category": "Ability"
     },
   
@@ -181,7 +181,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Your target and all other enemies within 20 feet of them are Silenced and Disarmed for 7 seconds, making them unable to use melee, ranged, or magic abilities.",
+      "description": "Your target and all other enemies within 20 feet of them are silenced and disarmed for 7 seconds, making them unable to use melee, ranged, or magic abilities.",
       "category": "Morale"
     },
   
@@ -190,12 +190,12 @@
       "id": 5381,
       "name": "Daemonic Chill",
       "type": "Enchantment",
-      "spec": "Path of Calamity",
+      "spec": "Path of Destruction",
       "minrank": "18",
       "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "45.0s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "",
       "description": "Everyone in your group that is within 100 feet of you is surrounded by a demonic chill for 1 hour, giving them a 25% chance to deal X corporeal damage back against the attacker when they are struck by a melee attack.",
       "category": "Ability"
@@ -254,14 +254,14 @@
       "id": 5469,
       "name": "Dhar Wind",
       "type": "Damaging",
-      "spec": "Core Ability",
+      "spec": "Path of Agony",
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "100ft range",
-      "incant": "1.0s cast",
-      "cooldown": "5.0s cooldown",
-      "note": "Consumes all Dark Magic",
-      "description": "You expel all of your build-up Dark Magic in a deadly blast, dealing damage to your target based on the amount of Dark Magic that was consumed.<br>  1 - 10 Dark Magic: 75 damage.<br>  11 - 30 Dark Magic: 150 damage.<br>  31 - 70 Dark Magic: 300 damage.<br>  71 - 90 Dark Magic: 600 damage.<br>  91 - 100 Dark Magic: 750 damage.",
+      "incant": "Instant cast",
+      "cooldown": "No cooldown",
+      "note": "Consumes 20 Dark Magic",
+      "description": "You expel some of your build-up Dark Magic in a deadly blast, dealing X corporeal damage",
       "category": "Ability"
     },
   
@@ -293,7 +293,7 @@
       "incant": "3.0s cast",
       "cooldown": "8.0s cooldown",
       "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "You allow dark powers for flow freely through your body for up to 3 seconds, dealing X spirit damage every second to all enemies within 30 feet. This effect will end if you break your concentration or run out of action points.",
+      "description": "You allow dark powers for flow freely through your body for up to 3 seconds, dealing X spiritual damage every second to all enemies within 30 feet. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
   
@@ -340,7 +340,7 @@
       "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Only usable after an enemy disrupts one of your spells<br>Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
+      "note": "Requires Disrupt<br>Builds 20 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "An instant blast of magic that deals X corporeal damage to your target and can not be defended against.",
       "category": "Ability"
     },
@@ -350,14 +350,14 @@
       "id": 5389,
       "name": "Empowered Dhar",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Agony",
       "minrank": "27",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Dhar Wind will now restore your action points, returning an amount equal to the Dark Magic which was expended.",
+      "description": "Dhar Wind will now increase your damage by 10% for 5 seconds.",
       "category": "CareerTactic"
     },
   
@@ -373,7 +373,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gsin s 160 unique bonus to intelligence.",
+      "description": "Gain a 160 unique bonus to intelligence.",
       "category": "CareerTactic"
     },
   
@@ -389,7 +389,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
   
@@ -421,24 +421,8 @@
       "incant": "1.0s cast",
       "cooldown": "30.0s cooldown",
       "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "You fill your enemy's mind with fear, dealing X corporeal damage and Disarming them for 3 seconds, making them unable to use melee and ranged abilities.",
+      "description": "You fill your enemy's mind with fear, dealing X corporeal damage and disarming them for 3 seconds, making them unable to use melee and ranged abilities.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22709",
-      "id": 5394,
-      "name": "Frozen Fury",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "39",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Frozen Touch now has a 75% chance to trigger.",
-      "category": "CareerTactic"
     },
   
     {
@@ -446,14 +430,14 @@
       "id": 5373,
       "name": "Frozen Touch",
       "type": "Enchantment",
-      "spec": "Path of Agony",
+      "spec": "Path of Calamity",
       "minrank": "6",
       "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "45.0s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Everyone in your group that is within 100 feet of you is filled with dark energy for 1 hour, giving them a 25% chance to deal an additional X corporeal damage any time they deal direct damage.",
+      "description": "Everyone in your group that is within 100 feet of you is filled with dark energy for 1 hour, giving them a 25% chance to deal an additional X corporeal damage any time they deal damage.",
       "category": "Ability"
     },
   
@@ -469,7 +453,7 @@
       "incant": "2.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "Builds 20 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "A cloud of gloom clings to your target for 15 seconds, dealing X spirit damage every 3 seconds to them and all other enemies within 20 feet of them.",
+      "description": "A cloud of gloom clings to your target for 15 seconds, dealing X spiritual damage every 3 seconds to them and all other enemies within 20 feet of them. You will gain 3 Dark Magic whenever this deals damage to an enemy.",
       "category": "Ability"
     },
   
@@ -485,7 +469,7 @@
       "incant": "1.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "Builds 25 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "A quick-casting spell that deals X spirit damage to your target.",
+      "description": "A quick-casting spell that deals X corporeal damage to your target.",
       "category": "Ability"
     },
   
@@ -506,18 +490,18 @@
     },
   
     {
-      "image": "22704",
-      "id": 5387,
+      "image": "22697",
+      "id": 3642,
       "name": "Grasping Darkness",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "15",
+      "minrank": "37",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Doombolt and Chillwind will now also cause the victim to lose 20 action points, and will cause the target to take a X penalty to strength, ballistic skill, and intelligence for 10 seconds.",
+      "description": "After ending or being removed, Grip of Fear will now snare targets by 40% and deal X physical damage over 5 seconds.",
       "category": "CareerTactic"
     },
   
@@ -549,7 +533,7 @@
       "incant": "6.0s cast",
       "cooldown": "11.0s cooldown",
       "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "Tendrils of dark energy burst forth from your hand and slice into your target for up to 6 seconds, dealing X spirit damage every 2 seconds. This effect will end if you break your concentration or run out of action points.",
+      "description": "Tendrils of dark energy burst forth from your hand and slice into your target for up to 6 seconds, dealing X spiritual damage every 2 seconds. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
 
@@ -597,24 +581,8 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Builds 40 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "You draw forth a huge amount of Dark Magic and slam your target with a powerful blast of force, dealing X spirit damage.",
+      "description": "You draw forth a huge amount of Dark Magic and slam your target with a powerful blast of force, dealing X corporeal damage.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22708",
-      "id": 5388,
-      "name": "Infernal Gift",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "21",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Whenever one of your damaging spells hits an enemy, there is a 25% chance that your other groupmates within 100 feet of you will gain an Infernal Gift, increasing all damage that they deal by 10% for 10 seconds.",
-      "category": "CareerTactic"
     },
   
     {
@@ -629,7 +597,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Builds 20 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "A cone of dark energy bursts forth in front of you, dealing X spirit damage to enemies up to 65 feet away.",
+      "description": "A cone of dark energy bursts forth in front of you, dealing X spiritual damage to enemies up to 65 feet away.",
       "category": "Ability"
     },
   
@@ -645,7 +613,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the radius of Surging Pain and the distance of Infernal Wave by 33%.",
+      "description": "Increases the radius of Surging Pain and Disastrous Cascade by 33%.",
       "category": "CareerTactic"
     },
   
@@ -757,7 +725,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time that your Dark Magic causes an backlash, the blast will also deal 50% of the damage to all enemies within 30 feet of you.",
+      "description": "Any time that your Dark Magic causes a backlash, the blast will also deal X corporeal damage to all enemies within 30 feet of you.<br><br>In addition, Surging Pain can now cause a backlash.",
       "category": "CareerTactic"
     },
   
@@ -773,7 +741,7 @@
       "incant": "10.0s cast",
       "cooldown": "20.0s cooldown",
       "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "A 20 feet pit of shadow covers the ground at a point that you select for 9 seconds. Your enemies will suffer X spirit damage every 1.5 seconds while they are within the area. This effect will end if you break your concentration or run out of action points.",
+      "description": "A 20 feet pit of shadow covers the ground at a point that you select for 9 seconds. Your enemies will suffer X spiritual damage every 1.5 seconds while they are within the area. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
   
@@ -796,7 +764,7 @@
     {
       "image": "22708",
       "id": 5411,
-      "name": "Recover Energy",
+      "name": "Gloom and Doom",
       "type": "Buff",
       "spec": "Path of Agony",
       "minrank": "1",
@@ -805,7 +773,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you damage an enemy with a Path Of Agony ability, you have a 25% chance to regain 50 action points.<br>This effect will not trigger more than once every 3 seconds.",
+      "description": "Gloomburst will not go on cooldown when cast. If another gloomburst is cast within 5 seconds, Gloomburst will go on cooldown for 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -829,15 +797,15 @@
       "image": "10999",
       "id": 5416,
       "name": "Shades of Death",
-      "type": "Curse",
+      "type": "Enchantment",
       "spec": "Path of Agony",
       "minrank": "1",
-      "cost": "Costs 30 AP",
+      "cost": "Costs No AP",
       "range": "100ft range",
-      "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
-      "note": "",
-      "description": "Your target is haunted by spectres of death and doom for up to 10 seconds, causing an additional X spirit damage each time that they suffer direct damage. This effect will occur up to 5 times before fading.",
+      "incant": "2.0s Cast",
+      "cooldown": "20.0s cooldown",
+      "note": "Costs 40 Dark Magic",
+      "description": "Deals X corporeal damage to target. For the next 10 seconds, your Path of Agony abilities will hit the target again a short time later for less damage.",
       "category": "Ability"
     },
   
@@ -850,8 +818,8 @@
       "minrank": "1",
       "cost": "Costs 20 AP/sec",
       "range": "80ft range",
-      "incant": "6.0s cast",
-      "cooldown": "16.0s cooldown",
+      "incant": "Instant cast",
+      "cooldown": "15.0s cooldown",
       "note": "Builds 15 Dark Magic<br>Has a chance to cause a Backlash!",
       "description": "You create a cloud of dark energy for up to 6 seconds, dealing X corporeal damage to your target and all enemies within 20 feet of them every 2 seconds. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
@@ -869,7 +837,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "The cost of Chillwind is reduced by 20 and it will cause the target to take a X unique penalty to spirit resistance for 9 seconds.",
+      "description": "The ap cost of Chillwind is reduced by 20 and it will cause the target to take a X tactic penalty to spiritual resistance for 9 seconds.",
       "category": "CareerTactic"
     },
   
@@ -885,7 +853,7 @@
       "incant": "3.0s cast",
       "cooldown": "No cooldown",
       "note": "Builds 20 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "You crush your foes underneath a blast of living shadow, dealing X spirit damage to your target and all other enemies within 20 feet of them.",
+      "description": "You crush your foes underneath a blast of living shadow, dealing X spiritual damage to your target and all other enemies within 20 feet of them.",
       "category": "Ability"
     },
   
@@ -958,7 +926,7 @@
       "id": 5386,
       "name": "Stricken Voices",
       "type": "Curse",
-      "spec": "Path of Destruction",
+      "spec": "Core Ability",
       "minrank": "40",
       "cost": "Costs 25 AP",
       "range": "80ft range",
@@ -980,7 +948,7 @@
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Costs 20 Dark Magic<br>Has a chance to cause a Backlash!",
+      "note": "Costs 20 Dark Magic",
       "description": "Waves of agony roll outwards from you, dealing X corporeal damage to all enemies within 30 feet.",
       "category": "Ability"
     },
@@ -988,7 +956,7 @@
     {
       "image": "22704",
       "id": 5415,
-      "name": "Swell of Gloom",
+      "name": "Swell of Doom",
       "type": "Buff",
       "spec": "Path of Agony",
       "minrank": "1",
@@ -997,7 +965,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gloomburst will now deal an additional X Spirit damage each time it hits, but will also cause a backlash every time as well.",
+      "description": "Doombolt and Artic Blast will have a 1.0s faster cast time whenever you are at less than 90 Dark Magic. Echo of Power will cause the next Doombolt cast within 5 seconds to ignore 33% corporeal resistance.",
       "category": "CareerTactic"
     },
   
@@ -1006,7 +974,7 @@
       "id": 5413,
       "name": "Tapping The Dark",
       "type": "Buff",
-      "spec": "Path of Agony",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
@@ -1061,7 +1029,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Word of Pain's willpower debuff is increased to X for 5 seconds and will deal Y spirit damage at the end of the debuff duration.",
+      "description": "Word of Pain's willpower debuff is increased to X for 5 seconds and will deal Y spiritual damage at the end of the debuff duration.",
       "category": "CareerTactic"
     },
   
@@ -1077,7 +1045,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Builds 10 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "A curse which causes the enemy to lose 30 action points over 5 seconds. When this effect ends, they will suffer X spirit damage.",
+      "description": "A curse which causes the enemy to lose 30 action points over 5 seconds. When this effect ends, they will suffer X spiritual damage.",
       "category": "Ability"
     },
   
@@ -1109,7 +1077,23 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Builds 5 Dark Magic<br>Has a chance to cause a Backlash!",
-      "description": "Causes your target to take a (3 * rank) ability penalty to willpower for 10 seconds. When the effect ends, the victim will suffer X spirit damage.",
+      "description": "Causes your target to take a (3 * rank) ability penalty to willpower for 10 seconds. When the effect ends, the victim will suffer X spiritual damage.",
+      "category": "Ability"
+    },
+
+        {
+      "image": "00000",
+      "id": 8500,
+      "name": "Dark Magic",
+      "type": "Damaging",
+      "spec": "Core Ability",
+      "minrank": "1",
+      "cost": "No cost",
+      "range": "Self",
+      "incant": "Mechanic",
+      "cooldown": "No cooldown",
+      "note": "Builds up to 100. Rests at 0.",
+      "description": "1-10: +4% magic crit, +10% crit damage, 4% chance of backlash.<br>11-30: +8% magic crit, +20% crit damage, 8% chance of backlash.<br>31-70: +15% magic crit, +40% crit damage, 15% chance of backlash.<br>71-90: +25% magic crit, +80% crit damage, 25% chance of backlash.<br>1-10: +35% magic crit, +100% crit damage, 35% chance of backlash.<br><br>Backlashes deal (40/300 + 0.5INT) corporeal damage to the caster and can critically hit.",
       "category": "Ability"
     }
   ]
