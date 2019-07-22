@@ -1,13 +1,13 @@
 {
   "bright-wizard": {
-    "name": "Bright Wizard (Need Pass)",
+    "name": "Bright Wizard (Old/Current)",
     "slug": "bright-wizard",
     "faction": "Order",
     "race": "Empire",
     "class": "Ranged DPS"
   },
       "liarliar": {
-    "name": "Bright Wizard (Proposal)",
+    "name": "Bright Wizard (Direction)",
     "slug": "liarliar",
     "faction": "Order",
     "race": "Empire",
@@ -189,15 +189,8 @@
     "class": "Healer"
   },
   "sorcerer": {
-    "name": "Sorcerer (Need Pass)",
+    "name": "Sorcerer",
     "slug": "sorcerer",
-    "faction": "Destruction",
-    "race": "Dark Elf",
-    "class": "Ranged DPS"
-  },
-        "isasorc": {
-    "name": "Sorceror (Proposal)",
-    "slug": "isasorc",
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Ranged DPS"
