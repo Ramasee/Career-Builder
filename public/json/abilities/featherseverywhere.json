@@ -549,7 +549,7 @@
       "incant": "3.0s channel",
       "cooldown": "8.0s cooldown",
       "note": "",
-      "description": "You slam into your target without remorse, dealing up to X elemental damage over 3 seconds. This effect will end if you break your concentration or run out of action points.",
+      "description": "You slam into your target without remorse, dealing up to X physical damage over 3 seconds. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
   
@@ -854,7 +854,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Crippling Blow will now hit 3 enemies within 25 feet of you, but your base damage is reduced by 10%.",
+      "description": "Crippling Blow will now hit 3 enemies within 25 feet of you.",
       "category": "CareerTactic"
     },
   
