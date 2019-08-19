@@ -9,13 +9,13 @@
       "optionalAbilities": {
         "lvl1": 4283,
         "lvl2": 4277,
-        "lvl3": 4280,
+        "lvl3": 4253,
         "lvl4": 4279,
         "lvl5": 4285,
-        "lvl6": 4288,
+        "lvl6": 4295,
         "lvl7": 4289
       },
-      "coreAbilities": [4244,4333,4233,4243,4248,4245,7800]
+      "coreAbilities": [4244,4333,4233,4243,7801,4245,7800]
     },
     "b": {
       "name": "Path of The Axeman",
@@ -26,13 +26,13 @@
       "optionalAbilities": {
         "lvl1": 4276,
         "lvl2": 4286,
-        "lvl3": 4252,
+        "lvl3": 4278,
         "lvl4": 4284,
-        "lvl5": 4278,
-        "lvl6": 4295,
+        "lvl5": 4280,
+        "lvl6": 4288,
         "lvl7": 4296
       },
-      "coreAbilities": [4235,4237,4239,4250,4240,7801]
+      "coreAbilities": [4235,4237,4239,4250,4240,4248]
     },
     "c": {
       "name": "Path of The Guardsman",
@@ -161,7 +161,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Blindside will now also disorient your victim for 10 seconds, causing all of their abilities to take an additional 50% to build up.",
+      "description": "Blindside will now cost 20 AP and also disorient your victim for 10 seconds, causing all of their abilities to take an additional 50% to build up.",
       "category": "CareerTactic"
     },
   
@@ -458,7 +458,7 @@
       "id": 4248,
       "name": "Fey Illusion",
       "type": "Damaging",
-      "spec": "Path of The Hunter",
+      "spec": "Path of The Axeman",
       "minrank": "25",
       "cost": "Costs 40 AP",
       "range": "5ft range",
@@ -618,14 +618,14 @@
       "id": 4280,
       "name": "Merciless Blows",
       "type": "Damaging",
-      "spec": "Path of The Hunter",
+      "spec": "Path of The Axeman",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Shattering Blows will now cause you to gain a (rank * 4) tactic bonus to toughness for 10s.",
+      "description": "Sundering Chop and Fey Illusion will cause the next Coordinated Strike used within 6 seconds to deal 10% more damage. This effect stacks 3x and is removed by Coordinated Strike and Pounce.",
       "category": "CareerTactic"
     },
   
@@ -666,7 +666,7 @@
       "id": 4295,
       "name": "Leonine Frenzy",
       "type": "Blessing",
-      "spec": "Path of The Axeman",
+      "spec": "Path of The Hunter",
       "minrank": "1",
       "cost": "Costs 40 AP",
       "range": "100ft range",
@@ -735,9 +735,9 @@
       "cost": "Costs 30 AP",
       "range": "150ft range",
       "incant": "Instant cast",
-      "cooldown": "No cooldown",
+      "cooldown": "15.0s cooldown",
       "note": "",
-      "description": "Your War Lion regains 785 health over 15 seconds.",
+      "description": "Your War Lion regains 50% of its health over 15 seconds. During this time it will take and deal 25% less damage, and you will take 20% increased damage.",
       "category": "Ability"
     },
   
@@ -938,14 +938,14 @@
       "id": 4253,
       "name": "Full-Fledged Lion",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of the Hunter",
       "minrank": "21",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your War Lion's movement speed by 50% and its damage by 10%. Brutal Pounce and Kill Command cooldowns are reduced to 30 seconds.",
+      "description": "Increases your War Lion's movement speed by 50% and its strength by (5 * rank). Brutal Pounce and Kill Command cooldowns are reduced to 30 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1018,7 +1018,7 @@
       "id": 4288,
       "name": "Thin The Herd",
       "type": "Curse",
-      "spec": "Path of The Hunter",
+      "spec": "Path of The Axeman",
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "5ft range",
@@ -1041,7 +1041,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Fey Illusion will now cause your target to take a (3 * rank) tactic penalty to intelligence and willpower for 10 seconds.",
+      "description": "The negative effects of Nature's Bond are removed by the cooldown is increased by 15 seconds",
       "category": "CareerTactic"
     },
   
@@ -1146,7 +1146,7 @@
       "id": 7801,
       "name": "Kill Command",
       "type": "Damaging",
-      "spec": "Path of The Axeman",
+      "spec": "Path of The Hunter",
       "minrank": "1",
       "cost": "Costs 40 AP",
       "range": "150 ft range",
