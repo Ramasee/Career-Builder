@@ -380,7 +380,7 @@
     {
       "image": "22709",
       "id": 4395,
-      "name": "Fanatical Cleansing",
+      "name": "Master of Antiquity",
       "type": "Buff",
       "spec": "Path of Inquisition",
       "minrank": "1",
@@ -389,7 +389,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your critical hits will inflict 50% more damage.",
+      "description": "Reduces the cooldowns of all of your relics by 20 seconds and the cooldown of Feinted Positioning by 40 seconds.",
       "category": "CareerTactic"
     },
   
@@ -822,7 +822,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "A holy relic created under the tutelage of Elven mages, the Seal allows your attacks to ignore 50% the victim's armor for the next 7 seconds.",
+      "description": "A holy relic created under the tutelage of Elven mages, the Seal allows your attacks to ignore 50% the victim's armor for the next 7 seconds.<br>You cannot use another relic for 15 seconds.",
       "category": "Ability"
     },
   
@@ -902,7 +902,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Rumored to be the death shroud of Magnus the Pious, this holy relic increases your chance to disrupt enemy magic by 100% for 7 seconds.<br>You may only use a single relic at a time.",
+      "description": "Rumored to be the death shroud of Magnus the Pious, this holy relic increases your chance to disrupt enemy magic by 100% for 7 seconds.<br>You cannot use another relic for 15 seconds.",
       "category": "Ability"
     },
   
@@ -1062,7 +1062,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "A tiny enchanted mirror hung around your neck, this holy relic deals X physical damage to anyone that strikes you with a melee attack over the next 7 seconds. This effect will hit enemies within 20ft of the attacking enemy.",
+      "description": "A tiny enchanted mirror hung around your neck, this holy relic deals X physical damage to anyone that strikes you with a melee attack over the next 7 seconds. This effect will hit enemies within 20ft of the attacking enemy.<br>You cannot use another relic for 15 seconds.",
       "category": "Ability"
     },
   
