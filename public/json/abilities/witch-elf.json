@@ -277,7 +277,7 @@
     "incant": "Instant Cast",
     "cooldown": "1m cooldown",
     "note": "",
-    "description": "A powerful witch's brew which hastens your reactions for the next 7 seconds. Any time an enemy strikes you, you will deal X physical damage back to them and enemies within 20ft of them. This effect can only happen once every 2 seconds per target hitting you.<br>You may only use a single elixir at a time.",
+    "description": "A powerful witch's brew which hastens your reactions for the next 7 seconds. Any time an enemy strikes you, you will deal X physical damage back to them and enemies within 20ft of them. This effect can only happen once every 2 seconds per target hitting you.<br>You cannot use another elixir for 15 seconds.",
     "category": "Ability"
   },
 
@@ -293,7 +293,7 @@
     "incant": "Instant Cast",
     "cooldown": "1m cooldown",
     "note": "",
-    "description": "A vile brew which drives you into a rage for the next 7 seconds. All of your attacks will ignore 50% of the victim's armor.<br>You may only use a single elixir at a time.",
+    "description": "A vile brew which drives you into a rage for the next 7 seconds. All of your attacks will ignore 50% of the victim's armor.<br>You cannot use another elixir for 15 seconds.",
     "category": "Ability"
   },
 
@@ -309,7 +309,7 @@
     "incant": "Instant Cast",
     "cooldown": "1m cooldown",
     "note": "",
-    "description": "A potion filled from the legendary Cauldron Of Blood which fills you with power, increasing your chance to disrupt enemy magic by 100% for 7 seconds.<br>You may only use a single elixir at a time.",
+    "description": "A potion filled from the legendary Cauldron Of Blood which fills you with power, increasing your chance to disrupt enemy magic by 100% for 7 seconds.<br>You cannot use another elixir for 15 seconds.",
     "category": "Ability"
   },
 
@@ -545,7 +545,7 @@
     "spec": "Path of Treachery",
     "minrank": "6",
     "cost": "Costs 35 AP",
-    "range": "30ft range",
+    "range": "5ft range",
     "incant": "Instant Cast",
     "cooldown": "No cooldown",
     "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
@@ -572,7 +572,7 @@
   {
     "image": "22701",
     "id": 5639,
-    "name": "Increased Pain",
+    "name": "Potion Master",
     "type": "Buff",
     "spec": "Path of Suffering",
     "minrank": "1",
@@ -581,7 +581,7 @@
     "incant": "Passive",
     "cooldown": "No cooldown",
     "note": "",
-    "description": "Your critical hits will inflict 50% more damage.",
+    "description": "Reduces the cooldowns of all of your elixirs by 20 seconds and the cooldown of Feinted Positioning by 40 seconds.",
     "category": "CareerTactic"
   },
 
@@ -753,7 +753,7 @@
     "spec": "Path of Treachery",
     "minrank": "2",
     "cost": "Costs 35 AP",
-    "range": "30ft range",
+    "range": "5ft range",
     "incant": "Instant Cast",
     "cooldown": "No cooldown",
     "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
@@ -801,7 +801,7 @@
     "spec": "Path of Carnage",
     "minrank": "12",
     "cost": "Costs 15 AP/sec",
-    "range": "30ft range",
+    "range": "5ft range",
     "incant": "3.0s cast",
     "cooldown": "8.0s cooldown",
     "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
@@ -833,7 +833,7 @@
     "spec": "Path of Suffering",
     "minrank": "1",
     "cost": "Costs 35 AP",
-    "range": "30ft range",
+    "range": "5ft range",
     "incant": "Instant Cast",
     "cooldown": "10.0s cooldown",
     "note": "Target must be facing away from you<br>Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
@@ -966,22 +966,6 @@
     "cooldown": "No cooldown",
     "note": "",
     "description": "Increases your chance to parry attacks by 10%. Each time you parry an attack, you will regain 30 action points.<br>This effect will not trigger more than once every 3 seconds.",
-    "category": "CareerTactic"
-  },
-
-  {
-    "image": "22709",
-    "id": 5637,
-    "name": "Swift Movements",
-    "type": "Buff",
-    "spec": "Core Ability",
-    "minrank": "1",
-    "cost": "Tactic",
-    "range": "No range",
-    "incant": "Passive",
-    "cooldown": "No cooldown",
-    "note": "",
-    "description": "Reduces Feinted Positioning's cooldown time by 40 seconds.",
     "category": "CareerTactic"
   },
 
