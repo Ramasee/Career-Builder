@@ -948,11 +948,11 @@
       "description": "A close-range bow stance that gives a 80 unique bonus to toughness and the chance that your bow attacks will critically hit by 5%. You gain the ability to autoattack while moving while in this stance.",
       "category": "Ability"
     },
-  
-    {
+    
+        {
       "image": "22697",
-      "id": 3949,
-      "name": "Smoldering Arrows",
+      "id": 5001,
+      "name": "Guerilla Training",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "27",
@@ -961,7 +961,23 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Flame Arrow and Spiral-Fletched Arrow now hit enemies within 20ft of the target.",
+      "description": "Flame Arrow and Spiral-Fletched Arrow now hit enemies within 20ft of primary target.",
+      "category": "CareerTactic"
+    },
+  
+    {
+      "image": "22697",
+      "id": 3949,
+      "name": "Smoldering Arrows",
+      "type": "Buff",
+      "spec": "Path of The Scout",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Flame Arrow deals additional damage.",
       "category": "CareerTactic"
     },
   
