@@ -20,6 +20,13 @@
     "race": "Empire",
     "class": "Tank"
   },
+        "featherseverywhere": {
+    "name": "Knight of the Blazing Sun (Direction)",
+    "slug": "featherseverywhere",
+    "faction": "Order",
+    "race": "Empire",
+    "class": "Tank"
+  },
   "warrior-priest": {
     "name": "Warrior Priest",
     "slug": "warrior-priest",
@@ -118,6 +125,13 @@
     "race": "Chaos",
     "class": "Tank"
   },
+          "pikachu": {
+    "name": "Chosen (Direction)",
+    "slug": "pikachu",
+    "faction": "Destruction",
+    "race": "Chaos",
+    "class": "Tank"
+  },
   "magus": {
     "name": "Magus (Old/Current)",
     "slug": "magus",
@@ -202,16 +216,9 @@
     "race": "Dark Elf",
     "class": "Melee DPS"
   },
-      "featherseverywhere": {
-    "name": "Knight of the Blazing Sun (Proposal)",
-    "slug": "featherseverywhere",
-    "faction": "",
-    "race": "",
-    "class": ""
-  },
-        "pikachu": {
-    "name": "Chosen (Proposal)",
-    "slug": "pikachu",
+          "ramwarriorbaseidea": {
+    "name": "",
+    "slug": "ramwarriorbaseidea",
     "faction": "",
     "race": "",
     "class": ""
