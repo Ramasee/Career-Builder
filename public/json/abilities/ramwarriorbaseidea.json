@@ -145,7 +145,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "An ailment which deals X physical damage to your target over 15 seconds.",
+      "description": "An ailment which deals X physical damage to your target over 15 seconds. <BR><BR>If you are under the effects of Shadowy Aim, this ability will deal Y corporeal damage at the end of its duration.",
       "category": "Ability"
     },
   
@@ -305,7 +305,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "An ailment which deals X physical damage over 9 seconds.",
+      "description": "An ailment which deals X physical damage over 9 seconds.<BR><BR>If you are under the effects of Shadowy Aim, the duration is increased to 18s.",
       "category": "Ability"
     },
   
