@@ -43,9 +43,9 @@
       "optionalAbilities": {
         "lvl1": 5000,
         "lvl2": 3948,
-        "lvl3": 3953,
+        "lvl3": 3948,
         "lvl4": 3990,
-        "lvl5": 3948,
+        "lvl5": 3953,
         "lvl6": 3946,
         "lvl7": 3991
       },
@@ -416,7 +416,7 @@
       "range": "70ft range",
       "incant": "3.0s cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires Scout Stance",
+      "note": "Requires Scout or Skirmish Stance",
       "description": "Deals X corporeal damage to your target and applies an ailment which inflicts an additional Y corporeal damage for 3 seconds.<br><br>The next Brutal Assault used within 10s on this target will deal X additional damage.",
       "category": "Ability"
     },
@@ -609,7 +609,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit with a ranged attack, the chance to critically hit will be increased by 10% for 10 seconds for group members within 100 feet, but this will not affect you.",
+      "description": "Any time you critically hit with a ranged attack, the chance to critically hit will be increased by 10% for 10 seconds for group members within 100 feet.",
       "category": "CareerTactic"
     },
   
@@ -714,14 +714,14 @@
       "id": 3943,
       "name": "Opportunistic Strike",
       "type": "Ailment",
-      "spec": "Path of Assault",
+      "spec": "Path of The Fervent",
       "minrank": "25",
-      "cost": "Costs 20 AP",
-      "range": "5ft range",
+      "cost": "Costs 30 AP",
+      "range": "70ft range",
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "A crippling attack that deals X physical damage and disarms your target for 4 seconds, making them unable to use melee or ranged weapons.",
+      "description": "A crippling attack that deals X physical damage.<BR><BR>If you are in Scout or Skirmish Stance, you will silence the target for 4 seconds. If you are in Assault Stance, you will disarm the target for 4 seconds.",
       "category": "Ability"
     },
   
@@ -1000,7 +1000,7 @@
     {
       "image": "13408",
       "id": 3945,
-      "name": "Throat Shot",
+      "name": "Touch My Body",
       "type": "Ailment",
       "spec": "Path of The Fervent",
       "minrank": "35",
@@ -1009,7 +1009,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "A crippling shot that deals X physical damage and silences your target for 4 seconds, making them unable to use magic.",
+      "description": "Empty ability",
       "category": "Ability"
     },
   
@@ -1073,7 +1073,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Throat Shot and Oppurtunistic Strike have 2s increased duration. Adjourning Strike will now deal X physical damage.",
+      "description": "Throat Shot and Oppurtunistic Strike have 2 second increased duration. Adjourning Strike will now deal X physical damage.",
       "category": "CareerTactic"
     },
 
