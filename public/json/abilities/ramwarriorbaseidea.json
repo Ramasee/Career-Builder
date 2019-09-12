@@ -561,7 +561,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s shared cooldown",
       "note": "Shadow Emanation",
-      "description": "An shadowy fervor fills your group for 10 seconds, granting them a 25% increased attack speed and generating 25 morale a second.",
+      "description": "An shadowy fervor fills your group for 10 seconds, granting them a 25% increased attack speed and generating 6 action points a second.",
       "category": "Ability"
     },
   
