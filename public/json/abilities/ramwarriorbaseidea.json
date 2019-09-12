@@ -92,12 +92,12 @@
       "type": "Damaging",
       "spec": "Path of The Fervent",
       "minrank": "1",
-      "cost": "Costs 45 AP",
+      "cost": "Costs 15 AP/Sec",
       "range": "No range",
-      "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "incant": "5.0s channel",
+      "cooldown": "15.0s cooldown",
       "note": "",
-      "description": "Deals X physical damage to all enemies in an arc in front of you, up to 40 feet away snaring targets hit by 30% for 5 seconds.",
+      "description": "Deals X physical damage to all enemies in an arc in front of you every second, up to 40 feet away snaring targets hit by 30% for 5 seconds",
       "category": "Ability"
     },
   
@@ -145,7 +145,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "An ailment which deals X physical damage to your target over 15 seconds. <BR><BR>If you are under the effects of Shadowy Aim, this ability will deal Y corporeal damage at the end of its duration.",
+      "description": "An ailment which deals X physical damage to your target over 15 seconds. <BR><BR>If you are Unwavering, this ability will deal Y corporeal damage at the end of its duration.",
       "category": "Ability"
     },
   
@@ -241,7 +241,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Assault Stance",
-      "description": "A quick strike which deals X physical damage to your target and interrupts any ability that they were building up.",
+      "description": "A quick strike which deals X physical damage to your target and interrupts any ability that they were building up.<BR><BR>If you are Fervent, you will strike enemies within 20ft of the target as well.",
       "category": "Ability"
     },
   
@@ -305,7 +305,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "An ailment which deals X physical damage over 9 seconds.<BR><BR>If you are under the effects of Shadowy Aim, the duration is increased to 18s.",
+      "description": "An ailment which deals X physical damage over 9 seconds.<BR><BR>If you are Unwavering, the duration is increased to 18s.",
       "category": "Ability"
     },
   
@@ -384,8 +384,8 @@
       "range": "70ft range",
       "incant": "1.0s cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires Skirmish Stance",
-      "description": "A crippling shot that deals X damage and knocks the target down for 3 seconds.",
+      "note": "Requires Skirmish or Assault Stance",
+      "description": "A crippling shot that deals X damage and knocks the target down for 3 seconds. If you are in assault stance, you will jump to the target.",
       "category": "Ability"
     },
   
@@ -433,7 +433,7 @@
       "incant": "1.5s cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Scout Stance",
-      "description": "Your target is caught on fire taking X corporeal damage over 10s. As the fires consume them, increasing amount of damage. <BR><BR>If you are Vengeful, then Flame Arrow will reapply itself when it goes out.",
+      "description": "Your target is caught on fire taking X corporeal damage over 10s. As the fires consume them, increasing amount of damage. <BR><BR>If you are Unwavering, then Flame Arrow will reapply itself when it goes out.",
       "category": "Ability"
     },
   
@@ -561,7 +561,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s shared cooldown",
       "note": "Shadow Emanation",
-      "description": "An shadowy fervor fills your group for 10 seconds, granting them a 25% increased attack speed and returning 5 action points a second.",
+      "description": "An shadowy fervor fills your group for 10 seconds, granting them a 25% increased attack speed and generating 25 morale a second.",
       "category": "Ability"
     },
   
@@ -913,7 +913,7 @@
       "incant": "1.5s cast",
       "cooldown": "No cooldown",
       "note": "Requires Scout or Skirmish stance",
-      "description": "Deals X physical damage to your target and enemies within 20ft.",
+      "description": "Deals X physical damage to your target and enemies within 20ft. If you are Fervent, targets struck will take an additional X corporeal damage every 2 seconds for 10 seconds.",
       "category": "Ability"
     },
   
@@ -936,7 +936,7 @@
     {
       "image": "13308",
       "id": 3942,
-      "name": "Shadowy Aim",
+      "name": "Unwavering Aim",
       "type": "Enchantment",
       "spec": "Path of the Unwavering",
       "minrank": "20",
@@ -961,7 +961,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Deals X physical damage to all enemies in an arc in front of you, up to 25 feet away.",
+      "description": "Deals X physical damage to all enemies in an arc in front of you, up to 25 feet away. If you are Fervent, targets struck will take an additional X corporeal damage every second for 5 seconds.",
       "category": "Ability"
     },
   
@@ -1089,7 +1089,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Mind is blank, but I got a cool horn.",
+      "description": "Reduces the cooldown on your Shadow Emanations by 15 seconds.",
       "category": "CareerTactic"
     }
   ]
