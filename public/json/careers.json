@@ -223,16 +223,16 @@
     "race": "",
     "class": ""
   },
-            "badposture": {
+            "flatbreadwarriorgitlab": {
     "name": "",
-    "slug": "badposture",
+    "slug": "flatbreadwarriorgitlab",
     "faction": "",
     "race": "",
     "class": ""
   },
-            "flatbreadwarriorgitlab": {
+              "badposture": {
     "name": "",
-    "slug": "flatbreadwarriorgitlab",
+    "slug": "badposture",
     "faction": "",
     "race": "",
     "class": ""
