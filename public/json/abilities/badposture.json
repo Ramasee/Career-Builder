@@ -284,7 +284,7 @@
     {
       "image": "22703",
       "id": 5713,
-      "name": "Divine Fury",
+      "name": "Swirling Vortex",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "13",
@@ -293,7 +293,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 25% more damage, but all of your healing becomes 20% less effective.",
+      "description": "Your Mark of Daemonic Furys' activated effect will also apply the Mark of Madness onto the target. Enemies hit by your Master Ritual will be effected by the Mark of Madness. Mark of Madness lasts for 10 seconds and you will deal X% more damage against these targets.<BR><BR>You can no longer cast Tzeentch Shall Remake You, Glimpse of Chaos, Blessing of Chaos, or Dust of Pandemonium.",
       "category": "CareerTactic"
     },
   
