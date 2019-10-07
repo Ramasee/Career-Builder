@@ -1121,7 +1121,7 @@
       "incant": "Instant cast",
       "cooldown": "45.0s shared cooldown",
       "note": "This is a granted ability.",
-      "description": "The target takes (10 * rank) morale damage, For the next ten seconds, your runepriest will have its abilities enhanced against the target.",
+      "description": "For the next ten seconds, the target will take (30 * Rank) morale damage and your runepriest will have its abilities enhanced against the target.",
       "category": "Ability"
     },
     
