@@ -230,22 +230,6 @@
     },
   
     {
-      "image": "22694",
-      "id": 3882,
-      "name": "Extended Battle",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases area of effect of Rune Of Cleaving and Rune Of Battle by 50%.",
-      "category": "CareerTactic"
-    },
-  
-    {
       "image": "05004",
       "id": 3923,
       "name": "Flee",
@@ -434,22 +418,6 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Rune of Life, Rune of Sanctuary and Grimnir's Fury will heal the target for X health over 5 seconds and will restore 70 action points when the target is resurrected.",
-      "category": "CareerTactic"
-    },
-  
-    {
-      "image": "22694",
-      "id": 3848,
-      "name": "Potent Runes",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "33",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Rune of Striking and Rune of Immolation are now undefendable.",
       "category": "CareerTactic"
     },
   
