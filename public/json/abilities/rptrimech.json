@@ -15,7 +15,7 @@
         "lvl6": 3873,
         "lvl7": 3874
       },
-      "coreAbilities": [3825,3834,3831,3841,3833,3836,7006,7007]
+      "coreAbilities": [3825,3834,3831,3830,3924,3836,7006,7007]
     },
     "b": {
       "name": "Path of Valaya",
@@ -32,7 +32,7 @@
         "lvl6": 7004,
         "lvl7": 3881
       },
-      "coreAbilities": [7002,3824,3842,3823,3830,3829]
+      "coreAbilities": [7002,3824,3842,3823,3833,3829]
     },
     "c": {
       "name": "Path of Grimnir",
@@ -49,7 +49,7 @@
         "lvl6": 3887,
         "lvl7": 3888
       },
-      "coreAbilities": [3925,3826,3924,3838,3837,3926]
+      "coreAbilities": [3925,3826,3841,3838,3837,3926]
     }
   },
   "data": [
@@ -458,7 +458,7 @@
       "id": 3841,
       "name": "Protection of the Ancestors",
       "type": "Blessing",
-      "spec": "Path of Grungni",
+      "spec": "Path of Grimnir",
       "minrank": "30",
       "cost": "Costs 35 AP",
       "range": "100ft range",
@@ -698,14 +698,14 @@
       "id": 3833,
       "name": "Rune of Mending",
       "type": "Healing",
-      "spec": "Path of Grungni",
+      "spec": "Path of Valaya",
       "minrank": "10",
       "cost": "Costs 55 AP",
       "range": "150ft range",
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Restores X health, then continues to restore Y health over 5 seconds. This ability will continue to build up even if you move.<br><br> Restores Z and then continues to restore A health over 5 seconds if the target is affected by a Rune of Fortitude.",
+      "description": "Restores X health, then continues to restore Y health over 5 seconds. This ability will continue to build up even if you move.",
       "category": "Ability"
     },
   
@@ -794,14 +794,14 @@
       "id": 3830,
       "name": "Rune of Restoration",
       "type": "Healing",
-      "spec": "Path of Valaya",
+      "spec": "Path of Grungni",
       "minrank": "8",
       "cost": "Costs 45 AP",
       "range": "150ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Restores X health.<br>This is a fragile spell, and will always be set back by a large amount if you are damaged while casting it.",
+      "description": "Restores X health. If the target is affected by a Rune of Fortitude, they will be healed for an additional Y.",
       "category": "Ability"
     },
   
@@ -858,14 +858,14 @@
       "id": 3924,
       "name": "Rune of Striking",
       "type": "Damaging",
-      "spec": "Path of Grimnir",
+      "spec": "Path of Grungni",
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Deals X elemental damage.",
+      "description": "Deals X elemental damage. If the target is affected by Rune of Impact, this ability will bypass 50% of the target's elemental resistance.",
       "category": "Ability"
     },
   
