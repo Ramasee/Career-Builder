@@ -53,12 +53,12 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Grants a 252 unique bonus to spirit resistance.",
+      "description": "Grants a 300 unique bonus to corporeal resistance. Gain 169 unique bonus to elemental and spiritual resistance",
       "category": "CareerTactic"
     },
   
     {
-      "image": "22704",
+      "image": "22709",
       "id": 920,
       "name": "Anger Drives Me",
       "type": "Defensive",
@@ -83,7 +83,7 @@
       "cost": "Rank 3 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "The magic infusing your armor springs to life, granting a 990 morale bonus to armor and restoring 2400 health over 20 seconds.",
       "category": "Morale"
@@ -99,7 +99,7 @@
       "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "No longer able to bear looking upon your opponents, you knockback everyone within 30 feet of you for 600 damage. Monsters will be knocked down.",
       "category": "Morale"
@@ -115,7 +115,7 @@
       "cost": "Rank 1 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A cry of rage removes all hexes, curses, and ailments from you. You will regain 50 AP and 300 health for each effect removed.",
       "category": "Morale"
@@ -133,24 +133,8 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you kill an enemy, you will regain 471 health over 9 seconds.",
+      "description": "Any time you kill an enemy, you will regain 20% of your health over 9 seconds.",
       "category": "CareerTactic"
-    },
-  
-    {
-      "image": "99999",
-      "id": 910,
-      "name": "Halt, Fool!",
-      "type": "Hex",
-      "spec": "Path of Malice",
-      "minrank": "1",
-      "cost": "Costs 25 AP",
-      "range": "5 ft range",
-      "incant": "Instant Cast",
-      "cooldown": "20s cooldown",
-      "note": "Requires Great Weapon",
-      "description": "An overwhelming attack which deals X physical damage and knocks the victim down for 3 seconds.",
-      "category": "Ability"
     },
   
     {
@@ -158,12 +142,12 @@
       "id": 915,
       "name": "Blast of Hatred",
       "type": "Damaging",
-      "spec": "Core Ability",
+      "spec": "Path of Malice",
       "minrank": "40",
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You spread a wave of malicious loathing towards all the peons 40 feet in front of you. So searing is this hate that those in your path move 40% slower and suffer 1600 damage over 15 seconds.",
       "category": "Morale"
@@ -176,12 +160,12 @@
       "type": "Healing",
       "spec": "Path of Anguish",
       "minrank": "1",
-      "cost": "No AP Cost",
+      "cost": "No Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "Costs 10 Hatred every 3 seconds.",
-      "description": "You focus your Hatred inward, cursing yourself for your weakness, and force your group to march on by recovering X health every 3 seconds for up to 30 seconds to all groupmates within 100 feet. This effect will end if you run out of Hate.",
+      "description": "You focus your Hatred inward, cursing yourself for your weakness, and force yourself to march on by recovering X health every 3 seconds for up to 30 seconds. This effect will end if you run out of Hate.",
       "category": "Ability"
     },
   
@@ -195,9 +179,9 @@
       "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Improves with Hatred",
-      "description": "A vicious blow to the head that deals X physical damage and grants a (3 * rank) ability bonus to strength and an ability bonus to willpower based on current hatred for 20s.<br>Your Dark Protector will receive increased Strength and Willpower if they are within 50 feet. <br> With 25 Hate: Willpower increased by 75. <br> With 50 Hate: Willpower increased by 150.<br> With 75 Hate: Willpower increased by 225.<br> With 100 Hate: Willpower increased by 300.",
+      "description": "A vicious blow to the head that deals X physical damage and grants you a (3 * rank) ability bonus to strength and also an ability bonus to willpower based on hatred for 20s.<br>Your Dark Protector will receive increased Strength and Willpower if they are within 50 feet. <br> With 25 Hate: Willpower increased by 75. <br> With 50 Hate: Willpower increased by 150.<br> With 75 Hate: Willpower increased by 225.<br> With 100 Hate: Willpower increased by 300.",
       "category": "Ability"
     },
 
@@ -211,9 +195,9 @@
       "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "Taken aback by your seething contempt, up to 4 enemies within 30 feet are rooted in place, making them unable to move for 10 seconds. Rooted targets have a 50% chance to break free when they suffer damage.",
+      "description": "Taken aback by your seething contempt, up to 4 enemies within 30 feet are rooted in place, making them unable to move for 5 seconds. Rooted targets have a 50% chance to break free when they suffer damage.",
       "category": "Ability"
     },
   
@@ -227,7 +211,7 @@
       "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You challenge all opponents in front of you, forcing monsters to attack you. While challenged, your opponents will deal only 70% damage to everyone other than you. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability"
@@ -243,9 +227,9 @@
       "cost": "Rank 1 morale",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "Both you and your target are held tightly in place for 10 seconds, and neither one of you can move.<br>This effect can not be dispelled or broken.",
+      "description": "Both you and your target are held tightly in place for 10 seconds, and neither one of you can move.<br>This effect cannot be dispelled or broken.",
       "category": "Morale"
     },
   
@@ -256,12 +240,12 @@
       "type": "Hex",
       "spec": "Path of Anguish",
       "minrank": "1",
-      "cost": "No AP Cost",
+      "cost": "No Cost",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Costs 20 Hatred",
-      "description": "A particularly insulting strike that deals 423 damage and causes your target to spend an additional 20 Action Points whenever they activate an ability for the next 10 seconds.",
+      "description": "A particularly insulting strike that deals X damage and causes your target to spend an additional 20 Action Points whenever they activate an ability for the next 10 seconds.",
       "category": "Ability"
     },
   
@@ -272,10 +256,10 @@
       "type": "Damaging",
       "spec": "Path of Malice",
       "minrank": "1",
-      "cost": "No AP Cost",
+      "cost": "No Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Costs 30 Hatred<br>Requires Great Weapon",
       "description": "A great cleave that strikes all targets 40 feet in front of you for X physical damage and making them 10% more likely to be critically hit by others for 10 seconds.",
       "category": "Ability"
@@ -291,7 +275,7 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "",
       "description": "A maiming strike that allows you to further toy with your opponent by reducing their movement speed by 40% and dealing X physical damage over 10 seconds.",
       "category": "Ability"
@@ -307,7 +291,7 @@
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "15s cooldown",
       "note": "Improves with Hatred",
       "description": "A heartless attack that inflicts X physical damage and target's Critical hit chance will be reduced based on your Hate.<br> With 25 Hate: Critical chance reduced 5%. <br> With 50 Hate: Critical chance reduced 10%.<br> With 75 Hate: Critical chance reduced 15%.<br> With 100 Hate: Critical chance reduced 20%.",
       "category": "Ability"
@@ -325,7 +309,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Anytime you strike an opponent, you have a 25% chance to lower that opponent' autoattack speed by 20% for 10 seconds.",
+      "description": "Anytime you strike an opponent, you have a 25% chance to lower that opponent's autoattack speed by 50% for 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -339,7 +323,7 @@
       "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "A surge of malevolence slams into your foe dealing X physical damage and interrupting them. Will also reduce your opponent's Action Points based on your Hate.<br> With 30 Hate: Reduce AP by 10. <br> With 60 Hate: Reduce AP by 20.<br> With 90 Hate: Reduce AP by 30.",
       "category": "Ability"
@@ -368,7 +352,7 @@
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "1",
-      "cost": "No AP Cost",
+      "cost": "No Cost",
       "range": "160ft range",
       "incant": "Instant Cast",
       "cooldown": "1.5s cooldown",
@@ -387,9 +371,9 @@
       "cost": "Rank 1 morale",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "A powerful melee attack that causes the target to take a 1056 morale penalty to armor and deals 900 damage over 15 seconds",
+      "description": "A powerful melee attack that reduces your target's armor by 1056 and deals 900 damage over 15 seconds",
       "category": "Morale"
     },
   
@@ -403,7 +387,7 @@
       "cost": "Rank 3 morale",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A loud shout that startles your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
       "category": "Morale"
@@ -416,28 +400,28 @@
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "5",
-      "cost": "No AP Cost",
+      "cost": "No Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Costs 40 Hatred",
       "description": "Fueled by your hatred, you push yourself ever onward and regain 160 Action Points.",
       "category": "Ability"
     },
   
     {
-      "image": "22702",
+      "image": "22713",
       "id": 888,
       "name": "Efficient Slaughter",
       "type": "Defensive",
-      "spec": "Path of Torture",
+      "spec": "Path of Malice",
       "minrank": "31",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Hate spending abilities cost 5 less Hate to use. Monstrous Rending will cost 15 less Hate.",
+      "description": "Hate spending abilities cost 5 less Hate to use. Monstrous Rending will cost 15 less Hate to use.",
       "category": "CareerTactic"
     },
   
@@ -451,14 +435,14 @@
       "cost": "Costs 25 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
-      "description": "For up to 10 seconds your superior training allows you and your dark protector to easily parry the next 4 attacks made against you. Any defense made in this time will restore Action Points to everyone in your group within 100 feet of you based on your Hatred. <br> With 30 Hate: Restores 5 AP. <br> With 60 Hate: Restores 10 AP.<br> With 90 Hate: Restores 15 AP",
+      "description": "For up to 10 seconds your superior training allows you to easily parry the next 4 attacks made against you and your Dark Protector if within 50 feet. Any defense made in this time will restore Action Points to everyone in your group within 100 feet of you based on your Hatred. <br> With 30 Hate: Restores 5 AP. <br> With 60 Hate: Restores 10 AP.<br> With 90 Hate: Restores 15 AP",
       "category": "Ability"
     },
   
     {
-      "image": "22702",
+      "image": "22694",
       "id": 890,
       "name": "Endless Pursuit",
       "type": "Defensive",
@@ -482,8 +466,8 @@
       "minrank": "1",
       "cost": "Costs 25 AP/sec",
       "range": "5ft range",
-      "incant": "3.0s channel",
-      "cooldown": "8.0s cooldown",
+      "incant": "3s channel",
+      "cooldown": "8s cooldown",
       "note": "",
       "description": "A flurry of blows that inflicts X physical damage every half second for 3 seconds. Any of these hits that critical will restore 10 Hate.",
       "category": "Ability"
@@ -499,14 +483,14 @@
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "An overwhelming blow that deals X physical damage and will knockback your target based on your Hate.<br> With 30 Hate: Medium Knockback. <br> With 60 Hate: Long Knockback.<br> With 90 Hate: Very Long Knockback.",
       "category": "Ability"
     },
   
     {
-      "image": "22701",
+      "image": "22715",
       "id": 918,
       "name": "Feeding On Pain",
       "type": "Defensive",
@@ -528,17 +512,17 @@
       "type": "Buff",
       "spec": "Path of Loathing",
       "minrank": "5",
-      "cost": "Costs 30 AP",
+      "cost": "No Cost",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
-      "note": "Costs 15 Hate",
-      "description": "The pathetic display of fighting skill shown by your opponent instills an even greater urge to destroy them. You lash out for X physical damage and and will recover X health.<br>Your Dark Protector will regain health and if they are within 50 feet.",
+      "cooldown": "5s cooldown",
+      "note": "Costs 20 Hatred",
+      "description": "The pathetic display of fighting skill shown by your opponent instills an even greater urge to destroy them. You lash out for X physical damage and you gain a (3 * rank) ability bonus to toughness for 20 seconds and will recover health.<br>Your Dark Protector will regain health and receive increased toughness if they are within 50 feet.",
       "category": "Ability"
     },
   
     {
-      "image": "22702",
+      "image": "22704",
       "id": 911,
       "name": "Filled With Fury",
       "type": "Defensive",
@@ -560,10 +544,10 @@
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "1",
-      "cost": "No AP Cost",
+      "cost": "No Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
@@ -592,12 +576,12 @@
       "type": "Blessing",
       "spec": "Path of Loathing",
       "minrank": "1",
-      "cost": "No AP Cost",
+      "cost": "Costs 40 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
-      "note": "Requires Shield (Maybe)",
-      "description": "Your intense fury allows you to shrug off the greatest of hits. All enemies within 30 feet are affected by Horrific Wound. For 10 seconds you gain a X ability bonus to armor. You and your groupmates if they are within 100 feet will also receive a unique bonus to initiative. <br> With 30 Hate: X initiative. <br> With 60 Hate: Y initiative. <br> With 90 Hate: Z initiative.",
+      "cooldown": "20s cooldown",
+      "note": "Requires Shield",
+      "description": "Enemies within 30 feet are inflicted with Horrific Wound. Your intense fury allows you to shrug off the greatest of hits. For 10 seconds you gain a X unique bonus to armor. You and your groupmates if they are within 100 feet will also receive a unique bonus to initiative. <br> With 30 Hate: X initiative. <br> With 60 Hate: Y initiative. <br> With 90 Hate: Z initiative.",
       "category": "Ability"
     },
   
@@ -608,10 +592,10 @@
       "type": "Hex",
       "spec": "Path of Anguish",
       "minrank": "40",
-      "cost": "No AP Cost",
+      "cost": "No Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Costs 30 Hatred",
       "description": "A bone chilling howl that strikes fear in all opponents 30 feet from you. Those affected suffer X physical damage and their chance to Block and Parry is reduced by 10% for 15 seconds.",
       "category": "Ability"
@@ -624,17 +608,33 @@
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "10",
-      "cost": "No AP Cost",
+      "cost": "No Cost",
       "range": "150ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Only usable on other players",
-      "description": "You defend one of your groupmates and try to take attacks meant for them. As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you, and 35% of all hate that they cause will be redirected to you.",
+      "description": "You defend one of your groupmates and try to take attacks meant for them. As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you, and 35% of all hate that they cause will be redirected to you. <br><br>Damage received from this ability can be blocked or parried, unless the original attack was undefendable.",
       "category": "Ability"
     },
   
     {
-      "image": "22702",
+      "image": "abi_de_reapingscythe",
+      "id": 910,
+      "name": "Halt, Fool!",
+      "type": "Hex",
+      "spec": "Path of Malice",
+      "minrank": "1",
+      "cost": "Costs 25 AP",
+      "range": "5ft range",
+      "incant": "Instant Cast",
+      "cooldown": "20s cooldown",
+      "note": "Requires Great Weapon",
+      "description": "A vicious blow dealing X physical damage winds your opponent, stunning them for 3 seconds.",
+      "category": "Ability"
+    },
+  
+    {
+      "image": "22701",
       "id": 913,
       "name": "Hastened Doom",
       "type": "Defensive",
@@ -645,7 +645,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you critically hit a target, they take a (3 * rank) ability penalty to wounds for 10 seconds. In addition, whenever you strike a target with Murderous Wrath or Pitiless Strike your auto attack speed is increased by 50% for 10 seconds.",
+      "description": "Whenever you critically hit a target, the target takes a (3 * rank) ability penalty to wounds for 10 seconds. In addition, whenever you strike a target with Murderous Wrath or Pitiless Strike your auto attack speed is increased by 50% for 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -674,7 +674,7 @@
       "minrank": "10",
       "cost": "Costs 20 AP/sec",
       "range": "No range",
-      "incant": "12.0s cast",
+      "incant": "12s cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield",
       "description": "You focus your defenses against enemy fire, increasing your chances to dodge and disrupt by 45% for 12 seconds. You will also defend all allies behind you, up to 50 feet away, increasing their chances to dodge and disrupt by 15% as long as they remain at your back. Allies may have this effect stacked on them up to 3 times.<br>This effect will end if you break your concentration, or run out of action points.",
@@ -691,9 +691,9 @@
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Improves with Hatred",
-      "description": "Cuts open a vicious wound, dealing X physical damage and causes the target to take an ability penalty to armor based on Hatred.<br> With 25 Hate: armor reduced by 200. <br> With 50 Hate: armor reduced by 400.<br> With 75 Hate: armor reduced by 600.<br> With 100 Hate: armor reduced by 800.",
+      "description": "Cuts open a vicious wound, dealing X physical damage and causes the target to take an ability penalty to armor based on Hatred.<br> With 25 Hate: armor reduced by W. <br> With 50 Hate: armor reduced by X.<br> With 75 Hate: armor reduced by Y.<br> With 100 Hate: armor reduced by Z.",
       "category": "Ability"
     },
   
@@ -707,7 +707,7 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "An impressive display of defense which reduces incoming damage by 75% for both you and all group members within 100 feet of you for 10 seconds.",
       "category": "Morale"
@@ -723,7 +723,7 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A fierce curse in the Witch Kings name brings overwhelming pain to those who hear it. Opponents within 30 feet of you receive 1200 damage and are Silenced for 5 seconds.",
       "category": "Morale"
@@ -739,7 +739,7 @@
       "cost": "Costs 45 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You become filled with unstoppable power, removing all snaring, rooting, silencing, and disarming effects.",
       "category": "Ability"
@@ -755,14 +755,14 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Khaine's favor shines on those with strength and skill, so for the next 10 seconds anytime anyone in your group blocks an attack, each group member within 100 feet regains 800 health.",
       "category": "Morale"
     },
 
     {
-      "image": "22702",
+      "image": "22697",
       "id": 889,
       "name": "Malekith's Bulwark",
       "type": "Defensive",
@@ -773,7 +773,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you use Furious Howl, groupmates within 100 feet will have magical damage they rake reduced to 90% for 10 seconds.",
+      "description": "Whenever you use Furious Howl, groupmates within 100 feet will have magic damage they take reduced to 90% for 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -816,7 +816,7 @@
       "type": "Damaging",
       "spec": "Path of Malice",
       "minrank": "14",
-      "cost": "No AP Cost",
+      "cost": "No Cost",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
@@ -866,15 +866,15 @@
       "minrank": "1",
       "cost": "Costs 20 AP/sec",
       "range": "No range",
-      "incant": "10.0s cast",
-      "cooldown": "10.0s cooldown",
+      "incant": "10s cast",
+      "cooldown": "20s cooldown",
       "note": "",
-      "description": "You ready your weapon in anticipation of enemy attacks. Every time defend an attack, you will generate 5 hate and your group will absorb X damage over the next ten seconds. This absorb effect can stack 5 times. With a shield equipped, you will gain 50% block for the duration.",
+      "description": "You ready your weapon in anticipation of enemy attacks. Every time defend an attack, you will generate 5 hate and your group will absorb X damage over 10 seconds. You will gain 50% block for the duration, if you have a shield equipped.",
       "category": "Ability"
     },
   
     {
-      "image": "22701",
+      "image": "22694",
       "id": 887,
       "name": "Pitiless Feeding",
       "type": "Defensive",
@@ -896,7 +896,7 @@
       "type": "Hex",
       "spec": "Path of Malice",
       "minrank": "2",
-      "cost": "No AP Cost",
+      "cost": "No Cost",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
@@ -914,10 +914,10 @@
       "minrank": "20",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "3.0s channel",
-      "cooldown": "1m cooldown",
+      "incant": "3s channel",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away.",
+      "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away, for as long as you manintain concentration.",
       "category": "Morale"
     },
   
@@ -947,7 +947,7 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Target must have an Enchantment",
       "description": "You shatter one Enchantment from your enemy and deal X physical damage.",
       "category": "Ability"
@@ -960,12 +960,12 @@
       "type": "Blessing",
       "spec": "Path of Anguish",
       "minrank": "6",
-      "cost": "No AP Cost",
+      "cost": "No Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Costs 15 Hatred",
-      "description": "Your overwhelming hate shields you from up to X damage over 10 seconds. Your dark protected ally will receive this effect of they are within 50 feet.",
+      "description": "Your overwhelming hate shields you from up to X damage over 10 seconds. This will affect your Dark Protector if they are within 50 feet.",
       "category": "Ability"
     },
   
@@ -979,14 +979,14 @@
       "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "Requires Shield",
       "description": "For the next 10 seconds, your chance to block is almost guaranteed.",
       "category": "Morale"
     },
   
     {
-      "image": "22704",
+      "image": "22694",
       "id": 892,
       "name": "Simmering Anger",
       "type": "Defensive",
@@ -1002,7 +1002,7 @@
     },
   
     {
-      "image": "22701",
+      "image": "22703",
       "id": 925,
       "name": "Soul Killer",
       "type": "Defensive",
@@ -1013,7 +1013,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Mind Killer will now reduce all healing cast by the target to 50% for the duration.",
+      "description": "Mind Killer will now reduce all healing cast by the target to 50%.",
       "category": "CareerTactic"
     },
   
@@ -1027,14 +1027,14 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Requires Block",
       "description": "A fierce strike that slams your opponent to the ground, dealing X physical damage and knocking them down for 2 seconds or more based on Hate. <br> With 30 Hate: Knocks down for 3 seconds. <br> With 60 Hate: Knocks down for 4 seconds.<br> With 90 Hate: Knocks down for 5 seconds.",
       "category": "Ability"
     },
   
     {
-      "image": "22694",
+      "image": "22713",
       "id": 891,
       "name": "Swift Fury",
       "type": "Defensive",
@@ -1059,14 +1059,14 @@
       "cost": "Costs 20 AP",
       "range": "65ft range",
       "incant": "Instant Cast",
-      "cooldown": "15.0s cooldown",
+      "cooldown": "15s cooldown",
       "note": "",
       "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability"
     },
   
     {
-      "image": "22694",
+      "image": "22702",
       "id": 916,
       "name": "Terrifying Foe",
       "type": "Defensive",
@@ -1077,12 +1077,12 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Hateful Strike will now grant a tactic bonus to toughness for 10 seconds for you and your dark protected ally if they are within 50 feet based on your Hate.<br> With 30 Hate: Increase toughness by (1 * rank). <br> With 60 Hate: Increase toughness by (2 * rank). <br> With 90 Hate: Increase toughness by (3 * rank).",
+      "description": "Hateful Strike will now grant a tactic bonus to toughness for 20 seconds for you and your Dark Protector based on your Hate.<br> With 30 Hate: Increase toughness by (1 * rank). <br> With 60 Hate: Increase toughness by (2 * rank). <br> With 90 Hate: Increase toughness by (3 * rank).",
       "category": "CareerTactic"
     },
   
     {
-      "image": "22709",
+      "image": "22696",
       "id": 885,
       "name": "Thirst For Death",
       "type": "Defensive",
@@ -1106,7 +1106,7 @@
       "minrank": "1",
       "cost": "Costs 20 AP",
       "range": "5-65ft range",
-      "incant": "1.0s cast",
+      "incant": "1s cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "A basic throwing attack that inflicts X physical damage. Has a chance to deal Y physical damage to a severely wounded target if you are behind them.",
@@ -1114,7 +1114,7 @@
     },
   
     {
-      "image": "22704",
+      "image": "22695",
       "id": 923,
       "name": "Unstoppable Fury",
       "type": "Defensive",
@@ -1155,7 +1155,7 @@
       "cost": "Costs 55 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
       "description": "A great wave spreads 40 feet in front of you, inflicting X physical damage and reducing movement by 40% for 10 seconds.",
       "category": "Ability"
