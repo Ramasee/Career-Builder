@@ -1,14 +1,7 @@
 {
   "bright-wizard": {
-    "name": "Bright Wizard (Old/Current)",
+    "name": "Bright Wizard",
     "slug": "bright-wizard",
-    "faction": "Order",
-    "race": "Empire",
-    "class": "Ranged DPS"
-  },
-      "liarliar": {
-    "name": "Bright Wizard (Direction)",
-    "slug": "liarliar",
     "faction": "Order",
     "race": "Empire",
     "class": "Ranged DPS"
@@ -35,7 +28,7 @@
     "class": "Healer"
   },
     "witch-hunter": {
-    "name": "Witch Hunter",
+    "name": "Witch Hunter (Coded/Not Matched)",
     "slug": "witch-hunter",
     "faction": "Order",
     "race": "Empire",
@@ -56,7 +49,7 @@
     "class": "Ranged DPS"
   },
   "ironbreaker": {
-    "name": "Ironbreaker",
+    "name": "Ironbreaker (Coded/Not Matched)",
     "slug": "ironbreaker",
     "faction": "Order",
     "race": "Dwarf",
@@ -77,22 +70,15 @@
     "class": "Healer"
   },
   "slayer": {
-    "name": "Slayer",
+    "name": "Slayer (Coded/Not Matched)",
     "slug": "slayer",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Melee DPS"
   },
   "archmage": {
-    "name": "Archmage (Old/Current)",
+    "name": "Archmage",
     "slug": "archmage",
-    "faction": "Order",
-    "race": "High Elf",
-    "class": "Healer"
-  },
-      "laserz": {
-    "name": "Archmage (Direction)",
-    "slug": "laserz",
     "faction": "Order",
     "race": "High Elf",
     "class": "Healer"
@@ -105,28 +91,28 @@
     "class": "Ranged DPS"
   },
   "sword-master": {
-    "name": "Sword Master",
+    "name": "Sword Master (Coded/Not Matched)",
     "slug": "sword-master",
     "faction": "Order",
     "race": "High Elf",
     "class": "Tank"
   },
   "white-lion": {
-    "name": "White Lion",
+    "name": "White Lion (Coded/Not Matched)",
     "slug": "white-lion",
     "faction": "Order",
     "race": "High Elf",
     "class": "Melee DPS"
   },
   "chosen": {
-    "name": "Chosen (Old/Live)",
+    "name": "Chosen (Old)",
     "slug": "chosen",
     "faction": "Destruction",
     "race": "Chaos",
     "class": "Tank"
   },
           "pikachu": {
-    "name": "Chosen (Direction)",
+    "name": "Chosen (Coded/Not Matched)",
     "slug": "pikachu",
     "faction": "Destruction",
     "race": "Chaos",
@@ -147,7 +133,7 @@
     "class": "Ranged DPS"
   },
   "marauder": {
-    "name": "Marauder",
+    "name": "Marauder (Coded/Not Matched)",
     "slug": "marauder",
     "faction": "Destruction",
     "race": "Chaos",
@@ -168,14 +154,14 @@
     "class": "Tank"
   },
   "choppa": {
-    "name": "Choppa",
+    "name": "Choppa (Coded/Not Matched)",
     "slug": "choppa",
     "faction": "Destruction",
     "race": "Greenskin",
     "class": "Melee DPS"
   },
   "shaman": {
-    "name": "Shaman",
+    "name": "Shaman (Coded/Not Matched)",
     "slug": "shaman",
     "faction": "Destruction",
     "race": "Greenskin",
@@ -196,21 +182,21 @@
     "class": "Tank"
   },
   "disciple-of-khaine": {
-    "name": "Disciple of Khaine",
+    "name": "Disciple of Khaine (Coded/Not Matched)",
     "slug": "disciple-of-khaine",
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Healer"
   },
   "sorcerer": {
-    "name": "Sorcerer",
+    "name": "Sorcerer (Coded/Not Matched)",
     "slug": "sorcerer",
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Ranged DPS"
   },
   "witch-elf": {
-    "name": "Witch Elf",
+    "name": "Witch Elf (Coded/Not Matched)",
     "slug": "witch-elf",
     "faction": "Destruction",
     "race": "Dark Elf",
