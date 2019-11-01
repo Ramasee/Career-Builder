@@ -44,16 +44,16 @@
    {
       "image": "02527",
       "id": 4485,
-      "name": "Arm Breaka",
+      "name": "Da Big Un'",
       "type": "Ailment",
       "spec": "Path of Da Brawler",
       "minrank": "1",
-      "cost": "Costs 35 AP",
+      "cost": "No Cost",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "5s cooldown",
-      "note": "Leads to da' Gud Plan!",
-      "description": "Deals X physical damage. Removes 50 Action Points over 5 seconds.",
+      "note": "Needs da' Best Plan!!<br>No Plan after dis!",
+      "description": "Deals X physical damage to enemies 25 feet in front of you.",
       "category": "Ability"
     },
   
