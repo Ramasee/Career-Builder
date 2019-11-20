@@ -900,7 +900,7 @@
       "range": "5ft range",
       "incant": "3s cast",
       "cooldown": "8s cooldown",
-      "note": "Requires Great Weapon<br>Needs da' Best Plan!!<br>No Plan after dis!",
+      "note": "Needs da' Best Plan!!<br>No Plan after dis!",
       "description": "You swing your weapon lots, hitting 5 times over 3 seconds, dealing X physical damage. As Da' Big Boss would say, \"Countin' is for Stuntiez.\"",
       "category": "Ability"
     },
