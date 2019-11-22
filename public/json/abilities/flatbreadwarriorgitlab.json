@@ -368,7 +368,7 @@
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
-      "note": "Shares cooldown with whirling pin",
+      "note": "",
       "description": "You launch yourself a medium distance forward dealing X physical damage to enemies within 30 feet of the landing area.",
       "category": "Ability"
     },
