@@ -316,7 +316,7 @@
       "type": "Damaging",
       "spec": "Path of The Scout",
       "minrank": "1",
-      "cost": "Costs 40 AP",
+      "cost": "Costs 35 AP",
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
