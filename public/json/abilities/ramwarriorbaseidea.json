@@ -769,7 +769,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "If an enemy blocks, dodges, or parries any of your attacks, their chances to block, dodge, and parry will be reduced by 15% for 10 seconds.",
+      "description": "If an enemy dodges or parries any of your attacks, their chances to dodge and parry will be reduced by 10% for 8 seconds. This effect cannot refresh.",
       "category": "CareerTactic"
     },
   
