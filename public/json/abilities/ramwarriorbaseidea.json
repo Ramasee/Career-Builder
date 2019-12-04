@@ -3,7 +3,7 @@
     "a": {
       "name": "Path of The Vengeful",
       "popover": {
-        "primary": "A mastery path focused on dealing direct damage to the enemy.",
+        "primary": "A mastery path focused on dealing dealing damage at range. When caught in melee, hits hard briefly and escapes.",
         "secondary": ""
       },
       "optionalAbilities": {
@@ -20,7 +20,7 @@
     "b": {
       "name": "Path of The Unwavering",
       "popover": {
-        "primary": "A mastery path focused on dehabilitating the enemy before finishing them off.",
+        "primary": "A mastery path focused on applying effects to your enemy as you chase them down or run away. Finishing power is located in melee combat.",
         "secondary": ""
       },
       "optionalAbilities": {
