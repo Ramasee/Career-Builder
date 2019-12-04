@@ -441,7 +441,7 @@
       "image": "13329",
       "id": 3988,
       "name": "Flanking Shot",
-      "type": "Damaging",
+      "type": "Ailment",
       "spec": "Path of The Vengeful",
       "minrank": "1",
       "cost": "Costs 30 AP",
@@ -449,7 +449,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Deals X physical damage to your target. Deals an additional Y damage if the target is at full health and an additional Z damage if you are behind the target. This arrow has no flight time.",
+      "description": "Deals X physical damage to your target.  Deals an additional Z damage if you are behind the target. Deals an additional Y damage over 6 seconds if the target is at full health. This arrow has no flight time.",
       "category": "Ability"
     },
   
