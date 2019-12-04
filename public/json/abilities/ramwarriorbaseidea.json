@@ -160,7 +160,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires Scout or Assault Stance",
+      "note": "Requires Scout or Assault Stance<BR>Melee",
       "description": "Deals (high) X physical damage to your target, and makes monsters hate you less than normal. <br>If you are Vengeful or attack from behind, then this attack will have no cooldown.",
       "category": "Ability"
     },
@@ -240,7 +240,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires Assault Stance",
+      "note": "Requires Assault Stance<BR>Melee",
       "description": "A quick strike which deals X physical damage to your target and interrupts any ability that they were building up.<BR><BR>If you are Fervent, you will strike enemies within 20ft of the target as well.",
       "category": "Ability"
     },
@@ -304,7 +304,7 @@
       "range": "30ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "",
+      "note": "Melee",
       "description": "An ailment which deals X physical damage over 9 seconds.<BR><BR>If you are Unwavering, the duration is increased to 18s.",
       "category": "Ability"
     },
@@ -384,7 +384,7 @@
       "range": "70ft range",
       "incant": "1.0s cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires Skirmish or Assault Stance<BR><BR>Target must be ailing.",
+      "note": "Requires Skirmish or Assault Stance<BR>Target must be ailing.",
       "description": "A crippling shot that deals X damage and knocks the target down for 3 seconds. If you are in assault stance, you will jump to the target.",
       "category": "Ability"
     },
@@ -512,7 +512,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "",
+      "note": "Melee",
       "description": "Deals X physical damage to your target.",
       "category": "Ability"
     },
@@ -960,7 +960,7 @@
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "",
+      "note": "Melee",
       "description": "Deals X physical damage to all enemies in an arc in front of you, up to 25 feet away. If you are Fervent, targets struck will take an additional X corporeal damage every second for 5 seconds.",
       "category": "Ability"
     },
@@ -976,7 +976,7 @@
       "range": "30ft range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "",
+      "note": "Melee",
       "description": "Deals (low) X physical damage five times to your target. If you are Vengeful, you will strike eight times.",
       "category": "Ability"
     },
