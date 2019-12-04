@@ -41,7 +41,7 @@
         "secondary": "Bow counts 100% of its dps to abilities, sword counts 45%."
       },
       "optionalAbilities": {
-        "lvl1": 3985,
+        "lvl1": 3958,
         "lvl2": 3941,
         "lvl3": 3987,
         "lvl4": 3986,
@@ -346,7 +346,7 @@
       "id": 3958,
       "name": "Expert Skirmisher",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of the Scout",
       "minrank": "13",
       "cost": "Tactic",
       "range": "No range",
@@ -609,7 +609,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the durations of Broadhead Arrows to 21 seconds, Takedown to 15 seconds, and Eye Shot to 25 seconds.",
+      "description": "Path of Skirmisher abilities deal X% more damage to targets within 55 to 80 feet.",
       "category": "CareerTactic"
     },
   
@@ -979,22 +979,6 @@
       "note": "Requires Skirmish Stance",
       "description": "Deals X physical damage to your target. This ability will continue to build up even if you move.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22694",
-      "id": 3985,
-      "name": "something",
-      "type": "Buff",
-      "spec": "Path of The Skirmisher",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Path of Skirmisher abilities deal X% more damage to targets within 55 to 80 feet.",
-      "category": "CareerTactic"
     },
   
     {
