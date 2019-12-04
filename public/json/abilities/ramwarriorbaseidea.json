@@ -241,7 +241,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Requires Assault Stance<BR>Melee",
-      "description": "A quick strike which deals X physical damage to your target and interrupts any ability that they were building up.<BR><BR>If you are Fervent, you will strike enemies within 20ft of the target as well.",
+      "description": "A quick strike which deals X physical damage to your target. If the target was builing up an ability, it is interupted and you deal Y damage instead.<BR><BR>If you are Fervent, you will strike enemies within 20ft of the target as well.",
       "category": "Ability"
     },
   
