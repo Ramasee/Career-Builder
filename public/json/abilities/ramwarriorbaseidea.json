@@ -81,7 +81,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s shared cooldown",
       "note": "Can only have one active stance.",
-      "description": "A close-combat stance which causes you to gain a 120 unique bonus to strength and weaponskill, +45% auto attack damage, and a unique bonus to armor. Your ranged attacks will have 25% less range.<br><br>While in Assault Stance; your ballistic skill from items will also count towards your strength, and your ranged critical chance from items will also count towards your melee critical chance.",
+      "description": "A close-combat stance which causes you to gain a 49 unique bonus to strength, +45% auto attack damage, + 10% parry, and reducing the physical damage you take by 20%. Your ranged attacks will have 25% less range.<br><br>While in Assault Stance; your ballistic skill from items will also count towards your strength, and your ranged critical chance from items will also count towards your melee critical chance.",
       "category": "Ability"
     },
   
@@ -881,7 +881,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s shared cooldown",
       "note": "Can only have one stance active.",
-      "description": "A close-range bow stance that reduces your damage by 30% but you can move while casting abilities. You gain the ability to autoattack while moving while in this stance.",
+      "description": "A close-range bow stance that reduces your damage by 30% but you can move while casting abilities. You gain the ability to autoattack while moving and your ballistic skill from items will also count towards your strength while in this stance.",
       "category": "Ability"
     },
   
@@ -1075,6 +1075,22 @@
       "note": "",
       "description": "Whenever you deal damage with a melee attack, the damage of all your ranged attacks is increased by 10% for 6 seconds.<BR><BR>Whenever you deal damage with a ranged attack, the damage of all your ranged attacks is increased by 10% for 6 seconds.",
       "category": "CareerTactic"
+    },
+    
+        {
+      "image": "13321",
+      "id": 5010,
+      "name": "Gust of Engagement",
+      "type": "Enchantment",
+      "spec": "Core Ability",
+      "minrank": "12",
+      "cost": "No AP Cost",
+      "range": "No range",
+      "incant": "Instant Cast",
+      "cooldown": "30.0s cooldown",
+      "note": "Requires Skirmish Stance",
+      "description": "You gain 30% damage for the next 10 seconds. This effect will be lost if you switch stances.",
+      "category": "Ability"
     },
 
     {
