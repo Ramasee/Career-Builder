@@ -376,16 +376,16 @@
     {
       "image": "13325",
       "id": 3941,
-      "name": "Eye Shot",
+      "name": "Harpoon Arrow",
       "type": "Ailment",
       "spec": "Path of The Unwavering",
       "minrank": "18",
       "cost": "Costs 40 AP",
       "range": "75ft range",
       "incant": "1.0s cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "18.0s cooldown",
       "note": "Requires Skirmish or Assault Stance<BR>Target must be ailing.",
-      "description": "A crippling shot that deals X damage and knocks the target down for 3 seconds. If you are in assault stance, you will jump to the target.",
+      "description": "You fire an arrow into your enemy dealing X physical damage. If you are in skirmish stance, the arrow will knock the target down for 3 seconds. If you are in assault stance, you will pull yourself to the target.<BR><BR>The ability can be used again in a different stance than you originally fired it for 6 seconds before the cooldown begins.",
       "category": "Ability"
     },
   
@@ -625,7 +625,7 @@
       "incant": "2.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A piercing arrow which deals X physical damage to all enemies in front of you, up to 65 feet away. This ability can be used twice within 10 seconds before going on cooldown.",
+      "description": "A piercing arrow which deals X corporeal damage to all enemies in front of you, up to 65 feet away. This ability can be used twice within 10 seconds before going on cooldown.",
       "category": "Ability"
     },
   
@@ -865,7 +865,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "An ailment which deals X physical damage to your target over 10 seconds and causes all healing effects used on them to become 50% weaker.",
+      "description": "An ailment which deals X corporeal damage to your target over 10 seconds and causes all healing effects used on them to become 50% weaker.",
       "category": "Ability"
     },
     
@@ -1073,7 +1073,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you deal damage with a melee attack, the damage of all your ranged attacks is increased by 15% for 6 seconds.<BR><BR>Whenever you deal damage with a ranged attack, the damage of all your ranged attacks is increased by 15% for 6 seconds.",
+      "description": "Whenever you deal damage with a melee attack, the damage of all your ranged attacks is increased by 15% for 6 seconds.<BR><BR>Whenever you deal damage with a ranged attack, the damage of all your melee attacks is increased by 15% for 6 seconds.",
       "category": "CareerTactic"
     },
     
