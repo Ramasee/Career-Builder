@@ -22,7 +22,7 @@
         "lvl4": 5528,
         "lvl5": 7675,
         "lvl6": 5532,
-        "lvl7": 5576
+        "lvl7": 5533
       },
       "coreAbilities": [5479,5495,5489,7566,5480,5492]
     },
@@ -1086,7 +1086,7 @@
       "id": 5533,
       "name": "Wind Up Da Waaagh",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Bouncin'",
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
