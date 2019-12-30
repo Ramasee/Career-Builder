@@ -196,7 +196,7 @@
       "range": "65ft range",
       "incant": "1.0s cast",
       "cooldown": "20.0s cooldown",
-      "note": "",
+      "note": "Basic Squig synergy",
       "description": "Fire an arrow that releases a pungent gas upon impact. The target takes X corporeal damage and the action point cost of their abilities is increased by 33% for 10 seconds.",
       "category": "Ability"
     },
@@ -276,7 +276,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires an active pet",
+      "note": "Requires an active pet<br>Can be cast in Squig Armor",
       "description": "On the Squig's next attack, it will deal an additional X physical damage and silences the target for 4s, making them unable to use magic. If you are in Squig Armor, your pet will instead disarm your target for 4 seconds, making them unable to use melee or ranged weapons.",
       "category": "Ability"
     },
@@ -322,9 +322,9 @@
       "minrank": "14",
       "cost": "Costs 40 AP",
       "range": "100ft range",
-      "incant": "Instant Cast",
+      "incant": "1.5s cast",
       "cooldown": "10.0s cooldown",
-      "note": "",
+      "note": "Basic Squig synergy",
       "description": "An Ailment which deals X elemental damage to your target and then explodes, dealing an additional Y elemental damage over 9 seconds to the target and all other enemies within 20 feet of them.",
       "category": "Ability"
     },
@@ -564,7 +564,7 @@
       "range": "100ft range",
       "incant": "3.0s cast",
       "cooldown": "8.0s cooldown",
-      "note": "Can be cast in Squig Armor",
+      "note": "Can be cast in Squig Armor<br>Basic Squig Synergy",
       "description": "You concentrate on your target for up to 3 seconds, repeatedly shooting them for X physical damage as long as you maintain your concentration.",
       "category": "Ability"
     },
@@ -612,7 +612,7 @@
       "range": "100ft range",
       "incant": "1.0s cast",
       "cooldown": "10.0s cooldown",
-      "note": "",
+      "note": "Can be cast in Squig Armor<br>Basic Squig synergy",
       "description": "A crippling shot that deals X physical damage and causes your target to take a (3 * rank) ability penalty to initiative for 10 seconds.",
       "category": "Ability"
     },
@@ -692,7 +692,7 @@
       "range": "100ft range",
       "incant": "3.0s cast",
       "cooldown": "10.0s cooldown",
-      "note": "",
+      "note": "Can be cast in Squig Armor",
       "description": "Deals X corporeal damage to your target. Deals an additional Y corporeal damage over 6 seconds.",
       "category": "Ability"
     },
@@ -804,7 +804,7 @@
       "range": "No range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
-      "note": "",
+      "note": "Can be cast in Squig Armor<br>Basic Squig synergy",
       "description": "A piercing arrow which deals X physical damage to all enemies in front of you, up to 65 feet away.",
       "category": "Ability"
     },
@@ -836,7 +836,7 @@
       "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
-      "note": "",
+      "note": "Can be cast in Squig Armor",
       "description": "On contact, your arrow explodes in to shrapnel, dealing X physical damage to your target and reduces range on their abilities to 75% over the next 8 seconds.",
       "category": "Ability"
     },
@@ -894,7 +894,7 @@
       "id": 5479,
       "name": "Squig Armor",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Bouncin'",
       "minrank": "9",
       "cost": "Costs 55 AP",
       "range": "No range",
@@ -980,7 +980,7 @@
       "range": "65ft range",
       "incant": "1.0s cast",
       "cooldown": "20.0s cooldown",
-      "note": "",
+      "note": "Can be cast in Squig Armor<br>Basic Squig synergy",
       "description": "An ailment which deals X physical damage and snares your target, reducing their run speed by 40% for 10 seconds.",
       "category": "Ability"
     },
@@ -1060,7 +1060,7 @@
       "range": "100ft range",
       "incant": "1.0s cast",
       "cooldown": "5.0s cooldown",
-      "note": "",
+      "note": "Can be cast in Squig Armor",
       "description": "An attack which deals X physical damage and causes your target to take a Y ability penalty to armor and reduces their chance to block by 10% for 10 seconds.",
       "category": "Ability"
     },
