@@ -81,7 +81,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s shared cooldown",
       "note": "Can only have one active stance.",
-      "description": "A close-combat stance which causes you to gain a 49 unique bonus to strength, +45% auto attack damage, + 10% parry, and reducing the physical damage you take by 20%. Your non-melee attacks will have 40% less range.<br><br>While in Assault Stance; your ballistic skill from items will also count towards your strength, and your ranged critical chance from items will also count towards your melee critical chance.",
+      "description": "A close-combat stance which causes you to gain a 49 unique bonus to strength, +45% auto attack damage, +10% parry, and reducing the damage you take from melee attacks by 20%. Your non-melee attacks will have 40% less range.<br><br>While in Assault Stance; your ballistic skill from items will also count towards your strength, and your ranged critical chance from items will also count towards your melee critical chance.",
       "category": "Ability"
     },
   
@@ -417,7 +417,7 @@
       "incant": "3.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Scout or Skirmish Stance",
-      "description": "Deals X corporeal damage to your target and applies an ailment which inflicts an additional Y corporeal damage for 3 seconds.<br><br>The next Brutal Assault used within 10s on this target will deal X additional damage.",
+      "description": "Deals X corporeal damage to your target and applies an ailment which inflicts an additional Y corporeal damage for 4 seconds.<br><br>The next Brutal Assault used within 10s on this target will deal X additional damage.",
       "category": "Ability"
     },
   
@@ -433,7 +433,7 @@
       "incant": "1.5s cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Scout or Skirmish Stance",
-      "description": "Your target is caught on fire taking X corporeal damage over 10s. As the fires consume them, increasing amount of damage. <BR><BR>If you are Unwavering, then Flame Arrow will reapply itself when it goes out.",
+      "description": "Your target is caught on fire taking X corporeal damage over 8s. As the fires consume them, increasing amount of damage. <BR><BR>If you are Unwavering, then Flame Arrow will reapply itself when it goes out.",
       "category": "Ability"
     },
   
