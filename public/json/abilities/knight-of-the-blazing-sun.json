@@ -4,23 +4,23 @@
       "name": "Path of Conquest",
       "optionalAbilities": {
         "lvl1": 3092,
-        "lvl2": 3093,
+        "lvl2": 3045,
         "lvl3": 3216,
         "lvl4": 3095,
-        "lvl5": 3213,
-        "lvl6": 3097,
+        "lvl5": 3068,
+        "lvl6": 3111,
         "lvl7": 3098
       },
-      "coreAbilities": [3060,3045,3046,3209,3201,3200]
+      "coreAbilities": [3063,3107,3046,3209,3201,3200]
     },
     "b": {
       "name": "Path of Vigilance",
       "optionalAbilities": {
-        "lvl1": 3208,
-        "lvl2": 3100,
-        "lvl3": 3211,
+        "lvl1": 3229,
+        "lvl2": 3093,
+        "lvl3": 3208,
         "lvl4": 3102,
-        "lvl5": 3229,
+        "lvl5": 3211,
         "lvl6": 3104,
         "lvl7": 3217
       },
@@ -30,14 +30,14 @@
       "name": "Path of Glory",
       "optionalAbilities": {
         "lvl1": 3106,
-        "lvl2": 3107,
+        "lvl2": 3100,
         "lvl3": 3219,
         "lvl4": 3225,
         "lvl5": 3110,
-        "lvl6": 3111,
+        "lvl6": 3097,
         "lvl7": 3112
       },
-      "coreAbilities": [3050,3062,3066,3063,3221,3205]
+      "coreAbilities": [3050,3062,3066,3060,3221,3205]
     }
   },
   "data": [  
@@ -51,9 +51,9 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "25s cooldown",
       "note": "You can have three commands active.",
-      "description": "You become filled with the endless power of Myrmidia, dealing X physical damage every 3 seconds to all enemies within 30 feet.",
+      "description": "Passive: You become filled with the endless power of Myrmidia, dealing X physical damage every 3 seconds to all enemies within 30 feet. Press the Attack's activated effect now provides 25% critical chance instead of 15%.<BR><BR>Activated: Deal Y physical, direct damage to all enemies within 30 feet every 3 seconds for the next 12 seconds.",
       "category": "Ability"
     },
   
@@ -64,12 +64,12 @@
       "type": "Curse",
       "spec": "Path of Conquest",
       "minrank": "40",
-      "cost": "Costs 55 AP",
+      "cost": "Costs 50 AP",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Great Weapon",
-      "description": "You sweep your blade out in a wide arc hitting enemies with 25 in front of you, dealing X physical damage and causing them to take a X ability penalty to wounds for 10 seconds.",
+      "description": "You sweep your blade out in a wide arc hitting enemies with 25 in front of you, dealing X physical damage and causing them to take a Y ability penalty to wounds for 10 seconds.",
       "category": "Ability"
     },
   
@@ -85,7 +85,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Repel Darkness will now cool down 50% faster, and will send the victim flying even further away from you.",
+      "description": "Repel Darkness will send the victim flying even further away from you. The cooldown will be reduced by 50% if you are wielding a great weapon.",
       "category": "CareerTactic"
     },
   
@@ -101,7 +101,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your action point regeneration by 15",
+      "description": "Reduces the action point cost of all your abilities by 35%.",
       "category": "CareerTactic"
     },
         
@@ -117,7 +117,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit an enemy, they will suffer an additional X physical damage over 10 seconds and their parry chance will be reduced by 5%.",
+      "description": "Any time you critically hit an enemy, they will suffer an additional X physical damage over 10 seconds and their parry chance will be reduced by 10%.",
       "category": "CareerTactic"
     },
   
@@ -133,7 +133,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "The force of the sun fills your blade, dealing X physical damage to the enemy and the victim will also suffer Y physical damage over the next 9 seconds. This effect is stackable up to three times.",
+      "description": "The force of the sun fills your blade, dealing X elemental damage to the enemy and the victim will also suffer Y elemental damage over the next 9 seconds. This effect is stackable up to three times.",
       "category": "Ability"
     },
           
@@ -181,7 +181,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Shield Rush will now also increase your chance to parry by 15%.",
+      "description": "Perseverance now also increase your chance to parry by 15% and its duration is increased by 5 seconds.",
       "category": "CareerTactic"
     },
   
@@ -229,7 +229,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When you block, all members of your group within 100 feet except you will gain a 5% chance to critically hit for 10 seconds.",
+      "description": "When you block, all members of your group within 100 feet will gain 5% reduced chance to be critically hit for 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -247,22 +247,6 @@
       "note": "",
       "description": "A loud shout that startles your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
       "category": "Morale"
-    },
-  
-    {
-      "image": "22694",
-      "id": 3213,
-      "name": "Efficient Swings",
-      "type": "Buff",
-      "spec": "Path of Conquest",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "All Path of Conquest abilities now cost 35% fewer action points.",
-      "category": "CareerTactic"
     },
   
     {
@@ -357,7 +341,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Stay Focused! will now also cause groupmates in the area to receive 15% more from all healing effects used on them.",
+      "description": "Stay Focused! will now also cause groupmates in the area to receive 20% more from all healing effects used on them for 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -387,9 +371,9 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "25s cooldown",
       "note": "You can have three commands active.",
-      "description": "You order your group to steady their thoughts, granting a X ability bonus to all resistances for all groupmates within 100 feet. All enemies within 30 feet will be frightened, and take a Y ability penalty to all resistances.",
+      "description": "Passive: You order your group to steady their thoughts, granting a X ability bonus to all resistances for all groupmates within 100 feet. To Victory!'s activated effect will now cause your groupmates to have a 100% reduced chance to be set back for the duration.<BR><BR>Activated: All enemies within 30 feet will be frightened, and take a X ability penalty to elemental resistance for 15 seconds.",
       "category": "Ability"
     },
   
@@ -453,7 +437,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "A blazing aura of light surrounds your blade as you bring it around in a broad sweep, dealing X physical damage to all enemies in front of you up to 40 feet away. Everyone hit by this attack will be staggered, and unable to move for 5 seconds, preventing all actions unless they are damaged.",
+      "description": "A blazing aura of light surrounds your blade as you bring it around in a broad sweep, dealing X elemental damage to all enemies in front of you up to 40 feet away. Everyone hit by this attack will be staggered, and unable to move for 4 seconds, preventing all actions unless they are damaged.",
       "category": "Ability"
     },
   
@@ -517,7 +501,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Vigilance will no longer reduce the damage you deal.",
+      "description": "All commands have their cooldowns decreased by 5 seconds.",
       "category": "CareerTactic"
     },
   
@@ -540,7 +524,7 @@
     {
       "image": "22715",
       "id": 3110,
-      "name": "Mighty Soul",
+      "name": "Mighty Blades",
       "type": "Defensive",
       "spec": "Path of Glory",
       "minrank": "1",
@@ -549,7 +533,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your attacks within the Path of Glory will now deal elemental damage instead of physical damage.",
+      "description": "The damage of Blazing Blade and Shining Blade now hit all enemies within 30 feet.",
       "category": "CareerTactic"
     },
     
@@ -560,7 +544,7 @@
       "type": "Damaging",
       "spec": "Path of Conquest",
       "minrank": "1",
-      "cost": "Costs 25 AP/sec",
+      "cost": "Costs 18 AP/sec",
       "range": "5ft range",
       "incant": "3.0s channel",
       "cooldown": "8.0s cooldown",
@@ -606,14 +590,14 @@
       "id": 3107,
       "name": "Now's Our Chance!",
       "type": "",
-      "spec": "Path of Glory",
+      "spec": "Path of Conquest",
       "minrank": "1",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "4.5s cooldown",
-      "note": "You can have three commands active.",
-      "description": "You fill your enemies with fear and doubt, causing all healing abilities to become 75% as effective when used by any enemies within 30 feet of you.",
+      "cooldown": "25s cooldown",
+      "note": "You can have three commands active.<BR>Requires Great Weapon",
+      "description": "Passive: You fill your enemies with fear and doubt, any enemies within 30 feet of you will be healed for 10% less. The duration of Press the Attack's activated effect is increased by 5 seconds.<BR><BR>Activated: Target enemy has 50% reduced healing received for 15 seconds.",
       "category": "Ability"
     },
   
@@ -627,9 +611,9 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "4.5s cooldown",
-      "note": "You can have three commands active.",
-      "description": "You order your group to ready their defenses, causing X physical damage back against any attacker who strikes a groupmate within 100 feet with a melee attack. Targets can only be damaged once every two seconds.",
+      "cooldown": "25s cooldown",
+      "note": "You can have three commands active.<BR>Requires Shield.",
+      "description": "Passive: You order your group to ready their defenses, causing X physical damage back against any attacker who strikes a groupmate within 100 feet. Targets can only be damaged once every two seconds. Reduces the cooldown of To Glory! by 5 seconds.<BR><BR>Activated: For the next 10 seconds, 10% of all damage your groupmates would have taken is directed to you instead.",
       "category": "Ability"
     },
   
@@ -646,7 +630,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "The blessings of Myrmidia fill you, granting you a X abilty bonus to armor for 10 seconds. Whenever you're attacked during this time, you will regain 10 Action Points.",
+      "description": "The blessings of Myrmidia fill you, granting you a X abilty bonus to armor for 10 seconds. Whenever you're attacked during this time, you will regain 10 action points.",
       "category": "Ability"
     },
   
@@ -657,7 +641,7 @@
       "type": "Damaging",
       "spec": "Path of Conquest",
       "minrank": "3",
-      "cost": "Costs 40 AP",
+      "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
@@ -676,9 +660,9 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "25s cooldown",
       "note": "You can have three commands active.",
-      "description": "You order your group to strike fiercely, granting a X ability bonus to strength for all groupmates within 100 feet. All enemies within 30 feet will be frightened, causing them to take a X ability penalty to strength.",
+      "description": "Passive: You order your group to strike fiercely, granting a (rank * 1) unique bonus to strength for all groupmates within 100 feet.<BR><BR>Activated: All groupmates gain 15% critical chance for 7 seconds.",
       "category": "Ability"
     },
   
@@ -735,14 +719,14 @@
       "id": 3068,
       "name": "Runefang",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Conquest",
       "minrank": "15",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you parry an attack, you gain a 240 unique bonus to strength, weapon skill, and initiative for 10 seconds. This effect will not refresh itself.",
+      "description": "Whenever you activate a command, you gain a 240 unique bonus to strength, weapon skill, and initiative for 8 seconds.",
       "category": "CareerTactic"
     },
   
@@ -767,7 +751,7 @@
       "id": 3063,
       "name": "Shatter Confidence",
       "type": "Damaging",
-      "spec": "Path of Glory",
+      "spec": "Path of Conquest",
       "minrank": "25",
       "cost": "Costs 25 AP",
       "range": "5ft range",
@@ -831,14 +815,14 @@
       "id": 3060,
       "name": "Shining Blade",
       "type": "Blessing",
-      "spec": "Path of Conquest",
+      "spec": "Path of Glory",
       "minrank": "18",
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Your Shining Blade slices into your opponent for X physical damage. For the next 5 seconds, Shining Blade will cause an additional Y elemental damage on the next damaging attack made by everyone in your group within 100 feet of you.",
+      "description": "Your Shining Blade slices into your opponent for X elemental damage. For the next 5 seconds, Shining Blade will cause an additional Y elemental damage on the next damaging attack made by everyone in your group within 100 feet of you.",
       "category": "Ability"
     },
   
@@ -870,7 +854,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Crippling Blow will now hit 3 enemies within 25 feet of you, but your base damage is reduced by 10%.",
+      "description": "Crippling Blow will now hit 3 enemies within 25 feet of you.",
       "category": "CareerTactic"
     },
   
@@ -902,7 +886,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 800 damage to all enemies within 30 feet. Enemy players hit by this effect will lose all of their Morale.",
+      "description": "Deals 800 damage to all enemies within 30 feet. Enemy players hit by this effect will lose all of their morale.",
       "category": "Morale"
     },
   
@@ -911,14 +895,14 @@
       "id": 3097,
       "name": "Staggering Impact",
       "type": "Curse",
-      "spec": "Path of Conquest",
+      "spec": "Path of Glory",
       "minrank": "1",
       "cost": "Costs 40 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "Myrmidia's power bursts forth from you, slamming into all enemies within 30 feet. All of the victims will suffer X physical damage over 10 seconds and have their chance to defend attacks reduced by 10%.",
+      "description": "Myrmidia's power bursts forth from you, slamming into all enemies within 30 feet. All of the victims will suffer X elemental damage over 10 seconds and take a (5 * rank) ability penalty to toughness and weapon skill",
       "category": "Ability"
     },
   
@@ -932,9 +916,9 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "25s cooldown",
       "note": "You can have three commands active.",
-      "description": "You order your group to hold their positions, granting a X ability bonus to toughness for all groupmates within 100 feet. All enemies within 30 feet will be frightened, and take a X ability penalty to toughness.",
+      "description": "Passive: You order your group to hold their positions, granting a (rank * 1) unique bonus to toughness for all groupmates within 100 feet. To Glory!'s activated effect will provide 75 action points instead of 50.<BR><BR>Activated: Grant a (rank * 7.5) morale bonus to toughness to groupmates within 100 feet for 8 seconds.",
       "category": "Ability"
     },
   
@@ -948,9 +932,9 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "25s cooldown",
       "note": "You can have three commands active.",
-      "description": "You order your group to prepare for combat, causing all of your groupmates within 100 feet to regain 24 action points and X health over 3 seconds any time they defend themselves against an attack.",
+      "description": "Passive: You order your group to prepare for combat, causing all of your groupmates within 100 feet to receive 5% increased healing. To Victory!'s activated effect duration is increased by 3 seconds.<BR><BR>Activated: For the next 10 seconds, your groupmates will gain a (7.5 * rank) morale bonus to willpower.",
       "category": "Ability"
     },
   
@@ -982,7 +966,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Shield Of The Sun will now deal X physical damage back against enemies, and Vicious Slash's cooldown is reduced by 1 second.",
+      "description": "Shield Of The Sun will now deal X elemental damage back against enemies, and Shining Blade's cooldown is reduced by 5 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1039,14 +1023,14 @@
       "id": 3093,
       "name": "To Glory!",
       "type": "",
-      "spec": "Path of Conquest",
+      "spec": "Path of Vigilance",
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "25s cooldown",
       "note": "You can have three commands active.",
-      "description": "You fill your group with purpose, causing all of your groupmates within 100 feet to regain 20 action points every 5 seconds. All enemies within 30 feet will lose 20 action points every 5 seconds.",
+      "description": "Passive: You fill your group with purpose, causing all of your groupmates within 100 feet to regain 2 action points every second.<BR><BR>Activated: All groupmates gain 50 action points immediately.",
       "category": "Ability"
     },
   
@@ -1055,14 +1039,14 @@
       "id": 3100,
       "name": "To Victory!",
       "type": "",
-      "spec": "Path of Vigilance",
+      "spec": "Path of Glory",
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "4.5s cooldown",
+      "cooldown": "25s cooldown",
       "note": "You can have three commands active.",
-      "description": "You order your group to steady themselves, making it 25% less likely that your groupmates within 100 feet will become set back if they're hit while using an ability. All enemies within 30 feet will be frightened, making it 25% more likely that they'll be set back when hit.",
+      "description": "Passive: You order your group to steady themselves, making it 25% less likely that your groupmates within 100 feet will become set back if they're hit while using an ability.<BR><BR>Activated: For the next 5 seconds, your groupmates cast times are reduced by 0.5 seconds.",
       "category": "Ability"
     },
   
@@ -1071,14 +1055,14 @@
       "id": 3111,
       "name": "Unbalancing Attack",
       "type": "Damaging",
-      "spec": "Path of Glory",
+      "spec": "Path of Conquest",
       "minrank": "1",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A powerful strike which knocks your enemy off-balance, dealing X physical damage and causing the victim to lose 40 Action Points.",
+      "description": "A powerful strike which knocks your enemies off-balance, dealing X physical damage to enemies 25ft in front of you and causing the victims to deal 30% less auto-attack damage for 10 seconds.",
       "category": "Ability"
     },
   
@@ -1110,7 +1094,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gain a 252 unique bonus to spirit resistance.",
+      "description": "Gain a 300 unique bonus to spirit resistance. Gain a 170 unique bonus to corporeal resistance and elemental resistance",
       "category": "CareerTactic"
     },
   
@@ -1126,7 +1110,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You slice deeply into your enemy, dealing X physical damage to the enemy and interrupting any abilities that they are building up. The victim will also suffer an additional Y physical damage over 5 seconds.",
+      "description": "You slice deeply into your enemy, dealing X elemental damage to the enemy and interrupting any abilities that they are building up. The victim will also suffer an additional Y elemental damage over 5 seconds.",
       "category": "Ability"
     },
   
@@ -1142,7 +1126,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "The glory of the sun fills you with power, reducing all damage that you take by 50% for 10 seconds but reducing all damage that you deal by 25%.",
+      "description": "The glory of the sun fills you with power, reducing all damage that you take by 50% for 10 seconds.",
       "category": "Ability"
     },
   
