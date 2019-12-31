@@ -7,15 +7,8 @@
     "class": "Ranged DPS"
   },
   "knight-of-the-blazing-sun": {
-    "name": "Knight of the Blazing Sun (Old/Live)",
+    "name": "Knight of the Blazing Sun (Coded/Not Matched)",
     "slug": "knight-of-the-blazing-sun",
-    "faction": "Order",
-    "race": "Empire",
-    "class": "Tank"
-  },
-        "featherseverywhere": {
-    "name": "Knight of the Blazing Sun (Direction)",
-    "slug": "featherseverywhere",
     "faction": "Order",
     "race": "Empire",
     "class": "Tank"
@@ -35,15 +28,8 @@
     "class": "Melee DPS"
   },
   "engineer": {
-    "name": "Engineer (Old/Current)",
+    "name": "Engineer (Coded/Not Matched)",
     "slug": "engineer",
-    "faction": "Order",
-    "race": "Dwarf",
-    "class": "Ranged DPS"
-  },
-    "DwarvenNRA": {
-    "name": "Engineer (Direction)",
-    "slug": "DwarvenNRA",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Ranged DPS"
@@ -56,15 +42,8 @@
     "class": "Tank"
   },
   "rune-priest": {
-    "name": "Runepriest (Old/Current)",
+    "name": "Runepriest (Coded/Not Matched)",
     "slug": "rune-priest",
-    "faction": "Order",
-    "race": "Dwarf",
-    "class": "Healer"
-  },
-    "rptrimech": {
-    "name": "Rune Priest (Direction)",
-    "slug": "rptrimech",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Healer"
@@ -84,8 +63,22 @@
     "class": "Healer"
   },
   "shadow-warrior": {
-    "name": "Shadow Warrior (Need Pass)",
+    "name": "Shadow Warrior (Old/Current)",
     "slug": "shadow-warrior",
+    "faction": "Order",
+    "race": "High Elf",
+    "class": "Ranged DPS"
+  },
+    "swMarried": {
+    "name": "Shadow Warrior (Married Proposal)",
+    "slug": "swMarried",
+    "faction": "Order",
+    "race": "High Elf",
+    "class": "Ranged DPS"
+  },
+    "swUnmarried": {
+    "name": "Shadow Warrior (Unmarried Proposal)",
+    "slug": "swUnmarried",
     "faction": "Order",
     "race": "High Elf",
     "class": "Ranged DPS"
@@ -105,15 +98,8 @@
     "class": "Melee DPS"
   },
   "chosen": {
-    "name": "Chosen (Old)",
-    "slug": "chosen",
-    "faction": "Destruction",
-    "race": "Chaos",
-    "class": "Tank"
-  },
-          "pikachu": {
     "name": "Chosen (Coded/Not Matched)",
-    "slug": "pikachu",
+    "slug": "chosen",
     "faction": "Destruction",
     "race": "Chaos",
     "class": "Tank"
@@ -201,27 +187,6 @@
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Melee DPS"
-  },
-          "ramwarriorbaseidea": {
-    "name": "",
-    "slug": "ramwarriorbaseidea",
-    "faction": "",
-    "race": "",
-    "class": ""
-  },
-            "flatbreadwarriorgitlab": {
-    "name": "",
-    "slug": "flatbreadwarriorgitlab",
-    "faction": "",
-    "race": "",
-    "class": ""
-  },
-              "badposture": {
-    "name": "",
-    "slug": "badposture",
-    "faction": "",
-    "race": "",
-    "class": ""
   },
                 "squigmaster": {
     "name": "",
