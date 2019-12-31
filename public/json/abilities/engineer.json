@@ -7,9 +7,9 @@
         "lvl2": 3661,
         "lvl3": 3662,
         "lvl4": 3663,
-        "lvl5": 3664,
+        "lvl5": 3643,
         "lvl6": 7510,
-        "lvl7": 3666
+        "lvl7": 3646
       },
       "coreAbilities": [3633,3622,3623,3716,3635]
     },
@@ -22,22 +22,22 @@
         "lvl4": 3665,
         "lvl5": 3671,
         "lvl6": 3672,
-        "lvl7": 3673
+        "lvl7": 3680
       },
       "coreAbilities": [3627,3626,3613,3629,3617]
     },
     "c": {
       "name": "Path of The Tinkerer",
       "optionalAbilities": {
-        "lvl1": 3639,
+        "lvl1": 3636,
         "lvl2": 3675,
         "lvl3": 3676,
         "lvl4": 3677,
         "lvl5": 3678,
         "lvl6": 3679,
-        "lvl7": 3680
+        "lvl7": 3670
       },
-      "coreAbilities": [3634,3628,3616,3632,3618,3670]
+      "coreAbilities": [3634,3616,3624,3618,3615,8001]
     }
   },
   "data": [
@@ -48,7 +48,7 @@
       "type": "Hex",
       "spec": "Path of The Grenadier",
       "minrank": "5",
-      "cost": "Costs 25 AP",
+      "cost": "Costs 40 AP",
       "range": "65ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
@@ -112,14 +112,14 @@
       "id": 3673,
       "name": "Artillery Barrage",
       "type": "Damaging",
-      "spec": "Path of The Grenadier",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "100ft range",
-      "incant": "4.0s channel",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You select a spot on the ground and call in an artillery strike for up to 4 seconds, dealing 600 damage per second to all enemies within 30 feet of that spot.",
+      "description": "You select a spot on the ground and call in an artillery strike for up to 4 seconds, dealing 600 damage per second to up to 30 enemies within 30 feet of that spot.",
       "category": "Morale"
     },
   
@@ -135,7 +135,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You regain action points 30% faster for 10 seconds.",
+      "description": "Generates 4 stacks of Improvised Upgrades and 10 stacks of structure.",
       "category": "Morale"
     },
   
@@ -151,7 +151,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your Path of the Grenadier abilities cost 35% fewer action points.",
+      "description": "Each time a Path of Grenadier ability deals damage, you will gain 1 action point and 1 point of morale.",
       "category": "CareerTactic"
     },
   
@@ -199,7 +199,7 @@
       "incant": "2.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "You construct a mid-range grenade turret. You will generate 1 stack of Improvised Upgrades every 2s while within 40ft of your turret, max 8 stacks. Each stack gives you +4% damage, +5% turret range, and +4% increased faster grendier/tinkerer DoTs. With one stack, you may cast grenadier abilities while moving. You will begin to lose stacks at 81ft from your turret, will lose 4 if the turret is destroyed, and all if you summon a different turret.",
+      "description": "You construct a mid-range grenade turret. You generate Improvised Upgrades if you are within 40 feet. You will lose IU starting at 81ft or if another turret is contructed.",
       "category": "Ability"
     },
 
@@ -210,10 +210,10 @@
       "type": "Healing",
       "spec": "Path of The Tinkerer",
       "minrank": "1",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 40 AP",
       "range": "No range",
       "incant": "2.0s cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "15.0s cooldown",
       "note": "",
       "description": "You carefully unpack a mini-keg of rare and precious Bugman's Finest Stout with reverential awe. For the next 15 seconds, the faint vapors escaping from the keg will rejuvenate any group members within 65 feet of it, restoring X health every 3 seconds. You dream of the day that the brew will be aged enough to actually tap and drink.",
       "category": "Ability"
@@ -224,7 +224,7 @@
       "id": 3632,
       "name": "Burn Salve",
       "type": "Enchantment",
-      "spec": "Path of The Tinkerer",
+      "spec": "Core Ability",
       "minrank": "28",
       "cost": "Costs 55 AP",
       "range": "No range",
@@ -240,14 +240,14 @@
       "id": 3646,
       "name": "Cannon Smash",
       "type": "Damaging",
-      "spec": "Core Ability",
+      "spec": "Path of The Rifleman",
       "minrank": "36",
-      "cost": "Rank 3 morale",
+      "cost": "Rank 2 morale",
       "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
-      "note": "",
-      "description": "A massive cannonball smashes into your target, dealing 2400 damage and causing them to take a 1400 morale penalty to armor for 30 seconds.",
+      "note": "Requires 15 points in Path of The Rifleman",
+      "description": "A massive cannonball smashes into your target, dealing 1200 damage and causing them to take a (Rank * 30) morale penalty to armor for 30 seconds.",
       "category": "Morale"
     },
   
@@ -263,7 +263,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "If an enemy dodges any of your attacks, you will regain 75 action points.<br>This effect will not trigger more than once every 3 seconds.",
+      "description": "If an enemy dodges any of your attacks, you will regain 40 action points.<br>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
   
@@ -295,7 +295,7 @@
       "incant": "1.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You lob a grenade that releases a powerful shockwave on impact, dealing X corporeal damage to your target and knocking them back a short distance. Monsters will be knocked down instead.",
+      "description": "You lob a grenade that releases a powerful shockwave on impact, dealing X corporeal damage to your target and all enemies within 20 feet.",
       "category": "Ability"
     },
   
@@ -320,14 +320,14 @@
       "id": 3643,
       "name": "Coordinated Fire",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of The Rifleman",
       "minrank": "39",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Signal Flare will now also cause the victim to suffer 15% more damage from all sources.",
+      "description": "Signal Flare has its duration, cooldown, and tick interval reduced by 50%. It will also cause the victim to suffer 15% more damage from all sources.",
       "category": "CareerTactic"
     },
   
@@ -338,12 +338,12 @@
       "type": "Damaging",
       "spec": "Path of The Rifleman",
       "minrank": "1",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 40 AP",
       "range": "100ft range",
-      "incant": "2.0s cast",
+      "incant": "1.0s cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "A well-aimed shot which deals X physical damage and disarms your target for 3 seconds, making them unable to use their weapons.",
+      "description": "A well-aimed shot which deals X physical damage and disarms your target for 5 seconds, making them unable to use their weapons.",
       "category": "Ability"
     },
   
@@ -354,7 +354,7 @@
       "type": "Debuff",
       "spec": "Path of The Tinkerer",
       "minrank": "1",
-      "cost": "Costs 20 AP",
+      "cost": "Costs 45 AP",
       "range": "No range",
       "incant": "1.0s cast",
       "cooldown": "30.0s cooldown",
@@ -400,7 +400,7 @@
       "id": 3639,
       "name": "Extra Ammo",
       "type": "Buff",
-      "spec": "Path of The Tinkerer",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
@@ -423,7 +423,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Acid Bomb, Phosphorous Shells and Fragmentation Grenade gain a 50% increase to the size of their areas of effect.",
+      "description": "Path of Grenadier abilities except Napalm Grenade gain a 50% increase to the size of their areas of effect.",
       "category": "CareerTactic"
     },
   
@@ -464,14 +464,14 @@
       "id": 3624,
       "name": "Flak Jacket",
       "type": "Enchantment",
-      "spec": "Core Ability",
+      "spec": "Path of The Tinkerer",
       "minrank": "11",
       "cost": "Costs 35 AP",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You don an experimental suit of protective gear, gain a 560 ability bonus to armor for up to 1 hours.",
+      "description": "You don an experimental suit of protective gear, gain a X ability bonus to armor for up to 1 hours.",
       "category": "Ability"
     },
   
@@ -485,9 +485,9 @@
       "cost": "Costs 55 AP",
       "range": "No range",
       "incant": "2.0s cast",
-      "cooldown": "2.0s cooldown",
+      "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "You construct a short-range, flamethrower turret. You will generate 1 stack of Improvised Upgrades every 2s while within 30ft of your turret, max 8 stacks. Each stack gives you +4% damage, +8% turret dodge and disrupt, +4% dodge and disrupt for you, +6.25% radius for your AoEs, reduces your range by 5% (cap -30%), and increases your AoE target limit by 2. With one stack, you can use grenadier abilities while moving. You will begin to lose stacks at 31ft from your turret, will lose 4 if the turret is destroyed, and all if you summon a different turret.",
+      "description": "You construct a short-range, flamethrower turret. You generate Improvised Upgrades if you are within 30 feet. You will lose IU starting at 31ft or if another turret is contructed.",
       "category": "Ability"
     },
   
@@ -498,7 +498,7 @@
       "type": "Damaging",
       "spec": "Path of The Grenadier",
       "minrank": "14",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 40 AP",
       "range": "65ft range",
       "incant": "1.0s cast",
       "cooldown": "10.0s cooldown",
@@ -532,10 +532,10 @@
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
-      "incant": "4.0s channel",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You fling packets of explosives all around you for up to 4 seconds, dealing 600 damage each second to all enemies within 30 feet.",
+      "description": "Your turret explodes flinging explosives to up to 18 enemies within 65 of it. Enemies will be afflicted with Acid Bomb, Fulminate Grenade, Flashbang Grenade, Friction Burn, and Incendiary Rounds.",
       "category": "Morale"
     },
   
@@ -574,16 +574,16 @@
     {
       "image": "04477",
       "id": 3627,
-      "name": "Fulmination Grenade",
+      "name": "Cinderblast Bomb",
       "type": "Hex",
       "spec": "Path of The Grenadier",
       "minrank": "16",
-      "cost": "Costs 45 AP",
+      "cost": "Costs 35 AP",
       "range": "65ft range",
       "incant": "1.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "You lob a grenade which shatters when it hits your enemy, dealing X corporeal damage over 15 seconds to the target and all other enemies within 20 feet of them.",
+      "description": "You lob a grenade which shatters when it hits your enemy, dealing X corporeal damage over 18 seconds to the target and all other enemies within 20 feet of them.",
       "category": "Ability"
     },
   
@@ -599,7 +599,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A powerful swipe with your spanner which smacks all enemies in front of you up to 40 feet away, dealing X corporeal damage over 9 seconds.<br>The attack uses the ranged statistic.",
+      "description": "A powerful swipe with your spanner which smacks all enemies in front of you up to 40 feet away, dealing X corporeal damage over 10 seconds.<br>The attack uses the ranged statistic.",
       "category": "Ability"
     },
   
@@ -610,7 +610,7 @@
       "type": "Damaging",
       "spec": "Path of The Rifleman",
       "minrank": "1",
-      "cost": "Costs 40 AP",
+      "cost": "Costs 35 AP",
       "range": "100ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
@@ -631,26 +631,10 @@
       "incant": "2.0s cast",
       "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "You construct a long-range, machine-gun turret. You will generate 1 stack of Improvised Upgrades every 2s while within 30ft of your turret, max 8 stacks. Each stack gives you +4% damage, +5% turret range (Cap 25%), +5% range for you (Cap 25%). You will begin to lose stacks at 31ft from your turret, will lose 4 if the turret is destroyed, and all if you summon a different turret.",
+      "description": "You construct a long-range, machine-gun turret. You generate Improvised Upgrades if you are within 30 feet. You will lose IU starting at 31ft or if another turret is contructed.",
       "category": "Ability"
     },
-  
-    {
-      "image": "23164",
-      "id": 3656,
-      "name": "Hail of Doom",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "40",
-      "cost": "Rank 4 morale",
-      "range": "100ft range",
-      "incant": "5.0s channel",
-      "cooldown": "1m cooldown",
-      "note": "",
-      "description": "You focus on a spot on the ground, shooting arrows at that spot every 0.5 seconds for 5 seconds, hitting all enemies within 20 feet of that area for 300 damage as long as you maintain your concentration.",
-      "category": "Morale"
-    },
-  
+    
     {
       "image": "22697",
       "id": 3637,
@@ -674,7 +658,7 @@
       "type": "Damaging",
       "spec": "Path of The Rifleman",
       "minrank": "10",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 30 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
@@ -706,10 +690,10 @@
       "type": "Hex",
       "spec": "Path of The Rifleman",
       "minrank": "9",
-      "cost": "Costs 45 AP",
+      "cost": "Costs 30 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "No cooldown",
       "note": "",
       "description": "You fire bullets that burst into flame when they strike the enemy, dealing X corporeal damage over 15 seconds.",
       "category": "Ability"
@@ -720,7 +704,7 @@
       "id": 3628,
       "name": "Land Mine",
       "type": "Damaging",
-      "spec": "Path of The Tinkerer",
+      "spec": "Core Ability",
       "minrank": "18",
       "cost": "Costs 50 AP",
       "range": "65ft range",
@@ -738,7 +722,7 @@
       "type": "Damaging",
       "spec": "Path of The Tinkerer",
       "minrank": "1",
-      "cost": "Costs 45 AP",
+      "cost": "Costs 35 AP",
       "range": "No range",
       "incant": "1.0s cast",
       "cooldown": "20.0s cooldown",
@@ -775,7 +759,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You toss a grenade packed full of dangerous napalm gel on to the ground, where it will burst open and burn for 30 seconds, causing damaging every 2 seconds to any enemies who come within 20 feet of that spot. The fires increase in intensity over time, causing X corporeal damage during the first 10 seconds, Y corporeal damage for the next 10 seconds, and Z corporeal damage for the final 10 seconds. <br> If there are multiple Napalm Grenades in the same area only the highest level one will deal damage.",
+      "description": "You toss a grenade packed full of dangerous napalm gel on to the ground, where it will burst open in a 20 feet radius and burn for 30 seconds. Every 1.5 seconds, enemies within the area gain a stack of Napalm. Napalm deals X corporeal damage every second for 10 seconds and stacks 10 times.<br>If there are multiple Napalm Grenades in the same area only the highest level one will deal damage.",
       "category": "Ability"
     },
 
@@ -786,12 +770,12 @@
       "type": "Hex",
       "spec": "Path of The Rifleman",
       "minrank": "1",
-      "cost": "Costs 40 AP",
+      "cost": "Costs 45 AP",
       "range": "80ft range",
       "incant": "1.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You blast your enemy with powerful and unstable phosphorous ammo, dealing X corporeal damage to them. The victim and all enemies within 20 feet of them will also suffer Y corporeal damage over 10 seconds as the shells burst into flame.",
+      "description": "You blast your enemy with powerful and unstable phosphorous ammo, dealing X corporeal damage to them. The victim and all enemies within 20 feet of them will also suffer Y corporeal damage over 15 seconds as the shells burst into flame.",
       "category": "Ability"
     },
   
@@ -807,7 +791,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "If an enemy blocks, dodges, or parries any of your attacks, their chances to block, dodge, and parry will be reduced by 15% for 10 seconds.",
+      "description": "If an enemy blocks, dodges, or parries any of your attacks, their chances to dodge and parry will be reduced by 10% for 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -842,23 +826,7 @@
       "description": "Increases the chance for you and your groupmates to detect hidden enemies by 50% while you or your group are within 20 feet feet of your turret.",
       "category": "CareerTactic"
     },
-  
-    {
-      "image": "22704",
-      "id": 3664,
-      "name": "Quick Reloader",
-      "type": "Buff",
-      "spec": "Path of The Rifleman",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "All of your Path of the Rifleman abilities cost 35% fewer action points.",
-      "category": "CareerTactic"
-    },
-  
+    
     {
       "image": "04652",
       "id": 3630,
@@ -866,7 +834,7 @@
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "3",
-      "cost": "Costs 60 AP",
+      "cost": "Costs 40 AP",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
@@ -880,14 +848,14 @@
       "id": 3636,
       "name": "Reinforced Casing",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of the Tinkerer",
       "minrank": "15",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Adds 160 wounds to your turrets.",
+      "description": "Your turrets are summoned with 25 stacks of Structure rather than 5.",
       "category": "CareerTactic"
     },
   
@@ -896,14 +864,14 @@
       "id": 3666,
       "name": "Scattershot",
       "type": "Damaging",
-      "spec": "Path of The Rifleman",
+      "spec": "Core Ability",
       "minrank": "1",
-      "cost": "Rank 4 morale",
+      "cost": "Rank 3 morale",
       "range": "No range",
-      "incant": "4.0s channel",
+      "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You release a string of several gun blasts in a row for up to 4 seconds, dealing 600 damage each second to all enemies in front of you, up to 40 feet away.",
+      "description": "You release a string of several gun blasts in a row dealing 1200 damage to enemies 45 feet in front of you and reducing their movement speed by 60% for 6 seconds.",
       "category": "Morale"
     },
   
@@ -919,23 +887,23 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "Requires a Turret",
-      "description": "You activate the self-destruct mechanism built into your turret, destroying the turret and dealing X corporeal damage to all enemies within 30 feet of it, knocking them down for 2 seconds.",
+      "description": "You activate the self-destruct mechanism built into your turret, destroying the turret and dealing X corporeal damage to all enemies within 30 feet of it, knocking them down for 4 seconds.",
       "category": "Ability"
     },
   
     {
-      "image": "04603",
+      "image": "abi_dw_melee07",
       "id": 3615,
-      "name": "Shock Grenade",
+      "name": "Repairing a Sentry",
       "type": "Healing",
-      "spec": "Core Ability",
+      "spec": "Path of the Tinkerer",
       "minrank": "22",
-      "cost": "No AP Cost",
-      "range": "65ft range",
-      "incant": "Instant Cast",
+      "cost": "Costs 15 AP/sec",
+      "range": "30ft range",
+      "incant": "4.5s channel",
       "cooldown": "20.0s cooldown",
       "note": "Requires a Turret",
-      "description": "You toss a grenade at an ally which removes stagger effects from them and five others within 25 feet.",
+      "description": "Every half second restores 1 structure to your turret and heals it for (Rank * 30).",
       "category": "Ability"
     },
   
@@ -951,7 +919,7 @@
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "You mark the enemy with a bright signal flare, dealing X physical damage over 21 seconds and reducing their chances to dodge or block attacks by 5%.",
+      "description": "You mark the enemy with a bright signal flare, dealing X physical damage over 20 seconds and reducing their chance to dodge attacks by 5%.",
       "category": "Ability"
     },
   
@@ -962,7 +930,7 @@
       "type": "Damaging",
       "spec": "Path of The Rifleman",
       "minrank": "1",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 30 AP",
       "range": "150ft range",
       "incant": "3.0s cast",
       "cooldown": "10.0s cooldown",
@@ -994,7 +962,7 @@
       "type": "Damaging",
       "spec": "Path of The Tinkerer",
       "minrank": "35",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
@@ -1010,7 +978,7 @@
       "type": "Hex",
       "spec": "Path of The Grenadier",
       "minrank": "1",
-      "cost": "Costs 40 AP",
+      "cost": "Costs 30 AP",
       "range": "65ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
@@ -1031,7 +999,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Hip Shot now will knock the victim back a short distance.",
+      "description": "Whenever Hip Shot targets an enemy within 40 feet, it becomes undefendable and removes movement effects from the enemy. (Charge, Mutating Release, Shrug it Off, Yer Goin' Down, Fleet-Footed, etc)",
       "category": "CareerTactic"
     },
   
@@ -1058,13 +1026,13 @@
       "type": "Damaging",
       "spec": "Path of The Tinkerer",
       "minrank": "1",
-      "cost": "Costs 55 AP",
+      "cost": "Rank 3 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "1m cooldown",
       "note": "",
-      "description": "You call for air support, signaling for a strafing run which deals X physical damage to all enemies in a line in front of you, up to 65 feet away. Any enemy players hit by the powerful shells will be sent flying away from you, while monsters will be knocked down.",
-      "category": "Ability"
+      "description": "You call for air support, signaling for a strafing run which deals 1200 damage to up to 18 enemies in a line in front of you, up to 65 feet away. Any enemy players hit by the powerful shells will be sent flying away from you, while monsters will be knocked down.",
+      "category": "Morale"
     },
   
     {
@@ -1079,7 +1047,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gain a 252 unique bonus to corporeal resistance.",
+      "description": "Gain a 300 unique bonus to corporeal resistance and a 169 unique bonus to elemental and spiritual resistance.",
       "category": "CareerTactic"
     },
   
@@ -1159,14 +1127,46 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You can now construct your turrets instantly and the cost of Redeploy is reduced to 0 action points.",
+      "description": "You can now construct your turrets instantly and redeploy's action point cost is reduced to 0.",
       "category": "CareerTactic"
     },
 
     {
-      "image": "04531",
+      "image": "00000",
+      "id": 8000,
+      "name": "Improvised Upgrades",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "1",
+      "cost": "No cost",
+      "range": "No range",
+      "incant": "2.0s interval",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "You generate 1 stack of Improvised Upgrades every 2 seconds, maximum of 8 stacks.<BR><BR>Gun Turret: Each stack gives you +5% damage and +5% range (max of 25% range).<BR><BR>Bombardment Turret: If you have at least one stack, you can use Path of Grenadier abilities while moving and they have 35% faster tick intervals and durations. Each time you use an ability, lose one stack.<BR><BR>Flame Turret: Each time you use an ability lose one stack. Your Path of Tinkerer abilites grant you 30% dodge/disrupt for 3 seconds, have a 6 increased target cap, and 50% increased radius.",
+      "category": "Ability"
+    },
+
+        {
+      "image": "abi_dw_range15",
+      "id": 8001,
+      "name": "Structure",
+      "type": "Buff",
+      "spec": "Path of the Tinkerer",
+      "minrank": "1",
+      "cost": "No cost",
+      "range": "No range",
+      "incant": "No cast",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "All of your turrets are summoned with 5 stacks of this buff. Your turret gains (Rank * 2) wounds, toughness, initiative, and all resistances. Your turret gains (Rank * 5) armor. Your turret gains 10% of your bonus ballistic skill and weapon skill from items. Each time your turret takes direct damage, it will lose one stack of structure.",
+      "category": "Ability"
+    },
+
+    {
+      "image": "abi_dw_range05",
       "id": 7510,
-      "name": "Armor-Piercing Rounds",
+      "name": "Depleted Runic Rounds",
       "type": "Damaging",
       "spec": "Path of The Rifleman",
       "minrank": "1",
@@ -1175,7 +1175,7 @@
       "incant": "Instant Cast",
       "cooldown": "60.0s cooldown",
       "note": "",
-      "description": "You load your rifle with the finest of rounds. Your attacks will ignore 25% of the victim's armor for 12seconds.",
+      "description": "You load your rifle with the finest of rounds. For the next 15 seconds, all path of the rifleman abilities will deal X additional physical damage that bypasses all armor.",
       "category": "Ability"
     }
   ]
