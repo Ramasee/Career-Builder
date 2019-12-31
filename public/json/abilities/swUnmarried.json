@@ -320,7 +320,7 @@
       "range": "75ft range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
-      "note": "Requires Scout or Skirmish Stance",
+      "note": "",
       "description": "A well aimed arrow that deals X physical damage.",
       "category": "Ability"
     },
@@ -447,9 +447,9 @@
       "cost": "Costs 30 AP",
       "range": "75ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "15.0s cooldown",
       "note": "",
-      "description": "Deals X physical damage to your target.  Deals an additional Z damage if you are behind the target. Deals an additional Y damage over 6 seconds if the target is at full health. This arrow has no flight time.",
+      "description": "Deals X physical damage to your target.  Deals an additional Z damage if you are behind the target. Deals an additional Y damage over 10 seconds if the target is at full health. This arrow has no flight time.",
       "category": "Ability"
     },
   
@@ -529,7 +529,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Draw Blood will now cause the target to take +25% critical damage for the duration. In addition, your Grim Slash will deal X additional damage for each Path of The Unwavering DoT on the target.",
+      "description": "Your ranged attacks deal an additional 25% critical damage against targets afflicted with Draw Blood. In addition, your Grim Slash will deal X additional damage for each Path of The Unwavering DoT on the target.",
       "category": "CareerTactic"
     },
   
@@ -1073,7 +1073,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you deal damage with a melee attack, the damage of all your ranged attacks is increased by 15% for 6 seconds.<BR><BR>Whenever you deal damage with a ranged attack, the damage of all your melee attacks is increased by 15% for 6 seconds.",
+      "description": "Whenever you deal direct damage with a melee attack, the damage of all your ranged attacks is increased by 15% for 6 seconds.<BR><BR>Whenever you deal direct damage with a ranged attack, the damage of all your melee attacks is increased by 15% for 6 seconds.",
       "category": "CareerTactic"
     },
     
