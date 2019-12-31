@@ -353,7 +353,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your cast times are reduced to 50% when you are within 20 feet of your target.",
+      "description": "Your cast times are reduced to 50% when you are within 35 feet of your target, but you will be snared by X% for Ys whenever you cast an ability.",
       "category": "CareerTactic"
     },
   
@@ -400,7 +400,7 @@
       "range": "65ft range",
       "incant": "1.0s cast",
       "cooldown": "20.0s cooldown",
-      "note": "Requires Skirmish Stance",
+      "note": "Requires Skirmish Stance<br>Target must be Ailing.",
       "description": "A crippling shot that deals X physical damage and causes your target to take a (3 * rank) ability penalty to initiative for 20 seconds. This ability will continue to build up even if you move. 3 Second knockdown.",
       "category": "Ability"
     },
@@ -609,7 +609,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Path of Skirmisher abilities deal X% more damage to targets within 55 to 80 feet.",
+      "description": "Path of Skirmisher abilities deal X% more damage to targets within 55 to 80 feet.<BR><BR>This idea was a placeholder for an idea that eventually was scrapped. A new idea was not put in its place before the due date.",
       "category": "CareerTactic"
     },
   
