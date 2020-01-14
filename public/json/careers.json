@@ -126,7 +126,7 @@
     "class": "Melee DPS"
   },
   "zealot": {
-    "name": "Zealot (Need Pass)",
+    "name": "Zealot (Coded/Not Matched)",
     "slug": "zealot",
     "faction": "Destruction",
     "race": "Chaos",
