@@ -15,7 +15,7 @@
         "lvl6": 3976,
         "lvl7": 3977
       },
-      "coreAbilities": [3937,4027,3940,3930,3979,3931]
+      "coreAbilities": [3937,4027,3940,3930,5010,3931]
     },
     "b": {
       "name": "Path of The Unwavering",
@@ -25,7 +25,7 @@
       },
       "optionalAbilities": {
         "lvl1": 3985,
-        "lvl2": 3972,
+        "lvl2": 3979,
         "lvl3": 5000,
         "lvl4": 3986,
         "lvl5": 3975,
@@ -42,7 +42,7 @@
       },
       "optionalAbilities": {
         "lvl1": 3948,
-        "lvl2": 5010,
+        "lvl2": 3972,
         "lvl3": 3980,
         "lvl4": 3990,
         "lvl5": 3953,
@@ -417,7 +417,7 @@
       "incant": "3.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "Requires Scout or Skirmish Stance",
-      "description": "Deals X corporeal damage to your target and applies an ailment which inflicts an additional Y corporeal damage for 4 seconds.<br><br>The next Brutal Assault used within 10s on this target will deal X additional damage.",
+      "description": "Deals X corporeal damage to your target and applies an ailment which inflicts an additional Y corporeal damage for 4 seconds.",
       "category": "Ability"
     },
   
@@ -490,14 +490,14 @@
       "id": 3972,
       "name": "Glass Arrow",
       "type": "Ailment",
-      "spec": "Path of The Unwavering",
+      "spec": "Path of The Fervent",
       "minrank": "1",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 40 AP",
       "range": "75ft range",
       "incant": "Instant cast",
       "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "Deals X physical damage to the target over 8 seconds. For the duration, the target will have 25% reduced range and a take a Y ability penalty to initiative.",
+      "description": "Deals X physical damage to the target and all enemies within 20 feet over 8 seconds. For the duration, the targets will have 25% reduced range.",
       "category": "Ability"
     },
   
@@ -673,7 +673,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Dealing critical damage will cause your next direct damage ability to deal an additional X physical damage.<BR><BR>Swift Strikes will now cause the caster to have 5% increased movement speed for 5 seconds and reduce all current cooldowns by 1s for each strike that lands.",
+      "description": "Dealing critical damage will cause your next direct damage ability to deal an additional X physical damage.<BR><BR>Exploit Opportunity will reduce all current cooldowns by 5s.",
       "category": "CareerTactic"
     },
   
@@ -970,14 +970,14 @@
       "id": 3979,
       "name": "Swift Strikes",
       "type": "Damaging",
-      "spec": "Path of The Vengeful",
+      "spec": "Path of The Unwavering",
       "minrank": "1",
       "cost": "Costs 45 AP",
       "range": "30ft range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Melee",
-      "description": "Deals (low) X physical damage five times to your target. If you are Vengeful, you will strike eight times.",
+      "description": "Deals (low) X physical damage three times to your target. You will gain 10% movement speed for 5 seconds for each strike that lands.",
       "category": "Ability"
     },
   
@@ -1078,18 +1078,18 @@
     },
     
         {
-      "image": "13321",
+      "image": "13409",
       "id": 5010,
-      "name": "Gust of Engagement",
+      "name": "Exploit Opportunity",
       "type": "Enchantment",
-      "spec": "Path of the Fervent",
+      "spec": "Path of the Vengeful",
       "minrank": "12",
       "cost": "No AP Cost",
-      "range": "No range",
+      "range": "30ft range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Requires Skirmish Stance",
-      "description": "You gain 30% damage for the next 10 seconds. This effect will be lost if you switch stances.",
+      "cooldown": "20.0s cooldown",
+      "note": "Melee",
+      "description": "Deal X corporeal damage to target enemy. They will take a (Rank * 3) ability penalty to initiative for 10 seconds. If you are Vengeful, the duration will be increased to 15 seconds, and the target will take Y corporeal damage every 3 seconds.",
       "category": "Ability"
     },
 
