@@ -97,7 +97,7 @@
       "incant": "5.0s channel",
       "cooldown": "15.0s cooldown",
       "note": "",
-      "description": "Deals X physical damage to all enemies in an arc in front of you every second, up to 40 feet away snaring targets hit by 30% for 5 seconds",
+      "description": "Deals X physical damage to all enemies in an arc in front of you every second, up to 40 feet away snaring targets hit by 30% for the duration.",
       "category": "Ability"
     },
   
@@ -817,7 +817,7 @@
       "incant": "3.0s channel",
       "cooldown": "13.0s cooldown",
       "note": "Requires Scout or Skirmish Stance",
-      "description": "You move with blinding speed as you quickly fire several shots at your target, X physical damage to the enemy twice per second for up to 3 seconds. This effect will end if you break your concentration, or run out of action points.<br>If you are Vengeful, then the channel is increased by 1 second.",
+      "description": "You move with blinding speed as you quickly fire several shots at your target, X physical damage to the enemy every 0.4 seconds for up to 3 seconds. This effect will end if you break your concentration, or run out of action points.<br>If you are Vengeful, then the channel is increased by 1 second.",
       "category": "Ability"
     },
   
