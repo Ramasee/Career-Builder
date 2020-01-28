@@ -69,15 +69,8 @@
     "race": "High Elf",
     "class": "Ranged DPS"
   },
-    "swMarried": {
-    "name": "Shadow Warrior (Married Proposal)",
-    "slug": "swMarried",
-    "faction": "Order",
-    "race": "High Elf",
-    "class": "Ranged DPS"
-  },
     "swUnmarried": {
-    "name": "Shadow Warrior (Unmarried Proposal)",
+    "name": "Shadow Warrior (Proposal)",
     "slug": "swUnmarried",
     "faction": "Order",
     "race": "High Elf",
