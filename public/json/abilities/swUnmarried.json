@@ -1084,7 +1084,7 @@
       "type": "Enchantment",
       "spec": "Path of the Vengeful",
       "minrank": "12",
-      "cost": "No AP Cost",
+      "cost": "Costs 35 AP",
       "range": "30ft range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
