@@ -196,7 +196,7 @@
       "range": "65ft range",
       "incant": "1.0s cast",
       "cooldown": "20.0s cooldown",
-      "note": "Basic Squig synergy",
+      "note": "",
       "description": "Fire an arrow that releases a pungent gas upon impact. The target takes X corporeal damage and they are silenced for 4 seconds.",
       "category": "Ability"
     },
@@ -324,8 +324,8 @@
       "range": "100ft range",
       "incant": "1.5s cast",
       "cooldown": "10.0s cooldown",
-      "note": "Basic Squig synergy",
-      "description": "An Ailment which deals X elemental damage to your target and then explodes, dealing an additional Y elemental damage over 9 seconds to the target and all other enemies within 20 feet of them.",
+      "note": "",
+      "description": "An Ailment which deals X elemental damage to your target and then explodes, dealing an additional Y elemental damage over 12 seconds to the target and all other enemies within 20 feet of them.",
       "category": "Ability"
     },
   
@@ -352,12 +352,12 @@
       "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "8",
-      "cost": "Costs 55 AP",
+      "cost": "Costs 35 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "30.0s cooldown",
       "note": "Requires an active pet",
-      "description": "You cause your pet to explode, dealing X physical damage to enemies within 30 feet. For the next 10 seconds, the next different squig other than the one that just exploded will be summoned instantly.",
+      "description": "You cause your pet to emit terrible gas, dealing X corporeal damage to enemies within 30 feet of it.",
       "category": "Ability"
     },
   
@@ -563,8 +563,8 @@
       "cost": "Costs 18 AP/sec",
       "range": "100ft range",
       "incant": "3.0s cast",
-      "cooldown": "8.0s cooldown",
-      "note": "Can be cast in Squig Armor<br>Basic Squig Synergy",
+      "cooldown": "13.0s cooldown",
+      "note": "Can be cast in Squig Armor",
       "description": "You concentrate on your target for up to 3 seconds, repeatedly shooting them for X physical damage as long as you maintain your concentration.",
       "category": "Ability"
     },
@@ -608,7 +608,7 @@
       "type": "Cripple",
       "spec": "Path of Big Shootin'",
       "minrank": "18",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 40 AP",
       "range": "100ft range",
       "incant": "1.0s cast",
       "cooldown": "10.0s cooldown",
@@ -789,7 +789,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Explodin Arrer now deals X damage to the initial enemy, and Y damage over 9 seconds with its explosion.",
+      "description": "Explodin Arrer now ticks 35% faster with 35% less duration.",
       "category": "CareerTactic"
     },
   
@@ -804,8 +804,8 @@
       "range": "No range",
       "incant": "2.0s cast",
       "cooldown": "No cooldown",
-      "note": "Can be cast in Squig Armor<br>Basic Squig synergy",
-      "description": "A piercing arrow which deals X physical damage to all enemies in front of you, up to 65 feet away.<BR>This ability will have a 5 second cooldown if cast in squig armor.",
+      "note": "Can be cast in Squig Armor",
+      "description": "A piercing arrow which deals X physical damage to all enemies in front of you, up to 65 feet away. This ability can be cast while moving.<BR>This ability will have a 10 second cooldown if cast in squig armor.",
       "category": "Ability"
     },
   
@@ -917,7 +917,7 @@
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "Requires an active pet",
-      "description": "You whip your pet in to a frenzy, causing it to do 50% more auto attack damage for 10 seconds. An additional effect will happen depending on type of squig.<BR>Basic - Your movement speed is increased by 30%.<BR>Horned - You gain a X moral bonus to armor and a Y morale bonus to all resistance.<BR>Spiked - You gain 25% critical chance. Your groupmates within 100 feet will gain 5% critical chance.<BR>Gas - Groupmates within 100 feet will gain 25% increased auto attack speed and the action point cost of their abilities will be reduced by 33%.",
+      "description": "You whip your pet in to a frenzy, causing it to do 50% more auto attack damage for 10 seconds. Your movement speed is increased by 30%.",
       "category": "Ability"
     },
   
@@ -976,12 +976,12 @@
       "type": "Ailment",
       "spec": "Path of Herdin'",
       "minrank": "5",
-      "cost": "Costs 25 AP",
+      "cost": "Costs 30 AP",
       "range": "65ft range",
       "incant": "1.0s cast",
       "cooldown": "20.0s cooldown",
-      "note": "Can be cast in Squig Armor<br>Basic Squig synergy",
-      "description": "An ailment which deals X physical damage and snares your target, reducing their run speed by 40% for 10 seconds.",
+      "note": "Can be cast in Squig Armor",
+      "description": "An ailment which deals X physical damage and snares your target, reducing their run speed by 40% for 10 seconds. This ability can be cast while moving.",
       "category": "Ability"
     },
   
@@ -1013,7 +1013,7 @@
       "incant": "2.0s cast",
       "cooldown": "30.0s cooldown",
       "note": "You may only have 1 active pet",
-      "description": "Summons a basic squig pet which you can order around. This pet can take quite beating and generates much more hatred in enemy monsters than normal.<br>Some of your abilities will build up while moving as long as this squig is alive.<br>Cooldown will begin when you lose control of your pet for any reason.",
+      "description": "Summons a basic squig pet which you can order around. This pet can take quite beating and generates much more hatred in enemy monsters than normal.<br>Cooldown will begin when you lose control of your pet for any reason.",
       "category": "Ability"
     },
   
@@ -1024,12 +1024,12 @@
       "type": "Healing",
       "spec": "Core Ability",
       "minrank": "20",
-      "cost": "Costs 15 AP",
+      "cost": "Costs 35 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "15s cooldown",
       "note": "Requires an active pet",
-      "description": "You eat your squig, gaining 441 health. For the next 10 seconds, the next different squig other than the one that was just eaten will be summoned instantly.",
+      "description": "You eat your squig, restoring 7% of your maximum health. For the next 10 seconds, the next different squig other than the one that was just eaten will be summoned instantly.",
       "category": "Ability"
     },
   
