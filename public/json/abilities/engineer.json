@@ -663,7 +663,7 @@
       "incant": "2s cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "You construct a turret with a self-aiming gun which will fire at distant enemies. Whenever you are within 30 feet of your turret, you will gain a stack of Improvised Upgrades every 2 seconds with last for 8 seconds. All of your damage is increased by 5% per stack. If your turret is destroyed you will lose all stacks.",",
+      "description": "You construct a turret with a self-aiming gun which will fire at distant enemies. Whenever you are within 30 feet of your turret, you will gain a stack of Improvised Upgrades every 2 seconds with last for 8 seconds. All of your damage is increased by 5% per stack. If your turret is destroyed you will lose all stacks.",
       "category": "Ability"
     },
     
