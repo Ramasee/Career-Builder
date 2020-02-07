@@ -28,14 +28,14 @@
     "class": "Melee DPS"
   },
   "engineer": {
-    "name": "Engineer (Coded/Not Matched)",
+    "name": "Engineer",
     "slug": "engineer",
     "faction": "Order",
     "race": "Dwarf",
     "class": "Ranged DPS"
   },
   "ironbreaker": {
-    "name": "Ironbreaker (Coded/Not Matched)",
+    "name": "Ironbreaker",
     "slug": "ironbreaker",
     "faction": "Order",
     "race": "Dwarf",
@@ -91,7 +91,7 @@
     "class": "Melee DPS"
   },
   "chosen": {
-    "name": "Chosen (Coded/Not Matched)",
+    "name": "Chosen",
     "slug": "chosen",
     "faction": "Destruction",
     "race": "Chaos",
@@ -133,7 +133,7 @@
     "class": "Tank"
   },
   "choppa": {
-    "name": "Choppa (Coded/Not Matched)",
+    "name": "Choppa",
     "slug": "choppa",
     "faction": "Destruction",
     "race": "Greenskin",
@@ -161,7 +161,7 @@
     "class": "Tank"
   },
   "disciple-of-khaine": {
-    "name": "Disciple of Khaine (Coded/Not Matched)",
+    "name": "Disciple of Khaine",
     "slug": "disciple-of-khaine",
     "faction": "Destruction",
     "race": "Dark Elf",
