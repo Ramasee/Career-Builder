@@ -54,7 +54,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Costs 15 Grudge",
-      "description": "The memory of your ancestors bolsters your resolve, you gaina (3 * rank) ability bonus to strength and increased chance to critically hit by 10% for 10 seconds. Your Oath Friend is affected as well if they're within 50 feet of you.",
+      "description": "The memory of your ancestors bolsters your resolve, grainting you a (3 * rank) ability bonus to strength and increased chance to critically hit by 10% for 10 seconds. Your Oath Friend is affected as well if they're within 50 feet of you.",
       "category": "Ability"
     },
   
@@ -100,7 +100,7 @@
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Costs 20 Grudge",
       "description": "A decisive final strike that deals X physical damage to your enemy. You will regain Y health, and your Oath Friend will be affected as well if they're within 50 feet of you.",
       "category": "Ability"
@@ -116,7 +116,7 @@
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Costs 25 Grudge",
       "description": "A dismissive strike that deals X physical damage and knocks the enemy away.",
       "category": "Ability"
@@ -132,7 +132,7 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 1600 damage to all enemies in front of you, up to 65 feet away.",
       "category": "Morale"
@@ -147,7 +147,7 @@
       "minrank": "1",
       "cost": "Costs 20 AP",
       "range": "5-65ft range",
-      "incant": "1.0s cast",
+      "incant": "1s cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "A basic throwing attack that inflicts X physical damage. Has a chance to deal Y physical damage to a severely wounded target if you are behind them.",
@@ -164,7 +164,7 @@
       "cost": "Costs 20 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Improves with Grudge",
       "description": "You chop at your enemy's legs, causing them to take X physical damage over 10 seconds and snaring them, reducing their run speed by 40%.<br><br> With 25 Grudges: Damages for A physical damage over 10 seconds.<br> With 50 Grudges: Damages for B physical damage over 10 seconds.<br> With 75 Grudges: Damages for C physical damage over 10 seconds.<br> With 100 Grudges: Damages for D physical damage over 10 seconds.",
       "category": "Ability"
@@ -180,9 +180,9 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Improves with Grudge<br>Requires Great Weapon",
-      "description": "You smash into your enemy, knocking them down for 3seconds.<br><br> At 25 Grudges: Deals W physical damage over 5 seconds.<br> At 50 Grudges: Deals X physical damage over 5 seconds.<br> At 75 Grudges: Deals Y physical damage over 5 seconds.<br> At 100 Grudges: Deals Z physical damage over 5 seconds.",
+      "description": "You smash into your enemy, knocking them down for 3seconds.<br><br> At 25 Grudges: Deals W physical damage over 3 seconds.<br> At 50 Grudges: Deals X physical damage over 3 seconds.<br> At 75 Grudges: Deals Y physical damage over 3 seconds.<br> At 100 Grudges: Deals Z physical damage over 3 seconds.",
       "category": "Ability"
     },
   
@@ -196,7 +196,7 @@
       "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You challenge all opponents in front of you, forcing monsters to attack you. While challenged, your opponents will deal only 70% damage to everyone other than you. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability"
@@ -212,7 +212,7 @@
       "cost": "Rank 1 morale",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Both you and your target are held tightly in place for 10 seconds, and neither one of you can move.<br>This effect can not be dispelled or broken.",
       "category": "Morale"
@@ -228,25 +228,25 @@
       "cost": "Rank 1 morale",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "A powerful melee attack that causes the target to take a 1056 morale penalty to armor deals 900 damage over 15 seconds",
+      "description": "A powerful melee attack that reduces your target's armor by 1056 and deals 900 damage over 15 seconds",
       "category": "Morale"
     },
   
     {
       "image": "23173",
       "id": 3759,
-      "name": "Piano Man",
+      "name": "Distracting Bellow",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "24",
       "cost": "Rank 3 morale",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "The sounds of your piano playing distract your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
+      "description": "A loud shout that startles your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
       "category": "Morale"
     },
   
@@ -276,7 +276,7 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Group members within 100 feet regain 798 health and 240 action points over 9 seconds.",
       "category": "Morale"
@@ -292,7 +292,7 @@
       "cost": "Costs 25 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Improves with Grudge",
       "description": "The ground around you cracks and shatters and snares all enemies within 30 feet, reducing their run speed by 40% for 10 seconds.<br><br> At 25 Grudge: Deals W physical damage to each enemy hit by the effect.<br> At 50 Grudge: Deals X physical damage to each enemy hit by the effect.<br> At 75 Grudge: Deals Y physical damage to each enemy hit by the effect.<br> At 100 Grudge: Deals Z physical damage to each enemy hit by the effect.",
       "category": "Ability"
@@ -308,7 +308,7 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
@@ -356,7 +356,7 @@
       "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You shatter the ground for 30 feet around you, rooting up to four enemies in place for 5 seconds. There is a 50% chance of the root breaking with every hit.",
       "category": "Ability"
@@ -372,7 +372,7 @@
       "cost": "Rank 3 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You become protected by a barrier which will absorb up to 7200 damage for 20 seconds.",
       "category": "Morale"
@@ -388,7 +388,7 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Costs 40 Grudge",
       "description": "You focus on your Grudges to ready yourself for action, restoring 160 AP.",
       "category": "Ability"
@@ -403,8 +403,8 @@
       "minrank": "1",
       "cost": "Costs 20 AP/sec",
       "range": "5ft range",
-      "incant": "3.0s channel",
-      "cooldown": "8.0s cooldown",
+      "incant": "3s channel",
+      "cooldown": "8s cooldown",
       "note": "Improves with Grudge<br>Requires Great Weapon",
       "description": "You constantly pummel your target with brutal attacks, dealing up to X physical damage over 3 seconds. Your attacks will end if you lose your concentration.<br><br> At 25 Grudge: Chance to critically hit is increased by 5%.<br> At 50 Grudge: Chance to critically hit is increased by 10%.<br> At 75 Grudge: Chance to critically hit is increased by 15%.<br> At 100 Grudge: Chance to critically hit is increased by 20%.",
       "category": "Ability"
@@ -436,7 +436,7 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You begin to constantly complain about everything that's wrong today, telling everyone how much better things were back in the old days. You feel much better for the chance to grumble, and your groupmates within 100 feet restore X health every 3 seconds for up to 30 seconds. You lose 10 Grudge each time this happens, and the effect will end if you run out of Grudges.",
       "category": "Ability"
@@ -454,7 +454,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Only usable on other players",
-      "description": "You defend one of your groupmates and try to take attacks meant for them. As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you, and 35% of all hate that they cause will be redirected to you.",
+      "description": "You defend one of your groupmates and try to take attacks meant for them. As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you, and 35% of all hate that they cause will be redirected to you.<br><br>Damage received from this ability can be blocked or parried, unless the original attack was undefendable.",
       "category": "Ability"
     },
   
@@ -499,7 +499,7 @@
       "minrank": "10",
       "cost": "Costs 20 AP/sec",
       "range": "No range",
-      "incant": "12.0s cast",
+      "incant": "12s cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield",
       "description": "You focus your defenses against enemy fire, increasing your chances to dodge and disrupt by 45% for 12 seconds. You will also defend all allies behind you, up to 50 feet away, increasing their chances to dodge and disrupt by 15% as long as they remain at your back. Allies may have this effect stacked on them up to 3 times.<br>This effect will end if you break your concentration, or run out of action points.",
@@ -516,7 +516,7 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "An impressive display of defense which reduces incoming damage by 75% for both you and all group members within 100 feet of you for 10 seconds.",
       "category": "Morale"
@@ -532,9 +532,9 @@
       "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Improves with Grudge",
-      "description": "A brutal attack that deals X physical damage to your target and inspires you to push the attack, gaining a (3 * rank) ability bonus to strength for 20 seconds. Will also affect your Oath Friend if they are within 50 feet. <br><br>  At 25 Grudges: Also increases Willpower by A.<br>  At 50 Grudges: Also increases Willpower by B.<br>  At 75 Grudges: Also increases Willpower by C.<br>  At 100 Grudges: Also increases Willpower by D.",
+      "description": "A brutal attack that deals X physical damage to your target and inspires you to push the attack, gaining a (3 * rank) ability bonus to strength for 20 seconds. Will also affect your Oath Friend if they are within 50 feet. <br><br>  At 25 Grudges: Also grants a A ability bonus to willpower.<br>  At 50 Grudges: Also grants a B ability bonus to willpower.<br>  At 75 Grudges: Also grants a C ability bonus to willpower.<br>  At 100 Grudges: Also grants a D ability bonus to willpower.",
       "category": "Ability"
     },
   
@@ -548,7 +548,7 @@
       "cost": "Costs 45 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You become filled with unstoppable power, removing all snaring, rooting, silencing, and disarming effects.",
       "category": "Ability"
@@ -564,12 +564,28 @@
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "15s cooldown",
       "note": "Improves with Grudge",
-      "description": "A painful strike to the enemy's leg that deals X physical damage.<br><br>  At 25 Grudges: Also reduces the target's chance to critically hit by 5%.<br>  At 50 Grudges: Also reduces the target's chance to critically hit by 10%.<br>  At 75 Grudges: Also reduces the target's chance to critically hit by 15%.<br>  At 100 Grudges: Also reduces the target's chance to critically hit by 20%.",
+      "description": "A painful strike to the enemy's leg that deals X physical damage. With Grudges, reduces enemy critcal hit chance for 10 seconds.<br><br>  At 25 Grudges: Also reduces the target's chance to critically hit by 5%.<br>  At 50 Grudges: Also reduces the target's chance to critically hit by 10%.<br>  At 75 Grudges: Also reduces the target's chance to critically hit by 15%.<br>  At 100 Grudges: Also reduces the target's chance to critically hit by 20%.",
       "category": "Ability"
     },
-  
+      
+    {
+      "image": "22704",
+      "id": 8001,
+      "name": "Lingering Grudge",
+      "type": "Buff",
+      "spec": "Path of Vengeance",
+      "minrank": "29",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Each time you hit an enemy with Rune-Etched Axe, Vengeful Strike, or Grudge Born Fury they will take an additional X physical damage over 5 seconds. This effect can stack 5 times.",
+      "category": "CareerTactic"
+    },
+	
     {
       "image": "22704",
       "id": 3747,
@@ -660,9 +676,9 @@
       "cost": "Costs 45 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "Improves with Grudge<br>Requires Shield",
-      "description": "You declare that this is where you're making your stand, and nothing will make you change your mind. All enemies within 30 feet are affected by Stonebreaker. You are almost guaranteed to block up to the next 4 attacks made against you within 10 seconds, and you will deal X physical damage damage back to the attacker each time you block.<br><br> With 25 Grudges: Deals A physical damage back to the attacker.<br> With 50 Grudges: Deals B physical damage back to the attacker.<br> With 75 Grudges: Deals C physical damage back to the attacker.<br> With 100 Grudges: Deals D physical damage back to the attacker.",
+      "description": "All enemies within 30 feet are affected by Stonebreaker. You are almost guaranteed to block up to the next 10 attacks made against you within 10 seconds, and you will deal X physical damage back to the attacker each time you block.<br><br> With 25 Grudges: Deals A physical damage back to the attacker.<br> With 50 Grudges: Deals B physical damage back to the attacker.<br> With 75 Grudges: Deals C physical damage back to the attacker.<br> With 100 Grudges: Deals D physical damage back to the attacker.",
       "category": "Ability"
     },
 
@@ -692,7 +708,7 @@
       "cost": "Costs 40 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
       "description": "You maim your target's legs, dealing X physical damage causing them to suffer Y physical damage for every half second they are moving.",
       "category": "Ability"
@@ -710,7 +726,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Inspiring Attack will also curse your target and outgoing heals will be reduced to 50% effectiveness for 20 seconds.",
+      "description": "Inspiring Attack will also curse your target, reducing the value of their outgoing healing by 50% for 20 seconds.",
       "category": "CareerTactic"
     },
   
@@ -723,10 +739,10 @@
       "minrank": "20",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "3.0s channel",
-      "cooldown": "1m cooldown",
+      "incant": "3s channel",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away.",
+      "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away, for as long as you maintain your concentration.",
       "category": "Morale"
     },
   
@@ -772,7 +788,7 @@
       "cost": "Rank 1 morale",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 600 damage to your target and roots them in place for 10 seconds.",
       "category": "Morale"
@@ -804,7 +820,7 @@
       "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Improves with Grudge",
       "description": "You whirl your axe around, dealing X physical damage to enemies 25 feet in front of you.<br><br> At 25 Grudges: Ignores 25% of the victim's armor.<br> At 50 Grudges: Ignores 50% of the victim's armor.<br> At 75 Grudges: Ignores 75% of the victim's armor.<br> At 100 Grudges: Ignores 100% of the victim's armor.",
       "category": "Ability"
@@ -820,7 +836,7 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Costs 30 Grudge",
       "description": "You invoke a powerful rune that you've learned, and become surrounded by a protective barrier for 10 seconds which will absorb up to X magical damage. Your Oath Friend will be affected as well if they're within 50 feet of you. During this time, you will gain 15 Grudges each time you're hit by an enemy spell.",
       "category": "Ability"
@@ -868,7 +884,7 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Target must have a Blessing",
       "description": "You sever one blessing from your enemy and do X physical damage.",
       "category": "Ability"
@@ -900,7 +916,7 @@
       "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Shield<br>Requires Block or Parry",
       "description": "A furious counterattack that deals X physical damage and will knock your target down for 3 seconds.",
       "category": "Ability"
@@ -932,7 +948,7 @@
       "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "Requires Shield",
       "description": "For the next 10 seconds, your chance to block is almost guaranteed.",
       "category": "Morale"
@@ -948,7 +964,7 @@
       "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All damage you take is reduced to 1 for 5 seconds.",
       "category": "Morale"
@@ -964,9 +980,9 @@
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Improves with Grudge",
-      "description": "A powerful attack that smashes through your enemy's protections, dealing X physical damage and causing them to take an ability penalty to armor based on Grudges for 20 seconds.<br><br> At 25 Grudges: Reduces armor by 200.<br> At 50 Grudges: Reduces armor by 400.<br> At 75 Grudges: Reduces armor by 600.<br> At 100 Grudges: Reduces armor by 800.",
+      "description": "A powerful attack that smashes through your enemy's protections, dealing X physical damage and causing them to take an ability penalty to armor based on Grudges for 20 seconds.<br><br> At 25 Grudges: Reduces armor by 156.<br> At 50 Grudges: Reduces armor by 312.<br> At 75 Grudges: Reduces armor by 468.<br> At 100 Grudges: Reduces armor by 625.",
       "category": "Ability"
     },
   
@@ -996,7 +1012,7 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Increases your chance to block attacks by 100% for 10 seconds, and increases chances to dodge, parry, and disrupt attacks by 25% to all group members within 100 feet.",
       "category": "Morale"
@@ -1030,7 +1046,23 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gain a 252 unique bonus to corporeal resistance.",
+      "description": "Grants a 300 unique bonus to corporeal resistance. Gain a 169 unique bonus to elemental and spiritual resistance.",
+      "category": "CareerTactic"
+    },
+  
+    {
+      "image": "22709",
+      "id": 3753,
+      "name": "Subtlety",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "25",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Enemy monsters will hate you 25% less than normal.",
       "category": "CareerTactic"
     },
   
@@ -1060,7 +1092,7 @@
       "cost": "Costs 20 AP",
       "range": "65ft range",
       "incant": "Instant Cast",
-      "cooldown": "15.0s cooldown",
+      "cooldown": "15s cooldown",
       "note": "",
       "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability"
@@ -1078,7 +1110,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each time you use Avenging the Debt, each group member within 100 feet will gain 25 action points. Watch An' Learn will grant 25 action points instead of 10 now.",
+      "description": "Each time you use Avenging the Debt, each group member within 100 feet will gain 25 action points. Watch An' Learn will now grant 25 action points instead of 10.",
       "category": "CareerTactic"
     },
   
@@ -1108,9 +1140,9 @@
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Costs 20 Grudge",
-      "description": "You strike your enemy for X physical damage. The next direct damage attack your oathfriend does will deal an additional Y damage. If they are within 30 feet of you, you will deal an additional Y damage to the target as well.",
+      "description": "You strike your enemy for X physical damage. Your Oath Friend will deal additional physical damage with their next attack if they are within 30 feet.",
       "category": "Ability"
     },
   
@@ -1124,26 +1156,10 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Costs 15 Grudge",
-      "description": "Gain a (3 * rank) ability bonus to weapon skill for 10 seconds. Each time you strike an enemy, your Oath Friend will gain 10 action points if they are within 50 feet of you.",
+      "description": "Grants you a (3 * rank) ability bonus to weapon skill for 10 seconds. Each time you strike an enemy, your Oath Friend will gain 10 action points if they are within 50 feet of you.",
       "category": "Ability"
-    },
-    
-        {
-      "image": "22694",
-      "id": 8001,
-      "name": "Lingering Grudge",
-      "type": "Buff",
-      "spec": "Path of Vengeance",
-      "minrank": "29",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Each time you hit an enemy with Rune-Etched Axe, Vengeful Strike, or Grudge Born Fury they will take an additional X physical damage over 5 seconds. This effect can stack 5 times.",
-      "category": "CareerTactic"
     }
   ]
 }

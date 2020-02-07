@@ -67,7 +67,7 @@
       "cost": "Costs 35 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "A baneful aura surrounds you for 10 seconds, lashing out for X corporeal damage at any enemies who hit you.",
       "category": "Ability"
@@ -83,7 +83,7 @@
       "cost": "Costs 50 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Great Weapon",
       "description": "A great burst of corrupted winds tears at all targets within 20 feet, inflicting X physical damage. Targets take a X ability penalty to wounds for 10 seconds.",
       "category": "Ability"
@@ -99,7 +99,7 @@
       "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You challenge all opponents in front of you, forcing monsters to attack you. While challenged, your opponents will deal only 70% damage to everyone other than you. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability"
@@ -115,7 +115,7 @@
       "cost": "Rank 1 morale",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Both you and your target are held tightly in place for 10 seconds, and neither one of you can move.<br>This effect can not be dispelled or broken.",
       "category": "Morale"
@@ -133,7 +133,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you parry an attack, you will regain 40 action points. Tactic can not trigger more than once every 3 seconds.",
+      "description": "Any time you parry an attack, you will regain 75 action points. Tactic can not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
   
@@ -149,23 +149,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A powerful overhand blow that inflicts X physical damage to enemies 30 feet in front of you..",
-      "category": "Ability"
-    },
-  
-    {
-      "image": "05265",
-      "id": 4804,
-      "name": "Discordant Horror",
-      "type": "",
-      "spec": "Path of Discord",
-      "minrank": "1",
-      "cost": "No AP Cost",
-      "range": "No range",
-      "incant": "Instant Cast",
-      "cooldown": "25s cooldown",
-      "note": "May have three Chaotic Auras active",
-      "description": "Passive: The power of the Warp radiates out from you causing groupmates within 100 feet to have a 25% reduced chance to be setback.<BR><BR>Activated: For the next 5 seconds, groupmates will have 0.5 second faster build up times on abilities.",
+      "description": "A powerful overhand blow that inflicts X physical damage to enemies 30 feet in front of you.",
       "category": "Ability"
     },
   
@@ -178,10 +162,10 @@
       "minrank": "20",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Instant Cast",
+      "incant": "0.1s Cast",
       "cooldown": "25s cooldown",
-      "note": "May have three Chaotic Auras active.<BR>Requires Shield.",
-      "description": "Passive: You instill the power of the warp in your groupmates within 100 feet, causing enemies to take X physical damage whenever they attack your groupmates. Reduces the cooldown of Corrupting Terror by 5 seconds.<BR><BR>Activated: For the next 10 seconds, 10% of all damage your groupmates would have taken, is instead directed to you.",
+      "note": "Requires Shield<br>May have three Chaotic Auras active.<BR>Requires Shield.",
+      "description": "Activated: groupmates within 100 feet are protected by the powers of the warp taking 10% less damage for the next 10 seconds. During this time, the warp will last out at you each time your groupmates are hit for 25% of the damage they would have taken. This damage is mitigatable<br><br>Aura: the warp will last out at enemies who strike your groupmates dealing 150 + 2% of your wounds physical damage to the target until this ability is deactivated. The cooldown of Corrupting Terror is reduced by 5 seconds.",
       "category": "Ability"
     },
   
@@ -194,10 +178,10 @@
       "minrank": "4",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Instant Cast",
+      "incant": "0.1s Cast",
       "cooldown": "25s cooldown",
       "note": "May have three Chaotic Auras active",
-      "description": "You call upon the power of the warp to emolden your groupmates mind and muscles, causing all groupmates within 100 feet to gain a (1 * rank) unique bonus to toughness. Corrupting Terror's activated effect now provides 75 action points rather than 50.<BR><BR>Activated: For the next 8 seconds, your groupmates will also gain a (7.5 * rank) morale bonus to toughness.",
+      "description": "Activated: you call upon the power of the warp to wither your opponents' attacks against groupmates within 100 feet. Groupmates gain a (7.5 * rank) morale bonus to toughness for 8 seconds.<BR><BR>Aura: Groupmates withing 100 feet gain a (1 * rank) unique bonus to toughness until this ability is deactivated. Corrupting Terror's activated effect now provides 75 action points rather than 50.",
       "category": "Ability"
     },
   
@@ -216,6 +200,22 @@
       "description": "All chaotic auras have their cooldowns reduced by 5 seconds.",
       "category": "CareerTactic"
     },
+	
+    {
+      "image": "05263",
+      "id": 4797,
+      "name": "Corrupting Terror",
+      "type": "",
+      "spec": "Path of Corruption",
+      "minrank": "1",
+      "cost": "No AP Cost",
+      "range": "No range",
+      "incant": "0.1s Cast",
+      "cooldown": "25s cooldown",
+      "note": "May have three Chaotic Auras active",
+      "description": "Activated: The power of the Warp encases you in a terrifying visage causing groupmates within 100 feet to gain 50 action points as they strive to please you.<br><br>Passive: All groupmates within 100 feet will regain 2 action points every second until this ability is deactivated.",
+      "category": "Ability"
+    },
   
     {
       "image": "22701",
@@ -229,7 +229,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit an enemy, they will deal only 90% damage for 10 seconds.",
+      "description": "Any time you critically hit an enemy, they will deal only 85% damage for 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -259,9 +259,9 @@
       "cost": "Rank 1 morale",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "A powerful melee attack that causes the target to take a 1056 morale penalty to armor and deals 900 damage over 15 seconds",
+      "description": "A powerful melee attack that reduces your target's armor by 1056 and deals 900 damage over 15 seconds",
       "category": "Morale"
     },
   
@@ -293,7 +293,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Bane Shield will now also protect any of your allies within 30 feet and last 7 seconds longer. You will gain 10% block chance for the duration.",
+      "description": "Bane Shield will now also protect any of your allies within 30 feet, lasts 7 seconds longer, and provides 10% block.",
       "category": "CareerTactic"
     },
   
@@ -306,10 +306,26 @@
       "minrank": "12",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Instant Cast",
-      "cooldown": "4.5s cooldown",
+      "incant": "0.1s Cast",
+      "cooldown": "25s cooldown",
       "note": "May have three Chaotic Auras active",
-      "description": "Passive: The power of the Warp fluctuates violently around you and your allies within 100 feet. Groupmates within 100 feet are healed for an additional 5%. Discordant Horror's activated effect lasts for 3 more seconds.<BR><BR>Activated: For the next 10 seconds, your groupmates gain a (7.5 * rank) morale bonus to willpower.",
+      "description": "Activated: The power of the Warp fluctuates violently around you and your groupmates within 100 feet. For the next 10 seconds, your groupmates gain a (7.5 * rank) morale bonus to willpower.<br><br>Aura: Groupmates will receive 5% more healing. Discordant Horror's activated effect lasts for 3 more seconds.",
+      "category": "Ability"
+    },
+  
+    {
+      "image": "05265",
+      "id": 4804,
+      "name": "Discordant Horror",
+      "type": "",
+      "spec": "Path of Discord",
+      "minrank": "1",
+      "cost": "No AP Cost",
+      "range": "No range",
+      "incant": "0.1s Cast",
+      "cooldown": "25s cooldown",
+      "note": "May have three Chaotic Auras active",
+      "description": "Activated: the power of the Warp radiates out from you placing horrifying visions in the heads of all groupmates within 100 feet to build up abilities 0.5 seconds faster for the next 5 seconds.<br><br>Aura: groupmates within 100 feet to have a 25% reduced chance to be setback while casting until this ability is deactivated.",
       "category": "Ability"
     },
   
@@ -322,26 +338,10 @@
       "minrank": "6",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Instant Cast",
-      "cooldown": "4.5s cooldown",
-      "note": "May have three Chaotic Auras active",
-      "description": "Passive: You tear at the fabric of reality, warping the world around you. Groupmates within 100 feet gain a X ability bonus to all resistances. Discordant Horror's activated effect will cause your allies to have a 100% chance to not be set back for its duration.<BR><BR>Activated: Enemies within 30 feet take a X ability penalty to corporeal resistance for 15 seconds.",
-      "category": "Ability"
-    },
-  
-    {
-      "image": "05258",
-      "id": 4811,
-      "name": "Dreadful Turbulence",
-      "type": "",
-      "spec": "Path of Dread",
-      "minrank": "1",
-      "cost": "No AP Cost",
-      "range": "5ft range",
-      "incant": "Instant Cast",
+      "incant": "0.1s Cast",
       "cooldown": "25s cooldown",
-      "note": "May have three Chaotic Auras active.<BR>Requires Great Weapon.",
-      "description": "Passive: The power of the Warp melds with the mind of your enemies, causing healing used on any foes within 30 feet to be 10% less effective. Increases the duration of the activated effect of Dreadful Fear by 5 seconds.<BR><BR>Activated: Target enemy received 50% less healing for the next 15 seconds.",
+      "note": "May have three Chaotic Auras active",
+      "description": "Activated: You tear at the fabric of reality, warping the world around you. Enemies within 30 feet take X ability penalty to corporeal resistance for 15 seconds.<BR><BR>Aura: Groupmates within 100 feet gaim a X ability bonus to all resistances until this ability is deactivated. Discordant Horror's activated effect will cause your allies to have a 100% chance to not be set back for its duration",
       "category": "Ability"
     },
   
@@ -355,7 +355,7 @@
       "cost": "Rank 3 morale",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A loud shout that startles your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
       "category": "Morale"
@@ -371,7 +371,7 @@
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "",
       "description": "A blow to the head which inflicts X physical damage and snares your target, reducing their movement speed by 40% for 10 seconds.",
       "category": "Ability"
@@ -387,7 +387,7 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
       "description": "A fierce blow that knocks down your opponent for 3 seconds and inflicts X physical damage.",
       "category": "Ability"
@@ -402,10 +402,10 @@
       "minrank": "25",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Instant Cast",
+      "incant": "0.1s Cast",
       "cooldown": "25s cooldown",
       "note": "May have three Chaotic Auras active",
-      "description": "Passive: You call on the power of the Warp, channeling warped energy in to the hearts and minds of your opponents. All enemies within 30 feet will take X physical damage every 3 seconds. Dreadful Fear's activated effect now provides 25% critical chance instead of 15%.<BR><BR>Activated: Deal Y physical direct damage every 3 seconds for 12 seconds.",
+      "description": "Activated: You call on the power of the Warp, channeling warped energy in to the hearts and minds of your opponents. You will deal Y physical direct damage to all enemies within 30 feet every 3 seconds for 12 seconds.<br><br>Passive: All enemies within 30 feet will take X corporeal damage every 3 seconds until this ability is deactivated. Dreadful Fear's activated effect now provides 25% critical chance instead of 15%.",
       "category": "Ability"
     },
   
@@ -421,26 +421,26 @@
       "incant": "Instant Cast",
       "cooldown": "25s cooldown",
       "note": "May have three Chaotic Auras active",
-      "description": "Passive: You call upon the power of the warp to instill a bone chilling effect in your groupmates within 100 feet of you, causing them to gain a (1 * rank) unique bonus to strength.<BR><BR>Activated: Groupmates gain 15% critical chance for 7 seconds.",
+      "description": "Activated: You call upon the power of the warp to instill a bone chilling drive in your groupmates within 100 feet of you causing them to gain 15% critical chance for 7 seconds.<br><br>Aura: Groupmates within 100 feet of you will gain a (1 * rank) unique bonus to strength, ballistic skill, and intelligence until this ability is deactivated.",
       "category": "Ability"
     },
   
     {
-      "image": "05263",
-      "id": 4797,
-      "name": "Corrupting Terror",
+      "image": "05258",
+      "id": 4811,
+      "name": "Dreadful Turbulence",
       "type": "",
-      "spec": "Path of Corruption",
+      "spec": "Path of Dread",
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "Instant Cast",
+      "incant": "1.0s Cast",
       "cooldown": "25s cooldown",
-      "note": "May have three Chaotic Auras active",
-      "description": "Passive: The power of the Warp encases you in a terrifying visage. All groupmates within 100 feet will regain 2 action points every second.<BR><BR>Activated: Groupmates gain 50 action points immediately.",
+      "note": "May have three Chaotic Auras active.<BR>Requires Great Weapon.",
+      "description": "Activated: The power of the Warp melds with the mind of your enemies within 30 feet, causing them to be 10% less likely to parry for 12 seconds.<br><br>Passive: Healing on any foes within 30 feet will be 10% less effective until this ability is deactivated. The duration of the activated effect of Dreadful Fear by 5 seconds.",
       "category": "Ability"
     },
-  
+	
     {
       "image": "22706",
       "id": 4814,
@@ -453,7 +453,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All healing used on you becomes 10% more effective. Groupmates within 100 feet of you are healed for 10% of all healing you receive.",
+      "description": "All healing used on you becomes 10% more effective. Groupmates within 100 feet of you are healed for 10% of all healing you receive. This tactic prevents the usage of Tzeentch's Amplification.",
       "category": "CareerTactic"
     },
   
@@ -485,7 +485,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Sever Blessing and Dizzying Blow will cause the next Cleave used within 10s seconds to cost 15 less AP. This effect can stack up to 3x, and one stack is removed each time you cast cleave.",
+      "description": "Sever Blessing and Dizzying Blow will cause the next Cleave used within 10 seconds to cost 30 less action points. This effect will stack up to 3 times (but does not reduce more than 30), and one stack is removed each time you cast cleave.",
       "category": "CareerTactic"
     },
   
@@ -499,9 +499,9 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
   
@@ -533,7 +533,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Only usable on other players",
-      "description": "You defend one of your groupmates and try to take attacks meant for them. As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you, and 35% of all hate that they cause will be redirected to you.",
+      "description": "You defend one of your groupmates and try to take attacks meant for them. As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you, and 35% of all hate that they cause will be redirected to you.<br><br>Damage received from this ability can be blocked or parried, unless the original attack was undefendable.",
       "category": "Ability"
     },
   
@@ -549,7 +549,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the length of the knockback of the abilty Repel. If you are wielding a great weapon, the cooldown is reduced by 50%.",
+      "description": "Reduces Repel's cooldown time by 50% and increases the length of the knockback.",
       "category": "CareerTactic"
     },
   
@@ -562,7 +562,7 @@
       "minrank": "10",
       "cost": "Costs 20 AP/sec",
       "range": "No range",
-      "incant": "12.0s cast",
+      "incant": "12s cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield",
       "description": "You focus your defenses against enemy fire, increasing your chances to dodge and disrupt by 45% for 12 seconds. You will also defend all allies behind you, up to 50 feet away, increasing their chances to dodge and disrupt by 15% as long as they remain at your back. Allies may have this effect stacked on them up to 3 times.<br>This effect will end if you break your concentration, or run out of action points.",
@@ -579,7 +579,7 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "An impressive display of defense which reduces incoming damage by 75% for both you and all group members within 100 feet of you for 10 seconds.",
       "category": "Morale"
@@ -595,7 +595,7 @@
       "cost": "Rank 3 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You are briefly covered with an impenetrable set of scales. For the next 20 seconds, up to 7200 damage will be absorbed.",
       "category": "Morale"
@@ -611,7 +611,7 @@
       "cost": "Rank 1 morale",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A strong melee attack that deals 600 damage and restores all of your AP.",
       "category": "Morale"
@@ -627,7 +627,7 @@
       "cost": "Costs 45 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You become filled with unstoppable power, removing all snaring, rooting, silencing, and disarming effects.",
       "category": "Ability"
@@ -691,9 +691,9 @@
       "cost": "Costs 15 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
-      "note": "Requires Block or Parry",
-      "description": "A thunderous shield slam that inflicts X physical damage to all enemies within 30 feet, you gain a X ability bonus to armor and reduces your damage taken by 15% for 10 seconds.",
+      "cooldown": "10s cooldown",
+      "note": "",
+      "description": "A thunderous shield slam that inflicts X physical damage to all enemies within 30 feet. You gain a X ability bonus to armor and reduces your damage taken by 15% for 10 seconds.",
       "category": "Ability"
     },
   
@@ -707,9 +707,9 @@
       "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "The land around you warps and changes, encasing up to 4 nearby opponents in hardened stone. Effected opponents are rooted for 10 seconds and cannot move. Rooted targets have a 50% chance to break free when they suffer damage.",
+      "description": "The land around you warps and changes, encasing up to 4 nearby opponents in hardened stone. Effected opponents are rooted for 5 seconds and cannot move. Rooted targets have a 50% chance to break free when they suffer damage.",
       "category": "Ability"
     },
   
@@ -741,7 +741,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduces the action point cost of all your abilities by 35%.",
+      "description": "The action point cost of all your abilities is reduced by 35%.",
       "category": "CareerTactic"
     },
   
@@ -755,9 +755,9 @@
       "cost": "Costs 45 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
-      "description": "You shake the very earth, dealing X corporeal damage to all opponents within 40 feet in front of you, staggering everyone for up to 4 seconds, preventing all actions unless they are damaged.",
+      "description": "You shake the very earth, dealing X corporeal damage to all opponents within 40 feet in front of you, staggering everyone for up to 5 seconds, preventing all actions unless they are damaged.",
       "category": "Ability"
     },
   
@@ -802,10 +802,10 @@
       "minrank": "20",
       "cost": "Rank 2 morale",
       "range": "No range",
-      "incant": "3.0s channel",
-      "cooldown": "1m cooldown",
+      "incant": "3s channel",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away.",
+      "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away, for as long as you maintain your concentration.",
       "category": "Morale"
     },
   
@@ -818,10 +818,10 @@
       "minrank": "1",
       "cost": "Costs 18 AP/sec",
       "range": "5ft range",
-      "incant": "3.0s channel",
-      "cooldown": "8.0s cooldown",
+      "incant": "3s channel",
+      "cooldown": "8s cooldown",
       "note": "",
-      "description": "You hack at your enemy with brutal strikes for up to 3 seconds, striking them up to six times and dealing X corporeal damage with each hit. This effect will end if you break your concentration or run out of action points.",
+      "description": "You hack at your enemy with brutal strikes for up to 3 seconds, striking them up to seven times and dealing X corporeal damage with each hit. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
   
@@ -829,15 +829,15 @@
       "image": "05186",
       "id": 4801,
       "name": "Rending Blade",
-      "type": "Damaging",
+      "type": "Curse",
       "spec": "Path of Dread",
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Great Weapon",
-      "description": "Your Demonic blade overpowers your enemy's defense causing X corporeal damage to all enemies within 25 feet in front of you. Enemies hit by this effect take 5% more damage from critical hits for 10 seconds.",
+      "description": "Your Demonic blade overpowers your enemy causing X corporeal damage to all enemies within 25 feet in front of you. Enemies hit by this effect take 10% more critical damage for the next 10 seconds.",
       "category": "Ability"
     },
   
@@ -851,7 +851,7 @@
       "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "Forceful blow that deals X physical damage and knocks back players and knocks down monsters.",
       "category": "Ability"
@@ -880,12 +880,12 @@
       "type": "Curse",
       "spec": "Path of Discord",
       "minrank": "3",
-      "cost": "Costs 40 AP",
+      "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
-      "description": "Your blade churns with chaotic energies and will curse your target, inflicting X corporeal damage every 2 seconds for 10 seconds.",
+      "description": "Your blade churns with Warp energies and will curse your target, inflicting X corporeal damage over 10 seconds.",
       "category": "Ability"
     },
   
@@ -899,7 +899,7 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Target must have a Blessing",
       "description": "You sever one blessing from your enemy and do X physical damage",
       "category": "Ability"
@@ -915,9 +915,9 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "A thunderous curse shatters the air, inflicting 800 damage to all targets within 30 feet and dispelling a blessing.",
+      "description": "A thunderous curse shatters the air, inflicting 1040 damage to all targets within 30 feet and dispelling a blessing.",
       "category": "Morale"
     },
   
@@ -931,7 +931,7 @@
       "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "Requires Shield",
       "description": "For the next 10 seconds, your chance to block is almost guaranteed.",
       "category": "Morale"
@@ -949,7 +949,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you disrupt a spell, you will regain X health, and your movement speed will be increased by 30% for 5 seconds.",
+      "description": "Any time you disrupt a spell, you will regain X health, and your movement speed will be increased by 30% for 5 seconds. This effect cannot refresh.",
       "category": "CareerTactic"
     },
   
@@ -963,10 +963,26 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "In a chaotic surge of growth, everyone in the group's skin hardens, they gain a X morale bonus to armor and a Y morale bonus to all resistances for 30 secons. Everyone receives 100 AP as well.",
+      "description": "In a chaotic surge of growth, everyone in the group's skin hardens, increasing Armor by 825 and all resistances by 315 for 30 secons. Everyone receives 100 AP as well.",
       "category": "Morale"
+    },
+	
+	{
+      "image": "22709",
+      "id": 9085,
+      "name": "Subtlety",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "25",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Enemy monsters will hate you 25% less than normal.",
+      "category": "CareerTactic"
     },
   
     {
@@ -979,9 +995,9 @@
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
-      "description": "A quick blow that causes X physical damage and improves your defensive position, increasing your chance to parry by 20% for 10 seconds.",
+      "description": "A quick blow that causes X physical damage and improves your defensive position, increasing your chance to parry by 25% for 15 seconds.",
       "category": "Ability"
     },
   
@@ -997,7 +1013,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Seeping Wound now effects all enemies within 30 feet. If an enemy is directly healed while suffering from your Seeping Wound, the healer will suffer X physical damage.",
+      "description": "Seeping Wound will now effect all targets within 30 feet. If an enemy is directly healed while suffering from your Seeping Wound, the healer will suffer X corporeal damage.",
       "category": "CareerTactic"
     },
   
@@ -1011,7 +1027,7 @@
       "cost": "Costs 20 AP",
       "range": "65ft range",
       "incant": "Instant Cast",
-      "cooldown": "15.0s cooldown",
+      "cooldown": "15s cooldown",
       "note": "",
       "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability"
@@ -1026,7 +1042,7 @@
       "minrank": "1",
       "cost": "Costs 20 AP",
       "range": "5-65ft range",
-      "incant": "1.0s cast",
+      "incant": "1s cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "A basic throwing attack that inflicts X physical damage. Has a chance to deal Y physical damage to a severely wounded target if you are behind them.",
@@ -1043,9 +1059,9 @@
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
-      "description": "Stabs into opponent for X corporeal damage. For the next 5 seconds, Tooth Of Tzeentch will cause an additional Y corporeal damage on the next damaging attack made by everyone in your group within 100 feet of you.",
+      "description": "Stabs into opponent for X physical damage. For the next 5 seconds, Tooth Of Tzeentch will cause an additional Y corporeal damage on the next damaging attack made by everyone in your group within 100 feet of you.",
       "category": "Ability"
     },
   
@@ -1059,7 +1075,7 @@
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
       "description": "You inflict X corporeal damage on the target. Target's legs become brittle for 10 seconds, causing them to suffer Y corporeal damage for every half second they are moving.",
       "category": "Ability"
@@ -1075,9 +1091,9 @@
       "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "For 15 seconds, Tzeentch amplifies the effects of all heals cast on you by 300%. The effects of the tactic, Embrace the Winds, will be suppressed during this time.",
+      "description": "For 15 seconds, Tzeentch amplifies the effects of all heals cast on you by 300%.",
       "category": "Morale"
     },
   
@@ -1091,7 +1107,7 @@
       "cost": "Costs 35 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
       "description": "You are surrounded by magical barrier reducing all magical damage you take by 20% for 10 seconds. During this time, any time you are struck by magical damage, you will deal X corporeal damage to enemies within 30 feet. This effect can only happen once every 0.5 seconds.",
       "category": "Ability"
@@ -1109,7 +1125,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gain a 300 unique bonus to elemental resistance. Gain a 170 unique bonus to corporeal and elemental resistance.",
+      "description": "Increases your elemental resistance by 300. Gain a 169 unique bonus to corporeal and spiritual resistance.",
       "category": "CareerTactic"
     },
   
@@ -1141,7 +1157,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 375 damage.<br>This effect will not trigger more than once every 2 seconds.",
+      "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 375 damage.<br>This effect will not trigger more than once every second.",
       "category": "CareerTactic"
     },
   
@@ -1155,7 +1171,7 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A surge of chaotic energy ripples forward inflicting X physical damage to everyone 40 feet in front of you. The surge of power clings to it's victims, snaring them by 40% for 15 seconds.",
       "category": "Morale"

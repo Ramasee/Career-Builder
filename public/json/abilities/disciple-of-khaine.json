@@ -53,7 +53,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gain a 252 unique bonus to spirit resistance.",
+      "description": "Gain a 300 unique bonus to corporeal resistance. Gain a 169 unique bonus to elemental and spiritual resistance.",
       "category": "CareerTactic"
     },
   
@@ -67,9 +67,9 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 424 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
+      "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 1320 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
       "category": "Morale"
     },
 
@@ -85,7 +85,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you kill an enemy, you will regain 471 health over 9 seconds.",
+      "description": "Any time you kill an enemy, you will regain 20% of your health over 9 seconds.",
       "category": "CareerTactic"
     },
   
@@ -114,15 +114,15 @@
       "minrank": "1",
       "cost": "Costs 30 AP/sec",
       "range": "No range",
-      "incant": "5.0s cast",
-      "cooldown": "10.0s cooldown",
+      "incant": "5s cast",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "For the next 5 seconds, you will regain 30 Soul Essence every second. If you run out of action points or break your concentration, this effect will end.",
       "category": "Ability"
     },
   
     {
-      "image": "22709",
+      "image": "22694",
       "id": 5005,
       "name": "Bloodthirst",
       "type": "Buff",
@@ -149,7 +149,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you heal an ally with Khaine's Embrace, Transfer Essence, Unholy Reclamation, or Khaine's Fountain, you will be healed for X.",
+      "description": "Whenever you heal an ally with Khaine's Embrace, Transfer Essence, or Khaine's Fountain, you will be healed for X.",
       "category": "CareerTactic"
     },
   
@@ -163,12 +163,28 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "You call upon the Word of Pain, dealing 300 damage every second to all enemies in a 30 feet area around you for the next 4 seconds. Reveling in their agony, you are healed for all damage inflicted by the Chant of Pain.",
+      "description": "You call upon the Chant of Pain, dealing 293 raw damage every second to all enemies in a 30 feet area around you for the next 4 seconds. Reveling in their agony, you are healed for all damage inflicted by the Chant of Pain.",
       "category": "Morale"
     },
   
+    {
+      "image": "22713",
+      "id": 7501,
+      "name": "Cheap Essence",
+      "type": "Buff",
+      "spec": "Path of Dark Rites",
+      "minrank": "39",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Restore Essence now instant cast and costs 30 Soul Essence.",
+      "category": "CareerTactic"
+    },
+
     {
       "image": "10939",
       "id": 5054,
@@ -195,9 +211,9 @@
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Builds 30 Soul Essence<br>Target must have an Enchantment",
-      "description": "A shattering attack that removes one enchantment from your enemy and does X physical damage.",
+      "description": "A shattering attack that removes one enchantment from your enemy and deals X physical damage.",
       "category": "Ability"
     },
   
@@ -211,7 +227,7 @@
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Builds 40 Soul Essence",
       "description": "A crippling attack which deals X physical damage and causes your enemy to take a (3 * rank) ability penalty to strength for 20 seconds. Your defensive target gains a (3 * rank) ability bonus to strength.",
       "category": "Ability"
@@ -227,7 +243,7 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "Builds 25 Soul Essence",
       "description": "An overwhelming attack which deals X physical damage to your enemy and silences them for 4 seconds, making them unable to use magic.",
       "category": "Ability"
@@ -243,9 +259,9 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Only one Covenant may be active at a time.",
-      "description": "All group mates within 100 feet of you gain a 20% chance to curse anyone that they damage, dealing X spirit damage and reducing the victim's run speed by 20% for 9 seconds.",
+      "description": "All group mates within 100 feet of you gain a 20% chance to curse anyone that they damage, dealing X spiritul damage and reducing the victim's run speed by 20% for 9 seconds.",
       "category": "Ability"
     },
   
@@ -259,7 +275,7 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Only one Covenant may be active at a time.",
       "description": "A pact with Khaine that causes all groupmates within 100 feet to gain a X ability bonus to armor.",
       "category": "Ability"
@@ -275,9 +291,9 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Only one Covenant may be active at a time.",
-      "description": "Any time a groupmate within 100 feet of you damages an enemy, they have a 20% chance to deal an additional X spirit damage to their victim, and heal themselves for an equal amount.",
+      "description": "Any time a groupmate within 100 feet of you damages an enemy, they have a 20% chance to deal an additional X spiritual damage to their victim, and heal themselves for an equal amount.",
       "category": "Ability"
     },
   
@@ -323,9 +339,9 @@
       "cost": "No AP Cost",
       "range": "150ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Requires 25 Soul Essence per second",
-      "description": "You surround yourself or an ally with a devouring aura for up to 5 seconds. Each second, your ally will deal X physical damage to up to 4 enemies within 30 feet of them, and become healed for 50% of all the damage done. This effect will end if you run out of Soul Essence to power it with.<br><br>This ability will not cost Soul Essence or heal the target if Fell Sacrifice is active when casted.",
+      "description": "You surround yourself or an ally with a devouring aura for up to 5 seconds. Each second, your ally will deal X spiritual damage to up to 4 enemies within 10 feet of them.<br><br>You will lose 25 Soul Essence per second and the target will be healed for 50% of all the damage dealt unless under the effect of Fell Sacrifice.",
       "category": "Ability"
     },
   
@@ -355,9 +371,9 @@
       "cost": "Rank 1 morale",
       "range": "150ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "A strong heal that will restore 1800 health to your target.",
+      "description": "A strong heal that will do 1800 raw healing to your target.",
       "category": "Morale"
     },
   
@@ -371,7 +387,7 @@
       "cost": "Rank 3 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage from melee abilities.",
       "category": "Morale"
@@ -403,25 +419,41 @@
       "cost": "Costs 45 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "",
       "description": "You lash out at all opponents in front of you up to 50 feet away, dealing X physical damage and regaining 15 Soul Essence for each enemy hit.",
       "category": "Ability"
     },
   
     {
+      "image": "22694",
+      "id": 7504,
+      "name": "Expanded Transfer",
+      "type": "Buff",
+      "spec": "Path of Sacrifice",
+      "minrank": "39",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Transfer Essence and Unholy Reclamation can now be used on targets within 30 feet.",
+      "category": "CareerTactic"
+    },
+
+    {
       "image": "10950",
       "id": 5008,
       "name": "Fell Sacrifice",
-      "type": "Damaging",
+      "type": "Buff",
       "spec": "Path of Torture",
       "minrank": "1",
       "cost": "No Cost",
       "range": "No range",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
-      "note": "Requires 40 Soul Essence per second.<br>This ability is not on the GCD.",
-      "description": "When activated: deal X spirit damage every 2 seconds to enemies within 30 feet of you. During this time you deal 30% more damage. This ability will end if used again ot you run out of Soul Essence to power it with.",
+      "cooldown": "5s cooldown",
+      "note": "Requires 40 Soul Essence per second.",
+      "description": "When activated: deals X spiritual damage every 2 seconds to enemies within 30 feet of you. During this time you deal 30% more damage and penetrate 25% of enemy armor. This ability will end if you run out of Soul Essence to power it with.",
       "category": "Ability"
     },
   
@@ -434,7 +466,7 @@
       "minrank": "1",
       "cost": "Costs 15 AP",
       "range": "65ft range",
-      "incant": "1.0s cast",
+      "incant": "1s cast",
       "cooldown": "No cooldown",
       "note": "Builds 15 Soul Essence",
       "description": "You call forth the wrath of Khaine, dealing X spirit damage to your target.",
@@ -451,7 +483,7 @@
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Builds 30 Soul Essence",
       "description": "You flay your target for X physical damage. If target is cursed, they are further cursed as they become snared, reducing their run speed by 40% for 6 seconds.",
       "category": "Ability"
@@ -467,7 +499,7 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
@@ -483,9 +515,9 @@
       "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
+      "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50% and you cannot be set back.",
       "category": "Morale"
     },
   
@@ -506,7 +538,7 @@
     },
   
     {
-      "image": "22712",
+      "image": "22703",
       "id": 5014,
       "name": "Gift of Khaine",
       "type": "Buff",
@@ -522,7 +554,7 @@
     },
   
     {
-      "image": "22702",
+      "image": "22704",
       "id": 4974,
       "name": "Khaine's Blessing",
       "type": "Buff",
@@ -537,7 +569,22 @@
       "category": "CareerTactic"
     },
 
-  
+    {
+      "image": "abi_ch_markofdarkglory",
+      "id": 7505,
+      "name": "Khaine's Bounty",
+      "type": "Buff",
+      "spec": "Path of Sacrifice",
+      "minrank": "1",
+      "cost": "No Cost",
+      "range": "100ft range",
+      "incant": "Instant Cast",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "You channel the power of Khaine through your body and into an ally healing them for X every second. You take X raw damage every second and cannot be healed for the duration.<br><br>If you have a shield equipped, you will gain 30% movement speed for the duration.",
+      "category": "Ability"
+    },
+	
     {
       "image": "10945",
       "id": 4969,
@@ -547,15 +594,31 @@
       "minrank": "20",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "1.0s cast",
-      "cooldown": "1.5s cooldown",
+      "incant": "1s cast",
+      "cooldown": "No cooldown",
       "note": "Requires 60 Soul Essence",
       "description": "All of your groupmates within 100 feet of you regain X health.",
       "category": "Ability"
     },
+    
+    {
+      "image": "11002",
+      "id": 5017,
+      "name": "Khaine's Fountain",
+      "type": "Damaging",
+      "spec": "Path of Sacrifice",
+      "minrank": "1",
+      "cost": "No AP Cost",
+      "range": "No range",
+      "incant": "3s channel",
+      "cooldown": "13s cooldown",
+      "note": "Requires 20 Soul Essence per second",
+      "description": "You throw yourself open to Khaine's influence as power rushes through you for up to 3 seconds. Each second, all allies within 30 feet of you will regain X health, and you will lose 20 Soul Essence. This effect will end if you lose your concentration, or run out of Soul Essence to power it with.<br><br>You break all snares upon casting this ability and will be immune to them for the duration.",
+      "category": "Ability"
+    },
   
     {
-      "image": "22708",
+      "image": "22703",
       "id": 4975,
       "name": "Khaine's Imbuement",
       "type": "Buff",
@@ -577,11 +640,11 @@
       "type": "Healing",
       "spec": "Path of Dark Rites",
       "minrank": "8",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 100 AP",
       "range": "150ft range",
       "incant": "0.5s cast",
-      "cooldown": "5.0s cooldown",
-      "note": "Requires Tome",
+      "cooldown": "5s cooldown",
+      "note": "Requires Chalice",
       "description": "A quick heal that restores X health. Not affected by cooldown modification abilities.",
       "category": "Ability"
     },
@@ -596,14 +659,30 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
-      "note": "Requires Chalice.<br>Requires 40 Soul Essence",
-      "description": "All group mates within 100 feet of you gradually regains X health over 15 seconds.",
+      "cooldown": "10s cooldown",
+      "note": "Requires 40 Soul Essence",
+      "description": "All group mates within 100 feet of you gradually regains X health over 9 seconds.",
       "category": "Ability"
     },
   
     {
-      "image": "10989",
+      "image": "10957",
+      "id": 7502,
+      "name": "Khaine's Vigor",
+      "type": "Blessing",
+      "spec": "Path of Dark Rites",
+      "minrank": "1",
+      "cost": "Costs 35 AP",
+      "range": "self",
+      "incant": "2s Cast",
+      "cooldown": "10s cooldown",
+      "note": "",
+      "description": "Khaine invigorates everyone in your group within 100 feet, granting them a (2 * rank) ability bonus to wounds for 1 hour.",
+      "category": "Ability"
+    },
+
+    {
+      "image": "11001",
       "id": 4983,
       "name": "Khaine's Withdrawal",
       "type": "Buff",
@@ -612,7 +691,7 @@
       "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Removes all ailments and hexes from your group.",
       "category": "Morale"
@@ -628,7 +707,7 @@
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Builds 20 Soul Essence",
       "description": "A gory strike that curses your enemy, dealing X physical damage initially and another Y physical damage over 10 seconds and causing the enemy to take a (3 * rank) ability penalty to toughness.",
       "category": "Ability"
@@ -644,14 +723,30 @@
       "cost": "Rank 1 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "For 10 seconds, you allow your group mates within 100 feet (instead of yourself) to feast on the life essence of your victims, healing everyone for 50% of the melee damage you deal.",
       "category": "Morale"
     },
-  
+    
     {
-      "image": "22704",
+      "image": "22709",
+      "id": 4987,
+      "name": "Menace",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "25",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Enemy monsters will hate you 100% more than normal on all attacks.",
+      "category": "CareerTactic"
+    },
+	
+    {
+      "image": "22709",
       "id": 4977,
       "name": "Murderous Intent",
       "type": "Buff",
@@ -676,28 +771,12 @@
       "cost": "No AP Cost",
       "range": "150ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Requires 25 Soul Essence<br>Target must be Hexed or Ailing",
       "description": "You patch an ally's wound and remove one ailment or hex.",
       "category": "Ability"
     },
-  
-    {
-      "image": "11002",
-      "id": 5017,
-      "name": "Khaine's Fountain",
-      "type": "Damaging",
-      "spec": "Path of Sacrifice",
-      "minrank": "1",
-      "cost": "No AP Cost",
-      "range": "No range",
-      "incant": "3.0s channel",
-      "cooldown": "13.0s cooldown",
-      "note": "Requires Shield. Requires 20 Soul Essence per second",
-      "description": "You throw yourself open to Khaine's influence as power rushes through you for up to 3 seconds. Each second, all allies within 30 feet of you will regain X health, and you will lose 20 Soul Essence. This effect will end if you lose your concentration, or run out of Soul Essence to power it with.<br><br>You break all snares upon casting this ability and will be immune to them for the duration.",
-      "category": "Ability"
-    },
-  
+
     {
       "image": "22694",
       "id": 4978,
@@ -723,8 +802,8 @@
       "minrank": "8",
       "cost": "No AP Cost",
       "range": "5ft range",
-      "incant": "3.0s cast",
-      "cooldown": "8.0s cooldown",
+      "incant": "3s cast",
+      "cooldown": "8s cooldown",
       "note": "Requires 25 Soul Essence per second",
       "description": "You repeatedly assault an enemy, shredding their soul energy and twisting it to your own purposes. You strike the target up to four times over 3 seconds, dealing X spirit damage per hit. Each hit heals your defensive target for 350% of the damage that was dealt.<br>This effect will end if you break your concentration, or run out of Soul Essence.",
       "category": "Ability"
@@ -740,28 +819,12 @@
       "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
       "category": "Morale"
     },
-  
-    {
-      "image": "22694",
-      "id": 4988,
-      "name": "Restorative Burst",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "29",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Any time one of your direct healing effects critically heals an ally, you will regain 40 action points over 3 seconds.",
-      "category": "CareerTactic"
-    },
-  
+
     {
       "image": "10935",
       "id": 5053,
@@ -779,7 +842,7 @@
     },
   
     {
-      "image": "22709",
+      "image": "22715",
       "id": 5000,
       "name": "Restored Motivation",
       "type": "Buff",
@@ -804,9 +867,9 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Builds 40 Soul Essence",
-      "description": "A slice aimed at fresh wounds which deals X physical damage. If the enemy was cursed, then they are further cursed and take an additional Y physical damage over 15 seconds.",
+      "description": "A slice aimed at fresh wounds which deals X physical damage. If the enemy was cursed, then they are further cursed and take an additional Y physical damage over 10 seconds.",
       "category": "Ability"
     },
   
@@ -827,7 +890,7 @@
     },
   
     {
-      "image": "10957",
+      "image": "11030",
       "id": 4999,
       "name": "Soul Shielding",
       "type": "Blessing",
@@ -836,7 +899,7 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "Requires 40 Soul Essence",
       "description": "All group mates within 100 feet becomes surrounded by a magical barrier for 10 seconds, which will absorb up to X damage for each person.",
       "category": "Ability"
@@ -851,8 +914,8 @@
       "minrank": "10",
       "cost": "No AP Cost",
       "range": "100ft range",
-      "incant": "3.0s cast",
-      "cooldown": "6.0s cooldown",
+      "incant": "3s cast",
+      "cooldown": "6s cooldown",
       "note": "Requires 20 Soul Essence",
       "description": "Life is restored to a dead ally, and 20% of their health is recovered in the hopes they will prove less worthless to you in the future.",
       "category": "Ability"
@@ -868,7 +931,7 @@
       "cost": "Rank 1 morale",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your target suffers 900 damage over 9 seconds, and you are healed for a half of the damage dealt.",
       "category": "Morale"
@@ -891,7 +954,7 @@
     },
   
     {
-      "image": "22706",
+      "image": "22694",
       "id": 4979,
       "name": "Terrifying Aura",
       "type": "Buff",
@@ -916,7 +979,7 @@
       "cost": "Costs 20 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "15.0s cooldown",
+      "cooldown": "15s cooldown",
       "note": "Builds 20 Soul Essence",
       "description": "Your enemy is distracted by malevolent spirits, making them hate you less and causing them to deal only 50% damage against you for 15 seconds. You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted.",
       "category": "Ability"
@@ -932,9 +995,9 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "All of your group mates within 100 feet gain a X morale bonus to armor, a Y morale bonus to resistances, and have their block/parry/dodge/disrupt increased by 25% for the next 10 seconds.",
+      "description": "All of your group mates within 100 feet gain a X morale bonus to armor; block, parry, dodge and disrupt are increased by 25%, and a Y morale bonus to all resistances for the next 10 seconds.",
       "category": "Morale"
     },
   
@@ -950,7 +1013,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield.<br>Builds 50 Soul Essence",
-      "description": "An unholy attack which deals X (str) physical damage to your target and spills out a portion of their soul, healing any of your groupmates within 100 feet for Y (wil) health plus 75% of the damage that you dealt.",
+      "description": "An unholy attack which deals X (str) physical damage healing your group for 75% of the damage dealt. Blood Heal will heal all groupmates within 100 feet for an additional Y (wil) health.",
       "category": "Ability"
     },
   
@@ -980,12 +1043,28 @@
       "cost": "Costs 40 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "Builds 40 Soul Essence",
       "description": "A great energy washes over all targets in front of you, blowing back all enemy players within 30 feet and knocking down monsters.",
       "category": "Ability"
     },
   
+    {
+      "image": "11004",
+      "id": 7503,
+      "name": "Unholy Reclamation",
+      "type": "Blessing",
+      "spec": "Path of Sacrifice",
+      "minrank": "1",
+      "cost": "Costs 25 AP",
+      "range": "30ft range",
+      "incant": "Instant Cast",
+      "cooldown": "No cooldown",
+      "note": "Builds 20 Soul Essence",
+      "description": "A strike at your target;s soual which deals X physical damage. You are healed for 150% of damage dealt in addition to Blood Heal.",
+      "category": "Ability"
+    },
+
     {
       "image": "10963",
       "id": 4984,
@@ -996,7 +1075,7 @@
       "cost": "Rank 3 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Raw power erupts in a 30 feet area around you, inflicting 1200 damage and staggering all enemies around you for 6 seconds, preventing all actions unless they're damaged.",
       "category": "Morale"
@@ -1010,11 +1089,11 @@
       "spec": "Path of Torture",
       "minrank": "1",
       "cost": "Rank 1 morale",
-      "range": "5ft range",
+      "range": "150ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "Requires 15 points in the Path of Torture",
-      "description": "You are overcome with seemingly endless visions of you own grisly death if you should fail. So real are the visions, that you break all snares, roots, and detaunts. For the next 10 seconds you will generate 250 soul essence and be immune to snares and roots.",
+      "description": "You are overcome with seemingly endless visions of you own grisly death if you should fail. So real are the visions, that you break all movement impairing effects. You will generate 250 soul essence and be immune to movement impairing effects over the next 10 seconds.",
       "category": "Morale"
     },
   
@@ -1028,9 +1107,9 @@
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Builds 30 Soul Essence",
-      "description": "A cunning strike which deals X physical damage to your enemy and curses them for 15 seconds, reducing their chance to parry by 10%. You will gain 5% block for 15 seconds.",
+      "description": "A cunning strike which deals X physical damage to your enemy and reduces their chance to parry by 10% for 15 seconds. You will gain 5% block for 15 seconds.",
       "category": "Ability"
     },
   
@@ -1044,90 +1123,11 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Dual Wield.<br>Builds 50 Soul Essence",
-      "description": "A merciless attack which deals X physical damage to the target. This ability can only be used on targets below 35% hit points.",
+      "description": "A merciless attack which deals X physical damage to the target. This ability can only be used on targets below 35% health.",
       "category": "Ability"
     },
 
-    {
-      "image": "22706",
-      "id": 7501,
-      "name": "Cheap Essence",
-      "type": "Buff",
-      "spec": "Path of Dark Rites",
-      "minrank": "39",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Restore Essence now costs 30 Soul Essence.",
-      "category": "CareerTactic"
-    },
-
-    {
-      "image": "11033",
-      "id": 7502,
-      "name": "Khaine's Vigor",
-      "type": "Blessing",
-      "spec": "Path of Dark Rites",
-      "minrank": "1",
-      "cost": "Costs 35 AP",
-      "range": "self",
-      "incant": "2.0s Cast",
-      "cooldown": "10.0s cooldown",
-      "note": "",
-      "description": "Khaine invigorates all of your groupmates within 100 feet, granting them a (2 * rank) ability bonus to wounds for 1 hour.",
-      "category": "Ability"
-    },
-
-    {
-      "image": "11004",
-      "id": 7503,
-      "name": "Unholy Reclamation",
-      "type": "Blessing",
-      "spec": "Path of Sacrifice",
-      "minrank": "1",
-      "cost": "Costs 25 AP",
-      "range": "self",
-      "incant": "Instant Cast",
-      "cooldown": "No cooldown",
-      "note": "Builds 20 Soul Essence",
-      "description": "Deals X physical damage and heals the caster for Y + 150% of damage dealt.",
-      "category": "Ability"
-    },
-
-    {
-      "image": "22706",
-      "id": 7504,
-      "name": "Expanded Transfer (PH)",
-      "type": "Buff",
-      "spec": "Path of Sacrifice",
-      "minrank": "39",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Transfer Essence and Unholy Reclamation can now be used on targets within 30 feet.",
-      "category": "CareerTactic"
-    },
-
-    {
-      "image": "10987",
-      "id": 7505,
-      "name": "Khaine's Bounty",
-      "type": "Buff",
-      "spec": "Path of Sacrifice",
-      "minrank": "1",
-      "cost": "No Cost",
-      "range": "100ft range",
-      "incant": "Instant Cast",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "You channel the power of Khaine through your body and into an ally healing them for X every second. You take X morale damage every second and cannot be healer for the duration.<br><br>If you have a shield equipped, you will gain 30% movement speed for the duration.",
-      "category": "Ability"
-    }
   ]
 }
