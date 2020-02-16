@@ -67,7 +67,7 @@
       "cost": "Rank 3 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
       "category": "Morale"
@@ -131,7 +131,7 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You charge into the thick of battle, increasing your run speed by 50% for 7 seconds. If you use any abilities, this effect will immediately end.",
       "category": "Ability"
@@ -147,7 +147,7 @@
       "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
       "description": "A great wave of concussive force knocks down all targets 25 feet in front of you for 2 seconds, inflicting X physical damage.",
       "category": "Ability"
@@ -163,7 +163,7 @@
       "cost": "Rank 1 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Concentrating on your perceived movements, you will be able to dodge and parry all attacks against you for 7 seconds.",
       "category": "Morale"
@@ -174,33 +174,17 @@
       "id": 5168,
       "name": "Convulsive Slashing",
       "type": "Damaging",
-      "spec": "Path of Brutality",
+      "spec": "Path of Savagery",
       "minrank": "6",
       "cost": "Costs 25 AP/sec",
       "range": "5ft range",
-      "incant": "3.0s channel",
-      "cooldown": "15.0s cooldown",
+      "incant": "3s channel",
+      "cooldown": "15s cooldown",
       "note": "Requires Gift of Savagery",
-      "description": "You continually slice at an enemy for up to 3 seconds, striking them up to 7 times and dealing X phyical damage per hit. Will remove up to 3 blessings or enchantments from the target dealing an additional Y for each one removed. This effect will end if you break your concentration or run out of action points.",
+      "description": "You continually slice at an enemy for up to 3 seconds, striking them up to 6 times and dealing X phyical damage per hit. Each strike has a 50% chance to remove a blessing or enchantment from the target and deal and additional Y damage. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     },
-  
-    {
-      "image": "22701",
-      "id": 5215,
-      "name": "Regenerative Mutations",
-      "type": "Buff",
-      "spec": "Path of Monstrosity",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-    "description": "Whenever you trigger the effects of any of your Mutations, you will be healed for X every second for 5 seconds.",
-      "category": "CareerTactic"
-    },
-  
+
     {
       "image": "05209",
       "id": 5166,
@@ -213,7 +197,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Deals X physical damage to the target. Corruption spreads into the target for 10 seconds based on your Gift.<br>Savagery: Target takes a (3 * rank) ability penalty to toughness.<br>Brutality: Target takes Y damage at the end of the duration.<br>Monstrosity: Target takes a (3 * rank) ability penalty to weaponskill.",
+      "description": "Deals X physical damage to the target. Corruption spreads into the target for 10 seconds based on your Gift.<br><br>The Gift of Savagery causes the target to take a (3 * rank) ability penalty to toughness. The Gift of Brutality causes the target to take Y damage at the end of the effect. The Gift of Monstrosity causes the target to take a (3 * rank) ability penalty to weaponskill.",
       "category": "Ability"
     },
   
@@ -243,7 +227,7 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Gift of Savagery",
       "description": "Claw attack that deals X physical damage and causes the target to take a (rank * 40) ability penalty to armor for 10 seconds.",
       "category": "Ability"
@@ -275,7 +259,7 @@
       "cost": "Costs 20 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Requires Parry",
       "description": "Disarms your target for 4 seconds, making them unable to use melee or ranged weapons.",
       "category": "Ability"
@@ -291,7 +275,7 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "A deliberate attack that inflicts X phyical damage and cripples your target, reducing their movement speed by 40% for 5 seconds.",
       "category": "Ability"
@@ -339,9 +323,9 @@
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Requires Gift of Savagery",
-      "description": "You quickly rake your target twice, dealing X physical damage with each hit. The victim will regain action points 50% more slowly for 9 seconds.",
+      "description": "You quickly rake your target twice, dealing X physical damage with each hit. The victim will regain action points 50% more slowly for 10 seconds.",
       "category": "Ability"
     },
   
@@ -355,9 +339,9 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "A large burst of power courses through you, dealing 1800 damage to all targets within 30 feet, knocking down all targets around you for 3 seconds.",
+      "description": "A large burst of power courses through you, dealing 1200 damage to all targets within 30 feet, knocking down all targets around you for 3 seconds.",
       "category": "Morale"
     },
   
@@ -403,7 +387,7 @@
       "cost": "Costs 15 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "Requires Gift of Brutality or Monstrosity",
       "description": "Chaotic winds and daemonic fury combine for 20 seconds. With Gift of Monstrosity, you will gain a (Rank * 10) ability bonus to toughness. With Gift of Brutality, you will gain a (Rank * 10) ability bonus to strength.",
       "category": "Ability"
@@ -435,9 +419,9 @@
       "cost": "Rank 1 morale",
       "range": "65ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "Your target is engulfed in the chaotic flames of fate, dealing 900 damage and roots them in place for 10 seconds.",
+      "description": "Your target is engulfed in the chaotic flames of fate, dealing 300 damage and roots them in place for 10 seconds.",
       "category": "Morale"
     },
   
@@ -467,7 +451,7 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
@@ -483,7 +467,7 @@
       "cost": "Rank 2 morale",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You stare down your opponent, draining 200 of their action aoints into yourself, and causing them to take a 160 morale penalty to strength for 30 seconds.",
       "category": "Morale"
@@ -499,7 +483,7 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "For 20 seconds, all damage dealt to you is mirrored back to the attacker with a 50% boost.",
       "category": "Morale"
@@ -515,7 +499,7 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds.",
       "category": "Morale"
@@ -531,9 +515,9 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Grants Gift of Brutality",
-      "description": "You are imbued with the Gift of Brutality, warping and twisting the flesh of your arm into a brutal blade.<br><br>While mutated, your attacks have a 25% chance to fill you with power for 5 seconds, making it almost certain that your offhand weapon will swing on every attack and increasing your offhand damage by 25%.",
+      "description": "You are imbued with the Gift of Brutality, warping and twisting the flesh of your arm into a brutal blade.<br><br>While mutated, your melee attacks have a 25% chance to fill you with power for 5 seconds, making it almost certain that your offhand weapon will swing on every attack and increasing your offhand damage by 25%.",
       "category": "Ability"
     },
   
@@ -547,12 +531,28 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Grants Gift of Monstrosity",
-      "description": "You are imbued with the Gift of Monstrosity, warping and twisting the flesh of your arm into a vicious club.<br><br>While mutated, your attacks have a 25% chance to empower you for 5 seconds, granting you 50% reduced armor penetration and a (Rank *3) unique bonus to toughness.",
+      "description": "You are imbued with the Gift of Monstrosity, warping and twisting the flesh of your arm into a vicious club.<br><br>While mutated, your melee attacks have a 25% chance to empower you for 5 seconds, gaining a (Rank *3) unique bonus to toughness and letting you shrug off 50% of your enemy's armor penetration.",
       "category": "Ability"
     },
-  
+   
+   {
+      "image": "05215",
+      "id": 9066,
+      "name": "Gift of Release",
+      "type": "Debuff",
+      "spec": "Core Ability",
+      "minrank": "1",
+      "cost": "No AP Cost",
+      "range": "No range",
+      "incant": "Instant Cast",
+      "cooldown": "5s cooldown",
+      "note": "Requires a Mutation",
+      "description": "Releases your current mutation.",
+      "category": "Ability"
+    },
+	
     {
       "image": "05189",
       "id": 5266,
@@ -563,9 +563,9 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Grants Gift of Savagery",
-      "description": "You are imbued with the Gift of Savagery, warping and twisting the flesh of your arm into a savage claw.<br><br>While mutated, your attacks have a 25% chance to deal an additional X physical damage over 5 seconds, and reduce the victim's autoattack speed by 33%.",
+      "description": "You are imbued with the Gift of Savagery, warping and twisting the flesh of your arm into a savage claw.<br><br>While mutated, your melee attacks have a 25% chance to deal an additional X physical damage over 5 seconds, and reduce the victim's autoattack speed by 33%.",
       "category": "Ability"
     },
   
@@ -579,9 +579,9 @@
       "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "A mighty swing attack that inflicts 450 damage to all targets 40 feet in front of you and causes them to take a 180 morale penalty to wounds for 10s",
+      "description": "A cleaving attack that inflicts 448 physical damage to all targets 40 feet in front of you and causes them to take a 180 morale penalty to wounds for 10s",
       "category": "Morale"
     },
   
@@ -611,7 +611,7 @@
       "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Insta-Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Gift of Brutality<br>Target must be below 50% health.",
       "description": "A powerful blow inflicting X physical damage and will almost always deal critical damage to a weakened target.",
       "category": "Ability"
@@ -627,14 +627,14 @@
       "cost": "Costs 40 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "15.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Parry<br>Requires Gift of Savagery",
-      "description": "A savage attack that guts your opponent for X physical damage, your next attack within 5s will be a critical hit.",
+      "description": "A savage attack that guts your opponent for X physical damage, and makes your next damaging ability within 5s automatically critical.",
       "category": "Ability"
     },
     
     {
-      "image": "22702",
+      "image": "22704",
       "id": 5222,
       "name": "Hulking Brute",
       "type": "Buff",
@@ -677,7 +677,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Mouth of Tzeentch will now disorient your enemies causing all of their abilities to take 50% longer to build up. Gift of Monstrosity adds this to the DoT effect. Gift of Savagery grants a 5s version of this effect.",
+      "description": "Mouth of Tzeentch will now disorient your enemies causing all of their abilities to take 50% longer to build up.",
       "category": "CareerTactic"
     },
   
@@ -707,10 +707,26 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "For 20 seconds, each time you are hit, there is a 33% chance that the same amount of damage will be done to an enemy within 40 feet, and you will be healed for that amount.",
       "category": "Morale"
+    },
+    
+    {
+      "image": "22709",
+      "id": 9198,
+      "name": "Menace",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "29",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Enemy monsters will hate you 100% more than normal on all attacks.",
+      "category": "CareerTactic"
     },
   
     {
@@ -723,7 +739,7 @@
       "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Gift of Monstrosity or Savagery",
       "description": "Tzeentch's dark words pour from your mouth, deal X physical damage to enemies 40 feet in front of you.<br><br>Gift of Monstrosity causes targets hit to take Y physical damage every 2 seconds for 10 seconds. Gift of Savagery will interupt all targets hit.",
       "category": "Ability"
@@ -739,7 +755,7 @@
       "cost": "Costs 40 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Chaotic energy surges through you, increasing all the damage you inflict by 25% for 10 seconds.",
       "category": "Ability"
@@ -750,12 +766,12 @@
       "id": 5182,
       "name": "Mutated Energy",
       "type": "Damaging",
-      "spec": "Path of Monstrosity",
+      "spec": "Path of Brutality",
       "minrank": "35",
       "cost": "Costs 25 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Disrupt",
       "description": "Disrupted Magic is twisted back into the caster, inflicting X physical damage and knocking them down for 3 seconds.",
       "category": "Ability"
@@ -771,7 +787,7 @@
       "cost": "Costs 45 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your bones and muscles twist and contort to free you from any root or snaring effects. You will also be immune from all snares and roots for the next 10 seconds",
       "category": "Ability"
@@ -792,6 +808,22 @@
       "description": "All of your abilities which require a mutation will now bypass 50% of your enemy's armor.",
       "category": "CareerTactic"
     },
+    
+    {
+      "image": "05202",
+      "id": 5176,
+      "name": "Plunder",
+      "type": "Ailment",
+      "spec": "Path of Brutality",
+      "minrank": "14",
+      "cost": "Costs 35 AP",
+      "range": "5ft range",
+      "incant": "Instant Cast",
+      "cooldown": "15s cooldown",
+      "note": "Requires Gift of Brutality",
+      "description": "Deals X physical damage to the target. You steal 10% critical damage from your target for the next 10 seconds.",
+      "category": "Ability"
+    },
   
     {
       "image": "05218",
@@ -803,10 +835,26 @@
       "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Requires Gift of Brutality or Monstrosity",
       "description": "Inflicts X physical damage and lowers your targets ability to parry by 10% and their ability to block by 10% for 20 seconds.<br><br>Gift of Brutality causes the target to have -10% strikethrough for the duration. Gift of Monstrosity causes the target to take Y physical damage every 2 seconds for the duration.",
       "category": "Ability"
+    },
+    
+    {
+      "image": "22702",
+      "id": 5215,
+      "name": "Regenerative Mutations",
+      "type": "Buff",
+      "spec": "Path of Monstrosity",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+    "description": "Whenever you trigger the effects of any of your Mutations, you will be healed for 3% of your maximum health every second for 5 seconds.",
+      "category": "CareerTactic"
     },
   
     {
@@ -819,7 +867,7 @@
       "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A prolonged fervor that grants 10 action points a second to everyone in your group within 100 feet of you for 10 seconds.",
       "category": "Morale"
@@ -837,7 +885,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Gift of Savagery or Brutality",
-      "description": "You tear into your target, dealing X physical damage immediately and an additional Y physical damage over 10 seconds. The damage over time will stack with itself up to three times.<br><br>With Gift of Brutality, the damage over time will deal Z% more damage. With Gift of Savagery, you will apply 3 stacks of rend on cast.",
+      "description": "You tear into your target, dealing X physical damage immediately and an additional Y physical damage over 9 seconds. The damage over time will stack with itself up to three times.<br><br>The Gift of Savagery will cause you to apply 3 stacks on hit. The Gidt of Brutality will increase the damage to Z.",
       "category": "Ability"
     },
   
@@ -858,7 +906,7 @@
     },
   
     {
-      "image": "22702",
+      "image": "22709",
       "id": 5198,
       "name": "Riposte",
       "type": "Buff",
@@ -899,10 +947,26 @@
       "cost": "Rank 1 morale",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A directed strike that inflicts 1200 damage to your target.",
       "category": "Morale"
+    },
+    
+    {
+      "image": "22709",
+      "id": 9098,
+      "name": "Subtlety",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "29",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Enemy monsters will hate you 25% less than normal.",
+      "category": "CareerTactic"
     },
   
     {
@@ -931,7 +995,7 @@
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Requires Gift of Savagery",
       "description": "An ailing attack inflicting X physical damage and makes the victim resist 25% of incoming heals for 5 seconds. If target is ailing, they suffer the effects for 10 seconds.",
       "category": "Ability"
@@ -946,8 +1010,8 @@
       "minrank": "40",
       "cost": "Costs 35 AP",
       "range": "65ft range",
-      "incant": "2.0s cast",
-      "cooldown": "30.0s cooldown",
+      "incant": "2s cast",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "Extends a tendril of energy to pull an opposing player towards you. Monster targets will be dragged to the ground.",
       "category": "Ability"
@@ -962,7 +1026,7 @@
       "minrank": "1",
       "cost": "Costs 20 AP",
       "range": "5-65ft range",
-      "incant": "1.0s cast",
+      "incant": "1s cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Throwing axe that will deal X phyical damage to your prey.",
@@ -979,28 +1043,12 @@
       "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "",
       "description": "A particularly nasty blow that deals X physical damage every 2.5 seconds and causes the target to take a (Rank * 3) ability penalty to wounds for 10 seconds.",
       "category": "Ability"
     },
-  
-    {
-      "image": "05202",
-      "id": 5176,
-      "name": "Plunder",
-      "type": "Ailment",
-      "spec": "Path of Brutality",
-      "minrank": "14",
-      "cost": "Costs 35 AP",
-      "range": "5ft range",
-      "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
-      "note": "Requires Gift of Brutality",
-      "description": "Deals X physical damage to the target. You steal 10% critical damage from your target for the next 10 seconds.",
-      "category": "Ability"
-    },
-  
+
     {
       "image": "05195",
       "id": 5172,
@@ -1011,9 +1059,9 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Requires Gift of Brutality or Savagery",
-      "description": "With Gift of Brutality, spreads an agonizing rot to your opponent for 10 seconds, inflicting X corporeal damage whenever they use a melee ability.<br><br>With Gift of Savagery, Target loses control over their magic, and for 10 seconds will inflict X corporeal damage to themselves whenever they use magic.",
+      "description": "With Gift of Savagery, spreads an agonizing rot to your opponent for 10 seconds, inflicting X corporeal damage whenever they use a melee ability.<br><br>With Gift of Brutality, Target loses control over their magic, and for 10 seconds will inflict X corporeal damage to themselves whenever they use magic.",
       "category": "Ability"
     },
   
@@ -1027,7 +1075,7 @@
       "cost": "Rank 3 morale",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Melee attack that deals 1200 damage and returns all of that damage as health.",
       "category": "Morale"
@@ -1045,7 +1093,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Grants a 252 unique bonus to elemental resistance.",
+      "description": "Increases your elemental resistance by 300. Grants a 169 unique bonus to corporeal and spiritual resistance.",
       "category": "CareerTactic"
     },
   
@@ -1093,7 +1141,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 375 damage.<br>This effect will not trigger more than once every 3 seconds.",
+      "description": "Any time you are attacked, there is a 25% chance that you will absorb up to 375 damage.<br>This effect will not trigger more than once every second.",
       "category": "CareerTactic"
     },
   
@@ -1107,7 +1155,7 @@
       "cost": "Costs 50 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "All enemies within 30 feet are detaunted, making them hate you less and reducing the damage they deal against you to 50% for 5 seconds. During this time, all of your attacks will cause enemies to hate you 67% less than normal. If you attack anyone you have detaunted, the effect will immediately end.",
       "category": "Ability"
@@ -1123,9 +1171,9 @@
       "cost": "Costs 45 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
-      "description": "A wave of horror spreads forth from you, dealing X physical damage over 21 seconds to all enemies within 30 feet and causing them to take a (2 * rank) ability penalty to weapon skill and initiative.",
+      "description": "A wave of horror spreads forth from you, dealing X physical damage over 21 seconds to all enemies within 30 feet and causing them to take a (3 * rank) ability penalty to weapon skill and a (2 * rank) ability penalty to initiative.",
       "category": "Ability"
     },
   
@@ -1139,7 +1187,7 @@
       "cost": "Costs 45 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Requires Gift of Monstrosity",
       "description": "Deals X physical damage to enemies 25 feet in front of you. They take a (Rank * 3) ability penalty to strength, ballistic skill, and intelligence for 10 seconds.",
       "category": "Ability"
@@ -1170,26 +1218,10 @@
       "minrank": "1",
       "cost": "Costs 30 AP/sec",
       "range": "No range",
-      "incant": "3.0s channel",
-      "cooldown": "13.0s cooldown",
+      "incant": "3s channel",
+      "cooldown": "13s cooldown",
       "note": "Requires Gift of Monstrosity",
-      "description": "Spinning in a circle with club arm extended, aimlessly inflicting X physical damage every half second to all targets within 30 feet in front of you for up to 3 seconds. This effect will end if you break your concentration or run out of action points.",
-      "category": "Ability"
-    },
-
-    {
-      "image": "00000",
-      "id": 8000,
-      "name": "Empty",
-      "type": "Damaging",
-      "spec": "Path of Monstrosity",
-      "minrank": "1",
-      "cost": "Costs 30 AP/sec",
-      "range": "No range",
-      "incant": "3.0s channel",
-      "cooldown": "13.0s cooldown",
-      "note": "Requires a Change",
-      "description": "The ability/tactic that was here should be altered/removed/relaced.",
+      "description": "You spin in a circle with club arm extended, aimlessly inflicting X physical damage every half second to all targets within 30 feet in front of you for up to 3 seconds. This effect will end if you break your concentration or run out of action points.",
       "category": "Ability"
     }
   ]
