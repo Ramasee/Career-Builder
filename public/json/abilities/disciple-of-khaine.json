@@ -1127,7 +1127,7 @@
       "note": "Requires Dual Wield.<br>Builds 50 Soul Essence",
       "description": "A merciless attack which deals X physical damage to the target. This ability can only be used on targets below 35% health.",
       "category": "Ability"
-    },
+    }
 
   ]
 }
