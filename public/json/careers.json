@@ -7,7 +7,7 @@
     "class": "Ranged DPS"
   },
   "knight-of-the-blazing-sun": {
-    "name": "Knight of the Blazing Sun (Coded/Not Matched)",
+    "name": "Knight of the Blazing Sun",
     "slug": "knight-of-the-blazing-sun",
     "faction": "Order",
     "race": "Empire",
@@ -42,7 +42,7 @@
     "class": "Tank"
   },
   "rune-priest": {
-    "name": "Runepriest (Coded/Not Matched)",
+    "name": "Runepriest",
     "slug": "rune-priest",
     "faction": "Order",
     "race": "Dwarf",
@@ -112,7 +112,7 @@
     "class": "Ranged DPS"
   },
   "marauder": {
-    "name": "Marauder (Coded/Not Matched)",
+    "name": "Marauder",
     "slug": "marauder",
     "faction": "Destruction",
     "race": "Chaos",
