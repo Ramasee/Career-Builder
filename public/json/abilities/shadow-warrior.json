@@ -1,55 +1,55 @@
 {
   "mastery": {
     "a": {
-      "name": "Path of The Scout",
+      "name": "Path of The Vengeful",
       "popover": {
-        "primary": "A mastery path focused on dealing damage to a single, far-away enemy.",
-        "secondary": "Bow counts 100% of its dps to abilities, sword counts 45%."
+        "primary": "A mastery path focused on long-distance bow attacks and burst damage.",
+        "secondary": ""
       },
       "optionalAbilities": {
-        "lvl1": 3975,
-        "lvl2": 3972,
+        "lvl1": 3973,
+        "lvl2": 3988,
         "lvl3": 3971,
         "lvl4": 3974,
-        "lvl5": 3973,
+        "lvl5": 3982,
         "lvl6": 3976,
         "lvl7": 3977
       },
-      "coreAbilities": [3945,3940,3939,4027,3930]
+      "coreAbilities": [3937,4027,3940,3930,5010,3931]
     },
     "b": {
-      "name": "Path of Assault",
+      "name": "Path of The Unwavering",
       "popover": {
-        "primary": "A mastery path focused on fighting in melee combat.",
-        "secondary": "Sword counts 100% of its dps towards abilities."
-      },
-      "optionalAbilities": {
-        "lvl1": 3978,
-        "lvl2": 3979,
-        "lvl3": 3980,
-        "lvl4": 3981,
-        "lvl5": 3982,
-        "lvl6": 3983,
-        "lvl7": 7530
-      },
-      "coreAbilities": [3943,4029,3936,3944,3931]
-    },
-    "c": {
-      "name": "Path of The Skirmisher",
-      "popover": {
-        "primary": "A mastery path focused on fighting multiple enemies at medium range.",
-        "secondary": "Bow counts 100% of its dps to abilities, sword counts 45%."
+        "primary": "A mastery path focused on mobile combat and dealing sustained damage.",
+        "secondary": ""
       },
       "optionalAbilities": {
         "lvl1": 3985,
-        "lvl2": 3990,
-        "lvl3": 3987,
+        "lvl2": 3979,
+        "lvl3": 5000,
         "lvl4": 3986,
-        "lvl5": 3989,
+        "lvl5": 3975,
         "lvl6": 3941,
         "lvl7": 3991
       },
-      "coreAbilities": [3932,3933,3946,3988,3929]
+      "coreAbilities": [3942,3929,3939,3932,3936,4029]
+    },
+    "c": {
+      "name": "Path of The Fervent",
+      "popover": {
+        "primary": "A mastery path focused on large-scale combat and a variety of effects.",
+        "secondary": ""
+      },
+      "optionalAbilities": {
+        "lvl1": 3948,
+        "lvl2": 3972,
+        "lvl3": 3980,
+        "lvl4": 3990,
+        "lvl5": 3953,
+        "lvl6": 3946,
+        "lvl7": 3991
+      },
+      "coreAbilities": [3935,3933,3945,3943,3944,3981]
     }
   },
   "data": [
@@ -58,14 +58,14 @@
       "id": 3930,
       "name": "Acid Arrow",
       "type": "Ailment",
-      "spec": "Path of The Scout",
+      "spec": "Path of The Vengeful",
       "minrank": "3",
       "cost": "Costs 35 AP",
-      "range": "100ft range",
-      "incant": "1.5s cast",
-      "cooldown": "5.0s cooldown",
+      "range": "75ft range",
+      "incant": "1.0s cast",
+      "cooldown": "10.0s cooldown",
       "note": "Requires Scout or Assault Stance",
-      "description": "An attack which deals (25 + 6 * rank) + (0.3 bal) + (1.5 dps) physical damage and causes your target to take a (120 + 21.75 * rank) ability penalty to armor and reduces their chance to block by 10% for 10 seconds.",
+      "description": "An attack which deals X corporeal damage and causes your target to take a (Rank * 15) ability penalty to armor and reduces their chance to block by 10% for 10 seconds.",
       "category": "Ability"
     },
   
@@ -79,9 +79,9 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s shared cooldown",
+      "cooldown": "5s cooldown",
       "note": "Can only have one active stance.",
-      "description": "A close-combat stance which causes you to gain a 120 unique bonus to strength and weaponskill, and a unique bonus to armor equal to the same amount that you receive from items.<br><br>While in Assault Stance; your ballistic skill from items will also count towards your strength, your ranged power from items will also count towards your melee power, and your ranged critical chance from items will also count towards your melee critical chance.",
+      "description": "A close-combat stance which causes you to gain a 49 unique bonus to strength and weapon skill, +45% auto attack damage, +10% parry, and reduces the damage you take from melee attacks by 20%. The range of your abilities is reduced by 40%.<br><br>While in Assault Stance; your ballistic skill from items will also count towards your strength, your dodge strikethrough from items will also count towards your parry strikethrough, and your ranged critical chance from items will also count towards your melee critical chance.",
       "category": "Ability"
     },
   
@@ -90,14 +90,14 @@
       "id": 3990,
       "name": "Barrage",
       "type": "Damaging",
-      "spec": "Path of The Skirmisher",
+      "spec": "Path of The Fervent",
       "minrank": "1",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 25 AP/Sec",
       "range": "No range",
-      "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
-      "note": "Requires Skirmish Stance",
-      "description": "Deals (32 + 7.4 * rank) + (0.25 bal) + (1.5 dps) physical damage to all enemies in an arc in front of you, up to 40 feet away.",
+      "incant": "5.0s channel",
+      "cooldown": "15s cooldown",
+      "note": "",
+      "description": "Over the next 5 seconds, you will deal X physical damage every second to all enemies in an arc in front of you, up to 40 feet away. Targets will be snared by 30% for as long as they are taking damage. This ability will end if you lose your concentration or run out of action points.",
       "category": "Ability"
     },
   
@@ -113,7 +113,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gain a 252 unique bonus to elemental resistance.",
+      "description": "Gain a 300 unique bonus to elemental resistance. Gain a 169 unique bonus to corporeal and spiritual resistance.",
       "category": "CareerTactic"
     },
   
@@ -138,14 +138,14 @@
       "id": 3929,
       "name": "Broadhead Arrow",
       "type": "Ailment",
-      "spec": "Path of The Skirmisher",
+      "spec": "Path of The Unwavering",
       "minrank": "2",
       "cost": "Costs 25 AP",
-      "range": "100ft range",
+      "range": "75ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "An ailment which deals (96.67 + 55/3 * rank) + (0.9 bal) + (3.5 dps) physical damage to your target over 15 seconds.",
+      "description": "An ailment which deals X physical damage to your target over 15 seconds. <BR><BR>If you are Unwavering, this ability will deal Y corporeal damage at the end of its duration.",
       "category": "Ability"
     },
   
@@ -154,14 +154,14 @@
       "id": 3931,
       "name": "Brutal Assault",
       "type": "Damaging",
-      "spec": "Path of Assault",
+      "spec": "Path of The Vengeful",
       "minrank": "4",
-      "cost": "Costs 40 AP",
+      "cost": "Costs 50 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
-      "note": "Target must be facing away from you<br>Requires Scout or Assault Stance",
-      "description": "Deals (56 + 8 * rank) + (0.3 bal) + (1.4 dps) physical damage to your target, and makes monsters hate you less than normal. Only usable when you are behind the target.<br>If you are Vengeful, then this attack may be used from any position.",
+      "cooldown": "10s cooldown",
+      "note": "Requires Scout or Assault Stance",
+      "description": "Deals X physical damage to your target.<br>If you use this ability while Vengeful or behind the target, it will not go on cooldown.",
       "category": "Ability"
     },
   
@@ -209,7 +209,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "If an enemy dodges any of your attacks, you will regain 75 action points.<br>This effect will not trigger more than once every 3 seconds.",
+      "description": "If an enemy dodges any of your attacks, you will regain 40 action points.<br>This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
   
@@ -232,16 +232,16 @@
     {
       "image": "13323",
       "id": 3944,
-      "name": "Counterstrike",
+      "name": "Adjourning Strike",
       "type": "Damaging",
-      "spec": "Path of Assault",
+      "spec": "Path of The Fervent",
       "minrank": "30",
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
-      "note": "Requires Assault Stance",
-      "description": "A quick strike which deals (21.67 + 7/3 * rank) + (0.3 bal) + (1.4 dps) damage to your target and interrupts any ability that they were building up.",
+      "cooldown": "20s cooldown",
+      "note": "Requires Assault Stance<BR>Melee",
+      "description": "A quick strike which deals X physical damage to your target. If the target was builing up an ability, it is interupted and you will strike them twice.",
       "category": "Ability"
     },
   
@@ -287,7 +287,7 @@
       "cost": "Costs 20 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "15.0s cooldown",
+      "cooldown": "15s cooldown",
       "note": "",
       "description": "You detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have detaunted, the effect will immediately end.",
       "category": "Ability"
@@ -298,14 +298,14 @@
       "id": 3936,
       "name": "Draw Blood",
       "type": "Ailment",
-      "spec": "Path of Assault",
+      "spec": "Path of The Unwavering",
       "minrank": "9",
       "cost": "Costs 25 AP",
-      "range": "5ft range",
+      "range": "30ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Requires Assault or Skirmish Stance",
-      "description": "An ailment which deals (56 + 12 * rank) + (0.6 bal) + (2.4 dps) physical damage over 9 seconds.",
+      "note": "",
+      "description": "An ailment which deals X physical damage over 9 seconds.<BR><BR>If you are Unwavering, the duration is increased to 18 seconds.",
       "category": "Ability"
     },
   
@@ -314,14 +314,14 @@
       "id": 4027,
       "name": "Eagle Eye",
       "type": "Damaging",
-      "spec": "Path of The Scout",
+      "spec": "Path of The Vengeful",
       "minrank": "1",
-      "cost": "Costs 40 AP",
-      "range": "100ft range",
-      "incant": "2.0s cast",
+      "cost": "Costs 35 AP",
+      "range": "75ft range",
+      "incant": "2s cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A well aimed arrow that deals (91 + 8.5 * rank) + (0.4 bal) + (2.0 dps) physical damage.",
+      "description": "A well aimed arrow that deals X physical damage.",
       "category": "Ability"
     },
   
@@ -337,7 +337,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All attacks in the Path of the Scout will now inflict corporeal damage, and Acid Arrow will now cause your target to take a (X * rank) ability penalty to corporeal resistance",
+      "description": "Eagle Eye will now deal corporeal damage, and Acid Arrow will now cause your target to take a (7.5 * rank) ability penalty to corporeal resistance",
       "category": "CareerTactic"
     },
   
@@ -355,22 +355,6 @@
       "note": "",
       "description": "Your cast times are reduced to 50% when you are within 20 feet of your target.",
       "category": "CareerTactic"
-    },
-  
-    {
-      "image": "13409",
-      "id": 3983,
-      "name": "Exploit Weakness",
-      "type": "Ailment",
-      "spec": "Path of Assault",
-      "minrank": "1",
-      "cost": "Costs 25 AP",
-      "range": "5ft range",
-      "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
-      "note": "Requires Assault Stance",
-      "description": "A Crippling attack which deals (40 + 6.6 * rank) + (0.3 bal) + (1.4 dps) physical damage and knocks down your target for 3 seconds.",
-      "category": "Ability"
     },
   
     {
@@ -392,16 +376,16 @@
     {
       "image": "13325",
       "id": 3941,
-      "name": "Eye Shot",
+      "name": "Harpoon Arrow",
       "type": "Ailment",
-      "spec": "Path of The Skirmisher",
+      "spec": "Path of The Unwavering",
       "minrank": "18",
-      "cost": "Costs 20 AP",
-      "range": "65ft range",
-      "incant": "1.0s cast",
-      "cooldown": "20.0s cooldown",
-      "note": "Requires Skirmish Stance",
-      "description": "A crippling shot that deals X damage and causes your target to take a (2* rank) ability penalty to initiative for 20 seconds. This ability will continue to build up even if you move. 3 Second knockdown.",
+      "cost": "Costs 40 AP",
+      "range": "75ft range",
+      "incant": "1s cast",
+      "cooldown": "18s cooldown",
+      "note": "Requires Skirmish or Assault Stance<BR>Target must be ailing.",
+      "description": "You fire an arrow into your enemy dealing X physical damage. If you are in skirmish stance, the arrow will knock the target down for 3 seconds. If you are in assault stance, you will pull yourself to the target.<BR><BR>The ability can be fired two times within 6 seconds before the cooldown begins. It will only grant each stance-specific bonus once.",
       "category": "Ability"
     },
   
@@ -410,14 +394,14 @@
       "id": 3976,
       "name": "Fell The Weak",
       "type": "Ailment",
-      "spec": "Path of The Scout",
+      "spec": "Path of The Vengeful",
       "minrank": "1",
-      "cost": "Costs 35 AP",
-      "range": "100ft range",
+      "cost": "Costs 40 AP",
+      "range": "75ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
-      "note": "Requires Scout Stance",
-      "description": "Deals (97 + 19 * rank) + (0.3 bal) + (3.5 dps) physical damage if your target is below 30% hit points, or (33.33 + 20/3 * rank) + (0.3 bal) + (1.5 dps) physical damage otherwise.",
+      "cooldown": "10s cooldown",
+      "note": "",
+      "description": "Deals X physical damage if your target is below 40% hit points, or Y physical damage otherwise.",
       "category": "Ability"
     },
   
@@ -426,14 +410,14 @@
       "id": 3974,
       "name": "Festering Arrow",
       "type": "Ailment",
-      "spec": "Path of The Scout",
+      "spec": "Path of The Vengeful",
       "minrank": "1",
-      "cost": "Costs 30 AP",
-      "range": "100ft range",
+      "cost": "Costs 40 AP",
+      "range": "75ft range",
       "incant": "3.0s cast",
-      "cooldown": "10.0s cooldown",
-      "note": "Requires Scout Stance",
-      "description": "Deals (30 + 14 * rank) + (0.5 bal) corporeal damage to your target and applies an ailment which inflicts an additional (10 + 8 * rank) + (0.4 bal) corporeal damage for 3 seconds.",
+      "cooldown": "10s cooldown",
+      "note": "Requires Scout or Skirmish Stance",
+      "description": "Deals X corporeal damage to your target and applies an ailment which inflicts an additional Y corporeal damage for 4 seconds.",
       "category": "Ability"
     },
   
@@ -442,14 +426,14 @@
       "id": 3939,
       "name": "Flame Arrow",
       "type": "Ailment",
-      "spec": "Path of The Scout",
+      "spec": "Path of The Unwavering",
       "minrank": "14",
       "cost": "Costs 40 AP",
-      "range": "100ft range",
-      "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
-      "note": "Requires Scout Stance",
-      "description": "Your target is caught on fire for 6s taking 53 + (1.4 * rank) + (0.1 Bal) elemental damage every 2s. As the fires consume them, they will take 50% more damage every dot tick",
+      "range": "75ft range",
+      "incant": "1.5s cast",
+      "cooldown": "10s cooldown",
+      "note": "Requires Scout or Skirmish Stance",
+      "description": "An ailment which deals X corporeal damage to your target then explodes, dealing an additional Y corporeal damage over 8 seconds. The damage starts low and increases as the fires consume them.<BR><BR>If you are Unwavering, Flame Arrow will reapply itself when it goes out.",
       "category": "Ability"
     },
   
@@ -457,15 +441,15 @@
       "image": "13329",
       "id": 3988,
       "name": "Flanking Shot",
-      "type": "Damaging",
-      "spec": "Path of The Skirmisher",
+      "type": "Ailment",
+      "spec": "Path of The Vengeful",
       "minrank": "1",
-      "cost": "Costs 25 AP",
-      "range": "65ft range",
+      "cost": "Costs 30 AP",
+      "range": "75ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
-      "note": "Requires Skirmish Stance<br>Target must be facing away from you",
-      "description": "Deals (50 + 8 * rank) + (0.3 bal) + (1.5 dps) physical damage to your target. Only usable from behind the target. The critical chance of the ability is increased by the percentage of life lost on the enemy target.",
+      "cooldown": "15s cooldown",
+      "note": "",
+      "description": "Deals X physical damage to your target. If the target is at full health, they will take an additional Y physical damage over 10 seconds. If you are behind the target, they will take an additional Z physical damage to the target. This arrow has no flight time.",
       "category": "Ability"
     },
   
@@ -479,7 +463,7 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
@@ -506,14 +490,14 @@
       "id": 3972,
       "name": "Glass Arrow",
       "type": "Ailment",
-      "spec": "Path of The Scout",
+      "spec": "Path of The Fervent",
       "minrank": "1",
-      "cost": "Costs 30 AP",
-      "range": "100ft range",
+      "cost": "Costs 40 AP",
+      "range": "75ft range",
       "incant": "Instant cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
-      "description": "Deals (33 + 4 * rank) + (0.3 bal) + (2.0 dps) physical damage to your target and reduces range on their abilities to 75% for the next 3 seconds.",
+      "description": "Deals X physical damage over 8 seconds to your target and all enemies within 20 feet of them. For the duration, the targets will have 25% reduced range.",
       "category": "Ability"
     },
   
@@ -522,14 +506,14 @@
       "id": 4029,
       "name": "Grim Slash",
       "type": "Damaging",
-      "spec": "Path of Assault",
+      "spec": "Path of The Unwavering",
       "minrank": "1",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "",
-      "description": "Deals (8 + 5 * rank) + (0.3 bal) + (1.8 dps) physical damage to your target.",
+      "note": "Melee",
+      "description": "Deals X physical damage to your target.",
       "category": "Ability"
     },
   
@@ -538,14 +522,14 @@
       "id": 3975,
       "name": "Guerrilla Training",
       "type": "Buff",
-      "spec": "Path of The Scout",
+      "spec": "Path of The Unwavering",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduces the action point costs of all abilities within the Path Of The Scout by 35%.",
+      "description": "Your direct, damage attacks deal an additional 25% critical damage against targets afflicted with Draw Blood. In addition, Grim Slash will deal an additional X corporeal damage for each Path of The Unwavering damage-over-time effects on the target.",
       "category": "CareerTactic"
     },
   
@@ -568,16 +552,16 @@
     {
       "image": "13302",
       "id": 3935,
-      "name": "Hunter's Fervor",
+      "name": "Shadow's Fervor",
       "type": "Enchantment",
-      "spec": "Core Ability",
+      "spec": "Path of The Fervent",
       "minrank": "8",
       "cost": "Costs 25 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
-      "description": "An inspired ferver fills your group, increasing AP regeneration by 20% for 15 seconds to all groupmates within 100 feet of you.",
+      "description": "An shadowy fervor fills your group for 10 seconds, granting them a 25% increased attack speed and reducing the cost of their abilities by 33%.",
       "category": "Ability"
     },
   
@@ -612,36 +596,20 @@
       "description": "Gives a 120 unique bonus to strength, ballistic skill, and weaponskill, and a 120 unique penalty to toughness.",
       "category": "CareerTactic"
     },
-  
-    {
-      "image": "22702",
-      "id": 3987,
-      "name": "Keen Arrowheads",
-      "type": "Buff",
-      "spec": "Path of The Skirmisher",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases the durations of Broadhead Arrows to 21 seconds, Takedown to 15 seconds, and Eye Shot to 25 seconds.",
-      "category": "CareerTactic"
-    },
-  
+    
     {
       "image": "22697",
       "id": 3953,
       "name": "Leading Shots",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of The Fervent",
       "minrank": "37",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit with a ranged attack, the chance to critically hit will be increased by 8% for 10 seconds for group members within 100 feet, but this will not affect you.",
+      "description": "Any time you critically hit with a ranged attack, the chance to critically hit will be increased by 10% for 10 seconds for group members within 100 feet.",
       "category": "CareerTactic"
     },
   
@@ -650,14 +618,14 @@
       "id": 3946,
       "name": "Lileath's Arrow",
       "type": "Damaging",
-      "spec": "Path of The Skirmisher",
+      "spec": "Path of The Fervent",
       "minrank": "40",
-      "cost": "Costs 40 AP",
+      "cost": "Costs 30 AP",
       "range": "No range",
-      "incant": "2.0s cast",
-      "cooldown": "No cooldown",
-      "note": "Requires Skirmish Stance",
-      "description": "A piercing arrow which deals (24 + 8 * rank) + (0.2375 bal) + (2.0 dps) physical damage to all enemies in front of you, up to 65 feet away. This ability will continue to build up even if you move.",
+      "incant": "2s cast",
+      "cooldown": "10s cooldown",
+      "note": "",
+      "description": "A piercing arrow which deals X corporeal damage to all enemies in front of you, up to 65 feet away. This ability can be cast two times within 10 seconds before going on cooldown.",
       "category": "Ability"
     },
   
@@ -698,14 +666,14 @@
       "id": 3982,
       "name": "Merciless Soldier",
       "type": "Buff",
-      "spec": "Path of Assault",
+      "spec": "Path of The Vengeful",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduces the action point costs of all abilities within the Path of assault by 35%.",
+      "description": "Dealing direct, critical damage will cause your next source of direct damage to deal an additional X physical damage.",
       "category": "CareerTactic"
     },
   
@@ -714,14 +682,14 @@
       "id": 3971,
       "name": "No Quarter",
       "type": "Buff",
-      "spec": "Path of The Scout",
+      "spec": "Path of The Vengeful",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Eagle's Eye, Acid Arrow, and Festering Arrow now builds up 1 seconds faster.",
+      "description": "Eagle's Eye, Acid Arrow, and Festering Arrow now builds up 1 seconds faster. Brutal Assault now costs 50% less action points.",
       "category": "CareerTactic"
     },
   
@@ -730,7 +698,7 @@
       "id": 3980,
       "name": "No Respite",
       "type": "Buff",
-      "spec": "Path of Assault",
+      "spec": "Path of The Fervent",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
@@ -746,14 +714,14 @@
       "id": 3943,
       "name": "Opportunistic Strike",
       "type": "Ailment",
-      "spec": "Path of Assault",
+      "spec": "Path of The Fervent",
       "minrank": "25",
-      "cost": "Costs 20 AP",
-      "range": "5ft range",
+      "cost": "Costs 30 AP",
+      "range": "75ft range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Requires Assault Stance",
-      "description": "A crippling attack that deals (8 + 5 * rank) + (0.3 bal) + (1.8 dps) physical damage and disarms your target for 4 seconds, making them unable to use melee or ranged weapons.",
+      "cooldown": "30s cooldown",
+      "note": "",
+      "description": "A crippling attack that deals X physical damage. If you are in Assault Stance, you will disarm the target for 4 seconds. If you are in Scout or Skirmish Stance, you will silence the target for 4 seconds. ",
       "category": "Ability"
     },
   
@@ -801,7 +769,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "If an enemy blocks, dodges, or parries any of your attacks, their chances to block, dodge, and parry will be reduced by 15% for 10 seconds.",
+      "description": "If an enemy dodges or parries any of your attacks, their chances to dodge and parry will be reduced by 10% for 10 seconds. This effect cannot refresh.",
       "category": "CareerTactic"
     },
   
@@ -820,23 +788,7 @@
       "description": "A mid-range attack that deals 600 damage and knocks targeted player away. Monsters will be knocked down.",
       "category": "Morale"
     },
-  
-    {
-      "image": "22697",
-      "id": 3989,
-      "name": "Powerful Draw",
-      "type": "Buff",
-      "spec": "Path of The Skirmisher",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases the maximum range of Spiral-Fletched Arrow, Flanking Shot, and Eye Shot by 50%.",
-      "category": "CareerTactic"
-    },
-  
+    
     {
       "image": "13337",
       "id": 3977,
@@ -860,12 +812,12 @@
       "type": "Damaging",
       "spec": "Path of The Scout",
       "minrank": "16",
-      "cost": "Costs 25 AP/sec",
-      "range": "100ft range",
-      "incant": "3.0s channel",
-      "cooldown": "7.0s cooldown",
+      "cost": "Costs 18 AP/sec",
+      "range": "75ft range",
+      "incant": "3s channel",
+      "cooldown": "13s cooldown",
       "note": "Requires Scout or Skirmish Stance",
-      "description": "You move with blinding speed as you quickly fire several shots at your target, dealing (12.5 + 2.5 * rank) + (0.1 bal) + (0.75 dps) physical damage to the enemy twice per second for up to 3 seconds. This effect will end if you break your concentration, or run out of action points.<br>If you are Vengeful, then the shots will deal 10% more damage.",
+      "description": "You attack with blinding speed as you quickly fire seven shots at your target over 3 seconds. If you are Vengeful, you will fire ten shots over 4 seconds. Each shot deals X physical damage. This effect will end if you break your concentration, or run out of action points.",
       "category": "Ability"
     },
   
@@ -895,9 +847,9 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s shared cooldown",
+      "cooldown": "5s cooldown",
       "note": "Can only have one stance active.",
-      "description": "A long-distance bow stance that gives a 80 unique bonus to ballistic Skill and initiative and the range of your bow attacks by 10%.",
+      "description": "A long-distance bow stance that increases the range of your attacks by 50%.",
       "category": "Ability"
     },
   
@@ -906,49 +858,17 @@
       "id": 3986,
       "name": "Shadow Sting",
       "type": "Ailment",
-      "spec": "Path of The Skirmisher",
+      "spec": "Path of The Unwavering",
       "minrank": "1",
       "cost": "Costs 30 AP",
-      "range": "100ft range",
+      "range": "75ft range",
       "incant": "Instant Cast",
-      "cooldown": "No cooldown",
-      "note": "Target must be Ailing",
-      "description": "An ailment which deals (84 + 12 * rank) + (0.6 bal) + (2.0 dps) damage to your target over 9 seconds and causes all healing effects used on them to become 50% weaker. Only usable on a target that is already ailing.",
-      "category": "Ability"
-    },
-
-    {
-      "image": "13317",
-      "id": 7530,
-      "name": "Shadow Step",
-      "type": "Buff",
-      "spec": "Path of Assault",
-      "minrank": "1",
-      "cost": "Costs 25 AP",
-      "range": "65ft range",
-      "incant": "2.0s Cast",
-      "cooldown": "No cooldown",
-      "note": "Requires Assault Stance",
-      "description": "You merge with the shadows and appear on your target within the blink of an eye.",
-      "category": "Ability"
-    },
-  
-    {
-      "image": "22698",
-      "id": 3978,
-      "name": "Sinister Assault",
-      "type": "Buff",
-      "spec": "Path of Assault",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
-      "description": "Brutal Assault will now bypass all of the target's armor.",
-      "category": "CareerTactic"
+      "description": "An ailment which deals X corporeal damage to your target over 10 seconds and causes all healing effects used on them to become 50% weaker.",
+      "category": "Ability"
     },
-  
+    
     {
       "image": "13407",
       "id": 3928,
@@ -961,7 +881,7 @@
       "incant": "Instant Cast",
       "cooldown": "5.0s shared cooldown",
       "note": "Can only have one stance active.",
-      "description": "A close-range bow stance that gives a 80 unique bonus to toughness and the chance that your bow attacks will critically hit by 5%. You gain the ability to autoattack while moving while in this stance.",
+      "description": "A close-range bow stance that reduces your damage by 30%. You gain the ability to autoattack and use all abilities while moving in this stance. Your ballistic skill from items will also count towards your strength while in this stance.",
       "category": "Ability"
     },
   
@@ -977,7 +897,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Flame Arrow's damage over time is increased to (75 + 13.2 * rank) + (0.3 bal) elemental damage.",
+      "description": "Flame Arrow's damage over time is increased to X corporeal damage.",
       "category": "CareerTactic"
     },
   
@@ -986,14 +906,14 @@
       "id": 3933,
       "name": "Spiral-Fletched Arrow",
       "type": "Damaging",
-      "spec": "Path of The Skirmisher",
+      "spec": "Path of The Fervent",
       "minrank": "6",
-      "cost": "Costs 25 AP",
-      "range": "65ft range",
-      "incant": "1.0s cast",
+      "cost": "Costs 35 AP",
+      "range": "75ft range",
+      "incant": "1.5s cast",
       "cooldown": "No cooldown",
-      "note": "Requires Assault or Skirmish Stance",
-      "description": "Deals (26 + 5 * rank) + (0.3 bal) + (1.5 dps) physical damage to your target. This ability will continue to build up even if you move.",
+      "note": "Requires Scout or Skirmish stance",
+      "description": "Deals X physical damage to your target and enemies within 20 feet. If you are Fervent, targets struck will take an additional X corporeal damage over 10 seconds. This effect cannot refresh.",
       "category": "Ability"
     },
   
@@ -1002,30 +922,30 @@
       "id": 3985,
       "name": "Split Arrows",
       "type": "Buff",
-      "spec": "Path of The Skirmisher",
+      "spec": "Path of The Unwavering",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Spiral-Fletched Arrow now hits all enemies within 20 feet of your initial target, but does 30% less damage.",
+      "description": "Broad Head Arrow and Flame Arrow now hit all enemies within 20 feet of your initial target.",
       "category": "CareerTactic"
     },
   
     {
       "image": "13308",
       "id": 3942,
-      "name": "Steady Aim",
+      "name": "Unwavering Advance",
       "type": "Enchantment",
-      "spec": "Core Ability",
+      "spec": "Path of the Unwavering",
       "minrank": "20",
       "cost": "Costs 25 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
-      "description": "For the next 6 seconds, all of your abilities that do damage will have a 50% higher chance to critically hit, but will take an additional 1.5 seconds to build up.",
+      "description": "For the next 10 seconds, your group gains a (Rank * 4) ability bonus to weaponskill and the duration of snares used on them is reduced by 50%.",
       "category": "Ability"
     },
   
@@ -1034,14 +954,14 @@
       "id": 3981,
       "name": "Sweeping Slash",
       "type": "Damaging",
-      "spec": "Path of Assault",
+      "spec": "Path of The Fervent",
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
-      "note": "Requires Assault Stance",
-      "description": "Deals (30 + 6 * rank) + (0.2 bal) + (1.4 dps) physical damage to all enemies in an arc in front of you, up to 25 feet away.",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Deals X physical damage to all enemies in an arc in front of you, up to 25 feet away. If you are Fervent, targets struck will take an additional Y corporeal damage over 5 seconds.",
       "category": "Ability"
     },
   
@@ -1050,14 +970,14 @@
       "id": 3979,
       "name": "Swift Strikes",
       "type": "Damaging",
-      "spec": "Path of Assault",
+      "spec": "Path of The Unwavering",
       "minrank": "1",
-      "cost": "Costs 20 AP/sec",
-      "range": "5ft range",
-      "incant": "3.0s channel",
-      "cooldown": "13.0s cooldown",
-      "note": "",
-      "description": "You unleash a punishing series of attacks on your enemy for up to 3 seconds, striking them twice per second and dealing (59 + 2 * rank) + (0.1 bal) + (0.8 dps) physical damage per hit. If the target is building up an ability, then your strikes will deal (22 + 4 * rank) + (0.1 bal) + (0.8 dps) physical damage instead.<br.<br>This ability will end if you break your concentration or run out of action points.",
+      "cost": "Costs 45 AP",
+      "range": "30ft range",
+      "incant": "Instant Cast",
+      "cooldown": "20s cooldown",
+      "note": "Melee",
+      "description": "You unleash a punishing series of attacks on your enemy striking them three times dealing X physical damage per hit.  Each strike that lands will give you 10% movement speed for 5 seconds stacking up to 3 times.",
       "category": "Ability"
     },
   
@@ -1066,14 +986,14 @@
       "id": 3932,
       "name": "Takedown",
       "type": "Ailment",
-      "spec": "Path of The Skirmisher",
+      "spec": "Path of The Unwavering",
       "minrank": "5",
       "cost": "Costs 25 AP",
-      "range": "100ft range",
-      "incant": "1.0s cast",
-      "cooldown": "15.0s cooldown",
-      "note": "Requires Scout or Skirmish Stance",
-      "description": "An ailment which deals (25 + 5 * rank) + (0.3 bal) + (1.5 dps) physical damage and snares your target, reducing their run speed by 40% for 10 seconds.",
+      "range": "75ft range",
+      "incant": "1s cast",
+      "cooldown": "15s cooldown",
+      "note": "Requires Skirmish or Assault Stance",
+      "description": "An ailment which deals X physical damage and snares your target, reducing their run speed by 40% for 10 seconds.",
       "category": "Ability"
     },
   
@@ -1082,14 +1002,14 @@
       "id": 3945,
       "name": "Throat Shot",
       "type": "Ailment",
-      "spec": "Path of The Scout",
+      "spec": "Path of The Fervent",
       "minrank": "35",
-      "cost": "Costs 25 AP",
-      "range": "100ft range",
-      "incant": "1.0s cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Requires Scout Stance",
-      "description": "A crippling shot that deals (33.33 + 20/3 * rank) + (0.3 bal) + (1.5 dps) damage and silences your target for 4 seconds, making them unable to use magic.",
+      "cost": "Costs 30 AP",
+      "range": "75ft range",
+      "incant": "Instant Cast",
+      "cooldown": "20s cooldown",
+      "note": "",
+      "description": "Deals X physical damage to target and all enemies within 20 feet. Enemies suffer 50% increased set back chance for the next 6 seconds. If you are Fervent, the duration is increased to 12 seconds.",
       "category": "Ability"
     },
   
@@ -1098,14 +1018,14 @@
       "id": 3937,
       "name": "Vengeance of Nagarythe",
       "type": "Enchantment",
-      "spec": "Core Ability",
+      "spec": "Path of the Vengeful",
       "minrank": "10",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 25 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Grants Vengeful",
-      "description": "You are filled with a desire for vengeance, increasing all damage you deal by 25% for 10 seconds.",
+      "cooldown": "30s cooldown",
+      "note": "",
+      "description": "You are filled with a desire for vengeance, increasing your chance to critically hit by 25% and the chance for all of your groupmates by 5% for 10 seconds.",
       "category": "Ability"
     },
   
@@ -1119,7 +1039,7 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "All enemies within 30 feet become snared, reducing movement speed by 40% for the next 10 seconds. You are knocked back away from your enemies.",
       "category": "Ability"
@@ -1143,17 +1063,49 @@
   
     {
       "image": "22704",
-      "id": 3948,
-      "name": "Wrist Slash",
+      "id": 5000,
+      "name": "Elven Adriotness",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of The Unwavering",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Whenever you deal direct damage with a melee attack, you will gain 25% ranged critical chance for 6 seconds.<BR><BR>Whenever you deal direct damage with a ranged attack, you will gain 25% melee critical chance for 6 seconds.",
+      "category": "CareerTactic"
+    },
+    
+        {
+      "image": "13409",
+      "id": 5010,
+      "name": "Exploit Opportunity",
+      "type": "Enchantment",
+      "spec": "Path of the Vengeful",
+      "minrank": "12",
+      "cost": "Costs 35 AP",
+      "range": "30ft range",
+      "incant": "Instant Cast",
+      "cooldown": "20s cooldown",
+      "note": "Melee",
+      "description": "Deal X corporeal damage to target enemy. For the next 10 seconds, they will take a (Rank * 3) ability penalty to initiative. If you are Vengeful, the duration is increased to 15 seconds, and the target will take Y corporeal damage over the duration.",
+      "category": "Ability"
+    },
+
+    {
+      "image": "22704",
+      "id": 3948,
+      "name": "Call to Arms",
+      "type": "Buff",
+      "spec": "Path of The Fervent",
       "minrank": "21",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Grim Slash now has a 25% chance to cause the target to take a 120 unique penalty to weaponskill and a 80 unique penalty to initiative for 20s. You will gain a 120 unique bonus to weaponskill and a 80 unique bonus to initiative for 20s.",
+      "description": "Vengeance of Nagarythe, Unwavering Advance, and Shadow's Fervor have their cooldowns reduced by 10 seconds.",
       "category": "CareerTactic"
     }
   ]
