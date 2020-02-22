@@ -160,8 +160,8 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires Scout or Assault Stance<BR>Melee",
-      "description": "Deals (high) X physical damage to your target, and makes monsters hate you less than normal. <br>If you are Vengeful or attack from behind, then this attack will have no cooldown.",
+      "note": "Requires Scout or Assault Stance",
+      "description": "Deals X physical damage to your target.<br>If you use this ability while Vengeful or behind the target, it will not go on cooldown.",
       "category": "Ability"
     },
   
@@ -337,7 +337,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Eagle Eye will now deal corporeal damage, and Acid Arrow will now cause your target to take a (X * rank) ability penalty to corporeal resistance",
+      "description": "Eagle Eye will now deal corporeal damage, and Acid Arrow will now cause your target to take a (7.5 * rank) ability penalty to corporeal resistance",
       "category": "CareerTactic"
     },
   
@@ -449,7 +449,7 @@
       "incant": "Instant Cast",
       "cooldown": "15.0s cooldown",
       "note": "",
-      "description": "Deals X physical damage to your target.  Deals an additional Z damage if you are behind the target. Deals an additional Y damage over 10 seconds if the target is at full health. This arrow has no flight time.",
+      "description": "Deals X physical damage to your target. If the target is at full health, they will take an additional Y physical damage over 10 seconds. If you are behind the target, they will take an additional Z physical damage to the target. This arrow has no flight time.",
       "category": "Ability"
     },
   
@@ -673,7 +673,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Dealing critical damage will cause your next direct damage ability to deal an additional X physical damage.<BR><BR>Exploit Opportunity will reduce all current cooldowns by 5s.",
+      "description": "Dealing critical damage will cause your next source of direct damage to deal an additional X physical damage.",
       "category": "CareerTactic"
     },
   
