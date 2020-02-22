@@ -52,7 +52,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Flurry, Wild Swing, and Onslaught wil now hit 12 targets rather than 9.",
+      "description": "Flurry, Wild Swing, and Onslaught wil now hit 12 enemies.",
       "category": "CareerTactic"
     },
 
@@ -84,7 +84,7 @@
       "cost": "Costs 45 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your mounting rage allows you to firm your Dwarven resolve and remove all roots and snares from you. For the next 10 seconds, roots and snares will have no effect on you.",
       "category": "Ability"
@@ -116,7 +116,7 @@
       "cost": "Rank 3 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
       "category": "Morale"
@@ -158,13 +158,13 @@
       "image": "04668",
       "id": 4038,
       "name": "Charge!",
-      "type": "Defensive",
+      "type": "Buff",
       "spec": "Core Ability",
       "minrank": "10",
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You charge into the thick of battle, increasing your movement speed by 50% for 7 seconds. If you use any abilities, the effect will immediately end.",
       "category": "Ability"
@@ -180,9 +180,9 @@
       "cost": "Costs 40 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
-      "description": "You attack your target with a devastating blow, dealing X physical damage. Your target will bleed out taking an additional Y every 2 seconds for 8 seconds.",
+      "description": "You attack your target with a devastating blow, dealing X physical damage every 2 seconds for 8 seconds.",
       "category": "Ability"
     },
 
@@ -196,7 +196,7 @@
       "cost": "Rank 1 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Concentrating on your perceived movements, you will be able to dodge and parry all attacks against you for 7 seconds.",
       "category": "Morale"
@@ -212,9 +212,9 @@
       "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "You deal an additional 300 damage, whenever you use an ability. This effect will fade after you damage 8 targets.",
+      "description": "For the next 30 seconds you deal an additional 300 damage, whenever you use an ability. This effect will fade after you damage 8 targets.",
       "category": "Morale"
     },
 
@@ -228,7 +228,7 @@
       "cost": "Costs 40 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon",
       "description": "You unleash a powerful blow, dealing X physical damage.<br><br>If you are furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
@@ -244,7 +244,7 @@
       "cost": "Costs 15 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "You slash at your enemy, dealing X physical damage and reducing the value of incoming healing on them by 50% for 10 seconds.",
       "category": "Ability"
@@ -276,7 +276,7 @@
       "cost": "Costs 20 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Great Weapon<br>Must be Furious or Berserk<br>Exhausts your Rage",
       "description": "You devastate your target, dealing X physical damage and causing the target to take a (3 * rank) ability penalty to wounds for 10 seconds.<br><br>If you are furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
@@ -286,13 +286,13 @@
       "image": "04669",
       "id": 4039,
       "name": "Distracting Roar",
-      "type": "Ailment",
+      "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "10",
       "cost": "Costs 50 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "Exhausts Your Rage",
       "description": "All enemies within 30 feet are detaunted, making them hate you less and reducing the damage they deal against you to 50% for 5 seconds. During this time, all of your attacks will cause enemies to hate you 25% less than normal. If you attack anyone you have detaunted, the effect will immediately end.",
       "category": "Ability"
@@ -308,9 +308,9 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "You deal 1800 damage and knock down targets within 30 feet for 3 seconds.",
+      "description": "You deal 1200 damage and knock down targets within 30 feet for 3 seconds.",
       "category": "Morale"
     },
 
@@ -340,7 +340,7 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
       "description": "You deal an exhaustive blow that does X physical damage and reduces your target's chance to critically hit by 100% for 10 seconds.<br><br>If you are furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
@@ -356,7 +356,7 @@
       "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You gain a (1 * rank) unique bonus to toughness for each enemy within 20 feet, up to a maximum of 6 enemies. This effect will fade after 10 seconds.",
       "category": "Ability"
@@ -385,10 +385,10 @@
       "type": "Enchantment",
       "spec": "Path of The Trollslayer",
       "minrank": "8",
-      "cost": "No cost",
+      "cost": "Costs 25 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "While activated, every 4 seconds you will lose 10 action points and group members within 100 feet will gain a (Rank * 1) ability bonus to weaponskill, but take you will take a (Rank * 1) ability penalty to initiative. This effect can be stacked up to three times. When deactivated, your groupmates will lose all stacks and the cooldown will begin.",
       "category": "Ability"
@@ -420,7 +420,7 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
@@ -438,7 +438,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You wildly swing in front of you, dealing between X physical damage and Y physical damage.",
+      "description": "You wildly swing in front of you, dealing  X physical damage to up to three enemies within 12.5 feet.",
       "category": "Ability"
     },
 
@@ -452,7 +452,7 @@
       "cost": "Rank 2 morale",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You stare down your opponent, draining 200 of their action points into yourself, and causing them to take a 160 morale penalty to strength for 30 seconds.",
       "category": "Morale"
@@ -468,7 +468,7 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds.",
       "category": "Morale"
@@ -500,7 +500,7 @@
       "cost": "Rank 3 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You deal 1800 damage and debuff the target's outgoing damage to 75% for 10 seconds.",
       "category": "Morale"
@@ -516,7 +516,7 @@
       "cost": "Costs 15 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your groupmates are inspired by your eagerness to fight. Your group's abilities cost 25% fewer action points for 20 seconds while within 100 feet of you.",
       "category": "Ability"
@@ -550,7 +550,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All your exhaustive attacks have a 100% chance to heal you for X health.",
+      "description": "All your Exhaustive attacks will heal you for 5% of your health. This effect can only happen once every 3 seconds.",
       "category": "CareerTactic"
     },
 
@@ -564,9 +564,9 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Must be Berserk<br>Exhausts your Rage",
-      "description": "You render an incapacitating blow to your target, dealing X physical damage and knocking them down for 3 seconds. This attack is undefendable.",
+      "description": "You render an incapacitating blow to your target, dealing X physical damage and knocking them down for 3 seconds.",
       "category": "Ability"
     },
 
@@ -580,9 +580,9 @@
       "cost": "Costs 45 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Dual Wield",
-      "description": "You deal X physical damage to your target and force them to share your doomed fate, inflicting a dark rune on them. The rune will explode every 2 seconds and will keep exploding for 8 seconds, dealing Y physical damage to all enemies within 30 feet of them.<br><br>Retribution has a 100% chance to proc from this ability's effect.",
+      "description": "You deal X physical damage to your target and force them to share your doomed fate, inflicting a dark rune on them. The rune will explode every 2 seconds and will keep exploding for 8 seconds, dealing Y physical damage to all enemies within 30 feet of them.<br><br>This ability will always trigger a Retribution proc in addition to the chance to generate a second proc.",
       "category": "Ability"
     },
 
@@ -606,16 +606,32 @@
       "image": "04693",
       "id": 4086,
       "name": "Looks Like a Challenge",
-      "type": "Defensive",
+      "type": "Buff",
       "spec": "Path of The Giantslayer",
       "minrank": "1",
       "cost": "Rank 3 morale",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "You unleash a wave of power, causing groupmates' to move at 50% increased movement speed and have 50% reduced build up times on abilities for 7 seconds. This effect ends on each groupmate whenever they use an ability.",
+      "description": "Groupmates within 100 feet gain 50% increased movement speed and 50% reduced build up times on abilities for 7 seconds.<br><br>This effect ends on each groupmate whenever they use an ability.",
       "category": "Morale"
+    },
+
+    {
+      "image": "22709",
+      "id": 9953,
+      "name": "Menace",
+      "type": "Defensive",
+      "spec": "Core Ability",
+      "minrank": "33",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Enemy monsters will hate you 100% more than normal on all attacks.",
+      "category": "CareerTactic"
     },
 
     {
@@ -628,9 +644,9 @@
       "cost": "Costs 35 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Dual Wield",
-      "description": "A crippling blow, dealing X physical damage to all enemies within 30 feet. The victims will all become snared, reducing their run speed anywhere from 10% and 40% for 5 seconds.<br><br>If you are furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "A crippling blow, dealing X physical damage to all enemies within 30 feet. The victims will all become snared, reducing their run speed anywhere from 10% and 40% for 10 seconds.<br><br>If you are furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
 
@@ -644,7 +660,7 @@
       "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "You swipe at the enemies in front of you, dealing X physical damage over 10 seconds to enemies within 40 feet.",
       "category": "Ability"
@@ -662,7 +678,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Exhaustive blows will no longer remove your Rage. This tactic will not effect Distracting Roar.",
+      "description": "Exhaustive blows will no longer remove your Rage. This tactic will not effect Flee or Distracting Roar.",
       "category": "CareerTactic"
     },
 
@@ -694,7 +710,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A furious slash that deals X physical damage and causes your target to take a (3 * rank) ability penalty to toughness for 9 seconds.",
+      "description": "A furious slash that deals X physical damage and causes your target to take a (3 * rank) ability penalty to toughness for 9 seconds.<br><br>If you are Furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     },
 
@@ -724,7 +740,7 @@
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "25.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "Deals X physical damage. For the next 10 seconds, you gain 20% parry strikethrough.",
       "category": "Ability"
@@ -740,7 +756,7 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "While this ability is active, your melee attacks will deal an additional X physical damage , but you will also suffer X/2 physical damage each time.",
       "category": "Ability"
@@ -756,7 +772,7 @@
       "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A prolonged fervor that grants 10 action points a second to everyone in your group within 100 feet of you for 10 seconds.",
       "category": "Morale"
@@ -774,7 +790,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You strike at your opponent, immediately inflicting X physical damage. The wound continues to bleed for Y physical damage for the next 3 seconds.",
+      "description": "You strike at your opponent, immediately inflicting X physical damage. The wound continues to bleed for Y physical damage for the next 5 seconds.",
       "category": "Ability"
     },
 
@@ -788,14 +804,14 @@
       "cost": "Costs 40 AP",
       "range": "5ft range",
       "incant": "Instant cast",
-      "cooldown": "25.0s cooldown",
+      "cooldown": "25s cooldown",
       "note": "Exhausts your Rage",
-      "description": "For the next 10 seconds, all of your Path of the Skavenslayer abilities have a 25% chance to deal additional X physical damage.",
+      "description": "For the next 10 seconds, all of your Path of the Skavenslayer abilities have a 25% chance to deal additional X physical damagewhen they hit a target. This does not apply to effects that were in place before this ability was activated.",
       "category": "Ability"
     },
 
     {
-      "image": "22702",
+      "image": "22709",
       "id": 4063,
       "name": "Riposte",
       "type": "Buff",
@@ -820,7 +836,7 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "25.0s cooldown",
+      "cooldown": "25s cooldown",
       "note": "",
       "description": "A merciless attack that deals X physical damage. Over the next 10 seconds, you will gain 15 action points and 15 rage every second.",
       "category": "Ability"
@@ -838,7 +854,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Upon falling in battle, you will immediately get back in the fight at 50% health, 100% rage and unleashing a blow to all enemies within 40 feet and dealing X physical damage. This effect can only happen once every minute.",
+      "description": "Upon falling in battle, you will immediately get back in the fight at 25% health and unleashing a blow to all enemies within 40 feet and dealing X physical damage. This effect can only happen once every minute.",
       "category": "CareerTactic"
     },
 
@@ -852,7 +868,7 @@
       "cost": "Rank 1 morale",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A directed strike that inflicts 1200 damage to your target.",
       "category": "Morale"
@@ -868,7 +884,7 @@
       "cost": "Costs 45 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
       "description": "You brutally crush all enemies within 30 feet, dealing x physical damage. Your merciless display of savagery intimidates your enemy, increasing their cooldown timers by 1 second for every enemy you struck, to a maximum of 5 seconds. This effect lasts for 10 seconds.",
       "category": "Ability"
@@ -916,7 +932,7 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "You deal X physical damage and reduce the movement speed of your enemy by 40% for 5 seconds.",
       "category": "Ability"
@@ -932,7 +948,7 @@
       "cost": "Costs 20 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "15.0s cooldown",
+      "cooldown": "15s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage<br>Requires Great Weapon",
       "description": "A shattering strike which deals X physical damage to the target. If the target has any blessings or enchantments, this attack will then dispel up to 3 of them, dealing Y physical damage for each one.<br><br>If you are furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
@@ -949,7 +965,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "",
+      "note": "Target must be facing away from you",
       "description": "You deal 0.7X physical damage to your enemy. Deals X physical damage if the enemy is facing away from you.",
       "category": "Ability"
     },
@@ -982,7 +998,23 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gain a 252 unique bonus to corporeal resistance.",
+      "description": "Grants a 300 unique bonus to corporeal resistance. Gaim 169 unique bonus to elemental and spiritual resistance.",
+      "category": "CareerTactic"
+    },
+
+    {
+      "image": "22709",
+      "id": 9964,
+      "name": "Subtletly",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "29",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Enemy monsters will hate you 25% less than normal.",
       "category": "CareerTactic"
     },
 
@@ -1014,7 +1046,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you deal critical damage, you will gain 15% chance to critically hit for 6 seconds. Each time you trigger this, you will gain a stack of Precarious Assault.",
+      "description": "Whenever you deal critical damage, you will gain 15% chance to critically hit for 6 seconds. Each time this happens, you will gain a stack of Precarious Assault. This can only happen once every 6 seconds.",
       "category": "CareerTactic"
     },
 
@@ -1027,7 +1059,7 @@
       "minrank": "1",
       "cost": "Costs 20 AP",
       "range": "5-65ft range",
-      "incant": "1.0s cast",
+      "incant": "1s cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "A basic throwing attack that inflicts X physical damage.",
@@ -1038,15 +1070,15 @@
       "image": "04691",
       "id": 4079,
       "name": "Unleashed Power",
-      "type": "Defensive",
+      "type": "Buff",
       "spec": "Path of The Trollslayer",
       "minrank": "1",
       "cost": "Rank 2 morale",
-      "range": "No range",
+      "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "All stacks of Precarious Assault are removed from you, and you become berserk. For the next 10 seconds, you will gain a (Rank * 3) morale bonus to initiative, the negative side effects of berserk are nullified, you will not be able to drop your rage, and your chance to critically hit is increased by 10%.",
+      "description": "All stacks of Precarious Assault are removed from you, and you become berserk. For the next 10 seconds, you will unable to remove your rage, have no negative side effects of being in rage, you will gain a (Rank * 3) morale bonus to initiative, and you will gain 20% melee critical chance.",
       "category": "Morale"
     },
 
@@ -1060,7 +1092,7 @@
       "cost": "Rank 1 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your chance to defend attacks is increased by 100% for 5 seconds.",
       "category": "Morale"
@@ -1078,7 +1110,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Every 4 seconds, you will gain one stack of an effect which reduces the Rage cost of your exhaustive blows by 25%. This effect stacks up to 3 times, and using an exhaustive blow will consume on stack.",
+      "description": "Every 3 seconds, you will gain one stack of an effect which reduces the Rage cost of your Exhaustive Blows by 25%. This effect stacks up to 3 times, and using an exhaustive blow will consume on stack.",
       "category": "CareerTactic"
     },
 
@@ -1108,9 +1140,9 @@
       "cost": "Costs 35 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "5s cooldown",
       "note": "Must be Furious or Berserk<br>Exhausts your Rage",
-      "description": "You wildly attack everything around you, each enemy that you hit within 30 feet suffers anywhere from X physical damage to Y physical damage.<br><br>If you are furious, gains a 75% damage bonus instead of the 25% bonus.",
+      "description": "You wildly attack everything around you, striking each enemy within 10 feet for X physical damage.<br><br>If you are furious, gains a 75% damage bonus instead of the 25% bonus.",
       "category": "Ability"
     }
   ]
