@@ -547,7 +547,7 @@
     "cost": "Costs 35 AP",
     "range": "5ft range",
     "incant": "Instant Cast",
-    "cooldown": "No cooldown",
+    "cooldown": "10s cooldown",
     "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
     "description": "You quickly strike your target two times, dealing damage and inflicting an ailment on them for 10 seconds which causes them to take an ability penalty to wounds.<br>  1 Blood Lust: A physical damage per hit; Wounds reduced by V.<br>  2 Blood Lust: B physical damage per hit; Wounds reduced by W.<br>  3 Blood Lust: C physical damage per hit; Wounds reduced by X.<br>  4 Blood Lust: D physical damage per hit; Wounds reduced by Y.<br>  5 Blood Lust: E physical damage per hit; Wounds reduced by Z.",
     "category": "Ability"
@@ -677,7 +677,7 @@
     "incant": "Passive",
     "cooldown": "No cooldown",
     "note": "",
-    "description": "After hitting an enemy with Treacherous Assault, Vehement Blades, or Enfeebling Strike, you will deal 15% more damage for 10 seconds.",
+    "description": "After hitting an enemy with Treacherous Assault, Vehement Blades, or Enfeebling Strike, you will deal 15% more damage for 18 seconds.",
     "category": "CareerTactic"
   },
 
