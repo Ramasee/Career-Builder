@@ -757,7 +757,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to critically hit by 10% and your parry strikethough by 10%, but you can no longer cast Khaine's Embrace, Patch Wounds, or Stand Coward!",
+      "description": "Increases your chance to critically hit by 10% and your parry strikethough by 10%, but you can no longer cast Khaine's Embrace or Stand Coward!<BR><BR>Patch Wounds will no longer dispel but instead will remove root and snares from you, making you immune to them for 10s. Increases the cooldown to 60 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1093,7 +1093,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "Requires 15 points in the Path of Torture",
-      "description": "You are overcome with seemingly endless visions of you own grisly death if you should fail. So real are the visions, that you break all movement impairing effects. You will generate 250 soul essence and be immune to movement impairing effects over the next 10 seconds.",
+      "description": "You are overcome with seemingly endless visions of you own grisly death if you should fail. So real are the visions, you generate 250 soul essence over the next 10 seconds.",
       "category": "Morale"
     },
   
@@ -1125,7 +1125,7 @@
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
       "note": "Requires Dual Wield.<br>Builds 50 Soul Essence",
-      "description": "A merciless attack which deals X physical damage to the target. This ability can only be used on targets below 35% health.",
+      "description": "A merciless attack which deals X physical damage to the target. This ability can only be used on targets below 40% health.",
       "category": "Ability"
     }
 
