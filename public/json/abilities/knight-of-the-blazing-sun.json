@@ -325,7 +325,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal 15% more damage and all enemy monsters will hate you 15% less than normal, but your armor is reduced by 33%.",
+      "description": "Taunt will now apply 10 stacks to the target.",
       "category": "CareerTactic"
     },
   
