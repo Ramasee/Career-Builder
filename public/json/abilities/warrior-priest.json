@@ -867,9 +867,9 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
-      "note": "Builds 25 Righteous Fury",
-      "description": "You smash your weapon into your enemy, dealing X physical damage to them. Your defensive target becomes blessed for up to 7 seconds, and will regain Y health each time they're attacked. You will lose 15 righteous fury every second, and the effect will end if you run out of righteous fury to power it with.",
+      "cooldown": "15.0s cooldown",
+      "note": "",
+      "description": "You smash your weapon into your enemy, dealing X physical damage to them. Your defensive target becomes safeguarded by Sigmar for up to 8 seconds, who heals them for Y health each time they're attacked. This effect can happen up to 20 times and you lose 5 Righteous Fury each time it happens.<BR><BR>If you have a great weapon equipped, the effect can happen only up to 10 times and costs 10 Righteous Fury each time.",
       "category": "Ability"
     },
   
