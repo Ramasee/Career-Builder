@@ -343,7 +343,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Signal Flare will now have a 50% faster tick rate, 50% less duration, and 50% shorter cooldown,. In addition, the victim will suffer 15% more damage from all sources.",
+      "description": "Signal Flare will now have a 40% faster tick rate, 40% less duration, and 40% shorter cooldown,. In addition, the victim will suffer 15% more damage from all sources.",
       "category": "CareerTactic"
     },
   
