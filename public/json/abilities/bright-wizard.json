@@ -100,8 +100,8 @@
       "range": "100ft range",
       "incant": "1s cast",
       "cooldown": "20s cooldown",
-      "note": "Builds 10 Combustion<br>Has a chance to cause an Explosion!",
-      "description": "Your target's weapons become red hot, dealing X corporeal damage to them. For the next 10 seconds, Fireball and Fireball Barrage will deal 10% more damage to the target.",
+      "note": "Builds 15 Combustion<br>Has a chance to cause an Explosion!",
+      "description": "Your target's weapons become red hot, dealing X corporeal damage to them. For the next 12 seconds, Fireball and Fireball Barrage will deal 10% more damage to the target.",
       "category": "Ability"
     },
   
