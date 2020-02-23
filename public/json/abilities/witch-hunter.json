@@ -485,7 +485,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your executions restore 2 Accusations. This effect can only happen once every 10 seconds.",
+      "description": "All of your executions restore 2 Accusations. This effect can only happen once every 8 seconds.",
       "category": "CareerTactic"
     },
   
