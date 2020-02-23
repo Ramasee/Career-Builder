@@ -372,7 +372,7 @@
       "minrank": "1",
       "cost": "Costs 25 AP",
       "range": "Self",
-      "incant": "2s cast",
+      "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
       "description": "You load your rifle with the finest of rounds. For the next 15 seconds, all path of the rifleman abilities will deal X additional physical damage that bypasses all armor.",
