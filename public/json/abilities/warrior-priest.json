@@ -85,7 +85,7 @@
       "incant": "Instant Cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You break all snares and roots on you. For the next 10 seconds, you will be immune to roots and snares as well as generate 25 righteous fury per second.",
+      "description": "For the next 10 seconds, generate 25 righteous fury per second.",
       "category": "Morale"
     },
   
@@ -421,7 +421,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to critically hit by 10% and your chance to parry by 10%, but you can no longer cast Touch of the Divine, Purify, or Breath of Sigmar.",
+      "description": "Increases your chance to critically hit by 10% and your chance to parry by 10%, but you can no longer cast Touch of the Divine or Breath of Sigmar.<BR><BR>Purify will no longer dispel effects. Instead, it will remove all roots and snares from you making you immune to them for 10 seconds. Cooldown is increased to 60 seconds.",
       "category": "CareerTactic"
     },
  
@@ -517,7 +517,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Builds 50 Righteous Fury<br>Requires Great Weapon",
-      "description": "Deals X spiritual damage to the target. This ability can only be on targets below 35% health.",
+      "description": "Deals X physical damage to the target. This ability can only be on targets below 40% health.",
       "category": "Ability"
     },
   
@@ -1061,7 +1061,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Divine Aid now only costs 30 Righteous Fury.",
+      "description": "Divine Aid is now instant cast and only costs 30 Righteous Fury.",
       "category": "CareerTactic"
     },
 
