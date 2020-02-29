@@ -1152,10 +1152,10 @@
       "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "10",
-      "cost": "Costs 50 AP",
+      "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "10s cooldown",
+      "cooldown": "15s cooldown",
       "note": "",
       "description": "All enemies within 30 feet are detaunted, making them hate you less and reducing the damage they deal against you to 50% for 5 seconds. During this time, all of your attacks will cause enemies to hate you 67% less than normal. If you attack anyone you have detaunted, the effect will immediately end.",
       "category": "Ability"
