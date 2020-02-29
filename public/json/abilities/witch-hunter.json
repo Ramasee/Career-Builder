@@ -528,10 +528,10 @@
       "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "8",
-      "cost": "Costs 20 AP",
+      "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "15.0s cooldown",
       "note": "",
       "description": "Detaunts all enemies within 30 feet, making them hate you less and causing them to deal only 50% damage to you for 15 seconds.<br>If you hit anyone that you have detaunted, the effect will end.",
       "category": "Ability"
