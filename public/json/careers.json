@@ -70,14 +70,14 @@
     "class": "Ranged DPS"
   },
   "sword-master": {
-    "name": "Sword Master (Coded/Not Matched)",
+    "name": "Sword Master",
     "slug": "sword-master",
     "faction": "Order",
     "race": "High Elf",
     "class": "Tank"
   },
   "white-lion": {
-    "name": "White Lion (Coded/Not Matched)",
+    "name": "White Lion",
     "slug": "white-lion",
     "faction": "Order",
     "race": "High Elf",
