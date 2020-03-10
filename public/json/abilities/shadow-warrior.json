@@ -382,7 +382,7 @@
       "minrank": "18",
       "cost": "Costs 40 AP",
       "range": "75ft range",
-      "incant": "1s cast",
+      "incant": "Instant cast",
       "cooldown": "18s cooldown",
       "note": "Requires Skirmish or Assault Stance<BR>Target must be ailing.",
       "description": "You fire an arrow into your enemy dealing X physical damage. If you are in skirmish stance, the arrow will knock the target down for 3 seconds. If you are in assault stance, you will pull yourself to the target.<BR><BR>The ability can be fired two times within 6 seconds before the cooldown begins. It will only grant each stance-specific bonus once.",
@@ -432,7 +432,7 @@
       "range": "75ft range",
       "incant": "1.5s cast",
       "cooldown": "10s cooldown",
-      "note": "Requires Scout or Skirmish Stance",
+      "note": "",
       "description": "An ailment which deals X corporeal damage to your target then explodes, dealing an additional Y corporeal damage over 8 seconds. The damage starts low and increases as the fires consume them.<BR><BR>If you are Unwavering, Flame Arrow will reapply itself when it goes out.",
       "category": "Ability"
     },
