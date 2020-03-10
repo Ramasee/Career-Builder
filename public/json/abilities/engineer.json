@@ -309,9 +309,9 @@
       "cost": "Costs 30 AP",
       "range": "65ft range",
       "incant": "1s cast",
-      "cooldown": "10s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
-      "description": "You lob a grenade that releases a powerful shockwave on impact, dealing X corporeal damage to your target and all enemies within 20 feet.",
+      "description": "You lob a grenade that releases a powerful shockwave on impact, knocking the enemy away.",
       "category": "Ability"
     },
   
