@@ -116,7 +116,7 @@
       "range": "65ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Requires Squig Armor",
+      "note": "",
       "description": "You pounce forwards, leaping towards your target. You inflict X physical damage to them when you land. This ability cannot be used while you are airborne.",
       "category": "Ability"
     },
