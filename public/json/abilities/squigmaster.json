@@ -709,7 +709,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "Requires Squig Armor",
-      "description": "Your battle squig evacuates a disagreeable meal, producing a toxic cloud that inflicts X corporeal damage every 2 seconds for 10 seconds. This gas can be ignited by direct damage from Farty Squig, Explodin' Arrer, or Kaboom! removing the effect and replacing it with Y damage every second for 6 seconds.",
+      "description": "Your battle squig evacuates a disagreeable meal, producing a toxic cloud that inflicts X corporeal damage every 2 seconds for 10 seconds. This gas can be ignited by direct damage from Farty Squig, Explodin' Arrer, or Kaboom! removing the effect and replacing it with Y damage every second for 6 seconds. These effects stack up to 2 times.",
       "category": "Ability"
     },
   
