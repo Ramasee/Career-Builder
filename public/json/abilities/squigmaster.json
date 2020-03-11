@@ -1100,7 +1100,7 @@
     {
       "image": "22708",
       "id": 7675,
-      "name": "'Volatile Green",
+      "name": "Volatile Green",
       "type": "Buff",
       "spec": "Path of Bouncin'",
       "minrank": "1",
@@ -1109,7 +1109,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Squig Armor no longer has a cooldown. Kaboom will now deal X corporeal damage to all enemies within 30 feet. Squig Leap's damage is changed to corporeal.",
+      "description": "Squig Armor no longer has a cooldown. Kaboom will now deal X corporeal damage to all enemies within 30 feet. Squig Leap will place you in squig armor when cast.",
       "category": "CareerTactic"
     },
 
