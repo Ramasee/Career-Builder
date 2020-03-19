@@ -612,7 +612,7 @@
       "range": "100ft range",
       "incant": "1.0s cast",
       "cooldown": "10.0s cooldown",
-      "note": "Basic Squig synergy",
+      "note": "Can be cast in Squig Armor",
       "description": "A crippling shot that deals X physical damage and causes your target to take a (3 * rank) ability penalty to initiative for 10 seconds.",
       "category": "Ability"
     },
