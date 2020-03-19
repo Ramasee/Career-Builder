@@ -29,7 +29,7 @@
     "c": {
       "name": "Path of Herdin'",
       "optionalAbilities": {
-        "lvl1": 5527,
+        "lvl1": 5497,
         "lvl2": 5521,
         "lvl3": 5538,
         "lvl4": 5537,
@@ -144,12 +144,12 @@
       "type": "Damaging",
       "spec": "Path of Bouncin'",
       "minrank": "1",
-      "cost": "Costs 30 AP/sec",
+      "cost": "Costs 40 AP",
       "range": "No range",
-      "incant": "3.0s channel",
-      "cooldown": "13.0s cooldown",
+      "incant": "Instant Cast",
+      "cooldown": "20.0s cooldown",
       "note": "Requires Squig Armor",
-      "description": "Your Battle Squig proceeds to take chunks out of your targets within 30 feet for up to 3 seconds, dealing X physical damage with each hit. You share in this treat and will be healed for 10% of all damage this ability deals.",
+      "description": "You create X gas bubbles which last for 6 seconds. Each time an enemy dodges one of your attacks, a gas bubble erupts dealing Y corporeal damage to all enemies within 30 feet of you. At the end of the duration, all gas bubbles will erupt dealing damage. You are healed for Z% of all damage this ability deals.",
       "category": "Ability"
     },
   
@@ -286,14 +286,14 @@
       "id": 5527,
       "name": "'Ere, Squiggy!",
       "type": "Buff",
-      "spec": "Path of Herdin'",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When you are dealt damage, 40% of the damage is dealt to your squig, if it is within 45 feet.",
+      "description": "When you are dealt damage, there is a 25% chance that 50% of the damage is dealt to your squig, if it is within 45 feet.",
       "category": "CareerTactic"
     },
   
@@ -460,16 +460,16 @@
     {
       "image": "22702",
       "id": 5497,
-      "name": "He's A Biggun'",
+      "name": "I Shoot Lotz",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Herdin'",
       "minrank": "21",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your summoned Squig's strength and toughness are increased by 160",
+      "description": "Your Run N Shoot will deal an additional X physical damage every second for 4 seconds. This effect can stack up to 5 times.",
       "category": "CareerTactic"
     },
   
@@ -832,12 +832,12 @@
       "type": "Damaging",
       "spec": "Path of Herdin'",
       "minrank": "1",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 40 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "20.0s cooldown",
       "note": "Can be cast in Squig Armor",
-      "description": "On contact, your arrow explodes in to shrapnel, dealing X physical damage to your target and reduces range on their abilities to 75% over the next 8 seconds.",
+      "description": "On contact, your arrow explodes in to shrapnel, dealing X physical damage over 8 seconds to your target and enemies within 20 ft of them. Reduces range on their abilities to 75% for the duration.",
       "category": "Ability"
     },
   
@@ -908,16 +908,16 @@
     {
       "image": "02594",
       "id": 5482,
-      "name": "Squig Frenzy (contested)",
+      "name": "Squig Frenzy",
       "type": "Buff",
-      "spec": "Path of Quick Shootin'",
+      "spec": "Path of Herdin'",
       "minrank": "10",
       "cost": "Costs 30 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
       "note": "Requires an active pet",
-      "description": "You whip your pet in to a frenzy, causing it to do 50% more auto attack damage for 10 seconds. Your movement speed is increased by 30%.",
+      "description": "You whip your pet in to a frenzy, causing it to do 50% more auto attack damage and have no cooldown on its abilities for 10 seconds. Your movement speed is increased by 30%.",
       "category": "Ability"
     },
   
@@ -988,7 +988,7 @@
     {
       "image": "22708",
       "id": 5498,
-      "name": "Strength In Numbas",
+      "name": "Sprint N Slip",
       "type": "Buff",
       "spec": "Path of Herdin'",
       "minrank": "27",
@@ -997,7 +997,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Every 5 seconds, your squig and every groupmate within 100 feet will gain 20% critical chance for 5 seconds. During this time, if that target critically hits, the effect will be removed and you will gain X morale.",
+      "description": "What Blocka?, Lots O' Arrers, Not So Fast!, and Stop Runnin' can now be cast while moving, however these skills suffer a 30% damage penalty.<BR><BR>Basic Squig will remove this damage penalty.",
       "category": "CareerTactic"
     },
   
