@@ -547,7 +547,7 @@
       "cost": "Costs 35 AP",
       "range": "30ft range",
       "incant": "Instant Cast",
-      "cooldown": "No cooldown",
+      "cooldown": "20.0s cooldown",
       "note": "Requires Squig Armor",
       "description": "Your Battle Squig explodes, causing you to be launched upward out of your Squiggy armor. Target enemy within 30 feet takes X physical damage and is knocked back.",
       "category": "Ability"
