@@ -34,7 +34,7 @@
         "lvl3": 5538,
         "lvl4": 5537,
         "lvl5": 5498,
-        "lvl6": 5497,
+        "lvl6": 6200,
         "lvl7": 5540
       },
       "coreAbilities": [5470,5473,5490,5474,5472,5493]
@@ -475,7 +475,7 @@
     
     {
       "image": "22702",
-      "id": 5497,
+      "id": 6200,
       "name": "He's A Biggun'",
       "type": "Buff",
       "spec": "Path of Herdin'",
