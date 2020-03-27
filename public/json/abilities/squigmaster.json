@@ -34,7 +34,7 @@
         "lvl3": 5538,
         "lvl4": 5537,
         "lvl5": 5498,
-        "lvl6": 5482,
+        "lvl6": 5497,
         "lvl7": 5540
       },
       "coreAbilities": [5470,5473,5490,5474,5472,5493]
@@ -421,7 +421,7 @@
       "incant": "2.0s cast",
       "cooldown": "30.0s cooldown",
       "note": "You may only have 1 active pet",
-      "description": "Summons a Gas squig pet which you can order around. This pet attacks in area-of-effect from range, but is very weak to attacks.<br>This pet is able to heal you and your allies.<br>Cooldown will begin when you lose control of your pet for any reason.",
+      "description": "Summons a supportive Gas squig pet which you can order around. This pet deals weak AoE damage from range and can provide moderate group support. Gas Squig gains 50% of your ballistic skill from items to ballistic skill, 150% of your bonus to ballistic skill to willpower, 100% of your bonus to initiative, 100% of your bonus to toughness, 50% of your bonus to wounds, 100% of your bonus to armor, and 75% of your bonus to resistances. <br><br>Cooldown will begin when you lose control of your pet for any reason.",
       "category": "Ability"
     },
   
@@ -472,6 +472,22 @@
       "description": "Your Run N Shoot will deal an additional X physical damage every second for 4 seconds. This effect can stack up to 5 times.",
       "category": "CareerTactic"
     },
+    
+    {
+      "image": "22702",
+      "id": 5497,
+      "name": "He's A Biggun'",
+      "type": "Buff",
+      "spec": "Path of Herdin'",
+      "minrank": "21",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "All of your squigs gain 100% increased auto-attack speed. Your Basic and Horned squigs gain 50% increased movement speed. Your Spiked and Gas squigs will gain 25% increased wounds.<BR><BR>This tactic will only apply its bonuses to squigs summoned after it is equipped. Removing this tactic will unsummon your current squig.",
+      "category": "CareerTactic"
+    },
   
     {
       "image": "02488",
@@ -485,7 +501,7 @@
       "incant": "2.0s cast",
       "cooldown": "30.0s cooldown",
       "note": "You may only have 1 active pet",
-      "description": "Summons a Horned squig pet which you can order around. This pet deals damage to multiple enemies in melee combat.<br>You will gain a (Rank * 4) ability bonus to weapon skill while this squig is alive.<br>Cooldown will begin when you lose control of your pet for any reason.",
+      "description": "Summons a Horned squig pet which you can order around. This pet deals AoE damage in melee combat. Horned Squig gains 150% of your ballistic skill from items to strength, 100% of your bonus to weapon skill, 100% of your bonus to initiative, 100% of your bonus to toughness, 100% fo your bonus to wounds, 200% of your bonus to armor, and 75% of your bonus to all resistances.<br>Cooldown will begin when you lose control of your pet for any reason.",
       "category": "Ability"
     },
   
@@ -885,7 +901,7 @@
       "incant": "2.0s cast",
       "cooldown": "30.0s cooldown",
       "note": "You may only have 1 active pet",
-      "description": "Summons a Spiked squig pet which you can order around. This pet attacks from range and has increased damage.<br>Cooldown will begin when you lose control of your pet for any reason.",
+      "description": "Summons a Spiked squig pet which you can order around. This pet attacks from range and has increased damage.<br>Spiked Squig gains 150% of your ballistic skill from items to ballistic skill, 100% of your bonus to weapon skill, 100% of your bonus to toughness, 100% fo your bonus to initiative, 50% of your bonus to wounds, 100% of your bonus to armor, and 75% of your bonus to all resistances.<br>Cooldown will begin when you lose control of your pet for any reason.",
       "category": "Ability"
     },
     
@@ -986,22 +1002,6 @@
     },
   
     {
-      "image": "22708",
-      "id": 5498,
-      "name": "Sprint N Slip",
-      "type": "Buff",
-      "spec": "Path of Herdin'",
-      "minrank": "27",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "What Blocka?, Lots O' Arrers, Not So Fast!, and Stop Runnin' can now be cast while moving, however these skills suffer a 30% damage penalty.<BR><BR>Basic Squig will remove this damage penalty.",
-      "category": "CareerTactic"
-    },
-  
-    {
       "image": "02475",
       "id": 5578,
       "name": "Summon Squig",
@@ -1013,7 +1013,7 @@
       "incant": "2.0s cast",
       "cooldown": "30.0s cooldown",
       "note": "You may only have 1 active pet",
-      "description": "Summons a basic squig pet which you can order around. This pet can take quite beating and generates much more hatred in enemy monsters than normal.<br>Cooldown will begin when you lose control of your pet for any reason.",
+      "description": "Summons a tough melee squig which you can order around. This pet deals more damage the longer it is on a target and generates additional threat. Basic Squig gains 50% of your Ballistic Skill from items as strength, 300% of your bonus to toughness, 100% wof your bonus to weapon skill, 200% of your bonus to initiative, 150% of your bonus to wounds, 300% of your bonus to armor, and 100% of your bonus to resistances.<br><br>Cooldown will begin when you lose control of your pet for any reason.",
       "category": "Ability"
     },
   
