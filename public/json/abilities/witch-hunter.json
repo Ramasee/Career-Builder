@@ -6,12 +6,12 @@
         "lvl1": 4379,
         "lvl2": 4394,
         "lvl3": 4357,
-        "lvl4": 6100,
+        "lvl4": 6199,
         "lvl5": 4383,
         "lvl6": 4384,
-        "lvl7": 4385
+        "lvl7": 4362
       },
-      "coreAbilities": [4337,4344,4345,4436,4351]
+      "coreAbilities": [4337,4344,4345,4436,4346]
     },
     "b": {
       "name": "Path of Inquisition",
@@ -22,9 +22,9 @@
         "lvl4": 4382,
         "lvl5": 4388,
         "lvl6": 4398,
-        "lvl7": 4392
+        "lvl7": 4379
       },
-      "coreAbilities": [4342,4349,4339,4336,4346]
+      "coreAbilities": [4342,4349,4339,4336,4351]
     },
     "c": {
       "name": "Path of Judgment",
@@ -51,7 +51,7 @@
       "cost": "Costs 35 AP",
       "range": "30ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
       "description": "A precision shot to the enemy's vital organs which deals damage based on combo points. This ability ignores 20% armor per accusation spent.<br>  1 Accusation: V physical damage. <br>  2 Accusations: W physical damage.<br>  3 Accusations: X physical damage.<br>  4 Accusations: Y physical damage.<br>  5 Accusations: Z physical damage.",
       "category": "Ability"
@@ -68,8 +68,8 @@
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "You can only have one set of Blessed Bullets active.",
-      "description": "You load your pistol with bullets designed to fragment on impact, causing your executions to deal an additional X elemental damage to the target. The victim will lose 20 action points, and you will gain 20 action points.",
+      "note": "",
+      "description": "You load your pistol with bullets designed to fragment on impact, causing your executions to deal an additional X elemental damage to the target. The victim will lose 20 action points, and you will gain 20 action points.<br><br>This ability may be used while Incognito without breaking the effect.",
       "category": "Ability"
     },
   
@@ -84,8 +84,8 @@
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "You can only have one set of Blessed Bullets active.",
-      "description": "You load your pistol with bullets doused in holy water, causing your executions to deal an additional X elemental damage. Any healing abilities that the victim uses over the next 5 seconds will become 50% as effective.",
+      "note": "",
+      "description": "You load your pistol with bullets doused in holy water, causing your executions to deal an additional X elemental damage. Any healing abilities that the victim uses over the next 5 seconds will become 50% as effective.<br><br>This ability may be used while Incognito without breaking the effect.",
       "category": "Ability"
     },
   
@@ -100,17 +100,33 @@
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "You can only have one set of Blessed Bullets active.",
-      "description": "You load your pistol with bullets of purest silver, causing your executions to deal an additional X elemental damage.  The victims take a (2 * rank) ability penalty to initiative for 10 seconds. You gain the same amount of initiative during this time.",
+      "note": "",
+      "description": "You load your pistol with bullets of purest silver, causing your executions to deal an additional X elemental damage.  The victims take a (2 * rank) ability penalty to initiative for 10 seconds. You gain the same amount of initiative during this time.<br><br>This ability may be used while Incognito without breaking the effect.",
       "category": "Ability"
     },
+   
+	{
+    "image": "05290",
+    "id": 6199,
+    "name": "Blood Bomb",
+    "type": "Damaging",
+    "spec": "Path of Confession",
+    "minrank": "10",
+    "cost": "Costs 45 AP",
+    "range": "No range",
+    "incant": "Instant cast",
+    "cooldown": "30s cooldown",
+    "note": "Builds 1 Accusation",
+    "description": "Throws a potion of blood on the ground which interupts enemies within 30 feet. They will take X physical damage over 6 seconds.",
+    "category": "Ability"
+	},
   
     {
       "image": "22696",
       "id": 4362,
       "name": "Blood, Faith, And Fire",
       "type": "Buff",
-      "spec": "Path of Inquisition",
+      "spec": "Path of Confession",
       "minrank": "39",
       "cost": "Tactic",
       "range": "No range",
@@ -131,7 +147,7 @@
       "cost": "Rank 3 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
       "category": "Morale"
@@ -179,7 +195,7 @@
       "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Target must be facing away from you<br>Costs 20% fewer action points per Accusation spent",
       "description": "A pistol shot that fires bullets filled with fire oil, first dealing damage over 9 seconds and then igniting into a raging inferno which deals additional damage.<br>  1 Accusation: A physical damage over time; B ending damage.<br>  2 Accusations: C physical damage over time; D ending damage.<br>  3 Accusations: E physical damage over time; F ending damage.<br>  4 Accusations: G physical damage over time; H physical ending damage.<br>  5 Accusations: I physical damage over time; J ending damage.",
       "category": "Ability"
@@ -189,29 +205,29 @@
       "image": "08046",
       "id": 4339,
       "name": "Burn, Heretic!",
-      "type": "Ailment",
+      "type": "Damaging",
       "spec": "Path of Inquisition",
       "minrank": "6",
       "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
       "description": "A cleansing shot of flame which deals damage to your target over 10 seconds.<br>  1 Accusation: V physical damage<br>  2 Accusations: W physical damage<br>  3 Accusations: X physical damage<br>  4 Accusations: Y physical damage<br>  5 Accusations: Z physical damage",
       "category": "Ability"
     },
-  
+
     {
       "image": "07976",
       "id": 4346,
       "name": "Confess!",
       "type": "Ailment",
-      "spec": "Path of Inquisition",
+      "spec": "Path of Confession",
       "minrank": "14",
       "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Parry",
       "description": "A savage counterattack that deals X physical damage and disarms your target for 4 seconds, making them unable to use their weapons.",
       "category": "Ability"
@@ -227,7 +243,7 @@
       "cost": "Rank 1 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Concentrating on your perceived movements, you will be able to dodge and parry all attacks against you for 7 seconds.",
       "category": "Morale"
@@ -243,9 +259,9 @@
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "You cannot perform this action while rooted",
-      "description": "You leap backwards from your target, causing your target to be staggered for up to 3 seconds, preventing all actions unless they're damaged.",
+      "description": "You leap backwards from your target, causing your target to be staggered for up to 6 seconds, preventing all actions unless they're damaged.",
       "category": "Ability"
     },
   
@@ -259,7 +275,7 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 1600 damage to all enemies in front of you, up to 65 feet away.",
       "category": "Morale"
@@ -275,9 +291,9 @@
       "cost": "Costs 35 AP",
       "range": "30ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
-      "description": "A pistol shot that deals damage to your target and all other enemies near them.<br>  1 Accusation: V elemental damage, 30 feet radius<br>  2 Accusations: W elemental damage, 35 feet radius<br>  3 Accusations: X elemental damage, 40 feet radius<br>  4 Accusations: Y elemental damage, 43.3 feet radius<br>  5 Accusations: Z elemental damage, 48.3 feet radius",
+      "description": "A pistol shot that deals elemental damage to your target and up to 15 enemies near them.<br>  1 Accusation: V elemental damage, 30 feet radius<br>  2 Accusations: W elemental damage, 35 feet radius<br>  3 Accusations: X elemental damage, 40 feet radius<br>  4 Accusations: Y elemental damage, 43.3 feet radius<br>  5 Accusations: Z elemental damage, 48.3 feet radius",
       "category": "Ability"
     },
   
@@ -293,7 +309,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are attacked, there is a 25% chance that you will become protected by a magical barrier for up to 10 seconds, which will absorb up to 375 damage.<br>This effect will not trigger more than once every 3 seconds.",
+      "description": "Any time you are attacked, there is a 25% chance that you will become protected by a magical barrier for up to 10 seconds, which will absorb up to 375 damage.<br>This effect will not trigger more than once every second.",
       "category": "CareerTactic"
     },
   
@@ -309,7 +325,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Blessed Bullets will now also make the target 5% easier to critical hit for 6 seconds.",
+      "description": "Dealing damage with any Blessed Bullet will now also make the target 5% easier to critical hit for 6 seconds. You will need to reapply you Blessed Bullets anytime you equip or remove this tactic.",
       "category": "CareerTactic"
     },
   
@@ -323,7 +339,7 @@
       "cost": "Rank 4 morale",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "For the next 15 seconds, heals will have no effects on your target. The target and all other enemies within 20 feet of them will suffer 1200 damage over 15 seconds.",
       "category": "Morale"
@@ -339,7 +355,7 @@
       "cost": "Costs 35 AP",
       "range": "30ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
       "description": "You fire a hollow point shell, dealing damage immediately and causing the target to take an ability penalty to toughness, strength, and weapon skill for 10 seconds.<br>  1 Accusation: V physical damage; stats reduced by 50.<br>  2 Accusations: W physical damage; stats reduced by 75.<br>  3 Accusations: X physical damage; stats reduced by 100.<br>  4 Accusations: Y physical damage; stats reduced by 125.<br>  5 Accusations: Z physical damage; stats reduced by 150.",
       "category": "Ability"
@@ -355,7 +371,7 @@
       "cost": "Rank 1 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You regain 1197 health and 180 action points over 9 seconds.",
       "category": "Morale"
@@ -371,28 +387,12 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Deals 1600 damage over 10 seconds to all enemies within 30 feet and snares them, reducing their run speed by 60%.",
       "category": "Morale"
     },
-  
-    {
-      "image": "22709",
-      "id": 4395,
-      "name": "Master of Antiquity",
-      "type": "Buff",
-      "spec": "Path of Inquisition",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Reduces the cooldowns of all of your relics by 20 seconds and the cooldown of Feinted Positioning by 40 seconds.",
-      "category": "CareerTactic"
-    },
-  
+
     {
       "image": "07983",
       "id": 4352,
@@ -405,7 +405,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Incognito<br>Builds 2 Accusations",
-      "description": "You leap from the shadows, fueled with righteous anger. Your target will take X physical damage. Your abilities will cost 50% fewer action points for 10 seconds.",
+      "description": "You leap from the shadows, fueled with righteous anger. Your target will take X elemental damage. Your abilities will cost 50% fewer action points for 10 seconds.",
       "category": "Ability"
     },
   
@@ -419,7 +419,7 @@
       "cost": "Costs 25 AP",
       "range": "65ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Your positional attacks can be used without the positional requirement for 10 seconds. Does not affect morale abilities.",
       "category": "Ability"
@@ -467,7 +467,7 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
@@ -485,7 +485,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "All of your executions restore 2 Accusations. This effect can only happen once every 8 seconds.",
+      "description": "All of your executions restore 2 Accusations. This effect can only happen once every 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -499,7 +499,7 @@
       "cost": "Rank 2 morale",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You stare down your opponent, draining 200 of their action points into yourself, and target takes a 160 morale penalty to strength for 30 seconds.",
       "category": "Morale"
@@ -515,7 +515,7 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds.",
       "category": "Morale"
@@ -528,12 +528,12 @@
       "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "8",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 20 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "15.0s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
-      "description": "Detaunts all enemies within 30 feet, making them hate you less and causing them to deal only 50% damage to you for 15 seconds.<br>If you hit anyone that you have detaunted, the effect will end.",
+      "description": "Detaunts all enemies within 30 feet, making them hate you less and causing them to deal only 50% damage to you for 5 seconds.<br>If you hit anyone that you have detaunted, the effect will end.",
       "category": "Ability"
     },
  
@@ -547,10 +547,10 @@
       "minrank": "10",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "2.0s cast",
-      "cooldown": "30.0s cooldown",
+      "incant": "2s cast",
+      "cooldown": "45s cooldown",
       "note": "",
-      "description": "You begin quietly hunting for heretics, making it less likely that hostile monsters will notice you but slowly draining away your action points. This effect will end if you use any abilities, run out of action points, or after 30 seconds has passed.",
+      "description": "You begin quietly hunting for heretics, rendering you invisible to your foes unless you or they draw too close. You are less likely to be noticed when stationary, flanking your target or if you have high initiative.<br><br>This effect will slowly drain your action points and will end if you use any abilities or run out of action points.",
       "category": "Ability"
     },    
     
@@ -582,7 +582,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 corporeal damage over 9 seconds.",
+      "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 609 corporeal damage over 9 seconds.",
       "category": "CareerTactic"
     },
   
@@ -601,23 +601,55 @@
       "description": "Any time you land a killing blow on an enemy, you will regain 576 health over 9 seconds.",
       "category": "CareerTactic"
     },
-  
+    
     {
-      "image": "22694",
-      "id": 4358,
-      "name": "Penetrating Barbs",
+      "image": "22709",
+      "id": 4395,
+      "name": "Master of Antiquity",
       "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "31",
+      "spec": "Path of Inquisition",
+      "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the durations of Fanatical Zeal, Burn Armor, and Sudden Accusation by an additional 5 seconds.",
+      "description": "Reduces the cooldowns of all of your relics by 20 seconds and the cooldown of Feinted Positioning by 40 seconds.",
+      "category": "CareerTactic"
+    },
+    
+    {
+      "image": "22709",
+      "id": 9990,
+      "name": "Menace",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Enemy monsters will hate you 100% more than normal on all attacks.",
       "category": "CareerTactic"
     },
   
+    {
+      "image": "22694",
+      "id": 4388,
+      "name": "No One Expects The Inquisition",
+      "type": "Buff",
+      "spec": "Path of Inquisition",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Burn Armor, Sudden Accusation, and Fanatical Zeal now build 3 accusations. In addition, all attacks that build accusations have a 50% chance to build an additional accusation.",
+      "category": "CareerTactic"
+    },
+
     {
       "image": "23412",
       "id": 4400,
@@ -644,28 +676,12 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Requires Pistol<br>Builds 1 Accusation<br>Target must be facing away from you",
       "description": "A quick backhand blow with the butt of your pistol that knocks your target down for 3 seconds.",
       "category": "Ability"
     },
-  
-    {
-      "image": "22694",
-      "id": 4388,
-      "name": "No One Expects The Inquisition",
-      "type": "Buff",
-      "spec": "Path of Inquisition",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Burn Armor, Sudden Accusation, and Fanatical Zeal now build 3 accusations. In addition, all attacks that build accusations have a 50% chance to build an additional accusation.",
-      "category": "CareerTactic"
-    },
-  
+
     {
       "image": "22709",
       "id": 4390,
@@ -692,7 +708,7 @@
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Builds 1 Accusation",
       "description": "A precision blow that deals X physical damage, and causes a lingering wound which reduces the effectiveness of all healing by 50% for 10 seconds.",
       "category": "Ability"
@@ -724,7 +740,7 @@
       "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A prolonged fervor that grants 10 action points a second to everyone in your group within 100 feet of you for 10 seconds.",
       "category": "Morale"
@@ -740,7 +756,7 @@
       "cost": "Costs 40 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "15s cooldown",
       "note": "Builds 1 Accusation",
       "description": "A melee attack that deals X physical damage. Your chance to parry attacks is increased by 100% for the next 5 seconds.",
       "category": "Ability"
@@ -756,7 +772,7 @@
       "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "You turn your enemy's luck against them, dealing 1200 damage to all targets in line in front of you, up to 65 feet away from you.",
       "category": "Morale"
@@ -779,7 +795,7 @@
     },
   
     {
-      "image": "22702",
+      "image": "22709",
       "id": 4369,
       "name": "Riposte",
       "type": "Buff",
@@ -809,9 +825,25 @@
       "description": "Blessed Bullets will now heal you for 100% of the damage that they cause.",
       "category": "CareerTactic"
     },
-  
+          
     {
-      "image": "07978",
+      "image": "08079",
+      "id": 6100,
+      "name": "Sanctified Oil (PH)",
+      "type": "Buff",
+      "spec": "Path of Confession",
+      "minrank": "10",
+      "cost": "No AP Cost",
+      "range": "No range",
+      "incant": "1s cast",
+      "cooldown": "30s cooldown",
+      "note": "",
+      "description": "You light a flask of holy oil on fire to burn heretics within 30 feet of you. Enemies will take X physical damage and are interupted. This effect will continue every 2 seconds for 6 seconds.",
+      "category": "Ability"
+    },  
+    
+    {
+      "image": "abi_em_sigilofdestruction.png",
       "id": 4387,
       "name": "Seal of Destruction",
       "type": "Buff",
@@ -820,7 +852,7 @@
       "cost": "Costs 25 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A holy relic created under the tutelage of Elven mages, the Seal allows your attacks to ignore 50% the victim's armor for the next 7 seconds.<br>You cannot use another relic for 15 seconds.",
       "category": "Ability"
@@ -831,14 +863,14 @@
       "id": 4351,
       "name": "Seeker's Blade",
       "type": "Ailment",
-      "spec": "Path of Confession",
+      "spec": "Path of Inquisition",
       "minrank": "25",
       "cost": "Costs 45 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "15s cooldown",
       "note": "Builds 1 Accusation",
-      "description": "A melee attack that can not be defended against, and deals X physical damage. If the target is ailing, then they will also become cursed for 15 seconds, reducing their chances to block, parry, dodge, and disrupt attacks by 5%.",
+      "description": "A melee attack that can not be defended against, and deals X physical damage. If the target is ailing, then they will become further ailed for 15 seconds, reducing their chances to block, parry, dodge, and disrupt attacks by 5%.",
       "category": "Ability"
     },
   
@@ -847,7 +879,7 @@
       "id": 4379,
       "name": "Seeker's Triumph",
       "type": "Buff",
-      "spec": "Path of Confession",
+      "spec": "Path of Inquisition",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
@@ -857,23 +889,7 @@
       "description": "Seeker's Blade will now ignore 50% of the target's armor, and its cooldown time is reduced by 5 seconds.",
       "category": "CareerTactic"
     },
-  
-    {
-      "image": "02497",
-      "id": 4350,
-      "name": "Sever Blessing",
-      "type": "Damaging",
-      "spec": "Core Ability",
-      "minrank": "22",
-      "cost": "Costs 25 AP",
-      "range": "5ft range",
-      "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
-      "note": "Target must have a Blessing",
-      "description": "You sever one blessing from your enemy and do X physical damage",
-      "category": "Ability"
-    },
-  
+
     {
       "image": "23161",
       "id": 4370,
@@ -884,7 +900,7 @@
       "cost": "Rank 1 morale",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "A directed strike that inflicts 1200 damage to your target.",
       "category": "Morale"
@@ -900,7 +916,7 @@
       "cost": "Costs 25 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Rumored to be the death shroud of Magnus the Pious, this holy relic increases your chance to disrupt enemy magic by 100% for 7 seconds.<br>You cannot use another relic for 15 seconds.",
       "category": "Ability"
@@ -916,7 +932,7 @@
       "cost": "Costs 45 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "An artifact of the Temple of Sigmar which removes all roots and snares from you. For the next 10 seconds, roots and snares will have no effect on you.",
       "category": "Ability"
@@ -934,7 +950,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time that you are healed by a direct heal, there is a 25% chance that you will regain an additional 135 hit points as well.",
+      "description": "Any time that you are healed by a direct heal, there is a 25% chance that you will regain 3% of your hit points as well. This can only happen once every second.",
       "category": "CareerTactic"
     },
   
@@ -948,7 +964,7 @@
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Builds 1 Accusation",
       "description": "A punishing blow that silences your target, making them unable to use magic for 3 seconds. If you are behind your target, then you will also deal X physical damage.",
       "category": "Ability"
@@ -963,18 +979,34 @@
       "minrank": "1",
       "cost": "Costs 20 AP",
       "range": "5-65ft range",
-      "incant": "1.0s cast",
+      "incant": "1s cast",
       "cooldown": "No cooldown",
       "note": "Requires Pistol",
       "description": "A quick pistol shot that deals X physical damage, and can be used on the run.<br>Your attack will snare the enemy if used behind your target, reducing their run speed by 40% for 5 seconds.",
       "category": "Ability"
+    },
+      
+    {
+      "image": "22709",
+      "id": 9991,
+      "name": "Subtlety",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Enemy monsters will hate you 25% less than normal.",
+      "category": "CareerTactic"
     },
   
     {
       "image": "07969",
       "id": 4349,
       "name": "Sudden Accusation",
-      "type": "Damaging",
+      "type": "Ailment",
       "spec": "Path of Inquisition",
       "minrank": "20",
       "cost": "No AP Cost",
@@ -998,7 +1030,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Razor Strike, Sanctified Oil (PH), and Van Horstman's Speculum now deal elemental damage.",
+      "description": "Razor Strike, Blood Bomb, and Van Horstman's Speculum now deal elemental damage.",
       "category": "CareerTactic"
     },
   
@@ -1027,8 +1059,8 @@
       "minrank": "12",
       "cost": "Costs 15 AP/sec",
       "range": "30ft range",
-      "incant": "3.0s channel",
-      "cooldown": "8s cooldown",
+      "incant": "3s channel",
+      "cooldown": "10s cooldown",
       "note": "Execution - Requires Accusations<br>Requires Pistol<br>Costs 20% fewer action points per Accusation spent",
       "description": "A barrage of withering fire that damages your target and enemies within 20 feet for up to 3 seconds, as long as you maintain your concentration.<br>  1 Accusation: V physical damage per shot<br>  2 Accusations: W physical damage per shot.<br>  3 Accusations: X physical damage per shot<br>  4 Accusations: Y physical damage per shot<br>  5 Accusations: Z physical damage per shot",
       "category": "Ability"
@@ -1046,7 +1078,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gain a 252 unique bonus to spirit resistance.",
+      "description": "Gain a 300 unique bonus to spirit resistance. Gain 169 unique bonus to corporeal and elemental resistance.",
       "category": "CareerTactic"
     },
   
@@ -1060,9 +1092,9 @@
       "cost": "Costs 25 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "A tiny enchanted mirror hung around your neck, this holy relic deals X physical damage to anyone that strikes you with a melee attack over the next 7 seconds. This effect will hit enemies within 20ft of the attacking enemy.<br>You cannot use another relic for 15 seconds.",
+      "description": "A tiny enchanted mirror hung around your neck, this holy relic deals X physical damage to anyone that strikes you with a melee attack over the next 7 seconds. You cannot use another relic for 15 seconds.",
       "category": "Ability"
     },
   
@@ -1094,7 +1126,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you kill an enemy, the cooldown on incognito is reset. This effect can only happen once every 30 seconds",
+      "description": "You have a 100% chance whenever you kill an enemy and a 33% chance whenever you use Exit Wound or Absolution to reset the cooldown on Incognito. This effect can only happen once per minute.",
       "category": "CareerTactic"
     },
   
@@ -1108,42 +1140,10 @@
       "cost": "Rank 3 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "1m cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
       "description": "Everyone in your group within 100 feet of you has a 50% increased chance to parry attacks for 10 seconds.",
       "category": "Morale"
-    },
-        
-    {
-      "image": "08079",
-      "id": 6100,
-      "name": "Sanctified Oil (PH)",
-      "type": "Buff",
-      "spec": "Path of Confession",
-      "minrank": "10",
-      "cost": "No AP Cost",
-      "range": "No range",
-      "incant": "1.0s cast",
-      "cooldown": "30.0s cooldown",
-      "note": "",
-      "description": "You light a flask of holy oil on fire to burn heretics within 30 feet of you. Enemies will take X physical damage and are interupted. This effect will continue every 2 seconds for 6 seconds.",
-      "category": "Ability"
-    },  
-    
-    {
-      "image": "22702",
-      "id": 6102,
-      "name": "Close Combat",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "40",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Any time you strike an enemy in melee with a direct attack, you will recieve 25% less damage from ranged or magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
-      "category": "CareerTactic"
-     }    
+    }    
   ]
 }
