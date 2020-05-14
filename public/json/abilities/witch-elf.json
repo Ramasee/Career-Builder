@@ -51,7 +51,7 @@
     "cost": "No AP Cost",
     "range": "5ft range",
     "incant": "Instant Cast",
-    "cooldown": "30.0s cooldown",
+    "cooldown": "30s cooldown",
     "note": "You cannot perform this action while rooted",
     "description": "You leap backwards from your target, causing your target to be staggered for up to 6 seconds, preventing all actions unless they're damaged.",
     "category": "Ability"
@@ -85,7 +85,7 @@
     "incant": "Passive",
     "cooldown": "No cooldown",
     "note": "",
-    "description": "Gain a 252 unique bonus to spirit resistance.",
+    "description": "Gain a 300 unique bonus to corporeal resistance. Gain 169 unique bonus to elemental and spiritual resistance.",
     "category": "CareerTactic"
   },
 
@@ -117,7 +117,7 @@
     "incant": "Passive",
     "cooldown": "No cooldown",
     "note": "",
-    "description": "Any time you kill an enemy, you will regain X health over 9 seconds.",
+    "description": "Any time you kill an enemy, you will regain 20% of your health over 9 seconds.",
     "category": "CareerTactic"
   },
 
@@ -131,7 +131,7 @@
     "cost": "Costs 30 AP",
     "range": "5ft range",
     "incant": "Instant Cast",
-    "cooldown": "10.0s cooldown",
+    "cooldown": "10s cooldown",
     "note": "Builds 1 Blood Lust",
     "description": "A deadly strike which deals X physical damage to your target and infects them with Black Lotus toxin, causing all healing that they receive for the next 10 seconds to become 50% less effective.",
     "category": "Ability"
@@ -147,12 +147,28 @@
     "cost": "Rank 4 morale",
     "range": "No range",
     "incant": "Instant Cast",
-    "cooldown": "1m cooldown",
+    "cooldown": "60s cooldown",
     "note": "",
     "description": "Deals 1600 damage over 5 seconds to all enemies within 30 feet.",
     "category": "Morale"
   },
-
+  
+  {
+    "image": "05290",
+    "id": 6100,
+    "name": "Blood Bomb",
+    "type": "Damaging",
+    "spec": "Path of Carnage",
+    "minrank": "10",
+    "cost": "Costs 45 AP",
+    "range": "No range",
+    "incant": "Instant cast",
+    "cooldown": "30s cooldown",
+    "note": "",
+    "description": "Throws a potion of blood on the ground which interupts enemies within 30 feet. They will take X physical damage over 6 seconds.",
+    "category": "Ability"
+  },
+  
   {
     "image": "22694",
     "id": 5627,
@@ -165,7 +181,7 @@
     "incant": "Passive",
     "cooldown": "No cooldown",
     "note": "",
-    "description": "Slice, Blood Bomb (PH), and Sharpened Blades will now deal corporeal damage.",
+    "description": "Slice, Blood Bomb, and Sharpened Blades will now deal corporeal damage.",
     "category": "CareerTactic"
   },
 
@@ -179,7 +195,7 @@
     "cost": "Rank 3 morale",
     "range": "No range",
     "incant": "Instant Cast",
-    "cooldown": "1m cooldown",
+    "cooldown": "60s cooldown",
     "note": "",
     "description": "All of your attacks for the next 10 seconds will strike up to 2 additional enemies within 25 feet in front of you.",
     "category": "Morale"
@@ -211,7 +227,7 @@
     "cost": "Rank 1 morale",
     "range": "No range",
     "incant": "Instant Cast",
-    "cooldown": "1m cooldown",
+    "cooldown": "60s cooldown",
     "note": "",
     "description": "Concentrating on your perceived movements, you will be able to dodge and parry all attacks against you for 7 seconds.",
     "category": "Morale"
@@ -226,8 +242,8 @@
     "minrank": "28",
     "cost": "Rank 1 morale",
     "range": "5ft range",
-    "incant": "3.0s channel",
-    "cooldown": "1m cooldown",
+    "incant": "3s channel",
+    "cooldown": "60s cooldown",
     "note": "",
     "description": "You concentrate on your target, repeatedly dealing 300 damage to them for up to 3 seconds.",
     "category": "Morale"
@@ -259,7 +275,7 @@
     "cost": "Rank 3 morale",
     "range": "No range",
     "incant": "Instant Cast",
-    "cooldown": "1m cooldown",
+    "cooldown": "60s cooldown",
     "note": "",
     "description": "Increases critical hit chance by 50% for 10 seconds for all group members within 100 feet.",
     "category": "Morale"
@@ -275,9 +291,9 @@
     "cost": "Costs 25 AP",
     "range": "No range",
     "incant": "Instant Cast",
-    "cooldown": "1m cooldown",
+    "cooldown": "60s cooldown",
     "note": "",
-    "description": "A powerful witch's brew which hastens your reactions for the next 7 seconds. Any time an enemy strikes you, you will deal X physical damage back to them and enemies within 20ft of them. This effect can only happen once every 2 seconds per target hitting you.<br>You cannot use another elixir for 15 seconds.",
+    "description": "A powerful witch's brew which hastens your reactions for the next 7 seconds. Any time an enemy strikes you, you will deal X physical damage back to them and enemies within 20ft of them.<br>You cannot use another elixir for 15 seconds.",
     "category": "Ability"
   },
 
@@ -291,7 +307,7 @@
     "cost": "Costs 25 AP",
     "range": "No range",
     "incant": "Instant Cast",
-    "cooldown": "1m cooldown",
+    "cooldown": "60s cooldown",
     "note": "",
     "description": "A vile brew which drives you into a rage for the next 7 seconds. All of your attacks will ignore 50% of the victim's armor.<br>You cannot use another elixir for 15 seconds.",
     "category": "Ability"
@@ -300,14 +316,14 @@
   {
     "image": "10987",
     "id": 5638,
-    "name": "Elixir of the Suffering",
+    "name": "Elixir of the Cauldron",
     "type": "Buff",
     "spec": "Path of Treachery",
     "minrank": "1",
     "cost": "Costs 25 AP",
     "range": "No range",
     "incant": "Instant Cast",
-    "cooldown": "1m cooldown",
+    "cooldown": "60s cooldown",
     "note": "",
     "description": "A potion filled from the legendary Cauldron Of Blood which fills you with power, increasing your chance to disrupt enemy magic by 100% for 7 seconds.<br>You cannot use another elixir for 15 seconds.",
     "category": "Ability"
@@ -320,12 +336,12 @@
     "type": "Debuff",
     "spec": "Core Ability",
     "minrank": "8",
-    "cost": "Costs 30 AP",
+    "cost": "Costs 20 AP",
     "range": "No range",
     "incant": "Instant Cast",
-    "cooldown": "15.0s cooldown",
+    "cooldown": "30s cooldown",
     "note": "",
-    "description": "Your unearthly Elven beauty detaunts all enemies within 30 feet, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have detaunted, the effect will immediately end.",
+    "description": "Your unearthly Elven beauty detaunts all enemies within 30 feet, making them hate you less and causing them to deal only 50% damage to you for 5 seconds. If you attack anyone that you have detaunted, the effect will immediately end.",
     "category": "Ability"
   },
 
@@ -373,24 +389,8 @@
     "incant": "Instant Cast",
     "cooldown": "No cooldown",
     "note": "Builds 1 Blood Lust",
-    "description": "You stab your enemy with a poisoned blade, dealing X physical damage. The victim becomes wracked with pains, suffering an additional X physical damage over 9 seconds. This effect will stack with itself up to three times.",
+    "description": "You stab your enemy with a poisoned blade, dealing X physical damage. The victim becomes wracked with pains, suffering an additional Y physical damage over 9 seconds. This effect will stack with itself up to three times.",
     "category": "Ability"
-  },
-
-  {
-    "image": "22709",
-    "id": 5602,
-    "name": "Exotic Venom",
-    "type": "Buff",
-    "spec": "Core Ability",
-    "minrank": "31",
-    "cost": "Tactic",
-    "range": "No range",
-    "incant": "Passive",
-    "cooldown": "No cooldown",
-    "note": "",
-    "description": "Increases the durations of Vehement Blades, Enfeebling Strike, and Treacherous Assault by an additional 5 seconds.",
-    "category": "CareerTactic"
   },
 
   {
@@ -403,7 +403,7 @@
     "cost": "Costs 25 AP",
     "range": "65ft range",
     "incant": "Instant Cast",
-    "cooldown": "1m cooldown",
+    "cooldown": "60s cooldown",
     "note": "",
     "description": "Your positional attacks can be used without the positional requirement for 10 seconds. Does not affect morale abilities.",
     "category": "Ability"
@@ -435,7 +435,7 @@
     "cost": "No AP Cost",
     "range": "No range",
     "incant": "Instant Cast",
-    "cooldown": "30.0s cooldown",
+    "cooldown": "30s cooldown",
     "note": "",
     "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
     "category": "Ability"
@@ -451,7 +451,7 @@
     "cost": "Costs 45 AP",
     "range": "No range",
     "incant": "Instant Cast",
-    "cooldown": "1m cooldown",
+    "cooldown": "60s cooldown",
     "note": "",
     "description": "Your swift footwork and quick thinking removes all roots and snares from you. For the next 10 seconds, roots and snares will have no effect on you.",
     "category": "Ability"
@@ -467,9 +467,9 @@
     "cost": "Rank 4 morale",
     "range": "No range",
     "incant": "Instant Cast",
-    "cooldown": "1m cooldown",
+    "cooldown": "60s cooldown",
     "note": "",
-    "description": "Deals 1600 damage over 5 seconds to all enemies in front of you, up to 65 feet away.",
+    "description": "Deals 2285 damage over 5 seconds to all enemies in front of you, up to 65 feet away.",
     "category": "Morale"
   },
 
@@ -485,7 +485,7 @@
     "incant": "Passive",
     "cooldown": "No cooldown",
     "note": "",
-    "description": "Whenever you kill an enemy, the cooldown on shadow prowler will be reset. This effect cannot happen more than once every 30 seconds.",
+    "description": "You have a 100% chance whenever you kill an enemy and a 33% chance whenever you cast Heart Render Toxin or Puncture to reset the cooldown on Shadow Prowler. This effect cannot happen more than once every 60 seconds.",
     "category": "CareerTactic"
   },
 
@@ -499,7 +499,7 @@
     "cost": "Rank 2 morale",
     "range": "5ft range",
     "incant": "Instant Cast",
-    "cooldown": "1m cooldown",
+    "cooldown": "60s cooldown",
     "note": "",
     "description": "You stare down your opponent, draining 200 of their action points into yourself, and causing them to take a 160 morale penalty to strength for 30 seconds.",
     "category": "Morale"
@@ -517,7 +517,7 @@
     "incant": "Passive",
     "cooldown": "No cooldown",
     "note": "",
-    "description": "Whenever you spend blood lust, you gain 3% critical chance for each blood lust spent for 6 seconds.",
+    "description": "Whenever you use a Frenzy, your chance to critically hit is increased by 15% for 3 seconds. The duration of this eddect is increased by 1 second per Bloodlust spent.",
     "category": "CareerTactic"
   },
 
@@ -531,7 +531,7 @@
     "cost": "Rank 4 morale",
     "range": "No range",
     "incant": "Instant Cast",
-    "cooldown": "1m cooldown",
+    "cooldown": "60s cooldown",
     "note": "",
     "description": "All of your abilities will cost 25% fewer action points, cool down 50% faster, and deal 20% more damage for 7 seconds.",
     "category": "Morale"
@@ -545,11 +545,11 @@
     "spec": "Path of Treachery",
     "minrank": "6",
     "cost": "Costs 35 AP",
-    "range": "5ft range",
+    "range": "30ft range",
     "incant": "Instant Cast",
-    "cooldown": "10s cooldown",
+    "cooldown": "No cooldown",
     "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-    "description": "You quickly strike your target two times, dealing damage and inflicting an ailment on them for 10 seconds which causes them to take an ability penalty to wounds.<br>  1 Blood Lust: A physical damage per hit; Wounds reduced by V.<br>  2 Blood Lust: B physical damage per hit; Wounds reduced by W.<br>  3 Blood Lust: C physical damage per hit; Wounds reduced by X.<br>  4 Blood Lust: D physical damage per hit; Wounds reduced by Y.<br>  5 Blood Lust: E physical damage per hit; Wounds reduced by Z.",
+    "description": "You quickly strike your target two times, dealing damage and inflicting an ailment on them for 15 seconds which causes them to take an ability penalty to wounds.<br>  1 Blood Lust: A physical damage per hit; Wounds reduced by V.<br>  2 Blood Lust: B physical damage per hit; Wounds reduced by W.<br>  3 Blood Lust: C physical damage per hit; Wounds reduced by X.<br>  4 Blood Lust: D physical damage per hit; Wounds reduced by Y.<br>  5 Blood Lust: E physical damage per hit; Wounds reduced by Z.",
     "category": "Ability"
   },
 
@@ -563,26 +563,10 @@
     "cost": "Costs 25 AP",
     "range": "5ft range",
     "incant": "Instant Cast",
-    "cooldown": "20.0s cooldown",
+    "cooldown": "20s cooldown",
     "note": "Target must be facing away from you<br>Builds 1 Blood Lust",
     "description": "Knocksdown your target for 3 seconds.",
     "category": "Ability"
-  },
-
-  {
-    "image": "22701",
-    "id": 5639,
-    "name": "Potion Master",
-    "type": "Buff",
-    "spec": "Path of Suffering",
-    "minrank": "1",
-    "cost": "Tactic",
-    "range": "No range",
-    "incant": "Passive",
-    "cooldown": "No cooldown",
-    "note": "",
-    "description": "Reduces the cooldowns of all of your elixirs by 20 seconds and the cooldown of Feinted Positioning by 40 seconds.",
-    "category": "CareerTactic"
   },
 
   {
@@ -597,7 +581,7 @@
     "incant": "Passive",
     "cooldown": "No cooldown",
     "note": "",
-    "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 606 corporeal damage over 9 seconds.",
+    "description": "Any time you critically hit an enemy they will begin to bleed, suffering additional 609 corporeal damage over 9 seconds.",
     "category": "CareerTactic"
   },
 
@@ -611,9 +595,9 @@
     "cost": "Costs 20 AP",
     "range": "5ft range",
     "incant": "Instant Cast",
-    "cooldown": "10.0s cooldown",
+    "cooldown": "10s cooldown",
     "note": "You may only have one Kiss active.",
-    "description": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra X corporeal damage. The concoction seeps into your enemy, causing them to take a (2 * rank) initiative penalty for the next 10 seconds. You capitalize on their momentary weakness, granting you a ability bonus to initiative for the same amount during this time.",
+    "description": "You cover your blades with a toxic concoction. For the next 30 minutes, anytime you damage an enemy there is a 25% chance that your target will take an extra X corporeal damage. The concoction seeps into your enemy, causing them to take a (2 * rank) initiative penalty for the next 10 seconds. You capitalize on their momentary weakness, granting you a ability bonus to initiative for the same amount during this time.<br><br>You may apply Kisses while Shadow Prowling without dismissing the effect.",
     "category": "Ability"
   },
 
@@ -627,9 +611,9 @@
     "cost": "Costs 20 AP",
     "range": "5ft range",
     "incant": "Instant Cast",
-    "cooldown": "10.0s cooldown",
+    "cooldown": "10s cooldown",
     "note": "You may only have one Kiss active.",
-    "description": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra X corporeal damage. The concoction seeps into your enemy, causing them to lose 20 action points. Seeing your enemy suffer causes you to gain as many action points as they have lost.",
+    "description": "You cover your blades with a toxic concoction. For the next 30 minutes, anytime you damage an enemy there is a 25% chance that your target will take an extra X corporeal damage. The concoction seeps into your enemy, causing them to lose 10 action points. Seeing your enemy suffer causes you to gain as many action points as they have lost.<br><br>You may apply Kisses while Shadow Prowling without dismissing the effect.",
     "category": "Ability"
   },
 
@@ -643,9 +627,9 @@
     "cost": "Costs 20 AP",
     "range": "5ft range",
     "incant": "Instant Cast",
-    "cooldown": "10.0s cooldown",
+    "cooldown": "10s cooldown",
     "note": "You may only have one Kiss active.",
-    "description": "You cover your blades with a toxic concoction. Anytime you damage an enemy there is a 25% chance that your target will take an extra X corporeal damage. The concoction seeps into your enemy, causing all healing done by them to be reduced to 50% for the next 5 seconds.",
+    "description": "You cover your blades with a toxic concoction. For the next 30 minutes, anytime you damage an enemy there is a 25% chance that your target will take an extra X corporeal damage. The concoction seeps into your enemy, causing all healing done by them to be reduced to 50% for the next 5 seconds.<br><br>You may apply Kisses while Shadow Prowling without dismissing the effect.",
     "category": "Ability"
 },
 
@@ -661,7 +645,7 @@
     "incant": "Passive",
     "cooldown": "No cooldown",
     "note": "",
-    "description": "Your kisses will now heal you for 100% of the damage they deal.",
+    "description": "Kiss of Death will now heal you for the damage it deals.",
     "category": "CareerTactic"
   },
 
@@ -677,7 +661,23 @@
     "incant": "Passive",
     "cooldown": "No cooldown",
     "note": "",
-    "description": "After hitting an enemy with Treacherous Assault, Vehement Blades, or Enfeebling Strike, you will deal 15% more damage for 18 seconds.",
+    "description": "After hitting an enemy with Treacherous Assault, Vehement Blades, or Enfeebling Strike, you will deal 15% more damage for 10 seconds.",
+    "category": "CareerTactic"
+  },
+
+  {
+    "image": "22709",
+    "id": 9913,
+    "name": "Menace",
+    "type": "Buff",
+    "spec": "Core Ability",
+    "minrank": "29",
+    "cost": "Tactic",
+    "range": "No range",
+    "incant": "Passive",
+    "cooldown": "No cooldown",
+    "note": "",
+    "description": "Enemy monsters will now hate  you 100% more than normal on all attacks.",
     "category": "CareerTactic"
   },
 
@@ -691,9 +691,9 @@
     "cost": "Costs 35 AP",
     "range": "30ft range",
     "incant": "Instant Cast",
-    "cooldown": "10.0s cooldown",
+    "cooldown": "10s cooldown",
     "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-    "description": "You spin around and strike your target with a pair of quick, punishing attacks that does damage to your target an all enemies around them.<br>  1 Blood Lust: V corporeal damage per hit, 30 feet radius.<br>  2 Blood Lust: W corporeal damage per hit, 35 feet radius.<br>  3 Blood Lust: X corporeal damage per hit, 40 feet radius.<br>  4 Blood Lust: Y corporeal damage per hit, 43.3 feet radius.<br>  5 Blood Lust: Z corporeal damage per hit, 48.3 feet radius.",
+    "description": "You spin around and strike your target with a pair of quick, punishing attacks that does damage to your target and up to 15 enemies around them.<br>  1 Blood Lust: V corporeal damage per hit, 30 feet radius.<br>  2 Blood Lust: W corporeal damage per hit, 35 feet radius.<br>  3 Blood Lust: X corporeal damage per hit, 40 feet radius.<br>  4 Blood Lust: Y corporeal damage per hit, 43.3 feet radius.<br>  5 Blood Lust: Z corporeal damage per hit, 48.3 feet radius.",
     "category": "Ability"
   },
 
@@ -707,7 +707,7 @@
     "cost": "Rank 4 morale",
     "range": "No range",
     "incant": "Instant Cast",
-    "cooldown": "1m cooldown",
+    "cooldown": "60s cooldown",
     "note": "",
     "description": "All enemies within 30 feet instantly lose 125 action points, and will regain action points 50% more slowly for the next 10 seconds.",
     "category": "Morale"
@@ -739,10 +739,26 @@
     "cost": "Costs 35 AP",
     "range": "5ft range",
     "incant": "Instant Cast",
-    "cooldown": "10.0s cooldown",
+    "cooldown": "10s cooldown",
     "note": "Builds 1 Blood Lust",
-    "description": "A powerful stab that slices through the target's defenses, dealing X physical damage to your target and ignoring all of their armor. If the target suffers from an ailment, then you gain a (3 * rank) ability bonus to weaponskill for 20 seconds.",
+    "description": "A powerful stab that slices through the target's defenses, dealing X physical damage to your target and ignoring all of their armor. If the target suffers from an ailment, then you gain a (3 * rank) ability bonus to weaponskill for 10 seconds.",
     "category": "Ability"
+  },
+
+  {
+    "image": "22701",
+    "id": 5639,
+    "name": "Potion Master",
+    "type": "Buff",
+    "spec": "Path of Suffering",
+    "minrank": "1",
+    "cost": "Tactic",
+    "range": "No range",
+    "incant": "Passive",
+    "cooldown": "No cooldown",
+    "note": "",
+    "description": "Reduces the cooldowns of all of your elixirs by 20 seconds and the cooldown of Feinted Positioning by 40 seconds.",
+    "category": "CareerTactic"
   },
 
   {
@@ -757,7 +773,7 @@
     "incant": "Instant Cast",
     "cooldown": "No cooldown",
     "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-    "description": "You quickly stab your target twice by passing all armor, dealing damage based on your Blood Lust.<br>  1 Blood Lust: V physical damage per hit<br>  2 Blood Lust: W physical damage per hit<br>  3 Blood Lust: X physical damage per hit<br>  4 Blood Lust: Y physical damage per hit<br>  5 Blood Lust: Z physical damage per hit",
+    "description": "You quickly stab your target twice, dealing damage and ignoring 20% armor per Blood Lust.<br>  1 Blood Lust: V physical damage per hit<br>  2 Blood Lust: W physical damage per hit<br>  3 Blood Lust: X physical damage per hit<br>  4 Blood Lust: Y physical damage per hit<br>  5 Blood Lust: Z physical damage per hit",
     "category": "Ability"
   },
 
@@ -771,14 +787,14 @@
     "cost": "Rank 2 morale",
     "range": "No range",
     "incant": "Instant Cast",
-    "cooldown": "1m cooldown",
+    "cooldown": "60s cooldown",
     "note": "",
     "description": "A prolonged fervor that grants 10 action points a second to everyone in your group within 100 feet of you for 10 seconds.",
     "category": "Morale"
   },
 
   {
-    "image": "22702",
+    "image": "22709",
     "id": 5613,
     "name": "Riposte",
     "type": "Buff",
@@ -802,8 +818,8 @@
     "minrank": "12",
     "cost": "Costs 15 AP/sec",
     "range": "5ft range",
-    "incant": "3.0s cast",
-    "cooldown": "8.0s cooldown",
+    "incant": "3s cast",
+    "cooldown": "10s cooldown",
     "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
     "description": "A relentless string of attacks which repeatedly strikes your target and all enemies within 20 feet of them up to 6 times over 3 seconds.<br>  1 Blood Lust: V physical damage.<br>  2 Blood Lust:  W physical damage.<br>  3 Blood Lust:  X physical damage.<br>  4 Blood Lust:  Y physical damage.<br>  5 Blood Lust:  Z physical damage.",
     "category": "Ability"
@@ -833,11 +849,11 @@
     "spec": "Path of Suffering",
     "minrank": "1",
     "cost": "Costs 35 AP",
-    "range": "5ft range",
+    "range": "30ft range",
     "incant": "Instant Cast",
-    "cooldown": "10.0s cooldown",
+    "cooldown": "10s cooldown",
     "note": "Target must be facing away from you<br>Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
-    "description": "You offer up your target as a sacrifice, stabbing them twice and healing yourself for all damage that you dealt. Your auto attack speed will be increased by 10%, and your enemy will be snared based by 3%, per resource point spent for 15 seconds.<br>  1 Blood Lust: V physical damage per hit.<br>  2 Blood Lust: W physical damage per hit.<br>  3 Blood Lust: X physical damage per hit.<br>  4 Blood Lust: Y physical damage per hit.<br>  5 Blood Lust: Z physical damage per hit.",
+    "description": "You offer up your target as a sacrifice, stabbing them twice and healing yourself for all damage that you dealt. Your auto attack speed will be increased by 10%, and your enemy will be snared based by 3%, per resource point spent.<br>  1 Blood Lust: V physical damage per hit.<br>  2 Blood Lust: W physical damage per hit.<br>  3 Blood Lust: X physical damage per hit.<br>  4 Blood Lust: Y physical damage per hit.<br>  5 Blood Lust: Z physical damage per hit.",
     "category": "Ability"
   },
 
@@ -858,22 +874,6 @@
   },
 
   {
-    "image": "02497",
-    "id": 5594,
-    "name": "Sever Blessing",
-    "type": "Damaging",
-    "spec": "Core Ability",
-    "minrank": "22",
-    "cost": "Costs 25 AP",
-    "range": "5ft range",
-    "incant": "Instant Cast",
-    "cooldown": "5.0s cooldown",
-    "note": "Target must have a Blessing",
-    "description": "You sever one blessing from your enemy and do X physical damage",
-    "category": "Ability"
-  },
-
-  {
     "image": "10972",
     "id": 5590,
     "name": "Sever Limb",
@@ -883,7 +883,7 @@
     "cost": "Costs 35 AP",
     "range": "5ft range",
     "incant": "Instant Cast",
-    "cooldown": "10.0s cooldown",
+    "cooldown": "10s cooldown",
     "note": "Requires Parry",
     "description": "A precise crippling attack that deals X physical damage and disarms your target for 4 seconds, making them unable to use melee or ranged weapons.",
     "category": "Ability"
@@ -899,7 +899,7 @@
     "cost": "Rank 1 morale",
     "range": "5ft range",
     "incant": "Instant Cast",
-    "cooldown": "1m cooldown",
+    "cooldown": "60s cooldown",
     "note": "",
     "description": "A directed strike that inflicts 1200 damage to your target.",
     "category": "Morale"
@@ -914,10 +914,10 @@
     "minrank": "10",
     "cost": "No AP Cost",
     "range": "No range",
-    "incant": "2.0s cast",
-    "cooldown": "35.0s cooldown",
+    "incant": "2s cast",
+    "cooldown": "45s cooldown",
     "note": "",
-    "description": "You prowl through the shadows for the next 30 seconds, rendering you invisible to your foes unless you or they draw too close. You are less likely to be noticed when stationary, flanking your target or if you have high initiative.<br> The cooldown of this abillity is reduced by 1 second for every enemy within 100 feet of you when the effect is broken.<br> This effect will slwoly drain your action points and will end if you use any abilities or run out of action points.",
+    "description": "You prowl through the shadows for the next 30 seconds, rendering you invisible to your foes unless you or they draw too close. You are less likely to be noticed when stationary, flanking your target or if you have high initiative.<br><br> This effect will slwoly drain your action points and will end if you use any abilities or run out of action points.",
     "category": "Ability"
   },
 
@@ -954,6 +954,22 @@
   },
 
   {
+    "image": "22709",
+    "id": 9914,
+    "name": "Subtlety",
+    "type": "Buff",
+    "spec": "Core Ability",
+    "minrank": "29",
+    "cost": "Tactic",
+    "range": "No range",
+    "incant": "Passive",
+    "cooldown": "No cooldown",
+    "note": "",
+    "description": "Enemy monsters will hate  you 25% less than normal.",
+    "category": "CareerTactic"
+  },
+
+  {
     "image": "22702",
     "id": 5625,
     "name": "Swift Blades",
@@ -966,22 +982,6 @@
     "cooldown": "No cooldown",
     "note": "",
     "description": "Increases your chance to parry attacks by 10%. Each time you parry an attack, you will regain 30 action points.<br>This effect will not trigger more than once every 3 seconds.",
-    "category": "CareerTactic"
-  },
-
-  {
-    "image": "22708",
-    "id": 5605,
-    "name": "Swift Pursuit",
-    "type": "Buff",
-    "spec": "Core Ability",
-    "minrank": "37",
-    "cost": "Tactic",
-    "range": "No range",
-    "incant": "Passive",
-    "cooldown": "No cooldown",
-    "note": "",
-    "description": "Fleet-Footed will now also increase your run speed by 25%.",
     "category": "CareerTactic"
   },
 
@@ -1011,9 +1011,9 @@
     "cost": "Costs 25 AP",
     "range": "5ft range",
     "incant": "Instant Cast",
-    "cooldown": "20.0s cooldown",
+    "cooldown": "20s cooldown",
     "note": "Builds 1 Blood Lust",
-    "description": "A swift slice that silences your target, making them unable to use magic for 4 seconds. You will also deal X physical damage to your target if you attack them from behind.",
+    "description": "A swift slice that silences your target, making them unable to use magic for 3 seconds. You will also deal X physical damage to your target if you attack them from behind.",
     "category": "Ability"
   },
 
@@ -1026,7 +1026,7 @@
     "minrank": "1",
     "cost": "Costs 20 AP",
     "range": "5-65ft range",
-    "incant": "1.0s cast",
+    "incant": "1s cast",
     "cooldown": "No cooldown",
     "note": "",
     "description": "A quick dagger throw which deals X physical damage.<br>Your attack will snare the enemy if used behind your target, reducing their run speed by 40% for 5 seconds.",
@@ -1061,7 +1061,7 @@
     "incant": "Instant Cast",
     "cooldown": "No cooldown",
     "note": "Requires Prowling",
-    "description": "You leap out of the shadows in an insane rage. You deal strike twice for X physical damage to all enemies within 30 feet of you. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Blood Lust.",
+    "description": "You leap out of the shadows in an insane rage. All enemies within 30ft of you take X physical damage. Your abilities will cost 50% fewer Action Points for 10 seconds. Builds 2 Blood Lust.",
     "category": "Ability"
   },
 
@@ -1075,7 +1075,7 @@
     "cost": "Rank 2 morale",
     "range": "No range",
     "incant": "Instant Cast",
-    "cooldown": "1m cooldown",
+    "cooldown": "60s cooldown",
     "note": "",
     "description": "Deals 1200 damage to all enemies in front of you, up to 65 feet away.",
     "category": "Morale"
@@ -1093,7 +1093,7 @@
     "incant": "Passive",
     "cooldown": "No cooldown",
     "note": "",
-    "description": "Your attacks which build blood lust will now have a 50% chance to build one additional blood lust. Treacherous Assault, Enfeebling Strike, and Vehement Blades will now generate 1 additional blood lust.",
+    "description": "Your attacks which build blood lust will now have a 50% chance to build one additional blood lust. Treacherous Assault, Enfeebling Strike, and Vehement Blades will now generate 3 blood lust.",
     "category": "CareerTactic"
   },
 
@@ -1107,7 +1107,7 @@
     "cost": "Costs 35 AP",
     "range": "No range",
     "incant": "Instant Cast",
-    "cooldown": "10.0s cooldown",
+    "cooldown": "10s cooldown",
     "note": "Frenzy - Requires Blood Lust<br>Costs 20% fewer action points per Blood Lust spent",
     "description": "You consume a noxious liquid distilled from blood which fills you with power, causing your next several attacks to each deal an additional X corporeal damage to your target.<br>  1 Blood Lust: Lasts for 2 attacks.<br>  2 Blood Lust: Lasts for 3 attacks.<br>  3 Blood Lust: Lasts for 4 attacks.<br>  4 Blood Lust: Lasts for 5 attacks.<br>  5 Blood Lust: Lasts for 6 attacks.",
     "category": "Ability"
@@ -1125,40 +1125,8 @@
     "incant": "Instant Cast",
     "cooldown": "No cooldown",
     "note": "Builds 1 Blood Lust",
-    "description": "A brutal attack that deals X corporeal damage to your target over 21 seconds. If the target is ailing, then they take a (3 * rank) ability penalty to toughness and weapon skill for 21 seconds.",
+    "description": "A brutal attack that deals X physical damage to your target over 21 seconds. If the target is ailing, then they take a (3 * rank) ability penalty to toughness and weapon skill for 21 seconds.",
     "category": "Ability"
-  },
-  
-  {
-    "image": "99999",
-    "id": 6100,
-    "name": "Blood Bomb (PH)",
-    "type": "Damaging",
-    "spec": "Path of Carnage",
-    "minrank": "10",
-    "cost": "No AP Cost",
-    "range": "No range",
-    "incant": "Instant cast",
-    "cooldown": "30.0s cooldown",
-    "note": "",
-    "description": "You throw a potion on the ground dealing X physical damage and interupting all enemies within 20 feet. For the next 6 seconds, this effect will happen again every 2 seconds.",
-    "category": "Ability"
-  },
-  
-   {
-    "image": "22702",
-    "id": 6102,
-    "name": "Close Combat",
-    "type": "Buff",
-    "spec": "Core Ability",
-    "minrank": "40",
-    "cost": "Tactic",
-    "range": "No range",
-    "incant": "Passive",
-    "cooldown": "No cooldown",
-    "note": "",
-    "description": "Any time you strike an enemy in melee with a direct attack, you will recieve 25% less damage from ranged or magical attacks for 2 seconds. This effect will not stack with damage reductions from abilities.",
-    "category": "CareerTactic"
   }
 ]
 }
