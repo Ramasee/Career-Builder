@@ -21,7 +21,7 @@
     "class": "Healer"
   },
     "witch-hunter": {
-    "name": "Witch Hunter (Coded/Not Matched)",
+    "name": "Witch Hunter",
     "slug": "witch-hunter",
     "faction": "Order",
     "race": "Empire",
@@ -91,15 +91,8 @@
     "class": "Tank"
   },
   "magus": {
-    "name": "Magus (Old/Current)",
+    "name": "Magus",
     "slug": "magus",
-    "faction": "Destruction",
-    "race": "Chaos",
-    "class": "Ranged DPS"
-  },
-      "notasorc": {
-    "name": "Magus (Direction)",
-    "slug": "notasorc",
     "faction": "Destruction",
     "race": "Chaos",
     "class": "Ranged DPS"
@@ -140,7 +133,7 @@
     "class": "Healer"
   },
   "squig-herder": {
-    "name": "Squig Herder (Need Pass)",
+    "name": "Squig Herder",
     "slug": "squig-herder",
     "faction": "Destruction",
     "race": "Greenskin",
@@ -168,17 +161,10 @@
     "class": "Ranged DPS"
   },
   "witch-elf": {
-    "name": "Witch Elf (Coded/Not Matched)",
+    "name": "Witch Elf",
     "slug": "witch-elf",
     "faction": "Destruction",
     "race": "Dark Elf",
     "class": "Melee DPS"
-  },
-                "squigmaster": {
-    "name": "",
-    "slug": "squigmaster",
-    "faction": "",
-    "race": "",
-    "class": ""
   }
 }
