@@ -5,9 +5,9 @@
       "optionalAbilities": {
         "lvl1": 5105,
         "lvl2": 5106,
-        "lvl3": 5107,
+        "lvl3": 5109,
         "lvl4": 5108,
-        "lvl5": 5109,
+        "lvl5": 5088,
         "lvl6": 5115,
         "lvl7": 5111
       },
@@ -29,7 +29,7 @@
     "c": {
       "name": "Path of Daemonology",
       "optionalAbilities": {
-        "lvl1": 5084,
+        "lvl1": 5081,
         "lvl2": 5120,
         "lvl3": 5121,
         "lvl4": 5122,
@@ -37,7 +37,7 @@
         "lvl6": 5124,
         "lvl7": 5125
       },
-      "coreAbilities": [5080,5061,5077,5063,5073]
+      "coreAbilities": [5080,5061,5069,5063,5059,8001]
     }
   },
   "data": [
@@ -51,7 +51,7 @@
       "cost": "Costs 25 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
+      "cooldown": "1m cooldown",
       "note": "",
       "description": "You summon and absorb orange flames to gain a X ability bonus to wounds for 20 seconds.. During this time, any enemies striking you has a 25% chance to receive X elemental damage from your flames.",
       "category": "Ability"
@@ -64,10 +64,10 @@
       "type": "Buff",
       "spec": "Path of Daemonology",
       "minrank": "1",
-      "cost": "Costs 45 AP",
+      "cost": "Costs 35 AP",
       "range": "No range",
-      "incant": "1s cast",
-      "cooldown": "20s cooldown",
+      "incant": "1.0s cast",
+      "cooldown": "20.0s cooldown",
       "note": "",
       "description": "Your disk emanates an aura of pain that inflicts X spirit damage every 3 seconds for 9 seconds.",
       "category": "Ability"
@@ -96,7 +96,7 @@
       "type": "Hex",
       "spec": "Path of Havoc",
       "minrank": "9",
-      "cost": "Costs 45 AP",
+      "cost": "Costs 30 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
@@ -114,8 +114,8 @@
       "minrank": "1",
       "cost": "Costs 30 AP",
       "range": "150ft range",
-      "incant": "3s cast",
-      "cooldown": "10s cooldown",
+      "incant": "3.0s cast",
+      "cooldown": "10.0s cooldown",
       "note": "",
       "description": "An un-defendable bolt of far traveling force that inflicts X elemental damage.",
       "category": "Ability"
@@ -126,7 +126,7 @@
       "id": 5107,
       "name": "Changer's Blessing",
       "type": "Healing",
-      "spec": "Path of Havoc",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
@@ -176,10 +176,10 @@
       "type": "Debuff",
       "spec": "Path of Daemonology",
       "minrank": "1",
-      "cost": "Costs 20 AP",
+      "cost": "Costs 45 AP",
       "range": "65ft range",
-      "incant": "1s cast",
-      "cooldown": "30s cooldown",
+      "incant": "1.0s cast",
+      "cooldown": "30.0s cooldown",
       "note": "",
       "description": "A rift in the warp is opened briefly, pulling up to six enemy players within 75 feet of the vortex towards it's center and then snaring everyone within 30 feet a second later by 40% for 4 seconds. Monsters will be knocked down by the initial pull.",
       "category": "Ability"
@@ -211,7 +211,7 @@
       "cost": "Rank 3 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
+      "cooldown": "1m cooldown",
       "note": "",
       "description": "Focusing the great powers of Chaos for 10 seconds, you may tirelessly use all your abilities for no AP cost.",
       "category": "Morale"
@@ -222,12 +222,12 @@
       "id": 5069,
       "name": "Daemonic Armor",
       "type": "Enchantment",
-      "spec": "Core Ability",
+      "spec": "Path of Daemonology",
       "minrank": "11",
       "cost": "Costs 35 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "10s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "",
       "description": "You surround yourself with daemonic protection, gaining a 560 ability bonus to Armor for up to 1 hours.",
       "category": "Ability"
@@ -254,12 +254,12 @@
       "id": 5073,
       "name": "Daemonic Infestation",
       "type": "Damaging",
-      "spec": "Path of Daemonology",
+      "spec": "Core Ability",
       "minrank": "18",
       "cost": "Costs 50 AP",
       "range": "65ft range",
       "incant": "Instant Cast",
-      "cooldown": "15s cooldown",
+      "cooldown": "15.0s cooldown",
       "note": "",
       "description": "You call fourth a small daemon which will persist in an area for 1 minute. The daemon will explode when an enemy gets too close dealing X spirit damage to all enemies within 30 feet and staggering them for 5 seconds, preventing all actions until they take damage.",
       "category": "Ability"
@@ -309,7 +309,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Forms a pact with newly summoned daemons that gives both you and your daemon a X unique bonus to toughness while your daemon remains in this realm.",
+      "description": "Forms a pact with newly summoned daemons that gives you a 15% chance to critically hit.",
       "category": "CareerTactic"
     },
   
@@ -334,7 +334,7 @@
       "id": 5077,
       "name": "Daemonic Resistance",
       "type": "Enchantment",
-      "spec": "Path of Daemonology",
+      "spec": "Core Ability",
       "minrank": "28",
       "cost": "Costs 55 AP",
       "range": "No range",
@@ -355,9 +355,9 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
+      "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 1600 damage to all targets in a line in front of you up to 65 feet away.",
+      "description": "Your summon screams applying Glean Magic, Pandemonium, Surge of Insanity, Infernal Blast, and Baleful Transmogrification to up to 18 enemies within 65 feet of it.",
       "category": "Morale"
     },
   
@@ -366,14 +366,14 @@
       "id": 5088,
       "name": "Daemonic Withering",
       "type": "Healing",
-      "spec": "Core Ability",
+      "spec": "Path of Havoc",
       "minrank": "39",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Withered Soul will now also cause the victim to suffer 15% more damage from all sources.",
+      "description": "Withered Soul has its cooldown, duration, and tick interval reduced by 50%. It will now also cause the victim to suffer 15% more damage from all sources.",
       "category": "CareerTactic"
     },
   
@@ -403,9 +403,9 @@
       "cost": "Costs 30 AP",
       "range": "65ft range",
       "incant": "Instant Cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "Summons a cloud of caustic mist that deals X spirit damage every 2 seconds to targets within 20 feet of the summoning point. After 10 seconds the cloud doubles in strength, dealing Y spirit damage and 10 seconds later will double in strength again, dealing Z spirit damage.<br> If there are multiple Dissolving Mist in the same area only the highest level mist will deal damage.",
+      "description": "Summons a cloud of caustic mist within 20 feet of the summoning point. Every second, enemies in the area gain a stack of Dissolving Mist. It deals X spiritual damage every second for 10 seconds and stacks up to 10 times.<br>If there are multiple Dissolving Mist in the same area only the highest level mist will deal damage.",
       "category": "Ability"
     },
   
@@ -437,7 +437,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Pandemonium will now reapply it's damage effect 50% of the time after it ends or is removed.",
+      "description": "Pandemonium will now reapply it's damage effect 50% of the time after it ends or is removed. Seed of Chaos has a 50% chance to apply Pandemonium to targets hit by its explosion.",
       "category": "CareerTactic"
     },
   
@@ -453,7 +453,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Flickering Red Fire and Surging Violet Fire will hit one additional enemy up to 15 feet away from the target.",
+      "description": "Whenever Surging Violet Fire hits an enemy within 40 feet, it becomes undefendable and removed movement effects from the target. (Charge, Sigil of Sigmar, Break Loose, Feline Grace, Etc)",
       "category": "CareerTactic"
     },
   
@@ -467,26 +467,10 @@
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
+      "cooldown": "1m cooldown",
       "note": "",
-      "description": "Summons a mighty Firewyrm that will rampage around attacking your enemies for 16 seconds.",
+      "description": "Summons a mighty Firewyrm replacing your summon that will rampage around attacking your enemies for 30 seconds.",
       "category": "Morale"
-    },
-  
-    {
-      "image": "22704",
-      "id": 5083,
-      "name": "Flame's Kiss",
-      "type": "Damaging",
-      "spec": "Core Ability",
-      "minrank": "27",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Rend Winds and Flickering Red Fire are now un-defendable.",
-      "category": "CareerTactic"
     },
   
     {
@@ -499,7 +483,7 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "30.0s cooldown",
       "note": "",
       "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
@@ -514,7 +498,7 @@
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "100ft range",
-      "incant": "2s cast",
+      "incant": "2.0s cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Summons a chaotic bundle of red flame that flies toward your opponent to inflict X elemental damage.",
@@ -531,7 +515,7 @@
       "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
+      "cooldown": "1m cooldown",
       "note": "",
       "description": "For the next 10 seconds, you will remove and ignore any silencing, disarming, rooting, snaring effects and your abilities will build 50% faster and may not be set back.",
       "category": "Morale"
@@ -544,7 +528,7 @@
       "type": "Hex",
       "spec": "Path of Changing",
       "minrank": "5",
-      "cost": "Costs 25 AP",
+      "cost": "Costs 40 AP",
       "range": "65ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
@@ -563,7 +547,7 @@
       "cost": "Rank 1 morale",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
+      "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 798 damage over 6 seconds and snares by 60% for 6 seconds",
       "category": "Morale"
@@ -579,7 +563,7 @@
       "cost": "Costs 20 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "15s cooldown",
+      "cooldown": "15.0s cooldown",
       "note": "",
       "description": "Horrifying images distract your opponent, causing them to deal only 50% damage against you for 15 seconds. You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted.",
       "category": "Ability"
@@ -594,10 +578,10 @@
       "minrank": "1",
       "cost": "Costs 15 AP/sec",
       "range": "100ft range",
-      "incant": "6s channel",
-      "cooldown": "16s cooldown",
+      "incant": "6.0s channel",
+      "cooldown": "16.0s cooldown",
       "note": "",
-      "description": "A horrible torrent of energy that deals X elemental damage every 2 seconds for 6 seconds. Victims killed while bathed in this flame will return 120 action points over 6 seconds to you.",
+      "description": "A horrible torrent of energy that deals X elemental damage every second for 6 seconds. Victims killed while bathed in this flame will return 120 action points over 6 seconds to you.",
       "category": "Ability"
     },
   
@@ -611,7 +595,7 @@
       "cost": "Costs 40 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "10s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "",
       "description": "A daemonic wave that warps the air in front of you dealing X elemental damage over 9 seconds to all targets 40 feet in front of you.",
       "category": "Ability"
@@ -622,14 +606,14 @@
       "id": 5081,
       "name": "Infernal Flesh",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Daemonology",
       "minrank": "15",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Daemons will be summoned with 160 more wounds.",
+      "description": "Daemons will be summoned with 25 Structure rather than 5.",
       "category": "CareerTactic"
     },
   
@@ -659,7 +643,7 @@
       "cost": "No AP Cost",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
+      "cooldown": "1m cooldown",
       "note": "Requires a summoned minion.",
       "description": "You force so much power into your daemon that it explodes from within, dealing X spirit damage to all targets within 30 feet, knocking them down for 4 seconds.",
       "category": "Ability"
@@ -670,7 +654,7 @@
       "id": 5084,
       "name": "Lasting Chaos",
       "type": "Buff",
-      "spec": "Path of Daemonology",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
@@ -691,26 +675,10 @@
       "cost": "Rank 1 morale",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
+      "cooldown": "1m cooldown",
       "note": "",
       "description": "A focused blast that deals 600 damage and knocks the targeted player away. Monsters will be knocked down.",
       "category": "Morale"
-    },
-  	
-    {
-      "image": "22709",
-      "id": 9087,
-      "name": "Menace",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "35",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Enemy monsters will hate you 100% more than normal on all attacks.",
-      "category": "CareerTactic"
     },
   
     {
@@ -723,7 +691,7 @@
       "cost": "Rank 1 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
+      "cooldown": "1m cooldown",
       "note": "",
       "description": "You gain a strong counter aura for the next 10 seconds that will reduce half of any incoming magic damage and redirect half of any direct damage back to the caster.",
       "category": "Morale"
@@ -738,8 +706,8 @@
       "minrank": "35",
       "cost": "Costs 45 AP",
       "range": "100ft range",
-      "incant": "2s cast",
-      "cooldown": "10s cooldown",
+      "incant": "2.0s cast",
+      "cooldown": "9.0s cooldown",
       "note": "",
       "description": "A column of blue flame washes over your target, dealing X elemental damage and then dealing an additional Y elemental damage over 9 seconds.",
       "category": "Ability"
@@ -752,10 +720,10 @@
       "type": "Hex",
       "spec": "Path of Changing",
       "minrank": "16",
-      "cost": "Costs 45 AP",
+      "cost": "Costs 35 AP",
       "range": "65ft range",
-      "incant": "1s cast",
-      "cooldown": "5s cooldown",
+      "incant": "1.0s cast",
+      "cooldown": "5.0s cooldown",
       "note": "",
       "description": "Chaotic swirls of power inflict X spirit damage over 15 seconds to your target and those within 20 feet of them.",
       "category": "Ability"
@@ -768,12 +736,12 @@
       "type": "Hex",
       "spec": "Path of Havoc",
       "minrank": "1",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 40 AP",
       "range": "100ft range",
-      "incant": "2s cast",
-      "cooldown": "30s cooldown",
+      "incant": "1.0s cast",
+      "cooldown": "30.0s cooldown",
       "note": "",
-      "description": "You open a rift dealing X elemental damage and weakens the fabric of reality surrounding your target, disarming them for 3 seconds.",
+      "description": "You open a rift dealing X elemental damage and weakens the fabric of reality surrounding your target, disarming them for 5 seconds.",
       "category": "Ability"
     },
   
@@ -786,7 +754,7 @@
       "minrank": "2",
       "cost": "Costs 35 AP",
       "range": "65ft range",
-      "incant": "1s cast",
+      "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "",
       "description": "Tears at your foe with fierce winds, hitting them three times for a total of X spirit damage.",
@@ -803,7 +771,7 @@
       "cost": "Costs 60 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "20s cooldown",
+      "cooldown": "20.0s cooldown",
       "note": "Requires a summoned minion.",
       "description": "You shift your active summoning circle to your current location, bringing your minion with it.",
       "category": "Ability"
@@ -819,7 +787,7 @@
       "cost": "Rank 2 morale",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
+      "cooldown": "1m cooldown",
       "note": "",
       "description": "Winds tear out from your target, dealing 300 damage to them and everyone within 20 feet every second for 4 seconds.",
       "category": "Morale"
@@ -835,7 +803,7 @@
       "cost": "Rank 3 morale",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
+      "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 1200 damage to your target, and staggers them for 9 seconds, preventing all actions until they take damage.",
       "category": "Morale"
@@ -848,10 +816,10 @@
       "type": "Hex",
       "spec": "Path of Changing",
       "minrank": "1",
-      "cost": "Costs 40 AP",
+      "cost": "Costs 30 AP",
       "range": "65ft range",
       "incant": "Instant Cast",
-      "cooldown": "10s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "",
       "description": "Grows a seed inside your target dealing X spirit damage over 15 seconds. After this time expires or the target is killed, the seed will explode using the victims life force to deal Y spirit damage to all targets within 20 feet.",
       "category": "Ability"
@@ -862,14 +830,14 @@
       "id": 5059,
       "name": "Shocking Jolt",
       "type": "Healing",
-      "spec": "Core Ability",
+      "spec": "Path of Daemonology",
       "minrank": "22",
-      "cost": "No AP Cost",
-      "range": "65ft range",
-      "incant": "Instant Cast",
-      "cooldown": "20s cooldown",
-      "note": "",
-      "description": "You remove stagger effects from an ally and five other allies within 25 feet.",
+      "cost": "Costs 15 AP/sec",
+      "range": "30ft range",
+      "incant": "4.5 channel",
+      "cooldown": "20.0s cooldown",
+      "note": "Requires a summoned minion.",
+      "description": "Restores 1 stack of structure and (Rank * 30) health to your summon every 0.5 seconds.",
       "category": "Ability"
     },
   
@@ -883,7 +851,7 @@
       "cost": "Rank 2 morale",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
+      "cooldown": "1m cooldown",
       "note": "",
       "description": "Steals up to 200 action points from your target and gives it to you, and causes your target to take a 160 morale penalty to intelligence for 30 seconds.",
       "category": "Morale"
@@ -915,26 +883,10 @@
       "cost": "Rank 4 morale",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
+      "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 2394 damage over 10 seconds and removes 50 action points every 2 seconds.",
       "category": "Morale"
-    },
-	
-    {
-      "image": "22709",
-      "id": 9086,
-      "name": "Subtlety",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "35",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Enemy monsters will hate you 25% less than normal.",
-      "category": "CareerTactic"
     },
   
     {
@@ -946,10 +898,10 @@
       "minrank": "6",
       "cost": "Costs 55 AP",
       "range": "No range",
-      "incant": "2s cast",
-      "cooldown": "5s cooldown",
+      "incant": "2.0s cast",
+      "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Summons a daemonic minion who specializes in short range Spiritual and Elemental area of effect attacks. This minion is confined to its summoning circle and cannot move. The daemonic minion gains 50% of your Intellgence from item bonuses and 100% of your Wounds from item bonuses. While you are within 25 feet of the daemon you will be steadily empowered but its unholy energy, increasing your damage by 4% every 2 secons to a maximum of 20%. You will generate 1 stack of unholy empowerment every 2s as long as you are within 30ft of your daemon, max 8 stacks. You will begin to lose stacks at 31 ft from your daemon; you will lose 4 if your daemon is destroy, and all stacks if another daemon is summoned.",
+      "description": "Summons a daemonic minion who specializes in short range area of effect attacks. You will generate Unholy Empowerment as long as you are within 30ft of your daemon. You will begin to lose stacks at 31 feet from your daemon; you will lose 4 if your daemon is destroyed, and all stacks if another daemon is summoned.",
       "category": "Ability"
     },
   
@@ -962,10 +914,10 @@
       "minrank": "8",
       "cost": "Costs 55 AP",
       "range": "No range",
-      "incant": "2s cast",
-      "cooldown": "5s cooldown",
+      "incant": "2.0s cast",
+      "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Summons a daemonic minion who specializes in powerful moderate range Spiritual attacks. This minion is confined to its summoning circle and cannot move. The daemonic minion gains 75% of your Intelligence from item bonuses and 75% of your Wounds from item bonuses. While you are within 25 feet of the daemon you will be steadily empowered by its unholy energy, increasing your damage by 4% every 2 seconds to a maximum of 20%. You will lose 4 stacks of this effect when you daemon is slain for any reason.",
+      "description": "Summons a daemonic minion who specializes in powerful moderate range spiritual attacks. You will generate Unholy Empowerment as long as you are within 40ft of your daemon. You will begin to lose stacks at 81 feet from your daemon; you will lose 4 if your daemon is destroyed, and all stacks if another daemon is summoned.",
       "category": "Ability"
     },
   
@@ -978,10 +930,10 @@
       "minrank": "3",
       "cost": "Costs 55 AP",
       "range": "No range",
-      "incant": "2s cast",
-      "cooldown": "5s cooldown",
+      "incant": "2.0s cast",
+      "cooldown": "5.0s cooldown",
       "note": "",
-      "description": "Summons a daemonic minion who specializes in long range Elemental attacks. This minion is confined to its summoning cirlce and cannot move. The daemonic minion gains 100% of your Intellignce from item bonuses and 50% of your Wounds from item bonuses. While you are within 25 feet of the daemon you will be steadily empowered by its unholy energy, increasing your damgage by 4% every 2 seconds to a maximum of 20%. You will lose 4 stacks fo this effect when your daemon is slain for any reason.",
+      "description": "Summons a daemonic minion who specializes in long range attacks. You will generate Unholy Empowerment as long as you are within 30ft of your daemon. You will begin to lose stacks at 31 feet from your daemon; you will lose 4 if your daemon is destroyed, and all stacks if another daemon is summoned.",
       "category": "Ability"
     },
   
@@ -992,29 +944,13 @@
       "type": "Damaging",
       "spec": "Path of Changing",
       "minrank": "14",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 40 AP",
       "range": "65ft range",
-      "incant": "1s cast",
-      "cooldown": "10s cooldown",
+      "incant": "1.0s cast",
+      "cooldown": "10.0s cooldown",
       "note": "",
       "description": "A surge of chaotic bliss overcomes your target, dealing X spirit damage. The victim and any other enemies within 20 feet of them are also interruped, cancelling any abilities that they are building up.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22709",
-      "id": 5086,
-      "name": "Surging Power",
-      "type": "Damaging",
-      "spec": "Core Ability",
-      "minrank": "35",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Increases critical damage from Infernal Blast, Surging Violet Fire, Flickering Red Fire, and Surge of Insanity by 50%.",
-      "category": "CareerTactic"
     },
   
     {
@@ -1024,19 +960,19 @@
       "type": "Damaging",
       "spec": "Path of Havoc",
       "minrank": "10",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 30 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "10s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "",
       "description": "Tendrils of writhing violet flame coil around your target, burning them for X elemental damage.",
       "category": "Ability"
     },
   
-    {
-      "image": "22703",
-      "id": 5087,
-      "name": "Swift Flames",
+        {
+      "image": "22697",
+      "id": 3642,
+      "name": "Tentacles!",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "37",
@@ -1045,10 +981,10 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduces Surging Violet Fire's cooldown by 7 seconds.",
+      "description": "After ending or being removed, Tzeentch's Grasp will now snare targets by 40% and deal X physical damage over 5 seconds.",
       "category": "CareerTactic"
     },
-  
+    
     {
       "image": "05296",
       "id": 5110,
@@ -1058,10 +994,10 @@
       "minrank": "1",
       "cost": "Costs 13 AP/sec",
       "range": "80ft range",
-      "incant": "6s cast",
-      "cooldown": "16s cooldown",
+      "incant": "6.0s cast",
+      "cooldown": "16.0s cooldown",
       "note": "",
-      "description": "Creates a great column of wind and flame that deals X spirit damage every 2 seconds to all targets within 20 feet of the area, and snares them by 20%. This spell requires a high amount of concentration and you will be set back by .5 seconds whenever hit.",
+      "description": "Creates a great column of wind and flame that deals X spirit damage every 2 seconds and snares them by 20%. This spell requires a high amount of concentration and you will be set back by .5 seconds whenever hit.",
       "category": "Ability"
     },
   
@@ -1075,7 +1011,7 @@
       "cost": "Costs 25 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "30.0s cooldown",
       "note": "",
       "description": "A summoning wave passes over those within 30 feet of you, calling fourth tentacles to bind their movement for 5 seconds. There is a 50% chance of the root breaking with every hit.",
       "category": "Ability"
@@ -1093,7 +1029,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your elemental resistance by 300. Gain a 169 unique bonus to corporeal and spiritual resistance.",
+      "description": "You gain a 252 unique bonus to elemental resistance.",
       "category": "CareerTactic"
     },
   
@@ -1123,7 +1059,7 @@
       "cost": "Rank 4 morale",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
+      "cooldown": "1m cooldown",
       "note": "",
       "description": "Deals 1800 damage to all enemies within 30 feet, and knocks them away from you.",
       "category": "Morale"
@@ -1152,10 +1088,10 @@
       "type": "Damaging",
       "spec": "Path of Daemonology",
       "minrank": "40",
-      "cost": "Costs 25 AP/sec",
+      "cost": "Costs 15 AP/sec",
       "range": "No range",
-      "incant": "3s channel",
-      "cooldown": "13s cooldown",
+      "incant": "3.0s channel",
+      "cooldown": "8.0s cooldown",
       "note": "",
       "description": "You channel warping flame through your disk, dealing X elemental damage to all targets within 30 feet of you every second for 3 seconds.",
       "category": "Ability"
@@ -1170,10 +1106,10 @@
       "minrank": "20",
       "cost": "Costs 30 AP",
       "range": "65ft range",
-      "incant": "1s cast",
-      "cooldown": "10s cooldown",
+      "incant": "1.0s cast",
+      "cooldown": "20.0s cooldown",
       "note": "",
-      "description": "Energy spirals towards your foe, dealing X spirit damage and knocking them back a short distance. Monsters will be knocked down.",
+      "description": "Energy spirals towards your foe,  knocking them away.",
       "category": "Ability"
     },
   
@@ -1189,7 +1125,55 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases critical chance for all Path Of Changing spells by 15%",
+      "description": "Each time a Path of Changing ability deals damage, you will gain 1 action point and 1 morale.",
+      "category": "CareerTactic"
+    },
+
+        {
+      "image": "abi_dw_range15",
+      "id": 8001,
+      "name": "Structure",
+      "type": "Buff",
+      "spec": "Path of Daemonology",
+      "minrank": "1",
+      "cost": "No cost",
+      "range": "No range",
+      "incant": "No cast",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "All of your daemons are summoned with 5 stacks of this buff. Your daemon gains (Rank * 2) wounds, toughness, initiative, and all resistances. Your daemon gains (Rank * 5) armor. Your daemon gains 10% of your bonus intelligence from items. Each time your daemon takes direct damage, it will lose one stack of structure.",
+      "category": "Ability"
+},
+
+    {
+      "image": "00000",
+      "id": 8000,
+      "name": "Unholy Empowerment",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "1",
+      "cost": "No cost",
+      "range": "No range",
+      "incant": "2.0s interval",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "You generate 1 stack of Unholy Empowerment every 2 seconds, maximum of 8 stacks.<BR><BR>Pink Horror: Each stack gives you +5% damage and +5% range (max of 25% range).<BR><BR>Flamer: If you have at least one stack, you can use Path of Changing abilities while moving and they have 35% faster tick intervals and durations. Each time you use an ability, lose one stack.<BR><BR>Blue Horror: Each time you use an ability lose one stack. Your Path of Daemonlogy abilites grant you 30% dodge/disrupt for 3 seconds, have a 6 increased target cap, and 50% increased radius.",
+      "category": "Ability"
+},
+    
+        {
+      "image": "22708",
+      "id": 8536,
+      "name": "Infernal Bonds",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "You will now gain a (Rank / 2) tactic bonus to initiative and all resistances and a (Rank * 1) tactic bonus to armor for each structure your daemon has.",
       "category": "CareerTactic"
     },
   
@@ -1200,10 +1184,10 @@
       "type": "Hex",
       "spec": "Path of Havoc",
       "minrank": "30",
-      "cost": "Costs 25 AP",
+      "cost": "Costs 40 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "20s cooldown",
+      "cooldown": "20.0s cooldown",
       "note": "",
       "description": "Your malice is forced directly into your target's soul, inflicting X elemental damage over 20 seconds while reducing their disrupt chance by 5%.",
       "category": "Ability"
