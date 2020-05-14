@@ -902,7 +902,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to block attacks by 10%, and you take only 95% damage from all attacks while you are holding a shield.",
+      "description": "Increases your chance to block attacks by 10%, the grudge cost of Shield Sweep is reduced by 10, and Shield of Reprisal no longer requires a block or parry in order to activate.",
       "category": "CareerTactic"
     },
   
@@ -933,7 +933,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Costs 20 Grudge<br>Requires Shield",
+      "note": "Costs 25 Grudge<br>Requires Shield",
       "description": "You bring your shield around in a smashing hit, dealing X physical damage to up to enemies within 25 feet of them.",
       "category": "Ability"
     },
