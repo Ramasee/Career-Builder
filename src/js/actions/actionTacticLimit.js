@@ -6,13 +6,13 @@ export function calculateTacticLimit(level) {
 
   let limit = 4;
 
-  if (Number(level) === 40) {
+  if (Number(level) === 16) {
     limit = 4;
-  } else if (Number(level) >= 30) {
+  } else if (Number(level) >= 12) {
     limit = 3;
-  } else if (Number(level) >= 20) {
+  } else if (Number(level) >= 8) {
     limit = 2;
-  } else if (Number(level) >= 10) {
+  } else if (Number(level) >= 4) {
     limit = 1;
   }
 
