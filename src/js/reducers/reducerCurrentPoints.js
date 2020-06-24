@@ -1,6 +1,6 @@
 import { RESET_CURRENT_POINTS, SET_CURRENT_POINTS } from "../actions/actionCurrentPoints";
 
-const initialPoints = 26;
+const initialPoints = 29;
 
 export default function(state = initialPoints, action) {
   switch (action.type) {
