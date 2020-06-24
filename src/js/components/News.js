@@ -7,8 +7,8 @@ const News = () =>
     <div className={css.heading}>Latest updates</div>
       <div className={css.item}>
       <span className={css.itemIcon}><IconChevronRight classes="icon--small" name="right chevron icon" nameSlug="right-chevron-icon" /></span>
-      <div className={css.itemDate}>April 22, 2019</div>
-      <span className={css.itemText}>Updated to current status/proposals</span>
+      <div className={css.itemDate}>June 23, 2020</div>
+      <span className={css.itemText}>Updated to character progression</span>
     </div>
       <div className={css.item}>
       <span className={css.itemIcon}><IconChevronRight classes="icon--small" name="right chevron icon" nameSlug="right-chevron-icon" /></span>
