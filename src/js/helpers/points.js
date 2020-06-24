@@ -48,7 +48,6 @@ export function calculateMasteryPoints(level, renown) {
       default:
         break;
     }
-  }
   // return mastery points
   return points;
 }
