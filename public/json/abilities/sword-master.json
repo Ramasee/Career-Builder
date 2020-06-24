@@ -271,7 +271,7 @@
       "name": "Dazzling Strike",
       "type": "Hex",
       "spec": "Path of Hoeth",
-      "minrank": "12",
+      "minrank": "37",
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "Instant Cast",
