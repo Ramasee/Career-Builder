@@ -264,6 +264,22 @@
       "description": "A calculated shield maneuver that inflicts X physical damage to all enemies within 25ft in front of you. Additionally, for the next 20 seconds, groupmates within 100 feet have their block rate increased by 5% and gain a X unique bonus to armor.",
       "category": "Ability"
     },
+	  
+    {
+      "image": "13304",
+      "id": 2852,
+      "name": "Dazzling Strike",
+      "type": "Hex",
+      "spec": "Path of Hoeth",
+      "minrank": "12",
+      "cost": "No AP Cost",
+      "range": "5ft range",
+      "incant": "Instant Cast",
+      "cooldown": "No cooldown",
+      "note": "Requires Perfect Balance<br>Leads to Normal Balance",
+      "description": "When your blade hits your opponent it releases a blinding flash of light that deals X spiritual damage, and disorients your target for 5 seconds, increasing their build times by 50%.",
+      "category": "Ability"
+    },
   
     {
       "image": "22701",
