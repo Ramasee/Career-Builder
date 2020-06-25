@@ -608,7 +608,7 @@
       "name": "Long-Held Grudge",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "21",
+      "minrank": "40",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
