@@ -847,7 +847,7 @@
       "name": "Sever Blessing",
       "type": "Damaging",
       "spec": "Path of Dread",
-      "minrank": "22",
+      "minrank": "25",
       "cost": "Costs 25 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
