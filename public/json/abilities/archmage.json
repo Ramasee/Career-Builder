@@ -495,7 +495,7 @@
       "name": "Fury of Asuryan",
       "type": "Damaging",
       "spec": "Path of Asuryan",
-      "minrank": "2",
+      "minrank": "32",
       "cost": "Costs 35 AP",
       "range": "65ft range",
       "incant": "1s cast",
@@ -839,22 +839,6 @@
       "note": "",
       "description": "You employ your mastery of High Magic to gain 180 action points over 10 seconds. You will be unable to generate Force or Tranquility for the duration.",
       "category": "Ability"
-    },
-
-    {
-      "image": "22694",
-      "id": 3444,
-      "name": "Restorative Burst",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "29",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Any time one of your direct healing effects critically heals an ally, you will regain 40 action points over 3 seconds. (Currently disabled)",
-      "category": "CareerTactic"
     },
   
     {
