@@ -968,22 +968,6 @@
       "description": "A field of energy strikes the target and enemies within 20 feet of them, dealing X spiritual damage and causing them to take a Y ability penalty to spirit resistance for 20 seconds.",
       "category": "Ability"
     },
-  
-    {
-      "image": "22709",
-      "id": 3443,
-      "name": "Subtlety",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "25",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "All of your heals will cause enemy monsters to hate you 25% less than normal.",
-      "category": "CareerTactic"
-    },
 	
 	{
       "image": "13362",
