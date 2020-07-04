@@ -938,22 +938,6 @@
     },
   
     {
-      "image": "22709",
-      "id": 4162,
-      "name": "Subtlety",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "25",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "All of your heals will cause enemy monsters to hate you 25% less than normal.",
-      "category": "CareerTactic"
-    },
-  
-    {
       "image": "08030",
       "id": 4230,
       "name": "Supplication",
