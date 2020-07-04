@@ -431,7 +431,7 @@
       "name": "Expanded Transfer",
       "type": "Buff",
       "spec": "Path of Sacrifice",
-      "minrank": "39",
+      "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
