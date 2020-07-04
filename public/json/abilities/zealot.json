@@ -1039,7 +1039,7 @@
       "name": "Wind of Insanity",
       "type": "Blessing",
       "spec": "Core Ability",
-      "minrank": "1",
+      "minrank": "40",
       "cost": "Rank 1 morale",
       "range": "No range",
       "incant": "Instant Cast",
