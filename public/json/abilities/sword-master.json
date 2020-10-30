@@ -213,7 +213,7 @@
       "incant": "Instant Cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You challenge up to 9 opponents in front of you, forcing monsters to attack you. While challenged, your opponents will deal only 70% damage to everyone other than you. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
+      "description": "You challenge up to 9 opponents 65ft in front of you, forcing monsters to attack you. While challenged, your opponents will deal only 70% damage to everyone other than you. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability"
     },
   
