@@ -9,7 +9,7 @@
         "lvl4": 2894,
         "lvl5": 2890,
         "lvl6": 2891,
-        "lvl7": 2892
+        "lvl7": 2906
       },
       "coreAbilities": [2858,2847,2840,2841,2861]
     },
@@ -35,7 +35,7 @@
         "lvl4": 2889,
         "lvl5": 7503,
         "lvl6": 2905,
-        "lvl7": 2906
+        "lvl7": 2892
       },
       "coreAbilities": [2848,2942,2853,2852,2854]
     }
@@ -133,7 +133,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You become protected by a magical shell for a few moments which will strike back at any attacker for 600 damage and absorb up to 3600 damage for up to 10 seconds.",
+      "description": "You become protected by a magical shell for a few moments which will strike back at any attacker for 300 + 0.6STR spiritual damage for 15 seconds.",
       "category": "Morale"
     },
 
@@ -545,11 +545,11 @@
       "spec": "Core Ability",
       "minrank": "26",
       "cost": "Rank 1 morale",
-      "range": "No range",
+      "range": "50ft range",
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Group members within 100 feet gain a 120 morale bonus to toughness for 10 seconds.",
+      "description": "Remove up to 6 ailments, curses, and hexes from target groupmate. They will be healed for 200 for each effect removed.",
       "category": "Morale"
     },
   
@@ -837,7 +837,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance",
-      "description": "A rapid slash to your opponents legs that deals X physical damage and snares them by 40% for 10 seconds.",
+      "description": "A rapid slash to your opponents legs that deals X physical damage and snares them by 30% for 8 seconds.",
       "category": "Ability"
     },
   
@@ -910,14 +910,14 @@
       "id": 2906,
       "name": "Shadow Blades",
       "type": "Damaging",
-      "spec": "Path of Hoeth",
+      "spec": "Path of Khaine",
       "minrank": "1",
-      "cost": "Rank 4 morale",
-      "range": "No range",
+      "cost": "Rank 2 morale",
+      "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
+      "cooldown": "45s cooldown",
       "note": "",
-      "description": "All enemies within 30 feet suffer 1200 damage over 12 seconds, and will steadily lose 28 morale.",
+      "description": "Target enemy takes a (rank * 7.5) morale penalty to spiritual resistance and loses 10 morale per second for 30s.",
       "category": "Morale"
     },
   
@@ -944,12 +944,12 @@
       "type": "Buff",
       "spec": "Path of Vaul",
       "minrank": "1",
-      "cost": "Rank 4 morale",
+      "cost": "Rank 3 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
-      "note": "Requires Shield",
-      "description": "Everyone in your group regains 200 action points and is protected by a magical barrier for 10 seconds which will absorb up to 3000 damage.",
+      "cooldown": "30s cooldown",
+      "note": "",
+      "description": "Everyone in your group is protected by a magical barrier for 30 seconds which will absorb up to 4500 damage.",
       "category": "Morale"
     },
   
@@ -1070,14 +1070,14 @@
       "id": 2892,
       "name": "Whirling Geyser",
       "type": "Damaging",
-      "spec": "Path of Khaine",
+      "spec": "Path of Hoeth",
       "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
-      "note": "Requires Great Weapon",
-      "description": "A spinning attack that inflicts 800 damage to all enemies within 30 feet and then knocks them away.",
+      "note": "",
+      "description": "Up to 48 enemies within 40ft are knocked high into the air.",
       "category": "Morale"
     },
   
