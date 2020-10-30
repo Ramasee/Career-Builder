@@ -69,7 +69,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Dazzling strike will now deal its damage to enemies within 30 feet of the target.",
+      "description": "Dazzling strike will now deal its damage to up to 9 enemies within 30 feet of the target.",
       "category": "CareerTactic"
     },
 	
@@ -165,7 +165,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "When blade enchants trigger they will now restore X health over 10 seconds to your group members within 100 feet of you.",
+      "description": "Whenever Heaven's Blade, Phantom's Blade, or Nature's Blade triggers you will restore X health immediately and Y health over 10 seconds to groupmates within 100 feet of you.",
       "category": "CareerTactic"
     },
   
@@ -197,7 +197,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional 252 spiritual damage over 3 seconds.",
+      "description": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional X spiritual damage over 3 seconds. This damage scales with strength, ballistic skill, and intelligence.",
       "category": "CareerTactic"
     },
   
@@ -261,7 +261,7 @@
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance<br>Requires Shield",
-      "description": "A calculated shield maneuver that inflicts X physical damage to all enemies within 25ft in front of you. Additionally, for the next 20 seconds, groupmates within 100 feet have their block rate increased by 5% and gain a X unique bonus to armor.",
+      "description": "A calculated shield maneuver that inflicts X physical damage to up to 9 enemies within 25ft in front of you. Additionally, for the next 20 seconds, groupmates within 100 feet have their block rate increased by 5% and gain a Y unique bonus to armor.",
       "category": "Ability"
     },
 	  
@@ -293,7 +293,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Quick Incision will now inflict an additional X physical damage over 10 seconds.",
+      "description": "Quick Incision will now inflict an additional X spiritual damage over 8 seconds.",
       "category": "CareerTactic"
     },
   
@@ -309,7 +309,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A powerful melee attack that causes target to take a 1056 morale penalty to armor and deals 900 damage over 15 seconds",
+      "description": "A powerful melee attack that causes target to take a 1200 morale penalty to armor and deals 600 + 1.5 STR physical damage over 15 seconds",
       "category": "Morale"
     },
   
@@ -325,7 +325,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your attacks have a 10% reduced chance to be defended against.",
+      "description": "Gain a 10% tactic bonus to parry strikethrough, dodge strikethrough, and disrupt strikethrough.",
       "category": "CareerTactic"
     },
   
@@ -336,12 +336,12 @@
       "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "13",
-      "cost": "Rank 3 morale",
-      "range": "100ft range",
+      "cost": "Rank 2 morale",
+      "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A loud shout that startles your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
+      "description": "A loud shout that startles up to 9 enemies within 30 feet of you, reducing their damage dealt by 50% for 7 seconds.",
       "category": "Morale"
     },
   
@@ -437,23 +437,23 @@
       "incant": "3s channel",
       "cooldown": "8s cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance<br>Requires Great Weapon",
-      "description": "You focus on your target, slashing repeatedly for up to 3 seconds, striking them up to five times and dealing X spiritual damage with each hit.",
+      "description": "You focus on your target, slashing repeatedly for up to 3 seconds, striking them up to seven times and dealing X spiritual damage with each hit.",
       "category": "Ability"
     },
   
     {
       "image": "05004",
       "id": 2941,
-      "name": "Flee",
+      "name": "Rush",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "2",
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "45s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 25% for 8 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 8 seconds have passed.",
       "category": "Ability"
     },
   
@@ -485,7 +485,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Leads to Improved Balance",
-      "description": "A swift attack that deals X physical damage over 5 seconds. Monsters struck with this technique will hate you more.",
+      "description": "A swift attack that deals X physical damage over 5 seconds. Damage from this ability will generate double threat in NPCs.",
       "category": "Ability"
     },
   
@@ -533,7 +533,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Only usable on other players",
-      "description": "You defend one of your groupmates and try to take attacks meant for them. As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you, and 35% of all hate that they cause will be redirected to you.<br><br>Damage received from this ability can be blocked or parried, unless the original attack was undefendable.",
+      "description": "You defend one of your groupmates and try to take attacks meant for them. As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you.<br><br>Damage received from this ability can be blocked or parried, unless the original attack was undefendable.",
       "category": "Ability"
     },
   
@@ -565,7 +565,7 @@
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance",
-      "description": "You execute a quick spin, rending the air around you and producing a magical shockwave that which deals X spiritual damage to all opponents within 30 feet of you, knocking back enemy players and knocking down monsters.",
+      "description": "You execute a quick spin, rending the air around you and producing a magical shockwave that which deals X spiritual damage to up to 9 opponents within 30 feet of you, knocking back enemy players and knocking down NPCs.",
       "category": "Ability"
     },
 
@@ -610,10 +610,10 @@
       "minrank": "14",
       "cost": "Costs 20 AP/sec",
       "range": "No range",
-      "incant": "12s cast",
-      "cooldown": "No cooldown",
+      "incant": "5s cast",
+      "cooldown": "12s cooldown",
       "note": "Requires Shield",
-      "description": "You focus your defenses against enemy fire, increasing your chances to dodge and disrupt by 45% for 12 seconds. You will also defend all allies behind you, up to 50 feet away, increasing their chances to dodge and disrupt by 15% as long as they remain at your back. Allies may have this effect stacked on them up to 3 times.<br>This effect will end if you break your concentration, or run out of action points.",
+      "description": "While channeling, you will mark up to 48 enemies 65ft in front of you and up to 9 allies 65ft behind you. Enemies that are marked will deal 50% less area of effect damage to allies that are marked. This effect will end if you break your concentration, or run out of action points.",
       "category": "Ability"
     },
   
@@ -629,7 +629,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "An impressive display of defense which reduces incoming damage by 75% for both you and all group members within 100 feet of you for 10 seconds.",
+      "description": "All groupmates gain 25 stacks of immaculate defense for 10 seconds. Each stack grants 3% damage reduction. A stack is removed each time a target takes direct damage, and 5 stacks are removed if the target takes single target damage.",
       "category": "Morale"
     },
   
@@ -659,7 +659,7 @@
       "cost": "Costs 40 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5s cooldown",
+      "cooldown": "No cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance",
       "description": "An overpowering strike that deals X physical damage and causes your target to lose 10 morale per second for 10s.",
       "category": "Ability"
@@ -725,7 +725,7 @@
       "incant": "Instant Cast",
       "cooldown": "10s shared cooldown",
       "note": "",
-      "description": "You enchant your blade with the spirit of nature. All your melee attacks gain a 25% chance to randomly steal (3 * rank) ability penalty of one stat except wounds from targets within 30 feet of you for 10 seconds. During this time, both you and groupmates within 100 feet will benefit from the stolen stats.<br><br>You may have one Blade Enchantment active at a time.",
+      "description": "You enchant your blade with the spirit of nature. All your melee attacks gain a 25% chance to randomly steal (3 * rank) ability penalty of one stat except wounds from up to 9 targets within 30 feet of you for 10 seconds. During this time, both you and groupmates within 100 feet will gain an ability bonus to that stat.<br><br>You may have one Blade Enchantment active at a time.",
       "category": "Ability"
     },
   
@@ -773,7 +773,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance",
-      "description": "A broad slash dealing X spiritual damage that hits all opponents in front of you, up to 25 feet away. This ability generates additional hatred.",
+      "description": "A broad slash dealing X spiritual damage that hits up to 9 opponents in front of you, up to 25 feet away. Damage from this ability will generate double threat in NPCs.",
       "category": "Ability"
     },
   
@@ -789,7 +789,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You will gain 30 action points whenever a blade enchant triggers. This effect cannot happen more than once every 3 seconds.",
+      "description": "You will gain 30 action points whenever a Heaven's Blade, Phantom's Blade, or Nature's Blade triggers. This effect cannot happen more than once every 3 seconds.",
       "category": "CareerTactic"
     },
   
@@ -805,7 +805,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Blade enchantments will also deal X physical damage over 9 seconds whenever they trigger.",
+      "description": "Heaven's Blade, Phantom's Blade, and Nature's Blade will deal X physical damage over 9 seconds to the target that triggers them. This effect cannot refresh.",
       "category": "CareerTactic"
     },
   
@@ -848,12 +848,12 @@
       "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "21",
-      "cost": "Rank 2 morale",
+      "cost": "Rank 3 morale",
       "range": "No range",
-      "incant": "3s channel",
+      "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away.",
+      "description": "For the next 7s, up to 48 enemies within 65ft frontal cone will take a 800 morale penalty to armor and a 300 morale penalty to all resistances. This effect can stack up to 3x per target.",
       "category": "Morale"
     },
   
@@ -869,7 +869,7 @@
       "incant": "Instant Cast",
       "cooldown": "15s cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance",
-      "description": "Deals X physical damage. For the next 10s you will gain a (rank * 5) ability bonus to willpower. In addition, whenever you defend against an attack, you will deal Y spiritual damage to all enemies within 30ft.",
+      "description": "Deals X physical damage. For the next 10s you will gain a (rank * 5) ability bonus to willpower. In addition, whenever you defend against an attack, you will deal Y spiritual damage to up to 9 enemies within 30ft.",
       "category": "Ability"
     },
   
@@ -932,7 +932,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "5s cooldown",
-      "note": "Target must have an Enchantment",
+      "note": "Target must have an enchantment",
       "description": "A shattering attack that removes one enchantment from your enemy and do X physical damage.",
       "category": "Ability"
     },
@@ -965,7 +965,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "Requires Shield",
-      "description": "For the next 10 seconds, your chance to block is almost guaranteed.",
+      "description": "All groupmates gain a 40% increased chance to block and a 25% increased chance to parry, dodge, and disrupt for 10 seconds. This effect can stack up to 2 times.",
       "category": "Morale"
     },
 	
@@ -977,7 +977,7 @@
       "spec": "Core Ability",
       "minrank": "19",
       "cost": "No AP Cost",
-      "range": "250ft range",
+      "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
       "note": "",
@@ -997,7 +997,7 @@
       "incant": "Instant Cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
+      "description": "You enrage your opponent, interrupting any currently building abilities. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability"
     },
   
@@ -1093,7 +1093,7 @@
       "incant": "Instant Cast",
       "cooldown": "20s cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance",
-      "description": "You release two swift blows that deal X spiritual damage each to all enemies within 30 feet. The winds then aid group members within 100 feet for the next 10 seconds by decreasing the cooldown of abilities used by 5 seconds.",
+      "description": "You release two swift blows that deal X spiritual damage each to up to 9 enemies within 30 feet. The winds then aid group members within 100 feet for the next 10 seconds by decreasing the cooldown of abilities used by 5 seconds.",
       "category": "Ability"
     },
   
@@ -1109,7 +1109,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You magically leap through the air towards your target. When you land, all enemies around you will become snared for 10 seconds, reducing their run speed by 60%.",
+      "description": "You magically leap through the air towards your target. When you land, up to 9 enemies around you will become snared for 10 seconds, reducing their run speed by 60%.",
       "category": "Morale"
     },
   
@@ -1125,7 +1125,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance",
-      "description": "The magic from your blade is released in a staggering explosion that deals X spiritual damage to all opponents within 30 feet. In addition your targets take a X ability penalty to spirit resistance for 20 seconds.",
+      "description": "The magic from your blade is released in a staggering explosion that deals X spiritual damage to up to 9 opponents within 30 feet. In addition your targets take a X ability penalty to spirit resistance for 20 seconds.",
       "category": "Ability"
     }
   ]
