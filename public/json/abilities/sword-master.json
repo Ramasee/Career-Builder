@@ -213,7 +213,7 @@
       "incant": "Instant Cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You challenge up to 9 opponents 65ft in front of you, forcing monsters to attack you. While challenged, your opponents will deal only 70% damage to everyone other than you. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
+      "description": "You challenge up to 9 opponents 65 feet in front of you, forcing monsters to attack you. While challenged, your opponents will deal only 70% damage to everyone other than you. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability"
     },
   
@@ -261,7 +261,7 @@
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance<br>Requires Shield",
-      "description": "A calculated shield maneuver that inflicts X physical damage to up to 9 enemies within 25ft in front of you. Additionally, for the next 20 seconds, groupmates within 100 feet have their block rate increased by 5% and gain a Y unique bonus to armor.",
+      "description": "A calculated shield maneuver that inflicts X physical damage to up to 9 enemies within 25 feet in front of you. Additionally, for the next 20 seconds, groupmates within 100 feet have their block rate increased by 5% and gain a Y unique bonus to armor.",
       "category": "Ability"
     },
 	  
@@ -613,7 +613,7 @@
       "incant": "5s cast",
       "cooldown": "12s cooldown",
       "note": "Requires Shield",
-      "description": "While channeling, you will mark up to 48 enemies 65ft in front of you and up to 9 allies 65ft behind you. Enemies that are marked will deal 50% less area of effect damage to allies that are marked. This effect will end if you break your concentration, or run out of action points.",
+      "description": "While channeling, you will mark up to 48 enemies 65 feet in front of you and up to 9 allies 65 feet behind you. Enemies that are marked will deal 50% less area of effect damage to allies that are marked. This effect will end if you break your concentration, or run out of action points.",
       "category": "Ability"
     },
   
@@ -629,7 +629,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All groupmates gain 25 stacks of immaculate defense for 10 seconds. Each stack grants 3% damage reduction. A stack is removed each time a target takes direct damage, and 5 stacks are removed if the target takes single target damage.",
+      "description": "All groupmates within 100 feet gain 25 stacks of immaculate defense for 10 seconds. Each stack grants 3% damage reduction. A stack is removed each time a target takes direct damage, and 5 stacks are removed if the target takes single target damage.",
       "category": "Morale"
     },
   
@@ -645,7 +645,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each time you parry an attack, you will also parry the next attack. This double parry can not occur more than once every 2 seconds.",
+      "description": "Each time you parry an attack, you will gain 100% parry for 5s which is removed when you parry. This double parry can not occur more than once every 2 seconds.",
       "category": "CareerTactic"
     },
   
@@ -741,7 +741,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increase block and parry chances by 8% for 6s after using a Perfect Balance ability.",
+      "description": "Increase block and parry chances by 8% for 6 seconds after using a Perfect Balance ability.",
       "category": "CareerTactic"
     },
   
@@ -853,7 +853,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "For the next 7s, up to 48 enemies within 65ft frontal cone will take a 800 morale penalty to armor and a 300 morale penalty to all resistances. This effect can stack up to 3x per target.",
+      "description": "For the next 7 seconds, up to 48 enemies within 65 feet frontal cone will take a 800 morale penalty to armor and a 300 morale penalty to all resistances. This effect can stack up to 3 times per target.",
       "category": "Morale"
     },
   
@@ -869,7 +869,7 @@
       "incant": "Instant Cast",
       "cooldown": "15s cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance",
-      "description": "Deals X physical damage. For the next 10s you will gain a (rank * 5) ability bonus to willpower. In addition, whenever you defend against an attack, you will deal Y spiritual damage to up to 9 enemies within 30ft.",
+      "description": "Deals X physical damage. For the next 10 seconds, you will gain a (rank * 5) ability bonus to willpower. In addition, whenever you defend against an attack, you will deal Y spiritual damage to up to 9 enemies within 30 feet.",
       "category": "Ability"
     },
   
@@ -917,7 +917,7 @@
       "incant": "Instant Cast",
       "cooldown": "45s cooldown",
       "note": "",
-      "description": "Target enemy takes a (rank * 7.5) morale penalty to spiritual resistance and loses 10 morale per second for 30s.",
+      "description": "Target enemy takes a (rank * 7.5) morale penalty to spiritual resistance and loses 10 morale per second for 30 seconds.",
       "category": "Morale"
     },
   
@@ -949,7 +949,7 @@
       "incant": "Instant Cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "Everyone in your group is protected by a magical barrier for 30 seconds which will absorb up to 4500 damage.",
+      "description": "Groupmates within 100 feet are protected by a magical barrier for 30 seconds which will absorb up to 4500 damage.",
       "category": "Morale"
     },
   
@@ -965,7 +965,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "Requires Shield",
-      "description": "All groupmates gain a 40% increased chance to block and a 25% increased chance to parry, dodge, and disrupt for 10 seconds. This effect can stack up to 2 times.",
+      "description": "All groupmates within 100 feet gain a 40% increased chance to block and a 25% increased chance to parry, dodge, and disrupt for 10 seconds. This effect can stack up to 2 times.",
       "category": "Morale"
     },
 	
@@ -1045,7 +1045,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "On a successful block, parry, dodge or disrupt you will absorb up to 400 damage over the next 10 seconds. This effect will not trigger more than once every 3 seconds, but can stack up to 3x.",
+      "description": "On a successful block, parry, dodge or disrupt you will absorb up to X damage over the next 10 seconds. This effect will not trigger more than once every 3 seconds, but can stack up to 3 times.",
       "category": "CareerTactic"
     },
   
@@ -1077,7 +1077,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Up to 48 enemies within 40ft are knocked high into the air.",
+      "description": "Up to 48 enemies within 40 feet are knocked high into the air.",
       "category": "Morale"
     },
   
