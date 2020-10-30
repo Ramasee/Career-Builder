@@ -101,7 +101,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to critically hit by 15% for 6s after using a Perfect Balance ability.",
+      "description": "Increases your chance to critically hit by 15% for 6 seconds after using a Perfect Balance ability.",
       "category": "CareerTactic"
     },
   
@@ -181,7 +181,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increase disrupt and dodge chance by 15% for 6s after using a Perfect Balance ability.",
+      "description": "Increase disrupt and dodge chance by 15% for 6 seconds after using a Perfect Balance ability.",
       "category": "CareerTactic"
     },
   
@@ -645,7 +645,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each time you parry an attack, you will gain 100% parry for 5s which is removed when you parry. This double parry can not occur more than once every 2 seconds.",
+      "description": "Each time you parry an attack, you will gain 100% parry for 5 seconds which is removed when you parry. This double parry can not occur more than once every 2 seconds.",
       "category": "CareerTactic"
     },
   
