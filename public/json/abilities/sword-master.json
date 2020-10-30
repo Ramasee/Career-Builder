@@ -6,7 +6,7 @@
         "lvl1": 2886,
         "lvl2": 2887,
         "lvl3": 2888,
-        "lvl4": 2889,
+        "lvl4": 2894,
         "lvl5": 2890,
         "lvl6": 2891,
         "lvl7": 2892
@@ -32,7 +32,7 @@
         "lvl1": 2862,
         "lvl2": 7501,
         "lvl3": 2902,
-        "lvl4": 2894,
+        "lvl4": 2889,
         "lvl5": 7503,
         "lvl6": 2905,
         "lvl7": 2906
@@ -149,7 +149,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Perfect Balance<br>Leads to Normal Balance",
-      "description": "A powerful slash that deals X spirit damage. For the next 10 seconds, each time the target is critically hit, they take an additional Y spirit damage.",
+      "description": "A powerful slash that deals X spirit damage. For the next 15 seconds, each time the target is critically hit, they take an additional Y spirit damage.",
       "category": "Ability"
     },
   
@@ -243,9 +243,9 @@
       "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "No cooldown",
+      "cooldown": "15s cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance",
-      "description": "You launch two powerful blows dealing a total of X spirit damage and knocking your opponent down for 3 seconds.",
+      "description": "You launch two powerful blows dealing a total of X spiritual damage and knocking your opponent down for 3 seconds.",
       "category": "Ability"
     },
   
@@ -515,8 +515,8 @@
       "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "No cooldown",
-      "note": "Leads to Improved Balance",
+      "cooldown": "10s cooldown",
+      "note": "Leads to Perfect Balance",
       "description": "A fierce attack that deals X physical damage and cannot be blocked or parried.",
       "category": "Ability"
     },
@@ -661,7 +661,7 @@
       "incant": "Instant Cast",
       "cooldown": "5s cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance",
-      "description": "An overpowering strike that deals X physical damage and decreases your opponent's morale by 200.",
+      "description": "An overpowering strike that deals X physical damage and causes your target to lose 10 morale per second for 10s.",
       "category": "Ability"
     },
   
@@ -821,7 +821,7 @@
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
       "note": "Leads to Improved Balance",
-      "description": "You call upon the magic in your blade to form a barrier to protect you and any groupmates within 50 feet of you, absorbing up to X damage for up to 5 seconds",
+      "description": "You call upon the magic in your blade to form a barrier to protect you and any groupmates within 80 feet of you, absorbing up to X damage for up to 10 seconds",
       "category": "Ability"
     },
   
@@ -862,14 +862,14 @@
       "id": 2894,
       "name": "Redirected Force",
       "type": "Hex",
-      "spec": "Path of Hoeth",
+      "spec": "Path of Khaine",
       "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "15s cooldown",
       "note": "Requires Improved Balance<br>Leads to Perfect Balance",
-      "description": "For the next 10s, anytime you take direct damage, your offensive target will take damage equal to 100% of the amount you took if they are within 30 feet. This does not effect guard or morale damage.",
+      "description": "Deals X physical damage. For the next 10s you will gain a (rank * 5) ability bonus to willpower. In addition, whenever you defend against an attack, you will deal Y spiritual damage to all enemies within 30ft.",
       "category": "Ability"
     },
   
@@ -896,12 +896,12 @@
       "type": "Hex",
       "spec": "Path of Khaine",
       "minrank": "1",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5s cooldown",
+      "cooldown": "No cooldown",
       "note": "Leads to Improved Balance",
-      "description": "A targeted strike that saps the energy from your target dealing X physical damage and reducing your opponent's AP by 10 every second for 5 seconds.",
+      "description": "A targeted strike that saps the energy from your target dealing X spiritual damage and causing your target to use 50% more action points on abilities for 8 seconds.",
       "category": "Ability"
     },
   
@@ -1045,7 +1045,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "On a successful block, parry, dodge or disrupt you will absorb up to 400 damage over the next 10 seconds. This effect will not trigger more than once every 3 seconds.",
+      "description": "On a successful block, parry, dodge or disrupt you will absorb up to 400 damage over the next 10 seconds. This effect will not trigger more than once every 3 seconds, but can stack up to 3x.",
       "category": "CareerTactic"
     },
   
@@ -1056,12 +1056,12 @@
       "type": "Buff",
       "spec": "Path of Khaine",
       "minrank": "39",
-      "cost": "Costs 20 AP/sec",
+      "cost": "Costs 15 AP/sec",
       "range": "No range",
       "incant": "20s channel",
-      "cooldown": "No cooldown",
+      "cooldown": "10s cooldown",
       "note": "Requires Great Weapon",
-      "description": "You spin your greatsword with astounding speed forming a wall of steel between you and your opponent. Increasing your chance to dodge, disrupt and parry attacks by 50% and whenever you defend against attack you will reflect back X spiritual damage.",
+      "description": "You spin your greatsword with astounding speed forming a wall of steel between you and your opponent. Increasing your chance to dodge, disrupt and parry attacks by 50%.",
       "category": "Ability"
     },
   
