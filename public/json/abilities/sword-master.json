@@ -629,7 +629,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All groupmates within 100 feet gain 25 stacks of immaculate defense for 10 seconds. Each stack grants 3% damage reduction. A stack is removed each time a target takes direct damage, and 5 stacks are removed if the target takes single target damage.",
+      "description": "All groupmates within 100 feet gain 25 stacks of immaculate defense for 20 seconds. Each stack grants 3% damage reduction. A stack is removed each time a target takes direct damage, and 5 stacks are removed if the target takes single target damage.",
       "category": "Morale"
     },
   
