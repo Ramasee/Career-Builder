@@ -101,7 +101,7 @@
       "incant": "Instant Cast",
       "cooldown": "30s cooldown",
       "note": "",
-      "description": "You challenge all opponents in front of you, forcing monsters to attack you. While challenged, your opponents will deal only 70% damage to everyone other than you. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
+      "description": "You challenge up to 9 opponents in front of you. While challenged, your opponents will deal only 70% damage to everyone other than you. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability"
     },
   
@@ -133,7 +133,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you parry an attack, you will regain 75 action points. Tactic can not trigger more than once every 3 seconds. (needs reworked)",
+      "description": "Any time you parry an attack, your next attack within 5 seconds will have 20% parry strikethrough. Tactic can not trigger more than once every 3 seconds. (needs reworked)",
       "category": "CareerTactic"
     },
   
@@ -245,7 +245,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Suppression will now also reduce the victim's chances to defend against attacks by 10% for 10 seconds.",
+      "description": "Suppression will now also cause the victim to take a 10% tactic penalty to parry, dodge, and disrupt for 10 seconds.",
       "category": "CareerTactic"
     },
   
@@ -261,7 +261,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A powerful melee attack that reduces your target's armor by 1056 and deals 900 damage over 15 seconds",
+      "description": "A powerful melee attack that causes target to take a 1200 morale penalty to armor and deals 600 + 1.5 STR physical damage over 15 seconds",
       "category": "Morale"
     },
   
@@ -336,12 +336,12 @@
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "13",
-      "cost": "Rank 3 morale",
-      "range": "100ft range",
+      "cost": "Rank 2 morale",
+      "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A loud shout that startles your target and all enemies within 30 feet of them, reducing their damage to 50% for 10 seconds.",
+      "description": "A loud shout that startles up to 9 enemies within 30 feet of you, reducing their damage dealt by 50% for 7 seconds.",
       "category": "Morale"
     },
   
@@ -476,16 +476,16 @@
     {
       "image": "05004",
       "id": 4851,
-      "name": "Flee",
+      "name": "Rush",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "2",
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "45s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 25% for 8 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
       "category": "Ability"
     },
   
@@ -517,7 +517,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Only usable on other players",
-      "description": "You defend one of your groupmates and try to take attacks meant for them. As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you, and 35% of all hate that they cause will be redirected to you.<br><br>Damage received from this ability can be blocked or parried, unless the original attack was undefendable.",
+      "description": "You defend one of your groupmates and try to take attacks meant for them. As long as you are within 30 feet of them, any damage that they suffer will be split evenly between the two of you.<br><br>Damage received from this ability can be blocked or parried, unless the original attack was undefendable.",
       "category": "Ability"
     },
   
@@ -533,7 +533,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Reduces Repel's cooldown time by 50% and increases the length of the knockback.",
+      "description": "Repel will now keep the target in the air longer. In addition, if you have a great weapon equipped, the cooldown is reduced by 50%.",
       "category": "CareerTactic"
     },
   
@@ -546,10 +546,10 @@
       "minrank": "14",
       "cost": "Costs 20 AP/sec",
       "range": "No range",
-      "incant": "12s cast",
-      "cooldown": "No cooldown",
+      "incant": "5s cast",
+      "cooldown": "12s cooldown",
       "note": "Requires Shield",
-      "description": "You focus your defenses against enemy fire, increasing your chances to dodge and disrupt by 45% for 12 seconds. You will also defend all allies behind you, up to 50 feet away, increasing their chances to dodge and disrupt by 15% as long as they remain at your back. Allies may have this effect stacked on them up to 3 times.<br>This effect will end if you break your concentration, or run out of action points.",
+      "description": "While channeling, you will mark up to 48 enemies 65 feet in front of you and up to 9 allies 65 feet behind you. Enemies that are marked will deal 50% less area of effect damage to allies that are marked. This effect will end if you break your concentration, or run out of action points.",
       "category": "Ability"
     },
   
@@ -565,7 +565,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "An impressive display of defense which reduces incoming damage by 75% for both you and all group members within 100 feet of you for 10 seconds.",
+      "description": "All groupmates within 100 feet gain 25 stacks of immaculate defense for 20 seconds. Each stack grants 3% damage reduction. A stack is removed each time a target takes direct damage, and 5 stacks are removed if the target takes single target damage.",
       "category": "Morale"
     },
   
@@ -581,7 +581,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You are briefly covered with an impenetrable set of scales. For the next 20 seconds, up to 7200 damage will be absorbed.",
+      "description": "Group mates within 100 feet are covered with an impenetrable set of scales. For the next 20 seconds, they will gain a 1200 morale bonus to armor.",
       "category": "Morale"
     },
   
@@ -593,11 +593,11 @@
       "spec": "Core Ability",
       "minrank": "26",
       "cost": "Rank 1 morale",
-      "range": "5ft range",
+      "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A strong melee attack that deals 600 damage and restores all of your AP.",
+      "description": "75% of all damage target groupmate takes over the next 7s will be directed to you. This morale caanot be used on yourself and the damage taken from it cannot be avoided..",
       "category": "Morale"
     },
   
@@ -684,7 +684,7 @@
     {
       "image": "22708",
       "id": 4776,
-      "name": "Piercing Repel",
+      "name": "Repugnance",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "38",
@@ -693,7 +693,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Repel will now apply a buff on you that will reduce the armor penetration of all attackers by 10% for 10 seconds. (needs rework)",
+      "description": "All groupmates within 100 feet will gain 20% reduced incoming armor penetration for 10 seconds whenever you use Repel.",
       "category": "CareerTactic"
     },
   
@@ -752,12 +752,12 @@
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "21",
-      "cost": "Rank 2 morale",
+      "cost": "Rank 3 morale",
       "range": "No range",
-      "incant": "3s channel",
+      "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Repeatedly attack all enemies in a line in front of you, inflicting 300 damage every second for 3 seconds, up to 65 feet away, for as long as you maintain your concentration.",
+      "description": "For the next 7 seconds, up to 48 enemies within 65 feet frontal cone will take a 800 morale penalty to armor and a 300 morale penalty to all resistances. This effect can stack up to 3 times per target.",
       "category": "Morale"
     },
   
@@ -869,7 +869,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A thunderous curse shatters the air, inflicting 1040 damage to all targets within 30 feet and dispelling a blessing.",
+      "description": "You will remove up to 6 enchantments or blessings on up to 48 enemies within 40 feet of you.",
       "category": "Morale"
     },
   
@@ -885,7 +885,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "Requires Shield",
-      "description": "For the next 10 seconds, your chance to block is almost guaranteed.",
+      "description": "All groupmates within 100 feet gain a 40% increased chance to block and a 25% increased chance to parry, dodge, and disrupt for 10 seconds. This effect can stack up to 2 times.",
       "category": "Morale"
     },
   
@@ -901,7 +901,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you disrupt a spell, you will regain X health, and your movement speed will be increased by 30% for 5 seconds. This effect cannot refresh.",
+      "description": "Anytime you are hit by a magic attack you have a 25% chance to gain 25% movement speed for 5 seconds. This effect cannot refresh.",
       "category": "CareerTactic"
     },
   
@@ -912,12 +912,12 @@
       "type": "Buff",
       "spec": "Path of Corruption",
       "minrank": "18",
-      "cost": "Rank 4 morale",
+      "cost": "Rank 3 morale",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
+      "cooldown": "45s cooldown",
       "note": "",
-      "description": "In a chaotic surge of growth, everyone in the group's skin hardens, increasing Armor by 825 and all resistances by 315 for 30 secons. Everyone receives 100 AP as well.",
+      "description": "In a chaotic surge of growth, everyone in the group's skin hardens, granting 100% reduced chance to be critically hit for 15 seconds.",
       "category": "Morale"
     },
   
@@ -965,7 +965,7 @@
       "incant": "Instant Cast",
       "cooldown": "15s cooldown",
       "note": "",
-      "description": "You enrage your opponent, interrupting any currently building abilities and forcing monsters to attack you. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
+      "description": "You enrage your opponent, interrupting any currently building abilities. While taunted your opponent will take 30% more damage from your attacks. This effect will fade after 15 seconds or after your opponent has hit you 3 times.",
       "category": "Ability"
     },
   
@@ -1029,7 +1029,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "For 15 seconds, Tzeentch amplifies the effects of all heals cast on you by 300%.",
+      "description": "For 15 seconds, Tzeentch amplifies the effects of all healing you receive by 300%.",
       "category": "Morale"
     },
   
@@ -1061,7 +1061,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your elemental resistance by 300. Gain a 169 unique bonus to corporeal and spiritual resistance.",
+      "description": "Gain a 300 unique bonus to elemental resistance. Gain a 169 unique bonus to corporeal and spiritual resistance.",
       "category": "CareerTactic"
     },
   
@@ -1103,13 +1103,13 @@
       "name": "Warping Embrace",
       "type": "Buff",
       "spec": "Path of Dread",
-      "minrank": "18",
-      "cost": "Rank 4 morale",
+      "minrank": "1",
+      "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A surge of chaotic energy ripples forward inflicting X physical damage to everyone 40 feet in front of you. The surge of power clings to it's victims, snaring them by 40% for 15 seconds.",
+      "description": "A surge of chaotic energy ripples through you removing all snares on you and granting you 100% melee critical chance for 10 seconds.",
       "category": "Morale"
     }
   ]
