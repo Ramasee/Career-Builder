@@ -980,7 +980,7 @@
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
-      "note": "",
+      "note": "This ability does not trigger the GCD",
       "description": "With a graceful sweep, you quickly change your stance and prepare for battle.<br><br>  No Balance: You gain Improved Balance.<br>  Improved Balance: You gain Perfect Balance.<br>  Perfect Balance: You gain Improved Balance.",
       "category": "Ability"
     },
