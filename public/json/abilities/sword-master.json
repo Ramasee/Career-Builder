@@ -309,7 +309,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A powerful melee attack that causes target to take a 1200 morale penalty to armor and deals 600 + 1.5 STR physical damage over 15 seconds",
+      "description": "A powerful melee attack that causes target to take a 1200 morale penalty to armor and deals 600 + 1.5 STR physical damage over 15 seconds.",
       "category": "Morale"
     },
   
