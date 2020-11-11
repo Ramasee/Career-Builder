@@ -619,22 +619,6 @@
     },
   
     {
-      "image": "22709",
-      "id": 3753,
-      "name": "Menace",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "25",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Enemy monsters will hate you 100% more than normal on all attacks.",
-      "category": "CareerTactic"
-    },
-  
-    {
       "image": "04576",
       "id": 3821,
       "name": "Oath Friend",
