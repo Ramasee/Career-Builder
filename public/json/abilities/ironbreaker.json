@@ -54,7 +54,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Costs 15 Grudge",
-      "description": "The memory of your ancestors bolsters your resolve, grainting you a (3 * rank) ability bonus to strength and increased chance to critically hit by 10% for 10 seconds. Your Oath Friend is affected as well if they're within 50 feet of you.",
+      "description": "The memory of your ancestors bolsters your resolve, granting you a (3 * rank) ability bonus to strength and increased chance to critically hit by 10% for 10 seconds. Your Oath Friend is affected as well if they're within 50 feet of you.",
       "category": "Ability"
     },
   
@@ -70,7 +70,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Gain a 660 unique bonus to armor.",
+      "description": "Gain 25% reduced incoming armor penetration.",
       "category": "CareerTactic"
     },
   
@@ -116,7 +116,7 @@
       "cost": "No AP Cost",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Costs 25 Grudge",
       "description": "A dismissive strike that deals X physical damage and knocks the enemy away.",
       "category": "Ability"
@@ -128,7 +128,7 @@
       "name": "Blow for Blow",
       "type": "Damaging",
       "spec": "Path of Vengeance",
-      "minrank": "18",
+      "minrank": "1",
       "cost": "Rank 2 morale",
       "range": "5ft range",
       "incant": "Instant Cast",
@@ -161,12 +161,12 @@
       "type": "Curse",
       "spec": "Path of Vengeance",
       "minrank": "1",
-      "cost": "Costs 20 AP",
+      "cost": "Costs 40 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "5s cooldown",
       "note": "Improves with Grudge",
-      "description": "You chop at your enemy's legs, causing them to take X physical damage over 10 seconds and snaring them, reducing their run speed by 40%.<br><br> With 25 Grudges: Damages for A physical damage over 10 seconds.<br> With 50 Grudges: Damages for B physical damage over 10 seconds.<br> With 75 Grudges: Damages for C physical damage over 10 seconds.<br> With 100 Grudges: Damages for D physical damage over 10 seconds.",
+      "description": "You chop at your enemy's legs, causing them to take X physical damage over 10 seconds and snaring them, reducing their run speed by 30% for 8 seconds.<br><br> With 25 Grudges: Damages for A physical damage over 10 seconds.<br> With 50 Grudges: Damages for B physical damage over 10 seconds.<br> With 75 Grudges: Damages for C physical damage over 10 seconds.<br> With 100 Grudges: Damages for D physical damage over 10 seconds.",
       "category": "Ability"
     },
 
@@ -177,12 +177,12 @@
       "type": "Curse",
       "spec": "Path of Vengeance",
       "minrank": "1",
-      "cost": "Costs 25 AP",
+      "cost": "Costs 40 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "20s cooldown",
       "note": "Improves with Grudge<br>Requires Great Weapon",
-      "description": "You smash into your enemy, knocking them down for 3seconds.<br><br> At 25 Grudges: Deals W physical damage over 3 seconds.<br> At 50 Grudges: Deals X physical damage over 3 seconds.<br> At 75 Grudges: Deals Y physical damage over 3 seconds.<br> At 100 Grudges: Deals Z physical damage over 3 seconds.",
+      "description": "You smash into your enemy, knocking them down for 3 seconds.<br><br> At 25 Grudges: Deals W physical damage over 2 seconds.<br> At 50 Grudges: Deals X physical damage over 3 seconds.<br> At 75 Grudges: Deals Y physical damage over 4 seconds.<br> At 100 Grudges: Deals Z physical damage over 5 seconds.",
       "category": "Ability"
     },
   
@@ -262,7 +262,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you parry you also build 30 Grudge. This effect will not trigger more than once every 3 seconds.",
+      "description": "Whenever you parry, you also gain 30 Grudge. This effect will not trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
   
@@ -289,12 +289,12 @@
       "type": "Curse",
       "spec": "Path of Brotherhood",
       "minrank": "1",
-      "cost": "Costs 25 AP",
+      "cost": "Costs 45 AP",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "20s cooldown",
       "note": "Improves with Grudge",
-      "description": "The ground around you cracks and shatters and snares all enemies within 30 feet, reducing their run speed by 40% for 10 seconds.<br><br> At 25 Grudge: Deals W physical damage to each enemy hit by the effect.<br> At 50 Grudge: Deals X physical damage to each enemy hit by the effect.<br> At 75 Grudge: Deals Y physical damage to each enemy hit by the effect.<br> At 100 Grudge: Deals Z physical damage to each enemy hit by the effect.",
+      "description": "The ground around you cracks and shatters and snares up to 9 enemies within 30 feet, reducing their run speed by 30% for 8 seconds.<br><br> At 25 Grudge: Deals W physical damage to each enemy hit by the effect.<br> At 50 Grudge: Deals X physical damage to each enemy hit by the effect.<br> At 75 Grudge: Deals Y physical damage to each enemy hit by the effect.<br> At 100 Grudge: Deals Z physical damage to each enemy hit by the effect.",
       "category": "Ability"
     },
   
@@ -422,7 +422,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "A vicious attack that deals X physical damage, and causes monsters to hate you much more than normal.",
+      "description": "A vicious attack that deals X physical damage. Damage from this ability will generate double threat in NPCs.",
       "category": "Ability"
     },
   
@@ -464,13 +464,13 @@
       "name": "Guarded Attack",
       "type": "Damaging",
       "spec": "Path of Stone",
-      "minrank": "3",
+      "minrank": "1",
       "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You deal X physical damage to your target and prepare yourself for their attacks, gaining a X ability bonus to armor and a (Rank * 3) ability bonus to toughness for 20 seconds.<br>Your Oath Friend's stats will also be increased if they are within 50 feet.",
+      "description": "You deal X physical damage to your target and prepare yourself for their attacks, gaining a (30 * rank) ability bonus to armor and a (Rank * 3) ability bonus to toughness for 20 seconds.<br>Your Oath Friend's stats will also be increased if they are within 50 feet.",
       "category": "Ability"
     },
  
@@ -576,7 +576,7 @@
       "name": "Lingering Grudge",
       "type": "Buff",
       "spec": "Path of Vengeance",
-      "minrank": "29",
+      "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
@@ -662,7 +662,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Costs 15 Grudge",
-      "description": "Strengthens the ties between you and your Oath Friend, gaining a (2 * rank) ability bonus to initiative and chance to parry by 25% for 10 seconds. Your Oath Friend is affected as well if they're within 50 feet of you.",
+      "description": "Strengthens the ties between you and your Oath Friend, gaining a (3 * rank) ability bonus to initiative and chance to parry by 25% for 10 seconds. Your Oath Friend is affected as well if they're within 50 feet of you.",
       "category": "Ability"
     },
   
@@ -694,7 +694,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever your Oath Friend is attacked there is a 25% chance that you toss the assailant a glare so fierce they take X physical damage. (rework some?)",
+      "description": "Whenever your Oath Friend is attacked you toss the assailant a glare so fierce they take X physical damage.",
       "category": "CareerTactic"
     },
   
@@ -822,7 +822,7 @@
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
       "note": "Improves with Grudge",
-      "description": "You whirl your axe around, dealing X physical damage to enemies 25 feet in front of you.<br><br> At 25 Grudges: Ignores 25% of the victim's armor.<br> At 50 Grudges: Ignores 50% of the victim's armor.<br> At 75 Grudges: Ignores 75% of the victim's armor.<br> At 100 Grudges: Ignores 100% of the victim's armor.",
+      "description": "You whirl your axe around, dealing X physical damage to up to 9 enemies within 30ft of you.<br><br> At 25 Grudges: Ignores 25% armor.<br> At 50 Grudges: Ignores 50% armor.<br> At 75 Grudges: Ignores 75% armor.<br> At 100 Grudges: Ignores 100% armor.",
       "category": "Ability"
     },
   
@@ -848,7 +848,7 @@
       "name": "Seasoned Veteran",
       "type": "Buff",
       "spec": "Path of Stone",
-      "minrank": "31",
+      "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
@@ -864,7 +864,7 @@
       "name": "Seen It All Before",
       "type": "Buff",
       "spec": "Path of Stone",
-      "minrank": "33",
+      "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
@@ -934,7 +934,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Costs 25 Grudge<br>Requires Shield",
-      "description": "You bring your shield around in a smashing hit, dealing X physical damage to up to enemies within 25 feet of them.",
+      "description": "Deal X physical damage to up to 9 enemies within 25 feet in front of you.",
       "category": "Ability"
     },
   
@@ -977,12 +977,12 @@
       "type": "Curse",
       "spec": "Path of Vengeance",
       "minrank": "37",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "5s cooldown",
       "note": "Improves with Grudge",
-      "description": "A powerful attack that smashes through your enemy's protections, dealing X physical damage and causing them to take an ability penalty to armor based on Grudges for 20 seconds.<br><br> At 25 Grudges: Reduces armor by 156.<br> At 50 Grudges: Reduces armor by 312.<br> At 75 Grudges: Reduces armor by 468.<br> At 100 Grudges: Reduces armor by 625.",
+      "description": "A powerful attack that smashes through your enemy's protections, dealing X physical damage and causing them to take an ability penalty to armor based on Grudges for 20 seconds.<br><br> At 25 Grudges: Reduces armor by (10 * rank).<br> At 50 Grudges: Reduces armor by (15 * rank).<br> At 75 Grudges: Reduces armor by (20 * rank).<br> At 100 Grudges: Reduces armor by (25 * rank).",
       "category": "Ability"
     },
   
@@ -1008,7 +1008,7 @@
       "name": "Into the Breach",
       "type": "Buff",
       "spec": "Path of Stone",
-      "minrank": "18",
+      "minrank": "1",
       "cost": "Rank 4 morale",
       "range": "No range",
       "incant": "Instant Cast",
@@ -1046,23 +1046,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Grants a 300 unique bonus to corporeal resistance. Gain a 169 unique bonus to elemental and spiritual resistance.",
-      "category": "CareerTactic"
-    },
-  
-    {
-      "image": "22709",
-      "id": 3753,
-      "name": "Subtlety",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "25",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Enemy monsters will hate you 25% less than normal.",
+      "description": "Gain a 300 unique bonus to corporeal resistance. Gain a 169 unique bonus to elemental and spiritual resistance.",
       "category": "CareerTactic"
     },
   
