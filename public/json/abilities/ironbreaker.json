@@ -1012,9 +1012,9 @@
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "10s cooldown",
-      "note": "Costs 25 Grudge",
-      "description": "You set your mind to the task at hand and focus on what must be done, you will disrupt the next spell cast at you within 5 seconds. In addition, your autoattack speed will be increased by 50% for 20 seconds.",
+      "cooldown": "No cooldown",
+      "note": "Costs 15 Grudge",
+      "description": "You set your mind to the task at hand and focus on what must be done, your autoattack speed will be increased by 50% for 20 seconds.",
       "category": "Ability"
     },
   
