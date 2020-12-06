@@ -43,7 +43,7 @@ class CoreMorales extends Component {
     renderMorale1() {
     // Combine core and mastery tactics
     let combinedMorales = [];
-    if (this.props.masteryMorales.length > 0) {
+    if (this.props.masteryMorales.length > 3) {
       combinedMorales = [...this.props.abilities.structured.coreMorales1, ...this.props.masteryMorales];
     } else {
       combinedMorales = this.props.abilities.structured.coreMorales1;
@@ -54,7 +54,7 @@ class CoreMorales extends Component {
     renderMorale2() {
     // Combine core and mastery tactics
     let combinedMorales = [];
-    if (this.props.masteryMorales.length > 0) {
+    if (this.props.masteryMorales.length > 3) {
       combinedMorales = [...this.props.abilities.structured.coreMorales2, ...this.props.masteryMorales];
     } else {
       combinedMorales = this.props.abilities.structured.coreMorales2;
@@ -65,7 +65,7 @@ class CoreMorales extends Component {
     renderMorale3() {
     // Combine core and mastery tactics
     let combinedMorales = [];
-    if (this.props.masteryMorales.length > 0) {
+    if (this.props.masteryMorales.length > 3) {
       combinedMorales = [...this.props.abilities.structured.coreMorales3, ...this.props.masteryMorales];
     } else {
       combinedMorales = this.props.abilities.structured.coreMorales3;
@@ -76,7 +76,7 @@ class CoreMorales extends Component {
   renderMorale4() {
     // Combine core and mastery tactics
     let combinedMorales = [];
-    if (this.props.masteryMorales.length > 0) {
+    if (this.props.masteryMorales.length > 3) {
       combinedMorales = [...this.props.abilities.structured.coreMorales4, ...this.props.masteryMorales];
     } else {
       combinedMorales = this.props.abilities.structured.coreMorales4;
