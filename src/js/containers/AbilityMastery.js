@@ -114,18 +114,6 @@ class AbilityMastery extends Component {
             case 'morale':
               this.props.addMasteryMorale(this.props.masteryMorales, this.props.data.id);
               break;
-                          case 'morale1':
-              this.props.addMasteryMorale(this.props.masteryMorales, this.props.data.id);
-              break;
-                          case 'morale2':
-              this.props.addMasteryMorale(this.props.masteryMorales, this.props.data.id);
-              break;
-                          case 'morale3':
-              this.props.addMasteryMorale(this.props.masteryMorales, this.props.data.id);
-              break;
-                          case 'morale4':
-              this.props.addMasteryMorale(this.props.masteryMorales, this.props.data.id);
-              break;
             case 'tactic':
               this.props.addMasteryTactic(this.props.masteryTactics, this.props.data.id);
               break;
