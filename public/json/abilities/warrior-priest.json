@@ -18,7 +18,7 @@
       "optionalAbilities": {
         "lvl1": 7509,
         "lvl2": 4183,
-        "lvl3": 4182,
+        "lvl3": 4151,
         "lvl4": 7507,
         "lvl5": 4177,
         "lvl6": 4178,
@@ -37,7 +37,7 @@
         "lvl6": 4192,
         "lvl7": 4193
       },
-      "coreAbilities": [4232,4134,4138,4140,4131,4143]
+      "coreAbilities": [4232,4134,4138,4145,4131,4143]
     }
   },
   "data": [
@@ -69,7 +69,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 424 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
+      "description": "Remove up to 10 ailments, curses, or hexes from your groupmates within 100 feet. Restore 300 health for each health removed from the target.",
       "category": "Morale"
     },
   
@@ -77,7 +77,7 @@
       "image": "08043",
       "id": 4193,
       "name": "Avatar of Sigmar",
-      "type": "Healing",
+      "type": "Buff",
       "spec": "Path of Wrath",
       "minrank": "18",
       "cost": "Rank 1 morale",
@@ -112,12 +112,12 @@
       "type": "Healing",
       "spec": "Core Ability",
       "minrank": "5",
-      "cost": "No AP Cost",
+      "cost": "Costs 50 AP",
       "range": "100ft range",
       "incant": "3.0s cast",
       "cooldown": "6.0s cooldown",
       "note": "Requires 20 Righteous Fury",
-      "description": "Resurrects a fallen ally with 20% health.",
+      "description": "Resurrects a fallen ally with 20% health. For the next 45 seconds, the target will be afflicted with Resurrection Illness.",
       "category": "Ability"
     },
   
@@ -125,13 +125,13 @@
       "image": "08001",
       "id": 4134,
       "name": "Castigation",
-      "type": "Curse",
+      "type": "Ailment",
       "spec": "Path of Wrath",
       "minrank": "29",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "No cooldown",
       "note": "Builds 20 Righteous Fury",
       "description": "A strike that deals X physical damage to your enemy, and an additional Y physical damage over 10 seconds, and causes target to take a (3 * rank) ability penalty to initiative.",
       "category": "Ability"
@@ -165,7 +165,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Purify will now cleanse one hex or curse from all groupmates within 100ft.",
+      "description": "Purify will now cleanse one ailment or hex from all groupmates within 100 feet. It will not cleanse more than effect per target.",
       "category": "CareerTactic"
     },
   
@@ -197,7 +197,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Restores 240 health over 7 seconds, and increased your armor by 1320.",
+      "description": "For the next 10 seconds, gain a 1200 morale bonus to armor and 50% reduced incoming armor penetration.",
       "category": "Morale"
     },
   
@@ -205,7 +205,7 @@
       "image": "07903",
       "id": 4231,
       "name": "Divine Aid",
-      "type": "Blessing",
+      "type": "Enchantment",
       "spec": "Path of Salvation",
       "minrank": "1",
       "cost": "No AP Cost",
@@ -221,15 +221,15 @@
       "image": "08044",
       "id": 4186,
       "name": "Divine Amazement",
-      "type": "Debuff",
+      "type": "Buff",
       "spec": "Path of Grace",
-      "minrank": "18",
-      "cost": "Rank 4 morale",
+      "minrank": "1",
+      "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You call upon the power of Sigmar, dealing 300 damage every second to all enemies in a 10 feet area around you for the next 4 seconds. Sigmar returns all the damage done to your enemies to you as health.",
+      "description": "For the next 15s, Sigmar's Radiance will deal damage to up to 9 enemies within 30 feet sending the lifetap to all groupmates. In addition, it will apply Radiant Remedy on up to 9 allies within 30 feet.",
       "category": "Morale"
     },
   
@@ -269,7 +269,7 @@
       "image": "07904",
       "id": 4174,
       "name": "Divine Light",
-      "type": "Blessing",
+      "type": "Enchantment",
       "spec": "Path of Salvation",
       "minrank": "1",
       "cost": "No AP Cost",
@@ -293,7 +293,7 @@
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
       "note": "Requires Charm",
-      "description": "A quick heal that restores X health. Not affected by cooldown modification abilities.",
+      "description": "A quick heal that restores X (low) health.",
       "category": "Ability"
     },
   
@@ -325,7 +325,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage from melee abilities.",
+      "description": "Each group member within 100 feet is surrounded by a protective shield for the next 15 seconds that will absorb up to 4500 damage.",
       "category": "Morale"
     },
   
@@ -341,7 +341,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Your group mates within 100 feet become more driven. For the next 10 seconds, anytime they hit an enemy with a melee attack, they will regain 50 action points.",
+      "description": "Your group mates within 100 feet become more driven. For the next 10 seconds, they will gain 25 action points a second.",
       "category": "Morale"
     },
    
@@ -349,15 +349,15 @@
       "image": "08033",
       "id": 4148,
       "name": "Divine Shock",
-      "type": "Debuff",
+      "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "19",
-      "cost": "Costs 40 AP",
+      "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "Builds 40 Righteous Fury",
-      "description": "The force of Sigmar's displeasure slams into all enemies in front of you, up to 30 feet away, and sends them flying backwards.",
+      "description": "The force of Sigmar's displeasure slams into up to 9 enemies 30 feet in front of you and sends them flying backwards.",
       "category": "Ability"
     },
   
@@ -389,7 +389,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you are attacked, there is a 25% chance that you will become protected by a magical barrier for up to 10 seconds, which will absorb up to 375 damage.<br>This effect will not trigger more than once every 3 seconds.",
+      "description": "Any time you are attacked, there is a 25% chance that you will become protected by a magical barrier for up to 10 seconds, which will absorb up to 375 damage.<br>This effect will not trigger more than once every second.",
       "category": "CareerTactic"
     },
   
@@ -405,7 +405,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you defend against an attack, your healing abilities will become 20% more effective for 10 seconds.",
+      "description": "Any time you defend against an attack, your healing abilities will become 20% more effective for 10 seconds. This effect cannot refresh.",
       "category": "CareerTactic"
     },
   
@@ -415,29 +415,29 @@
       "name": "Fanaticism",
       "type": "Buff",
       "spec": "Path of Wrath",
-      "minrank": "31",
+      "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to critically hit by 10% and your chance to parry by 10%, but you can no longer cast Touch of the Divine or Breath of Sigmar.<BR><BR>Purify will no longer dispel effects. Instead, it will remove all roots and snares from you making you immune to them for 10 seconds. Cooldown is increased to 60 seconds.",
+      "description": "Increases your chance to critically hit by 15% and your chance to parry by 10%, but you can no longer cast Touch of the Divine or Breath of Sigmar.<BR><BR>Purify will no longer dispel effects. Instead, it will remove all roots and snares from you making you immune to them for 10 seconds. Cooldown is increased to 60 seconds.",
       "category": "CareerTactic"
     },
  
     {
       "image": "05004",
       "id": 4228,
-      "name": "Flee",
+      "name": "Rush",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "2",
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "45.0s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30% for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "You run away from the battle in a mad panic, increasing your run speed by 25% for 8 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 8 seconds have passed.",
       "category": "Ability"
     },
   
@@ -485,7 +485,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "All of your group mates within 100 feet have their armor increased by 825, Block, Pary, Dodge and Disrupt by 25, and all Resists by 315 for the next 10 seconds.",
+      "description": "Groupmates within 100 feet gain (1020 + 4.2 WIL) health over 15 seconds. You will gain 25 Righteous Fury per second for the duration.",
       "category": "Morale"
     },
   
@@ -512,7 +512,7 @@
       "type": "Damaging",
       "spec": "Path of Wrath",
       "minrank": "1",
-      "cost": "Costs 25 AP",
+      "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
@@ -541,7 +541,7 @@
       "image": "07960",
       "id": 4132,
       "name": "Healing Hand",
-      "type": "Blessing",
+      "type": "Enchantment",
       "spec": "Path of Salvation",
       "minrank": "2",
       "cost": "No AP Cost",
@@ -560,7 +560,7 @@
       "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "1",
-      "cost": "Costs 15 AP",
+      "cost": "Costs 25 AP",
       "range": "65ft range",
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
@@ -574,8 +574,8 @@
       "id": 4182,
       "name": "Leading the Prayer",
       "type": "Buff",
-      "spec": "Path of Grace",
-      "minrank": "1",
+      "spec": "Core Ability",
+      "minrank": "8",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
@@ -597,7 +597,7 @@
       "incant": "3.0s channel",
       "cooldown": "13.0s cooldown",
       "note": "Requires 20 Righteous Fury per second",
-      "description": "You open your soul to Sigmar and become a living force of holy power for up to 3 seconds, as long as you maintain your concentration. Each second, all allies within 30 feet of you will regain X health, and you will consume 20 Righteous Fury.<br>All snares are removed on cast and you are immune to them for the duration.<br>This effect will end if you lose your concentration or if you run out of Righteous Fury.",
+      "description": "You open your soul to Sigmar and become a living force of holy power for up to 3 seconds, as long as you maintain your concentration. Each second, up to 9 allies within 30 feet of you will regain X health, and you will consume 20 Righteous Fury.<br>All snares are removed on cast and you are immune to them for the duration.",
       "category": "Ability"
     },
   
@@ -613,7 +613,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "You attack all targets within 30 feet for 1200 damage and stagger them for 6 seconds, preventing all actions unless they're damaged.",
+      "description": "You stagger up to 9 enemies within 40 feet for 6 seconds, preventing all actions unless they're attacked. You will gain X morale for each stagger that is broken.",
       "category": "Morale"
     },
   
@@ -621,15 +621,15 @@
       "image": "08035",
       "id": 4176,
       "name": "Pious Restoration",
-      "type": "Blessing",
+      "type": "Enchantment",
       "spec": "Path of Salvation",
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "No cooldown",
       "note": "Requires 40 Righteous Fury",
-      "description": "You call upon Sigmar to bless everyone in your group within 100 feet, restoring X health over 9 seconds.",
+      "description": "You call upon Sigmar to bless everyone in your group within 100 feet, restoring X health over 10 seconds.",
       "category": "Ability"
     },
   
@@ -637,15 +637,15 @@
       "image": "07917",
       "id": 4141,
       "name": "Prayer of Absolution",
-      "type": "Buff",
+      "type": "Blessing",
       "spec": "Path of Salvation",
       "minrank": "18",
-      "cost": "No AP Cost",
+      "cost": "Costs 55 AP",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Only one Prayer may be active at a time.",
-      "description": "You chant a bolstering prayer, granting a X ability bonus to armor to groupmates within 100ft.",
+      "note": "",
+      "description": "You chant a bolstering prayer, granting a X ability bonus to armor to all groupmates within 100 feet for 60 minutes. You can only apply one prayer to the party, but players may be affected by multiple different prayers.",
       "category": "Ability"
     },
   
@@ -653,15 +653,15 @@
       "image": "07943",
       "id": 4133,
       "name": "Prayer of Devotion",
-      "type": "Buff",
+      "type": "Blessing",
       "spec": "Path of Grace",
       "minrank": "3",
-      "cost": "No AP Cost",
+      "cost": "Costs 55 AP",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Only one Prayer may be active at a time.",
-      "description": "Any time a groupmate within 100 feet of you attacks an enemy, there is a 20% chance that they will regain X health.",
+      "note": "",
+      "description": "For the next 60 minutes, any time a groupmate within 100 feet of you attacks an enemy, there is a 20% chance that they will regain X health. You can only apply one prayer to the party, but players may be affected by multiple different prayers.",
       "category": "Ability"
     },
   
@@ -669,15 +669,15 @@
       "image": "07950",
       "id": 4143,
       "name": "Prayer of Righteousness",
-      "type": "Buff",
+      "type": "Blessing",
       "spec": "Path of Wrath",
       "minrank": "9",
-      "cost": "No AP Cost",
+      "cost": "Costs 55 AP",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Only one Prayer may be active at a time.",
-      "description": "Any time one of your groupmates within 100 feet hits an enemy, there is a 20% chance they will deal an additional X spiritual damage.",
+      "note": "",
+      "description": "For the next 60 minutes, any time one of your groupmates within 100 feet hits an enemy, there is a 20% chance they will deal an additional X spiritual damage. You can only apply one prayer to the party, but players may be affected by multiple different prayers.",
       "category": "Ability"
     },
   
@@ -686,14 +686,14 @@
       "id": 4145,
       "name": "Purge",
       "type": "Damaging",
-      "spec": "Core Ability",
+      "spec": "Path of Wrath",
       "minrank": "25",
-      "cost": "Costs 25 AP",
+      "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Builds 25 Righteous Fury<br>Target must have an Enchantment",
-      "description": "A shattering attack that removes one Enchantment from your enemy and deals X damage.",
+      "note": "Builds 35 Righteous Fury<br>Target must have a blessing",
+      "description": "A shattering attack that removes one blessing from your enemy and deals X damage.",
       "category": "Ability"
     },
   
@@ -701,23 +701,23 @@
       "image": "08032",
       "id": 4142,
       "name": "Purify",
-      "type": "Healing",
+      "type": "Enchantment",
       "spec": "Path of Salvation",
       "minrank": "11",
       "cost": "No AP Cost",
       "range": "150ft range",
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Requires 25 Righteous Fury <br>Target must be Cursed or Hexed",
-      "description": "You purify an ally, removing one curse or hex.",
+      "note": "Requires 25 Righteous Fury<br>Target must have an ailment or hex",
+      "description": "You purify an ally, removing one ailment or hex and grant them a (rank * 3) ability bonus to agility for 5 seconds.",
       "category": "Ability"
     },
   
     {
       "image": "23154",
       "id": 4165,
-      "name": "Rampaging Siphon",
-      "type": "Damaging",
+      "name": "Relentless Assault",
+      "type": "Buff",
       "spec": "Core Ability",
       "minrank": "21",
       "cost": "Rank 2 morale",
@@ -725,7 +725,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Deals 600 raw damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
+      "description": "Gain 15 stacks that last for 30 seconds. You gain a 40 morale bonus to strength for each stack. Everytime you use an ability, a stack is consumed and you gain 10 action points.",
       "category": "Morale"
     },
   
@@ -741,7 +741,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you heal an ally, there is a 25% chance that they will regain 50 action points, but this effect will not work on you.",
+      "description": "Whenever you directly heal an ally, there is a 25% chance that they will regain 50 action points, but this effect will not work on you.",
       "category": "CareerTactic"
     },
   
@@ -760,20 +760,20 @@
       "description": "You detaunt your target, making them hate you less and causing them to deal only 50% damage to you for 15 seconds. If you attack anyone that you have detaunted, the effect will immediately end.",
       "category": "Ability"
     },
-  
-    {
-      "image": "22694",
-      "id": 4163,
-      "name": "Restorative Burst",
+    
+        {
+      "image": "22710",
+      "id": 7600,
+      "name": "Replenishing Strikes",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "29",
+      "minrank": "28",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time one of your direct healing effects critically heals an ally, you will regain 40 action points over 3 seconds (currently disabled).",
+      "description": "Whenever you critically hit an enemy, you will gain 40 action points. This effect can only happen once every 3 seconds.",
       "category": "CareerTactic"
     },
   
@@ -782,14 +782,14 @@
       "id": 4151,
       "name": "Shield of Faith",
       "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "8",
+      "spec": "Path of Grace",
+      "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to disrupt enemy spells by 10%.",
+      "description": "Increases your chance to dodge and disrupt by 10%.",
       "category": "CareerTactic"
     },
   
@@ -813,10 +813,10 @@
       "image": "07944",
       "id": 4131,
       "name": "Sigmar's Fist",
-      "type": "Damaging",
+      "type": "Blessing",
       "spec": "Path of Wrath",
       "minrank": "37",
-      "cost": "Costs 25 AP",
+      "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
@@ -832,12 +832,12 @@
       "type": "Blessing",
       "spec": "Path of Salvation",
       "minrank": "1",
-      "cost": "Costs 50 AP",
+      "cost": "Costs 55 AP",
       "range": "No range",
       "incant": "2.0s cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "The might of Sigmar infuses everyone in your group within 100 feet, granting a (2 * rank) ability bonus to wounds for 1 hour.",
+      "description": "The might of Sigmar infuses everyone in your group within 100 feet, granting a (2 * rank) ability bonus to wounds for 60 minutes.",
       "category": "Ability"
     },
   
@@ -853,7 +853,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield.<br>Builds 50 Righteous Fury",
-      "description": "You smash into your enemy, dealing X (str) physical damage to them. The power of Sigmar erupts from your weapon, healing any of your groupmates within 100 feet for Y (will) health plus 75% of the damage that you dealt.",
+      "description": "You smash into your enemy, dealing X (str) physical damage to them. The power of Sigmar erupts from your weapon, healing any of your groupmates within 100 feet for Y (wil) health plus 100% of the damage that you dealt.",
       "category": "Ability"
     },
   
@@ -864,7 +864,7 @@
       "type": "Damaging",
       "spec": "Path of Grace",
       "minrank": "1",
-      "cost": "Costs 25 AP",
+      "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "15.0s cooldown",
@@ -880,10 +880,10 @@
       "type": "Damaging",
       "spec": "Path of Grace",
       "minrank": "32",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "Builds 30 Righteous Fury",
       "description": "Deals X physical damage to your enemy and blesses your defensive target for 15 seconds, increasing their chance to parry attacks by 10%. You cannot benefit from the parry but you will always gain 5% block for the duration.",
       "category": "Ability"
@@ -894,14 +894,14 @@
       "id": 4140,
       "name": "Smite",
       "type": "Damaging",
-      "spec": "Path of Wrath",
+      "spec": "Core Ability",
       "minrank": "13",
       "cost": "Costs 45 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "5.0s cooldown",
+      "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "A sweeping blow which deals X physical damage to all enemies in front of you, up to 50 feet away. Builds an additional 15 Righteous Fury for each enemy you strike",
+      "description": "A sweeping blow which deals X physical damage to up to 9 enemies 50 feet in front of you. Builds 15 Righteous Fury for each enemy you strike",
       "category": "Ability"
     },
   
@@ -909,7 +909,7 @@
       "image": "07947",
       "id": 4188,
       "name": "Soulfire",
-      "type": "Curse",
+      "type": "Buff",
       "spec": "Path of Wrath",
       "minrank": "1",
       "cost": "No cost",
@@ -917,15 +917,15 @@
       "incant": "Instant cast",
       "cooldown": "5.0s cooldown",
       "note": "Requires 40 Righteous Fury per second.",
-      "description": "When activated: deal X physical damage to enemies within 30ft of you every 2 seconds. During this time you deal 30% more damage and have an additional 25% armor penetration. This ability will end if used again or if you run of Righteous Fury with which to power it.",
+      "description": "When activated: deal X physical damage to enemies within 30ft of you every 2 seconds. During this time you deal 30% more damage and gain a (9 * rank) morale bonus to weapon skill. This ability will end if used again or if you run of Righteous Fury with which to power it.",
       "category": "Ability"
     },
   
     {
       "image": "23155",
       "id": 4166,
-      "name": "Steal Life",
-      "type": "Damaging",
+      "name": "Return Life",
+      "type": "Healing",
       "spec": "Core Ability",
       "minrank": "17",
       "cost": "Rank 1 morale",
@@ -933,7 +933,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Your target suffers 900 damage over 9 seconds, and you are healed for a half of the damage dealt.",
+      "description": "Resurrect your target to 1% health. This effect does not apply Resurrection Illness.",
       "category": "Morale"
     },
   
@@ -949,7 +949,7 @@
       "incant": "5.0s cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "For the next 5 seconds, you will convert 30 action points into 30 righteous fury every second. If you run out of action points or break your concentration, this effect will end.",
+      "description": "For the next 5 seconds, you will convert 30 action points into 30 Righteous Fury every second. If you run out of action points or break your concentration, this effect will end.",
       "category": "Ability"
     },
   
@@ -989,14 +989,14 @@
       "image": "08037",
       "id": 4147,
       "name": "Vow of Silence",
-      "type": "Curse",
+      "type": "Debuff",
       "spec": "Path of Grace",
       "minrank": "39",
-      "cost": "Costs 25 AP",
+      "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
-      "note": "Builds 25 Righteous Fury",
+      "cooldown": "20.0s cooldown",
+      "note": "Builds 35 Righteous Fury",
       "description": "A powerful strike which deals X physical damage to your enemy and knocks the wind out of them for 4 seconds, silencing them and making them unable to use magic.",
       "category": "Ability"
     },
@@ -1005,15 +1005,15 @@
       "image": "07927",
       "id": 4138,
       "name": "Weight of Guilt",
-      "type": "Curse",
+      "type": "Debuff",
       "spec": "Path of Wrath",
       "minrank": "27",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Builds 30 Righteous Fury",
-      "description": "Deals X physical damage to your target. If they are cursed, then they will also become snared, reducing their run speed by 40% for 6 seconds.",
+      "note": "Builds 35 Righteous Fury",
+      "description": "Deals X physical damage to your target reducing their run speed by 30% for 5 seconds.",
       "category": "Ability"
     },
 
@@ -1023,7 +1023,7 @@
       "name": "Spirit of the Heldenhammer",
       "type": "Damaging",
       "spec": "Path of Grace",
-      "minrank": "7",
+      "minrank": "1",
       "cost": "No Cost",
       "range": "150ft range",
       "incant": "Instant Cast",
@@ -1056,12 +1056,12 @@
       "type": "Curse",
       "spec": "Path of Wrath",
       "minrank": "7",
-      "cost": "Costs 25 AP",
+      "cost": "Costs 40 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Builds 40 Righteous Fury",
-      "description": "You call upon Sigmar to curse your enemy dealing X spirit damage. For the next ten seconds, all healing the target received will be 50% less effective.",
+      "description": "You call upon Sigmar to curse your enemy dealing X spirit damage. For the next 10 seconds, all healing the target receives will be 50% less effective.",
       "category": "Ability"
     },
 
@@ -1077,7 +1077,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Builds 20 Righteous Fury",
-      "description": "Deals X physical damage. You are healed for for Y + 150% of the damage dealt in addition to Radiant Remedy.",
+      "description": "Deals X physical damage. You are healed for 200% of the damage dealt in addition to Radiant Remedy.",
       "category": "Ability"
     },
     
@@ -1093,7 +1093,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Anytime you deal direct critical damage, your target with suffer an additional X spiritual damage over 6 seconds. This ability will not refresh",
+      "description": "Anytime you deal direct, critical damage, your target with suffer an additional X spiritual damage over 6 seconds. This ability will not refresh.",
       "category": "CareerTactic"
     },
     
@@ -1103,13 +1103,13 @@
       "name": "Unberogen Creed",
       "type": "Buff",
       "spec": "Path of Grace",
-      "minrank": "7",
+      "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Sigmar's Radiance and Twin-Tailed Blow can now strike a target from 30 feet away.",
+      "description": "Sigmar's Radiance, Twin-Tailed Blow, and Weight of Guilt can now strike a target from 30 feet away.",
       "category": "CareerTactic"
     }
   ]
