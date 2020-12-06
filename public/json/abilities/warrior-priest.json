@@ -42,7 +42,7 @@
   },
   "data": [
     {
-      "image": "tac_green_empire01.png",
+      "image": "22706",
       "id": 4190,
       "name": "Heldenhammer's Fury",
       "type": "Buff",
@@ -69,7 +69,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Remove up to 10 ailments, curses, or hexes from your groupmates within 100 feet. Restore 300 health for each health removed from the target.",
+      "description": "Remove up to 10 ailments, curses, or hexes from your groupmates within 100 feet. Restore 300 health for each effect removed from the target.",
       "category": "Morale"
     },
   
@@ -116,7 +116,7 @@
       "range": "100ft range",
       "incant": "3.0s cast",
       "cooldown": "6.0s cooldown",
-      "note": "Requires 20 Righteous Fury",
+      "note": "",
       "description": "Resurrects a fallen ally with 20% health. For the next 45 seconds, the target will be afflicted with Resurrection Illness.",
       "category": "Ability"
     },
@@ -298,7 +298,7 @@
     },
   
     {
-      "image": "tac_green_utility01.png",
+      "image": "22706",
       "id": 4156,
       "name": "Intimidating Repent",
       "type": "Buff",
@@ -362,7 +362,7 @@
     },
   
     {
-      "image": "tac_green_melee01.png",
+      "image": "22706",
       "id": 4177,
       "name": "Divine Warding",
       "type": "Buff",
@@ -373,7 +373,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Everytime time you use Touch of the Divine, Sigmar's Radiance, Martyr's Blessing, or Twin-Tailed Blow, you will become surrounded by a protective barrier for up to 30 seconds which will absorb up to X damage.",
+      "description": "Everytime time you use Touch of the Divine, Sigmar's Radiance, Martyr's Blessing, or Twin-Tailed Blow, you will become surrounded by a protective barrier for up to 5 seconds which will absorb up to X damage.",
       "category": "CareerTactic"
     },
   
@@ -394,7 +394,7 @@
     },
   
     {
-      "image": "tac_green_healing01.png",
+      "image": "22706",
       "id": 4153,
       "name": "Exalted Defenses",
       "type": "Buff",
@@ -421,7 +421,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to critically hit by 15% and your chance to parry by 10%, but you can no longer cast Touch of the Divine or Breath of Sigmar.<BR><BR>Purify will no longer dispel effects. Instead, it will remove all roots and snares from you making you immune to them for 10 seconds. Cooldown is increased to 60 seconds.",
+      "description": "Increases your chance to critically hit by 15% and your chance to parry by 10%, but you can no longer cast Touch of the Divine or Breath of Sigmar.<BR><BR>Purify will no longer dispel effects or grant agility. Instead, it will remove all roots and snares from you making you immune to them for 10 seconds. Cooldown is increased to 60 seconds.",
       "category": "CareerTactic"
     },
  
@@ -469,7 +469,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you are hit by an enemy, you have a 25% chance to gain 35 righteous fury. Tactic can not trigger more than once every 3 seconds.",
+      "description": "Whenever you are hit by an enemy, you have a 25% chance to gain 35 righteous fury. Tactic cannot trigger more than once every 3 seconds.",
       "category": "CareerTactic"
     },
   
@@ -490,7 +490,7 @@
     },
   
     {
-      "image": "tac_green_melee01.png",
+      "image": "22706",
       "id": 4180,
       "name": "Greave of Sigmar",
       "type": "Buff",
@@ -517,12 +517,12 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "Builds 50 Righteous Fury<br>Requires Great Weapon",
-      "description": "Deals X physical damage to the target. This ability can only be on targets below 40% health.",
+      "description": "Deals X physical damage to the target. This ability can only be used on targets below 40% health.",
       "category": "Ability"
     },
   
     {
-      "image": "tac_green_magical01.png",
+      "image": "22706",
       "id": 4149,
       "name": "Hastened Divinity",
       "type": "Buff",
@@ -645,7 +645,7 @@
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
       "note": "",
-      "description": "You chant a bolstering prayer, granting a X ability bonus to armor to all groupmates within 100 feet for 60 minutes. You can only apply one prayer to the party, but players may be affected by multiple different prayers.",
+      "description": "You chant a bolstering prayer, granting a (rank * 20) ability bonus to armor to all groupmates within 100 feet for 60 minutes. You can only apply one prayer to the party, but players may be affected by multiple different prayers.",
       "category": "Ability"
     },
   
@@ -730,7 +730,7 @@
     },
   
     {
-      "image": "tac_green_banner01.png",
+      "image": "22706",
       "id": 4175,
       "name": "Refreshing Radiance",
       "type": "Buff",
@@ -778,7 +778,7 @@
     },
   
     {
-      "image": "tac_green_range01.png",
+      "image": "22706",
       "id": 4151,
       "name": "Shield of Faith",
       "type": "Buff",
@@ -826,7 +826,7 @@
     },
   
     {
-      "image": "abi_em_sigilofsigmar.png",
+      "image": "22706",
       "id": 4185,
       "name": "Sigmar's Grace",
       "type": "Blessing",
@@ -852,7 +852,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Requires Shield.<br>Builds 50 Righteous Fury",
+      "note": "Requires Shield<br>Builds 50 Righteous Fury",
       "description": "You smash into your enemy, dealing X (str) physical damage to them. The power of Sigmar erupts from your weapon, healing any of your groupmates within 100 feet for Y (wil) health plus 100% of the damage that you dealt.",
       "category": "Ability"
     },
@@ -877,7 +877,7 @@
       "image": "08038",
       "id": 4181,
       "name": "Sigmar's Vision",
-      "type": "Damaging",
+      "type": "Ailment",
       "spec": "Path of Grace",
       "minrank": "32",
       "cost": "Costs 35 AP",
@@ -1029,12 +1029,12 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "You channel Sigmar's spirit through your body in order to heal your target for X every second for 5s. You take 400 raw damage every second, and you cannot be healed for the duration.<br><br>You will also gain 30% movement speed for the duration if you have a shield equipped.",
+      "description": "You channel Sigmar's spirit through your body in order to heal your target for X every second for 5s. You take X damage every second, and you cannot be healed for the duration.<br><br>You will also gain 30% movement speed for the duration if you have a shield equipped.",
       "category": "Ability"
     },
 
     {
-      "image": "tac_green_crown01.png",
+      "image": "22706",
       "id": 7508,
       "name": "Lay on Hands",
       "type": "Buff",
@@ -1066,7 +1066,7 @@
     },
 
     {
-      "image": "abi_em_twintailedfury.png",
+      "image": "22706",
       "id":7511,
       "name": "Twin-Tailed Blow",
       "type": "Damaging",
@@ -1082,7 +1082,7 @@
     },
     
     {
-      "image": "tac_green_magical02.png",
+      "image": "22706",
       "id": 7512,
       "name": "Guilty Soul",
       "type": "Buff",
@@ -1098,7 +1098,7 @@
     },
     
     {
-      "image": "tac_green_range02.png",
+      "image": "22706",
       "id": 7509,
       "name": "Unberogen Creed",
       "type": "Buff",
