@@ -77,7 +77,7 @@ class CoreMorales extends Component {
     // Combine core and mastery tactics
     let combinedMorales = [];
     if (this.props.masteryMorales.length > 0) {
-      combinedMorales = [...this.props.abilities.structured.coreMorales4, ...this.props.masteryMorales4];
+      combinedMorales = [...this.props.abilities.structured.coreMorales4, ...this.props.masteryMorales];
     } else {
       combinedMorales = this.props.abilities.structured.coreMorales4;
     }
