@@ -13,7 +13,25 @@ class CoreMorales extends Component {
     this.renderMorale = this.renderMorale.bind(this);
   }
 
-  renderMorale(abilityId) {
+  renderMoraleX1(abilityId) {
+    return (
+      <AbilityMorale key={abilityId} rank="1" data={this.props.abilities.indexed[abilityId]} />
+    )
+  }
+  
+    renderMoraleX2(abilityId) {
+    return (
+      <AbilityMorale key={abilityId} rank="2" data={this.props.abilities.indexed[abilityId]} />
+    )
+  }
+  
+    renderMoraleX3(abilityId) {
+    return (
+      <AbilityMorale key={abilityId} rank="3" data={this.props.abilities.indexed[abilityId]} />
+    )
+  }
+  
+    renderMoraleX4(abilityId) {
     return (
       <AbilityMorale key={abilityId} rank="4" data={this.props.abilities.indexed[abilityId]} />
     )
@@ -27,7 +45,7 @@ class CoreMorales extends Component {
     } else {
       combinedMorales = this.props.abilities.structured.coreMorales1;
     }
-    return combinedMorales.map(this.renderMorale);
+    return combinedMorales.map(this.renderMoraleX1);
   }
   
     renderMorale2() {
@@ -38,7 +56,7 @@ class CoreMorales extends Component {
     } else {
       combinedMorales = this.props.abilities.structured.coreMorales2;
     }
-    return combinedMorales.map(this.renderMorale);
+    return combinedMorales.map(this.renderMoraleX2);
   }
   
     renderMorale3() {
@@ -49,7 +67,7 @@ class CoreMorales extends Component {
     } else {
       combinedMorales = this.props.abilities.structured.coreMorales3;
     }
-    return combinedMorales.map(this.renderMorale);
+    return combinedMorales.map(this.renderMoraleX3);
   }
 
   renderMorale4() {
@@ -60,7 +78,7 @@ class CoreMorales extends Component {
     } else {
       combinedMorales = this.props.abilities.structured.coreMorales4;
     }
-    return combinedMorales.map(this.renderMorale);
+    return combinedMorales.map(this.renderMoraleX4);
   }
 
   renderMorales() {
