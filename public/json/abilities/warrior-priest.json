@@ -11,7 +11,7 @@
         "lvl6": 4176,
         "lvl7": 4179
       },
-      "coreAbilities": [4144,4231,4135,4132,4142,4141]
+      "coreAbilities": [4144,4231,4135,4132,4142,4133]
     },
     "b": {
       "name": "Path of Grace",
@@ -24,7 +24,7 @@
         "lvl6": 4178,
         "lvl7": 4186
       },
-      "coreAbilities": [4146,4181,4147,4137,7511,4133]
+      "coreAbilities": [4146,4181,4147,4137,7511,4141]
     },
     "c": {
       "name": "Path of Wrath",
@@ -638,7 +638,7 @@
       "id": 4141,
       "name": "Prayer of Absolution",
       "type": "Blessing",
-      "spec": "Path of Salvation",
+      "spec": "Path of Grace",
       "minrank": "18",
       "cost": "Costs 55 AP",
       "range": "No range",
@@ -654,7 +654,7 @@
       "id": 4133,
       "name": "Prayer of Devotion",
       "type": "Blessing",
-      "spec": "Path of Grace",
+      "spec": "Path of Salvation",
       "minrank": "3",
       "cost": "Costs 55 AP",
       "range": "No range",
