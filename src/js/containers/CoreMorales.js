@@ -27,7 +27,7 @@ class CoreMorales extends Component {
     } else {
       combinedMorales = this.props.abilities.structured.coreMorales1;
     }
-    return combinedMorales1.map(this.renderMorale);
+    return combinedMorales.map(this.renderMorale);
   }
   
     renderMorale2() {
@@ -38,7 +38,7 @@ class CoreMorales extends Component {
     } else {
       combinedMorales = this.props.abilities.structured.coreMorales2;
     }
-    return combinedMorales2.map(this.renderMorale);
+    return combinedMorales.map(this.renderMorale);
   }
   
     renderMorale3() {
@@ -49,7 +49,7 @@ class CoreMorales extends Component {
     } else {
       combinedMorales = this.props.abilities.structured.coreMorales3;
     }
-    return combinedMorales3.map(this.renderMorale);
+    return combinedMorales.map(this.renderMorale);
   }
 
   renderMorale4() {
@@ -60,7 +60,7 @@ class CoreMorales extends Component {
     } else {
       combinedMorales = this.props.abilities.structured.coreMorales4;
     }
-    return combinedMorales4.map(this.renderMorale);
+    return combinedMorales.map(this.renderMorale);
   }
 
   renderMorales() {
