@@ -85,7 +85,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Gain 50 righteous fury. For the next 10 seconds, generate 25 righteous fury per second.",
+      "description": "Gain 50 righteous fury. For the next 10 seconds, generate 30 righteous fury per second.",
       "category": "Morale"
     },
   
@@ -100,8 +100,8 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Requires Greatweapon.<br>Builds 30 Righteous Fury",
-      "description": "A powerful attack which deals X physical damage to your enemy.",
+      "note": "Requires Greatweapon.<br>Builds 50 Righteous Fury",
+      "description": "An attack which deals X physical damage to your enemy.",
       "category": "Ability"
     },
   
@@ -132,7 +132,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Builds 20 Righteous Fury",
+      "note": "Builds 15 Righteous Fury",
       "description": "A strike that deals X physical damage to your enemy, and an additional Y physical damage over 10 seconds, and causes target to take a (3 * rank) ability penalty to initiative.",
       "category": "Ability"
     },
@@ -212,7 +212,7 @@
       "range": "150ft range",
       "incant": "0.5s cast",
       "cooldown": "No cooldown",
-      "note": "Requires 55 Righteous Fury",
+      "note": "Requires 60 Righteous Fury",
       "description": "Heals an ally for X points, and an additional Y (high) over 5 seconds.",
       "category": "Ability"
     },
@@ -276,7 +276,7 @@
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "30.0s cooldown",
-      "note": "Requires 40 Righteous Fury",
+      "note": "Requires 45 Righteous Fury",
       "description": "Your group mates within 100 feet become surrounded by a magical barrier for 10 seconds, which will absorb up to X damage for each person.",
       "category": "Ability"
     },
@@ -292,7 +292,7 @@
       "range": "150ft range",
       "incant": "1.0s cast",
       "cooldown": "No cooldown",
-      "note": "Requires Charm",
+      "note": "Requires Charm<BR>Builds 30 Righteous Fury",
       "description": "A quick heal that restores X (low) health.",
       "category": "Ability"
     },
@@ -485,7 +485,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Groupmates within 100 feet gain (1020 + 4.2 WIL) health over 15 seconds. You will gain 25 Righteous Fury per second for the duration.",
+      "description": "Groupmates within 100 feet gain (1020 + 4.2 WIL) health over 15 seconds. You will gain 30 Righteous Fury per second for the duration.",
       "category": "Morale"
     },
   
@@ -548,7 +548,7 @@
       "range": "150ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Requires 30 Righteous Fury",
+      "note": "Requires 15 Righteous Fury",
       "description": "Heals your target for X points over 15 seconds.",
       "category": "Ability"
     },
@@ -628,7 +628,7 @@
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Requires 40 Righteous Fury",
+      "note": "Requires 45 Righteous Fury",
       "description": "You call upon Sigmar to bless everyone in your group within 100 feet, restoring X health over 10 seconds.",
       "category": "Ability"
     },
@@ -692,7 +692,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Builds 35 Righteous Fury<br>Target must have a blessing",
+      "note": "Builds 30 Righteous Fury<br>Target must have a blessing",
       "description": "A shattering attack that removes one blessing from your enemy and deals X damage.",
       "category": "Ability"
     },
@@ -708,7 +708,7 @@
       "range": "150ft range",
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Requires 25 Righteous Fury<br>Target must have an ailment or hex",
+      "note": "Requires 30 Righteous Fury<br>Target must have an ailment or hex",
       "description": "You purify an ally, removing one ailment or hex and grant them a (rank * 3) ability bonus to agility for 5 seconds.",
       "category": "Ability"
     },
@@ -820,7 +820,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "5.0s cooldown",
-      "note": "Builds 40 Righteous Fury",
+      "note": "Builds 30 Righteous Fury",
       "description": "A blessed attack which deals X physical damage to your target, your defensive target gains a (3 * rank) ability bonus to strength for 20 seconds.",
       "category": "Ability"
     },
@@ -947,9 +947,9 @@
       "cost": "Costs 30 AP/sec",
       "range": "No range",
       "incant": "5.0s cast",
-      "cooldown": "10.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
-      "description": "For the next 5 seconds, you will convert 30 action points into 30 Righteous Fury every second. If you run out of action points or break your concentration, this effect will end.",
+      "description": "For the next 5 seconds, you will convert 30 action points into 45 Righteous Fury every second. If you run out of action points or break your concentration, this effect will end.",
       "category": "Ability"
     },
   
@@ -962,9 +962,9 @@
       "minrank": "15",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "1.0s cast",
+      "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Requires 60 Righteous Fury",
+      "note": "Requires 45 Righteous Fury",
       "description": "Restores X health to all group mates within 100 feet of you.",
       "category": "Ability"
     },
@@ -995,7 +995,7 @@
       "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "20.0s cooldown",
+      "cooldown": "20s cooldown",
       "note": "Builds 35 Righteous Fury",
       "description": "A powerful strike which deals X physical damage to your enemy and knocks the wind out of them for 4 seconds, silencing them and making them unable to use magic.",
       "category": "Ability"
@@ -1012,7 +1012,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Builds 35 Righteous Fury",
+      "note": "Builds 15 Righteous Fury",
       "description": "Deals X physical damage to your target reducing their run speed by 30% for 5 seconds.",
       "category": "Ability"
     },
@@ -1045,7 +1045,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Divine Aid is now instant cast and only costs 30 Righteous Fury.",
+      "description": "Divine Aid is now instant cast and only costs 45 Righteous Fury.",
       "category": "CareerTactic"
     },
 
@@ -1060,7 +1060,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
-      "note": "Builds 40 Righteous Fury",
+      "note": "Builds 30 Righteous Fury",
       "description": "You call upon Sigmar to curse your enemy dealing X spirit damage. For the next 10 seconds, all healing the target receives will be 50% less effective.",
       "category": "Ability"
     },
@@ -1076,7 +1076,7 @@
       "range": "10ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Builds 20 Righteous Fury",
+      "note": "Builds 15 Righteous Fury",
       "description": "Deals X physical damage. You are healed for 200% of the damage dealt in addition to Radiant Remedy.",
       "category": "Ability"
     },
