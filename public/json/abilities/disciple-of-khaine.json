@@ -339,7 +339,7 @@
       "cost": "No AP Cost",
       "range": "150ft range",
       "incant": "Instant Cast",
-      "cooldown": "20s cooldown",
+      "cooldown": "15s cooldown",
       "note": "",
       "description": "You surround yourself or an ally with a devouring aura for up to 5 seconds. Each second, your ally will deal X spiritual damage to up to 4 enemies within 25 feet of them.<br><br>If you have a shield equipped, you will lose 25 Soul Essence per second and the target will be healed for 50% of all the damage dealt.",
       "category": "Ability"
@@ -533,7 +533,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you are hit by an enemy, you have a 25% chance to gain 35 Soul Essence. Tactic can not trigger more than once every 3 seconds.",
+      "description": "Whenever you are hit by an enemy, you have a 20% chance to gain 10 Soul Essence and another 30 over 3 seconds.",
       "category": "CareerTactic"
     },
   
@@ -573,15 +573,15 @@
       "image": "abi_ch_markofdarkglory",
       "id": 7505,
       "name": "Khaine's Bounty",
-      "type": "Buff",
+      "type": "Damaging",
       "spec": "Path of Sacrifice",
       "minrank": "1",
       "cost": "No Cost",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "No cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
-      "description": "You channel the power of Khaine through your body and into an ally healing them for X every second. You take X raw damage every second and cannot be healed for the duration.<br><br>If you have a shield equipped, you will gain 30% movement speed for the duration.",
+      "description": "You channel the power of Khaine through your body and into an ally healing them for X every second. You take X damage every second and cannot be healed for the duration.<br><br>If you have a shield equipped, you will gain 30% movement speed for the duration.",
       "category": "Ability"
     },
 	
@@ -605,15 +605,15 @@
       "image": "11002",
       "id": 5017,
       "name": "Khaine's Fountain",
-      "type": "Damaging",
+      "type": "Healing",
       "spec": "Path of Sacrifice",
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "3s channel",
+      "incant": "3s cast",
       "cooldown": "13s cooldown",
       "note": "Requires 20 Soul Essence per second",
-      "description": "You throw yourself open to Khaine's influence as power rushes through you for up to 3 seconds. Each second, all allies within 30 feet of you will regain X health, and you will lose 20 Soul Essence. This effect will end if you lose your concentration, or run out of Soul Essence to power it with.<br><br>You break all snares upon casting this ability and will be immune to them for the duration.",
+      "description": "You throw yourself open to Khaine's influence as power rushes through you for up to 3 seconds. Each second, up to 9 allies within 30 feet of you will regain X health, and you will lose 20 Soul Essence. This effect will end if you lose your concentration, or run out of Soul Essence to power it with.<br><br>All snares are removed upon casting this ability, and you will be immune to them for the duration.",
       "category": "Ability"
     },
   
@@ -629,7 +629,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you hit an enemy, there is a 25% chance that they will suffer an additional X spirit damage over 9 seconds.",
+      "description": "Any time you hit an enemy, there is a 25% chance that they will suffer an additional X spiritual damage over 9 seconds. This effect cannot refresh.",
       "category": "CareerTactic"
     },
   
@@ -640,12 +640,12 @@
       "type": "Healing",
       "spec": "Path of Dark Rites",
       "minrank": "14",
-      "cost": "Costs 100 AP",
+      "cost": "Costs 50 AP",
       "range": "150ft range",
-      "incant": "0.5s cast",
-      "cooldown": "5s cooldown",
-      "note": "Requires Chalice",
-      "description": "A quick heal that restores X health. Not affected by cooldown modification abilities.",
+      "incant": "1s cast",
+      "cooldown": "No cooldown",
+      "note": "Requires Charm",
+      "description": "A quick heal that restores X (low) health.",
       "category": "Ability"
     },
   
