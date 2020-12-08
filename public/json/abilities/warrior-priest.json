@@ -261,7 +261,7 @@
       "incant": "Instant Cast",
       "cooldown": "1m cooldown",
       "note": "",
-      "description": "Heal your target for 1800. This ability is not effected by healing debuffs.",
+      "description": "Heal your target for (1200 + 0.8 WIL). This ability is not effected by healing debuffs.",
       "category": "Morale"
     },
   
@@ -1109,7 +1109,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Sigmar's Radiance, Twin-Tailed Blow, and Weight of Guilt can now strike a target from 30 feet away.",
+      "description": "Sigmar's Radiance, Twin-Tailed Blow, and Vow of Silence can now strike a target from 30 feet away.",
       "category": "CareerTactic"
     }
   ]
