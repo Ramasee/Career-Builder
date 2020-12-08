@@ -469,7 +469,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you are hit by an enemy, you have a 20% chance to gain 10 righteous fury and another 30 righteous fury over 3 seconds.",
+      "description": "Whenever you are hit by an enemy, you have a 25% chance to gain 5 righteous fury and another 40 righteous fury over 4 seconds.",
       "category": "CareerTactic"
     },
   
