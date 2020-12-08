@@ -1027,7 +1027,7 @@
       "cost": "No Cost",
       "range": "150ft range",
       "incant": "Instant Cast",
-      "cooldown": "No cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
       "description": "You channel Sigmar's spirit through your body in order to heal your target for X every second for 5s. You take X damage every second, and you cannot be healed for the duration.<br><br>You will also gain 30% movement speed for the duration if you have a shield equipped.",
       "category": "Ability"
