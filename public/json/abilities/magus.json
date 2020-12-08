@@ -475,17 +475,17 @@
   
     {
       "image": "05004",
-      "id": 5160,
-      "name": "Flee",
+      "id": 5055,
+      "name": "Rush",
       "type": "Buff",
       "spec": "Core Ability",
-      "minrank": "1",
+      "minrank": "2",
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "30.0s cooldown",
+      "cooldown": "45s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 30 for 10 seconds. You immediately lose all of your action points, any career mechanic points, and your Morale will begin to drop, and you will not begin to regain action points until 10 seconds have passed.<br><br>You can use this ability again to cancel the effect early, but you will still remain panicked and will not regain action points for the full duration.",
+      "description": "Gain 25% increased movement speed for 5 seconds. The duration is increased by 1 second for every 50 action points you had. You become exerted losing all of your action points, career mechanic points, and morale. Your AP recovery and morale per second are set to 0 for the next 5 seconds.",
       "category": "Ability"
     },
   
