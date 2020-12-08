@@ -363,7 +363,7 @@
   
     {
       "image": "05004",
-      "id": 4539,
+      "id": 5055,
       "name": "Rush",
       "type": "Buff",
       "spec": "Core Ability",
@@ -373,7 +373,7 @@
       "incant": "Instant Cast",
       "cooldown": "45s cooldown",
       "note": "",
-      "description": "You run away from the battle in a mad panic, increasing your run speed by 25% for 8 seconds. You immediately lose all of your action points, any career mechanic points, and your morale will begin to drop, and you will not begin to regain action points until 8 seconds have passed.",
+      "description": "Gain 25% increased movement speed for 5 seconds. The duration is increased by 1 second for every 50 action points you had. You become exerted losing all of your action points, career mechanic points, and morale. Your AP recovery and morale per second are set to 0 for the next 5 seconds.",
       "category": "Ability"
     },
   
