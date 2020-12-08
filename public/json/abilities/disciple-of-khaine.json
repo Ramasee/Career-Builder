@@ -11,7 +11,7 @@
         "lvl6": 5001,
         "lvl7": 5004
       },
-      "coreAbilities": [5053,4960,4969,4966,4967,4957]
+      "coreAbilities": [5053,4960,4969,4958,4967,4957]
     },
     "b": {
       "name": "Path of Sacrifice",
@@ -24,7 +24,7 @@
         "lvl6": 5017,
         "lvl7": 5018
       },
-      "coreAbilities": [4971,4962,4958,4972,5013,7503]
+      "coreAbilities": [4971,4962,4966,4972,5013,7503]
     },
     "c": {
       "name": "Path of Torture",
@@ -37,7 +37,7 @@
         "lvl6": 5010,
         "lvl7": 5011
       },
-      "coreAbilities": [4959,4963,4965,4968,5054,4956]
+      "coreAbilities": [4959,4963,4970,4968,5054,4956]
     }
   },
   "data": [
@@ -69,7 +69,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 1320 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
+      "description": "Remove up to 10 ailments, curses, or hexes from your groupmates within 100 feet. Restore 300 health for each health removed from the target.",
       "category": "Morale"
     },
 
@@ -77,7 +77,7 @@
       "image": "22712",
       "id": 4997,
       "name": "Bathing In Blood",
-      "type": "Enchantment",
+      "type": "Buff",
       "spec": "Core Ability",
       "minrank": "4",
       "cost": "Tactic",
@@ -85,7 +85,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you kill an enemy, you will regain 20% of your health over 9 seconds.",
+      "description": "Any time you kill an enemy, you will regain 30% of your health over 9 seconds. This effect cannot refresh.",
       "category": "CareerTactic"
     },
   
@@ -101,7 +101,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases Lacerate, Sanguinary Extension, and Fell Sacrifice's durations by an additional 6 seconds.",
+      "description": "Attacks which generate Soul Essence will now generate an additional 10 points.",
       "category": "CareerTactic"
     },
   
@@ -133,7 +133,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Covenant Of Celerity will now deal X spirit damage.",
+      "description": "Covenant Of Celerity will now deal (20:150 + 0.20STR) spiritual damage.",
       "category": "CareerTactic"
     },
   
@@ -149,7 +149,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you heal an ally with Khaine's Embrace, Transfer Essence, or Khaine's Fountain, you will be healed for X.",
+      "description": "Whenever you heal an ally with Khaine's Embrace, Transfer Essence, Unholy Reclamation, or Khaine's Fountain, you will be healed for X.",
       "category": "CareerTactic"
     },
   
@@ -160,12 +160,12 @@
       "type": "Damaging",
       "spec": "Path of Sacrifice",
       "minrank": "18",
-      "cost": "Rank 4 morale",
+      "cost": "Rank 2 morale",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You call upon the Chant of Pain, dealing 293 raw damage every second to all enemies in a 30 feet area around you for the next 4 seconds. Reveling in their agony, you are healed for all damage inflicted by the Chant of Pain.",
+      "description": "For the next 15 seconds, Transfer Essence will deal damage to up to 9 enemies within 30 feet sending the lifetap to all groupmates. In addition, it will apply Blood Heal on up to 9 allies within 30 feet.",
       "category": "Morale"
     },
   
@@ -192,7 +192,7 @@
       "type": "Damaging",
       "spec": "Path of Torture",
       "minrank": "23",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 30 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
@@ -204,16 +204,16 @@
     {
       "image": "05188",
       "id": 4970,
-      "name": "Consume Enchantment",
+      "name": "Consume Blessing",
       "type": "Damaging",
-      "spec": "Core Ability",
+      "spec": "Path of Torture",
       "minrank": "25",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "5s cooldown",
-      "note": "Builds 30 Soul Essence<br>Target must have an Enchantment",
-      "description": "A shattering attack that removes one enchantment from your enemy and deals X physical damage.",
+      "note": "Builds 35 Soul Essence<br>Target must have a blessing",
+      "description": "A shattering attack that removes one blessing from your enemy and deals X physical damage.",
       "category": "Ability"
     },
   
@@ -221,7 +221,7 @@
       "image": "10948",
       "id": 4956,
       "name": "Consume Strength",
-      "type": "Curse",
+      "type": "Enchantment",
       "spec": "Path of Torture",
       "minrank": "37",
       "cost": "Costs 30 AP",
@@ -237,14 +237,14 @@
       "image": "10953",
       "id": 4972,
       "name": "Consume Thought",
-      "type": "Curse",
+      "type": "Debuff",
       "spec": "Path of Sacrifice",
       "minrank": "39",
-      "cost": "Costs 25 AP",
+      "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "30s cooldown",
-      "note": "Builds 25 Soul Essence",
+      "cooldown": "20s cooldown",
+      "note": "Builds 35 Soul Essence",
       "description": "An overwhelming attack which deals X physical damage to your enemy and silences them for 4 seconds, making them unable to use magic.",
       "category": "Ability"
     },
@@ -253,15 +253,15 @@
       "image": "10947",
       "id": 4968,
       "name": "Covenant of Celerity",
-      "type": "Buff",
+      "type": "Blessing",
       "spec": "Path of Torture",
       "minrank": "9",
-      "cost": "No AP Cost",
+      "cost": "Costs 55 AP",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
-      "note": "Only one Covenant may be active at a time.",
-      "description": "All group mates within 100 feet of you gain a 20% chance to curse anyone that they damage, dealing X spiritul damage and reducing the victim's run speed by 20% for 9 seconds.",
+      "note": "",
+      "description": "For the next 60 minutes, all group mates within 100 feet of you gain a 20% chance to curse anyone that they damage, dealing X spiritul damage and reducing the victim's run speed by 20% for 9 seconds. You may only apply one covenant to the party, but players may be affected by multiple different covenants.",
       "category": "Ability"
     },
   
@@ -269,15 +269,15 @@
       "image": "10951",
       "id": 4966,
       "name": "Covenant of Tenacity",
-      "type": "Buff",
-      "spec": "Path of Dark Rites",
+      "type": "Blessing",
+      "spec": "Path of Sacrifice",
       "minrank": "18",
-      "cost": "No AP Cost",
+      "cost": "Costs 55 AP",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
-      "note": "Only one Covenant may be active at a time.",
-      "description": "A pact with Khaine that causes all groupmates within 100 feet to gain a X ability bonus to armor.",
+      "note": "",
+      "description": "A pact with Khaine that causes all groupmates within 100 feet to gain a (rank * 20) ability bonus to armor for the next 60 minutes. You may only apply one covenant to the party, but players may be affected by multiple different covenants.",
       "category": "Ability"
     },
   
@@ -286,14 +286,14 @@
       "id": 4958,
       "name": "Covenant of Vitality",
       "type": "Buff",
-      "spec": "Path of Sacrifice",
+      "spec": "Path of Dark Rites",
       "minrank": "3",
-      "cost": "No AP Cost",
+      "cost": "Costs 55 AP",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
-      "note": "Only one Covenant may be active at a time.",
-      "description": "Any time a groupmate within 100 feet of you damages an enemy, they have a 20% chance to deal an additional X spiritual damage to their victim, and heal themselves for an equal amount.",
+      "note": "",
+      "description": "For the next 60 minutes, all groupmates within 100 feet of you gain: Any time a groupmate damages an enemy, they have a 20% chance to deal an additional X spiritual damage to their victim healing for 100% of the damage done. You may only apply one covenant to the party, but players may be affected by multiple different covenants.",
       "category": "Ability"
     },
   
@@ -333,15 +333,15 @@
       "image": "10958",
       "id": 5015,
       "name": "Devour Essence",
-      "type": "Damaging",
+      "type": "Buff",
       "spec": "Path of Sacrifice",
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "150ft range",
       "incant": "Instant Cast",
       "cooldown": "20s cooldown",
-      "note": "Requires 25 Soul Essence per second",
-      "description": "You surround yourself or an ally with a devouring aura for up to 5 seconds. Each second, your ally will deal X spiritual damage to up to 4 enemies within 10 feet of them.<br><br>You will lose 25 Soul Essence per second and the target will be healed for 50% of all the damage dealt unless under the effect of Fell Sacrifice.",
+      "note": "",
+      "description": "You surround yourself or an ally with a devouring aura for up to 5 seconds. Each second, your ally will deal X spiritual damage to up to 4 enemies within 25 feet of them.<br><br>If you have a shield equipped, you will lose 25 Soul Essence per second and the target will be healed for 50% of all the damage dealt.",
       "category": "Ability"
     },
   
@@ -373,7 +373,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A strong heal that will do 1800 raw healing to your target.",
+      "description": "Heal your target for (1200 + 0.8 WIL). This is not affected by healing debuffs.",
       "category": "Morale"
     },
   
@@ -389,7 +389,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage from melee abilities.",
+      "description": "Each group member within 100 feet is surrounded by a protective shield for the next 15 seconds that will absorb up to 4500 damage.",
       "category": "Morale"
     },
   
@@ -405,7 +405,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Patch Wounds will now always cleanse one ailment or hex from each groupmate when cast.",
+      "description": "Patch Wounds will cleanse one ailment or hex from each groupmate within 100 feet when cast. It will not cleanse more than one effect per target.",
       "category": "CareerTactic"
     },
   
@@ -414,14 +414,14 @@
       "id": 4965,
       "name": "Essence Lash",
       "type": "Damaging",
-      "spec": "Path of Torture",
+      "spec": "Core Ability",
       "minrank": "13",
       "cost": "Costs 45 AP",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "5s cooldown",
       "note": "",
-      "description": "You lash out at all opponents in front of you up to 50 feet away, dealing X physical damage and regaining 15 Soul Essence for each enemy hit.",
+      "description": "You lash out at up to 9 opponents in front of you up to 50 feet away, dealing X physical damage and regaining 15 Soul Essence for each enemy hit.",
       "category": "Ability"
     },
   
@@ -437,7 +437,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Transfer Essence and Unholy Reclamation can now be used on targets within 30 feet.",
+      "description": "Transfer Essence, Consume Thought, and Unholy Reclamation can now be used on targets within 30 feet.",
       "category": "CareerTactic"
     },
 
