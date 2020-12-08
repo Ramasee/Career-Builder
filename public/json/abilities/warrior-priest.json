@@ -596,8 +596,8 @@
       "range": "No range",
       "incant": "3.0s channel",
       "cooldown": "13.0s cooldown",
-      "note": "Requires 20 Righteous Fury per second",
-      "description": "You open your soul to Sigmar and become a living force of holy power for up to 3 seconds, as long as you maintain your concentration. Each second, up to 9 allies within 30 feet of you will regain X health, and you will consume 20 Righteous Fury.<br>All snares are removed on cast and you are immune to them for the duration.",
+      "note": "",
+      "description": "You open your soul to Sigmar and become a living force of holy power for up to 3 seconds, as long as you maintain your concentration. For 4 times over 3 seconds, up to 9 allies within 30 feet of you will regain X health, and you will consume 15 Righteous Fury. This ability can be cast while moving.<br>All snares are removed on cast and you are immune to them for the duration.",
       "category": "Ability"
     },
   
