@@ -1008,7 +1008,7 @@
       "type": "Debuff",
       "spec": "Path of Wrath",
       "minrank": "27",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 40 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
