@@ -916,8 +916,8 @@
       "range": "No range",
       "incant": "Instant cast",
       "cooldown": "5.0s cooldown",
-      "note": "Requires 40 Righteous Fury per second.",
-      "description": "When activated: deal X physical damage to up to 9 enemies within 30 feet of you every 2 seconds. During this time you deal 30% more damage and gain a (9 * rank) morale bonus to weapon skill. This ability will end if used again or if you run of Righteous Fury with which to power it.",
+      "note": "",
+      "description": "When activated, deal X physical damage to up to 9 enemies within 30 feet of you every seconds and lose 45 Righteous Fury. During this time you deal 30% more damage and gain a (9 * rank) morale bonus to weapon skill. This ability will end if used again or if you run of Righteous Fury with which to power it.",
       "category": "Ability"
     },
   
