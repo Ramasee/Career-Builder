@@ -244,8 +244,8 @@
       "range": "5ft range",
       "incant": "3.0s cast",
       "cooldown": "8.0s cooldown",
-      "note": "Requires 25 Righteous Fury per second",
-      "description": "You repeatedly assault an enemy, attacking their very spirit and offering it up to Sigmar's will. You strike the target up to four times over 3 seconds, dealing X spirit damage per hit. Each hit heals your defensive target for 350% of the damage that was dealt.<br>This effect will end if you break your concentration, or run out of Righteous Fury.",
+      "note": "",
+      "description": "You repeatedly assault an enemy, attacking their very spirit and offering it up to Sigmar's will. You strike the target up to four times over 3 seconds, dealing X spirit damage and consuming 15 Righteous Fury per hit. Each hit heals your defensive target for 350% of the damage that was dealt.<br>This effect will end if you break your concentration, or run out of Righteous Fury.",
       "category": "Ability"
     },
   
@@ -832,7 +832,7 @@
       "type": "Blessing",
       "spec": "Path of Salvation",
       "minrank": "1",
-      "cost": "Costs 55 AP",
+      "cost": "Costs 50 AP",
       "range": "No range",
       "incant": "2.0s cast",
       "cooldown": "10.0s cooldown",
@@ -868,8 +868,8 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "15.0s cooldown",
-      "note": "",
-      "description": "You smash your weapon into your enemy, dealing X physical damage to them. Your defensive target becomes safeguarded by Sigmar for up to 8 seconds, who heals them for Y health each time they're attacked. This effect can happen up to 20 times and you lose 5 Righteous Fury each time it happens.<BR><BR>If you have a great weapon equipped, the effect can happen only up to 10 times and costs 10 Righteous Fury each time.",
+      "note": "Requires 60 Righteous Fury",
+      "description": "You smash your weapon into your enemy, dealing X physical damage to them. Your defensive target becomes safeguarded by Sigmar for up to 8 seconds, who heals them for Y health each time they're attacked. This effect can happen up to 10 times<BR><BR>If you have a shield equipped, the effect can happen up to 20 times.",
       "category": "Ability"
     },
   
@@ -896,7 +896,7 @@
       "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "13",
-      "cost": "Costs 45 AP",
+      "cost": "Costs 50 AP",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "10.0s cooldown",
@@ -1028,7 +1028,7 @@
       "range": "150ft range",
       "incant": "Instant Cast",
       "cooldown": "30s cooldown",
-      "note": "",
+      "note": "Requires 60 Righteous Fury",
       "description": "You channel Sigmar's spirit through your body in order to heal your target for X every second for 5s. You take X damage every second, and you cannot be healed for the duration.<br><br>You will also gain 30% movement speed for the duration if you have a shield equipped.",
       "category": "Ability"
     },
