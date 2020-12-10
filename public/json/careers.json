@@ -170,169 +170,169 @@
     "bright-wizard148": {
     "name": "1.4.8 Bright Wizard",
     "slug": "bright-wizard148",
-    "faction": "Order",
-    "race": "Empire",
-    "class": "Ranged DPS"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
   "knight-of-the-blazing-sun148": {
     "name": "1.4.8 Knight of the Blazing Sun",
     "slug": "knight-of-the-blazing-sun148",
-    "faction": "Order",
-    "race": "Empire",
-    "class": "Tank"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
   "warrior-priest148": {
     "name": "1.4.8 Warrior Priest",
     "slug": "warrior-priest148",
-    "faction": "Order",
-    "race": "Empire",
-    "class": "Healer"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
     "witch-hunter148": {
     "name": "1.4.8 Witch Hunter",
     "slug": "witch-hunter148",
-    "faction": "Order",
-    "race": "Empire",
-    "class": "Melee DPS"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
   "engineer148": {
     "name": "1.4.8 Engineer",
     "slug": "engineer148",
-    "faction": "Order",
-    "race": "Dwarf",
-    "class": "Ranged DPS"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
   "ironbreaker148": {
     "name": "1.4.8 Ironbreaker",
     "slug": "ironbreaker148",
-    "faction": "Order",
-    "race": "Dwarf",
-    "class": "Tank"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
   "rune-priest148": {
     "name": "1.4.8 Runepriest",
     "slug": "rune-priest148",
-    "faction": "Order",
-    "race": "Dwarf",
-    "class": "Healer"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
   "slayer148": {
     "name": "1.4.8 Slayer",
     "slug": "slayer148",
-    "faction": "Order",
-    "race": "Dwarf",
-    "class": "Melee DPS"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
   "archmage148": {
     "name": "1.4.8 Archmage",
     "slug": "archmage148",
-    "faction": "Order",
-    "race": "High Elf",
-    "class": "Healer"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
   "shadow-warrior148": {
     "name": "1.4.8 Shadow Warrior",
     "slug": "shadow-warrior148",
-    "faction": "Order",
-    "race": "High Elf",
-    "class": "Ranged DPS"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
   "sword-master148": {
     "name": "1.4.8 Sword Master",
     "slug": "sword-master148",
-    "faction": "Order",
-    "race": "High Elf",
-    "class": "Tank"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
   "white-lion148": {
     "name": "1.4.8 White Lion",
     "slug": "white-lion148",
-    "faction": "Order",
-    "race": "High Elf",
-    "class": "Melee DPS"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
   "chosen148": {
     "name": "1.4.8 Chosen",
     "slug": "chosen148",
-    "faction": "Destruction",
-    "race": "Chaos",
-    "class": "Tank"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
   "magus148": {
     "name": "1.4.8 Magus",
     "slug": "magus148",
-    "faction": "Destruction",
-    "race": "Chaos",
-    "class": "Ranged DPS"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
   "marauder148": {
     "name": "1.4.8 Marauder",
     "slug": "marauder148",
-    "faction": "Destruction",
-    "race": "Chaos",
-    "class": "Melee DPS"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
   "zealot148": {
     "name": "1.4.8 Zealot",
     "slug": "zealot148",
-    "faction": "Destruction",
-    "race": "Chaos",
-    "class": "Healer"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
   "black-orc148": {
     "name": "1.4.8 Black Orc",
     "slug": "black-orc148",
-    "faction": "Destruction",
-    "race": "Greenskin",
-    "class": "Tank"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
   "choppa148": {
     "name": "1.4.8 Choppa",
     "slug": "choppa148",
-    "faction": "Destruction",
-    "race": "Greenskin",
-    "class": "Melee DPS"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
   "shaman148": {
     "name": "1.4.8 Shaman",
     "slug": "shaman148",
-    "faction": "Destruction",
-    "race": "Greenskin",
-    "class": "Healer"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
   "squig-herder148": {
     "name": "1.4.8 Squig Herder",
     "slug": "squig-herder148",
-    "faction": "Destruction",
-    "race": "Greenskin",
-    "class": "Ranged DPS"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
   "black-guard148": {
     "name": "1.4.8 Black Guard",
     "slug": "black-guard148",
-    "faction": "Destruction",
-    "race": "Dark Elf",
-    "class": "Tank"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
   "disciple-of-khaine148": {
     "name": "1.4.8 Disciple of Khaine",
     "slug": "disciple-of-khaine148",
-    "faction": "Destruction",
-    "race": "Dark Elf",
-    "class": "Healer"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
   "sorcerer148": {
     "name": "1.4.8 Sorcerer",
     "slug": "sorcerer148",
-    "faction": "Destruction",
-    "race": "Dark Elf",
-    "class": "Ranged DPS"
+    "faction": "",
+    "race": "",
+    "class": ""
   },
   "witch-elf148": {
     "name": "1.4.8 Witch Elf",
     "slug": "witch-elf148",
-    "faction": "Destruction",
-    "race": "Dark Elf",
-    "class": "Melee DPS"
+    "faction": "",
+    "race": "",
+    "class": ""
   }
 }
