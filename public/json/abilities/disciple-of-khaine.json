@@ -115,9 +115,9 @@
       "cost": "Costs 30 AP/sec",
       "range": "No range",
       "incant": "5s cast",
-      "cooldown": "10s cooldown",
+      "cooldown": "20s cooldown",
       "note": "",
-      "description": "For the next 5 seconds, you will regain 30 Soul Essence every second. If you run out of action points or break your concentration, this effect will end.",
+      "description": "For the next 5 seconds, you will regain 45 Soul Essence every second. If you run out of action points or break your concentration, this effect will end.",
       "category": "Ability"
     },
   
@@ -149,7 +149,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you heal an ally with Khaine's Embrace, Transfer Essence, Unholy Reclamation, or Khaine's Fountain, you will be healed for X.",
+      "description": "Whenever you cast Khaine's Embrace, Transfer Essence, Unholy Reclamation, or Khaine's Fountain, you will be healed for X.",
       "category": "CareerTactic"
     },
   
@@ -157,7 +157,7 @@
       "image": "10967",
       "id": 5018,
       "name": "Chant of Pain",
-      "type": "Damaging",
+      "type": "Buff",
       "spec": "Path of Sacrifice",
       "minrank": "18",
       "cost": "Rank 2 morale",
@@ -181,7 +181,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Restore Essence now instant cast and costs 30 Soul Essence.",
+      "description": "Restore Essence now instant cast and costs 45 Soul Essence.",
       "category": "CareerTactic"
     },
 
@@ -196,7 +196,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Requires Dual Wield.<br>Builds 30 Soul Essence",
+      "note": "Requires Dual Wield<br>Builds 50 Soul Essence",
       "description": "A potent attack which deals X physical damage to your enemy.",
       "category": "Ability"
     },
@@ -212,7 +212,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "5s cooldown",
-      "note": "Builds 35 Soul Essence<br>Target must have a blessing",
+      "note": "Builds 30 Soul Essence<br>Target must have a blessing",
       "description": "A shattering attack that removes one blessing from your enemy and deals X physical damage.",
       "category": "Ability"
     },
@@ -228,7 +228,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "5s cooldown",
-      "note": "Builds 40 Soul Essence",
+      "note": "Builds 30 Soul Essence",
       "description": "A crippling attack which deals X physical damage and causes your enemy to take a (3 * rank) ability penalty to strength for 20 seconds. Your defensive target gains a (3 * rank) ability bonus to strength.",
       "category": "Ability"
     },
@@ -244,7 +244,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "20s cooldown",
-      "note": "Builds 35 Soul Essence",
+      "note": "Builds 30 Soul Essence",
       "description": "An overwhelming attack which deals X physical damage to your enemy and silences them for 4 seconds, making them unable to use magic.",
       "category": "Ability"
     },
@@ -261,7 +261,7 @@
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "For the next 60 minutes, all group mates within 100 feet of you gain a 20% chance to curse anyone that they damage, dealing X spiritul damage and reducing the victim's run speed by 20% for 9 seconds. You may only apply one covenant to the party, but players may be affected by multiple different covenants.",
+      "description": "For the next 60 minutes, all group mates within 100 feet of you gain a 20% chance to curse anyone that they damage, dealing X spiritual damage and reducing the victim's run speed by 20% for 9 seconds. You may only apply one covenant to the party, but players may be affected by multiple different covenants.",
       "category": "Ability"
     },
   
@@ -333,7 +333,7 @@
       "image": "10958",
       "id": 5015,
       "name": "Devour Essence",
-      "type": "Buff",
+      "type": "Enchantment",
       "spec": "Path of Sacrifice",
       "minrank": "1",
       "cost": "No AP Cost",
@@ -416,10 +416,10 @@
       "type": "Damaging",
       "spec": "Core Ability",
       "minrank": "13",
-      "cost": "Costs 45 AP",
+      "cost": "Costs 50 AP",
       "range": "No range",
       "incant": "Instant Cast",
-      "cooldown": "5s cooldown",
+      "cooldown": "10s cooldown",
       "note": "",
       "description": "You lash out at up to 9 opponents in front of you up to 50 feet away, dealing X physical damage and regaining 15 Soul Essence for each enemy hit.",
       "category": "Ability"
