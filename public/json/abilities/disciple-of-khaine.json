@@ -453,7 +453,7 @@
       "incant": "Instant cast",
       "cooldown": "5s cooldown",
       "note": "Requires 40 Soul Essence per second.",
-      "description": "When activated: deals X physical damage every 2 seconds to up to 9 enemies within 30 feet of you. During this time you deal 30% more damage and gain a (9 * rank) morale bonus to weapon skill. This ability will end if you run out of Soul Essence to power it with.",
+      "description": "When activated: deals X physical damage every second to up to 9 enemies within 30 feet of you and lose 45 Soul Essence. During this time you deal 30% more damage and gain a (9 * rank) morale bonus to weapon skill. This ability will end if you run out of Soul Essence to power it with.",
       "category": "Ability"
     },
   
@@ -476,7 +476,7 @@
     {
       "image": "10936",
       "id": 4963,
-      "name": "Flay",
+      "name": "Debuff",
       "type": "Curse",
       "spec": "Path of Torture",
       "minrank": "27",
@@ -484,7 +484,7 @@
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
-      "note": "Builds 35 Soul Essence",
+      "note": "Builds 15 Soul Essence",
       "description": "You flay your target for X physical damage, reducing their run speed by 30% for 5 seconds.",
       "category": "Ability"
     },
@@ -533,7 +533,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you are hit by an enemy, you have a 20% chance to gain 10 Soul Essence and another 30 over 3 seconds.",
+      "description": "Whenever you are hit by an enemy, you have a 20% chance to gain 5 Soul Essence and another 40 over 4 seconds.",
       "category": "CareerTactic"
     },
   
@@ -580,7 +580,7 @@
       "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "30s cooldown",
-      "note": "",
+      "note": "Requires 60 Soul Essence",
       "description": "You channel the power of Khaine through your body and into an ally healing them for X every second. You take X damage every second and cannot be healed for the duration.<br><br>If you have a shield equipped, you will gain 30% movement speed for the duration.",
       "category": "Ability"
     },
@@ -594,9 +594,9 @@
       "minrank": "15",
       "cost": "No AP Cost",
       "range": "No range",
-      "incant": "1s cast",
+      "incant": "Instant cast",
       "cooldown": "No cooldown",
-      "note": "Requires 60 Soul Essence",
+      "note": "Requires 45 Soul Essence",
       "description": "All of your groupmates within 100 feet of you regain X health.",
       "category": "Ability"
     },
@@ -613,7 +613,7 @@
       "incant": "3s cast",
       "cooldown": "13s cooldown",
       "note": "Requires 20 Soul Essence per second",
-      "description": "You throw yourself open to Khaine's influence as power rushes through you for up to 3 seconds. Each second, up to 9 allies within 30 feet of you will regain X health, and you will lose 20 Soul Essence. This effect will end if you lose your concentration, or run out of Soul Essence to power it with.<br><br>All snares are removed upon casting this ability, and you will be immune to them for the duration.",
+      "description": "You throw yourself open to Khaine's influence as power rushes through you for up to 3 seconds. For 4 times, up to 9 allies within 30 feet of you will regain X health, and you will lose 20 Soul Essence. This effect will end if you lose your concentration, or run out of Soul Essence to power it with.<br><br>All snares are removed upon casting this ability, and you will be immune to them for the duration.",
       "category": "Ability"
     },
   
@@ -644,7 +644,7 @@
       "range": "150ft range",
       "incant": "1s cast",
       "cooldown": "No cooldown",
-      "note": "Requires Charm",
+      "note": "Requires Charm<BR>Builds 30 Soul Essence",
       "description": "A quick heal that restores X (low) health.",
       "category": "Ability"
     },
@@ -653,15 +653,15 @@
       "image": "10956",
       "id": 5001,
       "name": "Khaine's Refreshment",
-      "type": "Blessing",
+      "type": "Enchantment",
       "spec": "Path of Dark Rites",
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
-      "note": "Requires 40 Soul Essence",
-      "description": "All group mates within 100 feet of you gradually regains X health over 9 seconds.",
+      "note": "Requires 45 Soul Essence",
+      "description": "All group mates within 100 feet of you gradually regains X health over 10 seconds.",
       "category": "Ability"
     },
   
@@ -672,7 +672,7 @@
       "type": "Blessing",
       "spec": "Path of Dark Rites",
       "minrank": "1",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 50 AP",
       "range": "self",
       "incant": "2s Cast",
       "cooldown": "10s cooldown",
@@ -693,7 +693,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Removes all ailments and hexes from your group.",
+      "description": "Removes up to 6 ailments and hexes from each groupmate within 100 feet.",
       "category": "Morale"
     },
   
@@ -701,14 +701,14 @@
       "image": "10938",
       "id": 4959,
       "name": "Lacerate",
-      "type": "Curse",
+      "type": "Ailment",
       "spec": "Path of Torture",
       "minrank": "29",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "5s cooldown",
-      "note": "Builds 20 Soul Essence",
+      "cooldown": "No cooldown",
+      "note": "Builds 15 Soul Essence",
       "description": "A gory strike that curses your enemy, dealing X physical damage initially and another Y physical damage over 10 seconds and causing the enemy to take a (3 * rank) ability penalty to toughness.",
       "category": "Ability"
     },
@@ -717,32 +717,16 @@
       "image": "10962",
       "id": 4982,
       "name": "Life's End",
-      "type": "Healing",
+      "type": "Buff",
       "spec": "Core Ability",
       "minrank": "26",
       "cost": "Rank 1 morale",
-      "range": "No range",
+      "range": "30ft range",
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "For 10 seconds, you allow your group mates within 100 feet (instead of yourself) to feast on the life essence of your victims, healing everyone for 50% of the melee damage you deal.",
+      "description": "Deal 225 + 0.3 STR spiritual damage to target. For the next 10 seconds, anytime you spend Soul Essence you will deal 225 + 0.3 STR spiritual damage to up to 9 enemies within 30 feet of you.",
       "category": "Morale"
-    },
-    
-    {
-      "image": "22709",
-      "id": 4987,
-      "name": "Menace",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "25",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Enemy monsters will hate you 100% more than normal on all attacks.",
-      "category": "CareerTactic"
     },
 	
     {
@@ -757,7 +741,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to critically hit by 10% and your parry strikethough by 10%, but you can no longer cast Khaine's Embrace or Stand Coward!<BR><BR>Patch Wounds will no longer dispel but instead will remove root and snares from you, making you immune to them for 10s. Increases the cooldown to 60 seconds.",
+      "description": "Increases your chance to critically hit by 15% and your parry strikethough by 10%, but you can no longer cast Khaine's Embrace or Stand Coward!<BR><BR>Patch Wounds will no longer dispel but instead will remove root and snares from you, making you immune to them for 10s. Increases the cooldown to 60 seconds.",
       "category": "CareerTactic"
     },
   
