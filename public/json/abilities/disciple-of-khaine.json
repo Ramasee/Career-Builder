@@ -852,7 +852,7 @@
       "range": "150ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Requires 30 Soul Essence",
+      "note": "Requires 15 Soul Essence",
       "description": "Your target is gradually infused with X health over 15 seconds.",
       "category": "Ability"
     },
@@ -861,14 +861,14 @@
       "image": "11030",
       "id": 4999,
       "name": "Soul Shielding",
-      "type": "Blessing",
+      "type": "Enchantment",
       "spec": "Path of Dark Rites",
       "minrank": "1",
       "cost": "No AP Cost",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "30s cooldown",
-      "note": "Requires 40 Soul Essence",
+      "note": "Requires 45 Soul Essence",
       "description": "All group mates within 100 feet becomes surrounded by a magical barrier for 10 seconds, which will absorb up to X damage for each person.",
       "category": "Ability"
     },
@@ -880,20 +880,20 @@
       "type": "Healing",
       "spec": "Core Ability",
       "minrank": "5",
-      "cost": "No AP Cost",
+      "cost": "Costs 50 AP",
       "range": "100ft range",
       "incant": "3s cast",
       "cooldown": "6s cooldown",
-      "note": "Requires 20 Soul Essence",
-      "description": "Life is restored to a dead ally, and 20% of their health is recovered in the hopes they will prove less worthless to you in the future.",
+      "note": "",
+      "description": "Life is restored to a dead ally, and 20% of their health is recovered in the hopes they will prove less worthless to you in the future. For the next 45 seconds, the target will be afflicted with Resurrection Illness.",
       "category": "Ability"
     },
   
     {
       "image": "23155",
       "id": 4991,
-      "name": "Steal Life",
-      "type": "Buff",
+      "name": "Return Life",
+      "type": "Healing",
       "spec": "Core Ability",
       "minrank": "17",
       "cost": "Rank 1 morale",
@@ -901,7 +901,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Your target suffers 900 damage over 9 seconds, and you are healed for a half of the damage dealt.",
+      "description": "Resurrect your target to 1% health. This effect does not cause Resurrection Illness.",
       "category": "Morale"
     },
   
@@ -932,7 +932,7 @@
       "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "15s cooldown",
-      "note": "Builds 20 Soul Essence",
+      "note": "",
       "description": "Your enemy is distracted by malevolent spirits, making them hate you less and causing them to deal only 50% damage against you for 15 seconds. You will stop attacking when you use this ability, and the effect will fade if you attack someone that you have detaunted.",
       "category": "Ability"
     },
@@ -949,7 +949,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All of your group mates within 100 feet gain a X morale bonus to armor; block, parry, dodge and disrupt are increased by 25%, and a Y morale bonus to all resistances for the next 10 seconds.",
+      "description": "Groupmates within 100 feet gain (1020 + 4.2WIL) health over 15 seconds. You will gain 30 Soul Essence per second for the duration.",
       "category": "Morale"
     },
   
@@ -965,7 +965,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Requires Shield.<br>Builds 50 Soul Essence",
-      "description": "An unholy attack which deals X (str) physical damage healing your group for 75% of the damage dealt. Blood Heal will heal all groupmates within 100 feet for an additional Y (wil) health.",
+      "description": "An unholy attack which deals X (str) physical damage healing your group for 100% of the damage dealt. Blood Heal will heal all groupmates within 100 feet for an additional Y (wil) health.",
       "category": "Ability"
     },
   
@@ -992,12 +992,12 @@
       "type": "Debuff",
       "spec": "Core Ability",
       "minrank": "19",
-      "cost": "Costs 40 AP",
+      "cost": "Costs 30 AP",
       "range": "No range",
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
-      "note": "Builds 40 Soul Essence",
-      "description": "A great energy washes over all targets in front of you, blowing back all enemy players within 30 feet and knocking down monsters.",
+      "note": "Builds 45 Soul Essence",
+      "description": "A great energy washes over up to 9 targets in front of you, blowing back all enemy players within 30 feet and knocking down monsters.",
       "category": "Ability"
     },
   
@@ -1012,8 +1012,8 @@
       "range": "30ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Builds 20 Soul Essence",
-      "description": "A strike at your target;s soual which deals X physical damage. You are healed for 150% of damage dealt in addition to Blood Heal.",
+      "note": "Builds 15 Soul Essence",
+      "description": "A strike at your target's soul which deals X physical damage. You are healed for 200% of damage dealt in addition to Blood Heal.",
       "category": "Ability"
     },
 
@@ -1029,7 +1029,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Raw power erupts in a 30 feet area around you, inflicting 1200 damage and staggering all enemies around you for 6 seconds, preventing all actions unless they're damaged.",
+      "description": "You stagger up to 9 enemies within 40 feet of you for 6 seconds, preventing all actions unless they're damaged. You will gain X morale for each stagger that is broken early.",
       "category": "Morale"
     },
   
@@ -1037,15 +1037,15 @@
       "image": "10966",
       "id": 5011,
       "name": "Vision of Torment",
-      "type": "Damaging",
+      "type": "Buff",
       "spec": "Path of Torture",
       "minrank": "18",
       "cost": "Rank 1 morale",
       "range": "150ft range",
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
-      "note": "Requires 15 points in the Path of Torture",
-      "description": "You are overcome with seemingly endless visions of you own grisly death if you should fail. So real are the visions, you generate 250 soul essence over the next 10 seconds.",
+      "note": "",
+      "description": "You are overcome with seemingly endless visions of you own grisly death if you should fail gaining 50 Soul Essence. So real are the visions, you generate 30 soul essence every second over the next 10 seconds.",
       "category": "Morale"
     },
   
@@ -1053,16 +1053,32 @@
       "image": "10960",
       "id": 5013,
       "name": "Warding Strike",
-      "type": "Curse",
+      "type": "Ailment",
       "spec": "Path of Sacrifice",
       "minrank": "32",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "5s cooldown",
       "note": "Builds 30 Soul Essence",
       "description": "A cunning strike which deals X physical damage to your enemy and reduces their chance to parry by 10% for 15 seconds. You will gain 5% block for 15 seconds.",
       "category": "Ability"
+    },
+	  
+	          {
+      "image": "22710",
+      "id": 7600,
+      "name": "Replenishing Strikes",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "28",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Whenever you critically hit an enemy, you will gain 40 action points. This effect can only happen once every 3 seconds.",
+      "category": "CareerTactic"
     },
   
     {
@@ -1072,7 +1088,7 @@
       "type": "Damaging",
       "spec": "Path of Torture",
       "minrank": "1",
-      "cost": "Costs 25 AP",
+      "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
