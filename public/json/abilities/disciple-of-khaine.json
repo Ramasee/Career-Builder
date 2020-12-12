@@ -741,7 +741,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to critically hit by 15% and your parry strikethough by 10%, but you can no longer cast Khaine's Embrace or Stand Coward!<BR><BR>Patch Wounds will no longer dispel but instead will remove root and snares from you, making you immune to them for 10s. Increases the cooldown to 60 seconds.",
+      "description": "Increases your chance to critically hit by 15% and your chance to parry by 10%, but you can no longer cast Khaine's Embrace or Stand Coward!<BR><BR>Patch Wounds will no longer dispel but instead will remove root and snares from you, making you immune to them for 10s. Increases the cooldown to 60 seconds.",
       "category": "CareerTactic"
     },
   
@@ -756,15 +756,15 @@
       "range": "150ft range",
       "incant": "Instant Cast",
       "cooldown": "5s cooldown",
-      "note": "Requires 25 Soul Essence<br>Target must be Hexed or Ailing",
-      "description": "You patch an ally's wound and remove one ailment or hex.",
+      "note": "Requires 30 Soul Essence<br>Target must be hexed or ailing",
+      "description": "You patch an ally's wound and remove one ailment or hex and grant them a (rank * 3) ability bonus to agility for 5 seconds.",
       "category": "Ability"
     },
 
     {
       "image": "22694",
       "id": 4978,
-      "name": "Potent Covenants",
+      "name": "Potent Covenant",
       "type": "Buff",
       "spec": "Core Ability",
       "minrank": "8",
@@ -773,7 +773,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases the chance for your Covenants to trigger by an additional 15%.",
+      "description": "Increases the chance for your Covenant of Vitality to trigger by an additional 15%. Adding or removing this tactic will dispel all covenants on your party.",
       "category": "CareerTactic"
     },
   
@@ -788,25 +788,9 @@
       "range": "5ft range",
       "incant": "3s cast",
       "cooldown": "8s cooldown",
-      "note": "Requires 25 Soul Essence per second",
-      "description": "You repeatedly assault an enemy, shredding their soul energy and twisting it to your own purposes. You strike the target up to four times over 3 seconds, dealing X spirit damage per hit. Each hit heals your defensive target for 350% of the damage that was dealt.<br>This effect will end if you break your concentration, or run out of Soul Essence.",
-      "category": "Ability"
-    },
-    
-    {
-      "image": "23154",
-      "id": 4990,
-      "name": "Rampaging Siphon",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "21",
-      "cost": "Rank 2 morale",
-      "range": "No range",
-      "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 600 damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
-      "category": "Morale"
+      "description": "You repeatedly assault an enemy, shredding their soul energy and twisting it to your own purposes. You strike the target up to 4 times over 3 seconds, dealing X spiritual damage per hit and consuming 15 Soul essence. Each hit heals your defensive target for 350% of the damage that was dealt.<br>This effect will end if you break your concentration, or run out of Soul Essence.",
+      "category": "Ability"
     },
 
     {
@@ -820,7 +804,7 @@
       "range": "150ft range",
       "incant": "0.5s cast",
       "cooldown": "No cooldown",
-      "note": "Requires 55 Soul Essence",
+      "note": "Requires 60 Soul Essence",
       "description": "Dark forces restore X health to an ally immediately, and another Y over 5 seconds.",
       "category": "Ability"
     },
@@ -845,15 +829,15 @@
       "image": "11003",
       "id": 5006,
       "name": "Sanguinary Extension",
-      "type": "Damaging",
+      "type": "Ailment",
       "spec": "Path of Torture",
       "minrank": "1",
-      "cost": "Costs 25 AP",
+      "cost": "Costs 35 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
-      "note": "Builds 40 Soul Essence",
-      "description": "A slice aimed at fresh wounds which deals X physical damage. If the enemy was cursed, then they are further cursed and take an additional Y physical damage over 10 seconds.",
+      "note": "Builds 30 Soul Essence",
+      "description": "A slice aimed at fresh wounds which deals X physical damage. They are further cursed and take an additional Y physical damage over 10 seconds.",
       "category": "Ability"
     },
   
@@ -861,7 +845,7 @@
       "image": "10937",
       "id": 4957,
       "name": "Soul Infusion",
-      "type": "Blessing",
+      "type": "Enchantment",
       "spec": "Path of Dark Rites",
       "minrank": "2",
       "cost": "No AP Cost",
