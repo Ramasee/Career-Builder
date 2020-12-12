@@ -877,7 +877,7 @@
       "image": "08038",
       "id": 4181,
       "name": "Sigmar's Vision",
-      "type": "Ailment",
+      "type": "Enchantment",
       "spec": "Path of Grace",
       "minrank": "32",
       "cost": "Costs 35 AP",
