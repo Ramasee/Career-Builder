@@ -31,7 +31,7 @@
       "optionalAbilities": {
         "lvl1": 3456,
         "lvl2": 3455,
-        "lvl3": 3434,
+        "lvl3": 3430,
         "lvl4": 3471,
         "lvl5": 6104,
         "lvl6": 3473,
@@ -53,7 +53,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 424 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
+      "description": "Remove up to 10 ailments, curses, or hexes from your groupmates within 100 feet. Restore 300 health for each health removed from the target.",
       "category": "Morale"
     },
   
@@ -85,7 +85,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Knocks back all enemies within 20 feet and silences them, making them unable to use magic for 3 seconds.",
+      "description": "Knockback up to 9 enemies within 30 feet of you. For the next 8s, their movement speed is decreased by 50% and they cannot activate snarebreaking abilities.",
       "category": "Morale"
     },
   
@@ -112,12 +112,12 @@
       "type": "Damaging",
       "spec": "Path of Vaul",
       "minrank": "1",
-      "cost": "Costs 45 AP",
+      "cost": "Costs 50 AP",
       "range": "100ft range",
       "incant": "2s cast",
       "cooldown": "No cooldown",
-      "note": "Tranquility reduces cast time. <br>Tranquility allows move-casting. <br>Builds Force",
-      "description": "Deals X spirit damage to your target, and heals your defensive target for Y health plus 150% of the damage done.",
+      "note": "",
+      "description": "This ability will always consume Force or Tranquility. If cast with Force, it will deal X spiritual damage to the target and heal your defensive target for 250% of the damage dealt. If cast with Tranquility, it will deal X spiritual damage to the target, healing your target for Y health plus 100% of the damage done.",
       "category": "Ability"
     },
   
@@ -148,8 +148,8 @@
       "range": "No range",
       "incant": "2s cast",
       "cooldown": "No cooldown",
-      "note": "Force reduces cast time.<br>Builds Tranquility",
-      "description": "Heals your entire group for X health over 6 seconds.",
+      "note": "Force improves effectiveness.<br>Builds Tranquility",
+      "description": "Heals all groupmates within 100 feet for X plus another Y over 6 seconds.",
       "category": "Ability"
     },
   
@@ -165,7 +165,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "For 5 seconds, your target and all other enemies within 20 feet of them will take an additional 1 second to build up all abilities.",
+      "description": "For 5 seconds, your target and up to 9 other enemies within 20 feet of them will take an additional 1 second to build up all abilities.",
       "category": "Morale"
     },
   
@@ -181,7 +181,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Rain Lord will now also grant the target X morale to all groupmates within 100 feet.",
+      "description": "Rain Lord will now also grant 10 morale per second for 10 seconds to all groupmates within 100 feet of the target.",
       "category": "CareerTactic"
     },
   
@@ -196,7 +196,7 @@
       "range": "150ft range",
       "incant": "2s cast",
       "cooldown": "No cooldown",
-      "note": "Force reduces cast time.<br>Builds Tranquility",
+      "note": "Force increases effectiveness<br>Builds Tranquility",
       "description": "Heals your target for X health. Heals them for an additional Y for each Lambent Aura, Healing Energy, and Blessing of Isha on the target.",
       "category": "Ability"
     },
@@ -213,7 +213,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional 252 spiritual damage over 3 seconds.",
+      "description": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional X spiritual damage over 3 seconds. This damage scales with strength, intelligence, and ballistic skill.",
       "category": "CareerTactic"
     },
   
@@ -229,7 +229,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Law of Age now has a 20 second cooldown.",
+      "description": "Law of Age and Reclaim magic now have a 30 second cooldown.",
       "category": "CareerTactic"
     },
 	
@@ -237,15 +237,15 @@
       "image": "13348",
       "id": 3423,
       "name": "Cleansing Light",
-      "type": "Healing",
+      "type": "Enchantment",
       "spec": "Core Ability",
       "minrank": "11",
       "cost": "Costs 35 AP",
       "range": "150ft range",
       "incant": "Instant Cast",
       "cooldown": "5s cooldown",
-      "note": "Target must be Hexed or Ailing <br>Force reduces cooldown. <br>Builds Tranquility",
-      "description": "You cleanse an ally's wound and remove one ailment or hex. If an effect is removed, your ally will absorb up to X damage over 10 seconds.",
+      "note": "Target must be cursed or ailing<br>Force removes cooldown<br>Builds Tranquility",
+      "description": "You cleanse an ally's wound and remove one ailment or curse. If an effect is removed, your ally will absorb up to X damage over 5 seconds.",
       "category": "Ability"
     },
   
@@ -261,7 +261,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your healing abilities become 25% more effective when the target is below 40% hit points.",
+      "description": "Your outgoing healing is 25% more effective when the target is below 40% hit points.",
       "category": "CareerTactic"
     },
   
@@ -277,7 +277,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your attacks have a 10% reduced chance to be defended against.",
+      "description": "Gain 10% parry strikethrough, 10% dodge strikethrough, and 10% disrupt strikethrough.",
       "category": "CareerTactic"
     },
   
@@ -323,9 +323,9 @@
       "cost": "Costs 50 AP",
       "range": "100ft range",
       "incant": "2s cast",
-      "cooldown": "20s cooldown",
-      "note": "Tranquility reduces cast time. <br>Builds Force",
-      "description": "A groupmate becomes surrounded by dangerous energies for 5 seconds. Every second, all enemies within 30 feet of them will suffer X spiritual damage.",
+      "cooldown": "15s cooldown",
+      "note": "Tranquility increases effectiveness<br>Builds Force",
+      "description": "Target becomes surrounded by dangerous energies for 5 seconds. Every second, target and up to 9 enemies within 30 feet of them will suffer X spiritual damage.",
       "category": "Ability"
     },
   
@@ -357,7 +357,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "A strong heal that will do 1800 raw healing to your target.",
+      "description": "A strong heal that will heal your target for 1200 + (0.8 WIL). This ability is not effected by healing debuffs.",
       "category": "Morale"
     },
   
@@ -373,7 +373,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage from melee abilities.",
+      "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage.",
       "category": "Morale"
     },
   
@@ -382,14 +382,14 @@
       "id": 3430,
       "name": "Empowered Lores",
       "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "23",
+      "spec": "Path of Vaul",
+      "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Whenever you critically hit with an ability that builds either Force or Tranquility, you will gain one additional point. Tactic can not trigger more than once every 3 seconds.",
+      "description": "Whenever an ability consumes either Force or Tranquility, its action point cost will be reduced by 60% and it can be cast while moving.",
       "category": "CareerTactic"
     },
   
@@ -400,12 +400,12 @@
       "type": "Damaging",
       "spec": "Path of Vaul",
       "minrank": "1",
-      "cost": "Costs 50 AP",
+      "cost": "Costs 80 AP",
       "range": "80ft range",
       "incant": "2s cast",
-      "cooldown": "8s cooldown",
-      "note": "Tranquility reduces cast time. <br>Tranquility allows move-casting. <br>Builds Force",
-      "description": "A wash of power leeches the breath from your target and up to four other enemies within 25 feet of them, dealing X spiritual damage (intel mod) to each. Their stolen breath will heal your defensive target and allies within 20 feet of them for Y health (willpower mod), plus 50% of the total inflicted damage.",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "This ability will always consume Force or Tranquility. If cast with Force, deal X spiritual damage to up to 9 enemies within 30 feet of target. You will heal each groupmate within 100 feet for Y + 50% of total damage dealt. If cast with Tranquility, deal X spiritual damage to up to 4 enemies within 30 feet of target. Heal up to 6 allies within 30 feet of the target and all groupmates within 100 feet for Y + 50% of total damage dealt.",
       "category": "Ability"
     },
   
@@ -416,12 +416,12 @@
       "type": "Damaging",
       "spec": "Path of Asuryan",
       "minrank": "18",
-      "cost": "Rank 4 morale",
+      "cost": "Rank 1 morale",
       "range": "100ft range",
-      "incant": "4s cast",
+      "incant": "Instant cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Flames burst from a spot that you select, damaging all enemies within 20 feet of that spot for up to 4 seconds, as long as you maintain your concentration.",
+      "description": "For the next 10 seconds, your target will take (225 + 0.2 INT) spiritual damage each time an enemy tries to dispel them or whenever they take damage from Law of Conductivity and Radiant Gaze. In addition, dispels will not function when used on the target; this does not affect morales.",
       "category": "Morale"
     },
   
@@ -464,12 +464,12 @@
       "type": "Buff",
       "spec": "Path of Vaul",
       "minrank": "18",
-      "cost": "Rank 4 morale",
-      "range": "No range",
+      "cost": "Rank 3 morale",
+      "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All enemies within 30 feet have their action point costs increased by 50% for 15 seconds, and all allies in the area have their action point costs reduced by 50% for 15 seconds.",
+      "description": "Target enemy and up to 9 enemies within 30 feet of them have their action point costs increased by 100% for 15 seconds. During this time, your groupmates within 100 feet have their costs decreased by 50%.",
       "category": "Morale"
     },
   
@@ -482,9 +482,9 @@
       "minrank": "1",
       "cost": "Costs 15 AP/sec",
       "range": "150ft range",
-      "incant": "3s channel",
+      "incant": "3s cast",
       "cooldown": "13s cooldown",
-      "note": "Force increases effectiveness. <br>Builds Tranquility",
+      "note": "Force increases effectiveness<br>Builds Tranquility",
       "description": "You focus your powers on your defensive target, restoring up to X health to them over 3 seconds. This effect will end if you break your concentration, or if you run out of action points. <br><br>This ability will trigger a 10 second buff on the target for use with Isha's Denial. ",
       "category": "Ability"
     },
@@ -497,11 +497,11 @@
       "spec": "Path of Asuryan",
       "minrank": "32",
       "cost": "Costs 35 AP",
-      "range": "65ft range",
+      "range": "80ft range",
       "incant": "1s cast",
       "cooldown": "5s cooldown",
-      "note": "Tranquility reduces cast time. <br>Builds Force",
-      "description": "Calls forth the wrath of Asuryan in the form of a pillar of magical energy, dealing X spirit damage to your target.",
+      "note": "Tranquility increases effectiveness<br>Builds Force",
+      "description": "Calls forth the wrath of Asuryan in the form of a pillar of magical energy, dealing X spiritual damage to your target.",
       "category": "Ability"
     },
   
@@ -512,12 +512,12 @@
       "type": "Healing",
       "spec": "Core Ability",
       "minrank": "5",
-      "cost": "Costs 20 AP",
+      "cost": "Costs 50 AP",
       "range": "100ft range",
       "incant": "3.0s cast",
       "cooldown": "6s cooldown",
-      "note": "Force reduces cast time.<br>Only usable on Dead Players",
-      "description": "Resurrects your target with 20% health.",
+      "note": "Only usable on Dead Players",
+      "description": "Resurrects your target with 20% health. For the next 45 seconds, the target will be afflicted with Resurrection Illness.",
       "category": "Ability"
     },
   
@@ -548,8 +548,8 @@
       "range": "150ft range",
       "incant": "1s cast",
       "cooldown": "No cooldown",
-      "note": "Force reduces cast time.<br>Builds Tranquility",
-      "description": "Your target regains X health immediately, then continues to gain another Y health over 10 seconds. This ability will continue to build up even if you move.",
+      "note": "Force increases effectiveness<br>Builds Tranquility",
+      "description": "Your target regains X health immediately, then continues to gain another Y health over 10 seconds.",
       "category": "Ability"
     },
   
@@ -573,7 +573,7 @@
       "image": "13352",
       "id": 6106,
       "name": "Isha's Denial",
-      "type": "Enchantment",
+      "type": "Blessing",
       "spec": "Core Ability",
       "minrank": "18",
       "cost": "Costs 55 AP",
@@ -581,7 +581,7 @@
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "All groupmates within 100 feet gain Isha's Denial. All healing over time effects you cast on targets affected by Isha's Denial will grant a 2% reduced chance to be critically hit.",
+      "description": "All groupmates within 100 feet gain Isha's Denial for 60 minutes. All healing over time effects you cast on targets affected by Isha's Denial will grant a 2% reduced chance to be critically hit.",
       "category": "Ability"
     },
 	
@@ -609,11 +609,11 @@
       "spec": "Core Ability",
       "minrank": "26",
       "cost": "Rank 1 morale",
-      "range": "No range",
+      "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You gain a shield that absorbs 3600 damage for 30 seconds.",
+      "description": "Remove all healing debuffs from the target and make them immune to healing debuffs for 10 seconds.",
       "category": "Morale"
     },
   
@@ -621,15 +621,15 @@
       "image": "13342",
       "id": 3412,
       "name": "Lambent Aura",
-      "type": "Enchantment",
+      "type": "Blessing",
       "spec": "Path of Isha",
       "minrank": "2",
       "cost": "Costs 30 AP",
       "range": "150ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Force increases effectiveness. <br>Builds Tranquility",
-      "description": "Heals your target for X health over 15 seconds.",
+      "note": "Force increases effectiveness<br>Builds Tranquility",
+      "description": "Heals your target for X health over 20 seconds.",
       "category": "Ability"
     },
   
@@ -637,15 +637,15 @@
       "image": "13356",
       "id": 3429,
       "name": "Law of Age",
-      "type": "Hex",
+      "type": "Buff",
       "spec": "Path of Vaul",
       "minrank": "39",
       "cost": "Costs 20 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "No cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "If you have 5 Isha's Denial, you will now have 5 stacks of Force. If you have Prismatic Shield, you will now have 5 stacks of Tranquilty",
+      "description": "If you have 5 stacks of Tranquility, you will now have 5 stacks of Force. If you have 5 stacks of Force, you will now have 5 stacks of Tranquilty. Shares a cooldown with Reclaim Magic.",
       "category": "Ability"
     },
   
@@ -653,15 +653,15 @@
       "image": "13343",
       "id": 3411,
       "name": "Law of Conductivity",
-      "type": "Hex",
+      "type": "Ailment",
       "spec": "Path of Asuryan",
       "minrank": "13",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 25 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Tranquility increases effectiveness. <br>Builds Force",
-      "description": "Deals X spirit damage to your target over 15 seconds.",
+      "note": "Tranquility increases effectiveness<br>Builds Force",
+      "description": "Deals X spiritual damage to your target over 15 seconds.",
       "category": "Ability"
     },
   
@@ -669,14 +669,14 @@
       "image": "13357",
       "id": 3471,
       "name": "Law of Gold",
-      "type": "Hex",
+      "type": "Debuff",
       "spec": "Path of Vaul",
       "minrank": "1",
-      "cost": "Costs 25 AP",
+      "cost": "Costs 35 AP",
       "range": "100ft range",
       "incant": "1s cast",
-      "cooldown": "30s cooldown",
-      "note": "Tranquility reduces cast time. <br>Builds Force",
+      "cooldown": "20s cooldown",
+      "note": "Tranquility increases effectiveness<br>Builds Force",
       "description": "Deals X spirit damage and silences your target, making them unable to use magic for 5 seconds.",
       "category": "Ability"
     },
@@ -685,15 +685,15 @@
       "image": "13413",
       "id": 3457,
       "name": "Magical Infusion",
-      "type": "Healing",
+      "type": "Blessing",
       "spec": "Path of Isha",
       "minrank": "1",
-      "cost": "Costs 55 AP",
-      "range": "100ft range",
+      "cost": "Costs 30 AP",
+      "range": "150ft range",
       "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
+      "cooldown": "30s cooldown",
       "note": "",
-      "description": "Infuses protective magic into an ally for 30 seconds, allowing them to recover from near-fatal wounds.<br><br>If the ally's health is reduced below 30%, this effect will immediately dispel itself to restore X health if they are still alive. As long as this effect persists, the value of incoming heals on the target is increased by 25%.<br><br>A player may only be affected by a single Magical Infusion at a time.",
+      "description": "Infuses protective magic into an ally for 30 seconds, allowing them to recover from near-fatal wounds.<br><br>If the ally's health is reduced below 30%, this effect will immediately dispel itself to restore X health if they are still alive. As long as this effect persists, the value of incoming heals on the target is increased by 25%.",
       "category": "Ability"
     },
   
@@ -702,14 +702,14 @@
       "id": 3434,
       "name": "Master of Balance",
       "type": "Buff",
-      "spec": "Path of Vaul",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to critically hit will all abilities by 10%.",
+      "description": "Gain 10% magic critical chance and 10% healing critical chance.",
       "category": "CareerTactic"
     },
   
