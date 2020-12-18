@@ -41,6 +41,70 @@
     }
   },
   "data": [
+     {
+      "image": "05004",
+      "id": 5055,
+      "name": "Rush",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "2",
+      "cost": "No AP Cost",
+      "range": "No range",
+      "incant": "Instant Cast",
+      "cooldown": "45s cooldown",
+      "note": "",
+      "description": "Gain 25% increased movement speed for 5 seconds. The duration is increased by 1 second for every 50 action points you had. You become exerted losing all of your action points, career mechanic points, and morale. Your AP recovery and morale per second are set to 0 for the next 5 seconds.",
+      "category": "Ability"
+    },
+
+    {
+      "image": "22705",
+      "id": 3452,
+      "name": "Bend the Winds",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "16",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Grants a 300 unique bonus to elemental resistance. Gain a 169 unique bonus to corporeal and spiritual resistance.",
+      "category": "CareerTactic"
+    },
+	  
+    {
+      "image": "22705",
+      "id": 3451,
+      "name": "Centuries of Training",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "4",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional X spiritual damage over 3 seconds. This damage scales with strength, intelligence, and ballistic skill.",
+      "category": "CareerTactic"
+    },
+	  
+    {
+      "image": "22705",
+      "id": 3453,
+      "name": "Discerning Offense",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "24",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Gain 10% parry strikethrough, 10% dodge strikethrough, and 10% disrupt strikethrough.",
+      "category": "CareerTactic"
+    },
+	  
     {
       "image": "23150",
       "id": 3450,
@@ -54,6 +118,38 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "Remove up to 10 ailments, curses, or hexes from your groupmates within 100 feet. Restore 300 health for each health removed from the target.",
+      "category": "Morale"
+    },
+	  
+    {
+      "image": "23151",
+      "id": 3445,
+      "name": "Divine Favor",
+      "type": "Healing",
+      "spec": "Core Ability",
+      "minrank": "7",
+      "cost": "Rank 1 morale",
+      "range": "150ft range",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
+      "note": "",
+      "description": "A strong heal that will heal your target for 1200 + (0.8 WIL). This ability is not effected by healing debuffs.",
+      "category": "Morale"
+    },
+  
+    {
+      "image": "23152",
+      "id": 3449,
+      "name": "Divine Protection",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "13",
+      "cost": "Rank 3 morale",
+      "range": "No range",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
+      "note": "",
+      "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage.",
       "category": "Morale"
     },
   
@@ -71,6 +167,22 @@
       "note": "",
       "description": "Each time Healing Energy ticks, there is a 33% chance to apply Blessing of Isha to the target.",
       "category": "CareerTactic"
+    },
+	  
+    {
+      "image": "23153",
+      "id": 3448,
+      "name": "Focused Mind",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "9",
+      "cost": "Rank 2 morale",
+      "range": "No range",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
+      "note": "",
+      "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50% and you cannot be set back.",
+      "category": "Morale"
     },
 	
     {
@@ -119,22 +231,6 @@
       "note": "",
       "description": "This ability will always consume Force or Tranquility. If cast with Force, it will deal X spiritual damage to the target and heal your defensive target for 250% of the damage dealt. If cast with Tranquility, it will deal X spiritual damage to the target, healing your target for Y health plus 100% of the damage done.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "22705",
-      "id": 3452,
-      "name": "Bend the Winds",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "16",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Grants a 300 unique bonus to elemental resistance. Gain a 169 unique bonus to corporeal and spiritual resistance.",
-      "category": "CareerTactic"
     },
   
     {
@@ -203,22 +299,6 @@
   
     {
       "image": "22705",
-      "id": 3451,
-      "name": "Centuries of Training",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "4",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Upon striking a target with a direct damage ability there is a 25% chance to inflict an additional X spiritual damage over 3 seconds. This damage scales with strength, intelligence, and ballistic skill.",
-      "category": "CareerTactic"
-    },
-  
-	{
-      "image": "22705",
       "id": 6104,
       "name": "Changing Winds",
       "type": "Buff",
@@ -262,22 +342,6 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Your outgoing healing is 25% more effective when the target is below 40% hit points.",
-      "category": "CareerTactic"
-    },
-  
-    {
-      "image": "22705",
-      "id": 3453,
-      "name": "Discerning Offense",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "24",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Gain 10% parry strikethrough, 10% dodge strikethrough, and 10% disrupt strikethrough.",
       "category": "CareerTactic"
     },
   
@@ -346,38 +410,6 @@
     },
   
     {
-      "image": "23151",
-      "id": 3445,
-      "name": "Divine Favor",
-      "type": "Healing",
-      "spec": "Core Ability",
-      "minrank": "7",
-      "cost": "Rank 1 morale",
-      "range": "150ft range",
-      "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
-      "note": "",
-      "description": "A strong heal that will heal your target for 1200 + (0.8 WIL). This ability is not effected by healing debuffs.",
-      "category": "Morale"
-    },
-  
-    {
-      "image": "23152",
-      "id": 3449,
-      "name": "Divine Protection",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "13",
-      "cost": "Rank 3 morale",
-      "range": "No range",
-      "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
-      "note": "",
-      "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage.",
-      "category": "Morale"
-    },
-  
-    {
       "image": "22703",
       "id": 3430,
       "name": "Empowered Lores",
@@ -422,38 +454,6 @@
       "cooldown": "60s cooldown",
       "note": "",
       "description": "For the next 10 seconds, your target will take (225 + 0.2 INT) spiritual damage each time an enemy tries to dispel them or whenever they take damage from Law of Conductivity and Radiant Gaze. In addition, dispels will not function when used on the target; this does not affect morales.",
-      "category": "Morale"
-    },
-  
-    {
-      "image": "05004",
-      "id": 5055,
-      "name": "Rush",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "2",
-      "cost": "No AP Cost",
-      "range": "No range",
-      "incant": "Instant Cast",
-      "cooldown": "45s cooldown",
-      "note": "",
-      "description": "Gain 25% increased movement speed for 5 seconds. The duration is increased by 1 second for every 50 action points you had. You become exerted losing all of your action points, career mechanic points, and morale. Your AP recovery and morale per second are set to 0 for the next 5 seconds.",
-      "category": "Ability"
-    },
-  
-    {
-      "image": "23153",
-      "id": 3448,
-      "name": "Focused Mind",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "9",
-      "cost": "Rank 2 morale",
-      "range": "No range",
-      "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
-      "note": "",
-      "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50% and you cannot be set back.",
       "category": "Morale"
     },
   
