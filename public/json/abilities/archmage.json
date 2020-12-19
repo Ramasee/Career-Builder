@@ -184,6 +184,22 @@
       "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50% and you cannot be set back.",
       "category": "Morale"
     },
+	  
+    {
+      "image": "23170",
+      "id": 5097,
+      "name": "Siphon Power",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "12",
+      "cost": "Rank 2 morale",
+      "range": "100ft range",
+      "incant": "Instant Cast",
+      "cooldown": "1m cooldown",
+      "note": "",
+      "description": "Siphon the winds of magic into your body gaining 15 stacks that last for 30 seconds. You gain a 40 morale bonus to intelligence for each stack. Everytime you use an ability, a stack is consumed and you gain 10 action points.",
+      "category": "Morale"
+    },
 	
     {
       "image": "13368",
@@ -717,15 +733,15 @@
       "image": "13355",
       "id": 3455,
       "name": "Mistress of The Marsh",
-      "type": "Hex",
+      "type": "Ailment",
       "spec": "Path of Vaul",
       "minrank": "1",
-      "cost": "Costs 20 AP",
+      "cost": "Costs 35 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "20s cooldown",
       "note": "",
-      "description": "For 10 seconds, all enemies within 20 feet of a spot that you select will take a (2 * rank) ability penalty to initiative and become snared, reducing their run speed by 60%.",
+      "description": "For 10 seconds, up to 9 enemies within 20 feet of a spot that you select will take a (3 * rank) ability penalty to initiative and become snared, reducing their run speed by 50%.",
       "category": "Ability"
     },
  
@@ -733,7 +749,7 @@
       "image": "13352",
       "id": 3416,
       "name": "Prismatic Shield",
-      "type": "Enchantment",
+      "type": "Blessing",
       "spec": "Path of Vaul",
       "minrank": "9",
       "cost": "Costs 55 AP",
@@ -741,7 +757,7 @@
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "Everyone in your group within 100 feet gains a X ability bonus to all resistances for 1 hour.<br><br>You can only give Isha's Denial or Prismatic Shield.",
+      "description": "Everyone in your group within 100 feet gains a (7.5 * rank) ability bonus to all resistances for 1 hour.<br><br>You can only give Isha's Denial or Prismatic Shield.",
       "category": "Ability"
     },
   
@@ -757,7 +773,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Radiant Lance and Radiant Gaze will now effect all enemies within 10 feet of your target.",
+      "description": "Radiant Lance and Radiant Gaze will now effect up to 9 enemies within 20 feet of your target.",
       "category": "CareerTactic"
     },
   
@@ -765,15 +781,15 @@
       "image": "13360",
       "id": 3421,
       "name": "Radiant Gaze",
-      "type": "Hex",
+      "type": "Curse",
       "spec": "Path of Asuryan",
       "minrank": "34",
-      "cost": "Costs 40 AP",
+      "cost": "Costs 35 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "5s cooldown",
-      "note": "Tranquility increases effectiveness. <br>Builds Force",
-      "description": "Deals X spiritual damage over 9 seconds and reduces your target's damage and chance to critically hit by 5%.",
+      "cooldown": "10s cooldown",
+      "note": "Tranquility increases effectiveness<br>Builds Force",
+      "description": "Deals X spiritual damage over 15 seconds and reduces your target's damage and chance to critically hit by 5%.",
       "category": "Ability"
     },
   
@@ -788,8 +804,8 @@
       "range": "100ft range",
       "incant": "2s cast",
       "cooldown": "No cooldown",
-      "note": "Tranquility reduces cast time. <br>Builds Force",
-      "description": "A lance of brilliant energy erupts from your staff, dealing X spirit damage to your target.",
+      "note": "Tranquility increases effectiveness<br>Builds Force",
+      "description": "A lance of brilliant energy erupts from your staff, dealing X spiritual damage to your target.",
       "category": "Ability"
     },
   
@@ -805,24 +821,8 @@
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "Your target and all other enemies within 20 feet of them take a (3 * rank) ability penalty to strength, intelligence, and ballistic skill for 20 seconds.",
+      "description": "Your target and up to 9 other enemies within 20 feet of them take a (3 * rank) ability penalty to strength, intelligence, and ballistic skill for 20 seconds.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "23154",
-      "id": 3446,
-      "name": "Rampaging Siphon",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "21",
-      "cost": "Rank 2 morale",
-      "range": "No range",
-      "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
-      "note": "",
-      "description": "Deals 600 raw damage to all enemies within 30 feet, and heals group members within 100 feet for the full amount of the damage dealt.",
-      "category": "Morale"
     },
 	
     {
@@ -835,9 +835,9 @@
       "cost": "No Cost",
       "range": "100ft range",
       "incant": "Instant Cast",
-      "cooldown": "30s cooldown",
+      "cooldown": "60s cooldown",
       "note": "",
-      "description": "You employ your mastery of High Magic to gain 180 action points over 10 seconds. You will be unable to generate Force or Tranquility for the duration.",
+      "description": "You employ your mastery of High Magic to gain 180 action points over 10 seconds. You will be unable to generate Force or Tranquility for the duration. Shares a cooldown with Law of Age.",
       "category": "Ability"
     },
   
