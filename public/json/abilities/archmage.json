@@ -931,7 +931,7 @@
       "cost": "Costs 35 AP",
       "range": "150ft range",
       "incant": "Instant Cast",
-      "cooldown": "20s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Force increases effectiveness. <br>Builds Tranquility",
       "description": "Surrounds an ally with a magical barrier for up to 10 seconds which will absorb up to X damage.",
       "category": "Ability"
