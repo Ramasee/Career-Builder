@@ -913,7 +913,7 @@
       "spec": "Path of Asuryan",
       "minrank": "37",
       "cost": "Costs 17 AP/sec",
-      "range": "100ft range",
+      "range": "80ft range",
       "incant": "6.0s channel",
       "cooldown": "11s cooldown",
       "note": "Tranquility increases effectiveness. <br>Builds Force",
