@@ -41,7 +41,21 @@
     }
   },
   "data": [
-    
+     {
+      "image": "0000",
+      "id": 8546,
+      "name": "Geddoff!",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "1",
+      "cost": "No Cost",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Any time an ability consumes Kunnin' or Blastin', it will deal 25% additional damage or healing and have 25% faster build up time.",
+      "category": "Ability"
+    },
   
     {
       "image": "22707",
@@ -55,7 +69,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your healing abilities become 25% more effective when the target is below 40% hit points.",
+      "description": "Your outgoing healing is 25% more effective when the target is below 40% hit points.",
       "category": "CareerTactic"
     },
     
@@ -70,7 +84,7 @@
       "range": "100ft range",
       "incant": "2s cast",
       "cooldown": "45s cooldown",
-      "note": "Mork's Waaagh! reduces cast time.",
+      "note": "Blastin' increases effectiveness",
       "description": "Applies 'Ey Quit Bleedin', Gork'll Fix It, and Gather Round to all groupmates within 100 feet.",
       "category": "Ability"
     },
