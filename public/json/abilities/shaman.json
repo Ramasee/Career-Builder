@@ -605,7 +605,7 @@
       "image": "22704",
       "id": 5293,
       "name": "Get Movin'!",
-      "type": "Healing",
+      "type": "Buff",
       "spec": "Core Ability",
       "minrank": "28",
       "cost": "Tactic",
@@ -613,7 +613,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time one of your groupmates damages an enemy with 'Ere We Go, they will gain 150 points of morale.",
+      "description": "Any time one of your groupmates damages an enemy with 'Ere We Go, they will gain 15 morale per second for 8 seconds.",
       "category": "CareerTactic"
     },
     
@@ -621,15 +621,15 @@
       "image": "abi_gs_getsmarter",
       "id": 5284,
       "name": "Get'n Smarter",
-      "type": "Hex",
+      "type": "Ailment",
       "spec": "Path of Gork",
       "minrank": "34",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 35 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
-      "note": "",
-      "description": "Steals X ability bonus to intelligence from your target while dealing Y elemental damage over 15 seconds.",
+      "note": "Kunnin' increases effectiveness<BR>Builds Blastin'",
+      "description": "Steals (3 * rank) ability bonus to intelligence from your target while dealing Y elemental damage over 15 seconds.",
       "category": "Ability"
     },
   
