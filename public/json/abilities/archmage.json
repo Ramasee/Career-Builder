@@ -1077,7 +1077,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All group mates within 100 feet regain 800 health over 15 seconds, and become surrounded by a magical barrier which will absorb 2400 damage.",
+      "description": "For the next 30s, groupmates gain a 6000 absorption shield. While the shield lasts, each time they are hit you will apply a Healing Energy to any warband member within 100 feet.",
       "category": "Morale"
     }
 	
