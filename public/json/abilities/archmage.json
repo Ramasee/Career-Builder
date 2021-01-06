@@ -980,7 +980,7 @@
       "range": "100ft range",
       "incant": "2s cast",
       "cooldown": "45s cooldown",
-      "note": "Tranquility reduces cast time. <br>Builds Force",
+      "note": "Tranquility increases effectiveness <br>Builds Force",
       "description": "Applies Healing Energy, Lambent Aura, and Blessing of Isha to all groupmates within 100 feet.",
       "category": "Ability"
     },
