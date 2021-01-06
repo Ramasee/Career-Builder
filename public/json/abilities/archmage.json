@@ -5,9 +5,9 @@
       "optionalAbilities": {
         "lvl1": 3435,
         "lvl2": 3457,
-        "lvl3": 6103,
+        "lvl3": 3458,
         "lvl4": 3459,
-        "lvl5": 3458,
+        "lvl5": 6103,
         "lvl6": 3462,
         "lvl7": 3460
       },
@@ -37,10 +37,26 @@
         "lvl6": 3473,
         "lvl7": 3474
       },
-      "coreAbilities": [3419,3414,3427,3429,3413,3416]
+      "coreAbilities": [3419,3414,3427,3413,3416]
     }
   },
   "data": [
+     {
+      "image": "0000",
+      "id": 4578,
+      "name": "Mechanic",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "1",
+      "cost": "No AP Cost",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Any time an ability consumes Force or Tranquility, that ability will deal an additional 25% damage or healing and have 25% faster build up times.",
+      "category": "CareerTactic"
+    },
+	  
      {
       "image": "05004",
       "id": 5055,
@@ -165,7 +181,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Each time Healing Energy ticks, there is a 33% chance to apply Blessing of Isha to the target.",
+      "description": "Each time Lambent Aura ticks, there is a 33% chance to apply Blessing of Isha to the target.",
       "category": "CareerTactic"
     },
 	  
@@ -325,7 +341,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Law of Age and Reclaim magic now have a 30 second cooldown.",
+      "description": "Law of Age and Reclaim Magic now have a 30 second cooldown.",
       "category": "CareerTactic"
     },
 	
@@ -590,7 +606,7 @@
       "id": 6106,
       "name": "Isha's Denial",
       "type": "Blessing",
-      "spec": "Core Ability",
+      "spec": "Path of Isha",
       "minrank": "18",
       "cost": "Costs 55 AP",
       "range": "No range",
@@ -645,7 +661,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Force increases effectiveness<br>Builds Tranquility",
-      "description": "Heals your target for X health over 20 seconds.",
+      "description": "Heals your target for X health over 24 seconds.",
       "category": "Ability"
     },
   
@@ -654,7 +670,7 @@
       "id": 3429,
       "name": "Law of Age",
       "type": "Buff",
-      "spec": "Path of Vaul",
+      "spec": "Core Ability",
       "minrank": "39",
       "cost": "Costs 20 AP",
       "range": "100ft range",
@@ -917,7 +933,7 @@
       "incant": "Instant Cast",
       "cooldown": "20s cooldown",
       "note": "Force increases effectiveness. <br>Builds Tranquility",
-      "description": "Surrounds an ally with a magical barrier for up to 9 seconds which will absorb up to X damage.",
+      "description": "Surrounds an ally with a magical barrier for up to 10 seconds which will absorb up to X damage.",
       "category": "Ability"
     },
   
@@ -1029,7 +1045,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your Lambent Aura, Healing Energy, and Blessing of Isha now all gain 1 additional tick of healing.",
+      "description": "The duration of your Lambent Aura is now 30 seconds. The duration of your Healing Energy is now 12 seconds. The duration of your Blessing of Isha is now 8 seconds.",
       "category": "CareerTactic"
     },
   
