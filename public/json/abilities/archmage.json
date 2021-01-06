@@ -152,7 +152,7 @@
       "description": "A strong heal that will heal your target for 1200 + (0.8 WIL). This ability is not effected by healing debuffs.",
       "category": "Morale"
     },
-  
+	  
     {
       "image": "23152",
       "id": 3449,
@@ -167,22 +167,6 @@
       "note": "",
       "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage.",
       "category": "Morale"
-    },
-  
-	{
-      "image": "22706",
-      "id": 6103,
-      "name": "Apotheosis",
-      "type": "Buff",
-      "spec": "Path of Isha",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Each time Lambent Aura ticks, there is a 33% chance to apply Blessing of Isha to the target.",
-      "category": "CareerTactic"
     },
 	  
     {
@@ -215,6 +199,38 @@
       "note": "",
       "description": "Siphon the winds of magic into your body gaining 15 stacks that last for 30 seconds. You gain a 40 morale bonus to intelligence for each stack. Everytime you use an ability, a stack is consumed and you gain 10 action points.",
       "category": "Morale"
+    },
+	  
+    {
+      "image": "23155",
+      "id": 3447,
+      "name": "Return Life",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "17",
+      "cost": "Rank 1 morale",
+      "range": "100ft range",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
+      "note": "",
+      "description": "Resurrect your target to 1% health. Does not apply Resurrection Illness.",
+      "category": "Morale"
+    },
+  
+	{
+      "image": "22706",
+      "id": 6103,
+      "name": "Apotheosis",
+      "type": "Buff",
+      "spec": "Path of Isha",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Each time Lambent Aura ticks, there is a 33% chance to apply Blessing of Isha to the target.",
+      "category": "CareerTactic"
     },
 	
     {
@@ -309,7 +325,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Rain Lord will now also grant 10 morale per second for 10 seconds to all groupmates within 100 feet of the target.",
+      "description": "Rain Lord will now also grant 15 morale per second for 10 seconds to all groupmates within 100 feet of the target.",
       "category": "CareerTactic"
     },
   
@@ -935,22 +951,6 @@
       "note": "Force increases effectiveness. <br>Builds Tranquility",
       "description": "Surrounds an ally with a magical barrier for up to 10 seconds which will absorb up to X damage.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "23155",
-      "id": 3447,
-      "name": "Steal Life",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "17",
-      "cost": "Rank 1 morale",
-      "range": "100ft range",
-      "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
-      "note": "",
-      "description": "Your target suffers 300 raw damage per tick for 3 ticks over 9 seconds, and you are healed for a half of the damage dealt.",
-      "category": "Morale"
     },
   
     {
