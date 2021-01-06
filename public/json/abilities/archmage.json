@@ -54,7 +54,7 @@
       "cooldown": "No cooldown",
       "note": "",
       "description": "Any time an ability consumes Force or Tranquility, that ability will deal an additional 25% damage or healing and have 25% faster build up times.",
-      "category": "CareerTactic"
+      "category": "Ability"
     },
 	  
      {
