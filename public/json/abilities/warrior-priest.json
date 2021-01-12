@@ -1011,9 +1011,9 @@
       "cost": "Costs 40 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
-      "note": "Builds 15 Righteous Fury",
-      "description": "Deals X physical damage to your target reducing their run speed by 30% for 5 seconds.",
+      "cooldown": "8.0s cooldown",
+      "note": "Builds 30 Righteous Fury",
+      "description": "Deals X physical damage to your target reducing their run speed by 30% for 4 seconds.",
       "category": "Ability"
     },
 
