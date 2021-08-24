@@ -334,5 +334,12 @@
     "faction": "",
     "race": "",
     "class": ""
+  },
+      "bright-wizardAP": {
+    "name": "1.4.8 Bright Wizard",
+    "slug": "bright-wizardAP",
+    "faction": "",
+    "race": "",
+    "class": ""
   }
 }
