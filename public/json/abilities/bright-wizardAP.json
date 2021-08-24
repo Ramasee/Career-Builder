@@ -62,7 +62,7 @@
       "id": 3517,
       "name": "Boiling Blood",
       "type": "Hex",
-      "spec": "Path of Immolation"
+      "spec": "Path of Immolation",
       "minrank": "7",
       "cost": "Costs 50 AP",
       "range": "100ft range",
