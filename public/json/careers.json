@@ -341,5 +341,11 @@
     "faction": "",
     "race": "",
     "class": ""
-  }
+  },
+    "marauderAP": {
+    "name": "1.4.8 Marauder",
+    "slug": "marauder148",
+    "faction": "",
+    "race": "",
+    "class": ""
 }
