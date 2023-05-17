@@ -334,5 +334,26 @@
     "faction": "",
     "race": "",
     "class": ""
-  }
+  },
+      "bright-wizardAP": {
+    "name": "1.4.8 Bright Wizard",
+    "slug": "bright-wizardAP",
+    "faction": "",
+    "race": "",
+    "class": ""
+  },
+    "sword-masterAP": {
+    "name": "1.4.8 Sword Master",
+    "slug": "sword-masterAP",
+    "faction": "",
+    "race": "",
+    "class": ""
+  },
+    "marauderAP": {
+    "name": "1.4.8 Marauder",
+    "slug": "marauderAP",
+    "faction": "",
+    "race": "",
+    "class": ""
+}
 }

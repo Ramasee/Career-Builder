@@ -31,7 +31,7 @@
       "optionalAbilities": {
         "lvl1": 5318,
         "lvl2": 5312,
-        "lvl3": 5289,
+        "lvl3": 5287,
         "lvl4": 5328,
         "lvl5": 5325,
         "lvl6": 5330,
@@ -41,7 +41,133 @@
     }
   },
   "data": [
-    
+     {
+      "image": "0000",
+      "id": 8546,
+      "name": "Mechanic",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "1",
+      "cost": "No Cost",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Any time an ability consumes Kunnin' or Blastin', it will deal 25% additional damage or healing and have 25% faster build up time.",
+      "category": "Ability"
+    },
+	  
+    {
+      "image": "05004",
+      "id": 5055,
+      "name": "Rush",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "2",
+      "cost": "No AP Cost",
+      "range": "No range",
+      "incant": "Instant Cast",
+      "cooldown": "45s cooldown",
+      "note": "",
+      "description": "Gain 25% increased movement speed for 5 seconds. The duration is increased by 1 second for every 50 action points you had. You become exerted losing all of your action points, career mechanic points, and morale. Your AP recovery and morale per second are set to 0 for the next 5 seconds.",
+      "category": "Ability"
+    },
+	  
+    {
+      "image": "23150",
+      "id": 3450,
+      "name": "Alter Fate",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "16",
+      "cost": "Rank 4 morale",
+      "range": "No range",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
+      "note": "",
+      "description": "Remove up to 10 ailments, curses, or hexes from your groupmates within 100 feet. Restore 300 health for each health removed from the target.",
+      "category": "Morale"
+    },
+	  
+    {
+      "image": "23151",
+      "id": 3445,
+      "name": "Divine Favor",
+      "type": "Healing",
+      "spec": "Core Ability",
+      "minrank": "7",
+      "cost": "Rank 1 morale",
+      "range": "150ft range",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
+      "note": "",
+      "description": "A strong heal that will heal your target for 1200 + (0.8 WIL). This ability is not effected by healing debuffs.",
+      "category": "Morale"
+    },
+	  
+    {
+      "image": "23152",
+      "id": 3449,
+      "name": "Divine Protection",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "13",
+      "cost": "Rank 3 morale",
+      "range": "No range",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
+      "note": "",
+      "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage.",
+      "category": "Morale"
+    },
+	  
+    {
+      "image": "23153",
+      "id": 3448,
+      "name": "Focused Mind",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "9",
+      "cost": "Rank 2 morale",
+      "range": "No range",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
+      "note": "",
+      "description": "For the next 10 seconds, you will remove and ignore any rooting, snaring, disarming, silencing or disabling effects. Your cast times are reduced by 50% and you cannot be set back.",
+      "category": "Morale"
+    },
+	  
+    {
+      "image": "23170",
+      "id": 5097,
+      "name": "Siphon Power",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "12",
+      "cost": "Rank 2 morale",
+      "range": "100ft range",
+      "incant": "Instant Cast",
+      "cooldown": "1m cooldown",
+      "note": "",
+      "description": "Siphon the winds of magic into your body gaining 15 stacks that last for 30 seconds. You gain a 40 morale bonus to intelligence for each stack. Everytime you use an ability, a stack is consumed and you gain 10 action points.",
+      "category": "Morale"
+    },
+	  
+    {
+      "image": "23155",
+      "id": 3447,
+      "name": "Return Life",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "17",
+      "cost": "Rank 1 morale",
+      "range": "100ft range",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
+      "note": "",
+      "description": "Resurrect your target to 1% health. Does not apply Resurrection Illness.",
+      "category": "Morale"
+    },
   
     {
       "image": "22707",
@@ -55,7 +181,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your healing abilities become 25% more effective when the target is below 40% hit points.",
+      "description": "Your outgoing healing is 25% more effective when the target is below 40% hit points.",
       "category": "CareerTactic"
     },
     
@@ -70,14 +196,14 @@
       "range": "100ft range",
       "incant": "2s cast",
       "cooldown": "45s cooldown",
-      "note": "Mork's Waaagh! reduces cast time.",
+      "note": "Blastin' increases effectiveness<BR>Builds Kunnin'",
       "description": "Applies 'Ey Quit Bleedin', Gork'll Fix It, and Gather Round to all groupmates within 100 feet.",
       "category": "Ability"
     },
   
     {
       "image": "23150",
-      "id": 5307,
+      "id": 3450,
       "name": "Alter Fate",
       "type": "Buff",
       "spec": "Core Ability",
@@ -87,7 +213,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Resurrects all groupmates within 30 feet. Anyone who is brought back from the dead will also be healed for 824 over 9 seconds, and they will deal 20% more damage for 10 seconds.",
+      "description": "Remove up to 10 ailments, curses, or hexes from your groupmates within 100 feet. Restore 300 health for each health removed from the target.",
       "category": "Morale"
     },
               
@@ -102,8 +228,8 @@
       "range": "80ft range",
       "incant": "1s cast",
       "cooldown": "5s cooldown",
-      "note": "Gork's Waaagh! reduces cast time. ",
-      "description": "Deals x elemental damage.",
+      "note": "Kunnin' increases effectiveness",
+      "description": "Deals X elemental damage.",
       "category": "Ability"
     },
   
@@ -118,7 +244,7 @@
       "range": "150ft range",
       "incant": "2s cast",
       "cooldown": "No cooldown",
-      "note": "Mork's Waaagh! reduces cast time. ",
+      "note": "Blastin' increases effectiveness<BR>Builds Kunnin'",
       "description": "Heals your target for X. For each 'Ey Quit Bleedin', Gork'll Fix It, or Gather Round you have on the target, it will be healed for an additional Y.",
       "category": "Ability"
     },
@@ -130,12 +256,12 @@
       "type": "Hex",
       "spec": "Path of Da Green",
       "minrank": "3",
-      "cost": "Costs 35 AP",
+      "cost": "Costs 40 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
-      "note": "Gork's Waaagh! increases effectiveness.",
-      "description": "You deal X elemental damage to your target over 24 seconds and your groupmates are healed for 50% of the damage done.",
+      "note": "Kunnin' increases effectiveness<BR>Builds Blastin'",
+      "description": "You deal X elemental damage to your target over 24 seconds and heals your groupmates for 50% of the damage done on each tick.",
       "category": "Ability"
     },
         
@@ -150,7 +276,7 @@
       "range": "100ft range",
       "incant": "2s cast",
       "cooldown": "No cooldown",
-      "note": "Gork's Waaagh! reduces cast time. ",
+      "note": "Kunnin' increases effectiveness<BR>Builds Blastin'",
       "description": "Deals X elemental damage to your target.",
       "category": "Ability"
     },
@@ -167,7 +293,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Heals your target for 501 health every 3 seconds over 9 seconds. Each pulse also heals those around the target within 30 feet.",
+      "description": "For the next 15s, if target dies they will be resurrected with 100% health (with no penalties) and gain 50% movement speed for 10s.",
       "category": "Morale"
     },
   
@@ -178,11 +304,11 @@
       "type": "Damaging",
       "spec": "Path of Gork",
       "minrank": "37",
-      "cost": "Costs 13 AP/sec",
+      "cost": "Costs 17 AP/sec",
       "range": "80ft range",
       "incant": "6s channel",
       "cooldown": "11s cooldown",
-      "note": "Gork's Waaagh! increases effectiveness. ",
+      "note": "Kunnin' increases effectiveness<BR>Builds Blastin'",
       "description": "You concentrate on your target for up to 6 seconds, dealing X elemental damage to them as long as you maintain your concentration.",
       "category": "Ability"
     },
@@ -192,14 +318,14 @@
       "id": 5287,
       "name": "Burst O' Waaagh!",
       "type": "Damaging",
-      "spec": "Core Ability",
+      "spec": "Path of Da Green",
       "minrank": "23",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time you critically hit with a spell that grants Waaagh!, an additional Waaagh! will be granted as well. Tactic can not trigger more than once every 3 seconds.",
+      "description": "Whenever an ability consumes Kunnin' or Blastin', its action point cost will be reduced by 60% and can be cast while moving.",
       "category": "CareerTactic"
     },
         
@@ -215,7 +341,7 @@
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
       "note": "",
-      "description": "Increases all resistances of your group mates within 100 feet by X for one hour.<br><br>You may only give this or Mork's Buffer. But players can have both if provided from different shamans.",
+      "description": "Groupmates within 100 feet gain a (7.5 * rank) ability bonus to all resistances for one hour.<br><br>You may only give this or Mork's Buffer. But players can have both if provided from different shamans.",
       "category": "Ability"
     },
 
@@ -226,12 +352,12 @@
       "type": "Damaging",
       "spec": "Path of Gork",
       "minrank": "1",
-      "cost": "Costs 55 AP",
-      "range": "80ft range",
+      "cost": "Costs 35 AP",
+      "range": "100ft range",
       "incant": "2s cast",
       "cooldown": "5s cooldown",
-      "note": "Gork's Waaagh! reduces cast time.",
-      "description": "Deals X elemental damage to your target, and will then damage another target within 20 feet of the last, damaging up to 9 different targets total. Targets can not be hit more than once by the ability.",
+      "note": "Blastin' increases effectiveness<BR>Builds Kunnin'",
+      "description": "Deals X elemental damage to your target, and will then damage another target within 20 feet of them. Jumps 8 times.",
       "category": "Ability"
     },
   
@@ -268,38 +394,6 @@
     },
   
     {
-      "image": "23151",
-      "id": 3445,
-      "name": "Divine Favor",
-      "type": "Healing",
-      "spec": "Core Ability",
-      "minrank": "7",
-      "cost": "Rank 1 morale",
-      "range": "150ft range",
-      "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
-      "note": "",
-      "description": "A strong heal that will restore 1800 health to your target.",
-      "category": "Morale"
-	},
-  
-    {
-      "image": "23152",
-      "id": 5306,
-      "name": "Divine Protection",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "13",
-      "cost": "Rank 3 morale",
-      "range": "No range",
-      "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
-      "note": "",
-      "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage from melee abilities.",
-      "category": "Morale"
-    },
-  
-    {
       "image": "02501",
       "id": 5316,
       "name": "Do Sumfin Useful",
@@ -309,9 +403,9 @@
       "cost": "Costs 40 AP",
       "range": "150ft range",
       "incant": "Instant Cast",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Your target gains a X ability bonus to toughness and they regain X health over 10 seconds.",
+      "cooldown": "10s cooldown",
+      "note": "Blastin' increases effectiveness<BR>Builds Kunnin'",
+      "description": "Your target gains a (5 * rank) ability bonus to toughness and they regain X health over 10 seconds.",
       "category": "Ability"
     },
   
@@ -326,8 +420,8 @@
       "range": "150ft range",
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
-      "note": "Mork's Waaagh! increases effectiveness.",
-      "description": "Surrounds an ally with a magical barrier that absorbs up to X damage for up to 9 seconds.",
+      "note": "Kunnin' increases effectiveness<BR>Builds Blastin'",
+      "description": "Surrounds an ally with a magical barrier that absorbs up to X damage for up to 10 seconds.",
       "category": "Ability"
     },
   
@@ -343,7 +437,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "You blast back all enemies within 30 feet of you, knocking them back a medium distance and snaring them by 20% for 10 seconds. Monsters will be knocked down by the blast.",
+      "description": "You blast back up to 9 enemies within 30 feet of you, knocking them back a medium distance and snaring them by 20% for 10 seconds. Monsters will be knocked down by the blast.",
       "category": "Ability"
     },
   
@@ -351,12 +445,12 @@
       "image": "02425",
       "id": 5278,
       "name": "'Ere We Go!",
-      "type": "Buff",
+      "type": "Enchantment",
       "spec": "Path of Da Green",
       "minrank": "25",
       "cost": "Costs 25 AP",
       "range": "No range",
-      "incant": "InstantCast",
+      "incant": "Instant Cast",
       "cooldown": "10s cooldown",
       "note": "",
       "description": "Everyone in your group within 100 feet will do an additional X elemental damage on their next attack within 10 seconds.",
@@ -367,7 +461,7 @@
       "image": "22703",
       "id": 5318,
       "name": "Ere We Goes Again",
-      "type": "Damaging",
+      "type": "Buff",
       "spec": "Path of Da Green",
       "minrank": "1",
       "cost": "Tactic",
@@ -384,14 +478,14 @@
       "id": 5289,
       "name": "Extra Special Mushrooms",
       "type": "Healing",
-      "spec": "Path of Da Green",
+      "spec": "Core Ability",
       "minrank": "1",
       "cost": "Tactic",
       "range": "No range",
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Increases your chance to critically hit with all abilities by 10%.",
+      "description": "Gain 10% magic critical chance and 10% healing critical chance.",
       "category": "CareerTactic"
     },
   
@@ -399,15 +493,15 @@
       "image": "02576",
       "id": 5269,
       "name": "'Ey, Quit Bleedin'",
-      "type": "Enchantment",
+      "type": "Blessing",
       "spec": "Path of Mork",
       "minrank": "2",
       "cost": "Costs 30 AP",
       "range": "150ft range",
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
-      "note": "Mork's Waaagh! increases effectiveness. ",
-      "description": "Heals your target for X health over 15 seconds.",
+      "note": "Blastin' increases effectiveness<BR>Builds Kunnin'",
+      "description": "Heals your target for X health over 24 seconds.",
       "category": "Ability"
     },
         
@@ -423,7 +517,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Heals all of your group mates within 100 feet for 2030 health over 10 seconds and decreases damage against them to 75% for 10 seconds",
+      "description": "All groupmates within 100 feet will have their incoming damage reduced by 50% for 10 seconds.",
       "category": "Morale"
     },
   
@@ -439,24 +533,8 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "Deals 1200 damage and knocks back all enemy targets within 20 feet of your target.",
+      "description": "For the next 10 seconds, your target will take (225 + 0.2 INT) elemental damage each time an enemy tries to dispel them or whenever they take damage from Life Leaka or Get'n Smarter. In addition, dispels will not function against the target, this does not affect morales.",
       "category": "Morale"
-    },
-  
-    {
-      "image": "05004",
-      "id": 5055,
-      "name": "Rush",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "2",
-      "cost": "No AP Cost",
-      "range": "No range",
-      "incant": "Instant Cast",
-      "cooldown": "45s cooldown",
-      "note": "",
-      "description": "Gain 25% increased movement speed for 5 seconds. The duration is increased by 1 second for every 50 action points you had. You become exerted losing all of your action points, career mechanic points, and morale. Your AP recovery and morale per second are set to 0 for the next 5 seconds.",
-      "category": "Ability"
     },
   
     {
@@ -485,9 +563,9 @@
       "cost": "Costs 35 AP",
       "range": "80ft range",
       "incant": "2s cast",
-      "cooldown": "5s cooldown",
-      "note": "Gork's Waaagh! reduces cast time.<br>Gorks' Waaagh! allows move-casting.",
-      "description": "A surge of Waaaagh explodes from your target, inflicting  X (int mod) elemental damage upon them and up to 4 other enemies within 25 feet of them, and healing your defensive target and allies within 20 feet of them for Y (wil mod) health, plus 50% of the total inflicted damage.",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "This ability will always consume Kunnin' or Blastin'. If cast with Blastin', deal X elemental damage to up to 9 enemies within 30 feet of the target. You will heal each groupmate within 100 feet for Y + 50% of the damage dealt.<BR><BR>If cast with Kunnin', deal X elemental damage to up to 4 enemies within 30 feet of target. Heal up to 6 allies within 30 feet of the target and each groupmate within 100 feet of the target for Y + 50% of the damage dealt.",
       "category": "Ability"
     },
   
@@ -502,8 +580,8 @@
       "range": "No range",
       "incant": "2s cast",
       "cooldown": "No cooldown",
-      "note": "Mork's Waaagh! reduces cast time. ",
-      "description": "Heals group members within 100 feet for X health over 6 seconds..",
+      "note": "Blastin' increases effectiveness<BR>Builds Kunnin'",
+      "description": "Heals all groupmates within 100 feet for X and another Y over 6 seconds.",
       "category": "Ability"
     },
 
@@ -514,12 +592,12 @@
       "type": "Healing",
       "spec": "Core Ability",
       "minrank": "5",
-      "cost": "Costs 20 AP",
+      "cost": "Costs 50 AP",
       "range": "100ft range",
       "incant": "3s cast",
       "cooldown": "6s cooldown",
       "note": "Only usable on Dead Players",
-      "description": "Resurrects your target with 20% health.",
+      "description": "Resurrects your target with 20% health. For the next 45 seconds, the target will be afflicted with Resurrection Illness.",
       "category": "Ability"
     },
   
@@ -527,7 +605,7 @@
       "image": "22704",
       "id": 5293,
       "name": "Get Movin'!",
-      "type": "Healing",
+      "type": "Buff",
       "spec": "Core Ability",
       "minrank": "28",
       "cost": "Tactic",
@@ -535,7 +613,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Any time one of your groupmates damages an enemy with 'Ere We Go, they will gain 150 points of morale.",
+      "description": "Any time one of your groupmates damages an enemy with 'Ere We Go, they will gain 15 morale per second for 8 seconds.",
       "category": "CareerTactic"
     },
     
@@ -543,15 +621,15 @@
       "image": "abi_gs_getsmarter",
       "id": 5284,
       "name": "Get'n Smarter",
-      "type": "Hex",
+      "type": "Ailment",
       "spec": "Path of Gork",
       "minrank": "34",
-      "cost": "Costs 30 AP",
+      "cost": "Costs 35 AP",
       "range": "100ft range",
       "incant": "Instant Cast",
       "cooldown": "10s cooldown",
-      "note": "",
-      "description": "Steals X ability bonus to intelligence from your target while dealing Y elemental damage over 15 seconds.",
+      "note": "Kunnin' increases effectiveness<BR>Builds Blastin'",
+      "description": "Steals (3 * rank) ability bonus to intelligence from your target while dealing Y elemental damage over 15 seconds.",
       "category": "Ability"
     },
   

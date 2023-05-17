@@ -18,7 +18,7 @@
       "optionalAbilities": {
         "lvl1": 7509,
         "lvl2": 4183,
-        "lvl3": 4151,
+        "lvl3": 4150,
         "lvl4": 7507,
         "lvl5": 4177,
         "lvl6": 4178,
@@ -142,7 +142,7 @@
       "id": 4150,
       "name": "Charged Fury",
       "type": "Buff",
-      "spec": "Core Ability",
+      "spec": "Path of Grace",
       "minrank": "40",
       "cost": "Tactic",
       "range": "No range",
@@ -213,7 +213,7 @@
       "incant": "0.5s cast",
       "cooldown": "No cooldown",
       "note": "Requires 60 Righteous Fury",
-      "description": "Heals an ally for X points, and an additional Y (high) over 5 seconds.",
+      "description": "Heals an ally for X points. For the next 5 seconds, Divine Aid will heal the target for an additional 25% if cast again.",
       "category": "Ability"
     },
   
@@ -869,7 +869,7 @@
       "incant": "Instant Cast",
       "cooldown": "15.0s cooldown",
       "note": "Requires 60 Righteous Fury",
-      "description": "You smash your weapon into your enemy, dealing X physical damage to them. Your defensive target becomes safeguarded by Sigmar for up to 10 seconds, who heals them for Y health each time they're attacked. This effect can happen up to 10 times<BR><BR>If you have a shield equipped, the effect can happen up to 20 times.",
+      "description": "You smash your weapon into your enemy, dealing X physical damage to them. Your defensive target becomes safeguarded by Sigmar for up to 8 seconds, who heals them for Y health each time they're attacked. This effect can happen up to 5 times<BR><BR>If you have a shield equipped, the effect can happen up to 20 times and the ability will cost 60 Righteous Fury rather than action points.",
       "category": "Ability"
     },
   
@@ -1011,9 +1011,9 @@
       "cost": "Costs 40 AP",
       "range": "5ft range",
       "incant": "Instant Cast",
-      "cooldown": "10.0s cooldown",
-      "note": "Builds 15 Righteous Fury",
-      "description": "Deals X physical damage to your target reducing their run speed by 30% for 5 seconds.",
+      "cooldown": "8.0s cooldown",
+      "note": "Builds 30 Righteous Fury",
+      "description": "Deals X physical damage to your target reducing their run speed by 30% for 4 seconds.",
       "category": "Ability"
     },
 
@@ -1028,8 +1028,8 @@
       "range": "150ft range",
       "incant": "Instant Cast",
       "cooldown": "30s cooldown",
-      "note": "Requires 60 Righteous Fury",
-      "description": "You channel Sigmar's spirit through your body in order to heal your target for X every second for 5s. You take X damage every second, and you cannot be healed for the duration.<br><br>You will also gain 30% movement speed for the duration if you have a shield equipped.",
+      "note": "",
+      "description": "You channel Sigmar's spirit through your body in order to heal your target for 9% of your health every second for 5s. You take damage equal to 9% of your health every second, and you cannot be healed for the duration.<br><br>You will also gain 30% movement speed for the duration if you have a shield equipped.<BR>The negative effect will have a 2s increased duration if you have a charm equipped.",
       "category": "Ability"
     },
 

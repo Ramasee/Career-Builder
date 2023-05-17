@@ -5,9 +5,9 @@
       "optionalAbilities": {
         "lvl1": 3435,
         "lvl2": 3457,
-        "lvl3": 6103,
+        "lvl3": 3458,
         "lvl4": 3459,
-        "lvl5": 3458,
+        "lvl5": 6103,
         "lvl6": 3462,
         "lvl7": 3460
       },
@@ -37,10 +37,26 @@
         "lvl6": 3473,
         "lvl7": 3474
       },
-      "coreAbilities": [3419,3414,3427,3429,3413,3416]
+      "coreAbilities": [3419,3414,3427,3413,3416]
     }
   },
   "data": [
+     {
+      "image": "0000",
+      "id": 4578,
+      "name": "Mechanic",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "1",
+      "cost": "No AP Cost",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Any time an ability consumes Force or Tranquility, that ability will deal an additional 25% damage or healing and have 25% faster build up times.",
+      "category": "Ability"
+    },
+	  
      {
       "image": "05004",
       "id": 5055,
@@ -136,7 +152,7 @@
       "description": "A strong heal that will heal your target for 1200 + (0.8 WIL). This ability is not effected by healing debuffs.",
       "category": "Morale"
     },
-  
+	  
     {
       "image": "23152",
       "id": 3449,
@@ -151,22 +167,6 @@
       "note": "",
       "description": "Each group member within 100 feet is surrounded by a protective shield for the next 10 seconds that will absorb up to 4500 damage.",
       "category": "Morale"
-    },
-  
-	{
-      "image": "22706",
-      "id": 6103,
-      "name": "Apotheosis",
-      "type": "Buff",
-      "spec": "Path of Isha",
-      "minrank": "1",
-      "cost": "Tactic",
-      "range": "No range",
-      "incant": "Passive",
-      "cooldown": "No cooldown",
-      "note": "",
-      "description": "Each time Healing Energy ticks, there is a 33% chance to apply Blessing of Isha to the target.",
-      "category": "CareerTactic"
     },
 	  
     {
@@ -199,6 +199,38 @@
       "note": "",
       "description": "Siphon the winds of magic into your body gaining 15 stacks that last for 30 seconds. You gain a 40 morale bonus to intelligence for each stack. Everytime you use an ability, a stack is consumed and you gain 10 action points.",
       "category": "Morale"
+    },
+	  
+    {
+      "image": "23155",
+      "id": 3447,
+      "name": "Return Life",
+      "type": "Buff",
+      "spec": "Core Ability",
+      "minrank": "17",
+      "cost": "Rank 1 morale",
+      "range": "100ft range",
+      "incant": "Instant Cast",
+      "cooldown": "60s cooldown",
+      "note": "",
+      "description": "Resurrect your target to 1% health. Does not apply Resurrection Illness.",
+      "category": "Morale"
+    },
+  
+	{
+      "image": "22706",
+      "id": 6103,
+      "name": "Apotheosis",
+      "type": "Buff",
+      "spec": "Path of Isha",
+      "minrank": "1",
+      "cost": "Tactic",
+      "range": "No range",
+      "incant": "Passive",
+      "cooldown": "No cooldown",
+      "note": "",
+      "description": "Each time Lambent Aura ticks, there is a 33% chance to apply Blessing of Isha to the target.",
+      "category": "CareerTactic"
     },
 	
     {
@@ -293,7 +325,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Rain Lord will now also grant 10 morale per second for 10 seconds to all groupmates within 100 feet of the target.",
+      "description": "Rain Lord will now also grant 15 morale per second for 10 seconds to all groupmates within 100 feet of the target.",
       "category": "CareerTactic"
     },
   
@@ -325,7 +357,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Law of Age and Reclaim magic now have a 30 second cooldown.",
+      "description": "Law of Age and Reclaim Magic now have a 30 second cooldown.",
       "category": "CareerTactic"
     },
 	
@@ -590,7 +622,7 @@
       "id": 6106,
       "name": "Isha's Denial",
       "type": "Blessing",
-      "spec": "Core Ability",
+      "spec": "Path of Isha",
       "minrank": "18",
       "cost": "Costs 55 AP",
       "range": "No range",
@@ -645,7 +677,7 @@
       "incant": "Instant Cast",
       "cooldown": "No cooldown",
       "note": "Force increases effectiveness<br>Builds Tranquility",
-      "description": "Heals your target for X health over 20 seconds.",
+      "description": "Heals your target for X health over 24 seconds.",
       "category": "Ability"
     },
   
@@ -654,7 +686,7 @@
       "id": 3429,
       "name": "Law of Age",
       "type": "Buff",
-      "spec": "Path of Vaul",
+      "spec": "Core Ability",
       "minrank": "39",
       "cost": "Costs 20 AP",
       "range": "100ft range",
@@ -897,7 +929,7 @@
       "spec": "Path of Asuryan",
       "minrank": "37",
       "cost": "Costs 17 AP/sec",
-      "range": "100ft range",
+      "range": "80ft range",
       "incant": "6.0s channel",
       "cooldown": "11s cooldown",
       "note": "Tranquility increases effectiveness. <br>Builds Force",
@@ -915,26 +947,10 @@
       "cost": "Costs 35 AP",
       "range": "150ft range",
       "incant": "Instant Cast",
-      "cooldown": "20s cooldown",
+      "cooldown": "10s cooldown",
       "note": "Force increases effectiveness. <br>Builds Tranquility",
-      "description": "Surrounds an ally with a magical barrier for up to 9 seconds which will absorb up to X damage.",
+      "description": "Surrounds an ally with a magical barrier for up to 10 seconds which will absorb up to X damage.",
       "category": "Ability"
-    },
-  
-    {
-      "image": "23155",
-      "id": 3447,
-      "name": "Steal Life",
-      "type": "Buff",
-      "spec": "Core Ability",
-      "minrank": "17",
-      "cost": "Rank 1 morale",
-      "range": "100ft range",
-      "incant": "Instant Cast",
-      "cooldown": "60s cooldown",
-      "note": "",
-      "description": "Your target suffers 300 raw damage per tick for 3 ticks over 9 seconds, and you are healed for a half of the damage dealt.",
-      "category": "Morale"
     },
   
     {
@@ -964,7 +980,7 @@
       "range": "100ft range",
       "incant": "2s cast",
       "cooldown": "45s cooldown",
-      "note": "Tranquility reduces cast time. <br>Builds Force",
+      "note": "Tranquility increases effectiveness <br>Builds Force",
       "description": "Applies Healing Energy, Lambent Aura, and Blessing of Isha to all groupmates within 100 feet.",
       "category": "Ability"
     },
@@ -1029,7 +1045,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your Lambent Aura, Healing Energy, and Blessing of Isha now all gain 1 additional tick of healing.",
+      "description": "The duration of your Lambent Aura is now 30 seconds. The duration of your Healing Energy is now 12 seconds. The duration of your Blessing of Isha is now 8 seconds.",
       "category": "CareerTactic"
     },
   
@@ -1061,7 +1077,7 @@
       "incant": "Instant Cast",
       "cooldown": "60s cooldown",
       "note": "",
-      "description": "All group mates within 100 feet regain 800 health over 15 seconds, and become surrounded by a magical barrier which will absorb 2400 damage.",
+      "description": "For the next 30s, groupmates gain a 6000 absorption shield. While the shield lasts, each time they are hit you will apply a Healing Energy to any warband member within 100 feet.",
       "category": "Morale"
     }
 	
