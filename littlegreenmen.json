@@ -55,7 +55,7 @@
       "incant": "Passive",
       "cooldown": "No cooldown",
       "note": "",
-      "description": "Your healing abilities become 25% more effective when the target is below 40% hit points.",
+      "description": "Your healing abilities become 25% more effective when the target is below 40% hit points .",
       "category": "CareerTactic"
     },
   
